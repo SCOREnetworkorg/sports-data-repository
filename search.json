@@ -1,5 +1,40 @@
 [
   {
+    "objectID": "baseball/verlander-pitches.html",
+    "href": "baseball/verlander-pitches.html",
+    "title": "Justin Verlander Pitches",
+    "section": "",
+    "text": "After nearly two full seasons due to injury, at the age of 39 Justin Verlander returned for the 2022 season to win the American League Cy Young award and World Series with the Houston Astros. Leading the league in a variety of statistics, Verlander dominated in his starts throughout the season. Pitch selection has played a key role into Verlander’s recent success with the Astros. Verlander throws four types of pitches (using MLB’s abbreviation): fastball (FF), slider (SL), curveball (CB), and changeup (CH). However, pitches are thrown in the context of an at-bat where the ball-strike count starts 0-0, and progresses until either the batter strikes out (reaches three strikes), is walked (reaches four balls), or is either hit-by-pitch or hits the ball in-play. As the count varies, pitchers often decide to favor certain pitches over others, e.g, with three balls (i.e., 3-X counts) the pitcher may favor throwing more accurate fastballs relative to out-of-the-zone offspeed pitches that are favored with two strikes (i.e., X-2 counts)."
+  },
+  {
+    "objectID": "baseball/verlander-pitches.html#data",
+    "href": "baseball/verlander-pitches.html#data",
+    "title": "Justin Verlander Pitches",
+    "section": "Data",
+    "text": "Data\nThis dataset contains information about pitches thrown by Justin Verlander during the 2022 MLB season and playoffs. It includes the pitch type, ball-strike count, release speed, and a description of what happened on the pitch.\nData courtesy of baseballsavant.mlb.com and accessed using the baseballr package.\n\nverlander-pitches-2022.csv\n\n\nVariable\nDescription\n\n\n\n\npitch_type\nThe type of pitch Verlander threw, either: fastball (FF), slider (SL), curveball (CU), or changeup (CH).\n\n\ncount\nThe ball-strike count when Verlander threw the pitch.\n\n\nrelease_speed\nPitch speed (MPH) at the time of release.\n\n\ndescription\nA brief text description of the result of the pitch, such as a ball, foul, called_strike, swinging_strike, etc."
+  },
+  {
+    "objectID": "baseball/verlander-pitches.html#questions",
+    "href": "baseball/verlander-pitches.html#questions",
+    "title": "Justin Verlander Pitches",
+    "section": "Questions",
+    "text": "Questions"
+  },
+  {
+    "objectID": "baseball/verlander-pitches.html#references",
+    "href": "baseball/verlander-pitches.html#references",
+    "title": "Justin Verlander Pitches",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SCORE Sports Data Repository",
+    "section": "",
+    "text": "The Data Repository curates interesting datasets for use in statistics and data science education. Each dataset is supported by a story describing its origin and application, and a set of interesting questions that can be answered using the data. This means:\n\nEvery dataset has context in a scientific field, pop culture, or daily life.\nBeyond context, datasets are interesting. They feature more than just a dozen observations from an antiquated scientific study — many feature thousands of observations of dozens of variables, and answer questions interesting to a wide audience.\nJust like in science, some datasets give null results.\nInstructors can easily build lessons and assignments from the suggested questions.\n\nDatasets are organized by sport on the left, or you can browse a list by statistical methods used."
+  },
+  {
     "objectID": "by-method.html",
     "href": "by-method.html",
     "title": "Datasets by Methods",
@@ -35,45 +70,10 @@
     "text": "Submitting\nOnce you’ve filled in the template, you can email the template file, the data, and any cleaning scripts to the repository editor (currently Alex Reinhart).\nAlternately, submit a pull request to our repository on GitHub. Save the Qmd with a meaningful name and place it in one of the top-level category directories (like medicine/ or astronomy/). Place the data files in data/. Double-check that you’ve committed everything (and nothing extraneous) and open a pull request as usual."
   },
   {
-    "objectID": "baseball/verlander-pitches.html",
-    "href": "baseball/verlander-pitches.html",
-    "title": "Justin Verlander Pitches",
-    "section": "",
-    "text": "After nearly two full seasons due to injury, at the age of 39 Justin Verlander returned for the 2022 season to win the American League Cy Young award and World Series with the Houston Astros. Leading the league in a variety of statistics, Verlander dominated in his starts throughout the season. Pitch selection has played a key role into Verlander’s recent success with the Astros. Verlander throws four types of pitches (using MLB’s abbreviation): fastball (FF), slider (SL), curveball (CB), and changeup (CH). However, pitches are thrown in the context of an at-bat where the ball-strike count starts 0-0, and progresses until either the batter strikes out (reaches three strikes), is walked (reaches four balls), or is either hit-by-pitch or hits the ball in-play. As the count varies, pitchers often decide to favor certain pitches over others, e.g, with three balls (i.e., 3-X counts) the pitcher may favor throwing more accurate fastballs relative to out-of-the-zone offspeed pitches that are favored with two strikes (i.e., X-2 counts)."
-  },
-  {
-    "objectID": "baseball/verlander-pitches.html#data",
-    "href": "baseball/verlander-pitches.html#data",
-    "title": "Justin Verlander Pitches",
-    "section": "Data",
-    "text": "Data\nThis dataset contains information about pitches thrown by Justin Verlander during the 2022 MLB season and playoffs. It includes the pitch type, ball-strike count, release speed, and a description of what happened on the pitch.\nData courtesy of baseballsavant.mlb.com and accessed using the baseballr package.\n\nverlander-pitches-2022.csv\n\n\nVariable\nDescription\n\n\n\n\npitch_type\nThe type of pitch Verlander threw, either: fastball (FF), slider (SL), curveball (CU), or changeup (CH).\n\n\ncount\nThe ball-strike count when Verlander threw the pitch.\n\n\nrelease_speed\nPitch speed (MPH) at the time of release.\n\n\ndescription\nA brief text description of the result of the pitch, such as a ball, foul, called_strike, swinging_strike, etc."
-  },
-  {
-    "objectID": "baseball/verlander-pitches.html#questions",
-    "href": "baseball/verlander-pitches.html#questions",
-    "title": "Justin Verlander Pitches",
-    "section": "Questions",
-    "text": "Questions"
-  },
-  {
-    "objectID": "baseball/verlander-pitches.html#references",
-    "href": "baseball/verlander-pitches.html#references",
-    "title": "Justin Verlander Pitches",
-    "section": "References",
-    "text": "References"
-  },
-  {
     "objectID": "external-sources.html",
     "href": "external-sources.html",
     "title": "External Sources",
     "section": "",
     "text": "Here are some good outside sources for finding datasets suitable for classes:\n\nData is Plural, a weekly newsletter of interesting public datasets.\nStanford Large Network Dataset Collection\nRoyal Society Open Science, an open-access general science journal whose papers have Data Availability statements and often have public data\nScientific Data, a journal publishing descriptions of open datasets (often large and with unusual structure)\nOpen Case Studies, a collection of data analysis case studies showing analyses from conception to conclusion\nTODO"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "SCORE Sports Data Repository",
-    "section": "",
-    "text": "The Data Repository curates interesting datasets for use in statistics and data science education. Each dataset is supported by a story describing its origin and application, and a set of interesting questions that can be answered using the data. This means:\n\nEvery dataset has context in a scientific field, pop culture, or daily life.\nBeyond context, datasets are interesting. They feature more than just a dozen observations from an antiquated scientific study — many feature thousands of observations of dozens of variables, and answer questions interesting to a wide audience.\nJust like in science, some datasets give null results.\nInstructors can easily build lessons and assignments from the suggested questions.\n\nDatasets are organized by sport on the left, or you can browse a list by statistical methods used."
   }
 ]
