@@ -16,7 +16,7 @@ After nearly two full seasons due to injury, at the age of 39 [Justin Verlander]
 
 This dataset contains information about pitches thrown by Justin Verlander during the 2022 MLB season and playoffs. It includes the pitch type, ball-strike count, release speed, and a description of what happened on the pitch.
 
-Data courtesy of baseballsavant.mlb.com and accessed using the baseballr package.
+Data courtesy of [baseballsavant.mlb.com](https://baseballsavant.mlb.com/) and accessed using the [baseballr](https://billpetti.github.io/baseballr/) package.
 
 | Variable | Description |
 |----|-------------|
