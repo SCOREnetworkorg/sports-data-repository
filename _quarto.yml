@@ -1,0 +1,31 @@
+project:
+  type: website
+  resources:
+    - "data/*.csv"
+    - "data/*.txt"
+
+website:
+  title: "SCORE Sports Data Repository"
+  page-footer: "Maintained by [Ron Yurko](https://www.stat.cmu.edu/~ryurko/)"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - by-method.qmd
+      - submit-data.qmd
+      - external-sources.qmd
+  sidebar:
+    contents: auto
+    collapse-level: 1
+  repo-url: https://github.com/SCOREnetworkorg/sports-data-repository
+  repo-actions: [edit, issue]
+
+format:
+  html:
+    theme:
+      - cosmo
+      - cmu.scss
+    toc: true
+
+execute:
+  freeze: auto

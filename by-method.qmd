@@ -1,0 +1,7 @@
+---
+title: Datasets by Methods
+listing:
+  categories: true
+  contents:
+    - "*/*.qmd"
+---

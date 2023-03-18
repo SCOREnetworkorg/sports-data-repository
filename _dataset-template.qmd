@@ -1,0 +1,64 @@
+---
+title: A descriptive dataset title
+author: Your Name
+date: Today's Date (e.g. February 29, 2023)
+description: A one- or two-sentence description of the data and the question to be answered using it. If possible, give a brief summary of the statistical situation, such as indicating if this is a randomized experiment, observational study, large classification task, etc.
+categories:
+  - list the relevant
+  - statistical methods
+  - that can be used
+  - with this dataset
+  - one per line
+  - with two spaces and a hyphen in front
+---
+
+## Motivation
+
+The categories above determine how this dataset is listed on the [datasets by
+methods](http://rosmarus.refsmmat.com/data-repository/by-method.html) page.
+Consult that page for a list of statistical categories already used by other
+datasets.
+
+In this first section, describe the source of the dataset and what it's about.
+Give any necessary background about it and the research question. See other
+datasets on the website for examples.
+
+This file is Markdown, so you *can* use formatting; [here is a guide to the
+basics](https://quarto.org/docs/authoring/markdown-basics.html).
+
+## Data
+
+Describe the data. What does each row represent? How many rows are there? If
+there is missingness, say how it is coded and why it is present.
+
+| Variable | Description |
+|----|-------------|
+| Column name | A description of this variable, including units when possible |
+| Column name 2 | A description of this variable, including units when possible |
+
+: [filename.csv](../data/filename.csv)
+
+For the link above, change filename.csv to the name of the data file. Leave the
+`../data/` part in the link; this is where the data will live in the system.
+
+If there are multiple data files, repeat the table, including the line starting
+with `:`, for each data file.
+
+## Questions
+
+If possible, list some analyses or research questions that could be answered
+with this dataset, or the types of questions you'd ask students. This is mainly
+meant to give other instructors ideas for how they could use the data.
+
+## References
+
+Give references to the original source here, such as by pasting the journal
+citation:
+
+Longcore, Aldern, Eggers, Flores, Franco, Hirshfield-Yamanishi, Petrinec, Yan,
+and Barroso. “Tuning the white light spectrum of light emitting diode lamps to
+reduce attraction of nocturnal arthropods”. *Philosophical Transactions of the
+Royal Society B* 370: 20140125. <https://doi.org/10.1098/rstb.2014.0125>
+
+If the dataset has a particular license, mention the license here. For example,
+"Data available under the Creative Commons Attribution license."

@@ -1,0 +1,17 @@
+---
+title: External Sources
+---
+
+Here are some good outside sources for finding datasets suitable for classes:
+
+- [Data is Plural](https://www.data-is-plural.com/), a weekly newsletter of
+  interesting public datasets.
+- [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/)
+- [Royal Society Open Science](https://royalsocietypublishing.org/journal/rsos),
+  an open-access general science journal whose papers have Data Availability
+  statements and often have public data
+- [Scientific Data](https://www.nature.com/sdata/), a journal publishing
+  descriptions of open datasets (often large and with unusual structure)
+- [Open Case Studies](https://www.opencasestudies.org/), a collection of data
+  analysis case studies showing analyses from conception to conclusion
+- TODO
