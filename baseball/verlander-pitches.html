@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Alex Reinhart">
-<meta name="dcterms.date" content="2019-07-10">
-<meta name="description" content="Evolutionary theory suggests that species spread over a wider geographic range should have greater genetic diversity. Does this hold true in birds? An observational study of 387 bird species.">
+<meta name="author" content="Ron Yurko">
+<meta name="dcterms.date" content="2023-03-18">
+<meta name="description" content="Pitches thrown by Justin Verlander in the 2022 MLB season.">
 
-<title>SCORE Sports Data Repository - Bird genetic diversity</title>
+<title>SCORE Sports Data Repository - Justin Verlander Pitches</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Bird genetic diversity</h1>
+      <h1 class="quarto-secondary-nav-title">Justin Verlander Pitches</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -142,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../baseball/verlander-pitches.html" class="sidebar-item-text sidebar-link active">Bird genetic diversity</a>
+  <a href="../baseball/verlander-pitches.html" class="sidebar-item-text sidebar-link active">Justin Verlander Pitches</a>
   </div>
 </li>
       </ul>
@@ -168,16 +168,16 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Bird genetic diversity</h1>
+<h1 class="title d-none d-lg-block">Justin Verlander Pitches</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">linear regression</div>
-    <div class="quarto-category">hierarchical model</div>
+    <div class="quarto-category">categorical data</div>
+    <div class="quarto-category">chi-squared test</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Evolutionary theory suggests that species spread over a wider geographic range should have greater genetic diversity. Does this hold true in birds? An observational study of 387 bird species.
+    Pitches thrown by Justin Verlander in the 2022 MLB season.
   </div>
 </div>
 
@@ -187,14 +187,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Alex Reinhart </p>
+             <p>Ron Yurko </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">July 10, 2019</p>
+      <p class="date">March 18, 2023</p>
     </div>
   </div>
   
@@ -206,13 +206,12 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="motivation" class="level2">
 <h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
-<p>Ecologists and evolutionary biologists have long investigated links between diversity and geography. For example, as the area of a habitat increases, the <a href="https://en.wikipedia.org/wiki/Species%E2%80%93area_relationship">number of different species found within it increases</a>—a seemingly obvious finding, but the exact shape of the relationship has been found to relate to the rates of immigration and extinction in the habitat, predator-prey behaviors, and so on.</p>
-<p>A similar relationship would seem likely to exist within a species. A species that lives over a small area might have low genetic diversity, because individuals frequently interbreed and there is little opportunity for some individuals to evolve separately from others. A species that lives over a wide area might have high genetic diversity, both because the varied habitat in which it lives means different individuals experience different natural selection pressures, and because individuals far apart may never be able to interbreed.</p>
-<p>The exact nature of this relationship could be used to test hypotheses about evolution and natural selection. This dataset comes from a paper that explored the relationship in birds, which have widely varying geographic ranges and hence could be a good group to work with.</p>
+<p>After nearly two full seasons due to injury, at the age of 39 <a href="https://www.baseball-reference.com/players/v/verlaju01.shtml">Justin Verlander</a> returned for the 2022 season to win the American League Cy Young award and World Series with the Houston Astros. Leading the league in a variety of statistics, Verlander dominated in his starts throughout the season. Pitch selection has played a key role into <a href="https://www.usatoday.com/story/sports/mlb/2018/10/13/how-justin-verlander-became-better-pitcher-astros/1628624002/">Verlander’s recent success with the Astros</a>. Verlander throws four types of pitches (using MLB’s abbreviation): fastball (FF), slider (SL), curveball (CB), and changeup (CH). However, pitches are thrown in the context of an at-bat where the ball-strike count starts 0-0, and progresses until either the batter strikes out (reaches three strikes), is walked (reaches four balls), or is either hit-by-pitch or hits the ball in-play. As the count varies, pitchers often decide to favor certain pitches over others, e.g, with three balls (i.e., 3-X counts) the pitcher may favor throwing more accurate fastballs relative to out-of-the-zone offspeed pitches that are favored with two strikes (i.e., X-2 counts).</p>
 </section>
 <section id="data" class="level2">
 <h2 class="anchored" data-anchor-id="data">Data</h2>
-<p>This data includes 387 bird species, along with two measures of their genetic diversity, a measure of the size of their breeding range, their body mass, and whether they are migratory or resident birds. The breeding ranges vary in size from a just few islands in the Seychelles, for the Seychelles warbler (<em>Acrocephalus sechellensis</em>), to enormous ranges of the Southern Ocean for the grey-headed albatross (<em>Thalassarche chrysostoma</em>).</p>
+<p>This dataset contains information about pitches thrown by Justin Verlander during the 2022 MLB season and playoffs. It includes the pitch type, ball-strike count, release speed, and a description of what happened on the pitch.</p>
+<p>Data courtesy of baseballsavant.mlb.com and accessed using the baseballr package.</p>
 <table class="table">
 <caption><a href="../data/verlander-pitches-2022.csv">verlander-pitches-2022.csv</a></caption>
 <thead>
@@ -223,56 +222,29 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Species</td>
-<td>Bird species name</td>
+<td>pitch_type</td>
+<td>The type of pitch Verlander threw, either: fastball (FF), slider (SL), curveball (CU), or changeup (CH).</td>
 </tr>
 <tr class="even">
-<td>Family</td>
-<td>Family of birds to which this species belongs</td>
+<td>count</td>
+<td>The ball-strike count when Verlander threw the pitch.</td>
 </tr>
 <tr class="odd">
-<td>Heterozygosity</td>
-<td>A measure of genetic richness. Birds (and most animals) have two copies of each chromosome; expected heterozygosity is the probability that for a randomly selected gene, these two copies will be different versions (alleles) of the gene.</td>
+<td>release_speed</td>
+<td>Pitch speed (MPH) at the time of release.</td>
 </tr>
 <tr class="even">
-<td>Allelic richness</td>
-<td>The average number of different alleles (versions of a gene) for each gene.</td>
-</tr>
-<tr class="odd">
-<td>Breeding range size</td>
-<td>Size of the spatial range over which this bird breeds, in units of 10,000 square km</td>
-</tr>
-<tr class="even">
-<td>Body mass</td>
-<td>Average body mass of the species (grams)</td>
-</tr>
-<tr class="odd">
-<td>Latitude</td>
-<td>Mid-point latitude of the species breeding range. (All latitudes are positive, even those in the southern hemisphere.)</td>
-</tr>
-<tr class="even">
-<td>Migratory status</td>
-<td>Is this species migratory or does it stay resident in one area?</td>
-</tr>
-<tr class="odd">
-<td>References</td>
-<td>References for the data for this species</td>
+<td>description</td>
+<td>A brief text description of the result of the pitch, such as a ball, foul, called_strike, swinging_strike, etc.</td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="questions" class="level2">
 <h2 class="anchored" data-anchor-id="questions">Questions</h2>
-<ol type="1">
-<li>Body size and latitude are thought to be related to genetic diversity for reasons unrelated to breeding range size. Regress heterozygosity against breeding range size, body mass, and latitude. Examine the shape of the relationship, which is thought not to be linear and suspected to have an asymptote. Does the relationship depend on whether the species are migratory? Compare this to the shape you find using allelic richness instead of heterozygosity as the outcome.</li>
-<li>Species in this dataset are grouped into families; by definitions, species within a family are more similar than species in two different families. This may have effects on the assumptions of the regression. What assumptions may be violated, and what effect would this have on your results? (Note that the original paper accounted for this effect by taking into account the species’ phylogenetic trees.)</li>
-<li>Fit a hierarchical model to account for this effect, using family to define the hierarchy. How do your results change?</li>
-</ol>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
-<p>Fan H, Zhang Q, Rao J, Cao J, Lu X (2019) Genetic diversity-area relationships across bird species. <em>The American Naturalist</em>, volume 194, number 5. <a href="https://doi.org/10.1086/705346" class="uri">https://doi.org/10.1086/705346</a></p>
-<p>Fan H, Zhang Q, Rao J, Cao J, Lu X (2019) Data from: Genetic diversity-area relationships across bird species. <em>Dryad Digital Repository</em>. <a href="https://doi.org/10.5061/dryad.9p380m9" class="uri">https://doi.org/10.5061/dryad.9p380m9</a></p>
 
 
 </section>

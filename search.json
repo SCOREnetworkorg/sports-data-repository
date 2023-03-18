@@ -1,45 +1,10 @@
 [
   {
-    "objectID": "baseball/verlander-pitches.html",
-    "href": "baseball/verlander-pitches.html",
-    "title": "Bird genetic diversity",
-    "section": "",
-    "text": "Ecologists and evolutionary biologists have long investigated links between diversity and geography. For example, as the area of a habitat increases, the number of different species found within it increases—a seemingly obvious finding, but the exact shape of the relationship has been found to relate to the rates of immigration and extinction in the habitat, predator-prey behaviors, and so on.\nA similar relationship would seem likely to exist within a species. A species that lives over a small area might have low genetic diversity, because individuals frequently interbreed and there is little opportunity for some individuals to evolve separately from others. A species that lives over a wide area might have high genetic diversity, both because the varied habitat in which it lives means different individuals experience different natural selection pressures, and because individuals far apart may never be able to interbreed.\nThe exact nature of this relationship could be used to test hypotheses about evolution and natural selection. This dataset comes from a paper that explored the relationship in birds, which have widely varying geographic ranges and hence could be a good group to work with."
-  },
-  {
-    "objectID": "baseball/verlander-pitches.html#data",
-    "href": "baseball/verlander-pitches.html#data",
-    "title": "Bird genetic diversity",
-    "section": "Data",
-    "text": "Data\nThis data includes 387 bird species, along with two measures of their genetic diversity, a measure of the size of their breeding range, their body mass, and whether they are migratory or resident birds. The breeding ranges vary in size from a just few islands in the Seychelles, for the Seychelles warbler (Acrocephalus sechellensis), to enormous ranges of the Southern Ocean for the grey-headed albatross (Thalassarche chrysostoma).\n\nverlander-pitches-2022.csv\n\n\nVariable\nDescription\n\n\n\n\nSpecies\nBird species name\n\n\nFamily\nFamily of birds to which this species belongs\n\n\nHeterozygosity\nA measure of genetic richness. Birds (and most animals) have two copies of each chromosome; expected heterozygosity is the probability that for a randomly selected gene, these two copies will be different versions (alleles) of the gene.\n\n\nAllelic richness\nThe average number of different alleles (versions of a gene) for each gene.\n\n\nBreeding range size\nSize of the spatial range over which this bird breeds, in units of 10,000 square km\n\n\nBody mass\nAverage body mass of the species (grams)\n\n\nLatitude\nMid-point latitude of the species breeding range. (All latitudes are positive, even those in the southern hemisphere.)\n\n\nMigratory status\nIs this species migratory or does it stay resident in one area?\n\n\nReferences\nReferences for the data for this species"
-  },
-  {
-    "objectID": "baseball/verlander-pitches.html#questions",
-    "href": "baseball/verlander-pitches.html#questions",
-    "title": "Bird genetic diversity",
-    "section": "Questions",
-    "text": "Questions\n\nBody size and latitude are thought to be related to genetic diversity for reasons unrelated to breeding range size. Regress heterozygosity against breeding range size, body mass, and latitude. Examine the shape of the relationship, which is thought not to be linear and suspected to have an asymptote. Does the relationship depend on whether the species are migratory? Compare this to the shape you find using allelic richness instead of heterozygosity as the outcome.\nSpecies in this dataset are grouped into families; by definitions, species within a family are more similar than species in two different families. This may have effects on the assumptions of the regression. What assumptions may be violated, and what effect would this have on your results? (Note that the original paper accounted for this effect by taking into account the species’ phylogenetic trees.)\nFit a hierarchical model to account for this effect, using family to define the hierarchy. How do your results change?"
-  },
-  {
-    "objectID": "baseball/verlander-pitches.html#references",
-    "href": "baseball/verlander-pitches.html#references",
-    "title": "Bird genetic diversity",
-    "section": "References",
-    "text": "References\nFan H, Zhang Q, Rao J, Cao J, Lu X (2019) Genetic diversity-area relationships across bird species. The American Naturalist, volume 194, number 5. https://doi.org/10.1086/705346\nFan H, Zhang Q, Rao J, Cao J, Lu X (2019) Data from: Genetic diversity-area relationships across bird species. Dryad Digital Repository. https://doi.org/10.5061/dryad.9p380m9"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "SCORE Sports Data Repository",
-    "section": "",
-    "text": "The Data Repository curates interesting datasets for use in statistics and data science education. Each dataset is supported by a story describing its origin and application, and a set of interesting questions that can be answered using the data. This means:\n\nEvery dataset has context in a scientific field, pop culture, or daily life.\nBeyond context, datasets are interesting. They feature more than just a dozen observations from an antiquated scientific study — many feature thousands of observations of dozens of variables, and answer questions interesting to a wide audience.\nJust like in science, some datasets give null results.\nInstructors can easily build lessons and assignments from the suggested questions.\n\nDatasets are organized by sport on the left, or you can browse a list by statistical methods used."
-  },
-  {
     "objectID": "by-method.html",
     "href": "by-method.html",
     "title": "Datasets by Methods",
     "section": "",
-    "text": "Bird genetic diversity\n\n\n\n\n\n\n\nlinear regression\n\n\nhierarchical model\n\n\n\n\nEvolutionary theory suggests that species spread over a wider geographic range should have greater genetic diversity. Does this hold true in birds? An observational study of 387 bird species.\n\n\n\n\n\n\nJul 10, 2019\n\n\nAlex Reinhart\n\n\n\n\n\n\nNo matching items"
+    "text": "Justin Verlander Pitches\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\n\n\nPitches thrown by Justin Verlander in the 2022 MLB season.\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "submit-data.html",
@@ -70,10 +35,45 @@
     "text": "Submitting\nOnce you’ve filled in the template, you can email the template file, the data, and any cleaning scripts to the repository editor (currently Alex Reinhart).\nAlternately, submit a pull request to our repository on GitHub. Save the Qmd with a meaningful name and place it in one of the top-level category directories (like medicine/ or astronomy/). Place the data files in data/. Double-check that you’ve committed everything (and nothing extraneous) and open a pull request as usual."
   },
   {
+    "objectID": "baseball/verlander-pitches.html",
+    "href": "baseball/verlander-pitches.html",
+    "title": "Justin Verlander Pitches",
+    "section": "",
+    "text": "After nearly two full seasons due to injury, at the age of 39 Justin Verlander returned for the 2022 season to win the American League Cy Young award and World Series with the Houston Astros. Leading the league in a variety of statistics, Verlander dominated in his starts throughout the season. Pitch selection has played a key role into Verlander’s recent success with the Astros. Verlander throws four types of pitches (using MLB’s abbreviation): fastball (FF), slider (SL), curveball (CB), and changeup (CH). However, pitches are thrown in the context of an at-bat where the ball-strike count starts 0-0, and progresses until either the batter strikes out (reaches three strikes), is walked (reaches four balls), or is either hit-by-pitch or hits the ball in-play. As the count varies, pitchers often decide to favor certain pitches over others, e.g, with three balls (i.e., 3-X counts) the pitcher may favor throwing more accurate fastballs relative to out-of-the-zone offspeed pitches that are favored with two strikes (i.e., X-2 counts)."
+  },
+  {
+    "objectID": "baseball/verlander-pitches.html#data",
+    "href": "baseball/verlander-pitches.html#data",
+    "title": "Justin Verlander Pitches",
+    "section": "Data",
+    "text": "Data\nThis dataset contains information about pitches thrown by Justin Verlander during the 2022 MLB season and playoffs. It includes the pitch type, ball-strike count, release speed, and a description of what happened on the pitch.\nData courtesy of baseballsavant.mlb.com and accessed using the baseballr package.\n\nverlander-pitches-2022.csv\n\n\nVariable\nDescription\n\n\n\n\npitch_type\nThe type of pitch Verlander threw, either: fastball (FF), slider (SL), curveball (CU), or changeup (CH).\n\n\ncount\nThe ball-strike count when Verlander threw the pitch.\n\n\nrelease_speed\nPitch speed (MPH) at the time of release.\n\n\ndescription\nA brief text description of the result of the pitch, such as a ball, foul, called_strike, swinging_strike, etc."
+  },
+  {
+    "objectID": "baseball/verlander-pitches.html#questions",
+    "href": "baseball/verlander-pitches.html#questions",
+    "title": "Justin Verlander Pitches",
+    "section": "Questions",
+    "text": "Questions"
+  },
+  {
+    "objectID": "baseball/verlander-pitches.html#references",
+    "href": "baseball/verlander-pitches.html#references",
+    "title": "Justin Verlander Pitches",
+    "section": "References",
+    "text": "References"
+  },
+  {
     "objectID": "external-sources.html",
     "href": "external-sources.html",
     "title": "External Sources",
     "section": "",
     "text": "Here are some good outside sources for finding datasets suitable for classes:\n\nData is Plural, a weekly newsletter of interesting public datasets.\nStanford Large Network Dataset Collection\nRoyal Society Open Science, an open-access general science journal whose papers have Data Availability statements and often have public data\nScientific Data, a journal publishing descriptions of open datasets (often large and with unusual structure)\nOpen Case Studies, a collection of data analysis case studies showing analyses from conception to conclusion\nTODO"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SCORE Sports Data Repository",
+    "section": "",
+    "text": "The Data Repository curates interesting datasets for use in statistics and data science education. Each dataset is supported by a story describing its origin and application, and a set of interesting questions that can be answered using the data. This means:\n\nEvery dataset has context in a scientific field, pop culture, or daily life.\nBeyond context, datasets are interesting. They feature more than just a dozen observations from an antiquated scientific study — many feature thousands of observations of dozens of variables, and answer questions interesting to a wide audience.\nJust like in science, some datasets give null results.\nInstructors can easily build lessons and assignments from the suggested questions.\n\nDatasets are organized by sport on the left, or you can browse a list by statistical methods used."
   }
 ]
