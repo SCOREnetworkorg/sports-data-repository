@@ -15,3 +15,4 @@ repository:
 quarto preview
 ```
 
+This repository is heavily inspired by the [CMU S&DS Data Repository](https://cmustatistics.github.io/data-repository/).
