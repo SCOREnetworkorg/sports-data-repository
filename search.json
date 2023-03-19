@@ -14,6 +14,34 @@
     "text": "Justin Verlander Pitches\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\n\n\nInformation about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons.\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "submit-data.html",
+    "href": "submit-data.html",
+    "title": "Submit a Dataset",
+    "section": "",
+    "text": "The goal of this repository is to provide a collection of relevant and engaging sports datasets to be used in class, handouts, assignments, projects, and SCORE modules. We are always looking for new datasets and welcome public submissions, but these datasets will need to meet the following requirements:"
+  },
+  {
+    "objectID": "submit-data.html#getting-started",
+    "href": "submit-data.html#getting-started",
+    "title": "Submit a Dataset",
+    "section": "Getting Started",
+    "text": "Getting Started\nThis website is built using quarto and rendered into a website. To contribute a dataset, you only need to fill out a template file with the dataset information.\nYou can get the template in two ways:\n\nCopy the _dataset-template.qmd file from our GitHub repository and save it on your computer. Once you’re done, you can email us the file and the data.\nFork our GitHub repository into your own GitHub account and edit it like any other Git repository. Once you’re done, you can submit a pull request."
+  },
+  {
+    "objectID": "submit-data.html#the-dataset-template",
+    "href": "submit-data.html#the-dataset-template",
+    "title": "Submit a Dataset",
+    "section": "The Dataset Template",
+    "text": "The Dataset Template\nThe dataset template is a Quarto file. The template asks for:\n\nBasic metadata to tag the dataset, such as the statistics & data science topic, a short title, and your name. (All submissions are credited with the name of the submitter.)\nA description of the sports question to motivate analysis with the dataset.\nA description of the dataset with documentation about each variable. The file should make it clear what a single row of the dataset represents, and clearly describe each of the variables (including units of measure when relevant).\nReferences to the original source of the data. If the source is a code package, then include an appropriate citation with a link to the package. If the source is an academic paper and the data is deposited in a third-party repository (e.g., Figshare), then include references to both the paper and the archived dataset. When available, include the DOIs of the references.\n\nThe template is meant to prevent a common problem with course datasets: they get passed down from instructor to instructor, and eventually all information about the original source is lost. The dataset may be presented to students without context or important details (like units), and the instructor may not be able to find the original data or references to answer questions about the data."
+  },
+  {
+    "objectID": "submit-data.html#submitting",
+    "href": "submit-data.html#submitting",
+    "title": "Submit a Dataset",
+    "section": "Submitting",
+    "text": "Submitting\nOnce you’ve filled in the template, you can either:\n\nEmail the template file, the data, and any code for preparing the data to the repository editor (currently Ron Yurko).\nSubmit a pull request to our repository on GitHub. Save the Qmd with a meaningful name and place it in its relevant sports directory (e.g., baseball/ or tennis/). Place the data files in data/. Place any code to prepare the data in the _prep/ folder, inside another folder with a name matching the submitted dataset. Once you’ve committed all of the necessary files (without anything extraneous) then you can submit a pull request."
+  },
+  {
     "objectID": "baseball/verlander-pitches.html",
     "href": "baseball/verlander-pitches.html",
     "title": "Justin Verlander Pitches",
@@ -47,33 +75,5 @@
     "title": "SCORE Sports Data Repository",
     "section": "",
     "text": "The SCORE Sports Data Repository curates interesting datasets across a variety of sports for use in statistics and data science education. Each dataset has the following properties:\n\nA sports question of interest, with context motivating why the dataset is relevant and interesting to explore.\nA statistics / data science topic which the dataset can be used to help teach.\nExample questions that instructors can use to help build lessons, handouts, and SCORE modules.\n\nDatasets are organized by sport along the left, but you can also browse by statistics and data science topic."
-  },
-  {
-    "objectID": "submit-data.html",
-    "href": "submit-data.html",
-    "title": "Submit a Dataset",
-    "section": "",
-    "text": "The goal of this repository is to provide a collection of relevant and engaging sports datasets to be used in class, handouts, assignments, projects, and SCORE modules. We are always looking for new datasets and welcome public submissions, but these datasets will need to meet the following requirements:"
-  },
-  {
-    "objectID": "submit-data.html#getting-started",
-    "href": "submit-data.html#getting-started",
-    "title": "Submit a Dataset",
-    "section": "Getting Started",
-    "text": "Getting Started\nThis website is built using quarto and rendered into a website. To contribute a dataset, you only need to fill out a template file with the dataset information.\nYou can get the template in two ways:\n\nCopy the _dataset-template.qmd file from our GitHub repository and save it on your computer. Once you’re done, you can email us the file and the data.\nFork our GitHub repository into your own GitHub account and edit it like any other Git repository. Once you’re done, you can submit a pull request."
-  },
-  {
-    "objectID": "submit-data.html#the-dataset-template",
-    "href": "submit-data.html#the-dataset-template",
-    "title": "Submit a Dataset",
-    "section": "The Dataset Template",
-    "text": "The Dataset Template\nThe dataset template is a Quarto file. The template asks for:\n\nBasic metadata to tag the dataset, such as the statistics & data science topic, a short title, and your name. (All submissions are credited with the name of the submitter.)\nA description of the sports question to motivate analysis with the dataset.\nA description of the dataset with documentation about each variable. The file should make it clear what a single row of the dataset represents, and clearly describe each of the variables (including units of measure when relevant).\nReferences to the original source of the data. If the source is a code package, then include an appropriate citation with a link to the package. If the source is an academic paper and the data is deposited in a third-party repository (e.g., Figshare), then include references to both the paper and the archived dataset. When available, include the DOIs of the references.\n\nThe template is meant to prevent a common problem with course datasets: they get passed down from instructor to instructor, and eventually all information about the original source is lost. The dataset may be presented to students without context or important details (like units), and the instructor may not be able to find the original data or references to answer questions about the data."
-  },
-  {
-    "objectID": "submit-data.html#submitting",
-    "href": "submit-data.html#submitting",
-    "title": "Submit a Dataset",
-    "section": "Submitting",
-    "text": "Submitting\nOnce you’ve filled in the template, you can either:\n\nEmail the template file, the data, and any code for preparing the data to the repository editor (currently Ron Yurko).\nSubmit a pull request to our repository on GitHub. Save the Qmd with a meaningful name and place it in its relevant sports directory (e.g., baseball/ or tennis/). Place the data files in data/. Place any code to prepare the data in the _prep/ folder, inside another folder with a name matching the submitted dataset. Once you’ve committed all of the necessary files (without anything extraneous) then you can submit a pull request."
   }
 ]
