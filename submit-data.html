@@ -83,16 +83,16 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./by-method.html" aria-current="page">
- <span class="menu-text">Datasets by Methods</span></a>
+    <a class="nav-link active" href="./by-statsds-topic.html" aria-current="page">
+ <span class="menu-text">Search By Statistics &amp; Data Science Topic</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./submit-data.html">
  <span class="menu-text">Submit a Dataset</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./external-sources.html">
- <span class="menu-text">External Sources</span></a>
+    <a class="nav-link" href="./data-sources.html">
+ <span class="menu-text">Data Sources</span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -116,12 +116,12 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./by-method.html" class="sidebar-item-text sidebar-link">Datasets by Methods</a>
+  <a href="./data-sources.html" class="sidebar-item-text sidebar-link">Data Sources</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./external-sources.html" class="sidebar-item-text sidebar-link">External Sources</a>
+  <a href="./by-statsds-topic.html" class="sidebar-item-text sidebar-link">Search By Statistics &amp; Data Science Topic</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -179,38 +179,40 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Our overall goal is to provide a collection of useful, real-world datasets from a variety of application areas that can be used as in-class examples, homework assignments, or course projects. The repository can always use new datasets, so we welcome submissions. Datasets should meet a few requirements:</p>
+<p>The goal of this repository is to provide a collection of relevant and engaging sports datasets to be used in class, handouts, assignments, projects, and SCORE modules. We are always looking for new datasets and welcome public submissions, but these datasets will need to meet the following requirements:</p>
 <ul>
-<li>The data must be publicly shareable. There should not be any licensing restrictions that prevent us from sharing it, or any human subjects ethics concerns or other limitations. Look for datasets marked as being in the public domain or with licenses like the Creative Commons Attribution (CC-BY) license.</li>
-<li>The data should be in a standard, easy-to-use format, like CSV. If you have to clean the data from an original form, include the R script you used to clean it with your submission.</li>
-<li>There should be good motivation for interesting analyses of the data that would be appropriate for a course.</li>
-<li>The data should be of reasonable size. GitHub does not allow files greater than 100 MB, and large files can be inconvenient for students. Files larger than a few megabytes should be compressed when practical. R (<code>read.csv()</code>) and Python (<code>pandas.read_csv()</code>) can read <code>.csv.gz</code> files directly, so gzip compression is a good choice for larger files.</li>
+<li><strong>The data must be publicly shareable</strong>, and there should not be any licensing restrictions that prevent us from sharing it for educational purposes. By submitting, you certify that the dataset can be made public, and that you accept all responsibility for the publication of the data. The SCORE Network is not responsible for publication of the data.</li>
+<li><strong>If you used code (such as an <code>R</code> package) to access the data then include your code with your submission.</strong> The code will be publicly available on this <a href="https://github.com/SCOREnetworkorg/sports-data-repository">repository’s GitHub page</a> for others to view.</li>
+<li><strong>There should be an interesting sports question coupled with a statistics and data science topic to motivate the use of the dataset in educational material</strong>.</li>
+<li>The dataset should be in a standard format such as a CSV file and be of reasonable size. GitHub has a file size limit of 100 MB, and large files can be inconvenient for students. We recommend compressing files larger than a few megabytes. Note that gzip compression is a good choice since common tools such as <code>R</code> and <code>Python</code> feature ways to read <code>.csv.gz</code> files directly.</li>
 </ul>
 <section id="getting-started" class="level2">
 <h2 class="anchored" data-anchor-id="getting-started">Getting Started</h2>
-<p>This website is built using the Quarto system and automatically rendered into a website. To contribute a dataset, you only need to fill out a template file with the dataset information.</p>
+<p>This website is built using <a href="https://quarto.org/">quarto</a> and rendered into a website. To contribute a dataset, you only need to fill out a template file with the dataset information.</p>
 <p>You can get the template in two ways:</p>
 <ol type="1">
-<li>Copy the <a href="https://github.com/cmustatistics/data-repository/blob/main/_dataset-template.qmd"><code>_dataset-template.qmd</code> file from our GitHub repository</a> and save it on your computer. Once you’re done, you can email us the file and the data.</li>
-<li>Fork <a href="https://github.com/cmustatistics/data-repository">our GitHub repository</a> into your own GitHub account and edit it like any other Git repository. Once you’re done, you can submit a pull request.</li>
+<li>Copy the <a href="https://github.com/SCOREnetworkorg/sports-data-repository/blob/main/_dataset-template.qmd"><code>_dataset-template.qmd</code> file from our GitHub repository</a> and save it on your computer. Once you’re done, you can email us the file and the data.</li>
+<li>Fork <a href="https://github.com/SCOREnetworkorg/sports-data-repository">our GitHub repository</a> into your own GitHub account and edit it like any other Git repository. Once you’re done, you can submit a pull request.</li>
 </ol>
 </section>
 <section id="the-dataset-template" class="level2">
 <h2 class="anchored" data-anchor-id="the-dataset-template">The Dataset Template</h2>
-<p>The dataset template is a <a href="https://quarto.org/docs/guide/">Quarto</a> file; Quarto is much like R Markdown and is supported by recent versions of RStudio. Quarto files can contain R code, just like R Markdown, so your data description can include graphics and tables generated by R code embedded in the file, if you think this would be helpful to illustrate important features of the data. As you fill out the template, you can use RStudio’s “Render” button to see a preview of the finished page.</p>
-<p>The template asks for:</p>
+<p>The dataset template is a <a href="https://quarto.org/docs/guide/">Quarto</a> file. The template asks for:</p>
 <ul>
-<li>Basic metadata, such as the statistical methods applicable to the data, a short title, and your name. (All submissions are credited with the name of the submitter.)</li>
-<li>A description of the problem. This should be sufficient to motivate the analysis and help students understand the setting.</li>
-<li>A description of the data and the variables. It should be clear what each row of data represents and what all variables mean. Units of measure should be included whenever possible.</li>
-<li>References to the original source. If the source is an academic paper and the data is deposited in a third-party repository (such as Zenodo, Figshare, or Dryad), include references to both the paper and the archived dataset. When available, include the DOIs of the references.</li>
+<li>Basic metadata to tag the dataset, such as the statistics &amp; data science topic, a short title, and your name. (All submissions are credited with the name of the submitter.)</li>
+<li>A description of the sports question to motivate analysis with the dataset.</li>
+<li>A description of the dataset with documentation about each variable. The file should make it clear what a single row of the dataset represents, and clearly describe each of the variables (including units of measure when relevant).</li>
+<li>References to the original source of the data. If the source is a code package, then include an appropriate citation with a link to the package. If the source is an academic paper and the data is deposited in a third-party repository (e.g., Figshare), then include references to both the paper and the archived dataset. When available, include the DOIs of the references.</li>
 </ul>
 <p>The template is meant to prevent a common problem with course datasets: they get passed down from instructor to instructor, and eventually all information about the original source is lost. The dataset may be presented to students without context or important details (like units), and the instructor may not be able to find the original data or references to answer questions about the data.</p>
 </section>
 <section id="submitting" class="level2">
 <h2 class="anchored" data-anchor-id="submitting">Submitting</h2>
-<p>Once you’ve filled in the template, you can email the template file, the data, and any cleaning scripts to the repository editor (currently Alex Reinhart).</p>
-<p>Alternately, submit a pull request to <a href="https://github.com/cmustatistics/data-repository">our repository on GitHub</a>. Save the Qmd with a meaningful name and place it in one of the top-level category directories (like <code>medicine/</code> or <code>astronomy/</code>). Place the data files in <code>data/</code>. Double-check that you’ve committed everything (and nothing extraneous) and open a pull request as usual.</p>
+<p>Once you’ve filled in the template, you can either:</p>
+<ol type="1">
+<li><p>Email the template file, the data, and any code for preparing the data to the repository editor (currently Ron Yurko).</p></li>
+<li><p>Submit a pull request to <a href="https://github.com/SCOREnetworkorg/sports-data-repository">our repository on GitHub</a>. Save the Qmd with a meaningful name and place it in its relevant sports directory (e.g., <code>baseball/</code> or <code>tennis/</code>). Place the data files in <code>data/</code>. Place any code to prepare the data in the <code>_prep/</code> folder, inside another folder with a name matching the submitted dataset. Once you’ve committed all of the necessary files (without anything extraneous) then you can submit a pull request.</p></li>
+</ol>
 
 
 </section>

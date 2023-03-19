@@ -1,5 +1,47 @@
 [
   {
+    "objectID": "data-sources.html",
+    "href": "data-sources.html",
+    "title": "Data Sources",
+    "section": "",
+    "text": "Here are some resources for finding sports datasets:\n\nCRAN Task View for Sports Analytics - catalog of R packages published on the Comprehensive R Archive Network (CRAN) organized by sport (curated by Benjamin S. Baumer, Quang Nguyen, and Gregory J. Matthews)\nSportsDataverse initiative - collection of software tools for accessing publicly available sports data (organized by Saiem Gilani)\nKaggle\nTidyTuesday - GitHub repository of datasets updated weekly with example code for accessing data (featuring a variety of sports examples)\nFiveThirtyEight - GitHub repository of datasets used in FiveThirtyEight articles"
+  },
+  {
+    "objectID": "by-statsds-topic.html",
+    "href": "by-statsds-topic.html",
+    "title": "Search By Statistics & Data Science Topic",
+    "section": "",
+    "text": "Justin Verlander Pitches\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\n\n\nInformation about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons.\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "submit-data.html",
+    "href": "submit-data.html",
+    "title": "Submit a Dataset",
+    "section": "",
+    "text": "The goal of this repository is to provide a collection of relevant and engaging sports datasets to be used in class, handouts, assignments, projects, and SCORE modules. We are always looking for new datasets and welcome public submissions, but these datasets will need to meet the following requirements:"
+  },
+  {
+    "objectID": "submit-data.html#getting-started",
+    "href": "submit-data.html#getting-started",
+    "title": "Submit a Dataset",
+    "section": "Getting Started",
+    "text": "Getting Started\nThis website is built using quarto and rendered into a website. To contribute a dataset, you only need to fill out a template file with the dataset information.\nYou can get the template in two ways:\n\nCopy the _dataset-template.qmd file from our GitHub repository and save it on your computer. Once you’re done, you can email us the file and the data.\nFork our GitHub repository into your own GitHub account and edit it like any other Git repository. Once you’re done, you can submit a pull request."
+  },
+  {
+    "objectID": "submit-data.html#the-dataset-template",
+    "href": "submit-data.html#the-dataset-template",
+    "title": "Submit a Dataset",
+    "section": "The Dataset Template",
+    "text": "The Dataset Template\nThe dataset template is a Quarto file. The template asks for:\n\nBasic metadata to tag the dataset, such as the statistics & data science topic, a short title, and your name. (All submissions are credited with the name of the submitter.)\nA description of the sports question to motivate analysis with the dataset.\nA description of the dataset with documentation about each variable. The file should make it clear what a single row of the dataset represents, and clearly describe each of the variables (including units of measure when relevant).\nReferences to the original source of the data. If the source is a code package, then include an appropriate citation with a link to the package. If the source is an academic paper and the data is deposited in a third-party repository (e.g., Figshare), then include references to both the paper and the archived dataset. When available, include the DOIs of the references.\n\nThe template is meant to prevent a common problem with course datasets: they get passed down from instructor to instructor, and eventually all information about the original source is lost. The dataset may be presented to students without context or important details (like units), and the instructor may not be able to find the original data or references to answer questions about the data."
+  },
+  {
+    "objectID": "submit-data.html#submitting",
+    "href": "submit-data.html#submitting",
+    "title": "Submit a Dataset",
+    "section": "Submitting",
+    "text": "Submitting\nOnce you’ve filled in the template, you can either:\n\nEmail the template file, the data, and any code for preparing the data to the repository editor (currently Ron Yurko).\nSubmit a pull request to our repository on GitHub. Save the Qmd with a meaningful name and place it in its relevant sports directory (e.g., baseball/ or tennis/). Place the data files in data/. Place any code to prepare the data in the _prep/ folder, inside another folder with a name matching the submitted dataset. Once you’ve committed all of the necessary files (without anything extraneous) then you can submit a pull request."
+  },
+  {
     "objectID": "baseball/verlander-pitches.html",
     "href": "baseball/verlander-pitches.html",
     "title": "Justin Verlander Pitches",
@@ -11,69 +53,27 @@
     "href": "baseball/verlander-pitches.html#data",
     "title": "Justin Verlander Pitches",
     "section": "Data",
-    "text": "Data\nThis dataset contains information about pitches thrown by Justin Verlander during the 2022 MLB season and playoffs. It includes the pitch type, ball-strike count, release speed, and a description of what happened on the pitch.\nData courtesy of baseballsavant.mlb.com and accessed using the baseballr package.\n\nverlander-pitches-2022.csv\n\n\nVariable\nDescription\n\n\n\n\npitch_type\nThe type of pitch Verlander threw, either: fastball (FF), slider (SL), curveball (CU), or changeup (CH).\n\n\ncount\nThe ball-strike count when Verlander threw the pitch.\n\n\nrelease_speed\nPitch speed (MPH) at the time of release.\n\n\ndescription\nA brief text description of the result of the pitch, such as a ball, foul, called_strike, swinging_strike, etc."
+    "text": "Data\nBelow are two datasets containing information about pitches thrown by Justin Verlander during the 2019 and 2022 seasons (with separate datasets for each season). Each dataset includes the pitch type, ball-strike count, release speed, and a description of what happened on the pitch.\nData courtesy of baseballsavant.mlb.com and accessed using the baseballr package.\n\nverlander-pitches-2019.csv\n\n\nVariable\nDescription\n\n\n\n\npitch_type\nThe type of pitch Verlander threw, either: fastball (FF), slider (SL), curveball (CU), or changeup (CH).\n\n\ncount\nThe ball-strike count when Verlander threw the pitch.\n\n\nrelease_speed\nPitch speed (MPH) at the time of release.\n\n\ndescription\nA brief text description of the result of the pitch, such as a ball, foul, called_strike, swinging_strike, etc.\n\n\n\n: verlander-pitches-2022.csv"
   },
   {
     "objectID": "baseball/verlander-pitches.html#questions",
     "href": "baseball/verlander-pitches.html#questions",
     "title": "Justin Verlander Pitches",
     "section": "Questions",
-    "text": "Questions"
+    "text": "Questions\n\nUsing the appropriate statistical test, assess whether or not Justin Verlander’s pitch_type is independent of the count. Perform this analysis for both the 2019 and 2022 datasets. Are the conclusions similar or different?\nWhich combinations of pitch_type and count appear more than expected under the assumption of independence? Which combinations appear fewer than expected? Perform this analysis for both the 2019 and 2022 datasets. Are the conclusions similar or different?"
   },
   {
     "objectID": "baseball/verlander-pitches.html#references",
     "href": "baseball/verlander-pitches.html#references",
     "title": "Justin Verlander Pitches",
     "section": "References",
-    "text": "References"
+    "text": "References\nPetti B, Gilani S (2022). baseballr: Acquiring and Analyzing Baseball Data. R package version 1.3.0, https://CRAN.R-project.org/package=baseballr."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "SCORE Sports Data Repository",
     "section": "",
-    "text": "The Data Repository curates interesting datasets for use in statistics and data science education. Each dataset is supported by a story describing its origin and application, and a set of interesting questions that can be answered using the data. This means:\n\nEvery dataset has context in a scientific field, pop culture, or daily life.\nBeyond context, datasets are interesting. They feature more than just a dozen observations from an antiquated scientific study — many feature thousands of observations of dozens of variables, and answer questions interesting to a wide audience.\nJust like in science, some datasets give null results.\nInstructors can easily build lessons and assignments from the suggested questions.\n\nDatasets are organized by sport on the left, or you can browse a list by statistical methods used."
-  },
-  {
-    "objectID": "by-method.html",
-    "href": "by-method.html",
-    "title": "Datasets by Methods",
-    "section": "",
-    "text": "Justin Verlander Pitches\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\n\n\nPitches thrown by Justin Verlander in the 2022 MLB season.\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "submit-data.html",
-    "href": "submit-data.html",
-    "title": "Submit a Dataset",
-    "section": "",
-    "text": "Our overall goal is to provide a collection of useful, real-world datasets from a variety of application areas that can be used as in-class examples, homework assignments, or course projects. The repository can always use new datasets, so we welcome submissions. Datasets should meet a few requirements:"
-  },
-  {
-    "objectID": "submit-data.html#getting-started",
-    "href": "submit-data.html#getting-started",
-    "title": "Submit a Dataset",
-    "section": "Getting Started",
-    "text": "Getting Started\nThis website is built using the Quarto system and automatically rendered into a website. To contribute a dataset, you only need to fill out a template file with the dataset information.\nYou can get the template in two ways:\n\nCopy the _dataset-template.qmd file from our GitHub repository and save it on your computer. Once you’re done, you can email us the file and the data.\nFork our GitHub repository into your own GitHub account and edit it like any other Git repository. Once you’re done, you can submit a pull request."
-  },
-  {
-    "objectID": "submit-data.html#the-dataset-template",
-    "href": "submit-data.html#the-dataset-template",
-    "title": "Submit a Dataset",
-    "section": "The Dataset Template",
-    "text": "The Dataset Template\nThe dataset template is a Quarto file; Quarto is much like R Markdown and is supported by recent versions of RStudio. Quarto files can contain R code, just like R Markdown, so your data description can include graphics and tables generated by R code embedded in the file, if you think this would be helpful to illustrate important features of the data. As you fill out the template, you can use RStudio’s “Render” button to see a preview of the finished page.\nThe template asks for:\n\nBasic metadata, such as the statistical methods applicable to the data, a short title, and your name. (All submissions are credited with the name of the submitter.)\nA description of the problem. This should be sufficient to motivate the analysis and help students understand the setting.\nA description of the data and the variables. It should be clear what each row of data represents and what all variables mean. Units of measure should be included whenever possible.\nReferences to the original source. If the source is an academic paper and the data is deposited in a third-party repository (such as Zenodo, Figshare, or Dryad), include references to both the paper and the archived dataset. When available, include the DOIs of the references.\n\nThe template is meant to prevent a common problem with course datasets: they get passed down from instructor to instructor, and eventually all information about the original source is lost. The dataset may be presented to students without context or important details (like units), and the instructor may not be able to find the original data or references to answer questions about the data."
-  },
-  {
-    "objectID": "submit-data.html#submitting",
-    "href": "submit-data.html#submitting",
-    "title": "Submit a Dataset",
-    "section": "Submitting",
-    "text": "Submitting\nOnce you’ve filled in the template, you can email the template file, the data, and any cleaning scripts to the repository editor (currently Alex Reinhart).\nAlternately, submit a pull request to our repository on GitHub. Save the Qmd with a meaningful name and place it in one of the top-level category directories (like medicine/ or astronomy/). Place the data files in data/. Double-check that you’ve committed everything (and nothing extraneous) and open a pull request as usual."
-  },
-  {
-    "objectID": "external-sources.html",
-    "href": "external-sources.html",
-    "title": "External Sources",
-    "section": "",
-    "text": "Here are some good outside sources for finding datasets suitable for classes:\n\nData is Plural, a weekly newsletter of interesting public datasets.\nStanford Large Network Dataset Collection\nRoyal Society Open Science, an open-access general science journal whose papers have Data Availability statements and often have public data\nScientific Data, a journal publishing descriptions of open datasets (often large and with unusual structure)\nOpen Case Studies, a collection of data analysis case studies showing analyses from conception to conclusion\nTODO"
+    "text": "The SCORE Sports Data Repository curates interesting datasets across a variety of sports for use in statistics and data science education. Each dataset has the following properties:\n\nA sports question of interest, with context motivating why the dataset is relevant and interesting to explore.\nA statistics / data science topic which the dataset can be used to help teach.\nExample questions that instructors can use to help build lessons, handouts, and SCORE modules.\n\nDatasets are organized by sport along the left, but you can also browse by statistics / data science topic."
   }
 ]

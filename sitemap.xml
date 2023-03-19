@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://SCOREnetworkorg.github.io/sports-data-repository/baseball/verlander-pitches.html</loc>
-    <lastmod>2023-03-19T00:05:57.188Z</lastmod>
+    <loc>https://github.com/SCOREnetworkorg/sports-data-repository/data-sources.html</loc>
+    <lastmod>2023-03-19T02:45:35.629Z</lastmod>
   </url>
   <url>
-    <loc>https://SCOREnetworkorg.github.io/sports-data-repository/index.html</loc>
-    <lastmod>2023-03-19T00:05:57.524Z</lastmod>
+    <loc>https://github.com/SCOREnetworkorg/sports-data-repository/by-statsds-topic.html</loc>
+    <lastmod>2023-03-19T02:45:37.433Z</lastmod>
   </url>
   <url>
-    <loc>https://SCOREnetworkorg.github.io/sports-data-repository/by-method.html</loc>
-    <lastmod>2023-03-19T00:05:57.921Z</lastmod>
+    <loc>https://github.com/SCOREnetworkorg/sports-data-repository/submit-data.html</loc>
+    <lastmod>2023-03-19T02:45:37.825Z</lastmod>
   </url>
   <url>
-    <loc>https://SCOREnetworkorg.github.io/sports-data-repository/submit-data.html</loc>
-    <lastmod>2023-03-19T00:05:58.319Z</lastmod>
+    <loc>https://github.com/SCOREnetworkorg/sports-data-repository/baseball/verlander-pitches.html</loc>
+    <lastmod>2023-03-19T02:45:38.241Z</lastmod>
   </url>
   <url>
-    <loc>https://SCOREnetworkorg.github.io/sports-data-repository/external-sources.html</loc>
-    <lastmod>2023-03-19T00:05:58.643Z</lastmod>
+    <loc>https://github.com/SCOREnetworkorg/sports-data-repository/index.html</loc>
+    <lastmod>2023-03-19T02:45:38.561Z</lastmod>
   </url>
 </urlset>
