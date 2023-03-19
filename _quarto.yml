@@ -24,7 +24,7 @@ format:
   html:
     theme:
       - cosmo
-      - cmu.scss
+      - score.scss
     toc: true
 
 execute:
