@@ -1,0 +1,11 @@
+---
+title: Data Sources
+---
+
+Here are some resources for finding sports datasets:
+
+- [CRAN Task View for Sports Analytics](https://cran.r-project.org/web/views/SportsAnalytics.html) - catalog of `R` packages published on the Comprehensive `R` Archive Network (CRAN) organized by sport (curated by Benjamin S. Baumer, Quang Nguyen, and Gregory J. Matthews)
+- [SportsDataverse initiative](https://sportsdataverse.org/) - collection of software tools for accessing publicly available sports data (organized by Saiem Gilani)
+- [Kaggle](https://www.kaggle.com/datasets?search=sports)
+- [TidyTuesday](https://github.com/rfordatascience/tidytuesday) - GitHub repository of datasets updated weekly with example code for accessing data (featuring a variety of sports examples)
+- [FiveThirtyEight](https://github.com/fivethirtyeight/data) - GitHub repository of datasets used in [FiveThirtyEight](https://fivethirtyeight.com/) articles

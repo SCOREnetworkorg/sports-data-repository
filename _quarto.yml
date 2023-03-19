@@ -11,9 +11,9 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - by-method.qmd
+      - by-statsds-topic.qmd
       - submit-data.qmd
-      - external-sources.qmd
+      - data-sources.qmd
   sidebar:
     contents: auto
     collapse-level: 1

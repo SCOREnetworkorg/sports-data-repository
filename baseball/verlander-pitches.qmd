@@ -2,7 +2,7 @@
 title: Justin Verlander Pitches
 author: Ron Yurko
 date: March 18, 2023
-description: Pitches thrown by Justin Verlander in the 2022 MLB season.
+description: Information about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons.
 categories:
   - categorical data
   - chi-squared test
@@ -14,7 +14,7 @@ After nearly two full seasons due to injury, at the age of 39 [Justin Verlander]
 
 ## Data
 
-This dataset contains information about pitches thrown by Justin Verlander during the 2022 MLB season and playoffs. It includes the pitch type, ball-strike count, release speed, and a description of what happened on the pitch.
+Below are two datasets containing information about pitches thrown by Justin Verlander during the 2019 and 2022 seasons (with separate datasets for each season). Each dataset  includes the pitch type, ball-strike count, release speed, and a description of what happened on the pitch.
 
 Data courtesy of [baseballsavant.mlb.com](https://baseballsavant.mlb.com/) and accessed using the [baseballr](https://billpetti.github.io/baseballr/) package.
 
@@ -25,13 +25,24 @@ Data courtesy of [baseballsavant.mlb.com](https://baseballsavant.mlb.com/) and a
 | release_speed |	Pitch speed (MPH) at the time of release. |
 | description | 	A brief text description of the result of the pitch, such as a ball, foul, called_strike, swinging_strike, etc. |
 
+: [verlander-pitches-2019.csv](../data/verlander-pitches-2019.csv)
+
 : [verlander-pitches-2022.csv](../data/verlander-pitches-2022.csv)
+
+
 
 ## Questions
 
+1. Using the appropriate statistical test, assess whether or not Justin Verlander's `pitch_type` is independent of the `count`. Perform this analysis for both the 2019 and 2022 datasets. Are the conclusions similar or different?
 
+2. Which combinations of `pitch_type` and `count` appear more than expected under the assumption of independence? Which combinations appear fewer than expected? Perform this analysis for both the 2019 and 2022 datasets. Are the conclusions similar or different?
 
 
 ## References
+
+Petti B, Gilani S (2022). _baseballr: Acquiring and Analyzing Baseball
+  Data_. R package version 1.3.0,
+  <https://CRAN.R-project.org/package=baseballr>.
+  
 
 

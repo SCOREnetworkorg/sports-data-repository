@@ -1,5 +1,5 @@
 ---
-title: Datasets by Methods
+title: Search By Statistics & Data Science Topic
 listing:
   categories: true
   contents:
