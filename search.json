@@ -7,11 +7,39 @@
     "text": "Here are some resources for finding sports datasets:\n\nCRAN Task View for Sports Analytics - catalog of R packages published on the Comprehensive R Archive Network (CRAN) organized by sport (curated by Benjamin S. Baumer, Quang Nguyen, and Gregory J. Matthews)\nSportsDataverse initiative - collection of software tools for accessing publicly available sports data (organized by Saiem Gilani)\nKaggle\nTidyTuesday - GitHub repository of datasets updated weekly with example code for accessing data (featuring a variety of sports examples)\nFiveThirtyEight - GitHub repository of datasets used in FiveThirtyEight articles"
   },
   {
+    "objectID": "soccer/nwsl-team-stats.html",
+    "href": "soccer/nwsl-team-stats.html",
+    "title": "National Women’s Soccer League Team Statistics",
+    "section": "",
+    "text": "The National Women’s Soccer League (NWSL) is the top professional women’s soccer league in the United States. While a team’s record ultimately determines their ranking, goal differential (goals scored - goals conceded) is often a better indicator of a team’s ability. But what aspects of a team’s performance are related to their goal differential? The NWSL records a variety of statistics describing a team’s performance, such as the percentage of time they maintain possession, percentage of shots on target, etc. With this dataset, you can explore variation between teams as well as which statistics are relevant predictor variables of goal differential."
+  },
+  {
+    "objectID": "soccer/nwsl-team-stats.html#data",
+    "href": "soccer/nwsl-team-stats.html#data",
+    "title": "National Women’s Soccer League Team Statistics",
+    "section": "Data",
+    "text": "Data\nThis dataset contains statistics about the regular season performance for each NWSL team from 2016 to 2022 (excluding 2020 which was cancelled due to COVID).\nThe data was collected using the nwslR package in R.\n\nnwsl-team-stats.csv\n\n\nVariable\nDescription\n\n\n\n\nteam_name\nName of NWSL team\n\n\nseason\nRegular season year of team’s statistics\n\n\ngames_played\nNumber of games team played in season\n\n\ngoal_differential\nGoals scored - goals conceded\n\n\ngoals\nNumber of goals scores\n\n\ngoals_conceded\nNumber of goals conceded\n\n\ncross_accuracy\nPercent of crosses that were successful\n\n\ngoal_conversion_pct\nPercent of shots scored\n\n\npass_pct\nPass accuracy\n\n\npass_pct_opposition_half\nPass accuracy in opposition half\n\n\npossession_pct\nPercentage of overall ball possession the team had during the season\n\n\nshot_accuracy\nPercentage of shots on target\n\n\ntackle_success_pct\nPercent of successful tackles"
+  },
+  {
+    "objectID": "soccer/nwsl-team-stats.html#questions",
+    "href": "soccer/nwsl-team-stats.html#questions",
+    "title": "National Women’s Soccer League Team Statistics",
+    "section": "Questions",
+    "text": "Questions\n\nBuild a linear regression model to predict goal differential as a function of the team’s statistics. Which variables, if any, are predictive of a team’s goal differential in a season? Describe their relationships.\nUsing principal component analysis, project the team seasons into a lower dimensional space using only the team statistics that do not include goals scored or conceded. Choose an appropriate number of principal components, and describe which statistics contribute to your selected number of components. Based on your results, which team statistics explain the most variation between team-seasons in the dataset? Which team statistics are independent of each other?"
+  },
+  {
+    "objectID": "soccer/nwsl-team-stats.html#references",
+    "href": "soccer/nwsl-team-stats.html#references",
+    "title": "National Women’s Soccer League Team Statistics",
+    "section": "References",
+    "text": "References\nDror A (2023). nwslR: Compiles dataset for the National Women’s Soccer League (NWSL). R package version 0.0.0.9001."
+  },
+  {
     "objectID": "by-statsds-topic.html",
     "href": "by-statsds-topic.html",
     "title": "Datasets By Topic",
     "section": "",
-    "text": "Justin Verlander Pitches\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\n\n\nInformation about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons.\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\nNo matching items"
+    "text": "Justin Verlander Pitches\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\n\n\nInformation about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons.\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nNational Women’s Soccer League Team Statistics\n\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\n\n\n.\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "submit-data.html",
@@ -74,6 +102,6 @@
     "href": "index.html",
     "title": "SCORE Sports Data Repository",
     "section": "",
-    "text": "The SCORE Sports Data Repository curates interesting datasets across a variety of sports for use in statistics and data science education. Each dataset has the following properties:\n\nA sports question of interest, with context motivating why the dataset is relevant and interesting to explore.\nA statistics / data science topic which the dataset can be used to help teach.\nExample questions that instructors can use to help build lessons, handouts, and SCORE modules.\n\nDatasets are organized by sport along the left, but you can also browse by statistics and data science topic."
+    "text": "The SCORE Sports Data Repository curates interesting datasets across a variety of sports for use in statistics and data science education. Each dataset has the following properties:\n\nA sports question of interest, with context motivating why the dataset is relevant and interesting to explore.\nA statistics / data science topic which the dataset can be used to help teach.\nExample questions that instructors can use to help build lessons, handouts, and SCORE modules.\n\nDatasets are organized by sport along the left, but you can also browse by statistics and data science topic.\nThis repository is heavily inspired by the CMU S&DS Data Repository."
   }
 ]

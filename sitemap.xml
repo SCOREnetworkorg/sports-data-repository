@@ -2,22 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/SCOREnetworkorg/sports-data-repository/data-sources.html</loc>
-    <lastmod>2023-03-19T02:58:48.540Z</lastmod>
+    <lastmod>2023-03-19T05:00:55.053Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/SCOREnetworkorg/sports-data-repository/soccer/nwsl-team-stats.html</loc>
+    <lastmod>2023-03-19T05:00:55.733Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/SCOREnetworkorg/sports-data-repository/by-statsds-topic.html</loc>
-    <lastmod>2023-03-19T02:58:49.232Z</lastmod>
+    <lastmod>2023-03-19T05:00:56.065Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/SCOREnetworkorg/sports-data-repository/submit-data.html</loc>
-    <lastmod>2023-03-19T02:58:49.568Z</lastmod>
+    <lastmod>2023-03-19T05:00:56.389Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/SCOREnetworkorg/sports-data-repository/baseball/verlander-pitches.html</loc>
-    <lastmod>2023-03-19T02:58:49.900Z</lastmod>
+    <lastmod>2023-03-19T05:00:56.697Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/SCOREnetworkorg/sports-data-repository/index.html</loc>
-    <lastmod>2023-03-19T02:58:50.176Z</lastmod>
+    <lastmod>2023-03-19T05:00:57.013Z</lastmod>
   </url>
 </urlset>

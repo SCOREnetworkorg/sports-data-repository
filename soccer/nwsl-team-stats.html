@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Ron Yurko">
+<meta name="dcterms.date" content="2023-03-18">
+<meta name="description" content=".">
 
-<title>SCORE Sports Data Repository - Submit a Dataset</title>
+<title>SCORE Sports Data Repository - National Women’s Soccer League Team Statistics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">SCORE Sports Data Repository</span>
     </a>
   </div>
@@ -79,19 +82,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
+    <a class="nav-link" href="../index.html">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./by-statsds-topic.html" aria-current="page">
+    <a class="nav-link active" href="../by-statsds-topic.html" aria-current="page">
  <span class="menu-text">Datasets By Topic</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./submit-data.html">
+    <a class="nav-link" href="../submit-data.html">
  <span class="menu-text">Submit a Dataset</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./data-sources.html">
+    <a class="nav-link" href="../data-sources.html">
  <span class="menu-text">Data Sources</span></a>
   </li>  
 </ul>
@@ -101,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Submit a Dataset</h1>
+      <h1 class="quarto-secondary-nav-title">National Women’s Soccer League Team Statistics</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -116,17 +119,17 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data-sources.html" class="sidebar-item-text sidebar-link">Data Sources</a>
+  <a href="../data-sources.html" class="sidebar-item-text sidebar-link">Data Sources</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./by-statsds-topic.html" class="sidebar-item-text sidebar-link">Datasets By Topic</a>
+  <a href="../by-statsds-topic.html" class="sidebar-item-text sidebar-link">Datasets By Topic</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./submit-data.html" class="sidebar-item-text sidebar-link active">Submit a Dataset</a>
+  <a href="../submit-data.html" class="sidebar-item-text sidebar-link">Submit a Dataset</a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -139,22 +142,22 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./baseball/verlander-pitches.html" class="sidebar-item-text sidebar-link">Justin Verlander Pitches</a>
+  <a href="../baseball/verlander-pitches.html" class="sidebar-item-text sidebar-link">Justin Verlander Pitches</a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">Soccer</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Soccer</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./soccer/nwsl-team-stats.html" class="sidebar-item-text sidebar-link">National Women’s Soccer League Team Statistics</a>
+  <a href="../soccer/nwsl-team-stats.html" class="sidebar-item-text sidebar-link active">National Women’s Soccer League Team Statistics</a>
   </div>
 </li>
       </ul>
@@ -168,25 +171,47 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#getting-started" id="toc-getting-started" class="nav-link active" data-scroll-target="#getting-started">Getting Started</a></li>
-  <li><a href="#the-dataset-template" id="toc-the-dataset-template" class="nav-link" data-scroll-target="#the-dataset-template">The Dataset Template</a></li>
-  <li><a href="#submitting" id="toc-submitting" class="nav-link" data-scroll-target="#submitting">Submitting</a></li>
+  <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation">Motivation</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/submit-data.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/soccer/nwsl-team-stats.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Submit a Dataset</h1>
-</div>
+<h1 class="title d-none d-lg-block">National Women’s Soccer League Team Statistics</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">linear regression</div>
+    <div class="quarto-category">principal component analysis</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    .
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Ron Yurko </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 18, 2023</p>
+    </div>
+  </div>
   
     
   </div>
@@ -194,40 +219,88 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>The goal of this repository is to provide a collection of relevant and engaging sports datasets to be used in class, handouts, assignments, projects, and SCORE modules. We are always looking for new datasets and welcome public submissions, but these datasets will need to meet the following requirements:</p>
-<ul>
-<li><strong>The data must be publicly shareable</strong>, and there should not be any licensing restrictions that prevent us from sharing it for educational purposes. By submitting, you certify that the dataset can be made public, and that you accept all responsibility for the publication of the data. The SCORE Network is not responsible for publication of the data.</li>
-<li><strong>If you used code (such as an <code>R</code> package) to access the data then include your code with your submission.</strong> The code will be publicly available on this <a href="https://github.com/SCOREnetworkorg/sports-data-repository">repository’s GitHub page</a> for others to view.</li>
-<li><strong>There should be an interesting sports question coupled with a statistics and data science topic to motivate the use of the dataset in educational material</strong>.</li>
-<li>The dataset should be in a standard format such as a CSV file and be of reasonable size. GitHub has a file size limit of 100 MB, and large files can be inconvenient for students. We recommend compressing files larger than a few megabytes. Note that gzip compression is a good choice since common tools such as <code>R</code> and <code>Python</code> feature ways to read <code>.csv.gz</code> files directly.</li>
-</ul>
-<section id="getting-started" class="level2">
-<h2 class="anchored" data-anchor-id="getting-started">Getting Started</h2>
-<p>This website is built using <a href="https://quarto.org/">quarto</a> and rendered into a website. To contribute a dataset, you only need to fill out a template file with the dataset information.</p>
-<p>You can get the template in two ways:</p>
+<section id="motivation" class="level2">
+<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
+<p>The <a href="https://www.nwslsoccer.com/">National Women’s Soccer League (NWSL)</a> is the top professional women’s soccer league in the United States. While a team’s record ultimately determines their ranking, goal differential (goals scored - goals conceded) is often a better indicator of a team’s ability. But what aspects of a team’s performance are related to their goal differential? The NWSL records a variety of statistics describing a team’s performance, such as the percentage of time they maintain possession, percentage of shots on target, etc. With this dataset, you can explore variation between teams as well as which statistics are relevant predictor variables of goal differential.</p>
+</section>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p>This dataset contains statistics about the regular season performance for each NWSL team from 2016 to 2022 (excluding 2020 which was cancelled due to COVID).</p>
+<p>The data was collected using the <a href="https://github.com/nwslR/nwslR"><code>nwslR</code> package in <code>R</code></a>.</p>
+<table class="table">
+<caption><a href="../data/nwsl-team-stats.csv">nwsl-team-stats.csv</a></caption>
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>team_name</td>
+<td>Name of NWSL team</td>
+</tr>
+<tr class="even">
+<td>season</td>
+<td>Regular season year of team’s statistics</td>
+</tr>
+<tr class="odd">
+<td>games_played</td>
+<td>Number of games team played in season</td>
+</tr>
+<tr class="even">
+<td>goal_differential</td>
+<td>Goals scored - goals conceded</td>
+</tr>
+<tr class="odd">
+<td>goals</td>
+<td>Number of goals scores</td>
+</tr>
+<tr class="even">
+<td>goals_conceded</td>
+<td>Number of goals conceded</td>
+</tr>
+<tr class="odd">
+<td>cross_accuracy</td>
+<td>Percent of crosses that were successful</td>
+</tr>
+<tr class="even">
+<td>goal_conversion_pct</td>
+<td>Percent of shots scored</td>
+</tr>
+<tr class="odd">
+<td>pass_pct</td>
+<td>Pass accuracy</td>
+</tr>
+<tr class="even">
+<td>pass_pct_opposition_half</td>
+<td>Pass accuracy in opposition half</td>
+</tr>
+<tr class="odd">
+<td>possession_pct</td>
+<td>Percentage of overall ball possession the team had during the season</td>
+</tr>
+<tr class="even">
+<td>shot_accuracy</td>
+<td>Percentage of shots on target</td>
+</tr>
+<tr class="odd">
+<td>tackle_success_pct</td>
+<td>Percent of successful tackles</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="questions" class="level2">
+<h2 class="anchored" data-anchor-id="questions">Questions</h2>
 <ol type="1">
-<li>Copy the <a href="https://github.com/SCOREnetworkorg/sports-data-repository/blob/main/_dataset-template.qmd"><code>_dataset-template.qmd</code> file from our GitHub repository</a> and save it on your computer. Once you’re done, you can email us the file and the data.</li>
-<li>Fork <a href="https://github.com/SCOREnetworkorg/sports-data-repository">our GitHub repository</a> into your own GitHub account and edit it like any other Git repository. Once you’re done, you can submit a pull request.</li>
+<li><p>Build a linear regression model to predict goal differential as a function of the team’s statistics. Which variables, if any, are predictive of a team’s goal differential in a season? Describe their relationships.</p></li>
+<li><p>Using principal component analysis, project the team seasons into a lower dimensional space using only the team statistics that do not include goals scored or conceded. Choose an appropriate number of principal components, and describe which statistics contribute to your selected number of components. Based on your results, which team statistics explain the most variation between team-seasons in the dataset? Which team statistics are independent of each other?</p></li>
 </ol>
 </section>
-<section id="the-dataset-template" class="level2">
-<h2 class="anchored" data-anchor-id="the-dataset-template">The Dataset Template</h2>
-<p>The dataset template is a <a href="https://quarto.org/docs/guide/">Quarto</a> file. The template asks for:</p>
-<ul>
-<li>Basic metadata to tag the dataset, such as the statistics &amp; data science topic, a short title, and your name. (All submissions are credited with the name of the submitter.)</li>
-<li>A description of the sports question to motivate analysis with the dataset.</li>
-<li>A description of the dataset with documentation about each variable. The file should make it clear what a single row of the dataset represents, and clearly describe each of the variables (including units of measure when relevant).</li>
-<li>References to the original source of the data. If the source is a code package, then include an appropriate citation with a link to the package. If the source is an academic paper and the data is deposited in a third-party repository (e.g., Figshare), then include references to both the paper and the archived dataset. When available, include the DOIs of the references.</li>
-</ul>
-<p>The template is meant to prevent a common problem with course datasets: they get passed down from instructor to instructor, and eventually all information about the original source is lost. The dataset may be presented to students without context or important details (like units), and the instructor may not be able to find the original data or references to answer questions about the data.</p>
-</section>
-<section id="submitting" class="level2">
-<h2 class="anchored" data-anchor-id="submitting">Submitting</h2>
-<p>Once you’ve filled in the template, you can either:</p>
-<ol type="1">
-<li><p>Email the template file, the data, and any code for preparing the data to the repository editor (currently Ron Yurko).</p></li>
-<li><p>Submit a pull request to <a href="https://github.com/SCOREnetworkorg/sports-data-repository">our repository on GitHub</a>. Save the Qmd with a meaningful name and place it in its relevant sports directory (e.g., <code>baseball/</code> or <code>tennis/</code>). Place the data files in <code>data/</code>. Place any code to prepare the data in the <code>_prep/</code> folder, inside another folder with a name matching the submitted dataset. Once you’ve committed all of the necessary files (without anything extraneous) then you can submit a pull request.</p></li>
-</ol>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>Dror A (2023). <em>nwslR: Compiles dataset for the National Women’s Soccer League (NWSL)</em>. R package version 0.0.0.9001.</p>
 
 
 </section>
