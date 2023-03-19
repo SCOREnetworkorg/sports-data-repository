@@ -8,4 +8,4 @@ The SCORE Sports Data Repository curates interesting datasets across a variety o
 * A _statistics / data science topic_ which the dataset can be used to help teach.
 * _Example questions_ that instructors can use to help build lessons, handouts, and SCORE modules.
 
-Datasets are organized by sport along the left, but you can also browse [by statistics / data science topic](by-statsds-topic.qmd).
+Datasets are organized by sport along the left, but you can also browse [by statistics and data science topic](by-statsds-topic.qmd).
