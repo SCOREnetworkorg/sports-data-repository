@@ -1,0 +1,60 @@
+---
+title:  Premier Hockey Federation Shots
+author: Ron Yurko
+date: March 23, 2023
+description: .
+categories:
+  - categorical data
+  - chi-squared test
+  - logistic regression
+---
+
+## Motivation
+
+The [Premier Hockey Federation (PHF)](https://www.premierhockeyfederation.com/) is a professional women's hockey league in North America. Recently, more data has become available for people to explore and join the [women's hockey analytics community](https://www.whkyhac.com/). This dataset lets you explore shots taken during the 2021-2022 PHF season.
+
+## Data
+
+This dataset contains information about 1,502 shots during the 2021-2022 PHF season. 
+
+The data was collected using the [`fastRhockey` package in `R`](https://fastrhockey.sportsdataverse.org/index.html). 
+
+
+| Variable | Description |
+|----|-------------|
+| play_description |	String detailed description of event |
+| play_type |	String denoting the outcome of the shot, either `Goal`, `PP Goal` (meaning power play goal), `SH Goal`, (meaning shorthanded goal), `Shot` (shot saved by goalie), or `Shot BLK` (meaning blocked by a non-goalie) |
+| period_id |	Integer value of the game period |
+| time_remaining | String display of time remaining in period in `MM:SS` format where `MM` and `SS` denotes minutes and seconds remaning respectively |
+| sec_from_start |	Numeric value of the seconds since the start of the game |
+| home_team |	String name of the home team |
+| away_team |	String name of the away team |
+| home_goals |	Integer value of the home team score after the event |
+| away_goals |	Integer value of the away team score after the event |
+| shooting_team |	String defining the team taking the shot |
+| player_name_1 |	String name of the player taking the shot |
+| player_name_2 |	String name of the secondary event player (blocker or goalie) |
+| goalie_involved |	String name of the goalie involved in the shot attempt |
+| shot_result |	String denoting the outcome of the shot, either `blocked` (meaning blocked by a non-goalie), `made` (goal), or `saved` (shot on net that was saved by a goalie) |
+| on_ice_situation |	String indicator for game strength: `Even Strength` or `Power Play` |
+| home_score_total |	Integer value of the home team score at the end of the game |
+| away_score_total |	Integer value of the away team score at the end of the game  |
+
+: [phf-shots-2021.csv.gz](../data/phf-shots-2021.csv.gz)
+
+
+## Questions
+
+1. Using the appropriate statistical test, assess whether or not `shot_result` is independent of the `on_ice_situation`. 
+
+2. Count the number of shots taken by each team. Build a logistic regression model to predict the probability of the home team winning the game based on the number of attempted shots by each team. 
+
+
+## References
+
+Howell B, Gilani S (2022). _fastRhockey: Functions to Access Premier Hockey
+  Federation and National Hockey League Play by Play Data_. R package version 0.4.0,
+  <https://CRAN.R-project.org/package=fastRhockey>.
+  
+
+

@@ -6,7 +6,7 @@
 library(hockeyR)
 library(tidyverse)
 
-# Load shots during 2022 season -------------------------------------------
+# Load shots during 2021 season -------------------------------------------
 
 # First load the pbp for 2021-2022 regular season:
 nhl_pbp_data <- load_pbp(2021)
