@@ -2,30 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/SCOREnetworkorg/sports-data-repository/data-sources.html</loc>
-    <lastmod>2023-03-24T00:21:24.600Z</lastmod>
+    <lastmod>2023-03-24T01:43:20.896Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/SCOREnetworkorg/sports-data-repository/soccer/nwsl-team-stats.html</loc>
-    <lastmod>2023-03-24T00:21:25.328Z</lastmod>
+    <lastmod>2023-03-24T01:43:21.592Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/SCOREnetworkorg/sports-data-repository/by-statsds-topic.html</loc>
-    <lastmod>2023-03-24T00:21:25.708Z</lastmod>
+    <lastmod>2023-03-24T01:43:21.960Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/SCOREnetworkorg/sports-data-repository/submit-data.html</loc>
-    <lastmod>2023-03-24T00:21:26.064Z</lastmod>
+    <lastmod>2023-03-24T01:43:22.296Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/SCOREnetworkorg/sports-data-repository/baseball/verlander-pitches.html</loc>
-    <lastmod>2023-03-24T00:21:26.428Z</lastmod>
+    <lastmod>2023-03-24T01:43:22.620Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/SCOREnetworkorg/sports-data-repository/hockey/nhl-shots.html</loc>
-    <lastmod>2023-03-24T00:21:26.784Z</lastmod>
+    <lastmod>2023-03-24T01:43:22.952Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/SCOREnetworkorg/sports-data-repository/hockey/phf-shots.html</loc>
+    <lastmod>2023-03-24T01:43:23.320Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/SCOREnetworkorg/sports-data-repository/index.html</loc>
-    <lastmod>2023-03-24T00:21:27.088Z</lastmod>
+    <lastmod>2023-03-24T01:43:23.600Z</lastmod>
   </url>
 </urlset>

@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ron Yurko">
-<meta name="dcterms.date" content="2023-03-18">
+<meta name="dcterms.date" content="2023-03-23">
 <meta name="description" content=".">
 
-<title>SCORE Sports Data Repository - National Women’s Soccer League Team Statistics</title>
+<title>SCORE Sports Data Repository - Premier Hockey Federation Shots</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">National Women’s Soccer League Team Statistics</h1>
+      <h1 class="quarto-secondary-nav-title">Premier Hockey Federation Shots</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -149,12 +149,12 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">Hockey</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Hockey</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../hockey/nhl-shots.html" class="sidebar-item-text sidebar-link">National Hockey League Shots</a>
@@ -162,22 +162,22 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../hockey/phf-shots.html" class="sidebar-item-text sidebar-link">Premier Hockey Federation Shots</a>
+  <a href="../hockey/phf-shots.html" class="sidebar-item-text sidebar-link active">Premier Hockey Federation Shots</a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Soccer</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">Soccer</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../soccer/nwsl-team-stats.html" class="sidebar-item-text sidebar-link active">National Women’s Soccer League Team Statistics</a>
+  <a href="../soccer/nwsl-team-stats.html" class="sidebar-item-text sidebar-link">National Women’s Soccer League Team Statistics</a>
   </div>
 </li>
       </ul>
@@ -196,17 +196,18 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/soccer/nwsl-team-stats.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/hockey/phf-shots.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">National Women’s Soccer League Team Statistics</h1>
+<h1 class="title d-none d-lg-block">Premier Hockey Federation Shots</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">linear regression</div>
-    <div class="quarto-category">principal component analysis</div>
+    <div class="quarto-category">categorical data</div>
+    <div class="quarto-category">chi-squared test</div>
+    <div class="quarto-category">logistic regression</div>
   </div>
   </div>
 
@@ -229,7 +230,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 18, 2023</p>
+      <p class="date">March 23, 2023</p>
     </div>
   </div>
   
@@ -241,14 +242,14 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="motivation" class="level2">
 <h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
-<p>The <a href="https://www.nwslsoccer.com/">National Women’s Soccer League (NWSL)</a> is the top professional women’s soccer league in the United States. While a team’s record ultimately determines their ranking, goal differential (goals scored - goals conceded) is often a better indicator of a team’s ability. But what aspects of a team’s performance are related to their goal differential? The NWSL records a variety of statistics describing a team’s performance, such as the percentage of time they maintain possession, percentage of shots on target, etc. With this dataset, you can explore variation between teams as well as which statistics are relevant predictor variables of goal differential.</p>
+<p>The <a href="https://www.premierhockeyfederation.com/">Premier Hockey Federation (PHF)</a> is a professional women’s hockey league in North America. Recently, more data has become available for people to explore and join the <a href="https://www.whkyhac.com/">women’s hockey analytics community</a>. This dataset lets you explore shots taken during the 2021-2022 PHF season.</p>
 </section>
 <section id="data" class="level2">
 <h2 class="anchored" data-anchor-id="data">Data</h2>
-<p>This dataset contains statistics about the regular season performance for each NWSL team from 2016 to 2022 (excluding 2020 which was cancelled due to COVID).</p>
-<p>The data was collected using the <a href="https://github.com/nwslR/nwslR"><code>nwslR</code> package in <code>R</code></a>.</p>
+<p>This dataset contains information about 1,502 shots during the 2021-2022 PHF season.</p>
+<p>The data was collected using the <a href="https://fastrhockey.sportsdataverse.org/index.html"><code>fastRhockey</code> package in <code>R</code></a>.</p>
 <table class="table">
-<caption><a href="../data/nwsl-team-stats.csv">nwsl-team-stats.csv</a></caption>
+<caption><a href="../data/phf-shots-2021.csv.gz">phf-shots-2021.csv.gz</a></caption>
 <thead>
 <tr class="header">
 <th>Variable</th>
@@ -257,56 +258,72 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>team_name</td>
-<td>Name of NWSL team</td>
+<td>play_description</td>
+<td>String detailed description of event</td>
 </tr>
 <tr class="even">
-<td>season</td>
-<td>Regular season year of team’s statistics</td>
+<td>play_type</td>
+<td>String denoting the outcome of the shot, either <code>Goal</code>, <code>PP Goal</code> (meaning power play goal), <code>SH Goal</code>, (meaning shorthanded goal), <code>Shot</code> (shot saved by goalie), or <code>Shot BLK</code> (meaning blocked by a non-goalie)</td>
 </tr>
 <tr class="odd">
-<td>games_played</td>
-<td>Number of games team played in season</td>
+<td>period_id</td>
+<td>Integer value of the game period</td>
 </tr>
 <tr class="even">
-<td>goal_differential</td>
-<td>Goals scored - goals conceded</td>
+<td>time_remaining</td>
+<td>String display of time remaining in period in <code>MM:SS</code> format where <code>MM</code> and <code>SS</code> denotes minutes and seconds remaning respectively</td>
 </tr>
 <tr class="odd">
-<td>goals</td>
-<td>Number of goals scores</td>
+<td>sec_from_start</td>
+<td>Numeric value of the seconds since the start of the game</td>
 </tr>
 <tr class="even">
-<td>goals_conceded</td>
-<td>Number of goals conceded</td>
+<td>home_team</td>
+<td>String name of the home team</td>
 </tr>
 <tr class="odd">
-<td>cross_accuracy</td>
-<td>Percent of crosses that were successful</td>
+<td>away_team</td>
+<td>String name of the away team</td>
 </tr>
 <tr class="even">
-<td>goal_conversion_pct</td>
-<td>Percent of shots scored</td>
+<td>home_goals</td>
+<td>Integer value of the home team score after the event</td>
 </tr>
 <tr class="odd">
-<td>pass_pct</td>
-<td>Pass accuracy</td>
+<td>away_goals</td>
+<td>Integer value of the away team score after the event</td>
 </tr>
 <tr class="even">
-<td>pass_pct_opposition_half</td>
-<td>Pass accuracy in opposition half</td>
+<td>shooting_team</td>
+<td>String defining the team taking the shot</td>
 </tr>
 <tr class="odd">
-<td>possession_pct</td>
-<td>Percentage of overall ball possession the team had during the season</td>
+<td>player_name_1</td>
+<td>String name of the player taking the shot</td>
 </tr>
 <tr class="even">
-<td>shot_accuracy</td>
-<td>Percentage of shots on target</td>
+<td>player_name_2</td>
+<td>String name of the secondary event player (blocker or goalie)</td>
 </tr>
 <tr class="odd">
-<td>tackle_success_pct</td>
-<td>Percent of successful tackles</td>
+<td>goalie_involved</td>
+<td>String name of the goalie involved in the shot attempt</td>
+</tr>
+<tr class="even">
+<td>shot_result</td>
+<td>String denoting the outcome of the shot, either <code>blocked</code> (meaning blocked by a non-goalie), <code>made</code> (goal), or <code>saved</code> (shot on net that was saved by a goalie)</td>
+</tr>
+<tr class="odd">
+<td>on_ice_situation</td>
+<td>String indicator for game strength: <code>Even Strength</code> or <code>Power Play</code></td>
+</tr>
+<tr class="even">
+<td>home_score_total</td>
+<td>Integer value of the home team score at the end of the game</td>
+</tr>
+<tr class="odd">
+<td>away_score_total</td>
+<td>Integer value of the away team score at the end of the game</td>
 </tr>
 </tbody>
 </table>
@@ -314,13 +331,13 @@ ul.task-list li input[type="checkbox"] {
 <section id="questions" class="level2">
 <h2 class="anchored" data-anchor-id="questions">Questions</h2>
 <ol type="1">
-<li><p>Build a linear regression model to predict goal differential as a function of the team’s statistics. Which variables, if any, are predictive of a team’s goal differential in a season? Describe their relationships.</p></li>
-<li><p>Using principal component analysis, project the team seasons into a lower dimensional space using only the team statistics that do not include goals scored or conceded. Choose an appropriate number of principal components, and describe which statistics contribute to your selected number of components. Based on your results, which team statistics explain the most variation between team-seasons in the dataset? Which team statistics are independent of each other?</p></li>
+<li><p>Using the appropriate statistical test, assess whether or not <code>shot_result</code> is independent of the <code>on_ice_situation</code>.</p></li>
+<li><p>Count the number of shots taken by each team. Build a logistic regression model to predict the probability of the home team winning the game based on the number of attempted shots by each team.</p></li>
 </ol>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
-<p>Dror A (2023). <em>nwslR: Compiles dataset for the National Women’s Soccer League (NWSL)</em>. R package version 0.0.0.9001.</p>
+<p>Howell B, Gilani S (2022). <em>fastRhockey: Functions to Access Premier Hockey Federation and National Hockey League Play by Play Data</em>. R package version 0.4.0, <a href="https://CRAN.R-project.org/package=fastRhockey" class="uri">https://CRAN.R-project.org/package=fastRhockey</a>.</p>
 
 
 </section>
