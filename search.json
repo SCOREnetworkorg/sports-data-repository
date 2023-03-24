@@ -39,7 +39,7 @@
     "href": "by-statsds-topic.html",
     "title": "Datasets By Topic",
     "section": "",
-    "text": "Justin Verlander Pitches\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\n\n\nInformation about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons.\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nNational Women’s Soccer League Team Statistics\n\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\n\n\n.\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\nNo matching items"
+    "text": "Justin Verlander Pitches\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\n\n\nInformation about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons.\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nNational Hockey League Shots\n\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\n\n.\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nNational Women’s Soccer League Team Statistics\n\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\n\n\n.\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "submit-data.html",
@@ -96,6 +96,34 @@
     "title": "Justin Verlander Pitches",
     "section": "References",
     "text": "References\nPetti B, Gilani S (2022). baseballr: Acquiring and Analyzing Baseball Data. R package version 1.3.0, https://CRAN.R-project.org/package=baseballr."
+  },
+  {
+    "objectID": "hockey/nhl-shots.html",
+    "href": "hockey/nhl-shots.html",
+    "title": "National Hockey League Shots",
+    "section": "",
+    "text": "The National Hockey League (NHL) is the top professional men’s hockey league in the world. The league records every shot players take along with contextual information about the shot such as its location, the player’s distance and angle to the goal when attempting the shot, as well as the outcome (blocked, missed, or goal). Using this information, the hockey analytics community have developed measures of shot quality known as expected goals. With this dataset, you can create your own expected goals model to predict the shot outcome given relevant features."
+  },
+  {
+    "objectID": "hockey/nhl-shots.html#data",
+    "href": "hockey/nhl-shots.html#data",
+    "title": "National Hockey League Shots",
+    "section": "Data",
+    "text": "Data\nThis dataset contains information about 104,316 shots during the 2021-2022 NHL season.\nThe data was collected using the hockeyR package in R.\n\nnhl-shots-2021.csv.gz\n\n\nVariable\nDescription\n\n\n\n\ndescription\nString detailed description of event\n\n\nshot_outcome\nString denoting the outcome of the shot, either BLOCKED_SHOT (meaning blocked by a non-goalie), GOAL, MISSED_SHOT (shot that missed the net), or SHOT (shot on net that was saved by a goalie)\n\n\nperiod\nInteger value of the game period\n\n\nperiod_seconds_remaining\nNumeric value of the seconds remaining in the period\n\n\ngame_seconds_remaining\nNumeric value of the seconds remaining in the game; negative for overtime periods\n\n\nhome_score\nInteger value of the home team score after the event\n\n\naway_score\nInteger value of the away team score after the event\n\n\nhome_name\nString name of the home team\n\n\naway_name\nString name of the away team\n\n\nevent_team\nString defining the team taking the shot\n\n\nevent_player_1_name\nString name of the primary event player\n\n\nevent_player_1_type\nString indicator for the role of event_player_1 (typically the shooter)\n\n\nevent_player_2_name\nString name of the secondary event player\n\n\nevent_player_2_type\nString indicator for the role of event_player_2 (blocker, assist, or goalie)\n\n\nstrength_code\nString indicator for game strength: EV (Even), SH (Shorthanded), or PP (Power Play)\n\n\nx_fixed\nNumeric transformed x-coordinate of event in feet, where the home team always shoots to the right, away team to the left\n\n\ny_fixed\nNumeric transformed y-coordinate of event in feet, where the home team always shoots to the right, away team to the left\n\n\nshot_distance\nNumeric distance (in feet) to center of net for unblocked shot events\n\n\nshot_angle\nNumeric angle (in degrees) to center of net for unlocked shot events"
+  },
+  {
+    "objectID": "hockey/nhl-shots.html#questions",
+    "href": "hockey/nhl-shots.html#questions",
+    "title": "National Hockey League Shots",
+    "section": "Questions",
+    "text": "Questions\n\nBuild a logistic regression model to predict whether or not the shot will result in a goal based on the shot distance and angle.\nBuild a classification model to predict the outcome based on the spatial x,y coordinates of the shot.\nCreate a visualization displaying the joint frequency of shot locations. Do there appear to be any clear modes of frequently taken shots? Create a conditional version of this display by shot outcome. Does the distribution shape vary by shot outcome? (You can also perform a similar analysis by team)."
+  },
+  {
+    "objectID": "hockey/nhl-shots.html#references",
+    "href": "hockey/nhl-shots.html#references",
+    "title": "National Hockey League Shots",
+    "section": "References",
+    "text": "References\nMorse D (2023). hockeyR: Collect and Clean Hockey Stats. R package version 1.3.1, https://github.com/danmorse314/hockeyR."
   },
   {
     "objectID": "index.html",
