@@ -1,0 +1,66 @@
+---
+title: National Hockey League Shots
+author: Ron Yurko
+date: March 23, 2023
+description: .
+categories:
+  - classification
+  - logistic regression
+  - generalized additive models
+  - multinomial logistic regression
+  - naive bayes classifier
+  - density estimation
+---
+
+## Motivation
+
+The [National Hockey League (NHL)](https://www.nhl.com/) is the top professional men's hockey league in the world. The league records every shot players take along with contextual information about the shot such as its location, the player's distance and angle to the goal when attempting the shot, as well as the outcome (blocked, missed, or goal). Using this information, the hockey analytics community have developed measures of shot quality known as [__expected goals__](https://www.nhl.com/kraken/news/analytics-with-alison-expected-goals/c-327728890). With this dataset, you can create your own __expected goals model__ to predict the shot outcome given relevant features.
+
+## Data
+
+This dataset contains information about 104,316 shots during the 2021-2022 NHL season. 
+
+The data was collected using the [`hockeyR` package in `R`](https://hockeyr.netlify.app/index.html). 
+
+
+| Variable | Description |
+|----|-------------|
+| description |	String detailed description of event |
+| shot_outcome |	String denoting the outcome of the shot, either BLOCKED_SHOT (meaning blocked by a non-goalie), GOAL, MISSED_SHOT (shot that missed the net), or SHOT (shot on net that was saved by a goalie) |
+| period |	Integer value of the game period |
+| period_seconds_remaining | Numeric value of the seconds remaining in the period |
+| game_seconds_remaining |	Numeric value of the seconds remaining in the game; negative for overtime periods |
+| home_score |	Integer value of the home team score after the event |
+| away_score |	Integer value of the away team score after the event |
+| home_name |	String name of the home team |
+| away_name |	String name of the away team |
+| event_team |	String defining the team taking the shot |
+| event_player_1_name |	String name of the primary event player |
+| event_player_1_type |	String indicator for the role of event_player_1 (typically the shooter) |
+| event_player_2_name |	String name of the secondary event player |
+| event_player_2_type |	String indicator for the role of event_player_2 (blocker, assist, or goalie) |
+| strength_code |	String indicator for game strength: EV (Even), SH (Shorthanded), or PP (Power Play) |
+| x_fixed |	Numeric transformed x-coordinate of event in feet, where the home team always shoots to the right, away team to the left |
+| y_fixed |	Numeric transformed y-coordinate of event in feet, where the home team always shoots to the right, away team to the left |
+| shot_distance |	Numeric distance (in feet) to center of net for unblocked shot events |
+| shot_angle |	Numeric angle (in degrees) to center of net for unlocked shot events |
+
+
+: [nhl-shots-2021.csv.gz](../data/nhl-shots-2021.csv.gz)
+
+
+## Questions
+
+1. Build a logistic regression model to predict whether or not the shot will result in a goal based on the shot distance and angle.
+
+2. Build a classification model to predict the outcome based on the spatial x,y coordinates of the shot. 
+
+3. Create a visualization displaying the joint frequency of shot locations. Do there appear to be any clear modes of frequently taken shots? Create a conditional version of this display by shot outcome. Does the distribution shape vary by shot outcome? (You can also perform a similar analysis by team). 
+
+## References
+
+Morse D (2023). _hockeyR: Collect and Clean Hockey Stats_. R package version 1.3.1,
+  <https://github.com/danmorse314/hockeyR>.
+  
+
+
