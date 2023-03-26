@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "basketball/wnba-shots.html",
+    "href": "basketball/wnba-shots.html",
+    "title": "Women’s National Basketball Association Shots",
+    "section": "",
+    "text": "The Women’s National Basketball Association (WNBA) is the top professional women’s basketball league in the world. The league records every shot players take along with contextual information about the shot such as its location, a description of the shot type, as well as the outcome. With this dataset, you can predict the success of each shot attempt to compute the expected value of shot types and compare team decision making."
+  },
+  {
+    "objectID": "basketball/wnba-shots.html#data",
+    "href": "basketball/wnba-shots.html#data",
+    "title": "Women’s National Basketball Association Shots",
+    "section": "Data",
+    "text": "Data\nThis dataset contains information about 41,497 shots during the 2021-2022 WNBA season.\nThe data was collected using the wehoop package in R.\n\nwnba-shots-2021.csv.gz\n\n\nVariable\nDescription\n\n\n\n\ngame_id\nUnique integer ID for each WNBA game\n\n\ngame_play_number\nInteger indicating the recorded play number for the shot attempt, where 1 indicates the first play of the game\n\n\ndesc\nString detailed description of shot attempt\n\n\nshot_type\nString description of the shot type (e.g., dunk, layup, jump shot, etc.)\n\n\nmade_shot\nBoolean denoting if the shot was made (TRUE) or not (FALSE)\n\n\nshot_value\nNumeric value of the shot outcome (0 for shots that were not made, and a positive value for made shots)\n\n\ncoordinate_x\nHorizontal location in feet of shot attempt where the hoop would be located at 25 feet\n\n\ncoordinate_y\nVertical location in feet of shot attempt with respect to the target hoop (the hoop should be a little in front of 0 but the coordinate system is not exact)\n\n\nshooting_team\nString name of the team taking the shot\n\n\nhome_name\nString name of the home team\n\n\naway_name\nString name of the away team\n\n\nhome_score\nInteger value of the home team score after the shot\n\n\naway_score\nInteger value of the away team score after the shot\n\n\nqtr\nInteger denoting the quarter/period in the game\n\n\nquarter_seconds_remaining\nNumeric integer value for number of seconds remaining in quarter/period\n\n\ngame_seconds_remaining\nNumeric integer value for number of seconds remaining in game"
+  },
+  {
+    "objectID": "basketball/wnba-shots.html#questions",
+    "href": "basketball/wnba-shots.html#questions",
+    "title": "Women’s National Basketball Association Shots",
+    "section": "Questions",
+    "text": "Questions\n\nBuild a classification model to predict the shot outcome based on the spatial x,y coordinates of the shot.\nCreate a visualization displaying the joint frequency of shot locations. Do there appear to be any clear modes of frequently taken shots? Create a conditional version of this display by shot outcome. Does the distribution shape vary by shot outcome? (You can also perform a similar analysis by team and shot type)."
+  },
+  {
+    "objectID": "basketball/wnba-shots.html#references",
+    "href": "basketball/wnba-shots.html#references",
+    "title": "Women’s National Basketball Association Shots",
+    "section": "References",
+    "text": "References\nGilani S, Hutchinson G (2022). wehoop: Access Women’s Basketball Play by Play Data. R package version 1.5.0, https://CRAN.R-project.org/package=wehoop."
+  },
+  {
     "objectID": "basketball/nba-player-stats.html",
     "href": "basketball/nba-player-stats.html",
     "title": "National Basketball Association Player Statistics",
@@ -67,7 +95,7 @@
     "href": "by-statsds-topic.html",
     "title": "Datasets By Topic",
     "section": "",
-    "text": "Justin Verlander Pitches\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\n\n\nInformation about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nNational Basketball Association Player Statistics\n\n\n\n\n\n\n\nclustering\n\n\nprincipal component analysis\n\n\n\n\nNBA player statistics from the 2021-2022 regular season\n\n\n\n\n\n\nMar 25, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nNational Hockey League Shots\n\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\n\nInformation about shots during the 2021-2022 NHL season\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nNational Women’s Soccer League Team Statistics\n\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\n\n\nNWSL team statistics from 2016 to 2022\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nPremier Hockey Federation Shots\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\nlogistic regression\n\n\n\n\nInformation about shots during the 2021-2022 PHF season\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\nNo matching items"
+    "text": "Justin Verlander Pitches\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\n\n\nInformation about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nNational Basketball Association Player Statistics\n\n\n\n\n\n\n\nclustering\n\n\nprincipal component analysis\n\n\n\n\nNBA player statistics from the 2021-2022 regular season\n\n\n\n\n\n\nMar 25, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nNational Hockey League Shots\n\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\n\nInformation about shots during the 2021-2022 NHL season\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nNational Women’s Soccer League Team Statistics\n\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\n\n\nNWSL team statistics from 2016 to 2022\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nPremier Hockey Federation Shots\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\nlogistic regression\n\n\n\n\nInformation about shots during the 2021-2022 PHF season\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nWomen’s National Basketball Association Shots\n\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\n\nInformation about shots during the 2021-2022 WNBA season\n\n\n\n\n\n\nMar 25, 2023\n\n\nRon Yurko\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "submit-data.html",
