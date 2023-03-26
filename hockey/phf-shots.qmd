@@ -2,7 +2,7 @@
 title:  Premier Hockey Federation Shots
 author: Ron Yurko
 date: March 23, 2023
-description: .
+description: Information about shots during the 2021-2022 PHF season
 categories:
   - categorical data
   - chi-squared test

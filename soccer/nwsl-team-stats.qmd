@@ -2,7 +2,7 @@
 title: National Women’s Soccer League Team Statistics
 author: Ron Yurko
 date: March 18, 2023
-description: .
+description: NWSL team statistics from 2016 to 2022
 categories:
   - linear regression
   - principal component analysis

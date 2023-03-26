@@ -2,7 +2,7 @@
 title: National Hockey League Shots
 author: Ron Yurko
 date: March 23, 2023
-description: .
+description: Information about shots during the 2021-2022 NHL season
 categories:
   - classification
   - logistic regression

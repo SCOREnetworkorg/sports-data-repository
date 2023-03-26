@@ -2,7 +2,7 @@
 title: Justin Verlander Pitches
 author: Ron Yurko
 date: March 18, 2023
-description: Information about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons.
+description: Information about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons
 categories:
   - categorical data
   - chi-squared test
