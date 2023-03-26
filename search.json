@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "basketball/nba-player-stats.html",
+    "href": "basketball/nba-player-stats.html",
+    "title": "National Basketball Association Player Statistics",
+    "section": "",
+    "text": "The National Basketball Association (NBA) is the top men’s professional basketball league in the world. While players have predefined positions, the sport is becoming increasingly positionless - with centers attempting more three point shots and guards driving the ball inside to dunk. With this dataset, you can explore clustering NBA players based on various types of statistics and compare your players labels to the predefined positions."
+  },
+  {
+    "objectID": "basketball/nba-player-stats.html#data",
+    "href": "basketball/nba-player-stats.html#data",
+    "title": "National Basketball Association Player Statistics",
+    "section": "Data",
+    "text": "Data\nThis dataset contains statistics about 812 player-team stints for during the 2021-2022 NBA regular season. For players that played for \\(T\\) teams during the season (due to trade), there are \\(T+1\\) rows with one row for their performance with each of the \\(T\\) teams and another row indicating their total performance (where tm = TOT) across the full season regardless of team. The counting stats are reported on a per 100 team possessions scale, to normalize for playing time differences.\nThe data was collected using the ballr package in R., which gathers data from basketball-reference.com.\n\nnba-player-stats.csv\n\n\nVariable\nDescription\n\n\n\n\nplayer\nName of player\n\n\npos\nPlayer’s designated position\n\n\nage\nPlayer’s age on February 1st of the season\n\n\ntm\nName of team\n\n\ng\nNumber of games\n\n\ngs\nNumber of games started\n\n\nmp\nNumber of minutes played\n\n\nfg\nField goals per 100 team possessions\n\n\nfga\nField goal attempts per 100 team possessions\n\n\nfgpercent\nField goal percentage\n\n\nx3p\n3 point field goals per 100 team possessions\n\n\nx3pa\n3 point field goal attempts per 100 team possessions\n\n\nx3ppercent\n3 point field goal percentage\n\n\nx2p\n2 point field goals per 100 team possessions\n\n\nx2pa\n2 point field goal attempts per 100 team possessions\n\n\nx2ppercent\n2 point field goal percentage\n\n\nft\nFree throws per 100 team possessions\n\n\nfta\nFree throw attempts per 100 team possessions\n\n\nftpercent\nFree throw percentage\n\n\norb\nOffensive rebounds per 100 team possessions\n\n\ndrb\nDefensive rebounds per 100 team possessions\n\n\ntrb\nTotal rebounds per 100 team possessions\n\n\nast\nAssists per 100 team possessions\n\n\nstl\nSteals per 100 team possessions\n\n\nblk\nBlocks per 100 team possessions\n\n\ntov\nTurnovers per 100 team possessions\n\n\npf\nPersonal fouls per 100 team possessions\n\n\npts\nPoints per 100 team possessions\n\n\nortg\nOffensive Rating - an estimate of points produced per 100 possessions scale\n\n\ndrtg\nDefensive Rating - an estimate of points allowed per 100 possessions scale"
+  },
+  {
+    "objectID": "basketball/nba-player-stats.html#questions",
+    "href": "basketball/nba-player-stats.html#questions",
+    "title": "National Basketball Association Player Statistics",
+    "section": "Questions",
+    "text": "Questions\n\nApply a clustering technique using the player statistics to create new labels for the types of NBA players, and compare to their known position labels. Compare and contrast your data-defined roles to the traditional basketball positions.\nUsing principal component analysis, project the players into a lower dimensional space. Choose an appropriate number of principal components, and describe which statistics contribute to your selected number of components. Based on your results, which player statistics explain the most variation between players in the dataset? Which stats are independent of each other?"
+  },
+  {
+    "objectID": "basketball/nba-player-stats.html#references",
+    "href": "basketball/nba-player-stats.html#references",
+    "title": "National Basketball Association Player Statistics",
+    "section": "References",
+    "text": "References\nElmore R (2020). ballr: Access to Current and Historical Basketball Data. R package version 0.2.6."
+  },
+  {
     "objectID": "data-sources.html",
     "href": "data-sources.html",
     "title": "Data Sources",
@@ -39,7 +67,7 @@
     "href": "by-statsds-topic.html",
     "title": "Datasets By Topic",
     "section": "",
-    "text": "Justin Verlander Pitches\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\n\n\nInformation about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons.\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nNational Hockey League Shots\n\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\n\n.\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nNational Women’s Soccer League Team Statistics\n\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\n\n\n.\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nPremier Hockey Federation Shots\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\nlogistic regression\n\n\n\n\n.\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\nNo matching items"
+    "text": "Justin Verlander Pitches\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\n\n\nInformation about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nNational Basketball Association Player Statistics\n\n\n\n\n\n\n\nclustering\n\n\nprincipal component analysis\n\n\n\n\nNBA player statistics from the 2021-2022 regular season\n\n\n\n\n\n\nMar 25, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nNational Hockey League Shots\n\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\n\nInformation about shots during the 2021-2022 NHL season\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nNational Women’s Soccer League Team Statistics\n\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\n\n\nNWSL team statistics from 2016 to 2022\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nPremier Hockey Federation Shots\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\nlogistic regression\n\n\n\n\nInformation about shots during the 2021-2022 PHF season\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "submit-data.html",

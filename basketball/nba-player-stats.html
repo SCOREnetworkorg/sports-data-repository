@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Ron Yurko">
+<meta name="dcterms.date" content="2023-03-25">
+<meta name="description" content="NBA player statistics from the 2021-2022 regular season">
 
-<title>SCORE Sports Data Repository - Submit a Dataset</title>
+<title>SCORE Sports Data Repository - National Basketball Association Player Statistics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -59,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -69,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">SCORE Sports Data Repository</span>
     </a>
   </div>
@@ -79,19 +83,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
+    <a class="nav-link" href="../index.html">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./by-statsds-topic.html" aria-current="page">
+    <a class="nav-link active" href="../by-statsds-topic.html" aria-current="page">
  <span class="menu-text">Datasets By Topic</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./submit-data.html">
+    <a class="nav-link" href="../submit-data.html">
  <span class="menu-text">Submit a Dataset</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./data-sources.html">
+    <a class="nav-link" href="../data-sources.html">
  <span class="menu-text">Data Sources</span></a>
   </li>  
 </ul>
@@ -101,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Submit a Dataset</h1>
+      <h1 class="quarto-secondary-nav-title">National Basketball Association Player Statistics</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -116,17 +120,17 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data-sources.html" class="sidebar-item-text sidebar-link">Data Sources</a>
+  <a href="../data-sources.html" class="sidebar-item-text sidebar-link">Data Sources</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./by-statsds-topic.html" class="sidebar-item-text sidebar-link">Datasets By Topic</a>
+  <a href="../by-statsds-topic.html" class="sidebar-item-text sidebar-link">Datasets By Topic</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./submit-data.html" class="sidebar-item-text sidebar-link active">Submit a Dataset</a>
+  <a href="../submit-data.html" class="sidebar-item-text sidebar-link">Submit a Dataset</a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -139,22 +143,22 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./baseball/verlander-pitches.html" class="sidebar-item-text sidebar-link">Justin Verlander Pitches</a>
+  <a href="../baseball/verlander-pitches.html" class="sidebar-item-text sidebar-link">Justin Verlander Pitches</a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">Basketball</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Basketball</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./basketball/nba-player-stats.html" class="sidebar-item-text sidebar-link">National Basketball Association Player Statistics</a>
+  <a href="../basketball/nba-player-stats.html" class="sidebar-item-text sidebar-link active">National Basketball Association Player Statistics</a>
   </div>
 </li>
       </ul>
@@ -169,12 +173,12 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hockey/nhl-shots.html" class="sidebar-item-text sidebar-link">National Hockey League Shots</a>
+  <a href="../hockey/nhl-shots.html" class="sidebar-item-text sidebar-link">National Hockey League Shots</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hockey/phf-shots.html" class="sidebar-item-text sidebar-link">Premier Hockey Federation Shots</a>
+  <a href="../hockey/phf-shots.html" class="sidebar-item-text sidebar-link">Premier Hockey Federation Shots</a>
   </div>
 </li>
       </ul>
@@ -189,7 +193,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./soccer/nwsl-team-stats.html" class="sidebar-item-text sidebar-link">National Women’s Soccer League Team Statistics</a>
+  <a href="../soccer/nwsl-team-stats.html" class="sidebar-item-text sidebar-link">National Women’s Soccer League Team Statistics</a>
   </div>
 </li>
       </ul>
@@ -203,25 +207,47 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#getting-started" id="toc-getting-started" class="nav-link active" data-scroll-target="#getting-started">Getting Started</a></li>
-  <li><a href="#the-dataset-template" id="toc-the-dataset-template" class="nav-link" data-scroll-target="#the-dataset-template">The Dataset Template</a></li>
-  <li><a href="#submitting" id="toc-submitting" class="nav-link" data-scroll-target="#submitting">Submitting</a></li>
+  <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation">Motivation</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/submit-data.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/basketball/nba-player-stats.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Submit a Dataset</h1>
-</div>
+<h1 class="title d-none d-lg-block">National Basketball Association Player Statistics</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">clustering</div>
+    <div class="quarto-category">principal component analysis</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    NBA player statistics from the 2021-2022 regular season
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Ron Yurko </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 25, 2023</p>
+    </div>
+  </div>
   
     
   </div>
@@ -229,40 +255,156 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>The goal of this repository is to provide a collection of relevant and engaging sports datasets to be used in class, handouts, assignments, projects, and SCORE modules. We are always looking for new datasets and welcome public submissions, but these datasets will need to meet the following requirements:</p>
-<ul>
-<li><strong>The data must be publicly shareable</strong>, and there should not be any licensing restrictions that prevent us from sharing it for educational purposes. By submitting, you certify that the dataset can be made public, and that you accept all responsibility for the publication of the data. The SCORE Network is not responsible for publication of the data.</li>
-<li><strong>If you used code (such as an <code>R</code> package) to access the data then include your code with your submission.</strong> The code will be publicly available on this <a href="https://github.com/SCOREnetworkorg/sports-data-repository">repository’s GitHub page</a> for others to view.</li>
-<li><strong>There should be an interesting sports question coupled with a statistics and data science topic to motivate the use of the dataset in educational material</strong>.</li>
-<li>The dataset should be in a standard format such as a CSV file and be of reasonable size. GitHub has a file size limit of 100 MB, and large files can be inconvenient for students. We recommend compressing files larger than a few megabytes. Note that gzip compression is a good choice since common tools such as <code>R</code> and <code>Python</code> feature ways to read <code>.csv.gz</code> files directly.</li>
-</ul>
-<section id="getting-started" class="level2">
-<h2 class="anchored" data-anchor-id="getting-started">Getting Started</h2>
-<p>This website is built using <a href="https://quarto.org/">quarto</a> and rendered into a website. To contribute a dataset, you only need to fill out a template file with the dataset information.</p>
-<p>You can get the template in two ways:</p>
+<section id="motivation" class="level2">
+<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
+<p>The <a href="https://www.nba.com/">National Basketball Association (NBA)</a> is the top men’s professional basketball league in the world. While players have predefined positions, the sport is becoming increasingly <em>positionless</em> - with centers attempting more three point shots and guards driving the ball inside to dunk. With this dataset, you can explore clustering NBA players based on various types of statistics and compare your players labels to the predefined positions.</p>
+</section>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p>This dataset contains statistics about 812 player-team stints for during the 2021-2022 NBA regular season. For players that played for <span class="math inline">\(T\)</span> teams during the season (due to trade), there are <span class="math inline">\(T+1\)</span> rows with one row for their performance with each of the <span class="math inline">\(T\)</span> teams and another row indicating their total performance (where <code>tm = TOT</code>) across the full season regardless of team. The counting stats are reported on a per 100 team possessions scale, to normalize for playing time differences.</p>
+<p>The data was collected using the <a href="https://github.com/rtelmore/ballr"><code>ballr</code> package in <code>R</code></a>., which gathers data from <a href="https://www.basketball-reference.com//leagues/NBA_2022_per_poss.html">basketball-reference.com</a>.</p>
+<table class="table">
+<caption><a href="../data/nba-player-stats-2021.csv">nba-player-stats.csv</a></caption>
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>player</td>
+<td>Name of player</td>
+</tr>
+<tr class="even">
+<td>pos</td>
+<td>Player’s designated position</td>
+</tr>
+<tr class="odd">
+<td>age</td>
+<td>Player’s age on February 1st of the season</td>
+</tr>
+<tr class="even">
+<td>tm</td>
+<td>Name of team</td>
+</tr>
+<tr class="odd">
+<td>g</td>
+<td>Number of games</td>
+</tr>
+<tr class="even">
+<td>gs</td>
+<td>Number of games started</td>
+</tr>
+<tr class="odd">
+<td>mp</td>
+<td>Number of minutes played</td>
+</tr>
+<tr class="even">
+<td>fg</td>
+<td>Field goals per 100 team possessions</td>
+</tr>
+<tr class="odd">
+<td>fga</td>
+<td>Field goal attempts per 100 team possessions</td>
+</tr>
+<tr class="even">
+<td>fgpercent</td>
+<td>Field goal percentage</td>
+</tr>
+<tr class="odd">
+<td>x3p</td>
+<td>3 point field goals per 100 team possessions</td>
+</tr>
+<tr class="even">
+<td>x3pa</td>
+<td>3 point field goal attempts per 100 team possessions</td>
+</tr>
+<tr class="odd">
+<td>x3ppercent</td>
+<td>3 point field goal percentage</td>
+</tr>
+<tr class="even">
+<td>x2p</td>
+<td>2 point field goals per 100 team possessions</td>
+</tr>
+<tr class="odd">
+<td>x2pa</td>
+<td>2 point field goal attempts per 100 team possessions</td>
+</tr>
+<tr class="even">
+<td>x2ppercent</td>
+<td>2 point field goal percentage</td>
+</tr>
+<tr class="odd">
+<td>ft</td>
+<td>Free throws per 100 team possessions</td>
+</tr>
+<tr class="even">
+<td>fta</td>
+<td>Free throw attempts per 100 team possessions</td>
+</tr>
+<tr class="odd">
+<td>ftpercent</td>
+<td>Free throw percentage</td>
+</tr>
+<tr class="even">
+<td>orb</td>
+<td>Offensive rebounds per 100 team possessions</td>
+</tr>
+<tr class="odd">
+<td>drb</td>
+<td>Defensive rebounds per 100 team possessions</td>
+</tr>
+<tr class="even">
+<td>trb</td>
+<td>Total rebounds per 100 team possessions</td>
+</tr>
+<tr class="odd">
+<td>ast</td>
+<td>Assists per 100 team possessions</td>
+</tr>
+<tr class="even">
+<td>stl</td>
+<td>Steals per 100 team possessions</td>
+</tr>
+<tr class="odd">
+<td>blk</td>
+<td>Blocks per 100 team possessions</td>
+</tr>
+<tr class="even">
+<td>tov</td>
+<td>Turnovers per 100 team possessions</td>
+</tr>
+<tr class="odd">
+<td>pf</td>
+<td>Personal fouls per 100 team possessions</td>
+</tr>
+<tr class="even">
+<td>pts</td>
+<td>Points per 100 team possessions</td>
+</tr>
+<tr class="odd">
+<td>ortg</td>
+<td>Offensive Rating - an estimate of points produced per 100 possessions scale</td>
+</tr>
+<tr class="even">
+<td>drtg</td>
+<td>Defensive Rating - an estimate of points allowed per 100 possessions scale</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="questions" class="level2">
+<h2 class="anchored" data-anchor-id="questions">Questions</h2>
 <ol type="1">
-<li>Copy the <a href="https://github.com/SCOREnetworkorg/sports-data-repository/blob/main/_dataset-template.qmd"><code>_dataset-template.qmd</code> file from our GitHub repository</a> and save it on your computer. Once you’re done, you can email us the file and the data.</li>
-<li>Fork <a href="https://github.com/SCOREnetworkorg/sports-data-repository">our GitHub repository</a> into your own GitHub account and edit it like any other Git repository. Once you’re done, you can submit a pull request.</li>
+<li><p>Apply a clustering technique using the player statistics to create new labels for the types of NBA players, and compare to their known position labels. Compare and contrast your data-defined roles to the traditional basketball positions.</p></li>
+<li><p>Using principal component analysis, project the players into a lower dimensional space. Choose an appropriate number of principal components, and describe which statistics contribute to your selected number of components. Based on your results, which player statistics explain the most variation between players in the dataset? Which stats are independent of each other?</p></li>
 </ol>
 </section>
-<section id="the-dataset-template" class="level2">
-<h2 class="anchored" data-anchor-id="the-dataset-template">The Dataset Template</h2>
-<p>The dataset template is a <a href="https://quarto.org/docs/guide/">Quarto</a> file. The template asks for:</p>
-<ul>
-<li>Basic metadata to tag the dataset, such as the statistics &amp; data science topic, a short title, and your name. (All submissions are credited with the name of the submitter.)</li>
-<li>A description of the sports question to motivate analysis with the dataset.</li>
-<li>A description of the dataset with documentation about each variable. The file should make it clear what a single row of the dataset represents, and clearly describe each of the variables (including units of measure when relevant).</li>
-<li>References to the original source of the data. If the source is a code package, then include an appropriate citation with a link to the package. If the source is an academic paper and the data is deposited in a third-party repository (e.g., Figshare), then include references to both the paper and the archived dataset. When available, include the DOIs of the references.</li>
-</ul>
-<p>The template is meant to prevent a common problem with course datasets: they get passed down from instructor to instructor, and eventually all information about the original source is lost. The dataset may be presented to students without context or important details (like units), and the instructor may not be able to find the original data or references to answer questions about the data.</p>
-</section>
-<section id="submitting" class="level2">
-<h2 class="anchored" data-anchor-id="submitting">Submitting</h2>
-<p>Once you’ve filled in the template, you can either:</p>
-<ol type="1">
-<li><p>Email the template file, the data, and any code for preparing the data to the repository editor (currently Ron Yurko).</p></li>
-<li><p>Submit a pull request to <a href="https://github.com/SCOREnetworkorg/sports-data-repository">our repository on GitHub</a>. Save the Qmd with a meaningful name and place it in its relevant sports directory (e.g., <code>baseball/</code> or <code>tennis/</code>). Place the data files in <code>data/</code>. Place any code to prepare the data in the <code>_prep/</code> folder, inside another folder with a name matching the submitted dataset. Once you’ve committed all of the necessary files (without anything extraneous) then you can submit a pull request.</p></li>
-</ol>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>Elmore R (2020). <em>ballr: Access to Current and Historical Basketball Data</em>. R package version 0.2.6.</p>
 
 
 </section>
