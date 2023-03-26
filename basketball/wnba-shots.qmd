@@ -1,0 +1,60 @@
+---
+title: Women's National Basketball Association Shots
+author: Ron Yurko
+date: March 25, 2023
+description: Information about shots during the 2021-2022 WNBA season
+categories:
+  - classification
+  - logistic regression
+  - generalized additive models
+  - multinomial logistic regression
+  - naive bayes classifier
+  - density estimation
+---
+
+## Motivation
+
+The [Women's National Basketball Association (WNBA)](https://www.wnba.com/) is the top professional women's basketball league in the world. The league records every shot players take along with contextual information about the shot such as its location, a description of the shot type, as well as the outcome. With this dataset, you can predict the success of each shot attempt to compute the expected value of shot types and compare team decision making.
+
+## Data
+
+This dataset contains information about 41,497 shots during the 2021-2022 WNBA season. 
+
+The data was collected using the [`wehoop` package in `R`](https://wehoop.sportsdataverse.org/). 
+
+
+| Variable | Description |
+|----|-------------|
+| game_id |	Unique integer ID for each WNBA game |
+| game_play_number |	Integer indicating the recorded play number for the shot attempt, where 1 indicates the first play of the game |
+| desc |	String detailed description of shot attempt |
+| shot_type |	String description of the shot type (e.g., dunk, layup, jump shot, etc.) |
+| made_shot |	Boolean denoting if the shot was made (TRUE) or not (FALSE) |
+| shot_value | Numeric value of the shot outcome (0 for shots that were not made, and a positive value for made shots) |
+| coordinate_x |	Horizontal location in feet of shot attempt where the hoop would be located at 25 feet |
+| coordinate_y |	Vertical location in feet of shot attempt with respect to the target hoop (the hoop should be a little in front of 0 but the coordinate system is not exact) |
+| shooting_team |	String name of the team taking the shot |
+| home_name |	String name of the home team |
+| away_name |	String name of the away team |
+| home_score |	Integer value of the home team score after the shot |
+| away_score |	Integer value of the away team score after the shot |
+| qtr | Integer denoting the quarter/period in the game |
+| quarter_seconds_remaining |	Numeric integer value for number of seconds remaining in quarter/period |
+| game_seconds_remaining |	Numeric integer value for number of seconds remaining in game |
+
+: [wnba-shots-2021.csv.gz](../data/wnba-shots-2021.csv.gz)
+
+
+## Questions
+
+1. Build a classification model to predict the shot outcome based on the spatial x,y coordinates of the shot. 
+
+2. Create a visualization displaying the joint frequency of shot locations. Do there appear to be any clear modes of frequently taken shots? Create a conditional version of this display by shot outcome. Does the distribution shape vary by shot outcome? (You can also perform a similar analysis by team and shot type). 
+
+## References
+
+Gilani S, Hutchinson G (2022). _wehoop: Access Women's Basketball Play by Play
+  Data_. R package version 1.5.0, <https://CRAN.R-project.org/package=wehoop>.
+  
+
+
