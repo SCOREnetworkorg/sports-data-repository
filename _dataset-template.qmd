@@ -1,8 +1,8 @@
 ---
 title: A descriptive dataset title
 author: Your Name
-date: Today's Date (e.g. February 29, 2023)
-description: A one- or two-sentence description of the data and the question to be answered using it. If possible, give a brief summary of the statistical situation, such as indicating if this is a randomized experiment, observational study, large classification task, etc.
+date: Today's Date (e.g., April 17, 2023)
+description: A one- or two-sentence description of the data. If possible, give a brief summary of the sports problem and statistical situation.
 categories:
   - list the relevant
   - statistical methods
@@ -15,12 +15,12 @@ categories:
 ## Motivation
 
 The categories above determine how this dataset is listed on the [datasets by
-methods](http://rosmarus.refsmmat.com/data-repository/by-method.html) page.
+methods](https://data.scorenetwork.org/by-statsds-topic.html) page.
 Consult that page for a list of statistical categories already used by other
 datasets.
 
 In this first section, describe the source of the dataset and what it's about.
-Give any necessary background about it and the research question. See other
+Give any necessary background about it and the sports research question of interest. See other
 datasets on the website for examples.
 
 This file is Markdown, so you *can* use formatting; [here is a guide to the
@@ -52,13 +52,12 @@ meant to give other instructors ideas for how they could use the data.
 
 ## References
 
-Give references to the original source here, such as by pasting the journal
+Give references to the original source here, such as by pasting the package
 citation:
 
-Longcore, Aldern, Eggers, Flores, Franco, Hirshfield-Yamanishi, Petrinec, Yan,
-and Barroso. “Tuning the white light spectrum of light emitting diode lamps to
-reduce attraction of nocturnal arthropods”. *Philosophical Transactions of the
-Royal Society B* 370: 20140125. <https://doi.org/10.1098/rstb.2014.0125>
+Petti B, Gilani S (2022). _baseballr: Acquiring and Analyzing Baseball
+  Data_. R package version 1.3.0,
+  <https://CRAN.R-project.org/package=baseballr>.
 
 If the dataset has a particular license, mention the license here. For example,
 "Data available under the Creative Commons Attribution license."
