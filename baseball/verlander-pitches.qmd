@@ -25,9 +25,7 @@ Data courtesy of [baseballsavant.mlb.com](https://baseballsavant.mlb.com/) and a
 | release_speed |	Pitch speed (MPH) at the time of release. |
 | description | 	A brief text description of the result of the pitch, such as a ball, foul, called_strike, swinging_strike, etc. |
 
-: [verlander-pitches-2019.csv](../data/verlander-pitches-2019.csv)
-
-: [verlander-pitches-2022.csv](../data/verlander-pitches-2022.csv)
+: [verlander-pitches-2019.csv](../data/verlander-pitches-2019.csv), [verlander-pitches-2022.csv](../data/verlander-pitches-2022.csv)
 
 
 
