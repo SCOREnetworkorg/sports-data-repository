@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.475">
+<meta name="generator" content="quarto-1.3.353">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -70,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -90,6 +90,7 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
@@ -105,128 +106,162 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">SCORE Sports Data Repository</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./by-statsds-topic.html" aria-current="page">
+    <a class="nav-link active" href="./by-statsds-topic.html" rel="" target="" aria-current="page">
  <span class="menu-text">Datasets By Topic</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./submit-data.html">
+    <a class="nav-link" href="./submit-data.html" rel="" target="">
  <span class="menu-text">Submit a Dataset</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./data-sources.html">
+    <a class="nav-link" href="./data-sources.html" rel="" target="">
  <span class="menu-text">Data Sources</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Datasets By Topic</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./by-statsds-topic.html">Datasets By Topic</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data-sources.html" class="sidebar-item-text sidebar-link">Data Sources</a>
+  <a href="./by-statsds-topic.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Datasets By Topic</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./by-statsds-topic.html" class="sidebar-item-text sidebar-link active">Datasets By Topic</a>
+  <a href="./data-sources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Sources</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./submit-data.html" class="sidebar-item-text sidebar-link">Submit a Dataset</a>
+  <a href="./submit-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Submit a Dataset</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">Baseball</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+ <span class="menu-text">Baseball</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./baseball/verlander-pitches.html" class="sidebar-item-text sidebar-link">Justin Verlander Pitches</a>
+  <a href="./baseball/verlander-pitches.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Justin Verlander Pitches</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">Basketball</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+ <span class="menu-text">Basketball</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./basketball/nba-player-stats.html" class="sidebar-item-text sidebar-link">National Basketball Association Player Statistics</a>
+  <a href="./basketball/nba-player-stats.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">National Basketball Association Player Statistics</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./basketball/wnba-shots.html" class="sidebar-item-text sidebar-link">Women’s National Basketball Association Shots</a>
+  <a href="./basketball/wnba-shots.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Women’s National Basketball Association Shots</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">Hockey</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+ <span class="menu-text">Football</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hockey/nhl-shots.html" class="sidebar-item-text sidebar-link">National Hockey League Shots</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./hockey/phf-shots.html" class="sidebar-item-text sidebar-link">Premier Hockey Federation Shots</a>
+  <a href="./football/nfl-team-statistics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">National Football League Team Statistics</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">Soccer</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+ <span class="menu-text">Hockey</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./soccer/nwsl-team-stats.html" class="sidebar-item-text sidebar-link">National Women’s Soccer League Team Statistics</a>
+  <a href="./hockey/nhl-shots.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">National Hockey League Shots</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./hockey/phf-shots.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Premier Hockey Federation Shots</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">
+ <span class="menu-text">Soccer</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./soccer/nwsl-team-stats.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">National Women’s Soccer League Team Statistics</span></a>
   </div>
 </li>
       </ul>
@@ -234,16 +269,17 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="categorical data">categorical data <span class="quarto-category-count">(2)</span></div><div class="category" data-category="chi-squared test">chi-squared test <span class="quarto-category-count">(2)</span></div><div class="category" data-category="classification">classification <span class="quarto-category-count">(2)</span></div><div class="category" data-category="clustering">clustering <span class="quarto-category-count">(1)</span></div><div class="category" data-category="density estimation">density estimation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="generalized additive models">generalized additive models <span class="quarto-category-count">(2)</span></div><div class="category" data-category="linear regression">linear regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="logistic regression">logistic regression <span class="quarto-category-count">(3)</span></div><div class="category" data-category="multinomial logistic regression">multinomial logistic regression <span class="quarto-category-count">(2)</span></div><div class="category" data-category="naive bayes classifier">naive bayes classifier <span class="quarto-category-count">(2)</span></div><div class="category" data-category="principal component analysis">principal component analysis <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="categorical data">categorical data <span class="quarto-category-count">(2)</span></div><div class="category" data-category="chi-squared test">chi-squared test <span class="quarto-category-count">(2)</span></div><div class="category" data-category="classification">classification <span class="quarto-category-count">(2)</span></div><div class="category" data-category="clustering">clustering <span class="quarto-category-count">(1)</span></div><div class="category" data-category="density estimation">density estimation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="generalized additive models">generalized additive models <span class="quarto-category-count">(2)</span></div><div class="category" data-category="linear regression">linear regression <span class="quarto-category-count">(2)</span></div><div class="category" data-category="logistic regression">logistic regression <span class="quarto-category-count">(3)</span></div><div class="category" data-category="missing data">missing data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="multinomial logistic regression">multinomial logistic regression <span class="quarto-category-count">(2)</span></div><div class="category" data-category="naive bayes classifier">naive bayes classifier <span class="quarto-category-count">(2)</span></div><div class="category" data-category="principal component analysis">principal component analysis <span class="quarto-category-count">(3)</span></div><div class="category" data-category="regularization">regularization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="variable selection">variable selection <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Datasets By Topic</h1>
+<h1 class="title">Datasets By Topic</h1>
 </div>
 
 
@@ -264,7 +300,10 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="categorical data,chi-squared test" data-listing-date-sort="1679097600000" data-listing-file-modified-sort="1681746244297" data-listing-reading-time-sort="1.88">
+<div class="quarto-post image-right" data-index="0" data-categories="categorical data,chi-squared test" data-listing-date-sort="1679097600000" data-listing-file-modified-sort="1684960554772" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./baseball/verlander-pitches.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
 <div class="body">
 <a href="./baseball/verlander-pitches.html">
 <h3 class="no-anchor listing-title">
@@ -299,7 +338,10 @@ Ron Yurko
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="clustering,principal component analysis" data-listing-date-sort="1679702400000" data-listing-file-modified-sort="1681746244301" data-listing-reading-time-sort="2.575">
+<div class="quarto-post image-right" data-index="1" data-categories="clustering,principal component analysis" data-listing-date-sort="1679702400000" data-listing-file-modified-sort="1684960554772" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./basketball/nba-player-stats.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
 <div class="body">
 <a href="./basketball/nba-player-stats.html">
 <h3 class="no-anchor listing-title">
@@ -334,7 +376,57 @@ Ron Yurko
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="classification,logistic regression,generalized additive models,multinomial logistic regression,naive bayes classifier,density estimation" data-listing-date-sort="1679529600000" data-listing-file-modified-sort="1681746244309" data-listing-reading-time-sort="2.425">
+<div class="quarto-post image-right" data-index="2" data-categories="linear regression,principal component analysis,missing data,variable selection,regularization" data-listing-date-sort="1684886400000" data-listing-file-modified-sort="1684960554784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="thumbnail">
+<p><a href="./football/nfl-team-statistics.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./football/nfl-team-statistics.html">
+<h3 class="no-anchor listing-title">
+National Football League Team Statistics
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('linear regression'); return false;">
+linear regression
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('principal component analysis'); return false;">
+principal component analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('missing data'); return false;">
+missing data
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('variable selection'); return false;">
+variable selection
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('regularization'); return false;">
+regularization
+</div>
+</div>
+<a href="./football/nfl-team-statistics.html">
+<div class="listing-description">
+<p>NFL team statistics from 1999 to 2022</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./football/nfl-team-statistics.html">
+<div class="listing-date">
+May 24, 2023
+</div>
+<div class="listing-author">
+Ron Yurko
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="classification,logistic regression,generalized additive models,multinomial logistic regression,naive bayes classifier,density estimation" data-listing-date-sort="1679529600000" data-listing-file-modified-sort="1684960554784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./hockey/nhl-shots.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
 <div class="body">
 <a href="./hockey/nhl-shots.html">
 <h3 class="no-anchor listing-title">
@@ -381,7 +473,10 @@ Ron Yurko
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="linear regression,principal component analysis" data-listing-date-sort="1679097600000" data-listing-file-modified-sort="1681746244309" data-listing-reading-time-sort="1.8">
+<div class="quarto-post image-right" data-index="4" data-categories="linear regression,principal component analysis" data-listing-date-sort="1679097600000" data-listing-file-modified-sort="1684960554784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./soccer/nwsl-team-stats.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
 <div class="body">
 <a href="./soccer/nwsl-team-stats.html">
 <h3 class="no-anchor listing-title">
@@ -416,7 +511,10 @@ Ron Yurko
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="categorical data,chi-squared test,logistic regression" data-listing-date-sort="1679529600000" data-listing-file-modified-sort="1681746244309" data-listing-reading-time-sort="1.97">
+<div class="quarto-post image-right" data-index="5" data-categories="categorical data,chi-squared test,logistic regression" data-listing-date-sort="1679529600000" data-listing-file-modified-sort="1684960554784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./hockey/phf-shots.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
 <div class="body">
 <a href="./hockey/phf-shots.html">
 <h3 class="no-anchor listing-title">
@@ -454,7 +552,10 @@ Ron Yurko
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="classification,logistic regression,generalized additive models,multinomial logistic regression,naive bayes classifier,density estimation" data-listing-date-sort="1679702400000" data-listing-file-modified-sort="1681746244301" data-listing-reading-time-sort="2.07">
+<div class="quarto-post image-right" data-index="6" data-categories="classification,logistic regression,generalized additive models,multinomial logistic regression,naive bayes classifier,density estimation" data-listing-date-sort="1679702400000" data-listing-file-modified-sort="1684960554772" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./basketball/wnba-shots.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
 <div class="body">
 <a href="./basketball/wnba-shots.html">
 <h3 class="no-anchor listing-title">
@@ -533,9 +634,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -600,6 +715,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -642,7 +843,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-      <div class="nav-footer-center">Maintained by <a href="https://www.stat.cmu.edu/~ryurko/">Ron Yurko</a></div>
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">Maintained by <a href="https://www.stat.cmu.edu/~ryurko/">Ron Yurko</a><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/by-statsds-topic.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
   </div>
 </footer>
 

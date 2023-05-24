@@ -1,105 +1,14 @@
 [
   {
-    "objectID": "data-sources.html",
-    "href": "data-sources.html",
-    "title": "Data Sources",
-    "section": "",
-    "text": "Here are some resources for finding sports datasets:\n\nCRAN Task View for Sports Analytics - catalog of R packages published on the Comprehensive R Archive Network (CRAN) organized by sport (curated by Benjamin S. Baumer, Quang Nguyen, and Gregory J. Matthews)\nSportsDataverse initiative - collection of software tools for accessing publicly available sports data (organized by Saiem Gilani)\nKaggle\nTidyTuesday - GitHub repository of datasets updated weekly with example code for accessing data (featuring a variety of sports examples)\nFiveThirtyEight - GitHub repository of datasets used in FiveThirtyEight articles"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "SCORE Sports Data Repository",
-    "section": "",
-    "text": "The SCORE Sports Data Repository curates interesting datasets across a variety of sports for use in statistics and data science education. Each dataset has the following properties:\n\nA sports question of interest, with context motivating why the dataset is relevant and interesting to explore.\nA statistics / data science topic which the dataset can be used to help teach.\nExample questions that instructors can use to help build lessons, handouts, and SCORE modules.\n\nDatasets are organized by sport along the left, but you can also browse by statistics and data science topic.\nThis repository is heavily inspired by the CMU S&DS Data Repository."
-  },
-  {
-    "objectID": "hockey/nhl-shots.html",
-    "href": "hockey/nhl-shots.html",
-    "title": "National Hockey League Shots",
-    "section": "",
-    "text": "The National Hockey League (NHL) is the top professional men’s hockey league in the world. The league records every shot players take along with contextual information about the shot such as its location, the player’s distance and angle to the goal when attempting the shot, as well as the outcome (blocked, missed, or goal). Using this information, the hockey analytics community have developed measures of shot quality known as expected goals. With this dataset, you can create your own expected goals model to predict the shot outcome given relevant features."
-  },
-  {
-    "objectID": "hockey/nhl-shots.html#data",
-    "href": "hockey/nhl-shots.html#data",
-    "title": "National Hockey League Shots",
-    "section": "Data",
-    "text": "Data\nThis dataset contains information about 104,316 shots during the 2021-2022 NHL season.\nThe data was collected using the hockeyR package in R.\n\nnhl-shots-2021.csv.gz\n\n\nVariable\nDescription\n\n\n\n\ndescription\nString detailed description of event\n\n\nshot_outcome\nString denoting the outcome of the shot, either BLOCKED_SHOT (meaning blocked by a non-goalie), GOAL, MISSED_SHOT (shot that missed the net), or SHOT (shot on net that was saved by a goalie)\n\n\nperiod\nInteger value of the game period\n\n\nperiod_seconds_remaining\nNumeric value of the seconds remaining in the period\n\n\ngame_seconds_remaining\nNumeric value of the seconds remaining in the game; negative for overtime periods\n\n\nhome_score\nInteger value of the home team score after the event\n\n\naway_score\nInteger value of the away team score after the event\n\n\nhome_name\nString name of the home team\n\n\naway_name\nString name of the away team\n\n\nevent_team\nString defining the team taking the shot\n\n\nevent_player_1_name\nString name of the primary event player\n\n\nevent_player_1_type\nString indicator for the role of event_player_1 (typically the shooter)\n\n\nevent_player_2_name\nString name of the secondary event player\n\n\nevent_player_2_type\nString indicator for the role of event_player_2 (blocker, assist, or goalie)\n\n\nstrength_code\nString indicator for game strength: EV (Even), SH (Shorthanded), or PP (Power Play)\n\n\nx_fixed\nNumeric transformed x-coordinate of event in feet, where the home team always shoots to the right, away team to the left\n\n\ny_fixed\nNumeric transformed y-coordinate of event in feet, where the home team always shoots to the right, away team to the left\n\n\nshot_distance\nNumeric distance (in feet) to center of net for unblocked shot events\n\n\nshot_angle\nNumeric angle (in degrees) to center of net for unlocked shot events"
-  },
-  {
-    "objectID": "hockey/nhl-shots.html#questions",
-    "href": "hockey/nhl-shots.html#questions",
-    "title": "National Hockey League Shots",
-    "section": "Questions",
-    "text": "Questions\n\nBuild a logistic regression model to predict whether or not the shot will result in a goal based on the shot distance and angle.\nBuild a classification model to predict the outcome based on the spatial x,y coordinates of the shot.\nCreate a visualization displaying the joint frequency of shot locations. Do there appear to be any clear modes of frequently taken shots? Create a conditional version of this display by shot outcome. Does the distribution shape vary by shot outcome? (You can also perform a similar analysis by team)."
-  },
-  {
-    "objectID": "hockey/nhl-shots.html#references",
-    "href": "hockey/nhl-shots.html#references",
-    "title": "National Hockey League Shots",
-    "section": "References",
-    "text": "References\nMorse D (2023). hockeyR: Collect and Clean Hockey Stats. R package version 1.3.1, https://github.com/danmorse314/hockeyR."
-  },
-  {
-    "objectID": "hockey/phf-shots.html",
-    "href": "hockey/phf-shots.html",
-    "title": "Premier Hockey Federation Shots",
-    "section": "",
-    "text": "The Premier Hockey Federation (PHF) is a professional women’s hockey league in North America. Recently, more data has become available for people to explore and join the women’s hockey analytics community. This dataset lets you explore shots taken during the 2021-2022 PHF season."
-  },
-  {
-    "objectID": "hockey/phf-shots.html#data",
-    "href": "hockey/phf-shots.html#data",
-    "title": "Premier Hockey Federation Shots",
-    "section": "Data",
-    "text": "Data\nThis dataset contains information about 1,502 shots during the 2021-2022 PHF season.\nThe data was collected using the fastRhockey package in R.\n\nphf-shots-2021.csv.gz\n\n\nVariable\nDescription\n\n\n\n\nplay_description\nString detailed description of event\n\n\nplay_type\nString denoting the outcome of the shot, either Goal, PP Goal (meaning power play goal), SH Goal, (meaning shorthanded goal), Shot (shot saved by goalie), or Shot BLK (meaning blocked by a non-goalie)\n\n\nperiod_id\nInteger value of the game period\n\n\ntime_remaining\nString display of time remaining in period in MM:SS format where MM and SS denotes minutes and seconds remaning respectively\n\n\nsec_from_start\nNumeric value of the seconds since the start of the game\n\n\nhome_team\nString name of the home team\n\n\naway_team\nString name of the away team\n\n\nhome_goals\nInteger value of the home team score after the event\n\n\naway_goals\nInteger value of the away team score after the event\n\n\nshooting_team\nString defining the team taking the shot\n\n\nplayer_name_1\nString name of the player taking the shot\n\n\nplayer_name_2\nString name of the secondary event player (blocker or goalie)\n\n\ngoalie_involved\nString name of the goalie involved in the shot attempt\n\n\nshot_result\nString denoting the outcome of the shot, either blocked (meaning blocked by a non-goalie), made (goal), or saved (shot on net that was saved by a goalie)\n\n\non_ice_situation\nString indicator for game strength: Even Strength or Power Play\n\n\nhome_score_total\nInteger value of the home team score at the end of the game\n\n\naway_score_total\nInteger value of the away team score at the end of the game"
-  },
-  {
-    "objectID": "hockey/phf-shots.html#questions",
-    "href": "hockey/phf-shots.html#questions",
-    "title": "Premier Hockey Federation Shots",
-    "section": "Questions",
-    "text": "Questions\n\nUsing the appropriate statistical test, assess whether or not shot_result is independent of the on_ice_situation.\nCount the number of shots taken by each team. Build a logistic regression model to predict the probability of the home team winning the game based on the number of attempted shots by each team."
-  },
-  {
-    "objectID": "hockey/phf-shots.html#references",
-    "href": "hockey/phf-shots.html#references",
-    "title": "Premier Hockey Federation Shots",
-    "section": "References",
-    "text": "References\nHowell B, Gilani S (2022). fastRhockey: Functions to Access Premier Hockey Federation and National Hockey League Play by Play Data. R package version 0.4.0, https://CRAN.R-project.org/package=fastRhockey."
-  },
-  {
-    "objectID": "baseball/verlander-pitches.html",
-    "href": "baseball/verlander-pitches.html",
-    "title": "Justin Verlander Pitches",
-    "section": "",
-    "text": "After nearly two full seasons due to injury, at the age of 39 Justin Verlander returned for the 2022 season to win the American League Cy Young award and World Series with the Houston Astros. Leading the league in a variety of statistics, Verlander dominated in his starts throughout the season. Pitch selection has played a key role into Verlander’s recent success with the Astros. Verlander throws four types of pitches (using MLB’s abbreviation): fastball (FF), slider (SL), curveball (CB), and changeup (CH). However, pitches are thrown in the context of an at-bat where the ball-strike count starts 0-0, and progresses until either the batter strikes out (reaches three strikes), is walked (reaches four balls), or is either hit-by-pitch or hits the ball in-play. As the count varies, pitchers often decide to favor certain pitches over others, e.g, with three balls (i.e., 3-X counts) the pitcher may favor throwing more accurate fastballs relative to out-of-the-zone offspeed pitches that are favored with two strikes (i.e., X-2 counts)."
-  },
-  {
-    "objectID": "baseball/verlander-pitches.html#data",
-    "href": "baseball/verlander-pitches.html#data",
-    "title": "Justin Verlander Pitches",
-    "section": "Data",
-    "text": "Data\nBelow are two datasets containing information about pitches thrown by Justin Verlander during the 2019 and 2022 seasons (with separate datasets for each season). Each dataset includes the pitch type, ball-strike count, release speed, and a description of what happened on the pitch.\nData courtesy of baseballsavant.mlb.com and accessed using the baseballr package.\n\nverlander-pitches-2019.csv, verlander-pitches-2022.csv\n\n\nVariable\nDescription\n\n\n\n\npitch_type\nThe type of pitch Verlander threw, either: fastball (FF), slider (SL), curveball (CU), or changeup (CH).\n\n\ncount\nThe ball-strike count when Verlander threw the pitch.\n\n\nrelease_speed\nPitch speed (MPH) at the time of release.\n\n\ndescription\nA brief text description of the result of the pitch, such as a ball, foul, called_strike, swinging_strike, etc."
-  },
-  {
-    "objectID": "baseball/verlander-pitches.html#questions",
-    "href": "baseball/verlander-pitches.html#questions",
-    "title": "Justin Verlander Pitches",
-    "section": "Questions",
-    "text": "Questions\n\nUsing the appropriate statistical test, assess whether or not Justin Verlander’s pitch_type is independent of the count. Perform this analysis for both the 2019 and 2022 datasets. Are the conclusions similar or different?\nWhich combinations of pitch_type and count appear more than expected under the assumption of independence? Which combinations appear fewer than expected? Perform this analysis for both the 2019 and 2022 datasets. Are the conclusions similar or different?"
-  },
-  {
-    "objectID": "baseball/verlander-pitches.html#references",
-    "href": "baseball/verlander-pitches.html#references",
-    "title": "Justin Verlander Pitches",
-    "section": "References",
-    "text": "References\nPetti B, Gilani S (2022). baseballr: Acquiring and Analyzing Baseball Data. R package version 1.3.0, https://CRAN.R-project.org/package=baseballr."
-  },
-  {
     "objectID": "soccer/nwsl-team-stats.html",
     "href": "soccer/nwsl-team-stats.html",
+    "title": "National Women’s Soccer League Team Statistics",
+    "section": "",
+    "text": "The National Women’s Soccer League (NWSL) is the top professional women’s soccer league in the United States. While a team’s record ultimately determines their ranking, goal differential (goals scored - goals conceded) is often a better indicator of a team’s ability. But what aspects of a team’s performance are related to their goal differential? The NWSL records a variety of statistics describing a team’s performance, such as the percentage of time they maintain possession, percentage of shots on target, etc. With this dataset, you can explore variation between teams as well as which statistics are relevant predictor variables of goal differential."
+  },
+  {
+    "objectID": "soccer/nwsl-team-stats.html#motivation",
+    "href": "soccer/nwsl-team-stats.html#motivation",
     "title": "National Women’s Soccer League Team Statistics",
     "section": "",
     "text": "The National Women’s Soccer League (NWSL) is the top professional women’s soccer league in the United States. While a team’s record ultimately determines their ranking, goal differential (goals scored - goals conceded) is often a better indicator of a team’s ability. But what aspects of a team’s performance are related to their goal differential? The NWSL records a variety of statistics describing a team’s performance, such as the percentage of time they maintain possession, percentage of shots on target, etc. With this dataset, you can explore variation between teams as well as which statistics are relevant predictor variables of goal differential."
@@ -126,11 +35,46 @@
     "text": "References\nDror A (2023). nwslR: Compiles dataset for the National Women’s Soccer League (NWSL). R package version 0.0.0.9001."
   },
   {
-    "objectID": "by-statsds-topic.html",
-    "href": "by-statsds-topic.html",
-    "title": "Datasets By Topic",
+    "objectID": "baseball/verlander-pitches.html",
+    "href": "baseball/verlander-pitches.html",
+    "title": "Justin Verlander Pitches",
     "section": "",
-    "text": "Justin Verlander Pitches\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\n\n\nInformation about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nNational Basketball Association Player Statistics\n\n\n\n\n\n\n\nclustering\n\n\nprincipal component analysis\n\n\n\n\nNBA player statistics from the 2021-2022 regular season\n\n\n\n\n\n\nMar 25, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nNational Hockey League Shots\n\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\n\nInformation about shots during the 2021-2022 NHL season\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nNational Women’s Soccer League Team Statistics\n\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\n\n\nNWSL team statistics from 2016 to 2022\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nPremier Hockey Federation Shots\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\nlogistic regression\n\n\n\n\nInformation about shots during the 2021-2022 PHF season\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\nWomen’s National Basketball Association Shots\n\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\n\nInformation about shots during the 2021-2022 WNBA season\n\n\n\n\n\n\nMar 25, 2023\n\n\nRon Yurko\n\n\n\n\n\n\nNo matching items"
+    "text": "After nearly two full seasons due to injury, at the age of 39 Justin Verlander returned for the 2022 season to win the American League Cy Young award and World Series with the Houston Astros. Leading the league in a variety of statistics, Verlander dominated in his starts throughout the season. Pitch selection has played a key role into Verlander’s recent success with the Astros. Verlander throws four types of pitches (using MLB’s abbreviation): fastball (FF), slider (SL), curveball (CB), and changeup (CH). However, pitches are thrown in the context of an at-bat where the ball-strike count starts 0-0, and progresses until either the batter strikes out (reaches three strikes), is walked (reaches four balls), or is either hit-by-pitch or hits the ball in-play. As the count varies, pitchers often decide to favor certain pitches over others, e.g, with three balls (i.e., 3-X counts) the pitcher may favor throwing more accurate fastballs relative to out-of-the-zone offspeed pitches that are favored with two strikes (i.e., X-2 counts)."
+  },
+  {
+    "objectID": "baseball/verlander-pitches.html#motivation",
+    "href": "baseball/verlander-pitches.html#motivation",
+    "title": "Justin Verlander Pitches",
+    "section": "",
+    "text": "After nearly two full seasons due to injury, at the age of 39 Justin Verlander returned for the 2022 season to win the American League Cy Young award and World Series with the Houston Astros. Leading the league in a variety of statistics, Verlander dominated in his starts throughout the season. Pitch selection has played a key role into Verlander’s recent success with the Astros. Verlander throws four types of pitches (using MLB’s abbreviation): fastball (FF), slider (SL), curveball (CB), and changeup (CH). However, pitches are thrown in the context of an at-bat where the ball-strike count starts 0-0, and progresses until either the batter strikes out (reaches three strikes), is walked (reaches four balls), or is either hit-by-pitch or hits the ball in-play. As the count varies, pitchers often decide to favor certain pitches over others, e.g, with three balls (i.e., 3-X counts) the pitcher may favor throwing more accurate fastballs relative to out-of-the-zone offspeed pitches that are favored with two strikes (i.e., X-2 counts)."
+  },
+  {
+    "objectID": "baseball/verlander-pitches.html#data",
+    "href": "baseball/verlander-pitches.html#data",
+    "title": "Justin Verlander Pitches",
+    "section": "Data",
+    "text": "Data\nBelow are two datasets containing information about pitches thrown by Justin Verlander during the 2019 and 2022 seasons (with separate datasets for each season). Each dataset includes the pitch type, ball-strike count, release speed, and a description of what happened on the pitch.\nData courtesy of baseballsavant.mlb.com and accessed using the baseballr package.\n\nverlander-pitches-2019.csv, verlander-pitches-2022.csv\n\n\nVariable\nDescription\n\n\n\n\npitch_type\nThe type of pitch Verlander threw, either: fastball (FF), slider (SL), curveball (CU), or changeup (CH).\n\n\ncount\nThe ball-strike count when Verlander threw the pitch.\n\n\nrelease_speed\nPitch speed (MPH) at the time of release.\n\n\ndescription\nA brief text description of the result of the pitch, such as a ball, foul, called_strike, swinging_strike, etc."
+  },
+  {
+    "objectID": "baseball/verlander-pitches.html#questions",
+    "href": "baseball/verlander-pitches.html#questions",
+    "title": "Justin Verlander Pitches",
+    "section": "Questions",
+    "text": "Questions\n\nUsing the appropriate statistical test, assess whether or not Justin Verlander’s pitch_type is independent of the count. Perform this analysis for both the 2019 and 2022 datasets. Are the conclusions similar or different?\nWhich combinations of pitch_type and count appear more than expected under the assumption of independence? Which combinations appear fewer than expected? Perform this analysis for both the 2019 and 2022 datasets. Are the conclusions similar or different?"
+  },
+  {
+    "objectID": "baseball/verlander-pitches.html#references",
+    "href": "baseball/verlander-pitches.html#references",
+    "title": "Justin Verlander Pitches",
+    "section": "References",
+    "text": "References\nPetti B, Gilani S (2022). baseballr: Acquiring and Analyzing Baseball Data. R package version 1.3.0, https://CRAN.R-project.org/package=baseballr."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SCORE Sports Data Repository",
+    "section": "",
+    "text": "The SCORE Sports Data Repository curates interesting datasets across a variety of sports for use in statistics and data science education. Each dataset has the following properties:\n\nA sports question of interest, with context motivating why the dataset is relevant and interesting to explore.\nA statistics / data science topic which the dataset can be used to help teach.\nExample questions that instructors can use to help build lessons, handouts, and SCORE modules.\n\nDatasets are organized by sport along the left, but you can also browse by statistics and data science topic.\nThis repository is heavily inspired by the CMU S&DS Data Repository."
   },
   {
     "objectID": "submit-data.html",
@@ -161,8 +105,29 @@
     "text": "Submitting\nOnce you’ve filled in the template, you can either:\n\nEmail the template file, the data, and any code for preparing the data to the repository editor (currently Ron Yurko).\nSubmit a pull request to our repository on GitHub. Save the Qmd with a meaningful name and place it in its relevant sports directory (e.g., baseball/ or tennis/). Place the data files in data/. Place any code to prepare the data in the _prep/ folder, inside another folder with a name matching the submitted dataset. Once you’ve committed all of the necessary files (without anything extraneous) then you can submit a pull request."
   },
   {
+    "objectID": "by-statsds-topic.html",
+    "href": "by-statsds-topic.html",
+    "title": "Datasets By Topic",
+    "section": "",
+    "text": "Justin Verlander Pitches\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\n\n\nInformation about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nNational Basketball Association Player Statistics\n\n\n\n\n\n\n\nclustering\n\n\nprincipal component analysis\n\n\n\n\nNBA player statistics from the 2021-2022 regular season\n\n\n\n\n\n\nMar 25, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nNational Football League Team Statistics\n\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\nmissing data\n\n\nvariable selection\n\n\nregularization\n\n\n\n\nNFL team statistics from 1999 to 2022\n\n\n\n\n\n\nMay 24, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nNational Hockey League Shots\n\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\n\nInformation about shots during the 2021-2022 NHL season\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nNational Women’s Soccer League Team Statistics\n\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\n\n\nNWSL team statistics from 2016 to 2022\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nPremier Hockey Federation Shots\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\nlogistic regression\n\n\n\n\nInformation about shots during the 2021-2022 PHF season\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nWomen’s National Basketball Association Shots\n\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\n\nInformation about shots during the 2021-2022 WNBA season\n\n\n\n\n\n\nMar 25, 2023\n\n\nRon Yurko\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "data-sources.html",
+    "href": "data-sources.html",
+    "title": "Data Sources",
+    "section": "",
+    "text": "Here are some resources for finding sports datasets:\n\nCRAN Task View for Sports Analytics - catalog of R packages published on the Comprehensive R Archive Network (CRAN) organized by sport (curated by Benjamin S. Baumer, Quang Nguyen, and Gregory J. Matthews)\nSportsDataverse initiative - collection of software tools for accessing publicly available sports data (organized by Saiem Gilani)\nKaggle\nTidyTuesday - GitHub repository of datasets updated weekly with example code for accessing data (featuring a variety of sports examples)\nFiveThirtyEight - GitHub repository of datasets used in FiveThirtyEight articles"
+  },
+  {
     "objectID": "basketball/wnba-shots.html",
     "href": "basketball/wnba-shots.html",
+    "title": "Women’s National Basketball Association Shots",
+    "section": "",
+    "text": "The Women’s National Basketball Association (WNBA) is the top professional women’s basketball league in the world. The league records every shot players take along with contextual information about the shot such as its location, a description of the shot type, as well as the outcome. With this dataset, you can predict the success of each shot attempt to compute the expected value of shot types and compare team decision making."
+  },
+  {
+    "objectID": "basketball/wnba-shots.html#motivation",
+    "href": "basketball/wnba-shots.html#motivation",
     "title": "Women’s National Basketball Association Shots",
     "section": "",
     "text": "The Women’s National Basketball Association (WNBA) is the top professional women’s basketball league in the world. The league records every shot players take along with contextual information about the shot such as its location, a description of the shot type, as well as the outcome. With this dataset, you can predict the success of each shot attempt to compute the expected value of shot types and compare team decision making."
@@ -196,6 +161,13 @@
     "text": "The National Basketball Association (NBA) is the top men’s professional basketball league in the world. While players have predefined positions, the sport is becoming increasingly positionless - with centers attempting more three point shots and guards driving the ball inside to dunk. With this dataset, you can explore clustering NBA players based on various types of statistics and compare your players labels to the predefined positions."
   },
   {
+    "objectID": "basketball/nba-player-stats.html#motivation",
+    "href": "basketball/nba-player-stats.html#motivation",
+    "title": "National Basketball Association Player Statistics",
+    "section": "",
+    "text": "The National Basketball Association (NBA) is the top men’s professional basketball league in the world. While players have predefined positions, the sport is becoming increasingly positionless - with centers attempting more three point shots and guards driving the ball inside to dunk. With this dataset, you can explore clustering NBA players based on various types of statistics and compare your players labels to the predefined positions."
+  },
+  {
     "objectID": "basketball/nba-player-stats.html#data",
     "href": "basketball/nba-player-stats.html#data",
     "title": "National Basketball Association Player Statistics",
@@ -215,5 +187,110 @@
     "title": "National Basketball Association Player Statistics",
     "section": "References",
     "text": "References\nElmore R (2020). ballr: Access to Current and Historical Basketball Data. R package version 0.2.6."
+  },
+  {
+    "objectID": "hockey/phf-shots.html",
+    "href": "hockey/phf-shots.html",
+    "title": "Premier Hockey Federation Shots",
+    "section": "",
+    "text": "The Premier Hockey Federation (PHF) is a professional women’s hockey league in North America. Recently, more data has become available for people to explore and join the women’s hockey analytics community. This dataset lets you explore shots taken during the 2021-2022 PHF season."
+  },
+  {
+    "objectID": "hockey/phf-shots.html#motivation",
+    "href": "hockey/phf-shots.html#motivation",
+    "title": "Premier Hockey Federation Shots",
+    "section": "",
+    "text": "The Premier Hockey Federation (PHF) is a professional women’s hockey league in North America. Recently, more data has become available for people to explore and join the women’s hockey analytics community. This dataset lets you explore shots taken during the 2021-2022 PHF season."
+  },
+  {
+    "objectID": "hockey/phf-shots.html#data",
+    "href": "hockey/phf-shots.html#data",
+    "title": "Premier Hockey Federation Shots",
+    "section": "Data",
+    "text": "Data\nThis dataset contains information about 1,502 shots during the 2021-2022 PHF season.\nThe data was collected using the fastRhockey package in R.\n\nphf-shots-2021.csv.gz\n\n\nVariable\nDescription\n\n\n\n\nplay_description\nString detailed description of event\n\n\nplay_type\nString denoting the outcome of the shot, either Goal, PP Goal (meaning power play goal), SH Goal, (meaning shorthanded goal), Shot (shot saved by goalie), or Shot BLK (meaning blocked by a non-goalie)\n\n\nperiod_id\nInteger value of the game period\n\n\ntime_remaining\nString display of time remaining in period in MM:SS format where MM and SS denotes minutes and seconds remaning respectively\n\n\nsec_from_start\nNumeric value of the seconds since the start of the game\n\n\nhome_team\nString name of the home team\n\n\naway_team\nString name of the away team\n\n\nhome_goals\nInteger value of the home team score after the event\n\n\naway_goals\nInteger value of the away team score after the event\n\n\nshooting_team\nString defining the team taking the shot\n\n\nplayer_name_1\nString name of the player taking the shot\n\n\nplayer_name_2\nString name of the secondary event player (blocker or goalie)\n\n\ngoalie_involved\nString name of the goalie involved in the shot attempt\n\n\nshot_result\nString denoting the outcome of the shot, either blocked (meaning blocked by a non-goalie), made (goal), or saved (shot on net that was saved by a goalie)\n\n\non_ice_situation\nString indicator for game strength: Even Strength or Power Play\n\n\nhome_score_total\nInteger value of the home team score at the end of the game\n\n\naway_score_total\nInteger value of the away team score at the end of the game"
+  },
+  {
+    "objectID": "hockey/phf-shots.html#questions",
+    "href": "hockey/phf-shots.html#questions",
+    "title": "Premier Hockey Federation Shots",
+    "section": "Questions",
+    "text": "Questions\n\nUsing the appropriate statistical test, assess whether or not shot_result is independent of the on_ice_situation.\nCount the number of shots taken by each team. Build a logistic regression model to predict the probability of the home team winning the game based on the number of attempted shots by each team."
+  },
+  {
+    "objectID": "hockey/phf-shots.html#references",
+    "href": "hockey/phf-shots.html#references",
+    "title": "Premier Hockey Federation Shots",
+    "section": "References",
+    "text": "References\nHowell B, Gilani S (2022). fastRhockey: Functions to Access Premier Hockey Federation and National Hockey League Play by Play Data. R package version 0.4.0, https://CRAN.R-project.org/package=fastRhockey."
+  },
+  {
+    "objectID": "hockey/nhl-shots.html",
+    "href": "hockey/nhl-shots.html",
+    "title": "National Hockey League Shots",
+    "section": "",
+    "text": "The National Hockey League (NHL) is the top professional men’s hockey league in the world. The league records every shot players take along with contextual information about the shot such as its location, the player’s distance and angle to the goal when attempting the shot, as well as the outcome (blocked, missed, or goal). Using this information, the hockey analytics community have developed measures of shot quality known as expected goals. With this dataset, you can create your own expected goals model to predict the shot outcome given relevant features."
+  },
+  {
+    "objectID": "hockey/nhl-shots.html#motivation",
+    "href": "hockey/nhl-shots.html#motivation",
+    "title": "National Hockey League Shots",
+    "section": "",
+    "text": "The National Hockey League (NHL) is the top professional men’s hockey league in the world. The league records every shot players take along with contextual information about the shot such as its location, the player’s distance and angle to the goal when attempting the shot, as well as the outcome (blocked, missed, or goal). Using this information, the hockey analytics community have developed measures of shot quality known as expected goals. With this dataset, you can create your own expected goals model to predict the shot outcome given relevant features."
+  },
+  {
+    "objectID": "hockey/nhl-shots.html#data",
+    "href": "hockey/nhl-shots.html#data",
+    "title": "National Hockey League Shots",
+    "section": "Data",
+    "text": "Data\nThis dataset contains information about 104,316 shots during the 2021-2022 NHL season.\nThe data was collected using the hockeyR package in R.\n\nnhl-shots-2021.csv.gz\n\n\nVariable\nDescription\n\n\n\n\ndescription\nString detailed description of event\n\n\nshot_outcome\nString denoting the outcome of the shot, either BLOCKED_SHOT (meaning blocked by a non-goalie), GOAL, MISSED_SHOT (shot that missed the net), or SHOT (shot on net that was saved by a goalie)\n\n\nperiod\nInteger value of the game period\n\n\nperiod_seconds_remaining\nNumeric value of the seconds remaining in the period\n\n\ngame_seconds_remaining\nNumeric value of the seconds remaining in the game; negative for overtime periods\n\n\nhome_score\nInteger value of the home team score after the event\n\n\naway_score\nInteger value of the away team score after the event\n\n\nhome_name\nString name of the home team\n\n\naway_name\nString name of the away team\n\n\nevent_team\nString defining the team taking the shot\n\n\nevent_player_1_name\nString name of the primary event player\n\n\nevent_player_1_type\nString indicator for the role of event_player_1 (typically the shooter)\n\n\nevent_player_2_name\nString name of the secondary event player\n\n\nevent_player_2_type\nString indicator for the role of event_player_2 (blocker, assist, or goalie)\n\n\nstrength_code\nString indicator for game strength: EV (Even), SH (Shorthanded), or PP (Power Play)\n\n\nx_fixed\nNumeric transformed x-coordinate of event in feet, where the home team always shoots to the right, away team to the left\n\n\ny_fixed\nNumeric transformed y-coordinate of event in feet, where the home team always shoots to the right, away team to the left\n\n\nshot_distance\nNumeric distance (in feet) to center of net for unblocked shot events\n\n\nshot_angle\nNumeric angle (in degrees) to center of net for unlocked shot events"
+  },
+  {
+    "objectID": "hockey/nhl-shots.html#questions",
+    "href": "hockey/nhl-shots.html#questions",
+    "title": "National Hockey League Shots",
+    "section": "Questions",
+    "text": "Questions\n\nBuild a logistic regression model to predict whether or not the shot will result in a goal based on the shot distance and angle.\nBuild a classification model to predict the outcome based on the spatial x,y coordinates of the shot.\nCreate a visualization displaying the joint frequency of shot locations. Do there appear to be any clear modes of frequently taken shots? Create a conditional version of this display by shot outcome. Does the distribution shape vary by shot outcome? (You can also perform a similar analysis by team)."
+  },
+  {
+    "objectID": "hockey/nhl-shots.html#references",
+    "href": "hockey/nhl-shots.html#references",
+    "title": "National Hockey League Shots",
+    "section": "References",
+    "text": "References\nMorse D (2023). hockeyR: Collect and Clean Hockey Stats. R package version 1.3.1, https://github.com/danmorse314/hockeyR."
+  },
+  {
+    "objectID": "football/nfl-team-statistics.html",
+    "href": "football/nfl-team-statistics.html",
+    "title": "National Football League Team Statistics",
+    "section": "",
+    "text": "The National Football League (NFL) is the top professional American football league in the world. While a team’s record ultimately determines whether or not they make the playoffs, their score differential (points for - points against) is often a better indicator of a team’s ability. But what aspects of a team’s performance are related to their point differential? Is passing more important than rushing? What about offense in comparison to defense? The NFL records a variety of statistics, and the public NFL analytics community have developed advanced metrics such as expected points added (EPA) that provide deeper insight into a team’s performance. With this dataset of statistics dating back to 1999, you can explore variation between teams since as well as which types of statistics are relevant predictor variables of record and point differential."
+  },
+  {
+    "objectID": "football/nfl-team-statistics.html#motivation",
+    "href": "football/nfl-team-statistics.html#motivation",
+    "title": "National Football League Team Statistics",
+    "section": "",
+    "text": "The National Football League (NFL) is the top professional American football league in the world. While a team’s record ultimately determines whether or not they make the playoffs, their score differential (points for - points against) is often a better indicator of a team’s ability. But what aspects of a team’s performance are related to their point differential? Is passing more important than rushing? What about offense in comparison to defense? The NFL records a variety of statistics, and the public NFL analytics community have developed advanced metrics such as expected points added (EPA) that provide deeper insight into a team’s performance. With this dataset of statistics dating back to 1999, you can explore variation between teams since as well as which types of statistics are relevant predictor variables of record and point differential."
+  },
+  {
+    "objectID": "football/nfl-team-statistics.html#data",
+    "href": "football/nfl-team-statistics.html#data",
+    "title": "National Football League Team Statistics",
+    "section": "Data",
+    "text": "Data\n: nfl-team-statistics.csv\nThis dataset contains statistics about the regular season performance for each NFL team from 1999 to 2022 team. The data was collected using the nflreadr package in R.\nEach row in the dataset corresponds to a single NFL team in a single regular season. There are a total of 765 team-seasons, with 56 total columns. The column names are organized below by the type of information they contain, with the first set of columns being self-explanatory:\n\n\n\nVariable\nDescription\n\n\n\n\nseason\nRegular season year of team’s statistics\n\n\nteam\nNFL team three letter abbreviation\n\n\n\nThere are also columns with season level outcomes:\n\n\n\nVariable\nDescription\n\n\n\n\npoints_score\nTotal number of points scored by the team\n\n\npoints_allowed\nTotal number of points allowed by the team\n\n\nwins\nNumber of games the team won\n\n\nlosses\nNumber of games the team lost\n\n\nties\nNumber of games the team tied\n\n\nscore_differential\npoints scored - points allowed\n\n\n\nThere are also several columns corresponding to offensive and defensive summaries of the team’s performance in the season separated by play type (either pass or run):\n\n\n\n\n\n\n\nVariable\nDescription\n\n\n\n\noffense/defense_completion_percentage\nPassing completion percentage either for (offense) or against (defense)\n\n\noffense/defense_total_yards_gained_pass/run\nTotal number of yards gained (offense) or allowed (defense) by play type (pass or run)\n\n\noffense/defense_ave_yards_gained_pass/run\nAverage number of yards gained (offense) or allowed (defense) per play by play type (pass or run)\n\n\noffense/defense_total_air_yards\nTotal number of air yards gained (offense) or allowed (defense), where air yards correspond to perpendicular yards traveled from the line of scrimmage to location of catch for passing plays\n\n\noffense/defense_ave_air_yards\nAverage number of air yards gained (offense) or allowed (defense) per passing play\n\n\noffense/defense_total_yac\nTotal number of yards after catch gained (offense) or allowed (defense)\n\n\noffense/defense_ave_yac\nAverage number of yards after catch gained (offense) or allowed (defense) per passing play\n\n\noffense/defense_n_plays_pass/run\nTotal number of plays by the team (offense) or against (defense) by play type (pass or run)\n\n\noffense/defense_n_interceptions\nTotal number of interceptions thrown (offense) or caught (defense)\n\n\noffense/defense/n_fumbles_lost_pass/run\nTotal number of fumbles lost (offense) or forced (defense) by play type (pass or run)\n\n\noffense/defense_total_epa_pass/run\nTotal expected points added (offense) or allowed (defense) by play type (pass or run)\n\n\noffense/defense_ave_epa_pass/run\nAverage expected points added (offense) or allowed (defense) per play by play type (pass or run)\n\n\noffense/defense_total_wpa_pass/run\nTotal win probability added (offense) or allowed (defense) by play type (pass or run)\n\n\noffense/defense_ave_wpa_pass/run\nAverage win probability added (offense) or allowed (defense) per play by play type (pass or run)\n\n\noffense/defense_total_epa_pass/run\nTotal expected points added (offense) or allowed (defense) by play type (pass or run)\n\n\noffense/defense_success_rate_pass/run\nProportion of plays with positive expected points added (offense) or allowed (defense) by play type (pass or run)\n\n\n\nThe EPA variables are advanced NFL statistics, conveying how much value a team is adding over the average team in a given situation. It’s on a points scale instead of the typically used yards, because not all yards are created equal in American football (10 yard gain on 3rd and 15 is much less valuable than a 2 yard gain on 4th and 1). For offensive stats the higher the EPA the better, but for defensive stats the lower (more negative) the EPA the better. The WPA variables are similar except they are measuring play value in terms of win probability."
+  },
+  {
+    "objectID": "football/nfl-team-statistics.html#questions",
+    "href": "football/nfl-team-statistics.html#questions",
+    "title": "National Football League Team Statistics",
+    "section": "Questions",
+    "text": "Questions\n\nBuild a linear regression model to predict score differential as a function of the team’s statistics. Which variables, if any, are predictive of score differential in a season? Are certain types of variables more predictive? (e.g., passing versus rushing,) Describe their relationships.\nUsing principal component analysis, project the team seasons into a lower dimensional space using only the team statistics that do not include points or record. Choose an appropriate number of principal components, and describe which statistics contribute to your selected number of components. Based on your results, which team statistics explain the most variation between team-seasons in the dataset? Which team statistics are independent of each other?"
+  },
+  {
+    "objectID": "football/nfl-team-statistics.html#references",
+    "href": "football/nfl-team-statistics.html#references",
+    "title": "National Football League Team Statistics",
+    "section": "References",
+    "text": "References\nHo T, Carl S (2022). nflreadr: Download ‘nflverse’ Data. R package version 1.3.1, https://CRAN.R-project.org/package=nflreadr."
   }
 ]
