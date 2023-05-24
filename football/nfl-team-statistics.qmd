@@ -1,0 +1,78 @@
+---
+title: National Football League Team Statistics
+author: Ron Yurko
+date: May 24, 2023
+description: NFL team statistics from 1999 to 2022
+categories:
+  - linear regression
+  - principal component analysis
+  - missing data
+  - variable selection
+  - regularization
+---
+
+## Motivation
+
+The [National Football League (NFL)](https://www.nfl.com/) is the top professional American football league in the world. While a team's record ultimately determines whether or not they make the playoffs, their score differential (points for - points against) is often a better indicator of a team's ability. But what aspects of a team's performance are related to their point differential? Is passing more important than rushing? What about offense in comparison to defense? The NFL records a variety of statistics, and the [public NFL analytics community]() have [developed advanced metrics](https://arxiv.org/abs/1802.00998) such as expected points added (EPA) that provide deeper insight into a team's performance. With this dataset of statistics dating back to 1999, you can explore variation between teams since as well as which types of statistics are relevant predictor variables of record and point differential.  
+
+
+## Data
+
+: [nfl-team-statistics.csv](../data/nfl-team-statistics.csv)
+
+This dataset contains statistics about the regular season performance for each NFL team from 1999 to 2022 team. The data was collected using the [`nflreadr` package in `R`](https://nflreadr.nflverse.com/index.html). 
+
+Each row in the dataset corresponds to a single NFL team in a single regular season. There are a total of 765 team-seasons, with 56 total columns. The column names are organized below by the type of information they contain, with the first set of columns being self-explanatory:
+
+| Variable | Description |
+|----|-------------|
+| season |	Regular season year of team's statistics |
+| team |	NFL team three letter abbreviation |
+
+There are also columns with season level outcomes:
+
+| Variable | Description |
+|----|-------------|
+| points_score |	Total number of points scored by the team |
+| points_allowed |	Total number of points allowed by the team |
+| wins | Number of games the team won |
+| losses | Number of games the team lost |
+| ties | Number of games the team tied |
+| score_differential | points scored - points allowed |
+
+There are also several columns corresponding to offensive and defensive summaries of the team's performance in the season separated by play type (either pass or run):
+
+| Variable | Description |
+|----|-------------|
+| offense/defense_completion_percentage |	Passing completion percentage either for (offense) or against (defense) |
+| offense/defense_total_yards_gained_pass/run | Total number of yards gained (offense) or allowed (defense) by play type (pass or run) |
+| offense/defense_ave_yards_gained_pass/run | Average number of yards gained (offense) or allowed (defense) per play by play type (pass or run) |
+| offense/defense_total_air_yards | Total number of air yards gained (offense) or allowed (defense), where air yards correspond to perpendicular yards traveled from the line of scrimmage to location of catch for passing plays |
+| offense/defense_ave_air_yards | Average number of air yards gained (offense) or allowed (defense) per passing play |
+| offense/defense_total_yac | Total number of yards after catch gained (offense) or allowed (defense) |
+| offense/defense_ave_yac | Average number of yards after catch gained (offense) or allowed (defense) per passing play |
+| offense/defense_n_plays_pass/run | Total number of plays by the team (offense) or against (defense) by play type (pass or run) |
+| offense/defense_n_interceptions | Total number of interceptions thrown (offense) or caught (defense) |
+| offense/defense/n_fumbles_lost_pass/run | Total number of fumbles lost (offense) or forced (defense) by play type (pass or run) |
+| offense/defense_total_epa_pass/run | Total expected points added (offense) or allowed (defense) by play type (pass or run) |
+| offense/defense_ave_epa_pass/run | Average expected points added (offense) or allowed (defense) per play by play type (pass or run) |
+| offense/defense_total_wpa_pass/run | Total win probability added (offense) or allowed (defense) by play type (pass or run) |
+| offense/defense_ave_wpa_pass/run | Average win probability added (offense) or allowed (defense) per play by play type (pass or run) |
+| offense/defense_total_epa_pass/run | Total expected points added (offense) or allowed (defense) by play type (pass or run) |
+| offense/defense_success_rate_pass/run | Proportion of plays with positive expected points added (offense) or allowed (defense) by play type (pass or run) |
+
+
+The EPA variables are _advanced_ NFL statistics, conveying how much value a team is adding over the average team in a given situation. It's on a points scale instead of the typically used yards, because not all yards are created equal in American football (10 yard gain on 3rd and 15 is much less valuable than a 2 yard gain on 4th and 1). For offensive stats the higher the EPA the better, but for defensive stats the lower (more negative) the EPA the better. The WPA variables are similar except they are measuring play value in terms of win probability.  
+
+
+## Questions
+
+1. Build a linear regression model to predict score differential as a function of the team's statistics. Which variables, if any, are predictive of score differential in a season? Are certain types of variables more predictive? (e.g., passing versus rushing,) Describe their relationships.
+
+2. Using principal component analysis, project the team seasons into a lower dimensional space using only the team statistics that do not include points or record. Choose an appropriate number of principal components, and describe which statistics contribute to your selected number of components. Based on your results, which team statistics explain the most variation between team-seasons in the dataset? Which team statistics are independent of each other?
+
+## References
+
+Ho T, Carl S (2022). _nflreadr: Download 'nflverse' Data_. R package
+  version 1.3.1, <https://CRAN.R-project.org/package=nflreadr>.
+  
