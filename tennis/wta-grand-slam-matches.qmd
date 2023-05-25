@@ -1,0 +1,66 @@
+---
+title: WTA Grand Slam Matches
+author: Ron Yurko
+date: May 24, 2023
+description: WTA Grand Slam Matches from 2018 to 2022
+categories:
+  - logistic regression
+  - data wrangling
+  - categorical data
+  - chi-squared test
+  - clustering
+---
+
+## Motivation
+
+The [Women's Tennis Associate (WTA)](https://www.wtatennis.com/) organizes the top women's professional tennis tour in the world. Throughout the year, there are four major tournaments yielding the most ranking points, prize money, and fame. These are known as the Grand Slam tournaments, consisting of (in order): Australian Open, French Open (aka Roland Garros), Wimbledon, and the US Open. With this dataset of information about winners and losers in WTA Grand Slam matches from 2018 to 2022, you'll be able to explore statistics collected during matches and information about the athletes to predict match outcomes.
+
+## Data
+
+: [wta-grand-slam-matches-2018to2022.csv](../data/wta-grand-slam-matches-2018to2022.csv)
+
+This dataset contains all WTA matches between 2018 and 2022, courtesy of [Jeff Sackmann's famous tennis repository](https://github.com/JeffSackmann/tennis_wta). 
+
+There are 2,413 rows in this dataset where each row corresponds to a single WTA Grand Slam match. Each row has 38 columns with general information about the matches, as well as columns describing the winner and loser of the matches:
+
+| Variable | Description |
+|----|-------------|
+| `tourney_name` | name of the Grand Slam Tournament (French Open is recorded as ROLAND GARROS) |
+| `surface` | type of court surface |
+| `tourney_date` | eight digits, YYYYMMDD, usually the Monday of the tournament week |
+| `winner/loser_seed` | seed of winning/losing player |
+| `winner/loser_name` | Name of the winning/losing player |
+| `winner/loser_hand`|  R = right, L = left, U = unknown. For ambidextrous players, this is their serving hand |
+| `winner/loser_ht` | height in centimeters, where available |
+| `winner/loser_ioc` | three-character country code |
+| `winner/loser_age` | age, in years, as of the tourney_date |
+| `score` | final match score |
+| `round` | tournament round |
+| `minutes` | match length in minutes |
+| `w/l_ace`| winner/loser's number of aces |
+| `w/l_df` | winner/loser's number of doubles faults |
+| `w/l_svpt` | winner/loser's number of serve points |
+| `w/l_1stIn` | winner/loser's number of first serves made |
+| `w/l_1stWon` | winner/loser's number of first-serve points won |
+| `w/l_2ndWon` | winner/loser's number of second-serve points won |
+| `w/l_SvGms` | winner/loser's number of serve games |
+| `w/l_bpSaved` | winner/loser's number of break points saved |
+| `w/l_bpFaced` | winner/loser's number of break points faced |
+| `winner/loser_rank` | winner/loser's WTA rank, as of the tourney_date, or the most recent ranking date before the tourney_date |
+
+Note that a full glossary of the features available for match data can be found [here](https://github.com/JeffSackmann/tennis_atp/blob/master/matches_data_dictionary.txt).
+
+
+## Questions
+
+1. After performing the appropriate data wrangling, build a logistic regression model to predict whether or not the seed favorite wins the match based on the athlete information and recorded match statistics. Which variables, if any, are predictive of the match outcome? Describe their relationships.
+
+2. Choose an athlete of interest, e.g., Serena Williams. Create a new dataset where the columns describe the performance of that athlete in each particular match. Explore how the different match information and statistics correspond to whether or not the athlete is able to win the match. 
+
+3. Explore the relationship between court surface and the various observed match statistics. This could be done by clustering matches based on the winner and loser statistics, and see how well aligned they are with the court surface type or Grand Slam event.
+
+## References
+
+Data was accessed from [Jeff Sackmann's tennis GitHub repository](https://github.com/JeffSackmann/tennis_wta). 
+
+  
