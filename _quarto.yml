@@ -3,6 +3,7 @@ project:
   resources:
     - "data/*.csv"
     - "data/*.txt"
+    - CNAME
 
 website:
   title: "SCORE Sports Data Repository"
