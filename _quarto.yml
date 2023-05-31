@@ -15,6 +15,11 @@ website:
       - by-statsds-topic.qmd
       - submit-data.qmd
       - data-sources.qmd
+    right:
+      - icon: twitter
+        href: https://twitter.com/scorenetworkorg
+      - icon: linkedin
+        href: https://www.linkedin.com/company/scorenetworkorg/
   sidebar:
     contents: auto
     collapse-level: 1
