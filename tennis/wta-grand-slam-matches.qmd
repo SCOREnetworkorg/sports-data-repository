@@ -17,8 +17,6 @@ The [Women's Tennis Associate (WTA)](https://www.wtatennis.com/) organizes the t
 
 ## Data
 
-: [wta-grand-slam-matches-2018to2022.csv](../data/wta-grand-slam-matches-2018to2022.csv)
-
 This dataset contains all WTA matches between 2018 and 2022, courtesy of [Jeff Sackmann's famous tennis repository](https://github.com/JeffSackmann/tennis_wta). 
 
 There are 2,413 rows in this dataset where each row corresponds to a single WTA Grand Slam match. Each row has 38 columns with general information about the matches, as well as columns describing the winner and loser of the matches:
@@ -47,6 +45,8 @@ There are 2,413 rows in this dataset where each row corresponds to a single WTA 
 | `w/l_bpSaved` | winner/loser's number of break points saved |
 | `w/l_bpFaced` | winner/loser's number of break points faced |
 | `winner/loser_rank` | winner/loser's WTA rank, as of the tourney_date, or the most recent ranking date before the tourney_date |
+
+: [wta-grand-slam-matches-2018to2022.csv](../data/wta-grand-slam-matches-2018to2022.csv)
 
 Note that a full glossary of the features available for match data can be found [here](https://github.com/JeffSackmann/tennis_atp/blob/master/matches_data_dictionary.txt).
 

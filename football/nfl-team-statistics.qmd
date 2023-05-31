@@ -18,8 +18,6 @@ The [National Football League (NFL)](https://www.nfl.com/) is the top profession
 
 ## Data
 
-: [nfl-team-statistics.csv](../data/nfl-team-statistics.csv)
-
 This dataset contains statistics about the regular season performance for each NFL team from 1999 to 2022 team. The data was collected using the [`nflreadr` package in `R`](https://nflreadr.nflverse.com/index.html). 
 
 Each row in the dataset corresponds to a single NFL team in a single regular season. There are a total of 765 team-seasons, with 56 total columns. The column names are organized below by the type of information they contain, with the first set of columns being self-explanatory:
@@ -28,6 +26,8 @@ Each row in the dataset corresponds to a single NFL team in a single regular sea
 |----|-------------|
 | season |	Regular season year of team's statistics |
 | team |	NFL team three letter abbreviation |
+
+: [nfl-team-statistics.csv](../data/nfl-team-statistics.csv)
 
 There are also columns with season level outcomes:
 
