@@ -42,7 +42,7 @@ find the original data or references to answer questions about the data.
 
 Once you've filled in the template, you can either:
 
-1. Email the template file, the data, and any code for preparing the data to the repository editor (currently Ron Yurko).
+1. Email the template file, the data, and any code for preparing the data to the repository editor (currently Ron Yurko: ryurko AT stat DOT cmu DOT edu).
 
 2. Submit a pull request to [our repository on GitHub](https://github.com/SCOREnetworkorg/sports-data-repository). Save the Qmd with a
 meaningful name and place it in its relevant sports directory (e.g.,
