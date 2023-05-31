@@ -102,7 +102,7 @@
     "href": "submit-data.html#submitting",
     "title": "Submit a Dataset",
     "section": "Submitting",
-    "text": "Submitting\nOnce you’ve filled in the template, you can either:\n\nEmail the template file, the data, and any code for preparing the data to the repository editor (currently Ron Yurko).\nSubmit a pull request to our repository on GitHub. Save the Qmd with a meaningful name and place it in its relevant sports directory (e.g., baseball/ or tennis/). Place the data files in data/. Place any code to prepare the data in the _prep/ folder, inside another folder with a name matching the submitted dataset. Once you’ve committed all of the necessary files (without anything extraneous) then you can submit a pull request."
+    "text": "Submitting\nOnce you’ve filled in the template, you can either:\n\nEmail the template file, the data, and any code for preparing the data to the repository editor (currently Ron Yurko: ryurko AT stat DOT cmu DOT edu).\nSubmit a pull request to our repository on GitHub. Save the Qmd with a meaningful name and place it in its relevant sports directory (e.g., baseball/ or tennis/). Place the data files in data/. Place any code to prepare the data in the _prep/ folder, inside another folder with a name matching the submitted dataset. Once you’ve committed all of the necessary files (without anything extraneous) then you can submit a pull request."
   },
   {
     "objectID": "by-statsds-topic.html",
