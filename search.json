@@ -74,7 +74,7 @@
     "href": "index.html",
     "title": "SCORE Sports Data Repository",
     "section": "",
-    "text": "The SCORE Sports Data Repository curates interesting datasets across a variety of sports for use in statistics and data science education. Each dataset has the following properties:\n\nA sports question of interest, with context motivating why the dataset is relevant and interesting to explore.\nA statistics / data science topic which the dataset can be used to help teach.\nExample questions that instructors can use to help build lessons, handouts, and SCORE modules.\n\nDatasets are organized by sport along the left, but you can also browse by statistics and data science topic.\nThis repository is heavily inspired by the CMU S&DS Data Repository."
+    "text": "The SCORE Network Sports Data Repository curates interesting datasets across a variety of sports for use in statistics and data science education. Each dataset has the following properties:\n\nA sports question of interest, with context motivating why the dataset is relevant and interesting to explore.\nA statistics / data science topic which the dataset can be used to help teach.\nExample questions that instructors can use to help build lessons, handouts, and SCORE modules.\n\nDatasets are organized by sport along the left, but you can also browse by statistics and data science topic.\nThis repository is heavily inspired by the CMU S&DS Data Repository.\nThe development of the SCORE with Data network is funded by the National Science Foundation (award 2142705)."
   },
   {
     "objectID": "submit-data.html",
