@@ -273,9 +273,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#getting-started" id="toc-getting-started" class="nav-link active" data-scroll-target="#getting-started">Getting Started</a></li>
-  <li><a href="#the-dataset-template" id="toc-the-dataset-template" class="nav-link" data-scroll-target="#the-dataset-template">The Dataset Template</a></li>
-  <li><a href="#submitting" id="toc-submitting" class="nav-link" data-scroll-target="#submitting">Submitting</a></li>
+  <li><a href="#two-ways-to-submit-a-dataset" id="toc-two-ways-to-submit-a-dataset" class="nav-link active" data-scroll-target="#two-ways-to-submit-a-dataset">Two ways to submit a dataset</a></li>
+  <li><a href="#quarto-template-file-submission-steps" id="toc-quarto-template-file-submission-steps" class="nav-link" data-scroll-target="#quarto-template-file-submission-steps">Quarto template file submission steps</a>
+  <ul class="collapse">
+  <li><a href="#dataset-template" id="toc-dataset-template" class="nav-link" data-scroll-target="#dataset-template">Dataset template</a></li>
+  <li><a href="#submitting-template-file" id="toc-submitting-template-file" class="nav-link" data-scroll-target="#submitting-template-file">Submitting template file</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/submit-data.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -306,17 +309,26 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>There should be an interesting sports question coupled with a statistics and data science topic to motivate the use of the dataset in educational material</strong>.</li>
 <li>The dataset should be in a standard format such as a CSV file and be of reasonable size. GitHub has a file size limit of 100 MB, and large files can be inconvenient for students. We recommend compressing files larger than a few megabytes. Note that gzip compression is a good choice since common tools such as <code>R</code> and <code>Python</code> feature ways to read <code>.csv.gz</code> files directly.</li>
 </ul>
-<section id="getting-started" class="level2">
-<h2 class="anchored" data-anchor-id="getting-started">Getting Started</h2>
-<p>This website is built using <a href="https://quarto.org/">quarto</a> and rendered into a website. To contribute a dataset, you only need to fill out a template file with the dataset information.</p>
-<p>You can get the template in two ways:</p>
+<section id="two-ways-to-submit-a-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="two-ways-to-submit-a-dataset">Two ways to submit a dataset</h2>
+<p>There are two ways to contribute a dataset:</p>
 <ol type="1">
-<li>Copy the <a href="https://github.com/SCOREnetworkorg/sports-data-repository/blob/main/_dataset-template.qmd"><code>_dataset-template.qmd</code> file from our GitHub repository</a> and save it on your computer. Once you’re done, you can email us the file and the data.</li>
+<li><p>Submit a dataset with the necessary information using <a href="https://docs.google.com/forms/d/e/1FAIpQLSfBQxWsF9wTlQFgAajZmB9ti8_eGySEWm-LOerT9rRwR2d9VQ/viewform?usp=sf_link">this Google form</a>. <em>This is the recommended option for contributors who are not experienced with quarto or Rmarkdown files.</em> The form will describe what information is necessary for us to create the appropriate page for your submitted dataset.</p></li>
+<li><p>Fill out a <a href="https://quarto.org/">quarto</a> template file with the dataset information, and then submit either via email or directly with a GitHub pull request.</p></li>
+</ol>
+<section id="the-rest-of-this-page-includes-information-about-submitting-a-dataset-using-the-quarto-template-file." class="level4">
+<h4 class="anchored" data-anchor-id="the-rest-of-this-page-includes-information-about-submitting-a-dataset-using-the-quarto-template-file.">The rest of this page includes information about submitting a dataset using the quarto template file.</h4>
+</section>
+</section>
+<section id="quarto-template-file-submission-steps" class="level2">
+<h2 class="anchored" data-anchor-id="quarto-template-file-submission-steps">Quarto template file submission steps</h2>
+<p>This data repository is built using <a href="https://quarto.org/">quarto</a> and rendered into a website. You can get the template file in two ways:</p>
+<ol type="1">
+<li>Copy the <a href="https://github.com/SCOREnetworkorg/sports-data-repository/blob/main/_dataset-template.qmd"><code>_dataset-template.qmd</code> file from our GitHub repository</a> and save it on your computer. Once you’re done, you can email us the file and the data (see below for email address).</li>
 <li>Fork <a href="https://github.com/SCOREnetworkorg/sports-data-repository">our GitHub repository</a> into your own GitHub account and edit it like any other Git repository. Once you’re done, you can submit a pull request.</li>
 </ol>
-</section>
-<section id="the-dataset-template" class="level2">
-<h2 class="anchored" data-anchor-id="the-dataset-template">The Dataset Template</h2>
+<section id="dataset-template" class="level3">
+<h3 class="anchored" data-anchor-id="dataset-template">Dataset template</h3>
 <p>The dataset template is a <a href="https://quarto.org/docs/guide/">Quarto</a> file. The template asks for:</p>
 <ul>
 <li>Basic metadata to tag the dataset, such as the statistics &amp; data science topic, a short title, and your name. (All submissions are credited with the name of the submitter.)</li>
@@ -326,8 +338,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>The template is meant to prevent a common problem with course datasets: they get passed down from instructor to instructor, and eventually all information about the original source is lost. The dataset may be presented to students without context or important details (like units), and the instructor may not be able to find the original data or references to answer questions about the data.</p>
 </section>
-<section id="submitting" class="level2">
-<h2 class="anchored" data-anchor-id="submitting">Submitting</h2>
+<section id="submitting-template-file" class="level3">
+<h3 class="anchored" data-anchor-id="submitting-template-file">Submitting template file</h3>
 <p>Once you’ve filled in the template, you can either:</p>
 <ol type="1">
 <li><p>Email the template file, the data, and any code for preparing the data to the repository editor (currently Ron Yurko: ryurko AT stat DOT cmu DOT edu).</p></li>
@@ -335,6 +347,7 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
