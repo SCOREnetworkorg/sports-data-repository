@@ -27,6 +27,6 @@ phf_shots_data <- phf_pbp_data %>%
 # Save dataset ------------------------------------------------------------
 
 write_csv(phf_shots_data,
-          "data/phf-shots-2021.csv.gz")
+          "data/phf-shots-2021.csv")
 
 
