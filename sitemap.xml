@@ -2,50 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://data.scorenetwork.org/basketball/wnba-shots.html</loc>
-    <lastmod>2023-06-06T02:40:37.235Z</lastmod>
+    <lastmod>2023-06-08T16:00:52.195Z</lastmod>
   </url>
   <url>
     <loc>https://data.scorenetwork.org/basketball/nba-player-stats.html</loc>
-    <lastmod>2023-06-06T02:40:39.199Z</lastmod>
+    <lastmod>2023-06-08T16:00:53.275Z</lastmod>
   </url>
   <url>
     <loc>https://data.scorenetwork.org/hockey/phf-shots.html</loc>
-    <lastmod>2023-06-06T02:40:39.787Z</lastmod>
+    <lastmod>2023-06-08T16:00:53.839Z</lastmod>
   </url>
   <url>
     <loc>https://data.scorenetwork.org/hockey/nhl-shots.html</loc>
-    <lastmod>2023-06-06T02:40:40.331Z</lastmod>
-  </url>
-  <url>
-    <loc>https://data.scorenetwork.org/submit-data.html</loc>
-    <lastmod>2023-06-06T02:40:40.831Z</lastmod>
-  </url>
-  <url>
-    <loc>https://data.scorenetwork.org/index.html</loc>
-    <lastmod>2023-06-06T02:40:41.167Z</lastmod>
-  </url>
-  <url>
-    <loc>https://data.scorenetwork.org/soccer/nwsl-team-stats.html</loc>
-    <lastmod>2023-06-06T02:40:41.627Z</lastmod>
-  </url>
-  <url>
-    <loc>https://data.scorenetwork.org/tennis/wta-grand-slam-matches.html</loc>
-    <lastmod>2023-06-06T02:40:42.127Z</lastmod>
-  </url>
-  <url>
-    <loc>https://data.scorenetwork.org/by-statsds-topic.html</loc>
-    <lastmod>2023-06-06T02:40:43.203Z</lastmod>
-  </url>
-  <url>
-    <loc>https://data.scorenetwork.org/baseball/verlander-pitches.html</loc>
-    <lastmod>2023-06-06T02:40:43.667Z</lastmod>
-  </url>
-  <url>
-    <loc>https://data.scorenetwork.org/football/nfl-team-statistics.html</loc>
-    <lastmod>2023-06-06T02:40:44.263Z</lastmod>
+    <lastmod>2023-06-08T16:00:54.459Z</lastmod>
   </url>
   <url>
     <loc>https://data.scorenetwork.org/data-sources.html</loc>
-    <lastmod>2023-06-06T02:40:44.615Z</lastmod>
+    <lastmod>2023-06-08T16:00:54.855Z</lastmod>
+  </url>
+  <url>
+    <loc>https://data.scorenetwork.org/index.html</loc>
+    <lastmod>2023-06-08T16:00:55.247Z</lastmod>
+  </url>
+  <url>
+    <loc>https://data.scorenetwork.org/football/nfl-team-statistics.html</loc>
+    <lastmod>2023-06-08T16:00:55.939Z</lastmod>
+  </url>
+  <url>
+    <loc>https://data.scorenetwork.org/tennis/wta-grand-slam-matches.html</loc>
+    <lastmod>2023-06-08T16:00:56.519Z</lastmod>
+  </url>
+  <url>
+    <loc>https://data.scorenetwork.org/soccer/nwsl-team-stats.html</loc>
+    <lastmod>2023-06-08T16:00:57.043Z</lastmod>
+  </url>
+  <url>
+    <loc>https://data.scorenetwork.org/submit-data.html</loc>
+    <lastmod>2023-06-08T16:00:57.587Z</lastmod>
+  </url>
+  <url>
+    <loc>https://data.scorenetwork.org/baseball/verlander-pitches.html</loc>
+    <lastmod>2023-06-08T16:00:58.143Z</lastmod>
+  </url>
+  <url>
+    <loc>https://data.scorenetwork.org/by-statsds-topic.html</loc>
+    <lastmod>2023-06-08T16:00:59.483Z</lastmod>
   </url>
 </urlset>

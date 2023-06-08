@@ -334,7 +334,7 @@ ul.task-list li input[type="checkbox"] {
 <p>This dataset contains information about 1,502 shots during the 2021-2022 PHF season.</p>
 <p>The data was collected using the <a href="https://fastrhockey.sportsdataverse.org/index.html"><code>fastRhockey</code> package in <code>R</code></a>.</p>
 <table class="table">
-<caption><a href="../data/phf-shots-2021.csv.gz">phf-shots-2021.csv.gz</a></caption>
+<caption><a href="../data/phf-shots-2021.csv">phf-shots-2021.csv</a></caption>
 <thead>
 <tr class="header">
 <th>Variable</th>
@@ -343,71 +343,71 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>play_description</td>
+<td><code>play_description</code></td>
 <td>String detailed description of event</td>
 </tr>
 <tr class="even">
-<td>play_type</td>
+<td><code>play_type</code></td>
 <td>String denoting the outcome of the shot, either <code>Goal</code>, <code>PP Goal</code> (meaning power play goal), <code>SH Goal</code>, (meaning shorthanded goal), <code>Shot</code> (shot saved by goalie), or <code>Shot BLK</code> (meaning blocked by a non-goalie)</td>
 </tr>
 <tr class="odd">
-<td>period_id</td>
+<td><code>period_id</code></td>
 <td>Integer value of the game period</td>
 </tr>
 <tr class="even">
-<td>time_remaining</td>
+<td><code>time_remaining</code></td>
 <td>String display of time remaining in period in <code>MM:SS</code> format where <code>MM</code> and <code>SS</code> denotes minutes and seconds remaning respectively</td>
 </tr>
 <tr class="odd">
-<td>sec_from_start</td>
+<td><code>sec_from_start</code></td>
 <td>Numeric value of the seconds since the start of the game</td>
 </tr>
 <tr class="even">
-<td>home_team</td>
+<td><code>home_team</code></td>
 <td>String name of the home team</td>
 </tr>
 <tr class="odd">
-<td>away_team</td>
+<td><code>away_team</code></td>
 <td>String name of the away team</td>
 </tr>
 <tr class="even">
-<td>home_goals</td>
+<td><code>home_goals</code></td>
 <td>Integer value of the home team score after the event</td>
 </tr>
 <tr class="odd">
-<td>away_goals</td>
+<td><code>away_goals</code></td>
 <td>Integer value of the away team score after the event</td>
 </tr>
 <tr class="even">
-<td>shooting_team</td>
+<td><code>shooting_team</code></td>
 <td>String defining the team taking the shot</td>
 </tr>
 <tr class="odd">
-<td>player_name_1</td>
+<td><code>player_name_1</code></td>
 <td>String name of the player taking the shot</td>
 </tr>
 <tr class="even">
-<td>player_name_2</td>
+<td><code>player_name_2</code></td>
 <td>String name of the secondary event player (blocker or goalie)</td>
 </tr>
 <tr class="odd">
-<td>goalie_involved</td>
+<td><code>goalie_involved</code></td>
 <td>String name of the goalie involved in the shot attempt</td>
 </tr>
 <tr class="even">
-<td>shot_result</td>
+<td><code>shot_result</code></td>
 <td>String denoting the outcome of the shot, either <code>blocked</code> (meaning blocked by a non-goalie), <code>made</code> (goal), or <code>saved</code> (shot on net that was saved by a goalie)</td>
 </tr>
 <tr class="odd">
-<td>on_ice_situation</td>
+<td><code>on_ice_situation</code></td>
 <td>String indicator for game strength: <code>Even Strength</code> or <code>Power Play</code></td>
 </tr>
 <tr class="even">
-<td>home_score_total</td>
+<td><code>home_score_total</code></td>
 <td>Integer value of the home team score at the end of the game</td>
 </tr>
 <tr class="odd">
-<td>away_score_total</td>
+<td><code>away_score_total</code></td>
 <td>Integer value of the away team score at the end of the game</td>
 </tr>
 </tbody>
