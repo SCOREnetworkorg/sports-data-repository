@@ -25,25 +25,27 @@ The data was collected using the [`hockeyR` package in `R`](https://hockeyr.netl
 
 | Variable | Description |
 |----|-------------|
-| description |	String detailed description of event |
-| shot_outcome |	String denoting the outcome of the shot, either BLOCKED_SHOT (meaning blocked by a non-goalie), GOAL, MISSED_SHOT (shot that missed the net), or SHOT (shot on net that was saved by a goalie) |
-| period |	Integer value of the game period |
-| period_seconds_remaining | Numeric value of the seconds remaining in the period |
-| game_seconds_remaining |	Numeric value of the seconds remaining in the game; negative for overtime periods |
-| home_score |	Integer value of the home team score after the event |
-| away_score |	Integer value of the away team score after the event |
-| home_name |	String name of the home team |
-| away_name |	String name of the away team |
-| event_team |	String defining the team taking the shot |
-| event_player_1_name |	String name of the primary event player |
-| event_player_1_type |	String indicator for the role of event_player_1 (typically the shooter) |
-| event_player_2_name |	String name of the secondary event player |
-| event_player_2_type |	String indicator for the role of event_player_2 (blocker, assist, or goalie) |
-| strength_code |	String indicator for game strength: EV (Even), SH (Shorthanded), or PP (Power Play) |
-| x_fixed |	Numeric transformed x-coordinate of event in feet, where the home team always shoots to the right, away team to the left |
-| y_fixed |	Numeric transformed y-coordinate of event in feet, where the home team always shoots to the right, away team to the left |
-| shot_distance |	Numeric distance (in feet) to center of net for unblocked shot events |
-| shot_angle |	Numeric angle (in degrees) to center of net for unlocked shot events |
+| `description` |	String detailed description of event |
+| `shot_outcome` |	String denoting the outcome of the shot, either BLOCKED_SHOT (meaning blocked by a non-goalie), GOAL, MISSED_SHOT (shot that missed the net), or SHOT (shot on net that was saved by a goalie) |
+| `period` |	Integer value of the game period |
+| `period_seconds_remaining` | Numeric value of the seconds remaining in the period |
+| `game_seconds_remaining` |	Numeric value of the seconds remaining in the game; negative for overtime periods |
+| `home_score` |	Integer value of the home team score after the event |
+| `away_score` |	Integer value of the away team score after the event |
+| `home_name` |	String name of the home team |
+| `away_name` |	String name of the away team |
+| `event_team` |	String defining the team taking the shot |
+| `event_goalie_name` | String name of goalie (if in net) |
+| `empty_net` | Boolean indicating if the shot was during an empty net situation, TRUE if so but FALSE or NA if not |
+| `event_player_1_name` |	String name of the primary event player |
+| `event_player_1_type` |	String indicator for the role of event_player_1 (typically the shooter) |
+| `event_player_2_name` |	String name of the secondary event player |
+| `event_player_2_type` |	String indicator for the role of event_player_2 (blocker, assist, or goalie) |
+| `strength_code` |	String indicator for game strength: EV (Even), SH (Shorthanded), or PP (Power Play) |
+| `x_fixed` |	Numeric transformed x-coordinate of event in feet, where the home team always shoots to the right, away team to the left |
+| `y_fixed` |	Numeric transformed y-coordinate of event in feet, where the home team always shoots to the right, away team to the left |
+| `shot_distance` |	Numeric distance (in feet) to center of net for unblocked shot events |
+| `shot_angle` |	Numeric angle (in degrees) to center of net for unlocked shot events |
 
 
 : [nhl-shots-2021.csv.gz](../data/nhl-shots-2021.csv.gz)
