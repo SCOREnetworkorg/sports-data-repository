@@ -16,7 +16,7 @@ nhl_pbp_data <- load_pbp(2021)
 
 nhl_shots_data <- nhl_pbp_data %>%
   filter(event_type %in% c("SHOT", "MISSED_SHOT", "GOAL", "BLOCKED_SHOT")) %>%
-  dplyr::select(description, event_type, period, period_seconds_remaining,
+  dplyr::select(game_id, description, event_type, period, period_seconds_remaining,
                 game_seconds_remaining, home_score, away_score, home_name, 
                 away_name, event_team, event_goalie_name, empty_net,
                 event_player_1_name, event_player_1_type,

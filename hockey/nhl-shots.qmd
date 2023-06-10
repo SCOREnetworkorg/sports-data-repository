@@ -25,7 +25,8 @@ The data was collected using the [`hockeyR` package in `R`](https://hockeyr.netl
 
 | Variable | Description |
 |----|-------------|
-| `description` |	String detailed description of event |
+| `game_id` | Unique integer identifier for game shot took place in |
+| `description` |	String detailed description of shot event |
 | `shot_outcome` |	String denoting the outcome of the shot, either BLOCKED_SHOT (meaning blocked by a non-goalie), GOAL, MISSED_SHOT (shot that missed the net), or SHOT (shot on net that was saved by a goalie) |
 | `period` |	Integer value of the game period |
 | `period_seconds_remaining` | Numeric value of the seconds remaining in the period |
