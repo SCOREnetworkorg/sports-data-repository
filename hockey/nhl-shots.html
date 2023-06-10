@@ -346,86 +346,90 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>description</code></td>
-<td>String detailed description of event</td>
+<td><code>game_id</code></td>
+<td>Unique integer identifier for game shot took place in</td>
 </tr>
 <tr class="even">
+<td><code>description</code></td>
+<td>String detailed description of shot event</td>
+</tr>
+<tr class="odd">
 <td><code>shot_outcome</code></td>
 <td>String denoting the outcome of the shot, either BLOCKED_SHOT (meaning blocked by a non-goalie), GOAL, MISSED_SHOT (shot that missed the net), or SHOT (shot on net that was saved by a goalie)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>period</code></td>
 <td>Integer value of the game period</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>period_seconds_remaining</code></td>
 <td>Numeric value of the seconds remaining in the period</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>game_seconds_remaining</code></td>
 <td>Numeric value of the seconds remaining in the game; negative for overtime periods</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>home_score</code></td>
 <td>Integer value of the home team score after the event</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>away_score</code></td>
 <td>Integer value of the away team score after the event</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>home_name</code></td>
 <td>String name of the home team</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>away_name</code></td>
 <td>String name of the away team</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>event_team</code></td>
 <td>String defining the team taking the shot</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>event_goalie_name</code></td>
 <td>String name of goalie (if in net)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>empty_net</code></td>
 <td>Boolean indicating if the shot was during an empty net situation, TRUE if so but FALSE or NA if not</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>event_player_1_name</code></td>
 <td>String name of the primary event player</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>event_player_1_type</code></td>
 <td>String indicator for the role of event_player_1 (typically the shooter)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>event_player_2_name</code></td>
 <td>String name of the secondary event player</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>event_player_2_type</code></td>
 <td>String indicator for the role of event_player_2 (blocker, assist, or goalie)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>strength_code</code></td>
 <td>String indicator for game strength: EV (Even), SH (Shorthanded), or PP (Power Play)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>x_fixed</code></td>
 <td>Numeric transformed x-coordinate of event in feet, where the home team always shoots to the right, away team to the left</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>y_fixed</code></td>
 <td>Numeric transformed y-coordinate of event in feet, where the home team always shoots to the right, away team to the left</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>shot_distance</code></td>
 <td>Numeric distance (in feet) to center of net for unblocked shot events</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>shot_angle</code></td>
 <td>Numeric angle (in degrees) to center of net for unlocked shot events</td>
 </tr>
