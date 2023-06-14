@@ -18,7 +18,7 @@ The [National Hockey League (NHL)](https://www.nhl.com/) is the top professional
 
 ## Data
 
-This dataset contains information about 104,316 shots during the 2021-2022 NHL season. 
+This dataset contains information about 160,573 shots during the 2021-2022 NHL season. 
 
 The data was collected using the [`hockeyR` package in `R`](https://hockeyr.netlify.app/index.html). 
 
