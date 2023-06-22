@@ -10,18 +10,25 @@ The goal of this repository is to provide a collection of relevant and engaging 
 - The dataset should be in a standard format such as a CSV file and be of reasonable size. GitHub has a file size limit of 100 MB, and large files can be inconvenient for students. We recommend compressing files larger than a few megabytes. Note that gzip compression is a good choice since common tools such as `R` and `Python` feature ways to read `.csv.gz` files directly.
 
 
-## Getting Started
+## Two ways to submit a dataset
 
-This website is built using [quarto](https://quarto.org/) and rendered into a
-website. To contribute a dataset, you only need to fill out a template file with
-the dataset information.
+There are two ways to contribute a dataset:
 
-You can get the template in two ways:
+1. Submit a dataset with the necessary information using [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSfBQxWsF9wTlQFgAajZmB9ti8_eGySEWm-LOerT9rRwR2d9VQ/viewform?usp=sf_link). _This is the recommended option for contributors who are not experienced with quarto or Rmarkdown files._ The form will describe what information is necessary for us to create the appropriate page for your submitted dataset.
 
-1. Copy the [`_dataset-template.qmd` file from our GitHub repository](https://github.com/SCOREnetworkorg/sports-data-repository/blob/main/_dataset-template.qmd) and save it on your computer. Once you're done, you can email us the file and the data.
+2. Fill out a [quarto](https://quarto.org/) template file with the dataset information, and then submit either via email or directly with a GitHub pull request.
+
+#### The rest of this page includes information about submitting a dataset using the quarto template file.
+
+## Quarto template file submission steps
+
+This data repository is built using [quarto](https://quarto.org/) and rendered into a
+website. You can get the template file in two ways:
+
+1. Copy the [`_dataset-template.qmd` file from our GitHub repository](https://github.com/SCOREnetworkorg/sports-data-repository/blob/main/_dataset-template.qmd) and save it on your computer. Once you're done, you can email us the file and the data (see below for email address).
 2. Fork [our GitHub repository](https://github.com/SCOREnetworkorg/sports-data-repository) into your own GitHub account and edit it like any other Git repository. Once you're done, you can submit a pull request.
 
-## The Dataset Template
+### Dataset template
 
 The dataset template is a [Quarto](https://quarto.org/docs/guide/) file. The template asks for:
 
@@ -38,11 +45,11 @@ the original source is lost. The dataset may be presented to students without
 context or important details (like units), and the instructor may not be able to
 find the original data or references to answer questions about the data.
 
-## Submitting
+### Submitting template file
 
 Once you've filled in the template, you can either:
 
-1. Email the template file, the data, and any code for preparing the data to the repository editor (currently Ron Yurko).
+1. Email the template file, the data, and any code for preparing the data to the repository editor (currently Ron Yurko: ryurko AT stat DOT cmu DOT edu).
 
 2. Submit a pull request to [our repository on GitHub](https://github.com/SCOREnetworkorg/sports-data-repository). Save the Qmd with a
 meaningful name and place it in its relevant sports directory (e.g.,

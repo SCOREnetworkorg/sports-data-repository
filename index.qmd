@@ -2,7 +2,7 @@
 title: "SCORE Sports Data Repository"
 ---
 
-The SCORE Sports Data Repository curates interesting datasets across a variety of sports for use in statistics and data science education. Each dataset has the following properties:
+The [SCORE Network](https://scorenetwork.org/index.html) Sports Data Repository curates interesting datasets across a variety of sports for use in statistics and data science education. Each dataset has the following properties:
 
 * A _sports question_ of interest, with context motivating why the dataset is relevant and interesting to explore.
 * A _statistics / data science topic_ which the dataset can be used to help teach.
@@ -11,5 +11,7 @@ The SCORE Sports Data Repository curates interesting datasets across a variety o
 Datasets are organized by sport along the left, but you can also browse [by statistics and data science topic](by-statsds-topic.qmd).
 
 This repository is heavily inspired by the [CMU S&DS Data Repository](https://cmustatistics.github.io/data-repository/).
+
+_The development of the SCORE with Data network is funded by the National Science Foundation (award 2142705)._
 
 

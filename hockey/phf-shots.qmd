@@ -22,25 +22,25 @@ The data was collected using the [`fastRhockey` package in `R`](https://fastrhoc
 
 | Variable | Description |
 |----|-------------|
-| play_description |	String detailed description of event |
-| play_type |	String denoting the outcome of the shot, either `Goal`, `PP Goal` (meaning power play goal), `SH Goal`, (meaning shorthanded goal), `Shot` (shot saved by goalie), or `Shot BLK` (meaning blocked by a non-goalie) |
-| period_id |	Integer value of the game period |
-| time_remaining | String display of time remaining in period in `MM:SS` format where `MM` and `SS` denotes minutes and seconds remaning respectively |
-| sec_from_start |	Numeric value of the seconds since the start of the game |
-| home_team |	String name of the home team |
-| away_team |	String name of the away team |
-| home_goals |	Integer value of the home team score after the event |
-| away_goals |	Integer value of the away team score after the event |
-| shooting_team |	String defining the team taking the shot |
-| player_name_1 |	String name of the player taking the shot |
-| player_name_2 |	String name of the secondary event player (blocker or goalie) |
-| goalie_involved |	String name of the goalie involved in the shot attempt |
-| shot_result |	String denoting the outcome of the shot, either `blocked` (meaning blocked by a non-goalie), `made` (goal), or `saved` (shot on net that was saved by a goalie) |
-| on_ice_situation |	String indicator for game strength: `Even Strength` or `Power Play` |
-| home_score_total |	Integer value of the home team score at the end of the game |
-| away_score_total |	Integer value of the away team score at the end of the game  |
+| `play_description` |	String detailed description of event |
+| `play_type` |	String denoting the outcome of the shot, either `Goal`, `PP Goal` (meaning power play goal), `SH Goal`, (meaning shorthanded goal), `Shot` (shot saved by goalie), or `Shot BLK` (meaning blocked by a non-goalie) |
+| `period_id` |	Integer value of the game period |
+| `time_remaining` | String display of time remaining in period in `MM:SS` format where `MM` and `SS` denotes minutes and seconds remaning respectively |
+| `sec_from_start` |	Numeric value of the seconds since the start of the game |
+| `home_team` |	String name of the home team |
+| `away_team` |	String name of the away team |
+| `home_goals` |	Integer value of the home team score after the event |
+| `away_goals` |	Integer value of the away team score after the event |
+| `shooting_team` |	String defining the team taking the shot |
+| `player_name_1` |	String name of the player taking the shot |
+| `player_name_2` |	String name of the secondary event player (blocker or goalie) |
+| `goalie_involved` |	String name of the goalie involved in the shot attempt |
+| `shot_result` |	String denoting the outcome of the shot, either `blocked` (meaning blocked by a non-goalie), `made` (goal), or `saved` (shot on net that was saved by a goalie) |
+| `on_ice_situation` |	String indicator for game strength: `Even Strength` or `Power Play` |
+| `home_score_total` |	Integer value of the home team score at the end of the game |
+| `away_score_total` |	Integer value of the away team score at the end of the game  |
 
-: [phf-shots-2021.csv.gz](../data/phf-shots-2021.csv.gz)
+: [phf-shots-2021.csv](../data/phf-shots-2021.csv)
 
 
 ## Questions
