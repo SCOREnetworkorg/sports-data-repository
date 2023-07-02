@@ -2,58 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://data.scorenetwork.org/by-statsds-topic.html</loc>
-    <lastmod>2023-06-30T22:18:36.468Z</lastmod>
+    <lastmod>2023-07-02T20:46:03.995Z</lastmod>
   </url>
   <url>
     <loc>https://data.scorenetwork.org/submit-data.html</loc>
-    <lastmod>2023-06-30T22:18:34.172Z</lastmod>
+    <lastmod>2023-07-02T20:46:02.207Z</lastmod>
   </url>
   <url>
     <loc>https://data.scorenetwork.org/data-sources.html</loc>
-    <lastmod>2023-06-30T22:18:33.040Z</lastmod>
+    <lastmod>2023-07-02T20:46:01.315Z</lastmod>
   </url>
   <url>
     <loc>https://data.scorenetwork.org/lacrosse/lacrosse_pll_vs_nll.html</loc>
-    <lastmod>2023-06-30T22:18:32.212Z</lastmod>
+    <lastmod>2023-07-02T20:46:00.655Z</lastmod>
   </url>
   <url>
     <loc>https://data.scorenetwork.org/basketball/wnba-shots.html</loc>
-    <lastmod>2023-06-30T22:18:31.040Z</lastmod>
+    <lastmod>2023-07-02T20:45:59.735Z</lastmod>
   </url>
   <url>
     <loc>https://data.scorenetwork.org/hockey/nhl-shots.html</loc>
-    <lastmod>2023-06-30T22:18:29.828Z</lastmod>
+    <lastmod>2023-07-02T20:45:58.879Z</lastmod>
   </url>
   <url>
     <loc>https://data.scorenetwork.org/golf/pga_drive_putt.html</loc>
-    <lastmod>2023-06-30T22:18:28.620Z</lastmod>
+    <lastmod>2023-07-02T20:45:57.943Z</lastmod>
+  </url>
+  <url>
+    <loc>https://data.scorenetwork.org/esports/lol-buff-nerf.html</loc>
+    <lastmod>2023-07-02T20:45:56.643Z</lastmod>
   </url>
   <url>
     <loc>https://data.scorenetwork.org/tennis/wta-grand-slam-matches.html</loc>
-    <lastmod>2023-06-30T22:18:27.580Z</lastmod>
+    <lastmod>2023-07-02T20:45:57.459Z</lastmod>
   </url>
   <url>
     <loc>https://data.scorenetwork.org/hockey/phf-shots.html</loc>
-    <lastmod>2023-06-30T22:18:29.192Z</lastmod>
+    <lastmod>2023-07-02T20:45:58.403Z</lastmod>
   </url>
   <url>
     <loc>https://data.scorenetwork.org/soccer/nwsl-team-stats.html</loc>
-    <lastmod>2023-06-30T22:18:30.380Z</lastmod>
+    <lastmod>2023-07-02T20:45:59.295Z</lastmod>
   </url>
   <url>
     <loc>https://data.scorenetwork.org/basketball/nba-player-stats.html</loc>
-    <lastmod>2023-06-30T22:18:31.656Z</lastmod>
+    <lastmod>2023-07-02T20:46:00.243Z</lastmod>
   </url>
   <url>
     <loc>https://data.scorenetwork.org/index.html</loc>
-    <lastmod>2023-06-30T22:18:32.620Z</lastmod>
+    <lastmod>2023-07-02T20:46:00.975Z</lastmod>
   </url>
   <url>
     <loc>https://data.scorenetwork.org/baseball/verlander-pitches.html</loc>
-    <lastmod>2023-06-30T22:18:33.576Z</lastmod>
+    <lastmod>2023-07-02T20:46:01.751Z</lastmod>
   </url>
   <url>
     <loc>https://data.scorenetwork.org/football/nfl-team-statistics.html</loc>
-    <lastmod>2023-06-30T22:18:34.880Z</lastmod>
+    <lastmod>2023-07-02T20:46:02.755Z</lastmod>
   </url>
 </urlset>

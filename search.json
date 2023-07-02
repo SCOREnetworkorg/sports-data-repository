@@ -4,7 +4,7 @@
     "href": "by-statsds-topic.html",
     "title": "Datasets By Topic",
     "section": "",
-    "text": "Justin Verlander Pitches\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\n\n\nInformation about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nLacrosse PLL vs. NLL\n\n\n\n\n\n\n\nDifference in means hypothesis tests\n\n\nDifference in means confidence intervals\n\n\n\n\nThe data set looks at both lacrosse leagues, their respective teams, and their shot and goal amounts.\n\n\n\n\n\n\nJun 22, 2023\n\n\nAJ Dykstra, Jack Cowan, and Ivan Ramler\n\n\n\n\n\n\n  \n\n\n\n\nNational Basketball Association Player Statistics\n\n\n\n\n\n\n\nclustering\n\n\nprincipal component analysis\n\n\n\n\nNBA player statistics from the 2021-2022 regular season\n\n\n\n\n\n\nMar 25, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nNational Football League Team Statistics\n\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\nmissing data\n\n\nvariable selection\n\n\nregularization\n\n\n\n\nNFL team statistics from 1999 to 2022\n\n\n\n\n\n\nMay 24, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nNational Hockey League Shots\n\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\n\nInformation about shots during the 2021-2022 NHL season\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nNational Women’s Soccer League Team Statistics\n\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\n\n\nNWSL team statistics from 2016 to 2022\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nPremier Hockey Federation Shots\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\nlogistic regression\n\n\n\n\nInformation about shots during the 2021-2022 PHF season\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nStatistics of PGA Tournaments During the 2022 Season\n\n\n\n\n\n\n\ncorrelation\n\n\nlinear regression\n\n\n\n\nMeasures of Putting, Driving, and Success for individual golfers in 19 professional tournaments in 2022\n\n\n\n\n\n\nMay 19, 2023\n\n\nAlysssa Bigness\n\n\n\n\n\n\n  \n\n\n\n\nWTA Grand Slam Matches\n\n\n\n\n\n\n\nlogistic regression\n\n\ndata wrangling\n\n\ncategorical data\n\n\nchi-squared test\n\n\nclustering\n\n\n\n\nWTA Grand Slam Matches from 2018 to 2022\n\n\n\n\n\n\nMay 24, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nWomen’s National Basketball Association Shots\n\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\n\nInformation about shots during the 2021-2022 WNBA season\n\n\n\n\n\n\nMar 25, 2023\n\n\nRon Yurko\n\n\n\n\n\n\nNo matching items"
+    "text": "Justin Verlander Pitches\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\n\n\nInformation about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nLacrosse PLL vs. NLL\n\n\n\n\n\n\n\nDifference in means hypothesis tests\n\n\nDifference in means confidence intervals\n\n\n\n\nThe data set looks at both lacrosse leagues, their respective teams, and their shot and goal amounts.\n\n\n\n\n\n\nJun 22, 2023\n\n\nAJ Dykstra, Jack Cowan, and Ivan Ramler\n\n\n\n\n\n\n  \n\n\n\n\nLeague of Legends - Buffing and Nerfing\n\n\n\n\n\n\n\noutlier detection\n\n\nfive number summary\n\n\nz-scores\n\n\n\n\nGame play statistics for League of Legends champions in two different patches. Can detecting outliers indicate champions that should be enhanced (buffed) or scaled back (nerfed)?\n\n\n\n\n\n\nJul 1, 2023\n\n\nGeorge Charalambous, Ivan Ramler, and A.J. Dykstra\n\n\n\n\n\n\n  \n\n\n\n\nNational Basketball Association Player Statistics\n\n\n\n\n\n\n\nclustering\n\n\nprincipal component analysis\n\n\n\n\nNBA player statistics from the 2021-2022 regular season\n\n\n\n\n\n\nMar 25, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nNational Football League Team Statistics\n\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\nmissing data\n\n\nvariable selection\n\n\nregularization\n\n\n\n\nNFL team statistics from 1999 to 2022\n\n\n\n\n\n\nMay 24, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nNational Hockey League Shots\n\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\n\nInformation about shots during the 2021-2022 NHL season\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nNational Women’s Soccer League Team Statistics\n\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\n\n\nNWSL team statistics from 2016 to 2022\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nPremier Hockey Federation Shots\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\nlogistic regression\n\n\n\n\nInformation about shots during the 2021-2022 PHF season\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nStatistics of PGA Tournaments During the 2022 Season\n\n\n\n\n\n\n\ncorrelation\n\n\nlinear regression\n\n\n\n\nMeasures of Putting, Driving, and Success for individual golfers in 19 professional tournaments in 2022\n\n\n\n\n\n\nMay 19, 2023\n\n\nAlysssa Bigness\n\n\n\n\n\n\n  \n\n\n\n\nWTA Grand Slam Matches\n\n\n\n\n\n\n\nlogistic regression\n\n\ndata wrangling\n\n\ncategorical data\n\n\nchi-squared test\n\n\nclustering\n\n\n\n\nWTA Grand Slam Matches from 2018 to 2022\n\n\n\n\n\n\nMay 24, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nWomen’s National Basketball Association Shots\n\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\n\nInformation about shots during the 2021-2022 WNBA season\n\n\n\n\n\n\nMar 25, 2023\n\n\nRon Yurko\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "submit-data.html",
@@ -173,6 +173,41 @@
     "title": "Statistics of PGA Tournaments During the 2022 Season",
     "section": "References",
     "text": "References\nThe data were obtained from the PGA statistics website."
+  },
+  {
+    "objectID": "esports/lol-buff-nerf.html",
+    "href": "esports/lol-buff-nerf.html",
+    "title": "League of Legends - Buffing and Nerfing",
+    "section": "",
+    "text": "League of Legends is a 5 v. 5 multiplayer online battle arena (MOBA) game developed by Riot Games. They collect data to evaluate the effect of every champion, adjusting and fine-tuning various aspects associated with each champion, to ensure fair and competitive gameplay. Through updates (patches) they can reduce the power of champions that are too strong (known as nerfing) or enhance the abilities of less successful champions (nerfing)."
+  },
+  {
+    "objectID": "esports/lol-buff-nerf.html#motivation",
+    "href": "esports/lol-buff-nerf.html#motivation",
+    "title": "League of Legends - Buffing and Nerfing",
+    "section": "",
+    "text": "League of Legends is a 5 v. 5 multiplayer online battle arena (MOBA) game developed by Riot Games. They collect data to evaluate the effect of every champion, adjusting and fine-tuning various aspects associated with each champion, to ensure fair and competitive gameplay. Through updates (patches) they can reduce the power of champions that are too strong (known as nerfing) or enhance the abilities of less successful champions (nerfing)."
+  },
+  {
+    "objectID": "esports/lol-buff-nerf.html#data",
+    "href": "esports/lol-buff-nerf.html#data",
+    "title": "League of Legends - Buffing and Nerfing",
+    "section": "Data",
+    "text": "Data\nEach row is one of the 162 League of Legends champions. The two datasets show play results (e.g. win rates) for two consecutive patches of the game (12.22 and 12.23).\n\nLOL_patch_12.22.csv, LOL_patch_12.23.csv\n\n\nVariable\nDescription\n\n\n\n\nName\nName of the champion\n\n\nRole\nRole of the champion in a game\n\n\nKDA\nAverage kills, deaths and assists associated with each champion\n\n\nWRate\nWin rates of each champion\n\n\nPickRate\nSPick rates of each champion\n\n\nRolePerc\nPercent of time the champion is used in the expected role\n\n\nBanPerc\nBan percentages associated with each champion"
+  },
+  {
+    "objectID": "esports/lol-buff-nerf.html#questions",
+    "href": "esports/lol-buff-nerf.html#questions",
+    "title": "League of Legends - Buffing and Nerfing",
+    "section": "Questions",
+    "text": "Questions\n\nLook for outliers (e.g. in win rate) for the 12.22 patch to identify champions that might need to be buffed or nerfed.\nLook at results for the 12.23 patch to see if outliers identified from 12.22 might have been adjusted of if any different champions are now outliers."
+  },
+  {
+    "objectID": "esports/lol-buff-nerf.html#references",
+    "href": "esports/lol-buff-nerf.html#references",
+    "title": "League of Legends - Buffing and Nerfing",
+    "section": "References",
+    "text": "References\nLol champion stats, 12.22 master, win rates. METAsrc. (n.d.). https://www.metasrc.com/5v5/12.22/stats?ranks=master\nLol champion stats, 12.23 master, win rates. METAsrc. (n.d.-b). https://www.metasrc.com/5v5/12.23/stats?ranks=master"
   },
   {
     "objectID": "tennis/wta-grand-slam-matches.html",
