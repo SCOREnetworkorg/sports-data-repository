@@ -1,0 +1,43 @@
+---
+title: League of Legends - Buffing and Nerfing
+author: George Charalambous, Ivan Ramler, and A.J. Dykstra 
+date: July 1, 2023
+description: Game play statistics for League of Legends champions in two different patches.  Can detecting outliers indicate champions that should be enhanced (buffed) or scaled back (nerfed)?
+categories:
+  - outlier detection
+  - five number summary
+  - z-scores
+---
+
+## Motivation
+
+League of Legends is a 5 v. 5 multiplayer online battle arena (MOBA) game developed by Riot Games. They collect data to evaluate the effect of every champion, adjusting and fine-tuning various aspects associated with each champion, to ensure fair and competitive gameplay.  Through updates (patches) they can reduce the power of champions that are too strong (known as nerfing) or enhance the abilities of less successful champions (nerfing). 
+
+## Data
+
+Each row is one of the 162 League of Legends champions.  The two datasets show play results (e.g. win rates) for two consecutive patches of the game (12.22 and 12.23). 
+
+| Variable           | Description                                                                                                                                                           |
+|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `Name`       | Name of the champion                                         |
+| `Role`          | Role of the champion in a game                        |
+| `KDA`     | Average kills, deaths and assists associated with each champion                                                                                                                               |
+| `WRate`         | Win rates of each champion      |
+| `PickRate`          | SPick rates of each champion         |
+| `RolePerc` | Percent of time the champion is used in the expected role                    |
+| `BanPerc`       | Ban percentages associated with each champion          |
+
+: [LOL_patch_12.22.csv](../data/LOL_patch_12.22.csv), [LOL_patch_12.23.csv](../data/LOL_patch_12.23.csv)
+
+## Questions
+
+1.  Look for outliers (e.g. in win rate) for the 12.22 patch to identify champions that might need to be buffed or nerfed.
+
+2.  Look at results for the 12.23 patch to see if outliers identified from 12.22 might have been adjusted of if any different champions are now outliers. 
+
+
+## References
+
+Lol champion stats, 12.22 master, win rates. METAsrc. (n.d.). https://www.metasrc.com/5v5/12.22/stats?ranks=master
+
+Lol champion stats, 12.23 master, win rates. METAsrc. (n.d.-b). https://www.metasrc.com/5v5/12.23/stats?ranks=master
