@@ -1,0 +1,61 @@
+---
+title: Lake Placid Women's Ironman Triathlon
+author: Michael Schuckers, Matthew Abel, and A.J. Dykstra
+date: June 17, 2023
+description: The data set looks at female participatants in the triathlon Ironman.
+categories:
+  - Histograms
+  - Scatter Plots
+  - Correlation
+  - Linear Regression
+---
+
+## Motivation
+
+The motivation for this data analysis is to explore the relationships between swim times, bike times, and run times (in minutes) in order to gain insights into the performance patterns of the athletes. By analyzing these relationships, we can understand the interplay between different segments of the race and potentially identify areas of improvement for athletes.
+
+## Data
+
+The main data set has 489 rows with 17 columns. Each row represents a female who has participated in the Ironman in 2022. Additionally, a subset of 2022 female Canadian participants is available and has 64 rows.
+
+| Variable      | Description                                                             |
+|---------------|-------------------------------------------------------------------------|
+| Bib           | registration number of each runner used for identification              |
+| Name          | The participant's name                                                  |
+| Country       | What country the participant is from                                    |
+| Gender        | The participant's gender                                                |
+| Division      | The age range or membership a runner is                                 |
+| Division.Rank | Within the divisions, the place each runner has obtained over all races |
+| Overall.Time  | The total time it took to complete the Ironman in minutes               |
+| Overall.Rank  | The runner's finishing place for that particular triathlon              |
+| Swim.Time     | The time in minutes it took to complete the swimming portion            |
+| Swim.Rank     | The place the runner finished for the swim portion                      |
+| Bike.Time     | The time in minutes it took to complete the biking portion              |
+| Bike.Rank     | The place the runner finished for the bike portion                      |
+| Run.Time      | The time in minutes it took to complete the running portion             |
+| Run.Rank      | The place the runner finished for the running portion                   |
+| Finish.Status | States whether someone completed the Ironman successfully               |
+| Location      | Where the Ironman takes place                                           |
+| Year          | They year when the mentioned participant ran                            |
+
+&NewLine;
+
+:   [ironman_lake_placid_female_2022.csv](../data/ironman_lake_placid_female_2022.csv)
+
+:   [ironman_lake_placid_female_2022_canadian.csv](../data/ironman_lake_placid_female_2022_canadian.csv)
+
+## Questions
+
+-   With the different times and rank variables, you can explore the relationships between them through things like correlation coefficients and linear regression.
+
+-   Other things like finding the best variables at predicting a runner's overall rank in a race and then even a division rank would be easy to model using this data set.
+
+## SCORE Modules
+
+The following SCORE modules are associated with these data.
+
+-   [Ironman Triathlons - Correlations](https://isle.stat.cmu.edu/SCORE/ironman_triathlon){target="_blank"}
+
+## References
+
+Ironman Lake Placid Results and articles. CoachCox. (n.d.). <https://www.coachcox.co.uk/imstats/series/13/>

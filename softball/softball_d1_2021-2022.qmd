@@ -1,0 +1,73 @@
+---
+title: Batting Statistics for Division I Softball
+author: Sarah Weaver and Ivan Ramler
+date: May 23, 2023
+description: These data sets contain batting statistics for Division I softball in the 2021 and 2022 seasons.
+categories:
+  - merging
+  - joining
+  - data wrangling
+---
+
+## Motivation
+
+Data for a particular sport is often stored across numerous locations. For example, in NCAA Division I Softball, batting statistics for each season are typically stored in separate tables. (See for example the statistics hosted by https://d1softball.com/)
+
+Suppose we are interested in tracking the statistics of players across multiple seasons. A common way to prep the data to do this is to use join statements to merge each season's data into one table with one row per player (and columns associated with their different statistics for each season).
+
+## Data
+
+There are four data tables associated with this page.
+
+Two of them, `batting2021` and `batting2022`, contain statistics for all Division 1 Softball player who played in the 2021 and/or 2022 season.
+
+The other two, `batting2021_subset` and `batting2022_subset`, represent non-random samples taken the full data and can be used to manually illustrate how to merge the tables.
+
+The 2021 data set has 2131 rows with 22 columns. The 2022 data set has 2275 rows with the same 22 columns. Each row represents a Division 1 Softball player who played in the 2021 and/or 2022 season.
+
+| Variable | Description                                                                                                                                                  |
+|---------------------|---------------------------------------------------|
+| Player   | Name of the softball player                                                                                                                                  |
+| Team     | Name of the team (school) for each player                                                                                                                    |
+| BA       | Batting Average - The ratio of a player's total base hits to their total number of at-bats, indicating their ability to make successful hits.                |
+| OBP      | On-Base Percentage - The percentage of times a player reaches base, either through a hit, walk, or hit-by-pitch, out of their total plate appearances.       |
+| SLG      | Slugging Percentage - The measure of a player's power by calculating the total number of bases they accumulate per at-bat.                                   |
+| OPS      | On-Base Plus Slugging - The sum of a player's on-base percentage and slugging percentage, providing a comprehensive measure of their offensive contribution. |
+| GP       | Games Played - The total number of games in which a player has participated.                                                                                 |
+| PA       | Plate Appearances - The total number of times a player has come up to bat, including at-bats, walks, and hit-by-pitches.                                     |
+| AB       | At-Bats - The number of times a player has officially faced a pitcher and had an opportunity to hit.                                                         |
+| R        | Runs Scored - The number of times a player has crossed home plate and scored a run.                                                                          |
+| H        | Hits - The total number of successful hits made by a player.                                                                                                 |
+| 2B       | Doubles - The number of hits resulting in the batter reaching second base.                                                                                   |
+| 3B       | Triples - The number of hits resulting in the batter reaching third base.                                                                                    |
+| HR       | Home Runs - The number of hits resulting in the batter scoring a run by hitting the ball out of the park.                                                    |
+| RBI      | Runs Batted In - The number of runs a player has driven in with a hit or sacrifice.                                                                          |
+| HBP      | Hit by Pitch - The number of times a player has been struck by a pitched ball and awarded first base.                                                        |
+| BB       | Walks - The number of times a player has received a base on balls (four balls) and been awarded first base.                                                  |
+| K        | Strikeouts - The number of times a player has been called out after accumulating three strikes.                                                              |
+| SB       | Stolen Bases - The number of times a player successfully advances to the next base without a hit, during a pitch while the ball is in play.                  |
+| CS       | Caught Stealing - The number of times a player is thrown out while attempting to steal a base.                                                               |
+
+The data tables are available for individual download as csv files or bundled together into either a SQLite or DuckDB database.
+
+:   [batting2021.csv](../data/batting2021.csv)
+
+:   [batting2022.csv](../data/batting2022.csv)
+
+:   [batting2021_subset.csv](../data/batting2021_subset.csv)
+
+:   [batting2022_subset.csv](../data/batting2022_subset.csv)
+
+:   [softball_batting.sqlite](../data/softball_batting.sqlite)
+
+:   [softball_batting.duckdb](../data/softball_batting.duckdb)
+
+## Questions
+
+-   With multiple seasons of data, you can investigate the different ways to join the the 2021 and 2022 statistics. (e.g., comparing the results of an inner join vs a full join) This can be done manually using subsets of data (to illustrate the joins with simple examples) or scaled up using the full data
+
+-   With a single season/table, you can practice different data wrangling techniques. e.g., finding the league leaders in different categories
+
+## References
+
+Statistics. D1Softball. (2019, October 24). <https://d1softball.com/statistics/>

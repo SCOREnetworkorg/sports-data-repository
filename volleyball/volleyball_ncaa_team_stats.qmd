@@ -1,0 +1,54 @@
+---
+title: Team Statistics for Division I Women's Volleyball
+author: Jack Fay, A.J. Dykstra, and Ivan Ramler
+date: July 24, 2023
+description: These data sets contain team statistics for Division I women's volleyball in the 2022 and 2023 seasons.
+categories:
+  - multicollinearity
+  - multiple linear regression
+  -	correlations
+  - summary statistics
+---
+
+## Motivation
+
+Division 1 NCAA women's volleyball is the highest level of collegiate competition for women's volleyball in the United States. With well over 300 teams compete at the Division 1 level, there is fierce competition each year as only 64 teams make the post-season Volleyball Championship. The division demands high-level athletic performances, teamwork, and strategic game play from a variety of aspects. With each team having their own strengths and weaknesses, there is no exception of exciting matchups and and shocking results.
+
+In volleyball, a kill is awarded to a player any time their attack is unreturnable by the opposition because it is the direct cause of the opponent not returning the ball. An assist is awarded when a set, pass, or dig to a teammate results in that teammate attacking the ball for a kill.
+
+## Data
+
+The data set contains 334 rows and 14 columns. Each row represents a team at the NCAA Division 1 level from the 2022-2023 season.
+
+| Variable             | Description                                                                                                   |
+|--------------------------------|----------------------------------------|
+| Team                 | college of the volleyball team                                                                                |
+| Conference           | conference to which the team belongs                                                                          |
+| region               | region to which the team belongs                                                                              |
+| aces_per_set         | the average amount of balls served that directly lead to a point not including errors by the opponent per set |
+| assists_per_set      | the average amount of sets, passes, or digs to a teammate that directly result in a kill per set              |
+| team_attacks_per_set | the average amount of times the ball is sent to the other team's court per set                                |
+| blocks_per_set       | the average amount of times the ball is blocked from being hit on to the teams side per set                   |
+| digs_per_set         | average amount of times the ball is passed by a player successfully after an opponents attack per set         |
+| hitting_pctg         | total team kills minus team hitting errors all divided by total attempts                                      |
+| kills_per_set        | average amount of hits that directly result in a point per set                                                |
+| opp_hitting_pctg     | the average hitting percentage of the teams opponent per set                                                  |
+| W                    | the amount of team wins for the season                                                                        |
+| L                    | the amount of team losses for the season                                                                      |
+| win_loss_pctg        | the amount of total wins divided by the total matches of the season                                           |
+
+: [volleyball_ncaa_div1_2022_23.csv](../data/volleyball_ncaa_div1_2022_23.csv)
+
+## Questions
+
+-   What variables are most highly correlated with win/loss percentage of a team?
+
+-   How are assists and kills related?
+
+-   What model is best for predicting win/loss percentage?
+
+## References
+
+NCAA - Women's Volleyball
+
+<https://www.ncaa.com/stats/volleyball-women/d1>
