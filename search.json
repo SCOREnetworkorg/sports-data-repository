@@ -1,213 +1,38 @@
 [
   {
-    "objectID": "by-statsds-topic.html",
-    "href": "by-statsds-topic.html",
-    "title": "Datasets By Topic",
+    "objectID": "football/nfl-team-statistics.html",
+    "href": "football/nfl-team-statistics.html",
+    "title": "National Football League Team Statistics",
     "section": "",
-    "text": "Justin Verlander Pitches\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\n\n\nInformation about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nLacrosse PLL vs. NLL\n\n\n\n\n\n\n\nDifference in means hypothesis tests\n\n\nDifference in means confidence intervals\n\n\n\n\nThe data set looks at both lacrosse leagues, their respective teams, and their shot and goal amounts.\n\n\n\n\n\n\nJun 22, 2023\n\n\nAJ Dykstra, Jack Cowan, and Ivan Ramler\n\n\n\n\n\n\n  \n\n\n\n\nLeague of Legends - Buffing and Nerfing\n\n\n\n\n\n\n\noutlier detection\n\n\nfive number summary\n\n\nz-scores\n\n\n\n\nGame play statistics for League of Legends champions in two different patches. Can detecting outliers indicate champions that should be enhanced (buffed) or scaled back (nerfed)?\n\n\n\n\n\n\nJul 1, 2023\n\n\nGeorge Charalambous, Ivan Ramler, and A.J. Dykstra\n\n\n\n\n\n\n  \n\n\n\n\nNational Basketball Association Player Statistics\n\n\n\n\n\n\n\nclustering\n\n\nprincipal component analysis\n\n\n\n\nNBA player statistics from the 2021-2022 regular season\n\n\n\n\n\n\nMar 25, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nNational Football League Team Statistics\n\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\nmissing data\n\n\nvariable selection\n\n\nregularization\n\n\n\n\nNFL team statistics from 1999 to 2022\n\n\n\n\n\n\nMay 24, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nNational Hockey League Shots\n\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\n\nInformation about shots during the 2021-2022 NHL season\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nNational Women’s Soccer League Team Statistics\n\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\n\n\nNWSL team statistics from 2016 to 2022\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nPremier Hockey Federation Shots\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\nlogistic regression\n\n\n\n\nInformation about shots during the 2021-2022 PHF season\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nStatistics of PGA Tournaments During the 2022 Season\n\n\n\n\n\n\n\ncorrelation\n\n\nlinear regression\n\n\n\n\nMeasures of Putting, Driving, and Success for individual golfers in 19 professional tournaments in 2022\n\n\n\n\n\n\nMay 19, 2023\n\n\nAlysssa Bigness\n\n\n\n\n\n\n  \n\n\n\n\nWTA Grand Slam Matches\n\n\n\n\n\n\n\nlogistic regression\n\n\ndata wrangling\n\n\ncategorical data\n\n\nchi-squared test\n\n\nclustering\n\n\n\n\nWTA Grand Slam Matches from 2018 to 2022\n\n\n\n\n\n\nMay 24, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nWomen’s National Basketball Association Shots\n\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\n\nInformation about shots during the 2021-2022 WNBA season\n\n\n\n\n\n\nMar 25, 2023\n\n\nRon Yurko\n\n\n\n\n\n\nNo matching items"
+    "text": "The National Football League (NFL) is the top professional American football league in the world. While a team’s record ultimately determines whether or not they make the playoffs, their score differential (points for - points against) is often a better indicator of a team’s ability. But what aspects of a team’s performance are related to their point differential? Is passing more important than rushing? What about offense in comparison to defense? The NFL records a variety of statistics, and the public NFL analytics community have developed advanced metrics such as expected points added (EPA) that provide deeper insight into a team’s performance. With this dataset of statistics dating back to 1999, you can explore variation between teams since as well as which types of statistics are relevant predictor variables of record and point differential."
   },
   {
-    "objectID": "submit-data.html",
-    "href": "submit-data.html",
-    "title": "Submit a Dataset",
+    "objectID": "football/nfl-team-statistics.html#motivation",
+    "href": "football/nfl-team-statistics.html#motivation",
+    "title": "National Football League Team Statistics",
     "section": "",
-    "text": "The goal of this repository is to provide a collection of relevant and engaging sports datasets to be used in class, handouts, assignments, projects, and SCORE modules. We are always looking for new datasets and welcome public submissions, but these datasets will need to meet the following requirements:"
+    "text": "The National Football League (NFL) is the top professional American football league in the world. While a team’s record ultimately determines whether or not they make the playoffs, their score differential (points for - points against) is often a better indicator of a team’s ability. But what aspects of a team’s performance are related to their point differential? Is passing more important than rushing? What about offense in comparison to defense? The NFL records a variety of statistics, and the public NFL analytics community have developed advanced metrics such as expected points added (EPA) that provide deeper insight into a team’s performance. With this dataset of statistics dating back to 1999, you can explore variation between teams since as well as which types of statistics are relevant predictor variables of record and point differential."
   },
   {
-    "objectID": "submit-data.html#two-ways-to-submit-a-dataset",
-    "href": "submit-data.html#two-ways-to-submit-a-dataset",
-    "title": "Submit a Dataset",
-    "section": "Two ways to submit a dataset",
-    "text": "Two ways to submit a dataset\nThere are two ways to contribute a dataset:\n\nSubmit a dataset with the necessary information using this Google form. This is the recommended option for contributors who are not experienced with quarto or Rmarkdown files. The form will describe what information is necessary for us to create the appropriate page for your submitted dataset.\nFill out a quarto template file with the dataset information, and then submit either via email or directly with a GitHub pull request.\n\n\nThe rest of this page includes information about submitting a dataset using the quarto template file."
-  },
-  {
-    "objectID": "submit-data.html#quarto-template-file-submission-steps",
-    "href": "submit-data.html#quarto-template-file-submission-steps",
-    "title": "Submit a Dataset",
-    "section": "Quarto template file submission steps",
-    "text": "Quarto template file submission steps\nThis data repository is built using quarto and rendered into a website. You can get the template file in two ways:\n\nCopy the _dataset-template.qmd file from our GitHub repository and save it on your computer. Once you’re done, you can email us the file and the data (see below for email address).\nFork our GitHub repository into your own GitHub account and edit it like any other Git repository. Once you’re done, you can submit a pull request.\n\n\nDataset template\nThe dataset template is a Quarto file. The template asks for:\n\nBasic metadata to tag the dataset, such as the statistics & data science topic, a short title, and your name. (All submissions are credited with the name of the submitter.)\nA description of the sports question to motivate analysis with the dataset.\nA description of the dataset with documentation about each variable. The file should make it clear what a single row of the dataset represents, and clearly describe each of the variables (including units of measure when relevant).\nReferences to the original source of the data. If the source is a code package, then include an appropriate citation with a link to the package. If the source is an academic paper and the data is deposited in a third-party repository (e.g., Figshare), then include references to both the paper and the archived dataset. When available, include the DOIs of the references.\n\nThe template is meant to prevent a common problem with course datasets: they get passed down from instructor to instructor, and eventually all information about the original source is lost. The dataset may be presented to students without context or important details (like units), and the instructor may not be able to find the original data or references to answer questions about the data.\n\n\nSubmitting template file\nOnce you’ve filled in the template, you can either:\n\nEmail the template file, the data, and any code for preparing the data to the repository editor (currently Ron Yurko: ryurko AT stat DOT cmu DOT edu).\nSubmit a pull request to our repository on GitHub. Save the Qmd with a meaningful name and place it in its relevant sports directory (e.g., baseball/ or tennis/). Place the data files in data/. Place any code to prepare the data in the _prep/ folder, inside another folder with a name matching the submitted dataset. Once you’ve committed all of the necessary files (without anything extraneous) then you can submit a pull request."
-  },
-  {
-    "objectID": "data-sources.html",
-    "href": "data-sources.html",
-    "title": "Data Sources",
-    "section": "",
-    "text": "Here are some resources for finding sports datasets:\n\nCRAN Task View for Sports Analytics - catalog of R packages published on the Comprehensive R Archive Network (CRAN) organized by sport (curated by Benjamin S. Baumer, Quang Nguyen, and Gregory J. Matthews)\nSportsDataverse initiative - collection of software tools for accessing publicly available sports data (organized by Saiem Gilani)\nKaggle\nTidyTuesday - GitHub repository of datasets updated weekly with example code for accessing data (featuring a variety of sports examples)\nFiveThirtyEight - GitHub repository of datasets used in FiveThirtyEight articles"
-  },
-  {
-    "objectID": "lacrosse/lacrosse_pll_vs_nll.html",
-    "href": "lacrosse/lacrosse_pll_vs_nll.html",
-    "title": "Lacrosse PLL vs. NLL",
-    "section": "",
-    "text": "This data set examines the goals and shots in two prominent lacrosse leagues: the Premier Lacrosse League (PLL) and the National Lacrosse League (NLL).\nThe PLL and NLL are highly regarded professional lacrosse leagues that feature top-tier athletes from around the world. The PLL is played in an indoor, smaller field while the NLL plays on an outdoor field with traditional dimensions. This data set allows for an analysis of goal-scoring within these leagues."
-  },
-  {
-    "objectID": "lacrosse/lacrosse_pll_vs_nll.html#motivation",
-    "href": "lacrosse/lacrosse_pll_vs_nll.html#motivation",
-    "title": "Lacrosse PLL vs. NLL",
-    "section": "",
-    "text": "This data set examines the goals and shots in two prominent lacrosse leagues: the Premier Lacrosse League (PLL) and the National Lacrosse League (NLL).\nThe PLL and NLL are highly regarded professional lacrosse leagues that feature top-tier athletes from around the world. The PLL is played in an indoor, smaller field while the NLL plays on an outdoor field with traditional dimensions. This data set allows for an analysis of goal-scoring within these leagues."
-  },
-  {
-    "objectID": "lacrosse/lacrosse_pll_vs_nll.html#data",
-    "href": "lacrosse/lacrosse_pll_vs_nll.html#data",
-    "title": "Lacrosse PLL vs. NLL",
+    "objectID": "football/nfl-team-statistics.html#data",
+    "href": "football/nfl-team-statistics.html#data",
+    "title": "National Football League Team Statistics",
     "section": "Data",
-    "text": "Data\nThe data set has 162 rows with 9 columns. Each row represents a single lacrosse match either in the Premier Lacrosse League or the National Lacrosse League for the 2021 - 2022 season. NLL seasons typically run from December to May while PLL seasons typically run from June to September.\n\nlacrosse_pll_vs_nll_2021-2022.csv\n\n\nVariable\nDescription\n\n\n\n\nLeague\nThe Premier Lacrosse league and the National Lacrosse League\n\n\nAway_team\nThe traveling team\n\n\nHome_team\nThe hosting team\n\n\nAway_shots\nHow many shots the Away_team had on net\n\n\nHome_shots\nHow many shots the Home_team had on net\n\n\nAway_goals\nHow many goals the Away_team had on net\n\n\nHome_goals\nHow many goals the Home_team had on net\n\n\ngoals_per_game\nThe total amount of goals scored each game\n\n\ngoals_per_48\nThe average amount of goals for the first 48 minutes of a game"
+    "text": "Data\nThis dataset contains statistics about the regular season performance for each NFL team from 1999 to 2022 team. The data was collected using the nflreadr package in R.\nEach row in the dataset corresponds to a single NFL team in a single regular season. There are a total of 765 team-seasons, with 56 total columns. The column names are organized below by the type of information they contain, with the first set of columns being self-explanatory:\n\nnfl-team-statistics.csv\n\n\nVariable\nDescription\n\n\n\n\nseason\nRegular season year of team’s statistics\n\n\nteam\nNFL team three letter abbreviation\n\n\n\nThere are also columns with season level outcomes:\n\n\n\nVariable\nDescription\n\n\n\n\npoints_score\nTotal number of points scored by the team\n\n\npoints_allowed\nTotal number of points allowed by the team\n\n\nwins\nNumber of games the team won\n\n\nlosses\nNumber of games the team lost\n\n\nties\nNumber of games the team tied\n\n\nscore_differential\npoints scored - points allowed\n\n\n\nThere are also several columns corresponding to offensive and defensive summaries of the team’s performance in the season separated by play type (either pass or run):\n\n\n\n\n\n\n\nVariable\nDescription\n\n\n\n\noffense/defense_completion_percentage\nPassing completion percentage either for (offense) or against (defense)\n\n\noffense/defense_total_yards_gained_pass/run\nTotal number of yards gained (offense) or allowed (defense) by play type (pass or run)\n\n\noffense/defense_ave_yards_gained_pass/run\nAverage number of yards gained (offense) or allowed (defense) per play by play type (pass or run)\n\n\noffense/defense_total_air_yards\nTotal number of air yards gained (offense) or allowed (defense), where air yards correspond to perpendicular yards traveled from the line of scrimmage to location of catch for passing plays\n\n\noffense/defense_ave_air_yards\nAverage number of air yards gained (offense) or allowed (defense) per passing play\n\n\noffense/defense_total_yac\nTotal number of yards after catch gained (offense) or allowed (defense)\n\n\noffense/defense_ave_yac\nAverage number of yards after catch gained (offense) or allowed (defense) per passing play\n\n\noffense/defense_n_plays_pass/run\nTotal number of plays by the team (offense) or against (defense) by play type (pass or run)\n\n\noffense/defense_n_interceptions\nTotal number of interceptions thrown (offense) or caught (defense)\n\n\noffense/defense/n_fumbles_lost_pass/run\nTotal number of fumbles lost (offense) or forced (defense) by play type (pass or run)\n\n\noffense/defense_total_epa_pass/run\nTotal expected points added (offense) or allowed (defense) by play type (pass or run)\n\n\noffense/defense_ave_epa_pass/run\nAverage expected points added (offense) or allowed (defense) per play by play type (pass or run)\n\n\noffense/defense_total_wpa_pass/run\nTotal win probability added (offense) or allowed (defense) by play type (pass or run)\n\n\noffense/defense_ave_wpa_pass/run\nAverage win probability added (offense) or allowed (defense) per play by play type (pass or run)\n\n\noffense/defense_total_epa_pass/run\nTotal expected points added (offense) or allowed (defense) by play type (pass or run)\n\n\noffense/defense_success_rate_pass/run\nProportion of plays with positive expected points added (offense) or allowed (defense) by play type (pass or run)\n\n\n\nThe EPA variables are advanced NFL statistics, conveying how much value a team is adding over the average team in a given situation. It’s on a points scale instead of the typically used yards, because not all yards are created equal in American football (10 yard gain on 3rd and 15 is much less valuable than a 2 yard gain on 4th and 1). For offensive stats the higher the EPA the better, but for defensive stats the lower (more negative) the EPA the better. The WPA variables are similar except they are measuring play value in terms of win probability."
   },
   {
-    "objectID": "lacrosse/lacrosse_pll_vs_nll.html#questions",
-    "href": "lacrosse/lacrosse_pll_vs_nll.html#questions",
-    "title": "Lacrosse PLL vs. NLL",
+    "objectID": "football/nfl-team-statistics.html#questions",
+    "href": "football/nfl-team-statistics.html#questions",
+    "title": "National Football League Team Statistics",
     "section": "Questions",
-    "text": "Questions\n\nDo these data provide evidence that, on average, goals scored in the PLL and NLL differ? Include all details of the appropriate hypothesis test.\nConstruct and interpret a 95% confidence interval in average goals for NLL and PLL lacrosse games per 48 minutes."
+    "text": "Questions\n\nBuild a linear regression model to predict score differential as a function of the team’s statistics. Which variables, if any, are predictive of score differential in a season? Are certain types of variables more predictive? (e.g., passing versus rushing,) Describe their relationships.\nUsing principal component analysis, project the team seasons into a lower dimensional space using only the team statistics that do not include points or record. Choose an appropriate number of principal components, and describe which statistics contribute to your selected number of components. Based on your results, which team statistics explain the most variation between team-seasons in the dataset? Which team statistics are independent of each other?"
   },
   {
-    "objectID": "lacrosse/lacrosse_pll_vs_nll.html#references",
-    "href": "lacrosse/lacrosse_pll_vs_nll.html#references",
-    "title": "Lacrosse PLL vs. NLL",
+    "objectID": "football/nfl-team-statistics.html#references",
+    "href": "football/nfl-team-statistics.html#references",
+    "title": "National Football League Team Statistics",
     "section": "References",
-    "text": "References\nPremier Lacrosse League stats. Premier Lacrosse League Stats. (n.d.). https://stats.premierlacrosseleague.com/\nPlayer stats. NLL. (2023, January 26). https://www.nll.com/stats/all-player-stats/"
-  },
-  {
-    "objectID": "basketball/wnba-shots.html",
-    "href": "basketball/wnba-shots.html",
-    "title": "Women’s National Basketball Association Shots",
-    "section": "",
-    "text": "The Women’s National Basketball Association (WNBA) is the top professional women’s basketball league in the world. The league records every shot players take along with contextual information about the shot such as its location, a description of the shot type, as well as the outcome. With this dataset, you can predict the success of each shot attempt to compute the expected value of shot types and compare team decision making."
-  },
-  {
-    "objectID": "basketball/wnba-shots.html#motivation",
-    "href": "basketball/wnba-shots.html#motivation",
-    "title": "Women’s National Basketball Association Shots",
-    "section": "",
-    "text": "The Women’s National Basketball Association (WNBA) is the top professional women’s basketball league in the world. The league records every shot players take along with contextual information about the shot such as its location, a description of the shot type, as well as the outcome. With this dataset, you can predict the success of each shot attempt to compute the expected value of shot types and compare team decision making."
-  },
-  {
-    "objectID": "basketball/wnba-shots.html#data",
-    "href": "basketball/wnba-shots.html#data",
-    "title": "Women’s National Basketball Association Shots",
-    "section": "Data",
-    "text": "Data\nThis dataset contains information about 41,497 shots during the 2021-2022 WNBA season.\nThe data was collected using the wehoop package in R.\n\nwnba-shots-2021.csv.gz\n\n\nVariable\nDescription\n\n\n\n\ngame_id\nUnique integer ID for each WNBA game\n\n\ngame_play_number\nInteger indicating the recorded play number for the shot attempt, where 1 indicates the first play of the game\n\n\ndesc\nString detailed description of shot attempt\n\n\nshot_type\nString description of the shot type (e.g., dunk, layup, jump shot, etc.)\n\n\nmade_shot\nBoolean denoting if the shot was made (TRUE) or not (FALSE)\n\n\nshot_value\nNumeric value of the shot outcome (0 for shots that were not made, and a positive value for made shots)\n\n\ncoordinate_x\nHorizontal location in feet of shot attempt where the hoop would be located at 25 feet\n\n\ncoordinate_y\nVertical location in feet of shot attempt with respect to the target hoop (the hoop should be a little in front of 0 but the coordinate system is not exact)\n\n\nshooting_team\nString name of the team taking the shot\n\n\nhome_name\nString name of the home team\n\n\naway_name\nString name of the away team\n\n\nhome_score\nInteger value of the home team score after the shot\n\n\naway_score\nInteger value of the away team score after the shot\n\n\nqtr\nInteger denoting the quarter/period in the game\n\n\nquarter_seconds_remaining\nNumeric integer value for number of seconds remaining in quarter/period\n\n\ngame_seconds_remaining\nNumeric integer value for number of seconds remaining in game"
-  },
-  {
-    "objectID": "basketball/wnba-shots.html#questions",
-    "href": "basketball/wnba-shots.html#questions",
-    "title": "Women’s National Basketball Association Shots",
-    "section": "Questions",
-    "text": "Questions\n\nBuild a classification model to predict the shot outcome based on the spatial x,y coordinates of the shot.\nCreate a visualization displaying the joint frequency of shot locations. Do there appear to be any clear modes of frequently taken shots? Create a conditional version of this display by shot outcome. Does the distribution shape vary by shot outcome? (You can also perform a similar analysis by team and shot type)."
-  },
-  {
-    "objectID": "basketball/wnba-shots.html#references",
-    "href": "basketball/wnba-shots.html#references",
-    "title": "Women’s National Basketball Association Shots",
-    "section": "References",
-    "text": "References\nGilani S, Hutchinson G (2022). wehoop: Access Women’s Basketball Play by Play Data. R package version 1.5.0, https://CRAN.R-project.org/package=wehoop."
-  },
-  {
-    "objectID": "hockey/nhl-shots.html",
-    "href": "hockey/nhl-shots.html",
-    "title": "National Hockey League Shots",
-    "section": "",
-    "text": "The National Hockey League (NHL) is the top professional men’s hockey league in the world. The league records every shot players take along with contextual information about the shot such as its location, the player’s distance and angle to the goal when attempting the shot, as well as the outcome (blocked, missed, or goal). Using this information, the hockey analytics community have developed measures of shot quality known as expected goals. With this dataset, you can create your own expected goals model to predict the shot outcome given relevant features."
-  },
-  {
-    "objectID": "hockey/nhl-shots.html#motivation",
-    "href": "hockey/nhl-shots.html#motivation",
-    "title": "National Hockey League Shots",
-    "section": "",
-    "text": "The National Hockey League (NHL) is the top professional men’s hockey league in the world. The league records every shot players take along with contextual information about the shot such as its location, the player’s distance and angle to the goal when attempting the shot, as well as the outcome (blocked, missed, or goal). Using this information, the hockey analytics community have developed measures of shot quality known as expected goals. With this dataset, you can create your own expected goals model to predict the shot outcome given relevant features."
-  },
-  {
-    "objectID": "hockey/nhl-shots.html#data",
-    "href": "hockey/nhl-shots.html#data",
-    "title": "National Hockey League Shots",
-    "section": "Data",
-    "text": "Data\nThis dataset contains information about 160,573 shots during the 2021-2022 NHL season.\nThe data was collected using the hockeyR package in R.\n\nnhl-shots-2021.csv.gz\n\n\nVariable\nDescription\n\n\n\n\ngame_id\nUnique integer identifier for game shot took place in\n\n\ndescription\nString detailed description of shot event\n\n\nshot_outcome\nString denoting the outcome of the shot, either BLOCKED_SHOT (meaning blocked by a non-goalie), GOAL, MISSED_SHOT (shot that missed the net), or SHOT (shot on net that was saved by a goalie)\n\n\nperiod\nInteger value of the game period\n\n\nperiod_seconds_remaining\nNumeric value of the seconds remaining in the period\n\n\ngame_seconds_remaining\nNumeric value of the seconds remaining in the game; negative for overtime periods\n\n\nhome_score\nInteger value of the home team score after the event\n\n\naway_score\nInteger value of the away team score after the event\n\n\nhome_name\nString name of the home team\n\n\naway_name\nString name of the away team\n\n\nevent_team\nString defining the team taking the shot\n\n\nevent_goalie_name\nString name of goalie (if in net)\n\n\nempty_net\nBoolean indicating if the shot was during an empty net situation, TRUE if so but FALSE or NA if not\n\n\nevent_player_1_name\nString name of the primary event player\n\n\nevent_player_1_type\nString indicator for the role of event_player_1 (typically the shooter)\n\n\nevent_player_2_name\nString name of the secondary event player\n\n\nevent_player_2_type\nString indicator for the role of event_player_2 (blocker, assist, or goalie)\n\n\nstrength_code\nString indicator for game strength: EV (Even), SH (Shorthanded), or PP (Power Play)\n\n\nx_fixed\nNumeric transformed x-coordinate of event in feet, where the home team always shoots to the right, away team to the left\n\n\ny_fixed\nNumeric transformed y-coordinate of event in feet, where the home team always shoots to the right, away team to the left\n\n\nshot_distance\nNumeric distance (in feet) to center of net for unblocked shot events\n\n\nshot_angle\nNumeric angle (in degrees) to center of net for unlocked shot events"
-  },
-  {
-    "objectID": "hockey/nhl-shots.html#questions",
-    "href": "hockey/nhl-shots.html#questions",
-    "title": "National Hockey League Shots",
-    "section": "Questions",
-    "text": "Questions\n\nBuild a logistic regression model to predict whether or not the shot will result in a goal based on the shot distance and angle.\nBuild a classification model to predict the outcome based on the spatial x,y coordinates of the shot.\nCreate a visualization displaying the joint frequency of shot locations. Do there appear to be any clear modes of frequently taken shots? Create a conditional version of this display by shot outcome. Does the distribution shape vary by shot outcome? (You can also perform a similar analysis by team)."
-  },
-  {
-    "objectID": "hockey/nhl-shots.html#references",
-    "href": "hockey/nhl-shots.html#references",
-    "title": "National Hockey League Shots",
-    "section": "References",
-    "text": "References\nMorse D (2023). hockeyR: Collect and Clean Hockey Stats. R package version 1.3.1, https://github.com/danmorse314/hockeyR."
-  },
-  {
-    "objectID": "golf/pga_drive_putt.html",
-    "href": "golf/pga_drive_putt.html",
-    "title": "Statistics of PGA Tournaments During the 2022 Season",
-    "section": "",
-    "text": "A common expression among golfers is “Drive for show, putt for dough.” This implies that the long initial tee shots (drives) on each hole are impressive, but the real key to success is the final strokes rolling the ball along the green into the hole (putts). Do data support this adage? The dataset for this activity was obtained from the PGA statistics website. Cases include all golfers who made the cut in each of 19 PGA tournaments in 2022. The dataset includes variables for driving ability, putting ability, and measuring success in the tournament. The “driving” variables include average driving distance (avgDriveDist), driving accuracy percentage (drivePct), and strokes gained off the tee (driveSG). The “putting” variables are average putts per round (avgPuttsPerRound), one putt percentage (onePuttPct), and strokes gained putting (puttsSG). The variables to measure success are scoring average (avgScore), official money won (Money), and Fedex Cup points (Points)."
-  },
-  {
-    "objectID": "golf/pga_drive_putt.html#motivation",
-    "href": "golf/pga_drive_putt.html#motivation",
-    "title": "Statistics of PGA Tournaments During the 2022 Season",
-    "section": "",
-    "text": "A common expression among golfers is “Drive for show, putt for dough.” This implies that the long initial tee shots (drives) on each hole are impressive, but the real key to success is the final strokes rolling the ball along the green into the hole (putts). Do data support this adage? The dataset for this activity was obtained from the PGA statistics website. Cases include all golfers who made the cut in each of 19 PGA tournaments in 2022. The dataset includes variables for driving ability, putting ability, and measuring success in the tournament. The “driving” variables include average driving distance (avgDriveDist), driving accuracy percentage (drivePct), and strokes gained off the tee (driveSG). The “putting” variables are average putts per round (avgPuttsPerRound), one putt percentage (onePuttPct), and strokes gained putting (puttsSG). The variables to measure success are scoring average (avgScore), official money won (Money), and Fedex Cup points (Points)."
-  },
-  {
-    "objectID": "golf/pga_drive_putt.html#data",
-    "href": "golf/pga_drive_putt.html#data",
-    "title": "Statistics of PGA Tournaments During the 2022 Season",
-    "section": "Data",
-    "text": "Data\nEach row of data gives the measures for one golfer in one tournament. The dataset covers 19 PGA tournaments from the 2022 season with 1387 cases in all. Each tournament consists of four rounds of golf. Some golfers are eliminated after the first two (or sometimes three) rounds. Only players who competed in all four rounds (i.e. those that made the “cut”) are included in this dataset.\n\nPGA2022.csv\n\n\nVariable\nDescription\n\n\n\n\nplayerName\nName of the player\n\n\ncountry\nThe country where the player is from\n\n\navgDriveDist\nAverage driving distance (in yards)\n\n\ndrivePct\nPercentage of times a tee shot comes to rest in the fairway\n\n\ndriveSG\nStrokes gained off the tee measures player performance off the tee on all par 4s and par 5s of how much better or worse a player’s drive is than the PGA Tour average\n\n\navgPuttsPerRound\nAverage number of total putts per round\n\n\nonePuttPct\nPercentage of times it took one putt to get the ball into the hole\n\n\nputtsSG\nStrokes gained putting measures how many strokes a player gains or loses on the greens compared to the PGA Tour average\n\n\navgScore\nThe scoring average is the total strokes divided by the total rounds\n\n\nMoney\nThe official money is the prize money award to the Professional members\n\n\nPoints\nFedexCup Regular Season Points are awarded points by finished position for performance in each tournament\n\n\nTournament\nThe tournament where the PGA Tour is taking place"
-  },
-  {
-    "objectID": "golf/pga_drive_putt.html#questions",
-    "href": "golf/pga_drive_putt.html#questions",
-    "title": "Statistics of PGA Tournaments During the 2022 Season",
-    "section": "Questions",
-    "text": "Questions\n\nAre driving or putting statistics generally more effective for predicting success in a PGA tournament?\nWhich measure of success (avgScore, Money, or Points) appears to be easiest to predict with either driving or putting information?\nFor each measure of success, generate a scatterplot with one the putting or driving variables. Which of these plots suggest we might want to use a transformation of one of the variables to improve linearity?\nCan you find a transformation that improves the linearity of the relationship for one of the problematic cases in question #3?"
-  },
-  {
-    "objectID": "golf/pga_drive_putt.html#references",
-    "href": "golf/pga_drive_putt.html#references",
-    "title": "Statistics of PGA Tournaments During the 2022 Season",
-    "section": "References",
-    "text": "References\nThe data were obtained from the PGA statistics website."
-  },
-  {
-    "objectID": "esports/lol-buff-nerf.html",
-    "href": "esports/lol-buff-nerf.html",
-    "title": "League of Legends - Buffing and Nerfing",
-    "section": "",
-    "text": "League of Legends is a 5 v. 5 multiplayer online battle arena (MOBA) game developed by Riot Games. They collect data to evaluate the effect of every champion, adjusting and fine-tuning various aspects associated with each champion, to ensure fair and competitive gameplay. Through updates (patches) they can reduce the power of champions that are too strong (known as nerfing) or enhance the abilities of less successful champions (nerfing)."
-  },
-  {
-    "objectID": "esports/lol-buff-nerf.html#motivation",
-    "href": "esports/lol-buff-nerf.html#motivation",
-    "title": "League of Legends - Buffing and Nerfing",
-    "section": "",
-    "text": "League of Legends is a 5 v. 5 multiplayer online battle arena (MOBA) game developed by Riot Games. They collect data to evaluate the effect of every champion, adjusting and fine-tuning various aspects associated with each champion, to ensure fair and competitive gameplay. Through updates (patches) they can reduce the power of champions that are too strong (known as nerfing) or enhance the abilities of less successful champions (nerfing)."
-  },
-  {
-    "objectID": "esports/lol-buff-nerf.html#data",
-    "href": "esports/lol-buff-nerf.html#data",
-    "title": "League of Legends - Buffing and Nerfing",
-    "section": "Data",
-    "text": "Data\nEach row is one of the 162 League of Legends champions. The two datasets show play results (e.g. win rates) for two consecutive patches of the game (12.22 and 12.23).\n\nLOL_patch_12.22.csv, LOL_patch_12.23.csv\n\n\nVariable\nDescription\n\n\n\n\nName\nName of the champion\n\n\nRole\nRole of the champion in a game\n\n\nKDA\nAverage kills, deaths and assists associated with each champion\n\n\nWRate\nWin rates of each champion\n\n\nPickRate\nSPick rates of each champion\n\n\nRolePerc\nPercent of time the champion is used in the expected role\n\n\nBanPerc\nBan percentages associated with each champion"
-  },
-  {
-    "objectID": "esports/lol-buff-nerf.html#questions",
-    "href": "esports/lol-buff-nerf.html#questions",
-    "title": "League of Legends - Buffing and Nerfing",
-    "section": "Questions",
-    "text": "Questions\n\nLook for outliers (e.g. in win rate) for the 12.22 patch to identify champions that might need to be buffed or nerfed.\nLook at results for the 12.23 patch to see if outliers identified from 12.22 might have been adjusted of if any different champions are now outliers."
-  },
-  {
-    "objectID": "esports/lol-buff-nerf.html#references",
-    "href": "esports/lol-buff-nerf.html#references",
-    "title": "League of Legends - Buffing and Nerfing",
-    "section": "References",
-    "text": "References\nLol champion stats, 12.22 master, win rates. METAsrc. (n.d.). https://www.metasrc.com/5v5/12.22/stats?ranks=master\nLol champion stats, 12.23 master, win rates. METAsrc. (n.d.-b). https://www.metasrc.com/5v5/12.23/stats?ranks=master"
+    "text": "References\nHo T, Carl S (2022). nflreadr: Download ‘nflverse’ Data. R package version 1.3.1, https://CRAN.R-project.org/package=nflreadr."
   },
   {
     "objectID": "tennis/wta-grand-slam-matches.html",
@@ -245,6 +70,41 @@
     "text": "References\nData was accessed from Jeff Sackmann’s tennis GitHub repository."
   },
   {
+    "objectID": "basketball/nba-player-stats.html",
+    "href": "basketball/nba-player-stats.html",
+    "title": "National Basketball Association Player Statistics",
+    "section": "",
+    "text": "The National Basketball Association (NBA) is the top men’s professional basketball league in the world. While players have predefined positions, the sport is becoming increasingly positionless - with centers attempting more three point shots and guards driving the ball inside to dunk. With this dataset, you can explore clustering NBA players based on various types of statistics and compare your players labels to the predefined positions."
+  },
+  {
+    "objectID": "basketball/nba-player-stats.html#motivation",
+    "href": "basketball/nba-player-stats.html#motivation",
+    "title": "National Basketball Association Player Statistics",
+    "section": "",
+    "text": "The National Basketball Association (NBA) is the top men’s professional basketball league in the world. While players have predefined positions, the sport is becoming increasingly positionless - with centers attempting more three point shots and guards driving the ball inside to dunk. With this dataset, you can explore clustering NBA players based on various types of statistics and compare your players labels to the predefined positions."
+  },
+  {
+    "objectID": "basketball/nba-player-stats.html#data",
+    "href": "basketball/nba-player-stats.html#data",
+    "title": "National Basketball Association Player Statistics",
+    "section": "Data",
+    "text": "Data\nThis dataset contains statistics about 812 player-team stints for during the 2021-2022 NBA regular season. For players that played for \\(T\\) teams during the season (due to trade), there are \\(T+1\\) rows with one row for their performance with each of the \\(T\\) teams and another row indicating their total performance (where tm = TOT) across the full season regardless of team. The counting stats are reported on a per 100 team possessions scale, to normalize for playing time differences.\nThe data was collected using the ballr package in R., which gathers data from basketball-reference.com.\n\nnba-player-stats.csv\n\n\nVariable\nDescription\n\n\n\n\nplayer\nName of player\n\n\npos\nPlayer’s designated position\n\n\nage\nPlayer’s age on February 1st of the season\n\n\ntm\nName of team\n\n\ng\nNumber of games\n\n\ngs\nNumber of games started\n\n\nmp\nNumber of minutes played\n\n\nfg\nField goals per 100 team possessions\n\n\nfga\nField goal attempts per 100 team possessions\n\n\nfgpercent\nField goal percentage\n\n\nx3p\n3 point field goals per 100 team possessions\n\n\nx3pa\n3 point field goal attempts per 100 team possessions\n\n\nx3ppercent\n3 point field goal percentage\n\n\nx2p\n2 point field goals per 100 team possessions\n\n\nx2pa\n2 point field goal attempts per 100 team possessions\n\n\nx2ppercent\n2 point field goal percentage\n\n\nft\nFree throws per 100 team possessions\n\n\nfta\nFree throw attempts per 100 team possessions\n\n\nftpercent\nFree throw percentage\n\n\norb\nOffensive rebounds per 100 team possessions\n\n\ndrb\nDefensive rebounds per 100 team possessions\n\n\ntrb\nTotal rebounds per 100 team possessions\n\n\nast\nAssists per 100 team possessions\n\n\nstl\nSteals per 100 team possessions\n\n\nblk\nBlocks per 100 team possessions\n\n\ntov\nTurnovers per 100 team possessions\n\n\npf\nPersonal fouls per 100 team possessions\n\n\npts\nPoints per 100 team possessions\n\n\nortg\nOffensive Rating - an estimate of points produced per 100 possessions scale\n\n\ndrtg\nDefensive Rating - an estimate of points allowed per 100 possessions scale"
+  },
+  {
+    "objectID": "basketball/nba-player-stats.html#questions",
+    "href": "basketball/nba-player-stats.html#questions",
+    "title": "National Basketball Association Player Statistics",
+    "section": "Questions",
+    "text": "Questions\n\nApply a clustering technique using the player statistics to create new labels for the types of NBA players, and compare to their known position labels. Compare and contrast your data-defined roles to the traditional basketball positions.\nUsing principal component analysis, project the players into a lower dimensional space. Choose an appropriate number of principal components, and describe which statistics contribute to your selected number of components. Based on your results, which player statistics explain the most variation between players in the dataset? Which stats are independent of each other?"
+  },
+  {
+    "objectID": "basketball/nba-player-stats.html#references",
+    "href": "basketball/nba-player-stats.html#references",
+    "title": "National Basketball Association Player Statistics",
+    "section": "References",
+    "text": "References\nElmore R (2020). ballr: Access to Current and Historical Basketball Data. R package version 0.2.6."
+  },
+  {
     "objectID": "hockey/phf-shots.html",
     "href": "hockey/phf-shots.html",
     "title": "Premier Hockey Federation Shots",
@@ -278,6 +138,111 @@
     "title": "Premier Hockey Federation Shots",
     "section": "References",
     "text": "References\nHowell B, Gilani S (2022). fastRhockey: Functions to Access Premier Hockey Federation and National Hockey League Play by Play Data. R package version 0.4.0, https://CRAN.R-project.org/package=fastRhockey."
+  },
+  {
+    "objectID": "lacrosse/lacrosse_pll_vs_nll.html",
+    "href": "lacrosse/lacrosse_pll_vs_nll.html",
+    "title": "Lacrosse PLL vs. NLL",
+    "section": "",
+    "text": "This data set examines the goals and shots in two prominent lacrosse leagues: the Premier Lacrosse League (PLL) and the National Lacrosse League (NLL).\nThe PLL and NLL are highly regarded professional lacrosse leagues that feature top-tier athletes from around the world. The PLL is played in an indoor, smaller field while the NLL plays on an outdoor field with traditional dimensions. This data set allows for an analysis of goal-scoring within these leagues."
+  },
+  {
+    "objectID": "lacrosse/lacrosse_pll_vs_nll.html#motivation",
+    "href": "lacrosse/lacrosse_pll_vs_nll.html#motivation",
+    "title": "Lacrosse PLL vs. NLL",
+    "section": "",
+    "text": "This data set examines the goals and shots in two prominent lacrosse leagues: the Premier Lacrosse League (PLL) and the National Lacrosse League (NLL).\nThe PLL and NLL are highly regarded professional lacrosse leagues that feature top-tier athletes from around the world. The PLL is played in an indoor, smaller field while the NLL plays on an outdoor field with traditional dimensions. This data set allows for an analysis of goal-scoring within these leagues."
+  },
+  {
+    "objectID": "lacrosse/lacrosse_pll_vs_nll.html#data",
+    "href": "lacrosse/lacrosse_pll_vs_nll.html#data",
+    "title": "Lacrosse PLL vs. NLL",
+    "section": "Data",
+    "text": "Data\nThe data set has 162 rows with 9 columns. Each row represents a single lacrosse match either in the Premier Lacrosse League or the National Lacrosse League for the 2021 - 2022 season. NLL seasons typically run from December to May while PLL seasons typically run from June to September.\n\nlacrosse_pll_vs_nll_2021-2022.csv\n\n\nVariable\nDescription\n\n\n\n\nLeague\nThe Premier Lacrosse league and the National Lacrosse League\n\n\nAway_team\nThe traveling team\n\n\nHome_team\nThe hosting team\n\n\nAway_shots\nHow many shots the Away_team had on net\n\n\nHome_shots\nHow many shots the Home_team had on net\n\n\nAway_goals\nHow many goals the Away_team had on net\n\n\nHome_goals\nHow many goals the Home_team had on net\n\n\ngoals_per_game\nThe total amount of goals scored each game\n\n\ngoals_per_48\nThe average amount of goals for the first 48 minutes of a game"
+  },
+  {
+    "objectID": "lacrosse/lacrosse_pll_vs_nll.html#questions",
+    "href": "lacrosse/lacrosse_pll_vs_nll.html#questions",
+    "title": "Lacrosse PLL vs. NLL",
+    "section": "Questions",
+    "text": "Questions\n\nDo these data provide evidence that, on average, goals scored in the PLL and NLL differ? Include all details of the appropriate hypothesis test.\nConstruct and interpret a 95% confidence interval in average goals for NLL and PLL lacrosse games per 48 minutes."
+  },
+  {
+    "objectID": "lacrosse/lacrosse_pll_vs_nll.html#references",
+    "href": "lacrosse/lacrosse_pll_vs_nll.html#references",
+    "title": "Lacrosse PLL vs. NLL",
+    "section": "References",
+    "text": "References\nPremier Lacrosse League stats. Premier Lacrosse League Stats. (n.d.). https://stats.premierlacrosseleague.com/\nPlayer stats. NLL. (2023, January 26). https://www.nll.com/stats/all-player-stats/"
+  },
+  {
+    "objectID": "submit-data.html",
+    "href": "submit-data.html",
+    "title": "Submit a Dataset",
+    "section": "",
+    "text": "The goal of this repository is to provide a collection of relevant and engaging sports datasets to be used in class, handouts, assignments, projects, and SCORE modules. We are always looking for new datasets and welcome public submissions, but these datasets will need to meet the following requirements:"
+  },
+  {
+    "objectID": "submit-data.html#two-ways-to-submit-a-dataset",
+    "href": "submit-data.html#two-ways-to-submit-a-dataset",
+    "title": "Submit a Dataset",
+    "section": "Two ways to submit a dataset",
+    "text": "Two ways to submit a dataset\nThere are two ways to contribute a dataset:\n\nSubmit a dataset with the necessary information using this Google form. This is the recommended option for contributors who are not experienced with quarto or Rmarkdown files. The form will describe what information is necessary for us to create the appropriate page for your submitted dataset.\nFill out a quarto template file with the dataset information, and then submit either via email or directly with a GitHub pull request.\n\n\nThe rest of this page includes information about submitting a dataset using the quarto template file."
+  },
+  {
+    "objectID": "submit-data.html#quarto-template-file-submission-steps",
+    "href": "submit-data.html#quarto-template-file-submission-steps",
+    "title": "Submit a Dataset",
+    "section": "Quarto template file submission steps",
+    "text": "Quarto template file submission steps\nThis data repository is built using quarto and rendered into a website. You can get the template file in two ways:\n\nCopy the _dataset-template.qmd file from our GitHub repository and save it on your computer. Once you’re done, you can email us the file and the data (see below for email address).\nFork our GitHub repository into your own GitHub account and edit it like any other Git repository. Once you’re done, you can submit a pull request.\n\n\nDataset template\nThe dataset template is a Quarto file. The template asks for:\n\nBasic metadata to tag the dataset, such as the statistics & data science topic, a short title, and your name. (All submissions are credited with the name of the submitter.)\nA description of the sports question to motivate analysis with the dataset.\nA description of the dataset with documentation about each variable. The file should make it clear what a single row of the dataset represents, and clearly describe each of the variables (including units of measure when relevant).\nReferences to the original source of the data. If the source is a code package, then include an appropriate citation with a link to the package. If the source is an academic paper and the data is deposited in a third-party repository (e.g., Figshare), then include references to both the paper and the archived dataset. When available, include the DOIs of the references.\n\nThe template is meant to prevent a common problem with course datasets: they get passed down from instructor to instructor, and eventually all information about the original source is lost. The dataset may be presented to students without context or important details (like units), and the instructor may not be able to find the original data or references to answer questions about the data.\n\n\nSubmitting template file\nOnce you’ve filled in the template, you can either:\n\nEmail the template file, the data, and any code for preparing the data to the repository editor (currently Ron Yurko: ryurko AT stat DOT cmu DOT edu).\nSubmit a pull request to our repository on GitHub. Save the Qmd with a meaningful name and place it in its relevant sports directory (e.g., baseball/ or tennis/). Place the data files in data/. Place any code to prepare the data in the _prep/ folder, inside another folder with a name matching the submitted dataset. Once you’ve committed all of the necessary files (without anything extraneous) then you can submit a pull request."
+  },
+  {
+    "objectID": "esports/lol-buff-nerf.html",
+    "href": "esports/lol-buff-nerf.html",
+    "title": "League of Legends - Buffing and Nerfing",
+    "section": "",
+    "text": "League of Legends is a 5 v. 5 multiplayer online battle arena (MOBA) game developed by Riot Games. They collect data to evaluate the effect of every champion, adjusting and fine-tuning various aspects associated with each champion, to ensure fair and competitive gameplay. Through updates (patches) they can reduce the power of champions that are too strong (known as nerfing) or enhance the abilities of less successful champions (nerfing)."
+  },
+  {
+    "objectID": "esports/lol-buff-nerf.html#motivation",
+    "href": "esports/lol-buff-nerf.html#motivation",
+    "title": "League of Legends - Buffing and Nerfing",
+    "section": "",
+    "text": "League of Legends is a 5 v. 5 multiplayer online battle arena (MOBA) game developed by Riot Games. They collect data to evaluate the effect of every champion, adjusting and fine-tuning various aspects associated with each champion, to ensure fair and competitive gameplay. Through updates (patches) they can reduce the power of champions that are too strong (known as nerfing) or enhance the abilities of less successful champions (nerfing)."
+  },
+  {
+    "objectID": "esports/lol-buff-nerf.html#data",
+    "href": "esports/lol-buff-nerf.html#data",
+    "title": "League of Legends - Buffing and Nerfing",
+    "section": "Data",
+    "text": "Data\nEach row is one of the 162 League of Legends champions. The two datasets show play results (e.g. win rates) for two consecutive patches of the game (12.22 and 12.23).\n\nLOL_patch_12.22.csv, LOL_patch_12.23.csv\n\n\nVariable\nDescription\n\n\n\n\nName\nName of the champion\n\n\nRole\nRole of the champion in a game\n\n\nKDA\nAverage kills, deaths and assists associated with each champion\n\n\nWRate\nWin rates of each champion\n\n\nPickRate\nSPick rates of each champion\n\n\nRolePerc\nPercent of time the champion is used in the expected role\n\n\nBanPerc\nBan percentages associated with each champion"
+  },
+  {
+    "objectID": "esports/lol-buff-nerf.html#questions",
+    "href": "esports/lol-buff-nerf.html#questions",
+    "title": "League of Legends - Buffing and Nerfing",
+    "section": "Questions",
+    "text": "Questions\n\nLook for outliers (e.g. in win rate) for the 12.22 patch to identify champions that might need to be buffed or nerfed.\nLook at results for the 12.23 patch to see if outliers identified from 12.22 might have been adjusted of if any different champions are now outliers."
+  },
+  {
+    "objectID": "esports/lol-buff-nerf.html#references",
+    "href": "esports/lol-buff-nerf.html#references",
+    "title": "League of Legends - Buffing and Nerfing",
+    "section": "References",
+    "text": "References\nLol champion stats, 12.22 master, win rates. METAsrc. (n.d.). https://www.metasrc.com/5v5/12.22/stats?ranks=master\nLol champion stats, 12.23 master, win rates. METAsrc. (n.d.-b). https://www.metasrc.com/5v5/12.23/stats?ranks=master"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SCORE Sports Data Repository",
+    "section": "",
+    "text": "The SCORE Network Sports Data Repository curates interesting datasets across a variety of sports for use in statistics and data science education. Each dataset has the following properties:\n\nA sports question of interest, with context motivating why the dataset is relevant and interesting to explore.\nA statistics / data science topic which the dataset can be used to help teach.\nExample questions that instructors can use to help build lessons, handouts, and SCORE modules.\n\nDatasets are organized by sport along the left, but you can also browse by statistics and data science topic.\nThis repository is heavily inspired by the CMU S&DS Data Repository.\nThe development of the SCORE with Data network is funded by the National Science Foundation (award 2142705)."
+  },
+  {
+    "objectID": "data-sources.html",
+    "href": "data-sources.html",
+    "title": "Data Sources",
+    "section": "",
+    "text": "Here are some resources for finding sports datasets:\n\nCRAN Task View for Sports Analytics - catalog of R packages published on the Comprehensive R Archive Network (CRAN) organized by sport (curated by Benjamin S. Baumer, Quang Nguyen, and Gregory J. Matthews)\nSportsDataverse initiative - collection of software tools for accessing publicly available sports data (organized by Saiem Gilani)\nKaggle\nTidyTuesday - GitHub repository of datasets updated weekly with example code for accessing data (featuring a variety of sports examples)\nFiveThirtyEight - GitHub repository of datasets used in FiveThirtyEight articles"
   },
   {
     "objectID": "soccer/nwsl-team-stats.html",
@@ -315,46 +280,109 @@
     "text": "References\nDror A (2023). nwslR: Compiles dataset for the National Women’s Soccer League (NWSL). R package version 0.0.0.9001."
   },
   {
-    "objectID": "basketball/nba-player-stats.html",
-    "href": "basketball/nba-player-stats.html",
-    "title": "National Basketball Association Player Statistics",
+    "objectID": "golf/pga_drive_putt.html",
+    "href": "golf/pga_drive_putt.html",
+    "title": "Statistics of PGA Tournaments During the 2022 Season",
     "section": "",
-    "text": "The National Basketball Association (NBA) is the top men’s professional basketball league in the world. While players have predefined positions, the sport is becoming increasingly positionless - with centers attempting more three point shots and guards driving the ball inside to dunk. With this dataset, you can explore clustering NBA players based on various types of statistics and compare your players labels to the predefined positions."
+    "text": "A common expression among golfers is “Drive for show, putt for dough.” This implies that the long initial tee shots (drives) on each hole are impressive, but the real key to success is the final strokes rolling the ball along the green into the hole (putts). Do data support this adage? The dataset for this activity was obtained from the PGA statistics website. Cases include all golfers who made the cut in each of 19 PGA tournaments in 2022. The dataset includes variables for driving ability, putting ability, and measuring success in the tournament. The “driving” variables include average driving distance (avgDriveDist), driving accuracy percentage (drivePct), and strokes gained off the tee (driveSG). The “putting” variables are average putts per round (avgPuttsPerRound), one putt percentage (onePuttPct), and strokes gained putting (puttsSG). The variables to measure success are scoring average (avgScore), official money won (Money), and Fedex Cup points (Points)."
   },
   {
-    "objectID": "basketball/nba-player-stats.html#motivation",
-    "href": "basketball/nba-player-stats.html#motivation",
-    "title": "National Basketball Association Player Statistics",
+    "objectID": "golf/pga_drive_putt.html#motivation",
+    "href": "golf/pga_drive_putt.html#motivation",
+    "title": "Statistics of PGA Tournaments During the 2022 Season",
     "section": "",
-    "text": "The National Basketball Association (NBA) is the top men’s professional basketball league in the world. While players have predefined positions, the sport is becoming increasingly positionless - with centers attempting more three point shots and guards driving the ball inside to dunk. With this dataset, you can explore clustering NBA players based on various types of statistics and compare your players labels to the predefined positions."
+    "text": "A common expression among golfers is “Drive for show, putt for dough.” This implies that the long initial tee shots (drives) on each hole are impressive, but the real key to success is the final strokes rolling the ball along the green into the hole (putts). Do data support this adage? The dataset for this activity was obtained from the PGA statistics website. Cases include all golfers who made the cut in each of 19 PGA tournaments in 2022. The dataset includes variables for driving ability, putting ability, and measuring success in the tournament. The “driving” variables include average driving distance (avgDriveDist), driving accuracy percentage (drivePct), and strokes gained off the tee (driveSG). The “putting” variables are average putts per round (avgPuttsPerRound), one putt percentage (onePuttPct), and strokes gained putting (puttsSG). The variables to measure success are scoring average (avgScore), official money won (Money), and Fedex Cup points (Points)."
   },
   {
-    "objectID": "basketball/nba-player-stats.html#data",
-    "href": "basketball/nba-player-stats.html#data",
-    "title": "National Basketball Association Player Statistics",
+    "objectID": "golf/pga_drive_putt.html#data",
+    "href": "golf/pga_drive_putt.html#data",
+    "title": "Statistics of PGA Tournaments During the 2022 Season",
     "section": "Data",
-    "text": "Data\nThis dataset contains statistics about 812 player-team stints for during the 2021-2022 NBA regular season. For players that played for \\(T\\) teams during the season (due to trade), there are \\(T+1\\) rows with one row for their performance with each of the \\(T\\) teams and another row indicating their total performance (where tm = TOT) across the full season regardless of team. The counting stats are reported on a per 100 team possessions scale, to normalize for playing time differences.\nThe data was collected using the ballr package in R., which gathers data from basketball-reference.com.\n\nnba-player-stats.csv\n\n\nVariable\nDescription\n\n\n\n\nplayer\nName of player\n\n\npos\nPlayer’s designated position\n\n\nage\nPlayer’s age on February 1st of the season\n\n\ntm\nName of team\n\n\ng\nNumber of games\n\n\ngs\nNumber of games started\n\n\nmp\nNumber of minutes played\n\n\nfg\nField goals per 100 team possessions\n\n\nfga\nField goal attempts per 100 team possessions\n\n\nfgpercent\nField goal percentage\n\n\nx3p\n3 point field goals per 100 team possessions\n\n\nx3pa\n3 point field goal attempts per 100 team possessions\n\n\nx3ppercent\n3 point field goal percentage\n\n\nx2p\n2 point field goals per 100 team possessions\n\n\nx2pa\n2 point field goal attempts per 100 team possessions\n\n\nx2ppercent\n2 point field goal percentage\n\n\nft\nFree throws per 100 team possessions\n\n\nfta\nFree throw attempts per 100 team possessions\n\n\nftpercent\nFree throw percentage\n\n\norb\nOffensive rebounds per 100 team possessions\n\n\ndrb\nDefensive rebounds per 100 team possessions\n\n\ntrb\nTotal rebounds per 100 team possessions\n\n\nast\nAssists per 100 team possessions\n\n\nstl\nSteals per 100 team possessions\n\n\nblk\nBlocks per 100 team possessions\n\n\ntov\nTurnovers per 100 team possessions\n\n\npf\nPersonal fouls per 100 team possessions\n\n\npts\nPoints per 100 team possessions\n\n\nortg\nOffensive Rating - an estimate of points produced per 100 possessions scale\n\n\ndrtg\nDefensive Rating - an estimate of points allowed per 100 possessions scale"
+    "text": "Data\nEach row of data gives the measures for one golfer in one tournament. The dataset covers 19 PGA tournaments from the 2022 season with 1387 cases in all. Each tournament consists of four rounds of golf. Some golfers are eliminated after the first two (or sometimes three) rounds. Only players who competed in all four rounds (i.e. those that made the “cut”) are included in this dataset.\n\nPGA2022.csv\n\n\nVariable\nDescription\n\n\n\n\nplayerName\nName of the player\n\n\ncountry\nThe country where the player is from\n\n\navgDriveDist\nAverage driving distance (in yards)\n\n\ndrivePct\nPercentage of times a tee shot comes to rest in the fairway\n\n\ndriveSG\nStrokes gained off the tee measures player performance off the tee on all par 4s and par 5s of how much better or worse a player’s drive is than the PGA Tour average\n\n\navgPuttsPerRound\nAverage number of total putts per round\n\n\nonePuttPct\nPercentage of times it took one putt to get the ball into the hole\n\n\nputtsSG\nStrokes gained putting measures how many strokes a player gains or loses on the greens compared to the PGA Tour average\n\n\navgScore\nThe scoring average is the total strokes divided by the total rounds\n\n\nMoney\nThe official money is the prize money award to the Professional members\n\n\nPoints\nFedexCup Regular Season Points are awarded points by finished position for performance in each tournament\n\n\nTournament\nThe tournament where the PGA Tour is taking place"
   },
   {
-    "objectID": "basketball/nba-player-stats.html#questions",
-    "href": "basketball/nba-player-stats.html#questions",
-    "title": "National Basketball Association Player Statistics",
+    "objectID": "golf/pga_drive_putt.html#questions",
+    "href": "golf/pga_drive_putt.html#questions",
+    "title": "Statistics of PGA Tournaments During the 2022 Season",
     "section": "Questions",
-    "text": "Questions\n\nApply a clustering technique using the player statistics to create new labels for the types of NBA players, and compare to their known position labels. Compare and contrast your data-defined roles to the traditional basketball positions.\nUsing principal component analysis, project the players into a lower dimensional space. Choose an appropriate number of principal components, and describe which statistics contribute to your selected number of components. Based on your results, which player statistics explain the most variation between players in the dataset? Which stats are independent of each other?"
+    "text": "Questions\n\nAre driving or putting statistics generally more effective for predicting success in a PGA tournament?\nWhich measure of success (avgScore, Money, or Points) appears to be easiest to predict with either driving or putting information?\nFor each measure of success, generate a scatterplot with one the putting or driving variables. Which of these plots suggest we might want to use a transformation of one of the variables to improve linearity?\nCan you find a transformation that improves the linearity of the relationship for one of the problematic cases in question #3?"
   },
   {
-    "objectID": "basketball/nba-player-stats.html#references",
-    "href": "basketball/nba-player-stats.html#references",
-    "title": "National Basketball Association Player Statistics",
+    "objectID": "golf/pga_drive_putt.html#references",
+    "href": "golf/pga_drive_putt.html#references",
+    "title": "Statistics of PGA Tournaments During the 2022 Season",
     "section": "References",
-    "text": "References\nElmore R (2020). ballr: Access to Current and Historical Basketball Data. R package version 0.2.6."
+    "text": "References\nThe data were obtained from the PGA statistics website."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "SCORE Sports Data Repository",
+    "objectID": "hockey/nhl-shots.html",
+    "href": "hockey/nhl-shots.html",
+    "title": "National Hockey League Shots",
     "section": "",
-    "text": "The SCORE Network Sports Data Repository curates interesting datasets across a variety of sports for use in statistics and data science education. Each dataset has the following properties:\n\nA sports question of interest, with context motivating why the dataset is relevant and interesting to explore.\nA statistics / data science topic which the dataset can be used to help teach.\nExample questions that instructors can use to help build lessons, handouts, and SCORE modules.\n\nDatasets are organized by sport along the left, but you can also browse by statistics and data science topic.\nThis repository is heavily inspired by the CMU S&DS Data Repository.\nThe development of the SCORE with Data network is funded by the National Science Foundation (award 2142705)."
+    "text": "The National Hockey League (NHL) is the top professional men’s hockey league in the world. The league records every shot players take along with contextual information about the shot such as its location, the player’s distance and angle to the goal when attempting the shot, as well as the outcome (blocked, missed, or goal). Using this information, the hockey analytics community have developed measures of shot quality known as expected goals. With this dataset, you can create your own expected goals model to predict the shot outcome given relevant features."
+  },
+  {
+    "objectID": "hockey/nhl-shots.html#motivation",
+    "href": "hockey/nhl-shots.html#motivation",
+    "title": "National Hockey League Shots",
+    "section": "",
+    "text": "The National Hockey League (NHL) is the top professional men’s hockey league in the world. The league records every shot players take along with contextual information about the shot such as its location, the player’s distance and angle to the goal when attempting the shot, as well as the outcome (blocked, missed, or goal). Using this information, the hockey analytics community have developed measures of shot quality known as expected goals. With this dataset, you can create your own expected goals model to predict the shot outcome given relevant features."
+  },
+  {
+    "objectID": "hockey/nhl-shots.html#data",
+    "href": "hockey/nhl-shots.html#data",
+    "title": "National Hockey League Shots",
+    "section": "Data",
+    "text": "Data\nThis dataset contains information about 160,573 shots during the 2021-2022 NHL season.\nThe data was collected using the hockeyR package in R.\n\nnhl-shots-2021.csv.gz\n\n\nVariable\nDescription\n\n\n\n\ngame_id\nUnique integer identifier for game shot took place in\n\n\ndescription\nString detailed description of shot event\n\n\nshot_outcome\nString denoting the outcome of the shot, either BLOCKED_SHOT (meaning blocked by a non-goalie), GOAL, MISSED_SHOT (shot that missed the net), or SHOT (shot on net that was saved by a goalie)\n\n\nperiod\nInteger value of the game period\n\n\nperiod_seconds_remaining\nNumeric value of the seconds remaining in the period\n\n\ngame_seconds_remaining\nNumeric value of the seconds remaining in the game; negative for overtime periods\n\n\nhome_score\nInteger value of the home team score after the event\n\n\naway_score\nInteger value of the away team score after the event\n\n\nhome_name\nString name of the home team\n\n\naway_name\nString name of the away team\n\n\nevent_team\nString defining the team taking the shot\n\n\nevent_goalie_name\nString name of goalie (if in net)\n\n\nempty_net\nBoolean indicating if the shot was during an empty net situation, TRUE if so but FALSE or NA if not\n\n\nevent_player_1_name\nString name of the primary event player\n\n\nevent_player_1_type\nString indicator for the role of event_player_1 (typically the shooter)\n\n\nevent_player_2_name\nString name of the secondary event player\n\n\nevent_player_2_type\nString indicator for the role of event_player_2 (blocker, assist, or goalie)\n\n\nstrength_code\nString indicator for game strength: EV (Even), SH (Shorthanded), or PP (Power Play)\n\n\nx_fixed\nNumeric transformed x-coordinate of event in feet, where the home team always shoots to the right, away team to the left\n\n\ny_fixed\nNumeric transformed y-coordinate of event in feet, where the home team always shoots to the right, away team to the left\n\n\nshot_distance\nNumeric distance (in feet) to center of net for unblocked shot events\n\n\nshot_angle\nNumeric angle (in degrees) to center of net for unlocked shot events"
+  },
+  {
+    "objectID": "hockey/nhl-shots.html#questions",
+    "href": "hockey/nhl-shots.html#questions",
+    "title": "National Hockey League Shots",
+    "section": "Questions",
+    "text": "Questions\n\nBuild a logistic regression model to predict whether or not the shot will result in a goal based on the shot distance and angle.\nBuild a classification model to predict the outcome based on the spatial x,y coordinates of the shot.\nCreate a visualization displaying the joint frequency of shot locations. Do there appear to be any clear modes of frequently taken shots? Create a conditional version of this display by shot outcome. Does the distribution shape vary by shot outcome? (You can also perform a similar analysis by team)."
+  },
+  {
+    "objectID": "hockey/nhl-shots.html#references",
+    "href": "hockey/nhl-shots.html#references",
+    "title": "National Hockey League Shots",
+    "section": "References",
+    "text": "References\nMorse D (2023). hockeyR: Collect and Clean Hockey Stats. R package version 1.3.1, https://github.com/danmorse314/hockeyR."
+  },
+  {
+    "objectID": "basketball/wnba-shots.html",
+    "href": "basketball/wnba-shots.html",
+    "title": "Women’s National Basketball Association Shots",
+    "section": "",
+    "text": "The Women’s National Basketball Association (WNBA) is the top professional women’s basketball league in the world. The league records every shot players take along with contextual information about the shot such as its location, a description of the shot type, as well as the outcome. With this dataset, you can predict the success of each shot attempt to compute the expected value of shot types and compare team decision making."
+  },
+  {
+    "objectID": "basketball/wnba-shots.html#motivation",
+    "href": "basketball/wnba-shots.html#motivation",
+    "title": "Women’s National Basketball Association Shots",
+    "section": "",
+    "text": "The Women’s National Basketball Association (WNBA) is the top professional women’s basketball league in the world. The league records every shot players take along with contextual information about the shot such as its location, a description of the shot type, as well as the outcome. With this dataset, you can predict the success of each shot attempt to compute the expected value of shot types and compare team decision making."
+  },
+  {
+    "objectID": "basketball/wnba-shots.html#data",
+    "href": "basketball/wnba-shots.html#data",
+    "title": "Women’s National Basketball Association Shots",
+    "section": "Data",
+    "text": "Data\nThis dataset contains information about 41,497 shots during the 2021-2022 WNBA season.\nThe data was collected using the wehoop package in R.\n\nwnba-shots-2021.csv.gz\n\n\nVariable\nDescription\n\n\n\n\ngame_id\nUnique integer ID for each WNBA game\n\n\ngame_play_number\nInteger indicating the recorded play number for the shot attempt, where 1 indicates the first play of the game\n\n\ndesc\nString detailed description of shot attempt\n\n\nshot_type\nString description of the shot type (e.g., dunk, layup, jump shot, etc.)\n\n\nmade_shot\nBoolean denoting if the shot was made (TRUE) or not (FALSE)\n\n\nshot_value\nNumeric value of the shot outcome (0 for shots that were not made, and a positive value for made shots)\n\n\ncoordinate_x\nHorizontal location in feet of shot attempt where the hoop would be located at 25 feet\n\n\ncoordinate_y\nVertical location in feet of shot attempt with respect to the target hoop (the hoop should be a little in front of 0 but the coordinate system is not exact)\n\n\nshooting_team\nString name of the team taking the shot\n\n\nhome_name\nString name of the home team\n\n\naway_name\nString name of the away team\n\n\nhome_score\nInteger value of the home team score after the shot\n\n\naway_score\nInteger value of the away team score after the shot\n\n\nqtr\nInteger denoting the quarter/period in the game\n\n\nquarter_seconds_remaining\nNumeric integer value for number of seconds remaining in quarter/period\n\n\ngame_seconds_remaining\nNumeric integer value for number of seconds remaining in game"
+  },
+  {
+    "objectID": "basketball/wnba-shots.html#questions",
+    "href": "basketball/wnba-shots.html#questions",
+    "title": "Women’s National Basketball Association Shots",
+    "section": "Questions",
+    "text": "Questions\n\nBuild a classification model to predict the shot outcome based on the spatial x,y coordinates of the shot.\nCreate a visualization displaying the joint frequency of shot locations. Do there appear to be any clear modes of frequently taken shots? Create a conditional version of this display by shot outcome. Does the distribution shape vary by shot outcome? (You can also perform a similar analysis by team and shot type)."
+  },
+  {
+    "objectID": "basketball/wnba-shots.html#references",
+    "href": "basketball/wnba-shots.html#references",
+    "title": "Women’s National Basketball Association Shots",
+    "section": "References",
+    "text": "References\nGilani S, Hutchinson G (2022). wehoop: Access Women’s Basketball Play by Play Data. R package version 1.5.0, https://CRAN.R-project.org/package=wehoop."
   },
   {
     "objectID": "baseball/verlander-pitches.html",
@@ -392,38 +420,10 @@
     "text": "References\nPetti B, Gilani S (2022). baseballr: Acquiring and Analyzing Baseball Data. R package version 1.3.0, https://CRAN.R-project.org/package=baseballr."
   },
   {
-    "objectID": "football/nfl-team-statistics.html",
-    "href": "football/nfl-team-statistics.html",
-    "title": "National Football League Team Statistics",
+    "objectID": "by-statsds-topic.html",
+    "href": "by-statsds-topic.html",
+    "title": "Datasets By Topic",
     "section": "",
-    "text": "The National Football League (NFL) is the top professional American football league in the world. While a team’s record ultimately determines whether or not they make the playoffs, their score differential (points for - points against) is often a better indicator of a team’s ability. But what aspects of a team’s performance are related to their point differential? Is passing more important than rushing? What about offense in comparison to defense? The NFL records a variety of statistics, and the public NFL analytics community have developed advanced metrics such as expected points added (EPA) that provide deeper insight into a team’s performance. With this dataset of statistics dating back to 1999, you can explore variation between teams since as well as which types of statistics are relevant predictor variables of record and point differential."
-  },
-  {
-    "objectID": "football/nfl-team-statistics.html#motivation",
-    "href": "football/nfl-team-statistics.html#motivation",
-    "title": "National Football League Team Statistics",
-    "section": "",
-    "text": "The National Football League (NFL) is the top professional American football league in the world. While a team’s record ultimately determines whether or not they make the playoffs, their score differential (points for - points against) is often a better indicator of a team’s ability. But what aspects of a team’s performance are related to their point differential? Is passing more important than rushing? What about offense in comparison to defense? The NFL records a variety of statistics, and the public NFL analytics community have developed advanced metrics such as expected points added (EPA) that provide deeper insight into a team’s performance. With this dataset of statistics dating back to 1999, you can explore variation between teams since as well as which types of statistics are relevant predictor variables of record and point differential."
-  },
-  {
-    "objectID": "football/nfl-team-statistics.html#data",
-    "href": "football/nfl-team-statistics.html#data",
-    "title": "National Football League Team Statistics",
-    "section": "Data",
-    "text": "Data\nThis dataset contains statistics about the regular season performance for each NFL team from 1999 to 2022 team. The data was collected using the nflreadr package in R.\nEach row in the dataset corresponds to a single NFL team in a single regular season. There are a total of 765 team-seasons, with 56 total columns. The column names are organized below by the type of information they contain, with the first set of columns being self-explanatory:\n\nnfl-team-statistics.csv\n\n\nVariable\nDescription\n\n\n\n\nseason\nRegular season year of team’s statistics\n\n\nteam\nNFL team three letter abbreviation\n\n\n\nThere are also columns with season level outcomes:\n\n\n\nVariable\nDescription\n\n\n\n\npoints_score\nTotal number of points scored by the team\n\n\npoints_allowed\nTotal number of points allowed by the team\n\n\nwins\nNumber of games the team won\n\n\nlosses\nNumber of games the team lost\n\n\nties\nNumber of games the team tied\n\n\nscore_differential\npoints scored - points allowed\n\n\n\nThere are also several columns corresponding to offensive and defensive summaries of the team’s performance in the season separated by play type (either pass or run):\n\n\n\n\n\n\n\nVariable\nDescription\n\n\n\n\noffense/defense_completion_percentage\nPassing completion percentage either for (offense) or against (defense)\n\n\noffense/defense_total_yards_gained_pass/run\nTotal number of yards gained (offense) or allowed (defense) by play type (pass or run)\n\n\noffense/defense_ave_yards_gained_pass/run\nAverage number of yards gained (offense) or allowed (defense) per play by play type (pass or run)\n\n\noffense/defense_total_air_yards\nTotal number of air yards gained (offense) or allowed (defense), where air yards correspond to perpendicular yards traveled from the line of scrimmage to location of catch for passing plays\n\n\noffense/defense_ave_air_yards\nAverage number of air yards gained (offense) or allowed (defense) per passing play\n\n\noffense/defense_total_yac\nTotal number of yards after catch gained (offense) or allowed (defense)\n\n\noffense/defense_ave_yac\nAverage number of yards after catch gained (offense) or allowed (defense) per passing play\n\n\noffense/defense_n_plays_pass/run\nTotal number of plays by the team (offense) or against (defense) by play type (pass or run)\n\n\noffense/defense_n_interceptions\nTotal number of interceptions thrown (offense) or caught (defense)\n\n\noffense/defense/n_fumbles_lost_pass/run\nTotal number of fumbles lost (offense) or forced (defense) by play type (pass or run)\n\n\noffense/defense_total_epa_pass/run\nTotal expected points added (offense) or allowed (defense) by play type (pass or run)\n\n\noffense/defense_ave_epa_pass/run\nAverage expected points added (offense) or allowed (defense) per play by play type (pass or run)\n\n\noffense/defense_total_wpa_pass/run\nTotal win probability added (offense) or allowed (defense) by play type (pass or run)\n\n\noffense/defense_ave_wpa_pass/run\nAverage win probability added (offense) or allowed (defense) per play by play type (pass or run)\n\n\noffense/defense_total_epa_pass/run\nTotal expected points added (offense) or allowed (defense) by play type (pass or run)\n\n\noffense/defense_success_rate_pass/run\nProportion of plays with positive expected points added (offense) or allowed (defense) by play type (pass or run)\n\n\n\nThe EPA variables are advanced NFL statistics, conveying how much value a team is adding over the average team in a given situation. It’s on a points scale instead of the typically used yards, because not all yards are created equal in American football (10 yard gain on 3rd and 15 is much less valuable than a 2 yard gain on 4th and 1). For offensive stats the higher the EPA the better, but for defensive stats the lower (more negative) the EPA the better. The WPA variables are similar except they are measuring play value in terms of win probability."
-  },
-  {
-    "objectID": "football/nfl-team-statistics.html#questions",
-    "href": "football/nfl-team-statistics.html#questions",
-    "title": "National Football League Team Statistics",
-    "section": "Questions",
-    "text": "Questions\n\nBuild a linear regression model to predict score differential as a function of the team’s statistics. Which variables, if any, are predictive of score differential in a season? Are certain types of variables more predictive? (e.g., passing versus rushing,) Describe their relationships.\nUsing principal component analysis, project the team seasons into a lower dimensional space using only the team statistics that do not include points or record. Choose an appropriate number of principal components, and describe which statistics contribute to your selected number of components. Based on your results, which team statistics explain the most variation between team-seasons in the dataset? Which team statistics are independent of each other?"
-  },
-  {
-    "objectID": "football/nfl-team-statistics.html#references",
-    "href": "football/nfl-team-statistics.html#references",
-    "title": "National Football League Team Statistics",
-    "section": "References",
-    "text": "References\nHo T, Carl S (2022). nflreadr: Download ‘nflverse’ Data. R package version 1.3.1, https://CRAN.R-project.org/package=nflreadr."
+    "text": "Justin Verlander Pitches\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\n\n\nInformation about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nLacrosse PLL vs. NLL\n\n\n\n\n\n\n\nDifference in means hypothesis tests\n\n\nDifference in means confidence intervals\n\n\n\n\nThe data set looks at both lacrosse leagues, their respective teams, and their shot and goal amounts.\n\n\n\n\n\n\nJun 22, 2023\n\n\nAJ Dykstra, Jack Cowan, and Ivan Ramler\n\n\n\n\n\n\n  \n\n\n\n\nLeague of Legends - Buffing and Nerfing\n\n\n\n\n\n\n\noutlier detection\n\n\nfive number summary\n\n\nz-scores\n\n\n\n\nGame play statistics for League of Legends champions in two different patches. Can detecting outliers indicate champions that should be enhanced (buffed) or scaled back (nerfed)?\n\n\n\n\n\n\nJul 1, 2023\n\n\nGeorge Charalambous, Ivan Ramler, and A.J. Dykstra\n\n\n\n\n\n\n  \n\n\n\n\nNational Basketball Association Player Statistics\n\n\n\n\n\n\n\nclustering\n\n\nprincipal component analysis\n\n\n\n\nNBA player statistics from the 2021-2022 regular season\n\n\n\n\n\n\nMar 25, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nNational Football League Team Statistics\n\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\nmissing data\n\n\nvariable selection\n\n\nregularization\n\n\n\n\nNFL team statistics from 1999 to 2022\n\n\n\n\n\n\nMay 24, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nNational Hockey League Shots\n\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\n\nInformation about shots during the 2021-2022 NHL season\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nNational Women’s Soccer League Team Statistics\n\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\n\n\nNWSL team statistics from 2016 to 2022\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nPremier Hockey Federation Shots\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\nlogistic regression\n\n\n\n\nInformation about shots during the 2021-2022 PHF season\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nStatistics of PGA Tournaments During the 2022 Season\n\n\n\n\n\n\n\ncorrelation\n\n\nlinear regression\n\n\n\n\nMeasures of Putting, Driving, and Success for individual golfers in 19 professional tournaments in 2022\n\n\n\n\n\n\nMay 19, 2023\n\n\nAlysssa Bigness\n\n\n\n\n\n\n  \n\n\n\n\nWTA Grand Slam Matches\n\n\n\n\n\n\n\nlogistic regression\n\n\ndata wrangling\n\n\ncategorical data\n\n\nchi-squared test\n\n\nclustering\n\n\n\n\nWTA Grand Slam Matches from 2018 to 2022\n\n\n\n\n\n\nMay 24, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nWomen’s National Basketball Association Shots\n\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\n\nInformation about shots during the 2021-2022 WNBA season\n\n\n\n\n\n\nMar 25, 2023\n\n\nRon Yurko\n\n\n\n\n\n\nNo matching items"
   }
 ]
