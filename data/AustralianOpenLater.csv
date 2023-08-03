@@ -1,0 +1,106 @@
+Year,Round,Winner,Loser,WRank,LRank,pl1_flag,pl1_year_pro,pl1_weight,pl1_height,pl1_hand,pl2_flag,pl2_year_pro,pl2_weight,pl2_height,pl2_hand,rank_diff,rank_diff_cat,higher_rank_won
+2022,Quarterfinals,Nadal R.,Shapovalov D.,5,14,ESP,2001,85,185,Left,CAN,2016,76,183,Left,-9,Low,Yes
+2022,Quarterfinals,Berrettini M.,Monfils G.,7,20,ITA,2015,95,196,Right,FRA,2004,80,193,Right,-13,Low,Yes
+2022,Quarterfinals,Tsitsipas S.,Sinner J.,4,10,GRE,2016,83,193,Right,ITA,2018,76,188,Right,-6,Low,Yes
+2022,Quarterfinals,Medvedev D.,Auger-Aliassime F.,2,9,RUS,2014,81,198,Right,CAN,2016,84,188,Right,-7,Low,Yes
+2022,Semifinals,Nadal R.,Berrettini M.,5,7,ESP,2001,85,185,Left,ITA,2015,95,196,Right,-2,Low,Yes
+2022,Semifinals,Medvedev D.,Tsitsipas S.,2,4,RUS,2014,81,198,Right,GRE,2016,83,193,Right,-2,Low,Yes
+2022,The Final,Nadal R.,Medvedev D.,5,2,ESP,2001,85,185,Left,RUS,2014,81,198,Right,3,Low,No
+2021,Quarterfinals,Karatsev A.,Dimitrov G.,114,21,RUS,2011,85,185,Right,BUL,2008,80,191,Right,93,High,No
+2021,Quarterfinals,Djokovic N.,Zverev A.,1,7,SRB,2003,77,188,Right,GER,2013,86,198,Right,-6,Low,Yes
+2021,Quarterfinals,Medvedev D.,Rublev A.,4,8,RUS,2014,81,198,Right,RUS,2014,68,188,Right,-4,Low,Yes
+2021,Quarterfinals,Tsitsipas S.,Nadal R.,6,2,GRE,2016,83,193,Right,ESP,2001,85,185,Left,4,Low,No
+2021,Semifinals,Djokovic N.,Karatsev A.,1,114,SRB,2003,77,188,Right,RUS,2011,85,185,Right,-113,High,Yes
+2021,Semifinals,Medvedev D.,Tsitsipas S.,4,6,RUS,2014,81,198,Right,GRE,2016,83,193,Right,-2,Low,Yes
+2021,The Final,Djokovic N.,Medvedev D.,1,4,SRB,2003,77,188,Right,RUS,2014,81,198,Right,-3,Low,Yes
+2020,Quarterfinals,Federer R.,Sandgren T.,3,100,SUI,1998,85,185,Right,USA,2011,87,188,Right,-97,High,Yes
+2020,Quarterfinals,Djokovic N.,Raonic M.,2,35,SRB,2003,77,188,Right,CAN,2008,98,196,Right,-33,Medium,Yes
+2020,Quarterfinals,Zverev A.,Wawrinka S.,7,15,GER,2013,86,198,Right,SUI,2002,81,183,Right,-8,Low,Yes
+2020,Quarterfinals,Thiem D.,Nadal R.,5,1,AUT,2011,82,185,Right,ESP,2001,85,185,Left,4,Low,No
+2020,Semifinals,Djokovic N.,Federer R.,2,3,SRB,2003,77,188,Right,SUI,1998,85,185,Right,-1,Low,Yes
+2020,Semifinals,Thiem D.,Zverev A.,5,7,AUT,2011,82,185,Right,GER,2013,86,198,Right,-2,Low,Yes
+2020,The Final,Djokovic N.,Thiem D.,2,5,SRB,2003,77,188,Right,AUT,2011,82,185,Right,-3,Low,Yes
+2019,Quarterfinals,Tsitsipas S.,Bautista Agut R.,15,24,GRE,2016,83,193,Right,ESP,2005,76,183,Right,-9,Low,Yes
+2019,Quarterfinals,Nadal R.,Tiafoe F.,2,39,ESP,2001,85,185,Left,USA,2015,77,188,Right,-37,Medium,Yes
+2019,Quarterfinals,Pouille L.,Raonic M.,31,17,FRA,2012,81,185,Right,CAN,2008,98,196,Right,14,Low,No
+2019,Quarterfinals,Djokovic N.,Nishikori K.,1,9,SRB,2003,77,188,Right,JPN,2007,75,178,Right,-8,Low,Yes
+2019,Semifinals,Nadal R.,Tsitsipas S.,2,15,ESP,2001,85,185,Left,GRE,2016,83,193,Right,-13,Low,Yes
+2019,Semifinals,Djokovic N.,Pouille L.,1,31,SRB,2003,77,188,Right,FRA,2012,81,185,Right,-30,Low,Yes
+2019,The Final,Djokovic N.,Nadal R.,1,2,SRB,2003,77,188,Right,ESP,2001,85,185,Left,-1,Low,Yes
+2018,Quarterfinals,Edmund K.,Dimitrov G.,49,3,GBR,2012,83,188,Right,BUL,2008,80,191,Right,46,Medium,No
+2018,Quarterfinals,Cilic M.,Nadal R.,6,1,CRO,2005,89,198,Right,ESP,2001,85,185,Left,5,Low,No
+2018,Quarterfinals,Chung H.,Sandgren T.,58,97,KOR,2014,87,188,Right,USA,2011,87,188,Right,-39,Medium,Yes
+2018,Quarterfinals,Federer R.,Berdych T.,2,20,SUI,1998,85,185,Right,CZE,2002,91,196,Right,-18,Low,Yes
+2018,Semifinals,Cilic M.,Edmund K.,6,49,CRO,2005,89,198,Right,GBR,2012,83,188,Right,-43,Medium,Yes
+2018,Semifinals,Federer R.,Chung H.,2,58,SUI,1998,85,185,Right,KOR,2014,87,188,Right,-56,Medium,Yes
+2018,The Final,Federer R.,Cilic M.,2,6,SUI,1998,85,185,Right,CRO,2005,89,198,Right,-4,Low,Yes
+2017,Quarterfinals,Wawrinka S.,Tsonga J.W.,4,12,SUI,2002,81,183,Right,FRA,2004,91,188,Right,-8,Low,Yes
+2017,Quarterfinals,Federer R.,Zverev M.,17,50,SUI,1998,85,185,Right,GER,2005,88,191,Left,-33,Medium,Yes
+2017,Quarterfinals,Dimitrov G.,Goffin D.,15,11,BUL,2008,80,191,Right,BEL,2009,68,180,Right,4,Low,No
+2017,Quarterfinals,Nadal R.,Raonic M.,9,3,ESP,2001,85,185,Left,CAN,2008,98,196,Right,6,Low,No
+2017,Semifinals,Federer R.,Wawrinka S.,17,4,SUI,1998,85,185,Right,SUI,2002,81,183,Right,13,Low,No
+2017,Semifinals,Nadal R.,Dimitrov G.,9,15,ESP,2001,85,185,Left,BUL,2008,80,191,Right,-6,Low,Yes
+2017,The Final,Federer R.,Nadal R.,17,9,SUI,1998,85,185,Right,ESP,2001,85,185,Left,8,Low,No
+2016,Quarterfinals,Federer R.,Berdych T.,3,6,SUI,1998,85,185,Right,CZE,2002,91,196,Right,-3,Low,Yes
+2016,Quarterfinals,Djokovic N.,Nishikori K.,1,7,SRB,2003,77,188,Right,JPN,2007,75,178,Right,-6,Low,Yes
+2016,Quarterfinals,Murray A.,Ferrer D.,2,8,GBR,2005,84,191,Right,ESP,2000,73,175,Right,-6,Low,Yes
+2016,Quarterfinals,Raonic M.,Monfils G.,14,25,CAN,2008,98,196,Right,FRA,2004,80,193,Right,-11,Low,Yes
+2016,Semifinals,Djokovic N.,Federer R.,1,3,SRB,2003,77,188,Right,SUI,1998,85,185,Right,-2,Low,Yes
+2016,Semifinals,Murray A.,Raonic M.,2,14,GBR,2005,84,191,Right,CAN,2008,98,196,Right,-12,Low,Yes
+2016,The Final,Djokovic N.,Murray A.,1,2,SRB,2003,77,188,Right,GBR,2005,84,191,Right,-1,Low,Yes
+2015,Quarterfinals,Berdych T.,Nadal R.,7,3,CZE,2002,91,196,Right,ESP,2001,85,185,Left,4,Low,No
+2015,Quarterfinals,Murray A.,Kyrgios N.,6,53,GBR,2005,84,191,Right,AUS,2013,85,193,Right,-47,Medium,Yes
+2015,Quarterfinals,Wawrinka S.,Nishikori K.,4,5,SUI,2002,81,183,Right,JPN,2007,75,178,Right,-1,Low,Yes
+2015,Quarterfinals,Djokovic N.,Raonic M.,1,8,SRB,2003,77,188,Right,CAN,2008,98,196,Right,-7,Low,Yes
+2015,Semifinals,Murray A.,Berdych T.,6,7,GBR,2005,84,191,Right,CZE,2002,91,196,Right,-1,Low,Yes
+2015,Semifinals,Djokovic N.,Wawrinka S.,1,4,SRB,2003,77,188,Right,SUI,2002,81,183,Right,-3,Low,Yes
+2015,The Final,Djokovic N.,Murray A.,1,6,SRB,2003,77,188,Right,GBR,2005,84,191,Right,-5,Low,Yes
+2014,Quarterfinals,Berdych T.,Ferrer D.,7,3,CZE,2002,91,196,Right,ESP,2000,73,175,Right,4,Low,No
+2014,Quarterfinals,Wawrinka S.,Djokovic N.,8,2,SUI,2002,81,183,Right,SRB,2003,77,188,Right,6,Low,No
+2014,Quarterfinals,Nadal R.,Dimitrov G.,1,22,ESP,2001,85,185,Left,BUL,2008,80,191,Right,-21,Low,Yes
+2014,Quarterfinals,Federer R.,Murray A.,6,4,SUI,1998,85,185,Right,GBR,2005,84,191,Right,2,Low,No
+2014,Semifinals,Wawrinka S.,Berdych T.,8,7,SUI,2002,81,183,Right,CZE,2002,91,196,Right,1,Low,No
+2014,Semifinals,Nadal R.,Federer R.,1,6,ESP,2001,85,185,Left,SUI,1998,85,185,Right,-5,Low,Yes
+2014,The Final,Wawrinka S.,Nadal R.,8,1,SUI,2002,81,183,Right,ESP,2001,85,185,Left,7,Low,No
+2013,Quarterfinals,Ferrer D.,Almagro N.,5,11,ESP,2000,73,175,Right,ESP,2003,86,183,Right,-6,Low,Yes
+2013,Quarterfinals,Djokovic N.,Berdych T.,1,6,SRB,2003,77,188,Right,CZE,2002,91,196,Right,-5,Low,Yes
+2013,Quarterfinals,Murray A.,Chardy J.,3,36,GBR,2005,84,191,Right,FRA,2005,75,188,Right,-33,Medium,Yes
+2013,Quarterfinals,Federer R.,Tsonga J.W.,2,8,SUI,1998,85,185,Right,FRA,2004,91,188,Right,-6,Low,Yes
+2013,Semifinals,Djokovic N.,Ferrer D.,1,5,SRB,2003,77,188,Right,ESP,2000,73,175,Right,-4,Low,Yes
+2013,Semifinals,Murray A.,Federer R.,3,2,GBR,2005,84,191,Right,SUI,1998,85,185,Right,1,Low,No
+2013,The Final,Djokovic N.,Murray A.,1,3,SRB,2003,77,188,Right,GBR,2005,84,191,Right,-2,Low,Yes
+2012,Quarterfinals,Federer R.,Del Potro J.M.,3,11,SUI,1998,85,185,Right,ARG,2005,97,198,Right,-8,Low,Yes
+2012,Quarterfinals,Nadal R.,Berdych T.,2,7,ESP,2001,85,185,Left,CZE,2002,91,196,Right,-5,Low,Yes
+2012,Quarterfinals,Murray A.,Nishikori K.,4,26,GBR,2005,84,191,Right,JPN,2007,75,178,Right,-22,Low,Yes
+2012,Quarterfinals,Djokovic N.,Ferrer D.,1,5,SRB,2003,77,188,Right,ESP,2000,73,175,Right,-4,Low,Yes
+2012,Semifinals,Nadal R.,Federer R.,2,3,ESP,2001,85,185,Left,SUI,1998,85,185,Right,-1,Low,Yes
+2012,Semifinals,Djokovic N.,Murray A.,1,4,SRB,2003,77,188,Right,GBR,2005,84,191,Right,-3,Low,Yes
+2012,The Final,Djokovic N.,Nadal R.,1,2,SRB,2003,77,188,Right,ESP,2001,85,185,Left,-1,Low,Yes
+2011,Quarterfinals,Federer R.,Wawrinka S.,2,19,SUI,1998,85,185,Right,SUI,2002,81,183,Right,-17,Low,Yes
+2011,Quarterfinals,Djokovic N.,Berdych T.,3,6,SRB,2003,77,188,Right,CZE,2002,91,196,Right,-3,Low,Yes
+2011,Quarterfinals,Murray A.,Dolgopolov O.,5,46,GBR,2005,84,191,Right,UKR,2006,71,180,Right,-41,Medium,Yes
+2011,Quarterfinals,Ferrer D.,Nadal R.,7,1,ESP,2000,73,175,Right,ESP,2001,85,185,Left,6,Low,No
+2011,Semifinals,Djokovic N.,Federer R.,3,2,SRB,2003,77,188,Right,SUI,1998,85,185,Right,1,Low,No
+2011,Semifinals,Murray A.,Ferrer D.,5,7,GBR,2005,84,191,Right,ESP,2000,73,175,Right,-2,Low,Yes
+2011,The Final,Djokovic N.,Murray A.,3,5,SRB,2003,77,188,Right,GBR,2005,84,191,Right,-2,Low,Yes
+2010,Quarterfinals,Cilic M.,Roddick A.,14,7,CRO,2005,89,198,Right,USA,2000,88,188,Right,7,Low,No
+2010,Quarterfinals,Murray A.,Nadal R.,4,2,GBR,2005,84,191,Right,ESP,2001,85,185,Left,2,Low,No
+2010,Quarterfinals,Federer R.,Davydenko N.,1,6,SUI,1998,85,185,Right,RUS,1999,70,178,Right,-5,Low,Yes
+2010,Quarterfinals,Tsonga J.W.,Djokovic N.,10,3,FRA,2004,91,188,Right,SRB,2003,77,188,Right,7,Low,No
+2010,Semifinals,Murray A.,Cilic M.,4,14,GBR,2005,84,191,Right,CRO,2005,89,198,Right,-10,Low,Yes
+2010,Semifinals,Federer R.,Tsonga J.W.,1,10,SUI,1998,85,185,Right,FRA,2004,91,188,Right,-9,Low,Yes
+2010,The Final,Federer R.,Murray A.,1,4,SUI,1998,85,185,Right,GBR,2005,84,191,Right,-3,Low,Yes
+2009,Quarterfinals,Roddick A.,Djokovic N.,9,3,USA,2000,88,188,Right,SRB,2003,77,188,Right,6,Low,No
+2009,Quarterfinals,Federer R.,Del Potro J.M.,2,6,SUI,1998,85,185,Right,ARG,2005,97,198,Right,-4,Low,Yes
+2009,Quarterfinals,Verdasco F.,Tsonga J.W.,15,7,ESP,2001,87,185,Left,FRA,2004,91,188,Right,8,Low,No
+2009,Quarterfinals,Nadal R.,Simon G.,1,8,ESP,2001,85,185,Left,FRA,2002,70,183,Right,-7,Low,Yes
+2009,Semifinals,Federer R.,Roddick A.,2,9,SUI,1998,85,185,Right,USA,2000,88,188,Right,-7,Low,Yes
+2009,Semifinals,Nadal R.,Verdasco F.,1,15,ESP,2001,85,185,Left,ESP,2001,87,185,Left,-14,Low,Yes
+2009,The Final,Nadal R.,Federer R.,1,2,ESP,2001,85,185,Left,SUI,1998,85,185,Right,-1,Low,Yes
+2008,Quarterfinals,Nadal R.,Nieminen J.,2,26,ESP,2001,85,185,Left,FIN,2000,78,185,Left,-24,Low,Yes
+2008,Quarterfinals,Tsonga J.W.,Youzhny M.,38,14,FRA,2004,91,188,Right,RUS,1999,73,183,Right,24,Low,No
+2008,Quarterfinals,Djokovic N.,Ferrer D.,3,5,SRB,2003,77,188,Right,ESP,2000,73,175,Right,-2,Low,Yes
+2008,Quarterfinals,Federer R.,Blake J.,1,15,SUI,1998,85,185,Right,USA,1999,83,185,Right,-14,Low,Yes
+2008,Semifinals,Tsonga J.W.,Nadal R.,38,2,FRA,2004,91,188,Right,ESP,2001,85,185,Left,36,Medium,No
+2008,Semifinals,Djokovic N.,Federer R.,3,1,SRB,2003,77,188,Right,SUI,1998,85,185,Right,2,Low,No
+2008,The Final,Djokovic N.,Tsonga J.W.,3,38,SRB,2003,77,188,Right,FRA,2004,91,188,Right,-35,Medium,Yes

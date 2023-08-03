@@ -1,0 +1,59 @@
+---
+title: Australian Open Tennis (2008-2022)
+author: Trent Meyer, Robin Lock
+date: August 3, 2023
+description: Results from matches at the Men's Australian Open Tennis Tournament between 2008 and 2022.  
+categories:
+  - proportions
+  - two-way tables
+---
+
+## Motivation
+
+The Australian Open is an annual tennis tournament in Melbourne, Australia. We have data from the men's tournament in the years 2008-2022, with variables for both the winner and loser of each match, along with information such as what hand they play with and their Association of Tennis Professionals (ATP) rank and characteristics of the players. Which characteristics might help predict the outcome of the matches?
+
+## Data
+
+Each row of data gives 19 variables of information for one of the 1905 Men's Australian Open matches played between 2008 and 2022.
+
+| Variable          | Description                                                                                                        |
+|-------------------|--------------------------------------------------------------------------------------------------------------------|
+| `Year`            | Year (2008-2022)                                                                                                   |
+| `Winner`          | winner of the match                                                                                                |
+| `Loser`           | loser of the match                                                                                                 |
+| `WRank`           | winning player's rank                                                                                              |
+| `LRank`           | losing player's rank                                                                                               |
+| `pl1_flag`        | winning player's country they choose to represent                                                                  |
+| `pl1_year_pro`    | winning player's first year as a professional                                                                      |
+| `pl1_weight`      | winning player's weight in kilograms                                                                               |
+| `pl1_height`      | winning player's height in centimeters                                                                             |
+| `pl1_hand`        | winning player's handedness that they play with                                                                    |
+| `pl2_flag`        | losing player's country they choose to represent                                                                   |
+| `pl2_year_pro`    | losing player's first year as a professional                                                                       |
+| `pl2_weight`      | losing player's weight in kilograms                                                                                |
+| `pl2_height`      | losing player's height in centimeters                                                                              |
+| `pl2_hand`        | losing player's handedness that they play with                                                                     |
+| `higher_rank_won` | Did the higher rank win? `Yes` or`No`                                                                              |
+| `rank_diff`       | difference in rank between the players                                                                             |
+| `rank_diff_cat`   | categroies for difference in rank between the players: `Low` (30 or less), `Medium` (31-75), `High` (more than 75) |
+| `same_handedness` | Do the players have the same handedness? `Yes` or `No`                                                             |
+
+: [AustralianOpen.csv](../data/AustralianOpen.csv)
+
+: [AustralianOpenLater.csv](../data/AustralianOpenLater.csv) has the same variables (with the addition of a `Round` variable), but only for 105 matches from the quarterfinals, semifinals, and finals each year.
+
+## Questions
+
+1.  What proportion of time does the higher (ATP) rank player win?
+
+2.  Does the proportion of higher ranked wins change much when the players play with opposite hands (i.e. a right-handed player vs. a left-handed payer)
+
+3.  Construct a two-way table of `higher_rank_won` vs. `rank_diff_cat` and see if teh two variables appear to be related.
+
+4.  Investigate a logistic regression model to predict it the higher ranked player wins using the difference in ranks as the predictor.
+
+5.  Are the results for any of these questions much different if we consider only matches in the later rounds for the tournament (quarterfinals, semifinals, and finals) in [AustralianOpenLater.csv](../data/AustralianOpenLater.csv)?
+
+## References
+
+The data are a subset of the data found at [Kaggle](https://www.kaggle.com/datasets/valentinfiorenza/tennis-data).

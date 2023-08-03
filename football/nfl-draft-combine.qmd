@@ -1,0 +1,39 @@
+---
+title: NFL Draft Combine
+author: Shane Hauk, Michael Schuckers, Robin Lock
+date: August 03, 2023
+description: NFL Scouting Combine Event scores from 2004 - 2023
+categories:
+  - Exploratory Data Analysis
+  - Linear regression
+---
+
+## Motivation
+
+The data set has statistics with variables for player draft information and how they performed in events at the NFL Scouting Combine. The variables for draft information are `position` and `Round`. The variables for the NFL Scouting Combine events are `forty`, `vertical`, `bench_reps`, `broad_jump`, and `shuttle`. Some entries are NA if a player was not drafted or did not prticipate in some events.
+
+## Data
+
+Each row of data gives gives information on position, draft round, and event scores for one of 6128 players at the NFL Scouting Combine between 2004 and 2023.
+
+| Variable     | Description                    |
+|--------------|--------------------------------|
+| `position`   | Playing position of the player |
+| `Round`      | Round player was drafted in    |
+| `forty`      | 40-yard dash time              |
+| `vertical`   | Vertical jump height (inches)  |
+| `bench_reps` | 225 bench press reps           |
+| `broad_jump` | Broad jump distances (inches)  |
+| `shuttle`    | 20-yard shuttle time           |
+
+[nfl_combine.csv](../data/nfl_combine.csv)
+
+## Questions
+
+1.  How is player draft position related to any of the scores at NFL Combine events?
+
+2.  How does the distribution of event scores differ between various football positions?
+
+## References
+
+The data is complied from [Sports Reference StatHead Football](https://stathead.com/football/nfl-combine-results.cgi){target="_blank"}.
