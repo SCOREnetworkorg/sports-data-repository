@@ -105,25 +105,74 @@
     "text": "References\nHowell B, Gilani S (2022). fastRhockey: Functions to Access Premier Hockey Federation and National Hockey League Play by Play Data. R package version 0.4.0, https://CRAN.R-project.org/package=fastRhockey."
   },
   {
-    "objectID": "submit-data.html",
-    "href": "submit-data.html",
-    "title": "Submit a Dataset",
+    "objectID": "baseball/verlander-pitches.html",
+    "href": "baseball/verlander-pitches.html",
+    "title": "Justin Verlander Pitches",
     "section": "",
-    "text": "The goal of this repository is to provide a collection of relevant and engaging sports datasets to be used in class, handouts, assignments, projects, and SCORE modules. We are always looking for new datasets and welcome public submissions, but these datasets will need to meet the following requirements:"
+    "text": "After nearly two full seasons due to injury, at the age of 39 Justin Verlander returned for the 2022 season to win the American League Cy Young award and World Series with the Houston Astros. Leading the league in a variety of statistics, Verlander dominated in his starts throughout the season. Pitch selection has played a key role into Verlander’s recent success with the Astros. Verlander throws four types of pitches (using MLB’s abbreviation): fastball (FF), slider (SL), curveball (CB), and changeup (CH). However, pitches are thrown in the context of an at-bat where the ball-strike count starts 0-0, and progresses until either the batter strikes out (reaches three strikes), is walked (reaches four balls), or is either hit-by-pitch or hits the ball in-play. As the count varies, pitchers often decide to favor certain pitches over others, e.g, with three balls (i.e., 3-X counts) the pitcher may favor throwing more accurate fastballs relative to out-of-the-zone offspeed pitches that are favored with two strikes (i.e., X-2 counts)."
   },
   {
-    "objectID": "submit-data.html#two-ways-to-submit-a-dataset",
-    "href": "submit-data.html#two-ways-to-submit-a-dataset",
-    "title": "Submit a Dataset",
-    "section": "Two ways to submit a dataset",
-    "text": "Two ways to submit a dataset\nThere are two ways to contribute a dataset:\n\nSubmit a dataset with the necessary information using this Google form. This is the recommended option for contributors who are not experienced with quarto or Rmarkdown files. The form will describe what information is necessary for us to create the appropriate page for your submitted dataset.\nFill out a quarto template file with the dataset information, and then submit either via email or directly with a GitHub pull request.\n\n\nThe rest of this page includes information about submitting a dataset using the quarto template file."
+    "objectID": "baseball/verlander-pitches.html#motivation",
+    "href": "baseball/verlander-pitches.html#motivation",
+    "title": "Justin Verlander Pitches",
+    "section": "",
+    "text": "After nearly two full seasons due to injury, at the age of 39 Justin Verlander returned for the 2022 season to win the American League Cy Young award and World Series with the Houston Astros. Leading the league in a variety of statistics, Verlander dominated in his starts throughout the season. Pitch selection has played a key role into Verlander’s recent success with the Astros. Verlander throws four types of pitches (using MLB’s abbreviation): fastball (FF), slider (SL), curveball (CB), and changeup (CH). However, pitches are thrown in the context of an at-bat where the ball-strike count starts 0-0, and progresses until either the batter strikes out (reaches three strikes), is walked (reaches four balls), or is either hit-by-pitch or hits the ball in-play. As the count varies, pitchers often decide to favor certain pitches over others, e.g, with three balls (i.e., 3-X counts) the pitcher may favor throwing more accurate fastballs relative to out-of-the-zone offspeed pitches that are favored with two strikes (i.e., X-2 counts)."
   },
   {
-    "objectID": "submit-data.html#quarto-template-file-submission-steps",
-    "href": "submit-data.html#quarto-template-file-submission-steps",
-    "title": "Submit a Dataset",
-    "section": "Quarto template file submission steps",
-    "text": "Quarto template file submission steps\nThis data repository is built using quarto and rendered into a website. You can get the template file in two ways:\n\nCopy the _dataset-template.qmd file from our GitHub repository and save it on your computer. Once you’re done, you can email us the file and the data (see below for email address).\nFork our GitHub repository into your own GitHub account and edit it like any other Git repository. Once you’re done, you can submit a pull request.\n\n\nDataset template\nThe dataset template is a Quarto file. The template asks for:\n\nBasic metadata to tag the dataset, such as the statistics & data science topic, a short title, and your name. (All submissions are credited with the name of the submitter.)\nA description of the sports question to motivate analysis with the dataset.\nA description of the dataset with documentation about each variable. The file should make it clear what a single row of the dataset represents, and clearly describe each of the variables (including units of measure when relevant).\nReferences to the original source of the data. If the source is a code package, then include an appropriate citation with a link to the package. If the source is an academic paper and the data is deposited in a third-party repository (e.g., Figshare), then include references to both the paper and the archived dataset. When available, include the DOIs of the references.\n\nThe template is meant to prevent a common problem with course datasets: they get passed down from instructor to instructor, and eventually all information about the original source is lost. The dataset may be presented to students without context or important details (like units), and the instructor may not be able to find the original data or references to answer questions about the data.\n\n\nSubmitting template file\nOnce you’ve filled in the template, you can either:\n\nEmail the template file, the data, and any code for preparing the data to the repository editor (currently Ron Yurko: ryurko AT stat DOT cmu DOT edu).\nSubmit a pull request to our repository on GitHub. Save the Qmd with a meaningful name and place it in its relevant sports directory (e.g., baseball/ or tennis/). Place the data files in data/. Place any code to prepare the data in the _prep/ folder, inside another folder with a name matching the submitted dataset. Once you’ve committed all of the necessary files (without anything extraneous) then you can submit a pull request."
+    "objectID": "baseball/verlander-pitches.html#data",
+    "href": "baseball/verlander-pitches.html#data",
+    "title": "Justin Verlander Pitches",
+    "section": "Data",
+    "text": "Data\nBelow are two datasets containing information about pitches thrown by Justin Verlander during the 2019 and 2022 seasons (with separate datasets for each season). Each dataset includes the pitch type, ball-strike count, release speed, and a description of what happened on the pitch.\nData courtesy of baseballsavant.mlb.com and accessed using the baseballr package.\n\nverlander-pitches-2019.csv, verlander-pitches-2022.csv\n\n\nVariable\nDescription\n\n\n\n\npitch_type\nThe type of pitch Verlander threw, either: fastball (FF), slider (SL), curveball (CU), or changeup (CH).\n\n\ncount\nThe ball-strike count when Verlander threw the pitch.\n\n\nrelease_speed\nPitch speed (MPH) at the time of release.\n\n\ndescription\nA brief text description of the result of the pitch, such as a ball, foul, called_strike, swinging_strike, etc."
+  },
+  {
+    "objectID": "baseball/verlander-pitches.html#questions",
+    "href": "baseball/verlander-pitches.html#questions",
+    "title": "Justin Verlander Pitches",
+    "section": "Questions",
+    "text": "Questions\n\nUsing the appropriate statistical test, assess whether or not Justin Verlander’s pitch_type is independent of the count. Perform this analysis for both the 2019 and 2022 datasets. Are the conclusions similar or different?\nWhich combinations of pitch_type and count appear more than expected under the assumption of independence? Which combinations appear fewer than expected? Perform this analysis for both the 2019 and 2022 datasets. Are the conclusions similar or different?"
+  },
+  {
+    "objectID": "baseball/verlander-pitches.html#references",
+    "href": "baseball/verlander-pitches.html#references",
+    "title": "Justin Verlander Pitches",
+    "section": "References",
+    "text": "References\nPetti B, Gilani S (2022). baseballr: Acquiring and Analyzing Baseball Data. R package version 1.3.0, https://CRAN.R-project.org/package=baseballr."
+  },
+  {
+    "objectID": "tennis/australian-open.html",
+    "href": "tennis/australian-open.html",
+    "title": "Australian Open Tennis (2008-2022)",
+    "section": "",
+    "text": "The Australian Open is an annual tennis tournament in Melbourne, Australia. We have data from the men’s tournament in the years 2008-2022, with variables for both the winner and loser of each match, along with information such as what hand they play with and their Association of Tennis Professionals (ATP) rank and characteristics of the players. Which characteristics might help predict the outcome of the matches?"
+  },
+  {
+    "objectID": "tennis/australian-open.html#motivation",
+    "href": "tennis/australian-open.html#motivation",
+    "title": "Australian Open Tennis (2008-2022)",
+    "section": "",
+    "text": "The Australian Open is an annual tennis tournament in Melbourne, Australia. We have data from the men’s tournament in the years 2008-2022, with variables for both the winner and loser of each match, along with information such as what hand they play with and their Association of Tennis Professionals (ATP) rank and characteristics of the players. Which characteristics might help predict the outcome of the matches?"
+  },
+  {
+    "objectID": "tennis/australian-open.html#data",
+    "href": "tennis/australian-open.html#data",
+    "title": "Australian Open Tennis (2008-2022)",
+    "section": "Data",
+    "text": "Data\nEach row of data gives 19 variables of information for one of the 1905 Men’s Australian Open matches played between 2008 and 2022.\n\nAustralianOpen.csv\n\n\nVariable\nDescription\n\n\n\n\nYear\nYear (2008-2022)\n\n\nWinner\nwinner of the match\n\n\nLoser\nloser of the match\n\n\nWRank\nwinning player’s rank\n\n\nLRank\nlosing player’s rank\n\n\npl1_flag\nwinning player’s country they choose to represent\n\n\npl1_year_pro\nwinning player’s first year as a professional\n\n\npl1_weight\nwinning player’s weight in kilograms\n\n\npl1_height\nwinning player’s height in centimeters\n\n\npl1_hand\nwinning player’s handedness that they play with\n\n\npl2_flag\nlosing player’s country they choose to represent\n\n\npl2_year_pro\nlosing player’s first year as a professional\n\n\npl2_weight\nlosing player’s weight in kilograms\n\n\npl2_height\nlosing player’s height in centimeters\n\n\npl2_hand\nlosing player’s handedness that they play with\n\n\nhigher_rank_won\nDid the higher rank win? Yes orNo\n\n\nrank_diff\ndifference in rank between the players\n\n\nrank_diff_cat\ncategroies for difference in rank between the players: Low (30 or less), Medium (31-75), High (more than 75)\n\n\nsame_handedness\nDo the players have the same handedness? Yes or No\n\n\n\n: AustralianOpenLater.csv has the same variables (with the addition of a Round variable), but only for 105 matches from the quarterfinals, semifinals, and finals each year."
+  },
+  {
+    "objectID": "tennis/australian-open.html#questions",
+    "href": "tennis/australian-open.html#questions",
+    "title": "Australian Open Tennis (2008-2022)",
+    "section": "Questions",
+    "text": "Questions\n\nWhat proportion of time does the higher (ATP) rank player win?\nDoes the proportion of higher ranked wins change much when the players play with opposite hands (i.e. a right-handed player vs. a left-handed payer)\nConstruct a two-way table of higher_rank_won vs. rank_diff_cat and see if teh two variables appear to be related.\nInvestigate a logistic regression model to predict it the higher ranked player wins using the difference in ranks as the predictor.\nAre the results for any of these questions much different if we consider only matches in the later rounds for the tournament (quarterfinals, semifinals, and finals) in AustralianOpenLater.csv?"
+  },
+  {
+    "objectID": "tennis/australian-open.html#references",
+    "href": "tennis/australian-open.html#references",
+    "title": "Australian Open Tennis (2008-2022)",
+    "section": "References",
+    "text": "References\nThe data are a subset of the data found at Kaggle."
   },
   {
     "objectID": "volleyball/volleyball_ncaa_team_stats.html",
@@ -196,39 +245,74 @@
     "text": "References\nGilani S, Hutchinson G (2022). wehoop: Access Women’s Basketball Play by Play Data. R package version 1.5.0, https://CRAN.R-project.org/package=wehoop."
   },
   {
-    "objectID": "football/nfl-team-statistics.html",
-    "href": "football/nfl-team-statistics.html",
-    "title": "National Football League Team Statistics",
+    "objectID": "soccer/nwsl-team-stats.html",
+    "href": "soccer/nwsl-team-stats.html",
+    "title": "National Women’s Soccer League Team Statistics",
     "section": "",
-    "text": "The National Football League (NFL) is the top professional American football league in the world. While a team’s record ultimately determines whether or not they make the playoffs, their score differential (points for - points against) is often a better indicator of a team’s ability. But what aspects of a team’s performance are related to their point differential? Is passing more important than rushing? What about offense in comparison to defense? The NFL records a variety of statistics, and the public NFL analytics community have developed advanced metrics such as expected points added (EPA) that provide deeper insight into a team’s performance. With this dataset of statistics dating back to 1999, you can explore variation between teams since as well as which types of statistics are relevant predictor variables of record and point differential."
+    "text": "The National Women’s Soccer League (NWSL) is the top professional women’s soccer league in the United States. While a team’s record ultimately determines their ranking, goal differential (goals scored - goals conceded) is often a better indicator of a team’s ability. But what aspects of a team’s performance are related to their goal differential? The NWSL records a variety of statistics describing a team’s performance, such as the percentage of time they maintain possession, percentage of shots on target, etc. With this dataset, you can explore variation between teams as well as which statistics are relevant predictor variables of goal differential."
   },
   {
-    "objectID": "football/nfl-team-statistics.html#motivation",
-    "href": "football/nfl-team-statistics.html#motivation",
-    "title": "National Football League Team Statistics",
+    "objectID": "soccer/nwsl-team-stats.html#motivation",
+    "href": "soccer/nwsl-team-stats.html#motivation",
+    "title": "National Women’s Soccer League Team Statistics",
     "section": "",
-    "text": "The National Football League (NFL) is the top professional American football league in the world. While a team’s record ultimately determines whether or not they make the playoffs, their score differential (points for - points against) is often a better indicator of a team’s ability. But what aspects of a team’s performance are related to their point differential? Is passing more important than rushing? What about offense in comparison to defense? The NFL records a variety of statistics, and the public NFL analytics community have developed advanced metrics such as expected points added (EPA) that provide deeper insight into a team’s performance. With this dataset of statistics dating back to 1999, you can explore variation between teams since as well as which types of statistics are relevant predictor variables of record and point differential."
+    "text": "The National Women’s Soccer League (NWSL) is the top professional women’s soccer league in the United States. While a team’s record ultimately determines their ranking, goal differential (goals scored - goals conceded) is often a better indicator of a team’s ability. But what aspects of a team’s performance are related to their goal differential? The NWSL records a variety of statistics describing a team’s performance, such as the percentage of time they maintain possession, percentage of shots on target, etc. With this dataset, you can explore variation between teams as well as which statistics are relevant predictor variables of goal differential."
   },
   {
-    "objectID": "football/nfl-team-statistics.html#data",
-    "href": "football/nfl-team-statistics.html#data",
-    "title": "National Football League Team Statistics",
+    "objectID": "soccer/nwsl-team-stats.html#data",
+    "href": "soccer/nwsl-team-stats.html#data",
+    "title": "National Women’s Soccer League Team Statistics",
     "section": "Data",
-    "text": "Data\nThis dataset contains statistics about the regular season performance for each NFL team from 1999 to 2022 team. The data was collected using the nflreadr package in R.\nEach row in the dataset corresponds to a single NFL team in a single regular season. There are a total of 765 team-seasons, with 56 total columns. The column names are organized below by the type of information they contain, with the first set of columns being self-explanatory:\n\nnfl-team-statistics.csv\n\n\nVariable\nDescription\n\n\n\n\nseason\nRegular season year of team’s statistics\n\n\nteam\nNFL team three letter abbreviation\n\n\n\nThere are also columns with season level outcomes:\n\n\n\nVariable\nDescription\n\n\n\n\npoints_score\nTotal number of points scored by the team\n\n\npoints_allowed\nTotal number of points allowed by the team\n\n\nwins\nNumber of games the team won\n\n\nlosses\nNumber of games the team lost\n\n\nties\nNumber of games the team tied\n\n\nscore_differential\npoints scored - points allowed\n\n\n\nThere are also several columns corresponding to offensive and defensive summaries of the team’s performance in the season separated by play type (either pass or run):\n\n\n\n\n\n\n\nVariable\nDescription\n\n\n\n\noffense/defense_completion_percentage\nPassing completion percentage either for (offense) or against (defense)\n\n\noffense/defense_total_yards_gained_pass/run\nTotal number of yards gained (offense) or allowed (defense) by play type (pass or run)\n\n\noffense/defense_ave_yards_gained_pass/run\nAverage number of yards gained (offense) or allowed (defense) per play by play type (pass or run)\n\n\noffense/defense_total_air_yards\nTotal number of air yards gained (offense) or allowed (defense), where air yards correspond to perpendicular yards traveled from the line of scrimmage to location of catch for passing plays\n\n\noffense/defense_ave_air_yards\nAverage number of air yards gained (offense) or allowed (defense) per passing play\n\n\noffense/defense_total_yac\nTotal number of yards after catch gained (offense) or allowed (defense)\n\n\noffense/defense_ave_yac\nAverage number of yards after catch gained (offense) or allowed (defense) per passing play\n\n\noffense/defense_n_plays_pass/run\nTotal number of plays by the team (offense) or against (defense) by play type (pass or run)\n\n\noffense/defense_n_interceptions\nTotal number of interceptions thrown (offense) or caught (defense)\n\n\noffense/defense/n_fumbles_lost_pass/run\nTotal number of fumbles lost (offense) or forced (defense) by play type (pass or run)\n\n\noffense/defense_total_epa_pass/run\nTotal expected points added (offense) or allowed (defense) by play type (pass or run)\n\n\noffense/defense_ave_epa_pass/run\nAverage expected points added (offense) or allowed (defense) per play by play type (pass or run)\n\n\noffense/defense_total_wpa_pass/run\nTotal win probability added (offense) or allowed (defense) by play type (pass or run)\n\n\noffense/defense_ave_wpa_pass/run\nAverage win probability added (offense) or allowed (defense) per play by play type (pass or run)\n\n\noffense/defense_total_epa_pass/run\nTotal expected points added (offense) or allowed (defense) by play type (pass or run)\n\n\noffense/defense_success_rate_pass/run\nProportion of plays with positive expected points added (offense) or allowed (defense) by play type (pass or run)\n\n\n\nThe EPA variables are advanced NFL statistics, conveying how much value a team is adding over the average team in a given situation. It’s on a points scale instead of the typically used yards, because not all yards are created equal in American football (10 yard gain on 3rd and 15 is much less valuable than a 2 yard gain on 4th and 1). For offensive stats the higher the EPA the better, but for defensive stats the lower (more negative) the EPA the better. The WPA variables are similar except they are measuring play value in terms of win probability."
+    "text": "Data\nThis dataset contains statistics about the regular season performance for each NWSL team from 2016 to 2022 (excluding 2020 which was cancelled due to COVID).\nThe data was collected using the nwslR package in R.\n\nnwsl-team-stats.csv\n\n\nVariable\nDescription\n\n\n\n\nteam_name\nName of NWSL team\n\n\nseason\nRegular season year of team’s statistics\n\n\ngames_played\nNumber of games team played in season\n\n\ngoal_differential\nGoals scored - goals conceded\n\n\ngoals\nNumber of goals scores\n\n\ngoals_conceded\nNumber of goals conceded\n\n\ncross_accuracy\nPercent of crosses that were successful\n\n\ngoal_conversion_pct\nPercent of shots scored\n\n\npass_pct\nPass accuracy\n\n\npass_pct_opposition_half\nPass accuracy in opposition half\n\n\npossession_pct\nPercentage of overall ball possession the team had during the season\n\n\nshot_accuracy\nPercentage of shots on target\n\n\ntackle_success_pct\nPercent of successful tackles"
   },
   {
-    "objectID": "football/nfl-team-statistics.html#questions",
-    "href": "football/nfl-team-statistics.html#questions",
-    "title": "National Football League Team Statistics",
+    "objectID": "soccer/nwsl-team-stats.html#questions",
+    "href": "soccer/nwsl-team-stats.html#questions",
+    "title": "National Women’s Soccer League Team Statistics",
     "section": "Questions",
-    "text": "Questions\n\nBuild a linear regression model to predict score differential as a function of the team’s statistics. Which variables, if any, are predictive of score differential in a season? Are certain types of variables more predictive? (e.g., passing versus rushing,) Describe their relationships.\nUsing principal component analysis, project the team seasons into a lower dimensional space using only the team statistics that do not include points or record. Choose an appropriate number of principal components, and describe which statistics contribute to your selected number of components. Based on your results, which team statistics explain the most variation between team-seasons in the dataset? Which team statistics are independent of each other?"
+    "text": "Questions\n\nBuild a linear regression model to predict goal differential as a function of the team’s statistics. Which variables, if any, are predictive of a team’s goal differential in a season? Describe their relationships.\nUsing principal component analysis, project the team seasons into a lower dimensional space using only the team statistics that do not include goals scored or conceded. Choose an appropriate number of principal components, and describe which statistics contribute to your selected number of components. Based on your results, which team statistics explain the most variation between team-seasons in the dataset? Which team statistics are independent of each other?"
   },
   {
-    "objectID": "football/nfl-team-statistics.html#references",
-    "href": "football/nfl-team-statistics.html#references",
-    "title": "National Football League Team Statistics",
+    "objectID": "soccer/nwsl-team-stats.html#references",
+    "href": "soccer/nwsl-team-stats.html#references",
+    "title": "National Women’s Soccer League Team Statistics",
     "section": "References",
-    "text": "References\nHo T, Carl S (2022). nflreadr: Download ‘nflverse’ Data. R package version 1.3.1, https://CRAN.R-project.org/package=nflreadr."
+    "text": "References\nDror A (2023). nwslR: Compiles dataset for the National Women’s Soccer League (NWSL). R package version 0.0.0.9001."
+  },
+  {
+    "objectID": "football/nfl-draft-combine.html",
+    "href": "football/nfl-draft-combine.html",
+    "title": "NFL Draft Combine",
+    "section": "",
+    "text": "The data set has statistics with variables for player draft information and how they performed in events at the NFL Scouting Combine. The variables for draft information are position and Round. The variables for the NFL Scouting Combine events are forty, vertical, bench_reps, broad_jump, and shuttle. Some entries are NA if a player was not drafted or did not prticipate in some events."
+  },
+  {
+    "objectID": "football/nfl-draft-combine.html#motivation",
+    "href": "football/nfl-draft-combine.html#motivation",
+    "title": "NFL Draft Combine",
+    "section": "",
+    "text": "The data set has statistics with variables for player draft information and how they performed in events at the NFL Scouting Combine. The variables for draft information are position and Round. The variables for the NFL Scouting Combine events are forty, vertical, bench_reps, broad_jump, and shuttle. Some entries are NA if a player was not drafted or did not prticipate in some events."
+  },
+  {
+    "objectID": "football/nfl-draft-combine.html#data",
+    "href": "football/nfl-draft-combine.html#data",
+    "title": "NFL Draft Combine",
+    "section": "Data",
+    "text": "Data\nEach row of data gives gives information on position, draft round, and event scores for one of 6128 players at the NFL Scouting Combine between 2004 and 2023.\n\n\n\nVariable\nDescription\n\n\n\n\nposition\nPlaying position of the player\n\n\nRound\nRound player was drafted in\n\n\nforty\n40-yard dash time\n\n\nvertical\nVertical jump height (inches)\n\n\nbench_reps\n225 bench press reps\n\n\nbroad_jump\nBroad jump distances (inches)\n\n\nshuttle\n20-yard shuttle time\n\n\n\nnfl_combine.csv"
+  },
+  {
+    "objectID": "football/nfl-draft-combine.html#questions",
+    "href": "football/nfl-draft-combine.html#questions",
+    "title": "NFL Draft Combine",
+    "section": "Questions",
+    "text": "Questions\n\nHow is player draft position related to any of the scores at NFL Combine events?\nHow does the distribution of event scores differ between various football positions?"
+  },
+  {
+    "objectID": "football/nfl-draft-combine.html#references",
+    "href": "football/nfl-draft-combine.html#references",
+    "title": "NFL Draft Combine",
+    "section": "References",
+    "text": "References\nThe data is complied from Sports Reference StatHead Football."
   },
   {
     "objectID": "motor_sports/NASCAR_driver_ratings.html#data",
@@ -483,39 +567,74 @@
     "text": "References\nIronman Lake Placid Results and articles. CoachCox. (n.d.). https://www.coachcox.co.uk/imstats/series/13/"
   },
   {
-    "objectID": "soccer/nwsl-team-stats.html",
-    "href": "soccer/nwsl-team-stats.html",
-    "title": "National Women’s Soccer League Team Statistics",
+    "objectID": "football/nfl-team-statistics.html",
+    "href": "football/nfl-team-statistics.html",
+    "title": "National Football League Team Statistics",
     "section": "",
-    "text": "The National Women’s Soccer League (NWSL) is the top professional women’s soccer league in the United States. While a team’s record ultimately determines their ranking, goal differential (goals scored - goals conceded) is often a better indicator of a team’s ability. But what aspects of a team’s performance are related to their goal differential? The NWSL records a variety of statistics describing a team’s performance, such as the percentage of time they maintain possession, percentage of shots on target, etc. With this dataset, you can explore variation between teams as well as which statistics are relevant predictor variables of goal differential."
+    "text": "The National Football League (NFL) is the top professional American football league in the world. While a team’s record ultimately determines whether or not they make the playoffs, their score differential (points for - points against) is often a better indicator of a team’s ability. But what aspects of a team’s performance are related to their point differential? Is passing more important than rushing? What about offense in comparison to defense? The NFL records a variety of statistics, and the public NFL analytics community have developed advanced metrics such as expected points added (EPA) that provide deeper insight into a team’s performance. With this dataset of statistics dating back to 1999, you can explore variation between teams since as well as which types of statistics are relevant predictor variables of record and point differential."
   },
   {
-    "objectID": "soccer/nwsl-team-stats.html#motivation",
-    "href": "soccer/nwsl-team-stats.html#motivation",
-    "title": "National Women’s Soccer League Team Statistics",
+    "objectID": "football/nfl-team-statistics.html#motivation",
+    "href": "football/nfl-team-statistics.html#motivation",
+    "title": "National Football League Team Statistics",
     "section": "",
-    "text": "The National Women’s Soccer League (NWSL) is the top professional women’s soccer league in the United States. While a team’s record ultimately determines their ranking, goal differential (goals scored - goals conceded) is often a better indicator of a team’s ability. But what aspects of a team’s performance are related to their goal differential? The NWSL records a variety of statistics describing a team’s performance, such as the percentage of time they maintain possession, percentage of shots on target, etc. With this dataset, you can explore variation between teams as well as which statistics are relevant predictor variables of goal differential."
+    "text": "The National Football League (NFL) is the top professional American football league in the world. While a team’s record ultimately determines whether or not they make the playoffs, their score differential (points for - points against) is often a better indicator of a team’s ability. But what aspects of a team’s performance are related to their point differential? Is passing more important than rushing? What about offense in comparison to defense? The NFL records a variety of statistics, and the public NFL analytics community have developed advanced metrics such as expected points added (EPA) that provide deeper insight into a team’s performance. With this dataset of statistics dating back to 1999, you can explore variation between teams since as well as which types of statistics are relevant predictor variables of record and point differential."
   },
   {
-    "objectID": "soccer/nwsl-team-stats.html#data",
-    "href": "soccer/nwsl-team-stats.html#data",
-    "title": "National Women’s Soccer League Team Statistics",
+    "objectID": "football/nfl-team-statistics.html#data",
+    "href": "football/nfl-team-statistics.html#data",
+    "title": "National Football League Team Statistics",
     "section": "Data",
-    "text": "Data\nThis dataset contains statistics about the regular season performance for each NWSL team from 2016 to 2022 (excluding 2020 which was cancelled due to COVID).\nThe data was collected using the nwslR package in R.\n\nnwsl-team-stats.csv\n\n\nVariable\nDescription\n\n\n\n\nteam_name\nName of NWSL team\n\n\nseason\nRegular season year of team’s statistics\n\n\ngames_played\nNumber of games team played in season\n\n\ngoal_differential\nGoals scored - goals conceded\n\n\ngoals\nNumber of goals scores\n\n\ngoals_conceded\nNumber of goals conceded\n\n\ncross_accuracy\nPercent of crosses that were successful\n\n\ngoal_conversion_pct\nPercent of shots scored\n\n\npass_pct\nPass accuracy\n\n\npass_pct_opposition_half\nPass accuracy in opposition half\n\n\npossession_pct\nPercentage of overall ball possession the team had during the season\n\n\nshot_accuracy\nPercentage of shots on target\n\n\ntackle_success_pct\nPercent of successful tackles"
+    "text": "Data\nThis dataset contains statistics about the regular season performance for each NFL team from 1999 to 2022 team. The data was collected using the nflreadr package in R.\nEach row in the dataset corresponds to a single NFL team in a single regular season. There are a total of 765 team-seasons, with 56 total columns. The column names are organized below by the type of information they contain, with the first set of columns being self-explanatory:\n\nnfl-team-statistics.csv\n\n\nVariable\nDescription\n\n\n\n\nseason\nRegular season year of team’s statistics\n\n\nteam\nNFL team three letter abbreviation\n\n\n\nThere are also columns with season level outcomes:\n\n\n\nVariable\nDescription\n\n\n\n\npoints_score\nTotal number of points scored by the team\n\n\npoints_allowed\nTotal number of points allowed by the team\n\n\nwins\nNumber of games the team won\n\n\nlosses\nNumber of games the team lost\n\n\nties\nNumber of games the team tied\n\n\nscore_differential\npoints scored - points allowed\n\n\n\nThere are also several columns corresponding to offensive and defensive summaries of the team’s performance in the season separated by play type (either pass or run):\n\n\n\n\n\n\n\nVariable\nDescription\n\n\n\n\noffense/defense_completion_percentage\nPassing completion percentage either for (offense) or against (defense)\n\n\noffense/defense_total_yards_gained_pass/run\nTotal number of yards gained (offense) or allowed (defense) by play type (pass or run)\n\n\noffense/defense_ave_yards_gained_pass/run\nAverage number of yards gained (offense) or allowed (defense) per play by play type (pass or run)\n\n\noffense/defense_total_air_yards\nTotal number of air yards gained (offense) or allowed (defense), where air yards correspond to perpendicular yards traveled from the line of scrimmage to location of catch for passing plays\n\n\noffense/defense_ave_air_yards\nAverage number of air yards gained (offense) or allowed (defense) per passing play\n\n\noffense/defense_total_yac\nTotal number of yards after catch gained (offense) or allowed (defense)\n\n\noffense/defense_ave_yac\nAverage number of yards after catch gained (offense) or allowed (defense) per passing play\n\n\noffense/defense_n_plays_pass/run\nTotal number of plays by the team (offense) or against (defense) by play type (pass or run)\n\n\noffense/defense_n_interceptions\nTotal number of interceptions thrown (offense) or caught (defense)\n\n\noffense/defense/n_fumbles_lost_pass/run\nTotal number of fumbles lost (offense) or forced (defense) by play type (pass or run)\n\n\noffense/defense_total_epa_pass/run\nTotal expected points added (offense) or allowed (defense) by play type (pass or run)\n\n\noffense/defense_ave_epa_pass/run\nAverage expected points added (offense) or allowed (defense) per play by play type (pass or run)\n\n\noffense/defense_total_wpa_pass/run\nTotal win probability added (offense) or allowed (defense) by play type (pass or run)\n\n\noffense/defense_ave_wpa_pass/run\nAverage win probability added (offense) or allowed (defense) per play by play type (pass or run)\n\n\noffense/defense_total_epa_pass/run\nTotal expected points added (offense) or allowed (defense) by play type (pass or run)\n\n\noffense/defense_success_rate_pass/run\nProportion of plays with positive expected points added (offense) or allowed (defense) by play type (pass or run)\n\n\n\nThe EPA variables are advanced NFL statistics, conveying how much value a team is adding over the average team in a given situation. It’s on a points scale instead of the typically used yards, because not all yards are created equal in American football (10 yard gain on 3rd and 15 is much less valuable than a 2 yard gain on 4th and 1). For offensive stats the higher the EPA the better, but for defensive stats the lower (more negative) the EPA the better. The WPA variables are similar except they are measuring play value in terms of win probability."
   },
   {
-    "objectID": "soccer/nwsl-team-stats.html#questions",
-    "href": "soccer/nwsl-team-stats.html#questions",
-    "title": "National Women’s Soccer League Team Statistics",
+    "objectID": "football/nfl-team-statistics.html#questions",
+    "href": "football/nfl-team-statistics.html#questions",
+    "title": "National Football League Team Statistics",
     "section": "Questions",
-    "text": "Questions\n\nBuild a linear regression model to predict goal differential as a function of the team’s statistics. Which variables, if any, are predictive of a team’s goal differential in a season? Describe their relationships.\nUsing principal component analysis, project the team seasons into a lower dimensional space using only the team statistics that do not include goals scored or conceded. Choose an appropriate number of principal components, and describe which statistics contribute to your selected number of components. Based on your results, which team statistics explain the most variation between team-seasons in the dataset? Which team statistics are independent of each other?"
+    "text": "Questions\n\nBuild a linear regression model to predict score differential as a function of the team’s statistics. Which variables, if any, are predictive of score differential in a season? Are certain types of variables more predictive? (e.g., passing versus rushing,) Describe their relationships.\nUsing principal component analysis, project the team seasons into a lower dimensional space using only the team statistics that do not include points or record. Choose an appropriate number of principal components, and describe which statistics contribute to your selected number of components. Based on your results, which team statistics explain the most variation between team-seasons in the dataset? Which team statistics are independent of each other?"
   },
   {
-    "objectID": "soccer/nwsl-team-stats.html#references",
-    "href": "soccer/nwsl-team-stats.html#references",
-    "title": "National Women’s Soccer League Team Statistics",
+    "objectID": "football/nfl-team-statistics.html#references",
+    "href": "football/nfl-team-statistics.html#references",
+    "title": "National Football League Team Statistics",
     "section": "References",
-    "text": "References\nDror A (2023). nwslR: Compiles dataset for the National Women’s Soccer League (NWSL). R package version 0.0.0.9001."
+    "text": "References\nHo T, Carl S (2022). nflreadr: Download ‘nflverse’ Data. R package version 1.3.1, https://CRAN.R-project.org/package=nflreadr."
+  },
+  {
+    "objectID": "soccer/soccer-heights.html",
+    "href": "soccer/soccer-heights.html",
+    "title": "Soccer Heights",
+    "section": "",
+    "text": "A researcher wants to investigate whether there are differences among the mean height for different positions (Goalkeeper, Defender, Midfield, Attack, or Missing) of soccer players. Goalkeepers are typically thought to be taller than other positions to make up in wingspan to cover the goal better. The dataset contains information on each player including their name, position, preferred foot, and height. For this analysis, only the position and height of the player will be used. A sample of 20 players was taken from each position for this analysis."
+  },
+  {
+    "objectID": "soccer/soccer-heights.html#motivation",
+    "href": "soccer/soccer-heights.html#motivation",
+    "title": "Soccer Heights",
+    "section": "",
+    "text": "A researcher wants to investigate whether there are differences among the mean height for different positions (Goalkeeper, Defender, Midfield, Attack, or Missing) of soccer players. Goalkeepers are typically thought to be taller than other positions to make up in wingspan to cover the goal better. The dataset contains information on each player including their name, position, preferred foot, and height. For this analysis, only the position and height of the player will be used. A sample of 20 players was taken from each position for this analysis."
+  },
+  {
+    "objectID": "soccer/soccer-heights.html#data",
+    "href": "soccer/soccer-heights.html#data",
+    "title": "Soccer Heights",
+    "section": "Data",
+    "text": "Data\nEach row of data gives gives information for one of 100 soccer players in the sample with 20 players at each of five positions for a total sample size of 100.\n\n\n\nVariable\nDescription\n\n\n\n\nname\nName of the player\n\n\nposition\nPlayer’s current position\n\n\nfoot\nPlayer’s preferred foot\n\n\nheight_in_cm\nPlayer’s height (in cm)\n\n\n\nsoccer_heights_sample.csv"
+  },
+  {
+    "objectID": "soccer/soccer-heights.html#questions",
+    "href": "soccer/soccer-heights.html#questions",
+    "title": "Soccer Heights",
+    "section": "Questions",
+    "text": "Questions\n\nWhat are the mean heights for each position?\nTest to see if there is evidence of a discernible difference in mean height among the five positions.\nWhich pairs of positions appear to have a discernible difference in mean height?"
+  },
+  {
+    "objectID": "soccer/soccer-heights.html#references",
+    "href": "soccer/soccer-heights.html#references",
+    "title": "Soccer Heights",
+    "section": "References",
+    "text": "References\nThe data was subsetted from the data.world website"
   },
   {
     "objectID": "basketball/nba-player-stats.html",
@@ -588,39 +707,60 @@
     "text": "References\nData was accessed from Jeff Sackmann’s tennis GitHub repository."
   },
   {
-    "objectID": "baseball/verlander-pitches.html",
-    "href": "baseball/verlander-pitches.html",
-    "title": "Justin Verlander Pitches",
+    "objectID": "submit-data.html",
+    "href": "submit-data.html",
+    "title": "Submit a Dataset",
     "section": "",
-    "text": "After nearly two full seasons due to injury, at the age of 39 Justin Verlander returned for the 2022 season to win the American League Cy Young award and World Series with the Houston Astros. Leading the league in a variety of statistics, Verlander dominated in his starts throughout the season. Pitch selection has played a key role into Verlander’s recent success with the Astros. Verlander throws four types of pitches (using MLB’s abbreviation): fastball (FF), slider (SL), curveball (CB), and changeup (CH). However, pitches are thrown in the context of an at-bat where the ball-strike count starts 0-0, and progresses until either the batter strikes out (reaches three strikes), is walked (reaches four balls), or is either hit-by-pitch or hits the ball in-play. As the count varies, pitchers often decide to favor certain pitches over others, e.g, with three balls (i.e., 3-X counts) the pitcher may favor throwing more accurate fastballs relative to out-of-the-zone offspeed pitches that are favored with two strikes (i.e., X-2 counts)."
+    "text": "The goal of this repository is to provide a collection of relevant and engaging sports datasets to be used in class, handouts, assignments, projects, and SCORE modules. We are always looking for new datasets and welcome public submissions, but these datasets will need to meet the following requirements:"
   },
   {
-    "objectID": "baseball/verlander-pitches.html#motivation",
-    "href": "baseball/verlander-pitches.html#motivation",
-    "title": "Justin Verlander Pitches",
-    "section": "",
-    "text": "After nearly two full seasons due to injury, at the age of 39 Justin Verlander returned for the 2022 season to win the American League Cy Young award and World Series with the Houston Astros. Leading the league in a variety of statistics, Verlander dominated in his starts throughout the season. Pitch selection has played a key role into Verlander’s recent success with the Astros. Verlander throws four types of pitches (using MLB’s abbreviation): fastball (FF), slider (SL), curveball (CB), and changeup (CH). However, pitches are thrown in the context of an at-bat where the ball-strike count starts 0-0, and progresses until either the batter strikes out (reaches three strikes), is walked (reaches four balls), or is either hit-by-pitch or hits the ball in-play. As the count varies, pitchers often decide to favor certain pitches over others, e.g, with three balls (i.e., 3-X counts) the pitcher may favor throwing more accurate fastballs relative to out-of-the-zone offspeed pitches that are favored with two strikes (i.e., X-2 counts)."
+    "objectID": "submit-data.html#two-ways-to-submit-a-dataset",
+    "href": "submit-data.html#two-ways-to-submit-a-dataset",
+    "title": "Submit a Dataset",
+    "section": "Two ways to submit a dataset",
+    "text": "Two ways to submit a dataset\nThere are two ways to contribute a dataset:\n\nSubmit a dataset with the necessary information using this Google form. This is the recommended option for contributors who are not experienced with quarto or Rmarkdown files. The form will describe what information is necessary for us to create the appropriate page for your submitted dataset.\nFill out a quarto template file with the dataset information, and then submit either via email or directly with a GitHub pull request.\n\n\nThe rest of this page includes information about submitting a dataset using the quarto template file."
   },
   {
-    "objectID": "baseball/verlander-pitches.html#data",
-    "href": "baseball/verlander-pitches.html#data",
-    "title": "Justin Verlander Pitches",
+    "objectID": "submit-data.html#quarto-template-file-submission-steps",
+    "href": "submit-data.html#quarto-template-file-submission-steps",
+    "title": "Submit a Dataset",
+    "section": "Quarto template file submission steps",
+    "text": "Quarto template file submission steps\nThis data repository is built using quarto and rendered into a website. You can get the template file in two ways:\n\nCopy the _dataset-template.qmd file from our GitHub repository and save it on your computer. Once you’re done, you can email us the file and the data (see below for email address).\nFork our GitHub repository into your own GitHub account and edit it like any other Git repository. Once you’re done, you can submit a pull request.\n\n\nDataset template\nThe dataset template is a Quarto file. The template asks for:\n\nBasic metadata to tag the dataset, such as the statistics & data science topic, a short title, and your name. (All submissions are credited with the name of the submitter.)\nA description of the sports question to motivate analysis with the dataset.\nA description of the dataset with documentation about each variable. The file should make it clear what a single row of the dataset represents, and clearly describe each of the variables (including units of measure when relevant).\nReferences to the original source of the data. If the source is a code package, then include an appropriate citation with a link to the package. If the source is an academic paper and the data is deposited in a third-party repository (e.g., Figshare), then include references to both the paper and the archived dataset. When available, include the DOIs of the references.\n\nThe template is meant to prevent a common problem with course datasets: they get passed down from instructor to instructor, and eventually all information about the original source is lost. The dataset may be presented to students without context or important details (like units), and the instructor may not be able to find the original data or references to answer questions about the data.\n\n\nSubmitting template file\nOnce you’ve filled in the template, you can either:\n\nEmail the template file, the data, and any code for preparing the data to the repository editor (currently Ron Yurko: ryurko AT stat DOT cmu DOT edu).\nSubmit a pull request to our repository on GitHub. Save the Qmd with a meaningful name and place it in its relevant sports directory (e.g., baseball/ or tennis/). Place the data files in data/. Place any code to prepare the data in the _prep/ folder, inside another folder with a name matching the submitted dataset. Once you’ve committed all of the necessary files (without anything extraneous) then you can submit a pull request."
+  },
+  {
+    "objectID": "hockey/nhl_powerplay.html",
+    "href": "hockey/nhl_powerplay.html",
+    "title": "NHL Team Power Play Perfomance in 2022-2023",
+    "section": "",
+    "text": "Certain infractions in a hockey game can lead to one or more players being forced to sit out for a period of time while their team has to skate with fewer payers. A common scenario that results is a 5 on 4 power play where one team has five skates (plus a goalie) and the penalized team has only four skaters (plus a goalie). The team with fewer skates is said to be shorthanded. Typical penalty times are for two minutes and the penalized player is allowed to return to the ice if the opponent scores a goal while on the power play. Rare, but more serious infractions, produce a major penalty (5 minutes) where the penalized player is not allowed to return to the ice when a goal is scored. A power play can also end before two minutes when the team on the power play commits a penalty which results in one of its players being sent off the ice to even the sides.\nThis dataset shows information for all 32 National Hockey League (NHL) teams based on their performance while on a 5 on 4 power play in the 2022-2023 regular season. Goals scored, shots on goals, and hits are all scaled to give a count of these events for every full two minutes of a power play."
+  },
+  {
+    "objectID": "hockey/nhl_powerplay.html#motivation",
+    "href": "hockey/nhl_powerplay.html#motivation",
+    "title": "NHL Team Power Play Perfomance in 2022-2023",
+    "section": "",
+    "text": "Certain infractions in a hockey game can lead to one or more players being forced to sit out for a period of time while their team has to skate with fewer payers. A common scenario that results is a 5 on 4 power play where one team has five skates (plus a goalie) and the penalized team has only four skaters (plus a goalie). The team with fewer skates is said to be shorthanded. Typical penalty times are for two minutes and the penalized player is allowed to return to the ice if the opponent scores a goal while on the power play. Rare, but more serious infractions, produce a major penalty (5 minutes) where the penalized player is not allowed to return to the ice when a goal is scored. A power play can also end before two minutes when the team on the power play commits a penalty which results in one of its players being sent off the ice to even the sides.\nThis dataset shows information for all 32 National Hockey League (NHL) teams based on their performance while on a 5 on 4 power play in the 2022-2023 regular season. Goals scored, shots on goals, and hits are all scaled to give a count of these events for every full two minutes of a power play."
+  },
+  {
+    "objectID": "hockey/nhl_powerplay.html#data",
+    "href": "hockey/nhl_powerplay.html#data",
+    "title": "NHL Team Power Play Perfomance in 2022-2023",
     "section": "Data",
-    "text": "Data\nBelow are two datasets containing information about pitches thrown by Justin Verlander during the 2019 and 2022 seasons (with separate datasets for each season). Each dataset includes the pitch type, ball-strike count, release speed, and a description of what happened on the pitch.\nData courtesy of baseballsavant.mlb.com and accessed using the baseballr package.\n\nverlander-pitches-2019.csv, verlander-pitches-2022.csv\n\n\nVariable\nDescription\n\n\n\n\npitch_type\nThe type of pitch Verlander threw, either: fastball (FF), slider (SL), curveball (CU), or changeup (CH).\n\n\ncount\nThe ball-strike count when Verlander threw the pitch.\n\n\nrelease_speed\nPitch speed (MPH) at the time of release.\n\n\ndescription\nA brief text description of the result of the pitch, such as a ball, foul, called_strike, swinging_strike, etc."
+    "text": "Data\nEach row of data gives power play statistics for one of the 32 National Hockey League teams from the 2022-2023 regular season.\n\nNHL_PowerPlay2022.csv\n\n\nVariable\nDescription\n\n\n\n\nteam\nName of the team\n\n\ngoals_per_2_min\nHow many goals scored in 2 minute increments\n\n\nSOG_per_2_min\nHow many shots on goal were taken in a 2 minute increments\n\n\nhits_per_2_min\nAverage hits recorded for 2 minutes\n\n\nConference\nConference the team plays in (east vs west)\n\n\ngoal_differential\nPower play goals scored minus short-handed goals allowed\n\n\nIcetime\nTotal time spent on the power play (in minutes)"
   },
   {
-    "objectID": "baseball/verlander-pitches.html#questions",
-    "href": "baseball/verlander-pitches.html#questions",
-    "title": "Justin Verlander Pitches",
+    "objectID": "hockey/nhl_powerplay.html#questions",
+    "href": "hockey/nhl_powerplay.html#questions",
+    "title": "NHL Team Power Play Perfomance in 2022-2023",
     "section": "Questions",
-    "text": "Questions\n\nUsing the appropriate statistical test, assess whether or not Justin Verlander’s pitch_type is independent of the count. Perform this analysis for both the 2019 and 2022 datasets. Are the conclusions similar or different?\nWhich combinations of pitch_type and count appear more than expected under the assumption of independence? Which combinations appear fewer than expected? Perform this analysis for both the 2019 and 2022 datasets. Are the conclusions similar or different?"
+    "text": "Questions\n\nDescribe the distribution of goals-per-2min. Does any team appear to have unusually high or low values for this variable?\nCreate plot to look at the relationship between goals_per_2min and SOG_per_2min. Does it look like more shots tend to lead to more goals?\nCreate plot to look at the relationship between goals_per_2min and hits_per_2min. Does it look like more hits tend to lead to more goals?\nCreate a plot to compare the distribution of goal scoring rates while on the power play between the two conferences. Does there appear to be much difference between the two conferences?"
   },
   {
-    "objectID": "baseball/verlander-pitches.html#references",
-    "href": "baseball/verlander-pitches.html#references",
-    "title": "Justin Verlander Pitches",
+    "objectID": "hockey/nhl_powerplay.html#references",
+    "href": "hockey/nhl_powerplay.html#references",
+    "title": "NHL Team Power Play Perfomance in 2022-2023",
     "section": "References",
-    "text": "References\nPetti B, Gilani S (2022). baseballr: Acquiring and Analyzing Baseball Data. R package version 1.3.0, https://CRAN.R-project.org/package=baseballr."
+    "text": "References\nThe data were obtained from the MoneyPuck website."
   },
   {
     "objectID": "hockey/nhl-shots.html",
@@ -662,6 +802,6 @@
     "href": "by-statsds-topic.html",
     "title": "Datasets By Topic",
     "section": "",
-    "text": "2023 Boston Marathon runners\n\n\n\n\n\n\n\nSummary statistics\n\n\nOutliers\n\n\nz-scores\n\n\n\n\nThe data set looks at the 2023 Boston Marathon results.\n\n\n\n\n\n\nJun 27, 2023\n\n\nJack Fay, A.J. Dykstra, and Ivan Ramler\n\n\n\n\n\n\n  \n\n\n\n\nBatting Statistics for Division I Softball\n\n\n\n\n\n\n\nmerging\n\n\njoining\n\n\ndata wrangling\n\n\n\n\nThese data sets contain batting statistics for Division I softball in the 2021 and 2022 seasons.\n\n\n\n\n\n\nMay 23, 2023\n\n\nSarah Weaver and Ivan Ramler\n\n\n\n\n\n\n  \n\n\n\n\nJustin Verlander Pitches\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\n\n\nInformation about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nLacrosse PLL vs. NLL\n\n\n\n\n\n\n\nDifference in means hypothesis tests\n\n\nDifference in means confidence intervals\n\n\n\n\nThe data set looks at both lacrosse leagues, their respective teams, and their shot and goal amounts.\n\n\n\n\n\n\nJun 22, 2023\n\n\nAJ Dykstra, Jack Cowan, and Ivan Ramler\n\n\n\n\n\n\n  \n\n\n\n\nLake Placid Women’s Ironman Triathlon\n\n\n\n\n\n\n\nHistograms\n\n\nScatter Plots\n\n\nCorrelation\n\n\nLinear Regression\n\n\n\n\nThe data set looks at female participatants in the triathlon Ironman.\n\n\n\n\n\n\nJun 17, 2023\n\n\nMichael Schuckers, Matthew Abel, and A.J. Dykstra\n\n\n\n\n\n\n  \n\n\n\n\nLeague of Legends - Buffing and Nerfing\n\n\n\n\n\n\n\noutlier detection\n\n\nfive number summary\n\n\nz-scores\n\n\n\n\nGame play statistics for League of Legends champions in two different patches. Can detecting outliers indicate champions that should be enhanced (buffed) or scaled back (nerfed)?\n\n\n\n\n\n\nJul 1, 2023\n\n\nGeorge Charalambous, Ivan Ramler, and A.J. Dykstra\n\n\n\n\n\n\n  \n\n\n\n\nNASCAR Data Description\n\n\n\n\n\n\n\ndata visualization\n\n\ndata wrangling\n\n\nlinear regression\n\n\ntransformations in regression\n\n\nmodel assumptions\n\n\nmodel building\n\n\n\n\nNASCAR Driver Ratings and statistics from 2007-2022\n\n\n\n\n\n\nJul 6, 2023\n\n\nAlyssa Bigness, Jack Fay, and Ivan Ramler\n\n\n\n\n\n\n  \n\n\n\n\nNational Basketball Association Player Statistics\n\n\n\n\n\n\n\nclustering\n\n\nprincipal component analysis\n\n\n\n\nNBA player statistics from the 2021-2022 regular season\n\n\n\n\n\n\nMar 25, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nNational Football League Team Statistics\n\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\nmissing data\n\n\nvariable selection\n\n\nregularization\n\n\n\n\nNFL team statistics from 1999 to 2022\n\n\n\n\n\n\nMay 24, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nNational Hockey League Shots\n\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\n\nInformation about shots during the 2021-2022 NHL season\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nNational Women’s Soccer League Team Statistics\n\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\n\n\nNWSL team statistics from 2016 to 2022\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nPremier Hockey Federation Shots\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\nlogistic regression\n\n\n\n\nInformation about shots during the 2021-2022 PHF season\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nStatistics of PGA Tournaments During the 2022 Season\n\n\n\n\n\n\n\ncorrelation\n\n\nlinear regression\n\n\n\n\nMeasures of Putting, Driving, and Success for individual golfers in 19 professional tournaments in 2022\n\n\n\n\n\n\nMay 19, 2023\n\n\nAlysssa Bigness\n\n\n\n\n\n\n  \n\n\n\n\nSumo wrestler characteristics\n\n\n\n\n\n\n\ndata wrangling\n\n\ndata visualization\n\n\n\n\nSumo wrestling data 1957-2023.\n\n\n\n\n\n\nJun 29, 2023\n\n\nJack Fay, A.J. Dykstra, and Ivan Ramler\n\n\n\n\n\n\n  \n\n\n\n\nTeam Statistics for Division I Women’s Volleyball\n\n\n\n\n\n\n\nmulticollinearity\n\n\nmultiple linear regression\n\n\ncorrelations\n\n\nsummary statistics\n\n\n\n\nThese data sets contain team statistics for Division I women’s volleyball in the 2022 and 2023 seasons.\n\n\n\n\n\n\nJul 24, 2023\n\n\nJack Fay, A.J. Dykstra, and Ivan Ramler\n\n\n\n\n\n\n  \n\n\n\n\nTeam statistics for NCAA Division 1 Men’s and Women’s Lacrosse\n\n\n\n\n\n\n\ncorrelation\n\n\nindicator variables\n\n\nlinear regression\n\n\nside-by-side boxplots\n\n\n\n\nThese data sets contain team statistics for NCAA Division I women’s and men’s lacrosse in the 2022 and 2023 seasons.\n\n\n\n\n\n\nJul 24, 2023\n\n\nJack Fay, A.J. Dykstra, and Ivan Ramler\n\n\n\n\n\n\n  \n\n\n\n\nWTA Grand Slam Matches\n\n\n\n\n\n\n\nlogistic regression\n\n\ndata wrangling\n\n\ncategorical data\n\n\nchi-squared test\n\n\nclustering\n\n\n\n\nWTA Grand Slam Matches from 2018 to 2022\n\n\n\n\n\n\nMay 24, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nWomen’s National Basketball Association Shots\n\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\n\nInformation about shots during the 2021-2022 WNBA season\n\n\n\n\n\n\nMar 25, 2023\n\n\nRon Yurko\n\n\n\n\n\n\nNo matching items"
+    "text": "2023 Boston Marathon runners\n\n\n\n\n\n\n\nSummary statistics\n\n\nOutliers\n\n\nz-scores\n\n\n\n\nThe data set looks at the 2023 Boston Marathon results.\n\n\n\n\n\n\nJun 27, 2023\n\n\nJack Fay, A.J. Dykstra, and Ivan Ramler\n\n\n\n\n\n\n  \n\n\n\n\nAustralian Open Tennis (2008-2022)\n\n\n\n\n\n\n\nproportions\n\n\ntwo-way tables\n\n\n\n\nResults from matches at the Men’s Australian Open Tennis Tournament between 2008 and 2022.\n\n\n\n\n\n\nAug 3, 2023\n\n\nTrent Meyer, Robin Lock\n\n\n\n\n\n\n  \n\n\n\n\nBatting Statistics for Division I Softball\n\n\n\n\n\n\n\nmerging\n\n\njoining\n\n\ndata wrangling\n\n\n\n\nThese data sets contain batting statistics for Division I softball in the 2021 and 2022 seasons.\n\n\n\n\n\n\nMay 23, 2023\n\n\nSarah Weaver and Ivan Ramler\n\n\n\n\n\n\n  \n\n\n\n\nJustin Verlander Pitches\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\n\n\nInformation about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nLacrosse PLL vs. NLL\n\n\n\n\n\n\n\nDifference in means hypothesis tests\n\n\nDifference in means confidence intervals\n\n\n\n\nThe data set looks at both lacrosse leagues, their respective teams, and their shot and goal amounts.\n\n\n\n\n\n\nJun 22, 2023\n\n\nAJ Dykstra, Jack Cowan, and Ivan Ramler\n\n\n\n\n\n\n  \n\n\n\n\nLake Placid Women’s Ironman Triathlon\n\n\n\n\n\n\n\nHistograms\n\n\nScatter Plots\n\n\nCorrelation\n\n\nLinear Regression\n\n\n\n\nThe data set looks at female participatants in the triathlon Ironman.\n\n\n\n\n\n\nJun 17, 2023\n\n\nMichael Schuckers, Matthew Abel, and A.J. Dykstra\n\n\n\n\n\n\n  \n\n\n\n\nLeague of Legends - Buffing and Nerfing\n\n\n\n\n\n\n\noutlier detection\n\n\nfive number summary\n\n\nz-scores\n\n\n\n\nGame play statistics for League of Legends champions in two different patches. Can detecting outliers indicate champions that should be enhanced (buffed) or scaled back (nerfed)?\n\n\n\n\n\n\nJul 1, 2023\n\n\nGeorge Charalambous, Ivan Ramler, and A.J. Dykstra\n\n\n\n\n\n\n  \n\n\n\n\nNASCAR Data Description\n\n\n\n\n\n\n\ndata visualization\n\n\ndata wrangling\n\n\nlinear regression\n\n\ntransformations in regression\n\n\nmodel assumptions\n\n\nmodel building\n\n\n\n\nNASCAR Driver Ratings and statistics from 2007-2022\n\n\n\n\n\n\nJul 6, 2023\n\n\nAlyssa Bigness, Jack Fay, and Ivan Ramler\n\n\n\n\n\n\n  \n\n\n\n\nNFL Draft Combine\n\n\n\n\n\n\n\nExploratory Data Analysis\n\n\nLinear regression\n\n\n\n\nNFL Scouting Combine Event scores from 2004 - 2023\n\n\n\n\n\n\nAug 3, 2023\n\n\nShane Hauk, Michael Schuckers, Robin Lock\n\n\n\n\n\n\n  \n\n\n\n\nNHL Team Power Play Perfomance in 2022-2023\n\n\n\n\n\n\n\nexploratory data Analysis\n\n\n\n\nMeasures for National Hockey League teams from all 5 on 4 power plays in the 2022-2023 season.\n\n\n\n\n\n\nJul 27, 2023\n\n\nAbby Hustler, Robin Lock\n\n\n\n\n\n\n  \n\n\n\n\nNational Basketball Association Player Statistics\n\n\n\n\n\n\n\nclustering\n\n\nprincipal component analysis\n\n\n\n\nNBA player statistics from the 2021-2022 regular season\n\n\n\n\n\n\nMar 25, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nNational Football League Team Statistics\n\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\nmissing data\n\n\nvariable selection\n\n\nregularization\n\n\n\n\nNFL team statistics from 1999 to 2022\n\n\n\n\n\n\nMay 24, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nNational Hockey League Shots\n\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\n\nInformation about shots during the 2021-2022 NHL season\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nNational Women’s Soccer League Team Statistics\n\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\n\n\nNWSL team statistics from 2016 to 2022\n\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nPremier Hockey Federation Shots\n\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\nlogistic regression\n\n\n\n\nInformation about shots during the 2021-2022 PHF season\n\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nSoccer Heights\n\n\n\n\n\n\n\nANOVA for means\n\n\nPairwise comparisons\n\n\n\n\nHeights for a sample of 100 soccer players by position\n\n\n\n\n\n\nAug 3, 2023\n\n\nRoderick Mpofu, Robin Lock\n\n\n\n\n\n\n  \n\n\n\n\nStatistics of PGA Tournaments During the 2022 Season\n\n\n\n\n\n\n\ncorrelation\n\n\nlinear regression\n\n\n\n\nMeasures of Putting, Driving, and Success for individual golfers in 19 professional tournaments in 2022\n\n\n\n\n\n\nMay 19, 2023\n\n\nAlysssa Bigness\n\n\n\n\n\n\n  \n\n\n\n\nSumo wrestler characteristics\n\n\n\n\n\n\n\ndata wrangling\n\n\ndata visualization\n\n\n\n\nSumo wrestling data 1957-2023.\n\n\n\n\n\n\nJun 29, 2023\n\n\nJack Fay, A.J. Dykstra, and Ivan Ramler\n\n\n\n\n\n\n  \n\n\n\n\nTeam Statistics for Division I Women’s Volleyball\n\n\n\n\n\n\n\nmulticollinearity\n\n\nmultiple linear regression\n\n\ncorrelations\n\n\nsummary statistics\n\n\n\n\nThese data sets contain team statistics for Division I women’s volleyball in the 2022 and 2023 seasons.\n\n\n\n\n\n\nJul 24, 2023\n\n\nJack Fay, A.J. Dykstra, and Ivan Ramler\n\n\n\n\n\n\n  \n\n\n\n\nTeam statistics for NCAA Division 1 Men’s and Women’s Lacrosse\n\n\n\n\n\n\n\ncorrelation\n\n\nindicator variables\n\n\nlinear regression\n\n\nside-by-side boxplots\n\n\n\n\nThese data sets contain team statistics for NCAA Division I women’s and men’s lacrosse in the 2022 and 2023 seasons.\n\n\n\n\n\n\nJul 24, 2023\n\n\nJack Fay, A.J. Dykstra, and Ivan Ramler\n\n\n\n\n\n\n  \n\n\n\n\nWTA Grand Slam Matches\n\n\n\n\n\n\n\nlogistic regression\n\n\ndata wrangling\n\n\ncategorical data\n\n\nchi-squared test\n\n\nclustering\n\n\n\n\nWTA Grand Slam Matches from 2018 to 2022\n\n\n\n\n\n\nMay 24, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n  \n\n\n\n\nWomen’s National Basketball Association Shots\n\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\n\nInformation about shots during the 2021-2022 WNBA season\n\n\n\n\n\n\nMar 25, 2023\n\n\nRon Yurko\n\n\n\n\n\n\nNo matching items"
   }
 ]
