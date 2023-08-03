@@ -2,15 +2,22 @@
   {
     "listing": "/by-statsds-topic.html",
     "items": [
+      "/running/boston_marathon_2023.html",
+      "/softball/softball_d1_2021-2022.html",
       "/baseball/verlander-pitches.html",
       "/lacrosse/lacrosse_pll_vs_nll.html",
+      "/triathlon/triathlon_lakeplacid_women_ironman.html",
       "/esports/lol-buff-nerf.html",
+      "/motor_sports/NASCAR_driver_ratings.html",
       "/basketball/nba-player-stats.html",
       "/football/nfl-team-statistics.html",
       "/hockey/nhl-shots.html",
       "/soccer/nwsl-team-stats.html",
       "/hockey/phf-shots.html",
       "/golf/pga_drive_putt.html",
+      "/wrestling/sumo_wrestingling_since_1957.html",
+      "/volleyball/volleyball_ncaa_team_stats.html",
+      "/lacrosse/lacrosse_ncaa_div1.html",
       "/tennis/wta-grand-slam-matches.html",
       "/basketball/wnba-shots.html"
     ]

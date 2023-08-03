@@ -1,0 +1,193 @@
+Team,faceoff_win_pct,shots_per_game,shot_pctg,win_loss_pctg,Division
+Virginia,0.542,45.23529411764706,0.381,0.765,Mens
+Boston U.,0.497,45.142857142857146,0.305,0.714,Mens
+North Carolina,0.5,44.42857142857143,0.33,0.5,Mens
+High Point,0.545,46.35294117647059,0.305,0.529,Mens
+Lehigh,0.634,40.2,0.342,0.667,Mens
+Princeton,0.466,46.93333333333333,0.3,0.533,Mens
+Syracuse,0.419,42.666666666666664,0.336,0.533,Mens
+Georgetown,0.551,44.35294117647059,0.334,0.765,Mens
+Utah,0.543,53,0.304,0.706,Mens
+Jacksonville,0.536,45.8125,0.315,0.75,Mens
+Notre Dame,0.469,45.375,0.342,0.875,Mens
+Delaware,0.481,43.166666666666664,0.341,0.722,Mens
+Penn St.,0.455,39.375,0.343,0.688,Mens
+Quinnipiac,0.538,43,0.304,0.5,Mens
+Yale,0.525,46.666666666666664,0.324,0.6,Mens
+Duke,0.602,45.63157894736842,0.325,0.842,Mens
+Michigan,0.599,40.23529411764706,0.336,0.588,Mens
+Penn,0.452,39.46153846153846,0.3,0.538,Mens
+Bellarmine,0.483,41.23529411764706,0.332,0.647,Mens
+Richmond,0.484,40.6875,0.316,0.688,Mens
+Johns Hopkins,0.496,38.166666666666664,0.329,0.667,Mens
+Maryland,0.596,41.8125,0.293,0.625,Mens
+Cornell,0.494,44.333333333333336,0.334,0.733,Mens
+Robert Morris,0.534,39.4375,0.295,0.5,Mens
+Bryant,0.566,43.05882352941177,0.329,0.706,Mens
+Harvard,0.44,46.083333333333336,0.271,0.417,Mens
+Marist,0.482,41.22222222222222,0.326,0.556,Mens
+Villanova,0.536,44.86666666666667,0.288,0.667,Mens
+Binghamton,0.557,42.57142857142857,0.314,0.643,Mens
+Brown,0.588,43.357142857142854,0.285,0.429,Mens
+Bucknell,0.399,41.61538461538461,0.272,0.231,Mens
+Towson,0.546,42.333333333333336,0.282,0.4,Mens
+Vermont,0.609,41.785714285714285,0.268,0.643,Mens
+Stony Brook,0.471,43.1875,0.302,0.562,Mens
+Drexel,0.555,38.785714285714285,0.319,0.571,Mens
+Loyola Maryland,0.401,38.47058823529411,0.283,0.529,Mens
+Siena,0.44,43.75,0.256,0.562,Mens
+Denver,0.604,35.4,0.328,0.667,Mens
+Army West Point,0.61,42.1764705882353,0.304,0.765,Mens
+Cleveland St.,0.468,35.84615384615385,0.322,0.462,Mens
+Rutgers,0.527,45.785714285714285,0.27,0.571,Mens
+Dartmouth,0.552,39.833333333333336,0.293,0.5,Mens
+Mercer,0.593,39.5,0.267,0.375,Mens
+Mount St. Mary's,0.614,41.75,0.257,0.5,Mens
+Hobart,0.505,44.30769230769231,0.299,0.385,Mens
+Marquette,0.517,39.07142857142857,0.34,0.429,Mens
+Providence,0.4,35.93333333333333,0.304,0.4,Mens
+Navy,0.577,45.4375,0.226,0.5,Mens
+Fairfield,0.46,40.285714285714285,0.298,0.357,Mens
+Lafayette,0.443,37.375,0.298,0.375,Mens
+Air Force,0.388,40.1764705882353,0.302,0.647,Mens
+Saint Joseph's,0.62,44.6,0.324,0.667,Mens
+Hofstra,0.572,41.5,0.25,0.357,Mens
+UAlbany,0.47,42.3125,0.253,0.375,Mens
+Sacred Heart,0.452,34.333333333333336,0.301,0.333,Mens
+Colgate,0.509,38.36363636363637,0.289,0.182,Mens
+Manhattan,0.526,37.46666666666667,0.253,0.667,Mens
+VMI,0.493,38.86666666666667,0.266,0.4,Mens
+Massachusetts,0.556,37.857142857142854,0.266,0.571,Mens
+Ohio St.,0.454,36.42857142857143,0.31,0.357,Mens
+NJIT,0.499,37,0.283,0.231,Mens
+UMBC,0.459,42.15384615384615,0.281,0.615,Mens
+St. John's,0.265,37.142857142857146,0.25,0,Mens
+Monmouth,0.556,36.642857142857146,0.251,0.357,Mens
+Canisius,0.476,36.93333333333333,0.28,0.133,Mens
+LIU,0.456,40.285714285714285,0.266,0.357,Mens
+Holy Cross,0.421,33.07142857142857,0.266,0.071,Mens
+St. Bonaventure,0.469,33.5,0.23,0.071,Mens
+Detroit Mercy,0.361,37.38461538461539,0.23,0.154,Mens
+UMass Lowell,0.347,27.076923076923077,0.293,0,Mens
+Hampton,0.456,29.714285714285715,0.25,0.143,Mens
+Wagner,0.401,36.5,0.211,0.214,Mens
+Loyola Maryland (Patriot),0.69,30.82,0.482,0.864,Womens
+Notre Dame (ACC),0.623,33.71,0.458,0.714,Womens
+Richmond (Atlantic 10),0.617,35.81,0.461,0.81,Womens
+Maryland (Big Ten),0.616,30.45,0.422,0.682,Womens
+Denver (Big East),0.616,28.48,0.418,0.957,Womens
+UMBC (America East),0.593,32.86,0.422,0.571,Womens
+Duke (ACC),0.588,30.94,0.436,0.444,Womens
+Mercer (Big South),0.586,33.35,0.492,0.85,Womens
+Stony Brook (CAA),0.584,32.32,0.458,0.789,Womens
+Jacksonville (ASUN),0.582,34.2,0.411,0.6,Womens
+Delaware (CAA),0.576,27.38,0.39,0.5,Womens
+Massachusetts (Atlantic 10),0.574,32.32,0.479,0.842,Womens
+Northwestern (Big Ten),0.572,36.32,0.467,0.955,Womens
+Fairfield (MAAC),0.57,31.74,0.423,0.737,Womens
+Boston U. (Patriot),0.569,27.67,0.448,0.5,Womens
+Marquette (Big East),0.567,35.63,0.448,0.789,Womens
+Army West Point (Patriot),0.566,33.42,0.428,0.789,Womens
+Yale (Ivy League),0.564,30.82,0.427,0.647,Womens
+Clemson (ACC),0.563,30.61,0.508,0.667,Womens
+North Carolina (ACC),0.562,30.67,0.46,0.762,Womens
+Liberty (ASUN),0.561,32.68,0.436,0.632,Womens
+James Madison (AAC),0.559,30.5,0.438,0.864,Womens
+Virginia Tech (ACC),0.558,27.79,0.447,0.526,Womens
+Syracuse (ACC),0.555,32.29,0.497,0.857,Womens
+Florida (AAC),0.554,29.9,0.497,0.81,Womens
+Temple (AAC),0.55,28.19,0.386,0.438,Womens
+Stanford (Pac-12),0.545,31,0.47,0.556,Womens
+Dartmouth (Ivy League),0.544,26.33,0.425,0.4,Womens
+Saint Francis (PA) (NEC),0.543,28.94,0.458,0.625,Womens
+Villanova (Big East),0.541,27.94,0.425,0.647,Womens
+Davidson (Atlantic 10),0.535,29.17,0.461,0.667,Womens
+Penn (Ivy League),0.535,32.63,0.432,0.737,Womens
+Boston College (ACC),0.534,30.91,0.46,0.826,Womens
+Campbell (Big South),0.534,30.79,0.46,0.632,Womens
+UAlbany (America East),0.533,28.55,0.489,0.65,Womens
+Arizona St. (Pac-12),0.532,25.37,0.413,0.316,Womens
+Colgate (Patriot),0.528,27.53,0.363,0.267,Womens
+Saint Joseph's (Atlantic 10),0.524,29.42,0.438,0.526,Womens
+Penn St. (Big Ten),0.522,31.22,0.374,0.611,Womens
+Navy (Patriot),0.522,31.53,0.469,0.684,Womens
+Virginia (ACC),0.521,32,0.464,0.611,Womens
+Johns Hopkins (Big Ten),0.521,30.28,0.415,0.5,Womens
+Binghamton (America East),0.517,30.47,0.429,0.647,Womens
+Harvard (Ivy League),0.516,29.73,0.408,0.533,Womens
+Mount St. Mary's (MAAC),0.516,24.12,0.4,0.235,Womens
+Canisius (MAAC),0.515,26.75,0.404,0.5,Womens
+Brown (Ivy League),0.514,25.43,0.43,0.429,Womens
+Kennesaw St. (ASUN),0.514,24.47,0.428,0.235,Womens
+George Mason (Atlantic 10),0.514,22.73,0.364,0.133,Womens
+Furman (Big South),0.513,29.56,0.419,0.556,Womens
+Michigan (Big Ten),0.513,26.3,0.441,0.6,Womens
+Towson (CAA),0.513,31,0.382,0.611,Womens
+Kent St. (MAC),0.509,28.17,0.454,0.556,Womens
+Central Mich. (MAC),0.507,29.26,0.455,0.526,Womens
+Wofford (Big South),0.504,27.29,0.39,0.412,Womens
+Sacred Heart (NEC),0.502,29.37,0.373,0.579,Womens
+Coastal Carolina (ASUN),0.502,33.95,0.45,0.632,Womens
+Cornell (Ivy League),0.499,31.8,0.405,0.467,Womens
+Drexel (CAA),0.499,27.11,0.418,0.667,Womens
+UConn (Big East),0.497,32.37,0.434,0.632,Womens
+Lehigh (Patriot),0.496,29.33,0.434,0.667,Womens
+Butler (Big East),0.496,23.73,0.438,0.333,Womens
+Eastern Mich. (MAC),0.496,23.69,0.383,0.125,Womens
+Colorado (Pac-12),0.495,31,0.424,0.579,Womens
+Iona (MAAC),0.494,30.25,0.428,0.562,Womens
+Manhattan (MAAC),0.493,24.24,0.364,0.353,Womens
+Cincinnati (AAC),0.492,29.5,0.429,0.611,Womens
+California (Pac-12),0.491,25.06,0.39,0.278,Womens
+Monmouth (CAA),0.489,29.65,0.415,0.529,Womens
+Southern California (Pac-12),0.489,28.75,0.43,0.8,Womens
+Robert Morris (MAC),0.485,28.84,0.392,0.526,Womens
+Stetson (ASUN),0.481,33.53,0.4,0.471,Womens
+Rutgers (Big Ten),0.48,24.94,0.403,0.471,Womens
+VCU (Atlantic 10),0.479,28.53,0.423,0.471,Womens
+Vermont (America East),0.477,27.69,0.424,0.5,Womens
+Wagner (NEC),0.474,26.53,0.408,0.529,Womens
+Delaware St. (ASUN),0.472,22.56,0.338,0.125,Womens
+Youngstown St. (MAC),0.471,26.61,0.463,0.333,Womens
+LIU (NEC),0.469,28.06,0.354,0.412,Womens
+Marist (MAAC),0.469,24.44,0.396,0.25,Womens
+Longwood (Big South),0.469,26.88,0.386,0.25,Womens
+East Carolina (AAC),0.469,25.67,0.468,0.556,Womens
+UC Davis (Independent),0.468,31.57,0.466,0.571,Womens
+Bucknell (Patriot),0.465,30.38,0.43,0.375,Womens
+Niagara (MAAC),0.465,30.74,0.406,0.632,Womens
+Georgetown (Big East),0.464,30.53,0.383,0.412,Womens
+Akron (MAC),0.459,23.71,0.352,0.118,Womens
+Oregon (Pac-12),0.457,26.71,0.399,0.294,Womens
+Lafayette (Patriot),0.457,26.41,0.341,0.118,Womens
+Bryant (America East),0.454,31.79,0.429,0.5,Womens
+Hofstra (CAA),0.453,27.69,0.388,0.25,Womens
+Elon (CAA),0.451,25.38,0.419,0.25,Womens
+Central Conn. St. (NEC),0.449,23.07,0.347,0.267,Womens
+Siena (MAAC),0.445,25.74,0.436,0.632,Womens
+American (Patriot),0.445,24.75,0.49,0.375,Womens
+Xavier (Big East),0.442,22.36,0.435,0.286,Womens
+Columbia (Ivy League),0.439,24.8,0.349,0.2,Womens
+Radford (Big South),0.438,23.12,0.399,0.294,Womens
+Holy Cross (Patriot),0.437,28.11,0.427,0.389,Womens
+George Washington (Atlantic 10),0.437,23.61,0.435,0.333,Womens
+San Diego St. (MPSF),0.436,24.69,0.39,0.375,Womens
+William & Mary (CAA),0.434,26.19,0.384,0.5,Womens
+Princeton (Ivy League),0.432,32.44,0.43,0.438,Womens
+New Hampshire (America East),0.432,25.73,0.453,0.333,Womens
+Quinnipiac (MAAC),0.43,26.72,0.42,0.556,Womens
+Winthrop (Big South),0.429,22.12,0.41,0.25,Womens
+Ohio St. (Big Ten),0.425,23.53,0.425,0.294,Womens
+Louisville (ACC),0.424,24.47,0.394,0.294,Womens
+Vanderbilt (AAC),0.424,24.6,0.388,0.267,Womens
+UMass Lowell (America East),0.423,23.94,0.423,0.375,Womens
+Old Dominion (AAC),0.422,22.76,0.346,0.235,Womens
+Pittsburgh (ACC),0.418,22.82,0.371,0.235,Womens
+High Point (Big South),0.418,28.11,0.411,0.444,Womens
+FDU (NEC),0.401,20.69,0.39,0.077,Womens
+Gardner-Webb (Big South),0.397,24.65,0.439,0.235,Womens
+St. Bonaventure (Atlantic 10),0.393,22.89,0.483,0.333,Womens
+Detroit Mercy (MAC),0.387,25.57,0.383,0.214,Womens
+Duquesne (Atlantic 10),0.38,24.19,0.447,0.125,Womens
+La Salle (Atlantic 10),0.364,20.27,0.345,0,Womens
+Presbyterian (Big South),0.334,23.76,0.369,0.353,Womens
