@@ -1,0 +1,52 @@
+---
+title: "NASCAR Data Description"
+author: Alyssa Bigness, Jack Fay, and Ivan Ramler
+date: July 6, 2023
+description: NASCAR Driver Ratings and statistics from 2007-2022
+categories:
+  - data visualization
+  - data wrangling
+  - linear regression
+  - transformations in regression
+  - model assumptions
+  - model building
+
+---
+
+## Motivation
+
+## Data
+
+The data comes from the NASCAR website and shows the season statistics from 2007-2022. Each row displays the metrics of a racer for that specific year. The data frame contains 1111 rows of observations and 20 variables.
+
+| Variable             | Description                                                                                                                                                                                              |
+|-------------------|-----------------------------------------------------|
+| Wins                 | The sum of the driver's victories                                                                                                                                                                        |
+| AvgStart             | The sum of the driver's starting positions divided by the number of races                                                                                                                                |
+| AvgMidRace           | The sum of the driver's mid race positions divided by the number of races                                                                                                                                |
+| AvgFinish            | The sum of the driver's finishing positions divided by the number of races                                                                                                                               |
+| AvgPos               | The sum of the driver's position each lap divided by the number of laps                                                                                                                                  |
+| PassDiff             | The sum of green flag passes minus green times passed                                                                                                                                                    |
+| GreenFlagPasses      | Number of green flag passes performed by the driver                                                                                                                                                      |
+| GreenFlagPassed      | Number of times driver is passed during green flag                                                                                                                                                       |
+| QualityPasses        | Number of passes in the top 15 while under green flag conditions by driver                                                                                                                               |
+| PercentQualityPasses | The sum of quality passes divided by green flag passes                                                                                                                                                   |
+| NumFastestLaps       | Number of where the driver had the fastest speed on the lap                                                                                                                                              |
+| LapsInTop15          | Number of laps completed while running in a top 15 position                                                                                                                                              |
+| PercentLapsInTop15   | The sum of the laps run in the top 15 divided by total laps completed                                                                                                                                    |
+| LapsLed              | The sum of the laps led in a race                                                                                                                                                                        |
+| PercentLapsLed       | The sum of the laps led in the race                                                                                                                                                                      |
+| TotalLaps            | The sum of the laps completed by a driver that year                                                                                                                                                      |
+| DriverRating         | Formula combining wins, finish, top15-finish, average running position while on lead lap, average speed under green, fastest lap, led most laps, and lead lap finish with a maximum rating of 150 points |
+
+: [nascar_driver_statistics.csv](../data/nascar_driver_statistics.csv)
+
+## Questions
+
++ What is the best way to model the relationship between average finish and driver rating? Are the linear model assumptions met?
+
++ Which predictors best predict driver rating?
+
+## References
+
+<https://www.nascar.com/stats/>

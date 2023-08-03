@@ -1,0 +1,112 @@
+---
+title: Team statistics for NCAA Division 1 Men's and Women's Lacrosse
+author: Jack Fay, A.J. Dykstra, and Ivan Ramler
+date: July 24, 2023
+description: These data sets contain team statistics for NCAA Division I women's and men's lacrosse in the 2022 and 2023 seasons.
+categories:
+  - correlation
+  - indicator variables
+  - linear regression
+  - side-by-side boxplots
+---
+
+## Motivation
+
+Over the years, lacrosse has experienced remarkable growth, with increased popularity and participation propelling the sport to new heights. This surge has led to a rise in skilled athletes competing in high-level leagues, notably NCAA Division I Men's Lacrosse. Within this heightened competition, faceoffs are known to be a vital aspect of the game. Due to their important impact, players train to specifically specialize in them, as winning a faceoff often grants their teams crucial opportunities for offensive possession which can profoundly impact the course of the game.
+
+## Data
+
+There are three data sets: 2022-2023 statistics for Men's teams, 2022-2023 statsitics for Women's teams, and a dataset combining the Men's and Women's statisitcs (that only includes the variables available in each of the other two).
+
+: [lacrosse_men_ncaa_div1_2022_2023.csv](../data/lacrosse_men_ncaa_div1_2022_2023.csv)
+
+This data set contains 72 rows and 22 columns. Each row represents a men's lacrosse team at the NCAA Division 1 level from the 2022-2023 season.
+
+| Variable              | Description                                                                                                     |
+|------------------|------------------------------------------------------|
+| Team                  | college of the team                                                                                             |
+| avg_assists           | average assists to goals per game                                                                               |
+| avg_caused_turnovers  | average turnovers forced by the team per game                                                                   |
+| clearing_pctg         | percentage of successful attempts to earn an offensive opportunity after gaining the ball in the teams own half |
+| total_faceoffs        | total faceoffs taken by a team for the season                                                                   |
+| faceoff_wins          | total faceoff wins by a team for the season                                                                     |
+| faceoff_win_pct       | proportion of total faceoff wins out of total faceoffs. Equivalent to the draw percentage in women's lacrosse.  |
+| avg_goals             | average goals per game                                                                                          |
+| avg_goals_allowed     | average goals allowed by the team per game                                                                      |
+| avg_ground_balls      | average loose balls picked up by the team per game                                                              |
+| man_down_defense_pctg | proportion of times a team stops the opponent from scoring while man down due to a penalty                      |
+| man_up_offense_pctg   | proportion of times the offense scores out of total opportunities while man up                                  |
+| avg_scoring_margin    | average margin of goals per game                                                                                |
+| opp_clear_pctg        | opponents clearing percentage averaged by game                                                                  |
+| avg_points            | average team points per game                                                                                    |
+| avg_saves             | average saves per game                                                                                          |
+| shot_pctg             | proportion of shots that go in out of total shots                                                               |
+| avg_turnovers         | average turnovers that are directly the fault of a player per game                                              |
+| W                     | total wins by the team                                                                                          |
+| L                     | total losses by the team                                                                                        |
+| win_loss_pctg         | proportion of games won out of total games                                                                      |
+
+: [lacrosse_women_ncaa_div1_2022_2023.csv](../data/lacrosse_women_ncaa_div1_2022_2023.csv)
+
+This data set contains 120 rows and 18 columns. Each row represents a women's lacrosse team at the NCAA Division 1 level from the 2022-2023 season.
+
+| Variable Name             | Description                                                                                                                         |
+|--------------------|----------------------------------------------------|
+| Team                      | The name of the women's NCAA lacrosse team.                                                                                         |
+| draw_pctg                 | Draw percentage, the proportion of draw controls won by the team in a game. Equivalent to the Faceoff percentage in Men's lacrosse. |
+| turnovers_per_game        | Average number of turnovers committed by the team per game.                                                                         |
+| sog_per_game              | Shots on goal (SOG) per game, the average number of shots on goal taken by the team.                                                |
+| assists_per_game          | Average number of assists made by the team per game.                                                                                |
+| caused_turnovers_per_game | The average number of caused turnovers by the team per game.                                                                        |
+| clearing_pctg             | Clearing percentage, the rate at which the team successfully clears the ball from defense to offense.                               |
+| draw_controls_per_game    | The average number of draw controls won by the team per game.                                                                       |
+| fouls_per_game            | Average number of fouls committed by the team per game.                                                                             |
+| free_position_pctg        | Free position percentage, the rate of successful free position shots taken by the team.                                             |
+| ground_balls_per_game     | The average number of ground balls scooped by the team per game.                                                                    |
+| points_per_game           | Average number of total points (goals + assists) scored by the team per game.                                                       |
+| save_pctg                 | Save percentage, the proportion of shots on goal saved by the team's goalkeeper.                                                    |
+| goals_allowed_per_game    | Average number of goals allowed by the team's defense per game.                                                                     |
+| goals_per_game            | Average number of goals scored by the team per game.                                                                                |
+| shots_per_game            | Average number of total shots (on goal + off target) taken by the team per game.                                                    |
+| shot_pctg                 | Shooting percentage, the proportion of shots on goal that result in a goal.                                                         |
+| win_pctg                  | The team's winning percentage, calculated as the number of wins divided by total games played.                                      |
+
+Note: The table provides a brief description of each variable, but more context and understanding might be required to interpret and analyze these statistics effectively in the context of women's NCAA lacrosse.
+
+:   [lacrosse_men_and_women_ncaa_div1_2022_2023.csv](../data/lacrosse_men_and_women_ncaa_div1_2022_2023.csv)
+
+This data set contains 192 rows and 6 columns. Each row represents a lacrosse team at the NCAA Division 1 level from the 2022-2023 season. Teams come from both the men's and womens division.
+
+| Variable            | Description                                                |
+|-------------------|-----------------------------------------------------|
+| Team                | college of the team                                        |
+| faceoff_win_pct     | the proportion of faceoffs win out of total faceoffs taken |
+| shots_per_game      | average amount of shots per game                           |
+| shot_pctg           | proportion of shots that are goals out of total shots      |
+| win_loss_percentage | amount of wins out of total games played                   |
+| Division            | the division the team is in (Mens or Womens)               |
+
+## Questions
+
+Using either Women's or Men's
+
+-   Which teams have better faceoff win proportions than the average?
+
+-   Which teams have worse faceoff win proportions than the average?
+
+-   What sort of impact does faceoff percentage have on the success of the team?
+
+
+Using the data with both Women's and Men's
+
+-   In terms of a team's win percentage, are faceoffs more important for men or women?
+
+-   What factors could make faceoffs more important for men or women?
+
+-   How does faceoff win percentage affect winning percentage?
+
+## References
+
+NCAA Website: Women's and Men's Lacrosse Division I
+
+<http://stats.ncaa.org/rankings/change_sport_year_div>

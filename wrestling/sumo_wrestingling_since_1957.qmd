@@ -1,0 +1,46 @@
+---
+title: Sumo wrestler characteristics
+author: Jack Fay, A.J. Dykstra, and Ivan Ramler
+date: 06/29/2023
+description: Sumo wrestling data 1957-2023.
+categories:
+  - data wrangling
+  - data visualization
+---
+
+## Motivation
+
+The Banzuke is a ranking system used in Japanese sumo wrestling to determine the order and matchups for tournaments. In the Makuuchi Banzuke division, which is the top division, the history can be traced back to the 18th century. The Banzuke lists the wrestlers' ranks, names, stables, and more in a hierarchical order based on their performance and records in previous tournaments. Over the years, the Makuuchi Banzuke has evolved, incorporating changes in the number of ranks and divisions. Today, it plays a crucial role in organizing and structuring sumo tournaments, reflecting the wrestlers' skill, rank, and accomplishments in the sport.
+
+## Data
+
+The data set has 15760 rows with 10 columns. Each row represents an appearance of a sumo wrestler in the Makuuchi Banzuke, Japan's most elite sumo wrestling division. The data dates from 1957 through mid 2023 and is comprised of multiple Bashos (tournaments) each year. An addition to the standard columns of wrestler names and records, the data contains many other metrics pertaining to each wrestlers birth place and physical stature.
+
+| Variable   | Description                                                        |
+|------------------|------------------------------------------------------|
+| Rank       | Rank of the wrestler in the Basho                                  |
+| Rikishi    | The ring name of a the sumo wrestler                               |
+| Heya       | The establishment where a wrestler trains                          |
+| Shusshin   | The birthplace, or place of origin of the wrestler                 |
+| Birth Date | The birth date of the wrestler                                     |
+| height_cm  | The height of the wrestler at the time of the event in centimeters |
+| weight_kg  | The weight of the wrestler at the time of the even in kilograms    |
+| wins       | Amount of wins in the specific Basho                               |
+| losses     | Amount of losses in the specific Basho                             |
+| ties       | Amount of ties in the specific Basho                               |
+
+: [sumo_since_1957.csv](../data/sumo_since_1957.csv)
+
+## Questions
+
++ Which place of origin has resulted in the most sumo wrestlers?
++ Which wrestlers train at Kataonami?
++ Which wrestlers have the highest win percentage?
++ Which wrestlers have had the most successful careers?
+
+
+## References
+
+Sumo Reference - Alexander Nitschke <https://sumodb.sumogames.de>
+
+The Sumo Matchup Centuries In The Making - FiveThirtyEight <https://fivethirtyeight.com/features/the-sumo-matchup-centuries-in-the-making/>

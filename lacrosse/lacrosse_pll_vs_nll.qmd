@@ -30,7 +30,7 @@ The data set has 162 rows with 9 columns. Each row represents a single lacrosse 
 | goals_per_game | The total amount of goals scored each game                     |
 | goals_per_48   | The average amount of goals for the first 48 minutes of a game |
 
-: [lacrosse_pll_vs_nll_2021-2022.csv](../data/lacrosse_pll_vs_nll_2021-2022.csv)
+: [lacrosse_pll_nll_2021-2022.csv](../data/lacrosse_pll_nll_2021-2022.csv)
 
 ## Questions
 

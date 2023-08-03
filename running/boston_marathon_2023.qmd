@@ -1,0 +1,56 @@
+---
+title: 2023 Boston Marathon runners
+author: Jack Fay, A.J. Dykstra, and Ivan Ramler
+date: 06/27/2023
+description: The data set looks at the 2023 Boston Marathon results.
+categories: 
+  - Summary statistics
+  - Outliers
+  - z-scores
+---
+
+## Motivation
+
+The Boston Marathon is an annual road race that takes place in the City of Boston Massachusetts. Attracting thousands of runners of varying skill and experience, year after year participants from around the world gather to compete for world records, divisional records, and personal bests. Examining the results of these athletes yields an interesting look into the spread and distribution of the times of all runners who successfully completed the historic race.
+
+## Data
+
+The data set contains 26598 rows and 15 columns. Each row represents a runner who completed the Boston Marathon in 2023
+
+| Variable       | Description                                                              |
+|-----------------|-------------------------------------------------------|
+| age_group      | age group of the runner                                                  |
+| place_overall  | finishing place of the runner out of all runners                         |
+| place_gender   | finishing place of runner among the same gender                          |
+| place_division | finishing place of runner among runners of the same gender and age group |
+| name           | name of runner                                                           |
+| gender         | gender of runner                                                         |
+| team           | team the runner is affiliated with                                       |
+| bib_number     | bib number of runner                                                     |
+| half_time      | half marathon time of runner                                             |
+| finish_net     | finishing time timed from when they cross the starting gate              |
+| finish_gun     | finishing time of runner timed from when the starter gun is fired        |
+| age_group      | age group of the runner                                                  |
+| half_time_sec  | half marathon time in seconds                                            |
+| finish_net_sec | net finish in seconds                                                    |
+| finish_gun_sec | gun finish in seconds                                                    |
+
+Data file
+
+:   [boston_marathon_2023.csv](../data/boston_marathon_2023.csv)
+
+## Questions
+
+-   What summary statistics are relevant to examine for finishing time?
+
+-   Which race times would be considered outliers?
+
+-   Are there extreme outliers?
+
+-   Which runner, the top male or top female, was more remarkable in comparison to their respective fields?
+
+## References
+
+Boston Athletic Association
+
+<https://www.baa.org>
