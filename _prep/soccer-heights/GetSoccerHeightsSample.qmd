@@ -1,0 +1,34 @@
+---
+title: "Get Soccer Heights Sample"
+format: docx
+---
+
+```{r Read data, echo= FALSE, output = FALSE}
+## Read in Data
+library(tidyverse)
+
+players_df <- read.csv("https://query.data.world/s/kgjdpxxovikkuxbduexafg6fbrbjav?dws=00000",
+                       header=TRUE, stringsAsFactors=FALSE)
+
+players_df_height <-  players_df %>% 
+  filter(height_in_cm > 0)
+
+```
+
+
+Get a sample of 20 players from each position
+
+
+```{r echo=FALSE, output = TRUE, results='asis'}
+
+set.seed(10294119)
+
+height_sample_df <- players_df_height %>% group_by(position) %>%
+  slice_sample(n = 20)
+
+height_sample_df %>%
+  select(name, position, foot, height_in_cm) %>%
+  write_csv(file = "soccer_heights_sample.csv",row.names=FALSE)
+
+```
+

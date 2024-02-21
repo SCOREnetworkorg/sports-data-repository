@@ -1,0 +1,44 @@
+---
+title: NHL Team Power Play Perfomance in 2022-2023
+author: Abby Hustler, Robin Lock
+date: July 27, 2023
+description: Measures for National Hockey League teams from all 5 on 4 power plays in the 2022-2023 season.  
+categories:
+  - exploratory data Analysis
+---
+
+## Motivation
+
+Certain infractions in a hockey game can lead to one or more players being forced to sit out for a period of time while their team has to skate with fewer payers. A common scenario that results is a 5 on 4 power play where one team has five skates (plus a goalie) and the penalized team has only four skaters (plus a goalie). The team with fewer skates is said to be shorthanded. Typical penalty times are for two minutes and the penalized player is allowed to return to the ice if the opponent scores a goal while on the power play. Rare, but more serious infractions, produce a major penalty (5 minutes) where the penalized player is not allowed to return to the ice when a goal is scored. A power play can also end before two minutes when the team on the power play commits a penalty which results in one of its players being sent off the ice to even the sides.
+
+This dataset shows information for all 32 National Hockey League (NHL) teams based on their performance while on a 5 on 4 power play in the 2022-2023 regular season. Goals scored, shots on goals, and hits are all scaled to give a count of these events for every full two minutes of a power play.
+
+## Data
+
+Each row of data gives power play statistics for one of the 32 National Hockey League teams from the 2022-2023 regular season.
+
+| Variable            | Description                                                |
+|---------------------|---------------------------------------------------|
+| `team`              | Name of the team                                           |
+| `goals_per_2_min`   | How many goals scored in 2 minute increments               |
+| `SOG_per_2_min`     | How many shots on goal were taken in a 2 minute increments |
+| `hits_per_2_min`    | Average hits recorded for 2 minutes                        |
+| `Conference`        | Conference the team plays in (east vs west)                |
+| `goal_differential` | Power play goals scored minus short-handed goals allowed   |
+| `Icetime`           | Total time spent on the power play (in minutes)            |
+
+: [NHL_PowerPlay2022.csv](../data/NHL_PowerPlay2022.csv)
+
+## Questions
+
+1.  Describe the distribution of `goals-per-2min`. Does any team appear to have unusually high or low values for this variable?
+
+2.  Create plot to look at the relationship between `goals_per_2min` and `SOG_per_2min`. Does it look like more shots tend to lead to more goals?
+
+3.  Create plot to look at the relationship between `goals_per_2min` and `hits_per_2min`. Does it look like more hits tend to lead to more goals?
+
+4.  Create a plot to compare the distribution of goal scoring rates while on the power play between the two conferences. Does there appear to be much difference between the two conferences?
+
+## References
+
+The data were obtained from the [MoneyPuck website](https://moneypuck.com/moneypuck/playerData/seasonSummary/2022/regular/teams).
