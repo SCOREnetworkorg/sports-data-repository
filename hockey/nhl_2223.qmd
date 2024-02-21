@@ -1,0 +1,56 @@
+---
+title: "NHL Team Statistics"
+author: Taylor Lum, Robin Lock
+date: December 15, 2023
+description: Team-level statistics from the 2022-2023 NHL season
+categories:
+  - linear regression
+  - correlation
+---
+
+## Motivation
+
+In 2005 the National Hockey League added shootouts to regular season games. In the event that regulation time ends in a tie and no goals are scored in overtime, the game goes to a 3-player shootout. This data set can be used to explore the relationship between various team-level statistics.
+
+Regulation time in an NHL game consists of three 20 minute periods. If regulation time ends and the score is tied (both teams have the same number of goals), the game goes into a 5 minute 3-on-3 overtime, where the next goal wins. If the game is still not resolved after overtime, it goes into a 3 round shootout, where players take a 1-on-1 breakaway against the goalie. If still tied after three shootout rounds, shootout rounds continue until one team is victorious. A team gets 2 points for a win (whether it's regulation, overtime, or shootout), and the losing team gets 0 points for a regulation loss, or 1 point for an overtime/shootout loss.
+
+## Data
+
+The data set contains the final standings of the 2022-2023 NHL Season with team level statistics.
+
+| Variable | Description                                                                                              |
+|----------------|--------------------------------------------------------|
+| Team     | NHL team abbreviation                                                                                    |
+| GP       | Total games played                                                                                       |
+| SOG      | Number of games that went to shootout                                                                    |
+| W        | Wins                                                                                                     |
+| L        | Losses                                                                                                   |
+| OTL      | Overtime losses                                                                                          |
+| PTS      | Points                                                                                                   |
+| Reg_PTS  | Points won during regulation time or overtime (2 points per game)                                        |
+| PPG      | Points won per game in regulation time or overtime (# of non-shootout points / \# of non-shootout games) |
+| SO_PTS   | Points won from shootout (1 extra point per shootout)                                                    |
+| Pct_SO   | Proportion of possible points from shootout won (# of shootout points / \# of shootout games)            |
+| RW       | Number of regulation wins                                                                                |
+| ROW      | Number of regulation and overtime wins                                                                   |
+| SOW      | Number of shootout wins                                                                                  |
+| SOL      | Number of shootout losses                                                                                |
+| GF       | Total goals scored                                                                                       |
+| GA       | Total goals against                                                                                      |
+| DIFF     | Goal differential (GF-GA)                                                                                |
+
+: [nhl_2223.csv](../data/nhl_2223.csv)
+
+## Questions
+
+1.  Plot `GA` versus `GF`. Describe the trend. Do teams that score more goals tend to allow more or less goals against?
+
+2.  Is offensive ability ('GF') or defensive ability ('GA') a better predictor of overall performance of a team (as measured by 'PTS')?
+
+3.  Is there a relationship between the ability to win shootouts ('Pct_SO') the ability to win games before shootouts ('PPG')?
+
+4.  Is there a relationship between the total number of goals a team scored during the season (`GF`) and the proportion of shootout points they won (`Pct_SO`)?
+
+## References
+
+NHL Standings 2022-23. ESPN (n.d.). <https://www.espn.com/nhl/standings/_/season/2023/group/league>

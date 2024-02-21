@@ -1,0 +1,53 @@
+---
+title: Women's National Baskeball Assosiation game statistics
+author: Kristen Varin
+date: December 15, 2023
+description: This data set contains team game statistics for 16 WNBA 
+teams and for 20 seasons. 
+categories:
+  - Data cleaning
+  - Missing Data
+  - Tables
+  - Logistic Regression
+---
+
+## Motivation
+
+All data sets used in this worksheet are from the `Wehoop` Package. 
+The code for cleaning the data can be found here: [data_cleaning.qmd](../data/data_cleaning.qmd)
+
+The National Basketball Association (NBA) has dominated over the WNBA in popularity since the creation of the WNBA 50 years after that of the NBA. For this reason, there are way more data sets available for the NBA. Thus, there is a need for high quality WNBA data sets in order to run analysis on the players and teams. This data set can be used to demonstrate the process of cleaning, prepping, and determining quality of data. 
+
+## Data
+
+The `WNBA20Yrs` data set contains 8920 rows and 9 columns. Each pair of rows represents a game played by two WNBA teams in one of the 2003 to 2022 regular seasons. The first row is for the away team and the second row is for the home team. The columns are as follows: 
+
+| Variable          | Description                                                   |
+|-------------------|-----------------------------------------------------|
+| game_id           | game id number                                                |
+| season            | season number                                                 |
+| season_type       | binary predictor; 2 if regular season game; 3 if playoff game |
+| game_date         | date of the game                                              |
+| team_id           | team id number                                                |
+| team_display_name | full team name (name and city)                                |
+| team_winner       | Boolean; True if the team won the game                        |
+| opponent_team_id  | id number of the opponent                                     |
+| team_home_away    | Where the game was played; either "home" or "away"            |
+
+: [WNBA20Yrs.csv](../data/WNBA20Yrs.csv)
+
+## Questions
+
+The goal will be to create a worksheet for the students telling them we want to predict whether a team makes playoffs based on their record halfway through the season. First, they will need to clean the data based on prompts. We will ask them what they notice about total games played by each team across seasons. They should recognize that the total games recorded is inconsistent between teams and with online WNBA statistics. We will ask them why this is a problem and how the issue could be solved if we still wanted to run the original regression.
+
+-   Create a table including a team's mid season record, whether they would make playoffs based on that record (teams with the top 8 records make the playoffs), their record at the end of the season, and whether they made playoffs based on that record. 
+
+- What do you notice about the team IDs in this data set? Filter out the IDs we won't be using and rename the teams so that the same IDs all have the most recent team name. 
+
+-   What problem is there regarding number of games played by each team? What are some ways we could solve this problem?
+
+-   Run logistic Regression Models to predict whether a team makes playoffs based on their record at the halfway point of the season. If is significant? Interpret the results. 
+
+## References
+
+Gilani S, Hutchinson G (2022). *wehoop: Access Women's Basketball Play by Play Data*. R package version 1.5.0, <https://CRAN.R-project.org/package=wehoop>.
