@@ -1,0 +1,42 @@
+---
+title: "2022 Divison III Women's Soccer Results"
+author: Hope Donoghue, Robin Lock
+description: Division III women's soccer teams game results from '2022' season
+categories:
+  - Correlation
+  - Chi-square test for association 
+---
+
+## Motivation
+
+Have you ever wondered if you know how many goals the home team scored in a soccer game then can you predict how many goals the opponent scored? Is there a relationship between this? With this data set on NCAA Division III women's soccer data from the 2022 season you will be able to explore this question.
+
+## Data
+
+The data set consists of 3753 games among 431 teams in the 2022 Division III women's soccer season. Each row represents one game in the season.
+
+| Variable   | Description                                      |
+|------------|--------------------------------------------------|
+| away_team  | Name away team                                   |
+| away_score | The number of goals the away team scored in game |
+| home_team  | Name of home team                                |
+| home_score | The number of goals the home team scored in game |
+| date       | Date of game                                     |
+
+: [D3_wsoc2022.csv](../data/D3_wsoc2022.csv)
+
+## Questions
+
+1.  Do you think the correlation value for Home Score vs. Away Score will be negative or positive? Explain your answer.
+
+2.  Find the correlation value for Home Score vs. Away Score from the data set. Interpret the correlation value in context.
+
+3.  Perform a test for association to see if the correlation value from above is statistically significant. Make sure to state the hypotheses clearly.
+
+4.  Describe the distribution of home scores or away scores. Would a normal (symmetric, bell-shaped) distribution be reasonable for scores?
+
+5.  There are a lot of games in the data set with many different scorelines that range from 0-0 all the way to 18-0. But there are very few games with high scores. Treat the scores as categories, but lump all of the larger scores into one category (e.g. 0, 1, 2, 3 or more). Create a two-way contingency table of home vs, away scores using these categories and test for an association.
+
+## References
+
+Data web scraped from the D3soccer.com website. https://www.d3soccer.com/seasons/women/2022/schedule
