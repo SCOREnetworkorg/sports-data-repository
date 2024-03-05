@@ -1,7 +1,7 @@
 ---
 title: "2022 Divison III Women's Soccer Results"
 author: Hope Donoghue, Robin Lock
-description: Division III women's soccer teams game results from '2022' season
+description: Division III women's soccer teams game results from 2022 season
 categories:
   - Correlation
   - Chi-square test for association 

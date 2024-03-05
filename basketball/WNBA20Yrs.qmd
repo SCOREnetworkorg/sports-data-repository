@@ -2,8 +2,7 @@
 title: Women's National Baskeball Assosiation game statistics
 author: Kristen Varin
 date: December 15, 2023
-description: This data set contains team game statistics for 16 WNBA 
-teams and for 20 seasons. 
+description: This data set contains team game statistics for 16 WNBA teams and for 20 seasons. 
 categories:
   - Data cleaning
   - Missing Data
@@ -14,7 +13,6 @@ categories:
 ## Motivation
 
 All data sets used in this worksheet are from the `Wehoop` Package. 
-The code for cleaning the data can be found here: [data_cleaning.qmd](../data/data_cleaning.qmd)
 
 The National Basketball Association (NBA) has dominated over the WNBA in popularity since the creation of the WNBA 50 years after that of the NBA. For this reason, there are way more data sets available for the NBA. Thus, there is a need for high quality WNBA data sets in order to run analysis on the players and teams. This data set can be used to demonstrate the process of cleaning, prepping, and determining quality of data. 
 
