@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,7 +47,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -56,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -94,15 +101,42 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 </head>
 
 <body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">SCORE Sports Data Repository</span>
     </a>
@@ -114,58 +148,58 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./by-statsds-topic.html" rel="" target="" aria-current="page">
- <span class="menu-text">Datasets By Topic</span></a>
+    <a class="nav-link active" href="./by-statsds-topic.html" aria-current="page"> 
+<span class="menu-text">Datasets By Topic</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./submit-data.html" rel="" target="">
- <span class="menu-text">Submit a Dataset</span></a>
+    <a class="nav-link" href="./submit-data.html"> 
+<span class="menu-text">Submit a Dataset</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./data-sources.html" rel="" target="">
- <span class="menu-text">Data Sources</span></a>
+    <a class="nav-link" href="./data-sources.html"> 
+<span class="menu-text">Data Sources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://modules.scorenetwork.org/" rel="" target="">
- <span class="menu-text">Module Repository</span></a>
+    <a class="nav-link" href="https://modules.scorenetwork.org/"> 
+<span class="menu-text">Module Repository</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/scorenetworkorg" rel="" target=""><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/scorenetworkorg"> <i class="bi bi-twitter" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/company/scorenetworkorg/" rel="" target=""><i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://www.linkedin.com/company/scorenetworkorg/"> <i class="bi bi-linkedin" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./by-statsds-topic.html">Datasets By Topic</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./by-statsds-topic.html">Datasets By Topic</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -222,6 +256,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./basketball/wnba-shots.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Women’s National Basketball Association Shots</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./basketball/WNBA20Yrs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Women’s National Baskeball Assosiation game statistics</span></a>
   </div>
 </li>
       </ul>
@@ -292,6 +332,12 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./hockey/nhl_2223.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NHL Team Statistics</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./hockey/nhl_powerplay.html" class="sidebar-item-text sidebar-link">
@@ -378,6 +424,12 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./soccer/D3_wsoc2022.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2022 Divison III Women’s Soccer Results</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./soccer/nwsl-team-stats.html" class="sidebar-item-text sidebar-link">
@@ -486,11 +538,11 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(22)</span></div><div class="category" data-category="ANOVA for means">ANOVA for means <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Correlation">Correlation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Difference in means confidence intervals">Difference in means confidence intervals <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Difference in means hypothesis tests">Difference in means hypothesis tests <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Exploratory Data Analysis">Exploratory Data Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Histograms">Histograms <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Linear Regression">Linear Regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Linear regression">Linear regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Outliers">Outliers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Pairwise comparisons">Pairwise comparisons <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Scatter Plots">Scatter Plots <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Summary statistics">Summary statistics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="categorical data">categorical data <span class="quarto-category-count">(3)</span></div><div class="category" data-category="chi-squared test">chi-squared test <span class="quarto-category-count">(3)</span></div><div class="category" data-category="classification">classification <span class="quarto-category-count">(2)</span></div><div class="category" data-category="clustering">clustering <span class="quarto-category-count">(2)</span></div><div class="category" data-category="correlation">correlation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="correlations">correlations <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data visualization">data visualization <span class="quarto-category-count">(2)</span></div><div class="category" data-category="data wrangling">data wrangling <span class="quarto-category-count">(4)</span></div><div class="category" data-category="density estimation">density estimation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="exploratory data Analysis">exploratory data Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="five number summary">five number summary <span class="quarto-category-count">(1)</span></div><div class="category" data-category="generalized additive models">generalized additive models <span class="quarto-category-count">(2)</span></div><div class="category" data-category="indicator variables">indicator variables <span class="quarto-category-count">(1)</span></div><div class="category" data-category="joining">joining <span class="quarto-category-count">(1)</span></div><div class="category" data-category="linear regression">linear regression <span class="quarto-category-count">(5)</span></div><div class="category" data-category="logistic regression">logistic regression <span class="quarto-category-count">(4)</span></div><div class="category" data-category="merging">merging <span class="quarto-category-count">(1)</span></div><div class="category" data-category="missing data">missing data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="model assumptions">model assumptions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="model building">model building <span class="quarto-category-count">(1)</span></div><div class="category" data-category="multicollinearity">multicollinearity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="multinomial logistic regression">multinomial logistic regression <span class="quarto-category-count">(2)</span></div><div class="category" data-category="multiple linear regression">multiple linear regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="naive bayes classifier">naive bayes classifier <span class="quarto-category-count">(2)</span></div><div class="category" data-category="outlier detection">outlier detection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="principal component analysis">principal component analysis <span class="quarto-category-count">(3)</span></div><div class="category" data-category="proportions">proportions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="regularization">regularization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="side-by-side boxplots">side-by-side boxplots <span class="quarto-category-count">(1)</span></div><div class="category" data-category="summary statistics">summary statistics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="transformations in regression">transformations in regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="two-way tables">two-way tables <span class="quarto-category-count">(1)</span></div><div class="category" data-category="variable selection">variable selection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="z-scores">z-scores <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(25)</span></div><div class="category" data-category="ANOVA for means">ANOVA for means <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Chi-square test for association">Chi-square test for association <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Correlation">Correlation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Data cleaning">Data cleaning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Difference in means confidence intervals">Difference in means confidence intervals <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Difference in means hypothesis tests">Difference in means hypothesis tests <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Exploratory Data Analysis">Exploratory Data Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Histograms">Histograms <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Linear Regression">Linear Regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Linear regression">Linear regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Logistic Regression">Logistic Regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Missing Data">Missing Data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Outliers">Outliers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Pairwise comparisons">Pairwise comparisons <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Scatter Plots">Scatter Plots <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Summary statistics">Summary statistics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Tables">Tables <span class="quarto-category-count">(1)</span></div><div class="category" data-category="categorical data">categorical data <span class="quarto-category-count">(3)</span></div><div class="category" data-category="chi-squared test">chi-squared test <span class="quarto-category-count">(3)</span></div><div class="category" data-category="classification">classification <span class="quarto-category-count">(2)</span></div><div class="category" data-category="clustering">clustering <span class="quarto-category-count">(2)</span></div><div class="category" data-category="correlation">correlation <span class="quarto-category-count">(3)</span></div><div class="category" data-category="correlations">correlations <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data visualization">data visualization <span class="quarto-category-count">(2)</span></div><div class="category" data-category="data wrangling">data wrangling <span class="quarto-category-count">(4)</span></div><div class="category" data-category="density estimation">density estimation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="exploratory data Analysis">exploratory data Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="five number summary">five number summary <span class="quarto-category-count">(1)</span></div><div class="category" data-category="generalized additive models">generalized additive models <span class="quarto-category-count">(2)</span></div><div class="category" data-category="indicator variables">indicator variables <span class="quarto-category-count">(1)</span></div><div class="category" data-category="joining">joining <span class="quarto-category-count">(1)</span></div><div class="category" data-category="linear regression">linear regression <span class="quarto-category-count">(6)</span></div><div class="category" data-category="logistic regression">logistic regression <span class="quarto-category-count">(4)</span></div><div class="category" data-category="merging">merging <span class="quarto-category-count">(1)</span></div><div class="category" data-category="missing data">missing data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="model assumptions">model assumptions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="model building">model building <span class="quarto-category-count">(1)</span></div><div class="category" data-category="multicollinearity">multicollinearity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="multinomial logistic regression">multinomial logistic regression <span class="quarto-category-count">(2)</span></div><div class="category" data-category="multiple linear regression">multiple linear regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="naive bayes classifier">naive bayes classifier <span class="quarto-category-count">(2)</span></div><div class="category" data-category="outlier detection">outlier detection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="principal component analysis">principal component analysis <span class="quarto-category-count">(3)</span></div><div class="category" data-category="proportions">proportions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="regularization">regularization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="side-by-side boxplots">side-by-side boxplots <span class="quarto-category-count">(1)</span></div><div class="category" data-category="summary statistics">summary statistics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="transformations in regression">transformations in regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="two-way tables">two-way tables <span class="quarto-category-count">(1)</span></div><div class="category" data-category="variable selection">variable selection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="z-scores">z-scores <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -509,7 +561,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 
 
@@ -517,19 +571,52 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Summary statistics,Outliers,z-scores" data-listing-date-sort="1687824000000" data-listing-file-modified-sort="1691099873608" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="quarto-post image-right" data-index="0" data-categories="Correlation,Chi-square test for association" data-listing-file-modified-sort="1709651161071" data-listing-reading-time-sort="3" data-listing-word-count-sort="449">
 <div class="thumbnail">
-<p><a href="./running/boston_marathon_2023.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./soccer/D3_wsoc2022.html" class="no-external"></a></p><a href="./soccer/D3_wsoc2022.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./soccer/D3_wsoc2022.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./running/boston_marathon_2023.html">
 <h3 class="no-anchor listing-title">
-2023 Boston Marathon runners
+<a href="./soccer/D3_wsoc2022.html" class="no-external">2022 Divison III Women’s Soccer Results</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./soccer/D3_wsoc2022.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Correlation'); return false;">
+Correlation
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Chi-square test for association'); return false;">
+Chi-square test for association
+</div>
+</div>
+<div class="listing-description">
+<a href="./soccer/D3_wsoc2022.html" class="no-external">Division III women’s soccer teams game results from 2022 season</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./soccer/D3_wsoc2022.html" class="no-external"></a></p><a href="./soccer/D3_wsoc2022.html" class="no-external">
+<div class="listing-author">
+Hope Donoghue, Robin Lock
 </div>
 </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Summary statistics,Outliers,z-scores" data-listing-date-sort="1687824000000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="978">
+<div class="thumbnail">
+<p><a href="./running/boston_marathon_2023.html" class="no-external"></a></p><a href="./running/boston_marathon_2023.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./running/boston_marathon_2023.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./running/boston_marathon_2023.html" class="no-external">2023 Boston Marathon runners</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./running/boston_marathon_2023.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Summary statistics'); return false;">
 Summary statistics
@@ -541,14 +628,12 @@ Outliers
 z-scores
 </div>
 </div>
-<a href="./running/boston_marathon_2023.html">
 <div class="listing-description">
-<p>The data set looks at the 2023 Boston Marathon results.</p>
+<a href="./running/boston_marathon_2023.html" class="no-external">The data set looks at the 2023 Boston Marathon results.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./running/boston_marathon_2023.html">
+<a href="./running/boston_marathon_2023.html" class="no-external">
 <div class="listing-date">
 Jun 27, 2023
 </div>
@@ -558,19 +643,19 @@ Jack Fay, A.J. Dykstra, and Ivan Ramler
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="proportions,two-way tables" data-listing-date-sort="1691020800000" data-listing-file-modified-sort="1691099873608" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11">
+<div class="quarto-post image-right" data-index="2" data-categories="proportions,two-way tables" data-listing-date-sort="1691020800000" data-listing-file-modified-sort="1709651161075" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2042">
 <div class="thumbnail">
-<p><a href="./tennis/australian-open.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./tennis/australian-open.html" class="no-external"></a></p><a href="./tennis/australian-open.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./tennis/australian-open.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./tennis/australian-open.html">
 <h3 class="no-anchor listing-title">
-Australian Open Tennis (2008-2022)
+<a href="./tennis/australian-open.html" class="no-external">Australian Open Tennis (2008-2022)</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./tennis/australian-open.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('proportions'); return false;">
 proportions
@@ -579,14 +664,12 @@ proportions
 two-way tables
 </div>
 </div>
-<a href="./tennis/australian-open.html">
 <div class="listing-description">
-<p>Results from matches at the Men’s Australian Open Tennis Tournament between 2008 and 2022.</p>
+<a href="./tennis/australian-open.html" class="no-external">Results from matches at the Men’s Australian Open Tennis Tournament between 2008 and 2022.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./tennis/australian-open.html">
+<a href="./tennis/australian-open.html" class="no-external">
 <div class="listing-date">
 Aug 3, 2023
 </div>
@@ -596,19 +679,19 @@ Trent Meyer, Robin Lock
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="merging,joining,data wrangling" data-listing-date-sort="1684800000000" data-listing-file-modified-sort="1691099873608" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11">
+<div class="quarto-post image-right" data-index="3" data-categories="merging,joining,data wrangling" data-listing-date-sort="1684800000000" data-listing-file-modified-sort="1709651161075" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2148">
 <div class="thumbnail">
-<p><a href="./softball/softball_d1_2021-2022.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./softball/softball_d1_2021-2022.html" class="no-external"></a></p><a href="./softball/softball_d1_2021-2022.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./softball/softball_d1_2021-2022.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./softball/softball_d1_2021-2022.html">
 <h3 class="no-anchor listing-title">
-Batting Statistics for Division I Softball
+<a href="./softball/softball_d1_2021-2022.html" class="no-external">Batting Statistics for Division I Softball</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./softball/softball_d1_2021-2022.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('merging'); return false;">
 merging
@@ -620,14 +703,12 @@ joining
 data wrangling
 </div>
 </div>
-<a href="./softball/softball_d1_2021-2022.html">
 <div class="listing-description">
-<p>These data sets contain batting statistics for Division I softball in the 2021 and 2022 seasons.</p>
+<a href="./softball/softball_d1_2021-2022.html" class="no-external">These data sets contain batting statistics for Division I softball in the 2021 and 2022 seasons.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./softball/softball_d1_2021-2022.html">
+<a href="./softball/softball_d1_2021-2022.html" class="no-external">
 <div class="listing-date">
 May 23, 2023
 </div>
@@ -637,19 +718,19 @@ Sarah Weaver and Ivan Ramler
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="categorical data,chi-squared test" data-listing-date-sort="1679097600000" data-listing-file-modified-sort="1691099873548" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="4" data-categories="categorical data,chi-squared test" data-listing-date-sort="1679097600000" data-listing-file-modified-sort="1709651161023" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="376">
 <div class="thumbnail">
-<p><a href="./baseball/verlander-pitches.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./baseball/verlander-pitches.html" class="no-external"></a></p><a href="./baseball/verlander-pitches.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./baseball/verlander-pitches.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./baseball/verlander-pitches.html">
 <h3 class="no-anchor listing-title">
-Justin Verlander Pitches
+<a href="./baseball/verlander-pitches.html" class="no-external">Justin Verlander Pitches</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./baseball/verlander-pitches.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('categorical data'); return false;">
 categorical data
@@ -658,14 +739,12 @@ categorical data
 chi-squared test
 </div>
 </div>
-<a href="./baseball/verlander-pitches.html">
 <div class="listing-description">
-<p>Information about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons</p>
+<a href="./baseball/verlander-pitches.html" class="no-external">Information about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./baseball/verlander-pitches.html">
+<a href="./baseball/verlander-pitches.html" class="no-external">
 <div class="listing-date">
 Mar 18, 2023
 </div>
@@ -675,19 +754,19 @@ Ron Yurko
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="Difference in means hypothesis tests,Difference in means confidence intervals" data-listing-date-sort="1687392000000" data-listing-file-modified-sort="1691099873608" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="5" data-categories="Difference in means hypothesis tests,Difference in means confidence intervals" data-listing-date-sort="1687392000000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="574">
 <div class="thumbnail">
-<p><a href="./lacrosse/lacrosse_pll_vs_nll.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./lacrosse/lacrosse_pll_vs_nll.html" class="no-external"></a></p><a href="./lacrosse/lacrosse_pll_vs_nll.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./lacrosse/lacrosse_pll_vs_nll.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./lacrosse/lacrosse_pll_vs_nll.html">
 <h3 class="no-anchor listing-title">
-Lacrosse PLL vs.&nbsp;NLL
+<a href="./lacrosse/lacrosse_pll_vs_nll.html" class="no-external">Lacrosse PLL vs.&nbsp;NLL</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./lacrosse/lacrosse_pll_vs_nll.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Difference in means hypothesis tests'); return false;">
 Difference in means hypothesis tests
@@ -696,14 +775,12 @@ Difference in means hypothesis tests
 Difference in means confidence intervals
 </div>
 </div>
-<a href="./lacrosse/lacrosse_pll_vs_nll.html">
 <div class="listing-description">
-<p>The data set looks at both lacrosse leagues, their respective teams, and their shot and goal amounts.</p>
+<a href="./lacrosse/lacrosse_pll_vs_nll.html" class="no-external">The data set looks at both lacrosse leagues, their respective teams, and their shot and goal amounts.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./lacrosse/lacrosse_pll_vs_nll.html">
+<a href="./lacrosse/lacrosse_pll_vs_nll.html" class="no-external">
 <div class="listing-date">
 Jun 22, 2023
 </div>
@@ -713,19 +790,19 @@ AJ Dykstra, Jack Cowan, and Ivan Ramler
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="Histograms,Scatter Plots,Correlation,Linear Regression" data-listing-date-sort="1686960000000" data-listing-file-modified-sort="1691099873608" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="quarto-post image-right" data-index="6" data-categories="Histograms,Scatter Plots,Correlation,Linear Regression" data-listing-date-sort="1686960000000" data-listing-file-modified-sort="1709651161075" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="901">
 <div class="thumbnail">
-<p><a href="./triathlon/triathlon_lakeplacid_women_ironman.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./triathlon/triathlon_lakeplacid_women_ironman.html" class="no-external"></a></p><a href="./triathlon/triathlon_lakeplacid_women_ironman.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./triathlon/triathlon_lakeplacid_women_ironman.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./triathlon/triathlon_lakeplacid_women_ironman.html">
 <h3 class="no-anchor listing-title">
-Lake Placid Women’s Ironman Triathlon
+<a href="./triathlon/triathlon_lakeplacid_women_ironman.html" class="no-external">Lake Placid Women’s Ironman Triathlon</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./triathlon/triathlon_lakeplacid_women_ironman.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Histograms'); return false;">
 Histograms
@@ -740,14 +817,12 @@ Correlation
 Linear Regression
 </div>
 </div>
-<a href="./triathlon/triathlon_lakeplacid_women_ironman.html">
 <div class="listing-description">
-<p>The data set looks at female participatants in the triathlon Ironman.</p>
+<a href="./triathlon/triathlon_lakeplacid_women_ironman.html" class="no-external">The data set looks at female participatants in the triathlon Ironman.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./triathlon/triathlon_lakeplacid_women_ironman.html">
+<a href="./triathlon/triathlon_lakeplacid_women_ironman.html" class="no-external">
 <div class="listing-date">
 Jun 17, 2023
 </div>
@@ -757,19 +832,19 @@ Michael Schuckers, Matthew Abel, and A.J. Dykstra
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="outlier detection,five number summary,z-scores" data-listing-date-sort="1688169600000" data-listing-file-modified-sort="1691099873608" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="7" data-categories="outlier detection,five number summary,z-scores" data-listing-date-sort="1688169600000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="684">
 <div class="thumbnail">
-<p><a href="./esports/lol-buff-nerf.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./esports/lol-buff-nerf.html" class="no-external"></a></p><a href="./esports/lol-buff-nerf.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./esports/lol-buff-nerf.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./esports/lol-buff-nerf.html">
 <h3 class="no-anchor listing-title">
-League of Legends - Buffing and Nerfing
+<a href="./esports/lol-buff-nerf.html" class="no-external">League of Legends - Buffing and Nerfing</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./esports/lol-buff-nerf.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('outlier detection'); return false;">
 outlier detection
@@ -781,14 +856,12 @@ five number summary
 z-scores
 </div>
 </div>
-<a href="./esports/lol-buff-nerf.html">
 <div class="listing-description">
-<p>Game play statistics for League of Legends champions in two different patches. Can detecting outliers indicate champions that should be enhanced (buffed) or scaled back (nerfed)?</p>
+<a href="./esports/lol-buff-nerf.html" class="no-external">Game play statistics for League of Legends champions in two different patches. Can detecting outliers indicate champions that should be enhanced (buffed) or scaled back (nerfed)?</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./esports/lol-buff-nerf.html">
+<a href="./esports/lol-buff-nerf.html" class="no-external">
 <div class="listing-date">
 Jul 1, 2023
 </div>
@@ -798,19 +871,19 @@ George Charalambous, Ivan Ramler, and A.J. Dykstra
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="data visualization,data wrangling,linear regression,transformations in regression,model assumptions,model building" data-listing-date-sort="1688601600000" data-listing-file-modified-sort="1691099873608" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15">
+<div class="quarto-post image-right" data-index="8" data-categories="data visualization,data wrangling,linear regression,transformations in regression,model assumptions,model building" data-listing-date-sort="1688601600000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2970">
 <div class="thumbnail">
-<p><a href="./motor_sports/NASCAR_driver_ratings.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./motor_sports/NASCAR_driver_ratings.html" class="no-external"></a></p><a href="./motor_sports/NASCAR_driver_ratings.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./motor_sports/NASCAR_driver_ratings.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./motor_sports/NASCAR_driver_ratings.html">
 <h3 class="no-anchor listing-title">
-NASCAR Data Description
+<a href="./motor_sports/NASCAR_driver_ratings.html" class="no-external">NASCAR Data Description</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./motor_sports/NASCAR_driver_ratings.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('data visualization'); return false;">
 data visualization
@@ -831,14 +904,12 @@ model assumptions
 model building
 </div>
 </div>
-<a href="./motor_sports/NASCAR_driver_ratings.html">
 <div class="listing-description">
-<p>NASCAR Driver Ratings and statistics from 2007-2022</p>
+<a href="./motor_sports/NASCAR_driver_ratings.html" class="no-external">NASCAR Driver Ratings and statistics from 2007-2022</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./motor_sports/NASCAR_driver_ratings.html">
+<a href="./motor_sports/NASCAR_driver_ratings.html" class="no-external">
 <div class="listing-date">
 Jul 6, 2023
 </div>
@@ -848,19 +919,19 @@ Alyssa Bigness, Jack Fay, and Ivan Ramler
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="Exploratory Data Analysis,Linear regression" data-listing-date-sort="1691020800000" data-listing-file-modified-sort="1691099873608" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="9" data-categories="Exploratory Data Analysis,Linear regression" data-listing-date-sort="1691020800000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="261">
 <div class="thumbnail">
-<p><a href="./football/nfl-draft-combine.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./football/nfl-draft-combine.html" class="no-external"></a></p><a href="./football/nfl-draft-combine.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./football/nfl-draft-combine.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./football/nfl-draft-combine.html">
 <h3 class="no-anchor listing-title">
-NFL Draft Combine
+<a href="./football/nfl-draft-combine.html" class="no-external">NFL Draft Combine</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./football/nfl-draft-combine.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Exploratory Data Analysis'); return false;">
 Exploratory Data Analysis
@@ -869,14 +940,12 @@ Exploratory Data Analysis
 Linear regression
 </div>
 </div>
-<a href="./football/nfl-draft-combine.html">
 <div class="listing-description">
-<p>NFL Scouting Combine Event scores from 2004 - 2023</p>
+<a href="./football/nfl-draft-combine.html" class="no-external">NFL Scouting Combine Event scores from 2004 - 2023</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./football/nfl-draft-combine.html">
+<a href="./football/nfl-draft-combine.html" class="no-external">
 <div class="listing-date">
 Aug 3, 2023
 </div>
@@ -886,32 +955,30 @@ Shane Hauk, Michael Schuckers, Robin Lock
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="exploratory data Analysis" data-listing-date-sort="1690416000000" data-listing-file-modified-sort="1691099873608" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="10" data-categories="exploratory data Analysis" data-listing-date-sort="1690416000000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="636">
 <div class="thumbnail">
-<p><a href="./hockey/nhl_powerplay.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./hockey/nhl_powerplay.html" class="no-external"></a></p><a href="./hockey/nhl_powerplay.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./hockey/nhl_powerplay.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./hockey/nhl_powerplay.html">
 <h3 class="no-anchor listing-title">
-NHL Team Power Play Perfomance in 2022-2023
+<a href="./hockey/nhl_powerplay.html" class="no-external">NHL Team Power Play Perfomance in 2022-2023</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./hockey/nhl_powerplay.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('exploratory data Analysis'); return false;">
 exploratory data Analysis
 </div>
 </div>
-<a href="./hockey/nhl_powerplay.html">
 <div class="listing-description">
-<p>Measures for National Hockey League teams from all 5 on 4 power plays in the 2022-2023 season.</p>
+<a href="./hockey/nhl_powerplay.html" class="no-external">Measures for National Hockey League teams from all 5 on 4 power plays in the 2022-2023 season.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./hockey/nhl_powerplay.html">
+<a href="./hockey/nhl_powerplay.html" class="no-external">
 <div class="listing-date">
 Jul 27, 2023
 </div>
@@ -921,19 +988,55 @@ Abby Hustler, Robin Lock
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="clustering,principal component analysis" data-listing-date-sort="1679702400000" data-listing-file-modified-sort="1691099873548" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="11" data-categories="linear regression,correlation" data-listing-date-sort="1702598400000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1892">
 <div class="thumbnail">
-<p><a href="./basketball/nba-player-stats.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./hockey/nhl_2223.html" class="no-external"></a></p><a href="./hockey/nhl_2223.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./hockey/nhl_2223.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./basketball/nba-player-stats.html">
 <h3 class="no-anchor listing-title">
-National Basketball Association Player Statistics
+<a href="./hockey/nhl_2223.html" class="no-external">NHL Team Statistics</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./hockey/nhl_2223.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('linear regression'); return false;">
+linear regression
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('correlation'); return false;">
+correlation
+</div>
+</div>
+<div class="listing-description">
+<a href="./hockey/nhl_2223.html" class="no-external">Team-level statistics from the 2022-2023 NHL season</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./hockey/nhl_2223.html" class="no-external">
+<div class="listing-date">
+Dec 15, 2023
+</div>
+<div class="listing-author">
+Taylor Lum, Robin Lock
 </div>
 </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-categories="clustering,principal component analysis" data-listing-date-sort="1679702400000" data-listing-file-modified-sort="1709651161023" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="515">
+<div class="thumbnail">
+<p><a href="./basketball/nba-player-stats.html" class="no-external"></a></p><a href="./basketball/nba-player-stats.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./basketball/nba-player-stats.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./basketball/nba-player-stats.html" class="no-external">National Basketball Association Player Statistics</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./basketball/nba-player-stats.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('clustering'); return false;">
 clustering
@@ -942,14 +1045,12 @@ clustering
 principal component analysis
 </div>
 </div>
-<a href="./basketball/nba-player-stats.html">
 <div class="listing-description">
-<p>NBA player statistics from the 2021-2022 regular season</p>
+<a href="./basketball/nba-player-stats.html" class="no-external">NBA player statistics from the 2021-2022 regular season</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./basketball/nba-player-stats.html">
+<a href="./basketball/nba-player-stats.html" class="no-external">
 <div class="listing-date">
 Mar 25, 2023
 </div>
@@ -959,19 +1060,19 @@ Ron Yurko
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="linear regression,principal component analysis,missing data,variable selection,regularization" data-listing-date-sort="1684886400000" data-listing-file-modified-sort="1691099873608" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="quarto-post image-right" data-index="13" data-categories="linear regression,principal component analysis,missing data,variable selection,regularization" data-listing-date-sort="1684886400000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="845">
 <div class="thumbnail">
-<p><a href="./football/nfl-team-statistics.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./football/nfl-team-statistics.html" class="no-external"></a></p><a href="./football/nfl-team-statistics.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./football/nfl-team-statistics.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./football/nfl-team-statistics.html">
 <h3 class="no-anchor listing-title">
-National Football League Team Statistics
+<a href="./football/nfl-team-statistics.html" class="no-external">National Football League Team Statistics</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./football/nfl-team-statistics.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('linear regression'); return false;">
 linear regression
@@ -989,14 +1090,12 @@ variable selection
 regularization
 </div>
 </div>
-<a href="./football/nfl-team-statistics.html">
 <div class="listing-description">
-<p>NFL team statistics from 1999 to 2022</p>
+<a href="./football/nfl-team-statistics.html" class="no-external">NFL team statistics from 1999 to 2022</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./football/nfl-team-statistics.html">
+<a href="./football/nfl-team-statistics.html" class="no-external">
 <div class="listing-date">
 May 24, 2023
 </div>
@@ -1006,19 +1105,19 @@ Ron Yurko
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="classification,logistic regression,generalized additive models,multinomial logistic regression,naive bayes classifier,density estimation" data-listing-date-sort="1679529600000" data-listing-file-modified-sort="1691099873608" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="14" data-categories="classification,logistic regression,generalized additive models,multinomial logistic regression,naive bayes classifier,density estimation" data-listing-date-sort="1679529600000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="531">
 <div class="thumbnail">
-<p><a href="./hockey/nhl-shots.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./hockey/nhl-shots.html" class="no-external"></a></p><a href="./hockey/nhl-shots.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./hockey/nhl-shots.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./hockey/nhl-shots.html">
 <h3 class="no-anchor listing-title">
-National Hockey League Shots
+<a href="./hockey/nhl-shots.html" class="no-external">National Hockey League Shots</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./hockey/nhl-shots.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('classification'); return false;">
 classification
@@ -1039,14 +1138,12 @@ naive bayes classifier
 density estimation
 </div>
 </div>
-<a href="./hockey/nhl-shots.html">
 <div class="listing-description">
-<p>Information about shots during the 2021-2022 NHL season</p>
+<a href="./hockey/nhl-shots.html" class="no-external">Information about shots during the 2021-2022 NHL season</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./hockey/nhl-shots.html">
+<a href="./hockey/nhl-shots.html" class="no-external">
 <div class="listing-date">
 Mar 23, 2023
 </div>
@@ -1056,19 +1153,19 @@ Ron Yurko
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="linear regression,principal component analysis" data-listing-date-sort="1679097600000" data-listing-file-modified-sort="1691099873608" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="15" data-categories="linear regression,principal component analysis" data-listing-date-sort="1679097600000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="360">
 <div class="thumbnail">
-<p><a href="./soccer/nwsl-team-stats.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./soccer/nwsl-team-stats.html" class="no-external"></a></p><a href="./soccer/nwsl-team-stats.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./soccer/nwsl-team-stats.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./soccer/nwsl-team-stats.html">
 <h3 class="no-anchor listing-title">
-National Women’s Soccer League Team Statistics
+<a href="./soccer/nwsl-team-stats.html" class="no-external">National Women’s Soccer League Team Statistics</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./soccer/nwsl-team-stats.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('linear regression'); return false;">
 linear regression
@@ -1077,14 +1174,12 @@ linear regression
 principal component analysis
 </div>
 </div>
-<a href="./soccer/nwsl-team-stats.html">
 <div class="listing-description">
-<p>NWSL team statistics from 2016 to 2022</p>
+<a href="./soccer/nwsl-team-stats.html" class="no-external">NWSL team statistics from 2016 to 2022</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./soccer/nwsl-team-stats.html">
+<a href="./soccer/nwsl-team-stats.html" class="no-external">
 <div class="listing-date">
 Mar 18, 2023
 </div>
@@ -1094,19 +1189,19 @@ Ron Yurko
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="categorical data,chi-squared test,logistic regression" data-listing-date-sort="1679529600000" data-listing-file-modified-sort="1691099873608" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="16" data-categories="categorical data,chi-squared test,logistic regression" data-listing-date-sort="1679529600000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="394">
 <div class="thumbnail">
-<p><a href="./hockey/phf-shots.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./hockey/phf-shots.html" class="no-external"></a></p><a href="./hockey/phf-shots.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./hockey/phf-shots.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./hockey/phf-shots.html">
 <h3 class="no-anchor listing-title">
-Premier Hockey Federation Shots
+<a href="./hockey/phf-shots.html" class="no-external">Premier Hockey Federation Shots</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./hockey/phf-shots.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('categorical data'); return false;">
 categorical data
@@ -1118,14 +1213,12 @@ chi-squared test
 logistic regression
 </div>
 </div>
-<a href="./hockey/phf-shots.html">
 <div class="listing-description">
-<p>Information about shots during the 2021-2022 PHF season</p>
+<a href="./hockey/phf-shots.html" class="no-external">Information about shots during the 2021-2022 PHF season</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./hockey/phf-shots.html">
+<a href="./hockey/phf-shots.html" class="no-external">
 <div class="listing-date">
 Mar 23, 2023
 </div>
@@ -1135,19 +1228,19 @@ Ron Yurko
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="ANOVA for means,Pairwise comparisons" data-listing-date-sort="1691020800000" data-listing-file-modified-sort="1691099873608" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="17" data-categories="ANOVA for means,Pairwise comparisons" data-listing-date-sort="1691020800000" data-listing-file-modified-sort="1709651161075" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="250">
 <div class="thumbnail">
-<p><a href="./soccer/soccer-heights.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./soccer/soccer-heights.html" class="no-external"></a></p><a href="./soccer/soccer-heights.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./soccer/soccer-heights.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./soccer/soccer-heights.html">
 <h3 class="no-anchor listing-title">
-Soccer Heights
+<a href="./soccer/soccer-heights.html" class="no-external">Soccer Heights</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./soccer/soccer-heights.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('ANOVA for means'); return false;">
 ANOVA for means
@@ -1156,14 +1249,12 @@ ANOVA for means
 Pairwise comparisons
 </div>
 </div>
-<a href="./soccer/soccer-heights.html">
 <div class="listing-description">
-<p>Heights for a sample of 100 soccer players by position</p>
+<a href="./soccer/soccer-heights.html" class="no-external">Heights for a sample of 100 soccer players by position</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./soccer/soccer-heights.html">
+<a href="./soccer/soccer-heights.html" class="no-external">
 <div class="listing-date">
 Aug 3, 2023
 </div>
@@ -1173,19 +1264,19 @@ Roderick Mpofu, Robin Lock
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="correlation,linear regression" data-listing-date-sort="1684454400000" data-listing-file-modified-sort="1691099873608" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10">
+<div class="quarto-post image-right" data-index="18" data-categories="correlation,linear regression" data-listing-date-sort="1684454400000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1913">
 <div class="thumbnail">
-<p><a href="./golf/pga_drive_putt.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./golf/pga_drive_putt.html" class="no-external"></a></p><a href="./golf/pga_drive_putt.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./golf/pga_drive_putt.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./golf/pga_drive_putt.html">
 <h3 class="no-anchor listing-title">
-Statistics of PGA Tournaments During the 2022 Season
+<a href="./golf/pga_drive_putt.html" class="no-external">Statistics of PGA Tournaments During the 2022 Season</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./golf/pga_drive_putt.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('correlation'); return false;">
 correlation
@@ -1194,14 +1285,12 @@ correlation
 linear regression
 </div>
 </div>
-<a href="./golf/pga_drive_putt.html">
 <div class="listing-description">
-<p>Measures of Putting, Driving, and Success for individual golfers in 19 professional tournaments in 2022</p>
+<a href="./golf/pga_drive_putt.html" class="no-external">Measures of Putting, Driving, and Success for individual golfers in 19 professional tournaments in 2022</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./golf/pga_drive_putt.html">
+<a href="./golf/pga_drive_putt.html" class="no-external">
 <div class="listing-date">
 May 19, 2023
 </div>
@@ -1211,19 +1300,19 @@ Alysssa Bigness
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="data wrangling,data visualization" data-listing-date-sort="1687996800000" data-listing-file-modified-sort="1691099873608" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="19" data-categories="data wrangling,data visualization" data-listing-date-sort="1687996800000" data-listing-file-modified-sort="1709651161075" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="661">
 <div class="thumbnail">
-<p><a href="./wrestling/sumo_wrestingling_since_1957.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./wrestling/sumo_wrestingling_since_1957.html" class="no-external"></a></p><a href="./wrestling/sumo_wrestingling_since_1957.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./wrestling/sumo_wrestingling_since_1957.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./wrestling/sumo_wrestingling_since_1957.html">
 <h3 class="no-anchor listing-title">
-Sumo wrestler characteristics
+<a href="./wrestling/sumo_wrestingling_since_1957.html" class="no-external">Sumo wrestler characteristics</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./wrestling/sumo_wrestingling_since_1957.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('data wrangling'); return false;">
 data wrangling
@@ -1232,14 +1321,12 @@ data wrangling
 data visualization
 </div>
 </div>
-<a href="./wrestling/sumo_wrestingling_since_1957.html">
 <div class="listing-description">
-<p>Sumo wrestling data 1957-2023.</p>
+<a href="./wrestling/sumo_wrestingling_since_1957.html" class="no-external">Sumo wrestling data 1957-2023.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./wrestling/sumo_wrestingling_since_1957.html">
+<a href="./wrestling/sumo_wrestingling_since_1957.html" class="no-external">
 <div class="listing-date">
 Jun 29, 2023
 </div>
@@ -1249,19 +1336,19 @@ Jack Fay, A.J. Dykstra, and Ivan Ramler
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="multicollinearity,multiple linear regression,correlations,summary statistics" data-listing-date-sort="1690156800000" data-listing-file-modified-sort="1691099873608" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="quarto-post image-right" data-index="20" data-categories="multicollinearity,multiple linear regression,correlations,summary statistics" data-listing-date-sort="1690156800000" data-listing-file-modified-sort="1709651161075" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1269">
 <div class="thumbnail">
-<p><a href="./volleyball/volleyball_ncaa_team_stats.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./volleyball/volleyball_ncaa_team_stats.html" class="no-external"></a></p><a href="./volleyball/volleyball_ncaa_team_stats.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./volleyball/volleyball_ncaa_team_stats.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./volleyball/volleyball_ncaa_team_stats.html">
 <h3 class="no-anchor listing-title">
-Team Statistics for Division I Women’s Volleyball
+<a href="./volleyball/volleyball_ncaa_team_stats.html" class="no-external">Team Statistics for Division I Women’s Volleyball</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./volleyball/volleyball_ncaa_team_stats.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('multicollinearity'); return false;">
 multicollinearity
@@ -1276,14 +1363,12 @@ correlations
 summary statistics
 </div>
 </div>
-<a href="./volleyball/volleyball_ncaa_team_stats.html">
 <div class="listing-description">
-<p>These data sets contain team statistics for Division I women’s volleyball in the 2022 and 2023 seasons.</p>
+<a href="./volleyball/volleyball_ncaa_team_stats.html" class="no-external">These data sets contain team statistics for Division I women’s volleyball in the 2022 and 2023 seasons.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./volleyball/volleyball_ncaa_team_stats.html">
+<a href="./volleyball/volleyball_ncaa_team_stats.html" class="no-external">
 <div class="listing-date">
 Jul 24, 2023
 </div>
@@ -1293,19 +1378,19 @@ Jack Fay, A.J. Dykstra, and Ivan Ramler
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="correlation,indicator variables,linear regression,side-by-side boxplots" data-listing-date-sort="1690156800000" data-listing-file-modified-sort="1691099873608" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="21">
+<div class="quarto-post image-right" data-index="21" data-categories="correlation,indicator variables,linear regression,side-by-side boxplots" data-listing-date-sort="1690156800000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="21" data-listing-word-count-sort="4127">
 <div class="thumbnail">
-<p><a href="./lacrosse/lacrosse_ncaa_div1.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./lacrosse/lacrosse_ncaa_div1.html" class="no-external"></a></p><a href="./lacrosse/lacrosse_ncaa_div1.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./lacrosse/lacrosse_ncaa_div1.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./lacrosse/lacrosse_ncaa_div1.html">
 <h3 class="no-anchor listing-title">
-Team statistics for NCAA Division 1 Men’s and Women’s Lacrosse
+<a href="./lacrosse/lacrosse_ncaa_div1.html" class="no-external">Team statistics for NCAA Division 1 Men’s and Women’s Lacrosse</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./lacrosse/lacrosse_ncaa_div1.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('correlation'); return false;">
 correlation
@@ -1320,14 +1405,12 @@ linear regression
 side-by-side boxplots
 </div>
 </div>
-<a href="./lacrosse/lacrosse_ncaa_div1.html">
 <div class="listing-description">
-<p>These data sets contain team statistics for NCAA Division I women’s and men’s lacrosse in the 2022 and 2023 seasons.</p>
+<a href="./lacrosse/lacrosse_ncaa_div1.html" class="no-external">These data sets contain team statistics for NCAA Division I women’s and men’s lacrosse in the 2022 and 2023 seasons.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./lacrosse/lacrosse_ncaa_div1.html">
+<a href="./lacrosse/lacrosse_ncaa_div1.html" class="no-external">
 <div class="listing-date">
 Jul 24, 2023
 </div>
@@ -1337,19 +1420,19 @@ Jack Fay, A.J. Dykstra, and Ivan Ramler
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="logistic regression,data wrangling,categorical data,chi-squared test,clustering" data-listing-date-sort="1684886400000" data-listing-file-modified-sort="1691099873608" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="22" data-categories="logistic regression,data wrangling,categorical data,chi-squared test,clustering" data-listing-date-sort="1684886400000" data-listing-file-modified-sort="1709651161075" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="523">
 <div class="thumbnail">
-<p><a href="./tennis/wta-grand-slam-matches.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./tennis/wta-grand-slam-matches.html" class="no-external"></a></p><a href="./tennis/wta-grand-slam-matches.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./tennis/wta-grand-slam-matches.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./tennis/wta-grand-slam-matches.html">
 <h3 class="no-anchor listing-title">
-WTA Grand Slam Matches
+<a href="./tennis/wta-grand-slam-matches.html" class="no-external">WTA Grand Slam Matches</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./tennis/wta-grand-slam-matches.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('logistic regression'); return false;">
 logistic regression
@@ -1367,14 +1450,12 @@ chi-squared test
 clustering
 </div>
 </div>
-<a href="./tennis/wta-grand-slam-matches.html">
 <div class="listing-description">
-<p>WTA Grand Slam Matches from 2018 to 2022</p>
+<a href="./tennis/wta-grand-slam-matches.html" class="no-external">WTA Grand Slam Matches from 2018 to 2022</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./tennis/wta-grand-slam-matches.html">
+<a href="./tennis/wta-grand-slam-matches.html" class="no-external">
 <div class="listing-date">
 May 24, 2023
 </div>
@@ -1384,19 +1465,61 @@ Ron Yurko
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="classification,logistic regression,generalized additive models,multinomial logistic regression,naive bayes classifier,density estimation" data-listing-date-sort="1679702400000" data-listing-file-modified-sort="1691099873548" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="23" data-categories="Data cleaning,Missing Data,Tables,Logistic Regression" data-listing-date-sort="1702598400000" data-listing-file-modified-sort="1709651161023" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="884">
 <div class="thumbnail">
-<p><a href="./basketball/wnba-shots.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./basketball/WNBA20Yrs.html" class="no-external"></a></p><a href="./basketball/WNBA20Yrs.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./basketball/WNBA20Yrs.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./basketball/wnba-shots.html">
 <h3 class="no-anchor listing-title">
-Women’s National Basketball Association Shots
+<a href="./basketball/WNBA20Yrs.html" class="no-external">Women’s National Baskeball Assosiation game statistics</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./basketball/WNBA20Yrs.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Data cleaning'); return false;">
+Data cleaning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Missing Data'); return false;">
+Missing Data
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Tables'); return false;">
+Tables
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Logistic Regression'); return false;">
+Logistic Regression
+</div>
+</div>
+<div class="listing-description">
+<a href="./basketball/WNBA20Yrs.html" class="no-external">This data set contains team game statistics for 16 WNBA teams and for 20 seasons.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./basketball/WNBA20Yrs.html" class="no-external">
+<div class="listing-date">
+Dec 15, 2023
+</div>
+<div class="listing-author">
+Kristen Varin
 </div>
 </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="24" data-categories="classification,logistic regression,generalized additive models,multinomial logistic regression,naive bayes classifier,density estimation" data-listing-date-sort="1679702400000" data-listing-file-modified-sort="1709651161023" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="414">
+<div class="thumbnail">
+<p><a href="./basketball/wnba-shots.html" class="no-external"></a></p><a href="./basketball/wnba-shots.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./basketball/wnba-shots.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./basketball/wnba-shots.html" class="no-external">Women’s National Basketball Association Shots</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./basketball/wnba-shots.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('classification'); return false;">
 classification
@@ -1417,14 +1540,12 @@ naive bayes classifier
 density estimation
 </div>
 </div>
-<a href="./basketball/wnba-shots.html">
 <div class="listing-description">
-<p>Information about shots during the 2021-2022 WNBA season</p>
+<a href="./basketball/wnba-shots.html" class="no-external">Information about shots during the 2021-2022 WNBA season</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./basketball/wnba-shots.html">
+<a href="./basketball/wnba-shots.html" class="no-external">
 <div class="listing-date">
 Mar 25, 2023
 </div>
@@ -1518,10 +1639,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1531,8 +1651,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1545,6 +1674,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1588,6 +1836,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1613,6 +1862,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1678,12 +1953,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center">Maintained by <a href="https://www.stat.cmu.edu/~ryurko/">Ron Yurko</a><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/by-statsds-topic.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
+    <div class="nav-footer-center">
+<p>Maintained by <a href="https://www.stat.cmu.edu/~ryurko/">Ron Yurko</a></p>
+<div class="toc-actions"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/by-statsds-topic.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
   </div>
 </footer>
+
 
 
 

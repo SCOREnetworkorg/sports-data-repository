@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Ron Yurko">
-<meta name="dcterms.date" content="2023-03-25">
-<meta name="description" content="Information about shots during the 2021-2022 WNBA season">
+<meta name="author" content="Kristen Varin">
+<meta name="dcterms.date" content="2023-12-15">
+<meta name="description" content="This data set contains team game statistics for 16 WNBA teams and for 20 seasons.">
 
-<title>SCORE Sports Data Repository - Women’s National Basketball Association Shots</title>
+<title>SCORE Sports Data Repository - Women’s National Baskeball Assosiation game statistics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -133,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../basketball/nba-player-stats.html">Basketball</a></li><li class="breadcrumb-item"><a href="../basketball/wnba-shots.html">Women’s National Basketball Association Shots</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../basketball/nba-player-stats.html">Basketball</a></li><li class="breadcrumb-item"><a href="../basketball/WNBA20Yrs.html">Women’s National Baskeball Assosiation game statistics</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -197,13 +197,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../basketball/wnba-shots.html" class="sidebar-item-text sidebar-link active">
+  <a href="../basketball/wnba-shots.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Women’s National Basketball Association Shots</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../basketball/WNBA20Yrs.html" class="sidebar-item-text sidebar-link">
+  <a href="../basketball/WNBA20Yrs.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Women’s National Baskeball Assosiation game statistics</span></a>
   </div>
 </li>
@@ -493,27 +493,25 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/basketball/wnba-shots.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/basketball/WNBA20Yrs.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../basketball/nba-player-stats.html">Basketball</a></li><li class="breadcrumb-item"><a href="../basketball/wnba-shots.html">Women’s National Basketball Association Shots</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../basketball/nba-player-stats.html">Basketball</a></li><li class="breadcrumb-item"><a href="../basketball/WNBA20Yrs.html">Women’s National Baskeball Assosiation game statistics</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Women’s National Basketball Association Shots</h1>
+<h1 class="title">Women’s National Baskeball Assosiation game statistics</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">classification</div>
-    <div class="quarto-category">logistic regression</div>
-    <div class="quarto-category">generalized additive models</div>
-    <div class="quarto-category">multinomial logistic regression</div>
-    <div class="quarto-category">naive bayes classifier</div>
-    <div class="quarto-category">density estimation</div>
+    <div class="quarto-category">Data cleaning</div>
+    <div class="quarto-category">Missing Data</div>
+    <div class="quarto-category">Tables</div>
+    <div class="quarto-category">Logistic Regression</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Information about shots during the 2021-2022 WNBA season
+    This data set contains team game statistics for 16 WNBA teams and for 20 seasons.
   </div>
 </div>
 
@@ -523,14 +521,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Ron Yurko </p>
+             <p>Kristen Varin </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 25, 2023</p>
+      <p class="date">December 15, 2023</p>
     </div>
   </div>
   
@@ -544,14 +542,14 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="motivation" class="level2">
 <h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
-<p>The <a href="https://www.wnba.com/">Women’s National Basketball Association (WNBA)</a> is the top professional women’s basketball league in the world. The league records every shot players take along with contextual information about the shot such as its location, a description of the shot type, as well as the outcome. With this dataset, you can predict the success of each shot attempt to compute the expected value of shot types and compare team decision making.</p>
+<p>All data sets used in this worksheet are from the <code>Wehoop</code> Package.</p>
+<p>The National Basketball Association (NBA) has dominated over the WNBA in popularity since the creation of the WNBA 50 years after that of the NBA. For this reason, there are way more data sets available for the NBA. Thus, there is a need for high quality WNBA data sets in order to run analysis on the players and teams. This data set can be used to demonstrate the process of cleaning, prepping, and determining quality of data.</p>
 </section>
 <section id="data" class="level2">
 <h2 class="anchored" data-anchor-id="data">Data</h2>
-<p>This dataset contains information about 41,497 shots during the 2021-2022 WNBA season.</p>
-<p>The data was collected using the <a href="https://wehoop.sportsdataverse.org/"><code>wehoop</code> package in <code>R</code></a>.</p>
+<p>The <code>WNBA20Yrs</code> data set contains 8920 rows and 9 columns. Each pair of rows represents a game played by two WNBA teams in one of the 2003 to 2022 regular seasons. The first row is for the away team and the second row is for the home team. The columns are as follows:</p>
 <table class="table">
-<caption><a href="../data/wnba-shots-2021.csv.gz">wnba-shots-2021.csv.gz</a></caption>
+<caption><a href="../data/WNBA20Yrs.csv">WNBA20Yrs.csv</a></caption>
 <thead>
 <tr class="header">
 <th>Variable</th>
@@ -561,77 +559,52 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>game_id</td>
-<td>Unique integer ID for each WNBA game</td>
+<td>game id number</td>
 </tr>
 <tr class="even">
-<td>game_play_number</td>
-<td>Integer indicating the recorded play number for the shot attempt, where 1 indicates the first play of the game</td>
+<td>season</td>
+<td>season number</td>
 </tr>
 <tr class="odd">
-<td>desc</td>
-<td>String detailed description of shot attempt</td>
+<td>season_type</td>
+<td>binary predictor; 2 if regular season game; 3 if playoff game</td>
 </tr>
 <tr class="even">
-<td>shot_type</td>
-<td>String description of the shot type (e.g., dunk, layup, jump shot, etc.)</td>
+<td>game_date</td>
+<td>date of the game</td>
 </tr>
 <tr class="odd">
-<td>made_shot</td>
-<td>Boolean denoting if the shot was made (TRUE) or not (FALSE)</td>
+<td>team_id</td>
+<td>team id number</td>
 </tr>
 <tr class="even">
-<td>shot_value</td>
-<td>Numeric value of the shot outcome (0 for shots that were not made, and a positive value for made shots)</td>
+<td>team_display_name</td>
+<td>full team name (name and city)</td>
 </tr>
 <tr class="odd">
-<td>coordinate_x</td>
-<td>Horizontal location in feet of shot attempt where the hoop would be located at 25 feet</td>
+<td>team_winner</td>
+<td>Boolean; True if the team won the game</td>
 </tr>
 <tr class="even">
-<td>coordinate_y</td>
-<td>Vertical location in feet of shot attempt with respect to the target hoop (the hoop should be a little in front of 0 but the coordinate system is not exact)</td>
+<td>opponent_team_id</td>
+<td>id number of the opponent</td>
 </tr>
 <tr class="odd">
-<td>shooting_team</td>
-<td>String name of the team taking the shot</td>
-</tr>
-<tr class="even">
-<td>home_name</td>
-<td>String name of the home team</td>
-</tr>
-<tr class="odd">
-<td>away_name</td>
-<td>String name of the away team</td>
-</tr>
-<tr class="even">
-<td>home_score</td>
-<td>Integer value of the home team score after the shot</td>
-</tr>
-<tr class="odd">
-<td>away_score</td>
-<td>Integer value of the away team score after the shot</td>
-</tr>
-<tr class="even">
-<td>qtr</td>
-<td>Integer denoting the quarter/period in the game</td>
-</tr>
-<tr class="odd">
-<td>quarter_seconds_remaining</td>
-<td>Numeric integer value for number of seconds remaining in quarter/period</td>
-</tr>
-<tr class="even">
-<td>game_seconds_remaining</td>
-<td>Numeric integer value for number of seconds remaining in game</td>
+<td>team_home_away</td>
+<td>Where the game was played; either “home” or “away”</td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="questions" class="level2">
 <h2 class="anchored" data-anchor-id="questions">Questions</h2>
-<ol type="1">
-<li><p>Build a classification model to predict the shot outcome based on the spatial x,y coordinates of the shot.</p></li>
-<li><p>Create a visualization displaying the joint frequency of shot locations. Do there appear to be any clear modes of frequently taken shots? Create a conditional version of this display by shot outcome. Does the distribution shape vary by shot outcome? (You can also perform a similar analysis by team and shot type).</p></li>
-</ol>
+<p>The goal will be to create a worksheet for the students telling them we want to predict whether a team makes playoffs based on their record halfway through the season. First, they will need to clean the data based on prompts. We will ask them what they notice about total games played by each team across seasons. They should recognize that the total games recorded is inconsistent between teams and with online WNBA statistics. We will ask them why this is a problem and how the issue could be solved if we still wanted to run the original regression.</p>
+<ul>
+<li><p>Create a table including a team’s mid season record, whether they would make playoffs based on that record (teams with the top 8 records make the playoffs), their record at the end of the season, and whether they made playoffs based on that record.</p></li>
+<li><p>What do you notice about the team IDs in this data set? Filter out the IDs we won’t be using and rename the teams so that the same IDs all have the most recent team name.</p></li>
+<li><p>What problem is there regarding number of games played by each team? What are some ways we could solve this problem?</p></li>
+<li><p>Run logistic Regression Models to predict whether a team makes playoffs based on their record at the halfway point of the season. If is significant? Interpret the results.</p></li>
+</ul>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
@@ -1036,7 +1009,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 <p>Maintained by <a href="https://www.stat.cmu.edu/~ryurko/">Ron Yurko</a></p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/basketball/wnba-shots.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/basketball/WNBA20Yrs.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

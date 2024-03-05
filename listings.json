@@ -2,6 +2,7 @@
   {
     "listing": "/by-statsds-topic.html",
     "items": [
+      "/soccer/D3_wsoc2022.html",
       "/running/boston_marathon_2023.html",
       "/tennis/australian-open.html",
       "/softball/softball_d1_2021-2022.html",
@@ -12,6 +13,7 @@
       "/motor_sports/NASCAR_driver_ratings.html",
       "/football/nfl-draft-combine.html",
       "/hockey/nhl_powerplay.html",
+      "/hockey/nhl_2223.html",
       "/basketball/nba-player-stats.html",
       "/football/nfl-team-statistics.html",
       "/hockey/nhl-shots.html",
@@ -23,6 +25,7 @@
       "/volleyball/volleyball_ncaa_team_stats.html",
       "/lacrosse/lacrosse_ncaa_div1.html",
       "/tennis/wta-grand-slam-matches.html",
+      "/basketball/WNBA20Yrs.html",
       "/basketball/wnba-shots.html"
     ]
   }
