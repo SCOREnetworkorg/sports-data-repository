@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Ron Yurko">
+<meta name="dcterms.date" content="2024-03-06">
+<meta name="description" content="Datasets to build regularized adjusted plus-minus (RAPM) models for NBA players during the 2022-2023 regular season">
 
-<title>SCORE Sports Data Repository - Data Sources</title>
+<title>SCORE Sports Data Repository - NBA RAPM Datasets</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">SCORE Sports Data Repository</span>
     </a>
   </div>
@@ -88,19 +91,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./by-statsds-topic.html" aria-current="page"> 
+    <a class="nav-link active" href="../by-statsds-topic.html" aria-current="page"> 
 <span class="menu-text">Datasets By Topic</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./submit-data.html"> 
+    <a class="nav-link" href="../submit-data.html"> 
 <span class="menu-text">Submit a Dataset</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./data-sources.html"> 
+    <a class="nav-link" href="../data-sources.html"> 
 <span class="menu-text">Data Sources</span></a>
   </li>  
   <li class="nav-item">
@@ -130,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./data-sources.html">Data Sources</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../basketball/nba-player-stats.html">Basketball</a></li><li class="breadcrumb-item"><a href="../basketball/nba-rapm-data.html">NBA RAPM Datasets</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -144,19 +147,19 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./by-statsds-topic.html" class="sidebar-item-text sidebar-link">
+  <a href="../by-statsds-topic.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Datasets By Topic</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data-sources.html" class="sidebar-item-text sidebar-link active">
+  <a href="../data-sources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data Sources</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./submit-data.html" class="sidebar-item-text sidebar-link">
+  <a href="../submit-data.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Submit a Dataset</span></a>
   </div>
 </li>
@@ -171,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./baseball/verlander-pitches.html" class="sidebar-item-text sidebar-link">
+  <a href="../baseball/verlander-pitches.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Justin Verlander Pitches</span></a>
   </div>
 </li>
@@ -179,34 +182,34 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
  <span class="menu-text">Basketball</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./basketball/nba-player-stats.html" class="sidebar-item-text sidebar-link">
+  <a href="../basketball/nba-player-stats.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">National Basketball Association Player Statistics</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./basketball/nba-rapm-data.html" class="sidebar-item-text sidebar-link">
+  <a href="../basketball/nba-rapm-data.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">NBA RAPM Datasets</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./basketball/wnba-shots.html" class="sidebar-item-text sidebar-link">
+  <a href="../basketball/wnba-shots.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Women’s National Basketball Association Shots</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./basketball/WNBA20Yrs.html" class="sidebar-item-text sidebar-link">
+  <a href="../basketball/WNBA20Yrs.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Women’s National Baskeball Assosiation game statistics</span></a>
   </div>
 </li>
@@ -223,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./esports/lol-buff-nerf.html" class="sidebar-item-text sidebar-link">
+  <a href="../esports/lol-buff-nerf.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">League of Legends - Buffing and Nerfing</span></a>
   </div>
 </li>
@@ -240,13 +243,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./football/nfl-draft-combine.html" class="sidebar-item-text sidebar-link">
+  <a href="../football/nfl-draft-combine.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">NFL Draft Combine</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./football/nfl-team-statistics.html" class="sidebar-item-text sidebar-link">
+  <a href="../football/nfl-team-statistics.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">National Football League Team Statistics</span></a>
   </div>
 </li>
@@ -263,7 +266,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./golf/pga_drive_putt.html" class="sidebar-item-text sidebar-link">
+  <a href="../golf/pga_drive_putt.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Statistics of PGA Tournaments During the 2022 Season</span></a>
   </div>
 </li>
@@ -280,25 +283,25 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hockey/nhl_2223.html" class="sidebar-item-text sidebar-link">
+  <a href="../hockey/nhl_2223.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">NHL Team Statistics</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hockey/nhl_powerplay.html" class="sidebar-item-text sidebar-link">
+  <a href="../hockey/nhl_powerplay.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">NHL Team Power Play Perfomance in 2022-2023</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hockey/nhl-shots.html" class="sidebar-item-text sidebar-link">
+  <a href="../hockey/nhl-shots.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">National Hockey League Shots</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hockey/phf-shots.html" class="sidebar-item-text sidebar-link">
+  <a href="../hockey/phf-shots.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Premier Hockey Federation Shots</span></a>
   </div>
 </li>
@@ -315,13 +318,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lacrosse/lacrosse_ncaa_div1.html" class="sidebar-item-text sidebar-link">
+  <a href="../lacrosse/lacrosse_ncaa_div1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Team statistics for NCAA Division 1 Men’s and Women’s Lacrosse</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lacrosse/lacrosse_pll_vs_nll.html" class="sidebar-item-text sidebar-link">
+  <a href="../lacrosse/lacrosse_pll_vs_nll.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lacrosse PLL vs.&nbsp;NLL</span></a>
   </div>
 </li>
@@ -338,7 +341,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./motor_sports/NASCAR_driver_ratings.html" class="sidebar-item-text sidebar-link">
+  <a href="../motor_sports/NASCAR_driver_ratings.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">NASCAR Data Description</span></a>
   </div>
 </li>
@@ -355,7 +358,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./running/boston_marathon_2023.html" class="sidebar-item-text sidebar-link">
+  <a href="../running/boston_marathon_2023.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2023 Boston Marathon runners</span></a>
   </div>
 </li>
@@ -372,19 +375,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./soccer/D3_wsoc2022.html" class="sidebar-item-text sidebar-link">
+  <a href="../soccer/D3_wsoc2022.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2022 Divison III Women’s Soccer Results</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./soccer/nwsl-team-stats.html" class="sidebar-item-text sidebar-link">
+  <a href="../soccer/nwsl-team-stats.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">National Women’s Soccer League Team Statistics</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./soccer/soccer-heights.html" class="sidebar-item-text sidebar-link">
+  <a href="../soccer/soccer-heights.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Soccer Heights</span></a>
   </div>
 </li>
@@ -401,7 +404,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./softball/softball_d1_2021-2022.html" class="sidebar-item-text sidebar-link">
+  <a href="../softball/softball_d1_2021-2022.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Batting Statistics for Division I Softball</span></a>
   </div>
 </li>
@@ -418,13 +421,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./tennis/australian-open.html" class="sidebar-item-text sidebar-link">
+  <a href="../tennis/australian-open.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Australian Open Tennis (2008-2022)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./tennis/wta-grand-slam-matches.html" class="sidebar-item-text sidebar-link">
+  <a href="../tennis/wta-grand-slam-matches.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">WTA Grand Slam Matches</span></a>
   </div>
 </li>
@@ -441,7 +444,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./triathlon/triathlon_lakeplacid_women_ironman.html" class="sidebar-item-text sidebar-link">
+  <a href="../triathlon/triathlon_lakeplacid_women_ironman.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lake Placid Women’s Ironman Triathlon</span></a>
   </div>
 </li>
@@ -458,7 +461,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./volleyball/volleyball_ncaa_team_stats.html" class="sidebar-item-text sidebar-link">
+  <a href="../volleyball/volleyball_ncaa_team_stats.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Team Statistics for Division I Women’s Volleyball</span></a>
   </div>
 </li>
@@ -475,7 +478,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./wrestling/sumo_wrestingling_since_1957.html" class="sidebar-item-text sidebar-link">
+  <a href="../wrestling/sumo_wrestingling_since_1957.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Sumo wrestler characteristics</span></a>
   </div>
 </li>
@@ -487,21 +490,52 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation">Motivation</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/basketball/nba-rapm-data.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../basketball/nba-player-stats.html">Basketball</a></li><li class="breadcrumb-item"><a href="../basketball/nba-rapm-data.html">NBA RAPM Datasets</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Data Sources</h1>
-</div>
+<h1 class="title">NBA RAPM Datasets</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">regularization</div>
+    <div class="quarto-category">ridge regression</div>
+    <div class="quarto-category">hierarchical models</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    Datasets to build regularized adjusted plus-minus (RAPM) models for NBA players during the 2022-2023 regular season
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Ron Yurko </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 6, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -511,16 +545,95 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Here are some resources for finding sports datasets:</p>
-<ul>
-<li><a href="https://cran.r-project.org/web/views/SportsAnalytics.html">CRAN Task View for Sports Analytics</a> - catalog of <code>R</code> packages published on the Comprehensive <code>R</code> Archive Network (CRAN) organized by sport (curated by Benjamin S. Baumer, Quang Nguyen, and Gregory J. Matthews)</li>
-<li><a href="https://sportsdataverse.org/">SportsDataverse initiative</a> - collection of software tools for accessing publicly available sports data (organized by Saiem Gilani)</li>
-<li><a href="https://www.kaggle.com/datasets?search=sports">Kaggle</a></li>
-<li><a href="https://github.com/rfordatascience/tidytuesday">TidyTuesday</a> - GitHub repository of datasets updated weekly with example code for accessing data (featuring a variety of sports examples)</li>
-<li><a href="https://github.com/fivethirtyeight/data">FiveThirtyEight</a> - GitHub repository of datasets used in <a href="https://fivethirtyeight.com/">FiveThirtyEight</a> articles</li>
-</ul>
+<section id="motivation" class="level2">
+<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
+<p>In the <a href="https://www.nba.com/">National Basketball Association (NBA)</a>, traditional box-score statistics provide a limited view of a player’s performance. In order to measure an individual player’s contribution, it is necessary to adjust for the presence of their teammates and opposition. Different versions of <strong>regularized adjusted plus-minus (RAPM)</strong> models are popular approaches in the basketball analytics community for attempting to address this challenge. With the data provided here, you can explore building a RAPM model for NBA players in an attempt to estimate an individual player’s effect when on the court.</p>
+</section>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p>There are three datasets below that are relevant for building RAPM models for player performances during the 2022-2023 NBA regular season. All of the data were collected using the <a href="https://hoopr.sportsdataverse.org/index.html"><code>hoopR</code> package in <code>R</code></a>.</p>
+<p>The first dataset <a href="../data/nba_2223_season_stints.csv">nba_2223_season_stints.csv</a> contains information about 32,358 unique <em>stints</em> during NBA games in which the same ten players (home and away) were on the court together prior to substitutions taking place. This dataset contains the following columns:</p>
+<table class="table">
+<caption><a href="../data/nba_2223_season_stints.csv">nba_2223_season_stints.csv</a></caption>
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>game_id</code></td>
+<td>Unique game ID</td>
+</tr>
+<tr class="even">
+<td><code>stint_id</code></td>
+<td>Unique identifier within a game for a stint for particular combination of home and away lineup (in appearance of order, where 1 is the first stint in the game)</td>
+</tr>
+<tr class="odd">
+<td><code>home_lineup</code></td>
+<td>Concatenated string of the five home player IDs, separated by <code>_</code></td>
+</tr>
+<tr class="even">
+<td><code>away_lineup</code></td>
+<td>Concatenated string of the five away player IDs, separated by <code>_</code></td>
+</tr>
+<tr class="odd">
+<td><code>n_pos</code></td>
+<td>Number of possessions (combined for both home and away) during the observed stint</td>
+</tr>
+<tr class="even">
+<td><code>home_points</code></td>
+<td>Number of points scored by the home team during the stint</td>
+</tr>
+<tr class="odd">
+<td><code>away_points</code></td>
+<td>Number of points scored by the away team during the stint</td>
+</tr>
+<tr class="even">
+<td><code>minutes</code></td>
+<td>Length of the stint in terms of minutes played</td>
+</tr>
+<tr class="odd">
+<td><code>margin</code></td>
+<td>Common response for RAPM models defined as: (<code>home_points</code> - <code>away_points</code>) / <code>n_pos</code> * 100</td>
+</tr>
+</tbody>
+</table>
+<p>The second dataset <a href="../data/nba_2223_season_rapm_data.csv.gz">nba_2223_season_rapm_data.csv.gz</a> is the wide design matrix version of the above dataset. This file contains the same 32,358 unique stints, but replaces the <code>home_lineup</code> and <code>away_lineup</code> columns with 539 columns for the unique players that were observed during the course of the season. If the player was on the court for home team, a <code>1</code> is observed in their column. If a player was on the court for the away team, a <code>-1</code> is observed in their column. Otherwise, if the player was not on the court, a <code>0</code> is observed.</p>
+<p>And for context, the third dataset <a href="../data/nba_2223_player_table.csv">nba_2223_player_table.csv</a> contains one row for each of the 539 players in the data with two columns:</p>
+<table class="table">
+<caption><a href="../data/nba_2223_player_table.csv">nba_2223_player_table.csv</a></caption>
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>player_id</code></td>
+<td>Unique player ID that are the names of the RAPM data columns</td>
+</tr>
+<tr class="even">
+<td><code>player_name</code></td>
+<td>First and last name for the player</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="questions" class="level2">
+<h2 class="anchored" data-anchor-id="questions">Questions</h2>
+<ol type="1">
+<li>Build a RAPM model! (More will be added to this later…)</li>
+</ol>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>Gilani S (2023). <em>hoopR: Access Men’s Basketball Play by Play Data</em>. R package version 2.1.0, <a href="https://CRAN.R-project.org/package=hoopR" class="uri">https://CRAN.R-project.org/package=hoopR</a>.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -940,7 +1053,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 <p>Maintained by <a href="https://www.stat.cmu.edu/~ryurko/">Ron Yurko</a></p>
-<div class="toc-actions"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/data-sources.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/basketball/nba-rapm-data.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

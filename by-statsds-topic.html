@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -79,7 +79,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
@@ -250,6 +251,12 @@ window.Quarto = {
   <div class="sidebar-item-container"> 
   <a href="./basketball/nba-player-stats.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">National Basketball Association Player Statistics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./basketball/nba-rapm-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NBA RAPM Datasets</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -542,7 +549,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(25)</span></div><div class="category" data-category="ANOVA for means">ANOVA for means <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Chi-square test for association">Chi-square test for association <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Correlation">Correlation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Data cleaning">Data cleaning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Difference in means confidence intervals">Difference in means confidence intervals <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Difference in means hypothesis tests">Difference in means hypothesis tests <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Exploratory Data Analysis">Exploratory Data Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Histograms">Histograms <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Linear Regression">Linear Regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Linear regression">Linear regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Logistic Regression">Logistic Regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Missing Data">Missing Data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Outliers">Outliers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Pairwise comparisons">Pairwise comparisons <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Scatter Plots">Scatter Plots <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Summary statistics">Summary statistics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Tables">Tables <span class="quarto-category-count">(1)</span></div><div class="category" data-category="categorical data">categorical data <span class="quarto-category-count">(3)</span></div><div class="category" data-category="chi-squared test">chi-squared test <span class="quarto-category-count">(3)</span></div><div class="category" data-category="classification">classification <span class="quarto-category-count">(2)</span></div><div class="category" data-category="clustering">clustering <span class="quarto-category-count">(2)</span></div><div class="category" data-category="correlation">correlation <span class="quarto-category-count">(3)</span></div><div class="category" data-category="correlations">correlations <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data visualization">data visualization <span class="quarto-category-count">(2)</span></div><div class="category" data-category="data wrangling">data wrangling <span class="quarto-category-count">(4)</span></div><div class="category" data-category="density estimation">density estimation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="exploratory data Analysis">exploratory data Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="five number summary">five number summary <span class="quarto-category-count">(1)</span></div><div class="category" data-category="generalized additive models">generalized additive models <span class="quarto-category-count">(2)</span></div><div class="category" data-category="indicator variables">indicator variables <span class="quarto-category-count">(1)</span></div><div class="category" data-category="joining">joining <span class="quarto-category-count">(1)</span></div><div class="category" data-category="linear regression">linear regression <span class="quarto-category-count">(6)</span></div><div class="category" data-category="logistic regression">logistic regression <span class="quarto-category-count">(4)</span></div><div class="category" data-category="merging">merging <span class="quarto-category-count">(1)</span></div><div class="category" data-category="missing data">missing data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="model assumptions">model assumptions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="model building">model building <span class="quarto-category-count">(1)</span></div><div class="category" data-category="multicollinearity">multicollinearity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="multinomial logistic regression">multinomial logistic regression <span class="quarto-category-count">(2)</span></div><div class="category" data-category="multiple linear regression">multiple linear regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="naive bayes classifier">naive bayes classifier <span class="quarto-category-count">(2)</span></div><div class="category" data-category="outlier detection">outlier detection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="principal component analysis">principal component analysis <span class="quarto-category-count">(3)</span></div><div class="category" data-category="proportions">proportions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="regularization">regularization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="side-by-side boxplots">side-by-side boxplots <span class="quarto-category-count">(1)</span></div><div class="category" data-category="summary statistics">summary statistics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="transformations in regression">transformations in regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="two-way tables">two-way tables <span class="quarto-category-count">(1)</span></div><div class="category" data-category="variable selection">variable selection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="z-scores">z-scores <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(26)</span></div><div class="category" data-category="ANOVA for means">ANOVA for means <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Chi-square test for association">Chi-square test for association <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Correlation">Correlation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Data cleaning">Data cleaning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Difference in means confidence intervals">Difference in means confidence intervals <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Difference in means hypothesis tests">Difference in means hypothesis tests <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Exploratory Data Analysis">Exploratory Data Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Histograms">Histograms <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Linear Regression">Linear Regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Linear regression">Linear regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Logistic Regression">Logistic Regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Missing Data">Missing Data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Outliers">Outliers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Pairwise comparisons">Pairwise comparisons <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Scatter Plots">Scatter Plots <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Summary statistics">Summary statistics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Tables">Tables <span class="quarto-category-count">(1)</span></div><div class="category" data-category="categorical data">categorical data <span class="quarto-category-count">(3)</span></div><div class="category" data-category="chi-squared test">chi-squared test <span class="quarto-category-count">(3)</span></div><div class="category" data-category="classification">classification <span class="quarto-category-count">(2)</span></div><div class="category" data-category="clustering">clustering <span class="quarto-category-count">(2)</span></div><div class="category" data-category="correlation">correlation <span class="quarto-category-count">(3)</span></div><div class="category" data-category="correlations">correlations <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data visualization">data visualization <span class="quarto-category-count">(2)</span></div><div class="category" data-category="data wrangling">data wrangling <span class="quarto-category-count">(4)</span></div><div class="category" data-category="density estimation">density estimation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="exploratory data Analysis">exploratory data Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="five number summary">five number summary <span class="quarto-category-count">(1)</span></div><div class="category" data-category="generalized additive models">generalized additive models <span class="quarto-category-count">(2)</span></div><div class="category" data-category="hierarchical models">hierarchical models <span class="quarto-category-count">(1)</span></div><div class="category" data-category="indicator variables">indicator variables <span class="quarto-category-count">(1)</span></div><div class="category" data-category="joining">joining <span class="quarto-category-count">(1)</span></div><div class="category" data-category="linear regression">linear regression <span class="quarto-category-count">(6)</span></div><div class="category" data-category="logistic regression">logistic regression <span class="quarto-category-count">(4)</span></div><div class="category" data-category="merging">merging <span class="quarto-category-count">(1)</span></div><div class="category" data-category="missing data">missing data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="model assumptions">model assumptions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="model building">model building <span class="quarto-category-count">(1)</span></div><div class="category" data-category="multicollinearity">multicollinearity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="multinomial logistic regression">multinomial logistic regression <span class="quarto-category-count">(2)</span></div><div class="category" data-category="multiple linear regression">multiple linear regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="naive bayes classifier">naive bayes classifier <span class="quarto-category-count">(2)</span></div><div class="category" data-category="outlier detection">outlier detection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="principal component analysis">principal component analysis <span class="quarto-category-count">(3)</span></div><div class="category" data-category="proportions">proportions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="regularization">regularization <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ridge regression">ridge regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="side-by-side boxplots">side-by-side boxplots <span class="quarto-category-count">(1)</span></div><div class="category" data-category="summary statistics">summary statistics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="transformations in regression">transformations in regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="two-way tables">two-way tables <span class="quarto-category-count">(1)</span></div><div class="category" data-category="variable selection">variable selection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="z-scores">z-scores <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -571,7 +578,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Correlation,Chi-square test for association" data-listing-file-modified-sort="1709651161071" data-listing-reading-time-sort="3" data-listing-word-count-sort="449">
+<div class="quarto-post image-right" data-index="0" data-categories="Correlation,Chi-square test for association" data-listing-file-modified-sort="1709781922451" data-listing-reading-time-sort="3" data-listing-word-count-sort="449">
 <div class="thumbnail">
 <p><a href="./soccer/D3_wsoc2022.html" class="no-external"></a></p><a href="./soccer/D3_wsoc2022.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -604,7 +611,7 @@ Hope Donoghue, Robin Lock
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Summary statistics,Outliers,z-scores" data-listing-date-sort="1687824000000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="978">
+<div class="quarto-post image-right" data-index="1" data-categories="Summary statistics,Outliers,z-scores" data-listing-date-sort="1687824000000" data-listing-file-modified-sort="1709781922451" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="978">
 <div class="thumbnail">
 <p><a href="./running/boston_marathon_2023.html" class="no-external"></a></p><a href="./running/boston_marathon_2023.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -643,7 +650,7 @@ Jack Fay, A.J. Dykstra, and Ivan Ramler
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="proportions,two-way tables" data-listing-date-sort="1691020800000" data-listing-file-modified-sort="1709651161075" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2042">
+<div class="quarto-post image-right" data-index="2" data-categories="proportions,two-way tables" data-listing-date-sort="1691020800000" data-listing-file-modified-sort="1709781922455" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2042">
 <div class="thumbnail">
 <p><a href="./tennis/australian-open.html" class="no-external"></a></p><a href="./tennis/australian-open.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -679,7 +686,7 @@ Trent Meyer, Robin Lock
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="merging,joining,data wrangling" data-listing-date-sort="1684800000000" data-listing-file-modified-sort="1709651161075" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2148">
+<div class="quarto-post image-right" data-index="3" data-categories="merging,joining,data wrangling" data-listing-date-sort="1684800000000" data-listing-file-modified-sort="1709781922455" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2148">
 <div class="thumbnail">
 <p><a href="./softball/softball_d1_2021-2022.html" class="no-external"></a></p><a href="./softball/softball_d1_2021-2022.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -718,7 +725,7 @@ Sarah Weaver and Ivan Ramler
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="categorical data,chi-squared test" data-listing-date-sort="1679097600000" data-listing-file-modified-sort="1709651161023" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="376">
+<div class="quarto-post image-right" data-index="4" data-categories="categorical data,chi-squared test" data-listing-date-sort="1679097600000" data-listing-file-modified-sort="1709781922387" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="376">
 <div class="thumbnail">
 <p><a href="./baseball/verlander-pitches.html" class="no-external"></a></p><a href="./baseball/verlander-pitches.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -754,7 +761,7 @@ Ron Yurko
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="Difference in means hypothesis tests,Difference in means confidence intervals" data-listing-date-sort="1687392000000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="574">
+<div class="quarto-post image-right" data-index="5" data-categories="Difference in means hypothesis tests,Difference in means confidence intervals" data-listing-date-sort="1687392000000" data-listing-file-modified-sort="1709781922451" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="574">
 <div class="thumbnail">
 <p><a href="./lacrosse/lacrosse_pll_vs_nll.html" class="no-external"></a></p><a href="./lacrosse/lacrosse_pll_vs_nll.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -790,7 +797,7 @@ AJ Dykstra, Jack Cowan, and Ivan Ramler
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="Histograms,Scatter Plots,Correlation,Linear Regression" data-listing-date-sort="1686960000000" data-listing-file-modified-sort="1709651161075" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="901">
+<div class="quarto-post image-right" data-index="6" data-categories="Histograms,Scatter Plots,Correlation,Linear Regression" data-listing-date-sort="1686960000000" data-listing-file-modified-sort="1709781922455" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="901">
 <div class="thumbnail">
 <p><a href="./triathlon/triathlon_lakeplacid_women_ironman.html" class="no-external"></a></p><a href="./triathlon/triathlon_lakeplacid_women_ironman.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -832,7 +839,7 @@ Michael Schuckers, Matthew Abel, and A.J. Dykstra
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="outlier detection,five number summary,z-scores" data-listing-date-sort="1688169600000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="684">
+<div class="quarto-post image-right" data-index="7" data-categories="outlier detection,five number summary,z-scores" data-listing-date-sort="1688169600000" data-listing-file-modified-sort="1709781922451" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="684">
 <div class="thumbnail">
 <p><a href="./esports/lol-buff-nerf.html" class="no-external"></a></p><a href="./esports/lol-buff-nerf.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -871,7 +878,7 @@ George Charalambous, Ivan Ramler, and A.J. Dykstra
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="data visualization,data wrangling,linear regression,transformations in regression,model assumptions,model building" data-listing-date-sort="1688601600000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2970">
+<div class="quarto-post image-right" data-index="8" data-categories="data visualization,data wrangling,linear regression,transformations in regression,model assumptions,model building" data-listing-date-sort="1688601600000" data-listing-file-modified-sort="1709781922451" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2970">
 <div class="thumbnail">
 <p><a href="./motor_sports/NASCAR_driver_ratings.html" class="no-external"></a></p><a href="./motor_sports/NASCAR_driver_ratings.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -919,7 +926,46 @@ Alyssa Bigness, Jack Fay, and Ivan Ramler
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="Exploratory Data Analysis,Linear regression" data-listing-date-sort="1691020800000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="261">
+<div class="quarto-post image-right" data-index="9" data-categories="regularization,ridge regression,hierarchical models" data-listing-date-sort="1709683200000" data-listing-file-modified-sort="1709781922387" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="467">
+<div class="thumbnail">
+<p><a href="./basketball/nba-rapm-data.html" class="no-external"></a></p><a href="./basketball/nba-rapm-data.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./basketball/nba-rapm-data.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./basketball/nba-rapm-data.html" class="no-external">NBA RAPM Datasets</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./basketball/nba-rapm-data.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('regularization'); return false;">
+regularization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ridge regression'); return false;">
+ridge regression
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('hierarchical models'); return false;">
+hierarchical models
+</div>
+</div>
+<div class="listing-description">
+<a href="./basketball/nba-rapm-data.html" class="no-external">Datasets to build regularized adjusted plus-minus (RAPM) models for NBA players during the 2022-2023 regular season</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./basketball/nba-rapm-data.html" class="no-external">
+<div class="listing-date">
+Mar 6, 2024
+</div>
+<div class="listing-author">
+Ron Yurko
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="Exploratory Data Analysis,Linear regression" data-listing-date-sort="1691020800000" data-listing-file-modified-sort="1709781922451" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="261">
 <div class="thumbnail">
 <p><a href="./football/nfl-draft-combine.html" class="no-external"></a></p><a href="./football/nfl-draft-combine.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -955,7 +1001,7 @@ Shane Hauk, Michael Schuckers, Robin Lock
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="exploratory data Analysis" data-listing-date-sort="1690416000000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="636">
+<div class="quarto-post image-right" data-index="11" data-categories="exploratory data Analysis" data-listing-date-sort="1690416000000" data-listing-file-modified-sort="1709781922451" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="636">
 <div class="thumbnail">
 <p><a href="./hockey/nhl_powerplay.html" class="no-external"></a></p><a href="./hockey/nhl_powerplay.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -988,7 +1034,7 @@ Abby Hustler, Robin Lock
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="linear regression,correlation" data-listing-date-sort="1702598400000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1892">
+<div class="quarto-post image-right" data-index="12" data-categories="linear regression,correlation" data-listing-date-sort="1702598400000" data-listing-file-modified-sort="1709781922451" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1892">
 <div class="thumbnail">
 <p><a href="./hockey/nhl_2223.html" class="no-external"></a></p><a href="./hockey/nhl_2223.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -1024,7 +1070,7 @@ Taylor Lum, Robin Lock
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="clustering,principal component analysis" data-listing-date-sort="1679702400000" data-listing-file-modified-sort="1709651161023" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="515">
+<div class="quarto-post image-right" data-index="13" data-categories="clustering,principal component analysis" data-listing-date-sort="1679702400000" data-listing-file-modified-sort="1709781922387" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="515">
 <div class="thumbnail">
 <p><a href="./basketball/nba-player-stats.html" class="no-external"></a></p><a href="./basketball/nba-player-stats.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -1060,7 +1106,7 @@ Ron Yurko
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="linear regression,principal component analysis,missing data,variable selection,regularization" data-listing-date-sort="1684886400000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="845">
+<div class="quarto-post image-right" data-index="14" data-categories="linear regression,principal component analysis,missing data,variable selection,regularization" data-listing-date-sort="1684886400000" data-listing-file-modified-sort="1709781922451" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="845">
 <div class="thumbnail">
 <p><a href="./football/nfl-team-statistics.html" class="no-external"></a></p><a href="./football/nfl-team-statistics.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -1105,7 +1151,7 @@ Ron Yurko
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="classification,logistic regression,generalized additive models,multinomial logistic regression,naive bayes classifier,density estimation" data-listing-date-sort="1679529600000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="531">
+<div class="quarto-post image-right" data-index="15" data-categories="classification,logistic regression,generalized additive models,multinomial logistic regression,naive bayes classifier,density estimation" data-listing-date-sort="1679529600000" data-listing-file-modified-sort="1709781922451" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="531">
 <div class="thumbnail">
 <p><a href="./hockey/nhl-shots.html" class="no-external"></a></p><a href="./hockey/nhl-shots.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -1153,7 +1199,7 @@ Ron Yurko
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="linear regression,principal component analysis" data-listing-date-sort="1679097600000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="360">
+<div class="quarto-post image-right" data-index="16" data-categories="linear regression,principal component analysis" data-listing-date-sort="1679097600000" data-listing-file-modified-sort="1709781922455" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="360">
 <div class="thumbnail">
 <p><a href="./soccer/nwsl-team-stats.html" class="no-external"></a></p><a href="./soccer/nwsl-team-stats.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -1189,7 +1235,7 @@ Ron Yurko
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="categorical data,chi-squared test,logistic regression" data-listing-date-sort="1679529600000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="394">
+<div class="quarto-post image-right" data-index="17" data-categories="categorical data,chi-squared test,logistic regression" data-listing-date-sort="1679529600000" data-listing-file-modified-sort="1709781922451" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="394">
 <div class="thumbnail">
 <p><a href="./hockey/phf-shots.html" class="no-external"></a></p><a href="./hockey/phf-shots.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -1228,7 +1274,7 @@ Ron Yurko
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="ANOVA for means,Pairwise comparisons" data-listing-date-sort="1691020800000" data-listing-file-modified-sort="1709651161075" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="250">
+<div class="quarto-post image-right" data-index="18" data-categories="ANOVA for means,Pairwise comparisons" data-listing-date-sort="1691020800000" data-listing-file-modified-sort="1709781922455" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="250">
 <div class="thumbnail">
 <p><a href="./soccer/soccer-heights.html" class="no-external"></a></p><a href="./soccer/soccer-heights.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -1264,7 +1310,7 @@ Roderick Mpofu, Robin Lock
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="correlation,linear regression" data-listing-date-sort="1684454400000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1913">
+<div class="quarto-post image-right" data-index="19" data-categories="correlation,linear regression" data-listing-date-sort="1684454400000" data-listing-file-modified-sort="1709781922451" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1913">
 <div class="thumbnail">
 <p><a href="./golf/pga_drive_putt.html" class="no-external"></a></p><a href="./golf/pga_drive_putt.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -1300,7 +1346,7 @@ Alysssa Bigness
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="data wrangling,data visualization" data-listing-date-sort="1687996800000" data-listing-file-modified-sort="1709651161075" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="661">
+<div class="quarto-post image-right" data-index="20" data-categories="data wrangling,data visualization" data-listing-date-sort="1687996800000" data-listing-file-modified-sort="1709781922455" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="661">
 <div class="thumbnail">
 <p><a href="./wrestling/sumo_wrestingling_since_1957.html" class="no-external"></a></p><a href="./wrestling/sumo_wrestingling_since_1957.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -1336,7 +1382,7 @@ Jack Fay, A.J. Dykstra, and Ivan Ramler
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="multicollinearity,multiple linear regression,correlations,summary statistics" data-listing-date-sort="1690156800000" data-listing-file-modified-sort="1709651161075" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1269">
+<div class="quarto-post image-right" data-index="21" data-categories="multicollinearity,multiple linear regression,correlations,summary statistics" data-listing-date-sort="1690156800000" data-listing-file-modified-sort="1709781922455" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1269">
 <div class="thumbnail">
 <p><a href="./volleyball/volleyball_ncaa_team_stats.html" class="no-external"></a></p><a href="./volleyball/volleyball_ncaa_team_stats.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -1378,7 +1424,7 @@ Jack Fay, A.J. Dykstra, and Ivan Ramler
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="correlation,indicator variables,linear regression,side-by-side boxplots" data-listing-date-sort="1690156800000" data-listing-file-modified-sort="1709651161071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="21" data-listing-word-count-sort="4127">
+<div class="quarto-post image-right" data-index="22" data-categories="correlation,indicator variables,linear regression,side-by-side boxplots" data-listing-date-sort="1690156800000" data-listing-file-modified-sort="1709781922451" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="21" data-listing-word-count-sort="4127">
 <div class="thumbnail">
 <p><a href="./lacrosse/lacrosse_ncaa_div1.html" class="no-external"></a></p><a href="./lacrosse/lacrosse_ncaa_div1.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -1420,7 +1466,7 @@ Jack Fay, A.J. Dykstra, and Ivan Ramler
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="22" data-categories="logistic regression,data wrangling,categorical data,chi-squared test,clustering" data-listing-date-sort="1684886400000" data-listing-file-modified-sort="1709651161075" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="523">
+<div class="quarto-post image-right" data-index="23" data-categories="logistic regression,data wrangling,categorical data,chi-squared test,clustering" data-listing-date-sort="1684886400000" data-listing-file-modified-sort="1709781922455" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="523">
 <div class="thumbnail">
 <p><a href="./tennis/wta-grand-slam-matches.html" class="no-external"></a></p><a href="./tennis/wta-grand-slam-matches.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -1465,7 +1511,7 @@ Ron Yurko
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="23" data-categories="Data cleaning,Missing Data,Tables,Logistic Regression" data-listing-date-sort="1702598400000" data-listing-file-modified-sort="1709651161023" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="884">
+<div class="quarto-post image-right" data-index="24" data-categories="Data cleaning,Missing Data,Tables,Logistic Regression" data-listing-date-sort="1702598400000" data-listing-file-modified-sort="1709781922387" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="884">
 <div class="thumbnail">
 <p><a href="./basketball/WNBA20Yrs.html" class="no-external"></a></p><a href="./basketball/WNBA20Yrs.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -1507,7 +1553,7 @@ Kristen Varin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="24" data-categories="classification,logistic regression,generalized additive models,multinomial logistic regression,naive bayes classifier,density estimation" data-listing-date-sort="1679702400000" data-listing-file-modified-sort="1709651161023" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="414">
+<div class="quarto-post image-right" data-index="25" data-categories="classification,logistic regression,generalized additive models,multinomial logistic regression,naive bayes classifier,density estimation" data-listing-date-sort="1679702400000" data-listing-file-modified-sort="1709781922387" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="414">
 <div class="thumbnail">
 <p><a href="./basketball/wnba-shots.html" class="no-external"></a></p><a href="./basketball/wnba-shots.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -1559,6 +1605,9 @@ Ron Yurko
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -1639,6 +1688,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/data\.scorenetwork\.org");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -1673,7 +1740,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
