@@ -1,0 +1,57 @@
+---
+title: NBA RAPM Datasets
+author: Ron Yurko
+date: March 6, 2024
+description: Datasets to build regularized adjusted plus-minus (RAPM) models for NBA players during the 2022-2023 regular season
+categories:
+  - regularization
+  - ridge regression
+  - hierarchical models
+---
+
+## Motivation
+
+In the [National Basketball Association (NBA)](https://www.nba.com/), traditional box-score statistics provide a limited view of a player's performance. In order to measure an individual player's contribution, it is necessary to adjust for the presence of their teammates and opposition. Different versions of __regularized adjusted plus-minus (RAPM)__ models are popular approaches in the basketball analytics community for attempting to address this challenge. With the data provided here, you can explore building a RAPM model for NBA players in an attempt to estimate an individual player's effect when on the court.
+
+## Data
+
+There are three datasets below that are relevant for building RAPM models for player performances during the 2022-2023 NBA regular season. All of the data were collected using the [`hoopR` package in `R`](https://hoopr.sportsdataverse.org/index.html). 
+
+The first dataset [nba_2223_season_stints.csv](../data/nba_2223_season_stints.csv) contains information about 32,358 unique _stints_ during NBA games in which the same ten players (home and away) were on the court together prior to substitutions taking place. This dataset contains the following columns:
+
+: [nba_2223_season_stints.csv](../data/nba_2223_season_stints.csv)
+
+| Variable | Description |
+|----|-------------|
+| `game_id` |	Unique game ID |
+| `stint_id` |	Unique identifier within a game for a stint for particular combination of home and away lineup (in appearance of order, where 1 is the first stint in the game) |
+| `home_lineup` |	Concatenated string of the five home player IDs, separated by `_` |
+| `away_lineup` |	Concatenated string of the five away player IDs, separated by `_` |
+| `n_pos` |	Number of possessions (combined for both home and away) during the observed stint |
+| `home_points` |	Number of points scored by the home team during the stint |
+| `away_points` |	Number of points scored by the away team during the stint |
+| `minutes` |	Length of the stint in terms of minutes played |
+| `margin` | Common response for RAPM models defined as: (`home_points` - `away_points`) / `n_pos` * 100 |
+
+The second dataset [nba_2223_season_rapm_data.csv.gz](../data/nba_2223_season_rapm_data.csv.gz) is the wide design matrix version of the above dataset. This file contains the same 32,358 unique stints, but replaces the `home_lineup` and `away_lineup` columns with 539 columns for the unique players that were observed during the course of the season. If the player was on the court for home team, a `1` is observed in their column. If a player was on the court for the away team, a `-1` is observed in their column. Otherwise, if the player was not on the court, a `0` is observed.
+
+And for context, the third dataset [nba_2223_player_table.csv](../data/nba_2223_player_table.csv) contains one row for each of the 539 players in the data with two columns:
+
+: [nba_2223_player_table.csv](../data/nba_2223_player_table.csv)
+
+| Variable | Description |
+|----|-------------|
+| `player_id` |	Unique player ID that are the names of the RAPM data columns |
+| `player_name` |	First and last name for the player |
+
+## Questions
+
+1. Build a RAPM model! (More will be added to this later...)
+
+## References
+
+Gilani S (2023). _hoopR: Access Men's Basketball Play by Play Data_. R package version 2.1.0,
+  <https://CRAN.R-project.org/package=hoopR>.
+  
+
+
