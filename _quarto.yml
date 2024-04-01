@@ -8,6 +8,8 @@ project:
 website:
   title: "SCORE Sports Data Repository"
   page-footer: "Maintained by [Ron Yurko](https://www.stat.cmu.edu/~ryurko/)"
+  cookie-consent: true
+  google-analytics: "G-B6RF8879N9"
   navbar:
     left:
       - href: index.qmd
