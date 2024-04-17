@@ -7,9 +7,6 @@ categories:
   - Normal Distribution
   - Quantiles
   - Proportions
-editor:
-  markdown: 
-    canonical: true
 ---
 
 ## Motivation

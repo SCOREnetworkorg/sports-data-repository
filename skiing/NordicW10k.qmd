@@ -8,10 +8,6 @@ categories:
   - linear regression analysis
   - correlation
   - checking conditions for simple linear regression
-  
-editor: 
-  markdown: 
-    wrap: 72
 ---
 
 ## Motivation

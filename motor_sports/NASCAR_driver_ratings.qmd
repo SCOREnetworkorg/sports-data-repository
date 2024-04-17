@@ -10,7 +10,6 @@ categories:
   - transformations in regression
   - model assumptions
   - model building
-
 ---
 
 ## Motivation

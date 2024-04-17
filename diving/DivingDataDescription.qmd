@@ -8,9 +8,6 @@ categories:
   - Pairwise Comparisons
   - Fisher’s LSD
   - Tukey’s HSD
-editor:
-  markdown: 
-    canonical: true
 ---
 
 ## Motivation

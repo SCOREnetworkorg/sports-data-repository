@@ -7,9 +7,6 @@ categories:
   - summary statistics
   - histogram analysis
   - data interpretation
-editor:
-  markdown: 
-    canonical: true
 ---
 
 ## Motivation

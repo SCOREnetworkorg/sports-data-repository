@@ -7,9 +7,6 @@ categories:
   - Data Cleaning
   - Summarization
   - Merging
-editor:
-  markdown: 
-    canonical: true
 ---
 
 ## Motivation

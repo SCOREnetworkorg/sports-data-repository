@@ -15,7 +15,7 @@ In World Cup Giant Slalom (GS), there are two runs. Only the thirty fastest race
 
 ### Data Preparation
 
-[init-tremblant_gs.qmd](../_prep/Tremblant_GS/init-tremblant_gs.qmd)
+[init-tremblant_gs.qmd](../_prep/Womens_Tremblant_GS/init-womens_tremblant_gs.qmd)
 
 ## Data
 
