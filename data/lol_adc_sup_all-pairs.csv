@@ -1,0 +1,219 @@
+ADC,SUP,count
+Miss Fortune,Annie,27
+Miss Fortune,Lulu,18
+Miss Fortune,Alistar,25
+Miss Fortune,Janna,18
+Miss Fortune,Morgana,42
+Miss Fortune,Braum,37
+Miss Fortune,Leona,50
+Miss Fortune,Soraka,17
+Miss Fortune,Thresh,71
+Miss Fortune,Blitzcrank,60
+Miss Fortune,Nami,11
+Miss Fortune,Sona,32
+Miss Fortune,Tahm Kench,18
+Jinx,Zyra,28
+Jinx,Annie,90
+Jinx,Lulu,54
+Jinx,Alistar,120
+Jinx,Janna,136
+Jinx,Morgana,218
+Jinx,Braum,178
+Jinx,Leona,265
+Jinx,Soraka,124
+Jinx,Thresh,438
+Jinx,Blitzcrank,294
+Jinx,Vel'Koz,26
+Jinx,Nami,81
+Jinx,Taric,31
+Jinx,Bard,47
+Jinx,Zilean,18
+Jinx,Sona,99
+Jinx,Karma,28
+Jinx,Tahm Kench,92
+Caitlyn,Annie,51
+Caitlyn,Lulu,42
+Caitlyn,Alistar,82
+Caitlyn,Janna,76
+Caitlyn,Morgana,98
+Caitlyn,Braum,73
+Caitlyn,Leona,154
+Caitlyn,Soraka,52
+Caitlyn,Thresh,199
+Caitlyn,Blitzcrank,139
+Caitlyn,Nami,47
+Caitlyn,Bard,35
+Caitlyn,Sona,58
+Caitlyn,Karma,16
+Caitlyn,Tahm Kench,37
+Tristana,Zyra,22
+Tristana,Annie,60
+Tristana,Lulu,39
+Tristana,Alistar,95
+Tristana,Janna,98
+Tristana,Morgana,138
+Tristana,Braum,130
+Tristana,Leona,194
+Tristana,Soraka,87
+Tristana,Thresh,238
+Tristana,Blitzcrank,177
+Tristana,Nami,42
+Tristana,Taric,16
+Tristana,Bard,34
+Tristana,Zilean,12
+Tristana,Sona,66
+Tristana,Karma,23
+Tristana,Tahm Kench,53
+Kalista,Annie,25
+Kalista,Lulu,14
+Kalista,Alistar,50
+Kalista,Janna,29
+Kalista,Morgana,41
+Kalista,Braum,54
+Kalista,Leona,53
+Kalista,Soraka,15
+Kalista,Thresh,147
+Kalista,Blitzcrank,59
+Kalista,Bard,17
+Kalista,Sona,18
+Kalista,Tahm Kench,39
+Twitch,Annie,12
+Twitch,Alistar,14
+Twitch,Janna,12
+Twitch,Morgana,22
+Twitch,Braum,19
+Twitch,Leona,34
+Twitch,Thresh,39
+Twitch,Blitzcrank,35
+Sivir,Annie,44
+Sivir,Lulu,19
+Sivir,Alistar,63
+Sivir,Janna,57
+Sivir,Morgana,91
+Sivir,Braum,71
+Sivir,Leona,102
+Sivir,Soraka,47
+Sivir,Thresh,157
+Sivir,Blitzcrank,103
+Sivir,Vel'Koz,12
+Sivir,Nami,21
+Sivir,Taric,13
+Sivir,Bard,32
+Sivir,Sona,39
+Sivir,Karma,21
+Sivir,Tahm Kench,36
+Vayne,Zyra,25
+Vayne,Annie,96
+Vayne,Lulu,78
+Vayne,Alistar,155
+Vayne,Janna,150
+Vayne,Morgana,206
+Vayne,Braum,218
+Vayne,Leona,251
+Vayne,Soraka,129
+Vayne,Thresh,394
+Vayne,Blitzcrank,256
+Vayne,Vel'Koz,13
+Vayne,Nami,83
+Vayne,Taric,27
+Vayne,Bard,47
+Vayne,Zilean,13
+Vayne,Sona,87
+Vayne,Karma,22
+Vayne,Tahm Kench,81
+Graves,Annie,29
+Graves,Lulu,21
+Graves,Alistar,44
+Graves,Janna,40
+Graves,Morgana,75
+Graves,Braum,51
+Graves,Leona,85
+Graves,Soraka,30
+Graves,Thresh,129
+Graves,Blitzcrank,74
+Graves,Nami,25
+Graves,Sona,32
+Graves,Tahm Kench,23
+Lucian,Annie,32
+Lucian,Lulu,16
+Lucian,Alistar,52
+Lucian,Janna,45
+Lucian,Morgana,58
+Lucian,Braum,111
+Lucian,Leona,95
+Lucian,Soraka,37
+Lucian,Thresh,150
+Lucian,Blitzcrank,75
+Lucian,Nami,17
+Lucian,Bard,16
+Lucian,Sona,27
+Lucian,Karma,12
+Lucian,Tahm Kench,23
+Ashe,Zyra,19
+Ashe,Annie,44
+Ashe,Lulu,25
+Ashe,Alistar,72
+Ashe,Janna,44
+Ashe,Morgana,90
+Ashe,Braum,75
+Ashe,Leona,126
+Ashe,Soraka,51
+Ashe,Thresh,145
+Ashe,Blitzcrank,113
+Ashe,Vel'Koz,14
+Ashe,Nami,21
+Ashe,Taric,13
+Ashe,Bard,18
+Ashe,Sona,41
+Ashe,Karma,13
+Ashe,Tahm Kench,32
+Corki,Annie,17
+Corki,Morgana,27
+Corki,Braum,15
+Corki,Leona,42
+Corki,Soraka,22
+Corki,Thresh,58
+Corki,Blitzcrank,36
+Corki,Bard,11
+Corki,Sona,13
+Ezreal,Annie,41
+Ezreal,Lulu,15
+Ezreal,Alistar,52
+Ezreal,Janna,41
+Ezreal,Morgana,67
+Ezreal,Braum,43
+Ezreal,Leona,71
+Ezreal,Soraka,39
+Ezreal,Thresh,122
+Ezreal,Blitzcrank,82
+Ezreal,Nami,20
+Ezreal,Bard,18
+Ezreal,Sona,36
+Ezreal,Karma,12
+Ezreal,Tahm Kench,27
+Draven,Annie,19
+Draven,Alistar,37
+Draven,Janna,34
+Draven,Morgana,51
+Draven,Braum,24
+Draven,Leona,67
+Draven,Soraka,27
+Draven,Thresh,87
+Draven,Blitzcrank,69
+Draven,Vel'Koz,12
+Draven,Bard,13
+Draven,Sona,15
+Draven,Tahm Kench,16
+Varus,Annie,11
+Varus,Alistar,15
+Varus,Janna,17
+Varus,Morgana,29
+Varus,Braum,16
+Varus,Leona,39
+Varus,Soraka,22
+Varus,Thresh,55
+Varus,Blitzcrank,36
+Kog'Maw,Janna,14
+Kog'Maw,Leona,11
+Kog'Maw,Thresh,20
+Kog'Maw,Blitzcrank,14

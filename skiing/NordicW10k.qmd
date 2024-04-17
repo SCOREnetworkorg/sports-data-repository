@@ -1,0 +1,91 @@
+---
+title: World Cup Women's 10k Classic Nordic Ski Race
+author: Abigail Smith
+date: February 29, 2024
+description: The times and ranks of skiers taken at four different distance points (1.3, 4.3, 7.5, and 10k) in a 10k classic race in Trondheim, Norway.
+categories:
+  - anova for difference in means
+  - linear regression analysis
+  - correlation
+  - checking conditions for simple linear regression
+  
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Motivation
+
+The International Ski and Snowboard Federation (FIS), organizes and
+records a series of events such as the World Cup which exists for all
+disciplines of FIS such as Nordic Skiing. World Cup races occur every
+weekend between January and March, with events hosted in different
+countries. These events consist of multiple different races, held in
+different disciplines and distances. Nordic skiing is split up into two
+different techniques, classic and skate, all race weekends have a
+mixture of skate and classic technique races. The race in this dataset
+is a womens' 10k classic race set in Trondheim, Norway. In long distance
+pieces like 10ks there is often a lot of discussion about pacing.
+Racers' times are recorded at different distance intervals throughout
+the course. I think it is interesting to look at how well racers' times
+at different distances predict their rank at the end of the race. I
+think especially the first time is most interesting to see with regard
+to the final rank, to see if the same racers who have top times in the
+first distance have good ranks at the end of the race.
+
+### Data Preparation
+
+[init-nordicw10k.qmd](../_prep/NordicW10k/init-nordicw10k.qmd)
+
+## Data
+
+Each row of the dataset represents a skier in the womens' 10k classic
+ski race in Trondheim. There are 61 racers in the dataset and 20
+variables.
+
+| Variable | Description                                                                                                                |
+|---------------------|---------------------------------------------------|
+| Bib      | The bib number of the skier, which also represents the order they started in.                                              |
+| Name     | The name of the skier.                                                                                                     |
+| NSA      | The nation a skier is representing.                                                                                        |
+| Rank1    | The rank or placement of skiers at the first distance interval.                                                            |
+| Time1    | The skier's time at the first distance interval, measured in minutes.                                                      |
+| Diff1    | The difference of time between each skier and the first place racer, at the first distance interval, measured in seconds.  |
+| Dist1    | The distance of the first interval, measured in kilometers.                                                                |
+| Rank2    | The rank or placement of skiers at the first distance interval.                                                            |
+| Time2    | The skier's time at the first distance interval, measured in minutes.                                                      |
+| Diff2    | The difference of time between each skier and the first place racer, at the second distance interval, measured in seconds. |
+| Dist2    | The distance of the second interval, measured in kilometers.                                                               |
+| Rank3    | The rank or placement of skiers at the third distance interval.                                                            |
+| Time3    | The skier's time at the third distance interval, measured in minutes.                                                      |
+| Diff3    | The difference of time between each skier and the first place racer, at the third distance interval, measured in seconds.  |
+| Dist3    | The distance of the third interval, measured in kilometers.                                                                |
+| Rank4    | The rank or placement of skiers at the fourth distance interval.                                                           |
+| Time4    | The skier's time at the fourth distance interval, measured in minutes.                                                     |
+| Diff4    | The difference of time between each skier and the first place racer, at the fourth distance interval, measured in seconds. |
+| Dist4    | The distance of the fourth interval, measured in kilometers.                                                               |
+| Event    | The FIS code assigned to the event.                                                                                        |
+
+: [W10kTro_2257.csv](../data/W10kTro_2257.csv)
+
+## Questions
+
+1.  Create a simple linear regression model of Time4 predicted by Time1.
+    Check the conditions for the model, to assess its variance,
+    linearity, and normality.
+
+2.  Find the correlation between Time1 and Rank4. Is there a strong
+    correlation and if so, is it positive or negative?
+
+3.  Make a model of Rank4 predicted by Bib. Interpret the coefficient of
+    Bib.
+
+4.  Use an ANOVA for means test to decide if there is a considerable
+    difference in the mean time for each time interval. First, perform
+    the test by constructing a one-way ANOVA model for means by hand.
+    Then, check it by running it through R.
+
+## References
+
+[results](https://live.fis-ski.com/cc-2257/results-pda.htm){target =
+"_blank"}

@@ -1,0 +1,58 @@
+---
+title: UFC Striking Statistics
+author: Brendan Karadenes
+date: February 29, 2023
+description: UFC fighter data containing information about height, weight, striking, reach, stance, and takedowns. Since the striking accuracy distribution is approximately normal, we will look at proportions and percentiles of fighters with "good" and "bad" percentages.
+categories:
+  - Normal Distribution
+  - Quantiles
+  - Proportions
+editor:
+  markdown: 
+    canonical: true
+---
+
+## Motivation
+
+The dataset was found via kaggle (https://www.kaggle.com/datasets/rajeevw/ufcdata)
+
+Since the UFC is fairly recent compared to other professional sports leagues, there are less data analytics around the sport compared to other leagues. Therefore, it is important to provide interpretable analysis to gain traction in analyzing data from the UFC.
+
+## Data
+
+The `UFC_stats` dataset contains 1673 rows and 14 columns. Each row represents a fighter and their career statistics. The columns are shown below.
+
+| Variable     | Description                       |
+|--------------|-----------------------------------|
+| fighter_name | First and last name of fighter    |
+| Height       | Fighter's height in inches        |
+| Weight       | Weight in lbs. of the fighter     |
+| Reach        | Wingspan in inches of the fighter |
+| Stance       | Fighter's orientation             |
+| Birthyear    | Fighter's year of birth           |
+| SLpM         | Strikes landed per minute         |
+| Str_Acc      | Striking accuracy percentage      |
+| SApm         | Strikes attempted per minute      |
+| Str_Def      | Striking defense percentage       |
+| TD_Avg       | Takedown average per fight        |
+| TD_Acc       | Takedown accuracy percentage      |
+| TD_Def       | Takedown defense percentage       |
+| Sub_Avg      | Submission average                |
+
+: [UFC_stats.csv](../data/UFC_stats.csv)
+
+## Questions
+
+-   What proportion of fighters have a “good” accuracy percentage?
+
+-   What proportion of fighters have a “bad” accuracy percentage?
+
+-   What proportion of fighters are in the grey area (between 30 and 60 percent)?
+
+-   Fighters with the top 10% for accuracy percentage have above what accuracy percentage?
+
+-   Find Q1 of accuracy distribution.
+
+## References
+
+Data Set Source: [https://www.kaggle.com/datasets/rajeevw/ufcdata](https://www.kaggle.com/datasets/rajeevw/ufcdata){target="_blank"}

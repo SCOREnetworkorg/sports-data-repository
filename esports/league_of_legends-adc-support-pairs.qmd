@@ -1,0 +1,55 @@
+---
+title: Synergistic Interactions in League of Legends
+author: "George Charalambous"
+date: "February 29, 2024"
+description: This module focuses on examining the synergistic relationships between champions in the AD Carry and Support roles within the popular video game, League of Legends. Through Chi-Squared analysis, we will assess potential interactions among the top five most-selected champions in these positions to determine if any statistically significant relationships exist.
+
+categories:
+  - Chi-Squared
+  - Predictor Categories
+  - Relationship
+---
+
+## Motivation
+
+League of Legends is a popular multiplayer online battle arena (MOBA) game where two teams of five players compete on a map called Summoner's Rift. Each player selects a champion with unique abilities and plays a specific role on the team.
+
+Summoner's Rift is divided into three lanes: top, middle, and bottom. The bottom lane, also known as the bot lane, is where you typically find the ADC (Attack Damage Carry) and Support champions.
+
+The ADC's primary objective is to deal sustained damage throughout the game. They rely on items and experience to scale their damage output and become late-game threats. Conversely, the Support champions focus on providing utility, crowd control, and protection to enable the ADC to thrive. This includes abilities that heal, shield, or buff their ADC, as well as crowd control spells to disrupt enemies.
+
+The frequency with which champions are chosen in matches can be affected by various factors, including their perceived ease of use, strength, novelty, and the appeal of their backstories and/or visuals. Another significant factor is their [synergy](https://mobalytics.gg/blog/understanding-champion-synergy-league-legends-guide/){target="_blank"} with other champions. One method to identify such synergy is by observing how frequently certain champion pairs are selected together. Particularly in the ADC-Support duo, analyzing popular pairings can offer insights into which combinations work well together.
+
+
+## Data
+
+The data provided here consists of two data sets. For both data sets, each row represents the number of times each listed ADC-Support pair appeared in a match together. The file `lol_adc_sup_all-pairs.csv` contains the results each every pair of champions in the available data. The file `lol_adc_sup_popular-pairs.csv` contains the results for the five most popular ADCs and the five most popular Supports. All other ADCs and Supports are labeled as "Other"
+
+| Variable | Description                                     |
+|----------|-------------------------------------------------|
+| ADC      | The ADC champion used in the match              |
+| SUP      | The Support champion used in the match          |
+| count    | The number of games for each ADC - Support pair |
+
+: [lol_adc_sup_all-pairs.csv](../data/lol_adc_sup_all-pairs.csv)
+
+: [lol_adc_sup_popular-pairs.csv](../data/lol_adc_sup_popular-pairs.csv)
+
+
+## Questions
+
+These can be answered using either version of the data.
+
+1.  Identify the variables of interest in this study. Are they categorical or numerical? If categorical, identify the levels of each variable.
+
+2.  What percent of games did the combination of Jinx in the ADC role and Braum in the Support role appear?
+
+3.  Is there evidence that the selection of a specific champion in the Support role is related to the selection of a specific champion in the ADC role?
+
+4.  What combination of champions contributes the most to the test statistic?
+
+## References
+
+Riot Games Developer Portal. Accessed \[February 29, 2024\]. Available at: `https://developer.riotgames.com/apis`
+
+Ramler, I, Lee, C.S., and Schuckers, M. (2019) “Identifying Symbiotic Relationships between Champions in League of Legends.” Proceedings for the 2019 Joint Statistical Meetings, Sports Statistics Section. Alexandria, VA: American Statistical Association. 2362 – 2369.

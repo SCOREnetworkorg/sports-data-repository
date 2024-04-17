@@ -1,0 +1,56 @@
+---
+title: FINA World Junior Championships 2022 Diving Data
+author: Emma Deering
+date: February 29, 2024
+description: Preliminary diving results of womens 16-18 1m springboard from the 2022 FINA World Junior Championships. 
+categories:
+  - ANOVA for difference in means
+  - Pairwise Comparisons
+  - Fisher’s LSD
+  - Tukey’s HSD
+editor:
+  markdown: 
+    canonical: true
+---
+
+## Motivation
+
+The FINA Junior World Diving Championships is a elite dive meet where top divers around the world under the age of 18 compete. Each diver completed 9 dives, all of which contributed to their overall score. Each dive is scored by 7 judges. Each judge gives a score individually on a scale of 1-10 at half-point increments based on execution of the dive. 10 represents perfect execution, while 0 represents failed execution. The two lowest and the two highest scores of the judges are voided, and the other three are added together. The sum of the three judges is then multiplied by the difficulty of the attempted dive. The product represent the points earned for that dive. The overall score is calculated by adding together the points earned on each dives.
+
+## Data
+
+The data set contains 360 rows and 15 columns. Each row represents a completed dive from a diver in the preliminary results of women (aged 16-18) 1m springboard from the 2022 FINA World Junior Championships. Each diver completed 9 dives, so there is 9 rows per diver.
+
+| Variable    | Description                                                    |
+|-------------|----------------------------------------------------------------|
+| LastName    | The last name of the diver                                     |
+| Country     | The country the diver was competing for                        |
+| Age         | The age of the diver                                           |
+| TotalPoints | The overall points the diver had earned at the end of the meet |
+| DiveNum     | The order in which the dives were performed                    |
+| DiveName    | The coded name of the dive                                     |
+| Difficulty  | The difficulty of the dive                                     |
+| Judge1      | The score that judge 1 awarded the dive                        |
+| Judge2      | The score that judge 2 awarded the dive                        |
+| Judge3      | The score that judge 3 awarded the dive                        |
+| Judge4      | The score that judge 4 awarded the dive                        |
+| Judge5      | The score that judge 5 awarded the dive                        |
+| Judge6      | The score that judge 6 awarded the dive                        |
+| Judge7      | The score that judge 7 awarded the dive                        |
+| Points      | Overall points the individual dive earned                      |
+
+: [divingdata.csv](../data/divingdata.csv)
+
+## Questions
+
+1.  Is there significant difference in average total points among divers of different ages?
+
+2.  Conduct pairwise comparisons using 95% confidence intervals to compare the average total points between divers of each age.
+
+3.  Conduct pairwise comparisons using Fisher's LSD to compare the average total points between divers of each age.
+
+4.  Conduct pairwise comparisons using Tukey's HSD to compare the average total points between divers of each age.
+
+## References
+
+[World Aquatics. (2022). FINA World Junior Diving Championships 2022.](https://www.worldaquatics.com/competitions/2951/fina-world-junior-diving-championships-2022/results?event=6d65f6db-1e71-4bca-b1c3-7facf12f500f&unit=preliminary){target="_blank"}
