@@ -1,0 +1,105 @@
+---
+title: "Alpine Ski Data Scraping Description"
+format: html
+---
+
+Loading necessary packages
+```{r}
+library(rvest)
+library(chromote)
+library(tidyverse)
+library(lubridate)
+```
+
+We need a function to convert times to seconds. This function works for times over a minute.
+```{r}
+fix_time <- function(time){
+  n = length(time)
+  Diff = time[2:n]
+  t1 = time[1] |> ms() |> period_to_seconds()
+  Diff <- parse_number(Diff)
+  Diff <- t1 + Diff
+  return(c(t1, Diff))
+}
+
+```
+
+Here is the main function to scrape the data and reformat it.
+```{r}
+get_ski <- function(id_code){
+  ## building the url
+  first <- "https://live.fis-ski.com/lv-al"
+  end <- ".htm#/follow"
+  url <- paste(first, id_code, end, sep = "")
+
+## opening up a headless browser session
+newpage <- ChromoteSession$new()
+{
+  newpage$Page$navigate(url)
+  newpage$Page$loadEventFired()
+}
+
+## waiting a second for the browser to load before extracting
+## elements
+Sys.sleep(1)
+
+## extracting elements
+elements <- newpage$Runtime$evaluate("document.querySelector('html').outerHTML")$result$value |>
+  read_html()
+
+## closing the browser session
+newpage$close()
+
+## grabbing the relevant elements
+results_table<- elements |>
+  html_elements(".sortable") |>
+  html_text2()
+
+## constructing a data frame
+results_matrix = matrix(results_table, ncol = 9,byrow = TRUE)
+print(dim(results_matrix))
+colnames(results_matrix) = results_matrix[1,]
+results_matrix = results_matrix[-1,] |>
+  as_tibble()
+
+## tidying the data and using the fix_time() function
+results_matrix1 <- results_matrix |> rename(Number = `N°`)
+results_matrix1$Total <- fix_time(results_matrix$Total)
+results_matrix2 <- results_matrix1 |>
+  mutate(Pr=parse_number(Pr)) |>
+  separate(col = `Run 1`, into = c("Run_1_Time", "Run_1_Rank"),
+           sep = "\\(")|>
+  mutate(Run_1_Rank = parse_number(Run_1_Rank)) |>
+  separate(col = `Run 2`, into = c("Run_2_Time", "Run_2_Rank"),
+           sep = "\\(")|>
+  mutate(Run_2_Rank = parse_number(Run_2_Rank))
+results_matrix2$Run_1_Time <- fix_time(results_matrix2$Run_1_Time)
+results_matrix2$Run_2_Time <- fix_time(results_matrix2$Run_2_Time)
+return(results_matrix2)
+}
+```
+
+Testing out the scraping function with an id code. The id code comes from the 4 digit code in the url. For example, the url https://live.fis-ski.com/lv-al5009.htm#/follow has id code 5009.
+```{r}
+x = get_ski(5009)
+```
+
+Renaming and reordering variables.
+```{r}
+x <- x |> rename(Final_Rank = Rank,
+                                  Run2_Order = Number,
+                                  Run1_Order = Bib,
+                                  Total_Time = Total,
+                                  Rank_Diff = Pr,
+                                  Run1_Time = Run_1_Time,
+                                  Run1_Rank = Run_1_Rank,
+                                  Run2_Time = Run_2_Time,
+                                  Run2_Rank = Run_2_Rank) |>
+  select(4, 5, 3, 8, 9, 2, 10, 11, 6, 1, 7)
+x
+```
+
+Saving as csv
+```{r}
+write.csv(x, "Tremblant.csv", row.names = FALSE)
+```
