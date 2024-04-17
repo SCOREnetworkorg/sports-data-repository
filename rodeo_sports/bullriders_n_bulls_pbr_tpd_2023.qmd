@@ -1,0 +1,98 @@
+---
+title: "Professional Bull Riding Analysis"
+date: "2024-03-06"
+author: "Matt Maslow"
+description: Investigating a collection of professional bull riders and their statistics from 2023 season for the Touring Pro Division of the Professional Bull Riding League.
+editor: 
+  canonical: true
+categories:
+  - Linear Regression
+  - Summary Statistics
+  - Influential Points
+  - Hypothesis Testing
+---
+
+## Motivation
+
+::: {style="text-align: center;"}
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bull-Riding2-Szmurlo.jpg/800px-Bull-Riding2-Szmurlo.jpg" width="150"/>
+:::
+
+The [Touring Pro Division](https://pbr.com/tours/touring-pro-division){target="_blank"} (TPD) of the Professional Bull Riding League (PBR) is a dynamic and thrilling level of competition that serves as an essential proving ground for riders aiming to enhance their skills and gain valuable experience. Known for its non-stop excitement, the Touring Pro Division keeps the spirit of bull riding alive, offering an adrenaline-charged journey through the sport where aspiring champions can shape their dreams and hone their talents. It is described as an electrifying landscape where the future stars of bull riding emerge, highlighting its significance as a critical stepping stone for athletes on their path to higher levels of professional bull riding competition​
+
+### Data Preparation
+
+[init-bullriders_n_bulls_pbr_tpd_2023.qmd](../_prep/bull_riding/init-bullriders_n_bulls_pbr_tpd_2023.qmd)
+
+#### About the data
+
+A data frame for 38 riders from the 2023 season of the Professional Bull Riding (PBR) league, for the Touring Pro Division. These data frames hold the stats for the riders and the bulls they ride. The data was scraped from the PBR website. For the rider data set, there are 357 riders with 16 variables, however, not all of the riders points meaning they would not hold a lot of significance in data and may skew the results. The bull data set has 50 bulls with 11 variables on their scoring statistics.
+
+<details>
+
+<summary><b>Riders Data: Variable Descriptions</b></summary>
+
+| **Variable**        | **Description**                                           |
+|--------------------|----------------------------------------------------|
+| `Rider`             | Name of the pro bull rider                                |
+| `Points`            | Total points earned by the bull rider                     |
+| `Points Back`       | Difference in points between the rider and the leader     |
+| `Events`            | Number of events participated in by the rider             |
+| `Outs`              | Number of times the rider was scheduled to ride           |
+| `Rides`             | Number of successful rides by the rider                   |
+| `Buckoffs`          | Number of unsuccessful rides by the rider                 |
+| `prop.Ridden`       | Percent of successful rides                               |
+| `Avg Ride Score`    | Average score for successful rides by the rider           |
+| `Highest RideScore` | Highest score achieved by the rider in a single ride      |
+| `Avg Buckoff Time`  | Average time spent on bulls that the rider failed to ride |
+| `Round Wins`        | Number of round wins achieved by the rider                |
+| `Event Wins`        | Number of event wins achieved by the rider                |
+| `ReRides Taken`     | Number of re-rides taken by the rider                     |
+| `Earnings`          | Total earnings of the rider from bull riding events       |
+| `90Pt Rides`        | Number of rides scoring 90 points or above                |
+
+</details>
+
+Download data: [BullRiders_PBR_TPD_2023.csv](../data/BullRiders_PBR_TPD_2023.csv)
+
+<details>
+
+<summary><b>Bull's Data: Variable Descriptions</b></summary>
+
+| **Variable**            | **Description**                                            |
+|----------------------|--------------------------------------------------|
+| `Bull`                  | Name of the bull                                           |
+| `World Champ Avg Score` | Average score of the bull at world championship events     |
+| `Events`                | Number of events the bull participated in                  |
+| `Ridden`                | Number of times the bull was successfully ridden           |
+| `Outs`                  | Number of times the bull was scheduled to be ridden        |
+| `Rides`                 | Number of successful rides on the bull                     |
+| `Buckoffs`              | Number of unsuccessful rides on the bull                   |
+| `Avg BullScore`         | Average score for successful rides on the bull             |
+| `Highest BullScore`     | Highest score achieved by a rider on this bull             |
+| `Avg Buckoff Time`      | Average time a rider spends on the bull before bucking off |
+| `45Pt Rides`            | Number of rides scoring 45 points or above on this bull    |
+
+</details>
+
+Download data: [Bulls_PBR_TPD_2023.csv](../data/Bulls_PBR_TPD_2023.csv)
+
+### Questions
+
+`1.` What are the most significant predictors of a bull rider's final points?
+
+`2.` What is the stronger model for predicting PBR's final points?
+
+`3.` Are there any outliers or a potential influential point? How would we handle these point(s)?
+
+`4.` If we want to create a new variable in the PBR dataset, how would we do that?
+
+### References:
+
+<a href="https://azcms.pbr.com/statistics/rider/?season=2023&tour=TPD-US" target="_blank">Bull Rider's Data</a>
+
+<a href="https://azcms.pbr.com/statistics/bull/" target="_blank">Bull's Data</a>
+
+[PBR Touring Pro Division Results Page](https://pbr.com/tours/touring-pro-division/results){target="_blank"}
+
+[Link to the Photo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bull-Riding2-Szmurlo.jpg/800px-Bull-Riding2-Szmurlo.jpg)

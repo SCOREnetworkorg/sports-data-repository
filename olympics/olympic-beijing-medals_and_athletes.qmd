@@ -1,0 +1,85 @@
+---
+title: Beijing 2022 Winter Olympics Data
+author: Eric Seltzer
+date: February 28, 2024
+description: These datasets contain both athlete information and medal winner information from the Beijing 2022 Olympic Winter Games.
+categories:
+  - Data Cleaning
+  - Summarization
+  - Merging
+editor:
+  markdown: 
+    canonical: true
+---
+
+## Motivation
+
+The data comes from a kaggle page that contains a total of 10 different data sets. If we are interested in figuring out which country won the most gold medals, or if certain attributes have an impact on their chances to medal these data sets can show us that. To do this we have to access data from the multiple files and connect them together. This can be done through cleaning the data, wrangling with dyplr functions, and using join statements.
+
+## Data
+
+There are two data sets here, athletes and medals.
+
+The first athletes contains information on individual athletes. Each row in this data set represents a different athlete that competed at the Beijing 2022 Olympic Winter Games. This data set has 2897 rows and 14 columns.
+
+| Variable          | Description                      |
+|-------------------|----------------------------------|
+| name              | Athlete Name                     |
+| short_name        | Athlete Name(short)              |
+| gender            | Athlete Gender                   |
+| birth_date        | Athlete Date of Birthday         |
+| birth_place       | Athlete Place of Birthday        |
+| birth_country     | Athlete Country of Birthday      |
+| country           | Athlete Country                  |
+| country_code      | Athlete Country Code             |
+| discipline        | Discipline                       |
+| discipline_code   | Discipline Code                  |
+| residence_place   | Athlete Residence Place          |
+| residence_country | Athlete Residence Country        |
+| height_m/ft       | Athlete Height (meters and feet) |
+| url               | Athlete Profile Link             |
+
+: [athletes.csv](data/beijing_athletes.csv)
+
+The second medals contains information on medal winners. Each row in this data set represents a medal won in the Beijing 2022 Olympic Winter Games. This can mean Gold, Bronze, or Silver medals. This data set has 694 rows and 12 columns.
+
+| Variable           | Description                       |
+|--------------------|-----------------------------------|
+| medal_type         | Medal Type (Gold, Bronze, Silver) |
+| medal_code         | Medal Number (1, 2, 3)            |
+| medal_date         | Date Medal Won                    |
+| athlete_short_name | Athlete Name (Short)              |
+| athlete_name       | Athlete Name                      |
+| athlete_sex        | Athlete Gender                    |
+| athlete_link       | Athlete Profile Link              |
+| event              | Event Competed In                 |
+| country            | Country                           |
+| country_code       | Country Code                      |
+| discipline         | Discipline                        |
+| discipline_code    | Discipline Code                   |
+
+: [medals.csv](data/beijing_medals.csv)
+
+## Questions
+
+Exercise 1. See if you can apply some of these techniques shown above to the athletes data set. Here is a list of what you should do.
+
+1a. Create a first and last name column and get rid of the short_name column.
+
+1b. Make gender a factored variable.
+
+1c. Get rid of country_code, discipline_code, residence_place, residence_country, and url.
+
+1d. See if you can figure out how to separate the height variable into just meters and convert it into a numeric value.
+
+Exercise 2. Using the example above and the filter function in the dplyr package, lets see which country has the most gold medal winners using medal_type.
+
+Exercise 3. Now try finding which country has the most silver medals using medal_code.
+
+Exercise 4. Finally, figure out what discipline the United States of America received the most medals in.
+
+Exercise 5. Think about how you would go about combining both the athletes and medals data sets and what the differences between different join functions would do.
+
+## References
+
+[Beijing 2022 Winter Olympic Games](https://www.kaggle.com/datasets/piterfm/beijing-2022-olympics?resource=download){target="_blank"}

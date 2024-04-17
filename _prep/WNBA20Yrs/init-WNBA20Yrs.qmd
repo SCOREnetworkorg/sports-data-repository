@@ -1,0 +1,48 @@
+---
+title: "data_cleaning"
+format: html
+editor: visual
+---
+
+The following code can be used to recreate the `wnba_data.csv` file.
+
+```{r}
+library(wehoop)
+library(tidyverse)
+```
+
+```{r}
+team_data <- load_wnba_team_box(
+  seasons = 2003:2022)
+```
+
+```{r}
+# filter for actual teams
+team_data <- team_data %>% filter(team_id <= 20)
+```
+
+```{r}
+# views teams
+team_data %>% filter(season == 2008) %>% select(team_id, team_display_name) %>% distinct() %>% arrange(team_id)
+```
+
+```{r}
+# make new team name variable for teams that changed their name
+team_data <- team_data %>% mutate(team_name = case_when(team_id == 3 ~ 'Dallas Wings',
+                                           team_id == 17 ~ 'Las Vegas Aces',
+                                           TRUE ~ team_display_name)) 
+```
+
+```{r}
+# Select the variables we want to keep
+wnba_data <- team_data %>% select(game_id, season, season_type, game_date, team_id, team_display_name, team_winner, opponent_team_id, team_home_away)
+```
+
+```{r}
+# Filter for what we need
+wnba_data <- team_data %>% select(game_id, season, season_type, game_date, team_id, team_display_name, team_winner, opponent_team_id, team_home_away)
+```
+
+```{r}
+wnba_data %>% write.csv("wnba_data.csv", row.names = FALSE)
+```

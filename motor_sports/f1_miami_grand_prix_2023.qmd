@@ -1,0 +1,47 @@
+---
+title: "2023 Miami Grand Prix Lap Data"
+author: "Norah Kuduk"
+date: March 7, 2024
+description: Use Minitab or other statistical software to gather summary statistics about the 2023 F1 Miami GP a
+categories:
+  - summary statistics
+  - histogram analysis
+  - data interpretation
+editor:
+  markdown: 
+    canonical: true
+---
+
+## Motivation
+
+Formula 1 (F1) Racing is the highest class of single-seater auto racing sanctioned by the Fédération Internationale de l'Automobile (FIA). Each year, an F1 season features a series of races, known as Grand Prix, which are held in a variety of countries and circuit types. Each of these circuits have their own characteristic's that make the race unique, ranging from overall track layout and location, to specific corners and race-day weather conditions. Each season, teams and drivers compete for the World Constructors' Championship and the World Drivers' Championship, respectively. For the full history and more information about the sport, visit F1's Wikipedia page [here](https://en.wikipedia.org/wiki/Formula_One){target="_blank"} or their website [here](https://www.formula1.com/){target="\"_blank"}.
+
+At the time of racing, the [2023 Miami Grand Prix](https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix){target="\"_blank"} was only the 11th time in F1's history where all cars that started the race crossed the finish line. This meant that there were no crashes, mechanical failures, or race-ending driver mistakes. In addition, there were also no yellow or red flags issued to indicate an incident on or off the track ahead. In addition, there were no safety cars deployed that could slow or bring the field together.
+
+## Data
+
+The data set contains 1138 rows and 7 columns. Each row represents a single lap by a driver who competed in the 2023 F1 Miami Grand Prix. It is important to note that Oscar Piastri and Logan Sargeant were each lapped once, meaning that they each have 56 rows of lap data, rather than the 57 of the other 18 drivers.
+
+| Variable        | Description                                      |
+|-----------------|--------------------------------------------------|
+| driverId        | Unique identifier for each driver                |
+| driverName      | The full name of the driver                      |
+| constructorId   | Unique identifier for each constructor           |
+| constructorName | Commonly used name of each constructor           |
+| lap             | The lap number                                   |
+| lapTime         | The time taken to complete the lap, in seconds   |
+| lapPosition     | The position of the driver at the end of the lap |
+
+: [miami2023_data.csv](../data/miami2023_data.csv)
+
+## Questions
+
+1.  Investigate the distribution of lap times for a particular constructor or driver.
+
+2.  Determine if there's a significant difference in the average lap times between two drivers or constructor.
+
+3.  Detect outliers for a specific driver or constructor over the course of the race.
+
+## References
+
+[Formula 1 World Championship (1950 - 2023)](https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020){target="_blank"}

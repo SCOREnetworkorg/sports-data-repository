@@ -1,0 +1,84 @@
+---
+title: "Data Manipulation: Webscraping and Cleaning Data"
+author: "Matt Maslow"
+format: html
+---
+
+
+```{r}
+library(tidyverse)
+library(rvest)
+library(httr)
+```
+
+
+# Webscrape the Data
+
+```{r}
+# webscraping for the Bull Riders data (2023 Touring Pro Division)
+url1 <- "https://azcms.pbr.com/statistics/rider/?season=2023&tour=TPD-US"
+rider_data <- url1 %>%
+  read_html() %>%
+  html_nodes("table") %>%
+  html_table() %>%
+  .[[1]]
+rider_data %>% head()
+```
+
+```{r}
+# webscraping for the Bull's data (2023 Touring Pro Division)
+url2 <- "https://azcms.pbr.com/statistics/bull/?season=2023&tour=TPD-US"
+rbull_data <- url2 %>%
+  read_html() %>%
+  html_nodes("table") %>%
+  html_table() %>%
+  .[[1]]
+rbull_data %>% head()
+```
+
+# Clean the Data
+
+# Bull Rider Data
+
+```{r}
+rider_data <- 
+  rider_data %>%
+  rename(Rider = Name, prop.Ridden = `% Ridden`) %>%
+  separate(`Outs / Rides / Buckoffs`, into = c("Outs", "Rides", "Buckoffs"), sep = " / ") %>%
+  mutate(Outs = as.numeric(Outs),
+         Rides = as.numeric(Rides),
+         Buckoffs = as.numeric(Buckoffs),
+         Earnings = ifelse(!is.na(Earnings), as.numeric(gsub("[^0-9.]", "", Earnings)), NA),
+         `Points Back` = ifelse(!is.na(`Points Back`), as.numeric(gsub("[^0-9.]", "", `Points Back`)), NA),
+         prop.Ridden = as.numeric(gsub("[^0-9.]", "", prop.Ridden))
+         )
+```
+
+
+## Bull Data
+
+```{r}
+rbull_data <-
+  rbull_data %>%
+  rename(Bull = Name) %>%
+  separate(`Outs / Ridden / Buckoffs`, into = c("Outs", "Rides", "Buckoffs"), sep = " / ") %>%
+  mutate(Outs = as.numeric(Outs),
+         Rides = as.numeric(Rides),
+         Buckoffs = as.numeric(Buckoffs)
+         )
+```
+
+
+
+
+# Write the New CSV from the Webscraped Data
+
+```{r}
+# write_csv(rider_data, "BullRiders_PBR_TPD_2023.csv")
+
+# write_csv(rbull_data, "Bulls_PBR_TPD_2023.csv")
+```
+
+
+
+
