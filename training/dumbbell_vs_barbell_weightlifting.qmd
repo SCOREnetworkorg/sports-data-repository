@@ -1,0 +1,48 @@
+---
+title: "Ratio Between Dumbbell Press and Flat Bench Press "
+author: "Vivian Johnson" 
+date: "June 4, 2024" 
+
+categories:
+  - Histogram 
+  - Mean, IQR 
+  - One Sample T-Interval 
+---
+
+## Motivation
+
+Weightlifters may be inclined to track the specific ratio between flat dumbbell press and barbell bench press. Flat dumbbell press is when the lifter lies on a flat bench with their arms positioned at roughly 45 degree angles, lifts two equal sized dumbbells, brings them back to the chest, and then keeps going. Barbell bench press is when the lifter lies on a bench and lifts a horizontal bar (the barbell) with equal weighted plates on both sides and brings it back down to the chest.
+
+The ratio of flat dumbbell press to barbell bench press works to track how much someone is lifting two dumbbells compared to how much they are able to lift the weighted barbell. When calculating the ratio, it was multiplied by two in order to account for the total weight lifted when doing a flat dumbbell press, as there are two dumbbells that would have to be held by the lifter.
+
+**An example of this is as follows:**
+
+*Say Melissa is able to flat dumbbell press two 30 lbs dumbbells. The total amount she can flat dumbbell press is 60 lbs (one dumbbell for each arm). On flat bench press, she can lift 75 lbs. Her ratio would be calculated by dividing flat dumbbell press by barbell bench press (60/75) which equals 0.8, meaning that Melissa can lift two dumbbells up to 80% as heavy as she can bench press the barbell.*
+
+Many weightlifters like to track this ratio to work towards specific strength goals and target any weakness in certain muscle groups. For example, if someone's ratio is low (i.e. they can barbell bench press much more than they can flat dumbbell press), it highlights that they might want to work on targeting the muscles used in flat dumbbell press. Since the two exercises can focus on different muscle groups, weightlifters like this ratio as a tool for seeing where progress could be made. Weightlifters also use this ratio as a measure of progress. A common goal in weightlifting is to increase the ratio, and as one continues lifting, their starting ratio is often compared to their current one. While many professional weightlifters use this ratio for tracking progress and examining muscle balance, it isn't an official statistic used in competitions, only a personal one. 
+
+## Data
+
+The `dumbbell_barbell_weight_ratio` data set contains observed strength ratios from 18 different weightlifters. Each row represents a different weightlifter.
+
+| Variable | Description                                             |
+|----------|---------------------------------------------------------|
+| Ratio    | Flat dumbbell press to barbell bench press weight ratio |
+
+: [dumbbell_barbell_weight_ratio.csv](../data/dumbbell_barbell_weight_ratio.csv)
+
+## Questions
+
+1.  What percent of weight lifters had a ratio above 0.65?
+2.  Construct a 90% confidence interval for the average weightlifter's ratio and interpret it in context.
+3.  Using the mean, explain whether or not you believe the variance of the data set to be high or low.
+4.  What would a ratio greater than one suggest?
+5.  What potential problems could arise from the way the data was collected?
+
+## References
+
+[how_much_do_you_dumbbell_flat_bench_compared_to (Reddit)](https://www.reddit.com/r/Fitness/comments/35q4i3/how_much_do_you_dumbbell_flat_bench_compared_to/)
+
+The data is compiled from a Reddit thread where users self reported their weight and it was compiled into a list of ratio.
+
+

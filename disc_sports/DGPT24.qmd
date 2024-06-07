@@ -1,0 +1,81 @@
+---
+title: 2024 Disc Golf Pro Tour MPO Statistics
+author: Gavin Cassidy
+date: June 6, 2024
+description: DGPT statistics containg, scoring, throwing, putting, placement, and earning statistics. We will look at the correlation between throwing and putting statistics, and the success of a player.
+categories:
+  - Correlation
+---
+
+## Motivation
+
+Disc golf is a sport where players throw discs from a teeing area and try to get them into a basket in a few strokes as possible. Similarly to ball golf, players compete with a bag of discs that include drivers, midranges, and putters, and try to achieve a score of par or better every hole. The Disc Golf Pro Tour is the main professional disc golf tour that holds tournaments across the United States and Europe where Disc Golfers from all around the world can compete. The DGPT tracks putting and driving statistics for each player across all of their events and the top 40% of finishers in each event receive cash for their performance.
+
+## Data
+
+The DGPT data set contains 97 rows and 25 columns where each row is a disc golfer's statistics from the first 11 events of 2024 Disc Golf Pro Tour season. Each row includes a players average scoring, throwing, and putting statistics, as well as cumulative and average placement and earning statistics. This data set include each player who finished above the cash line at least 1 tournament in the first 11 events of the DGPT season. The columns are as follows:
+
+| Variable       | Description                                                                   |
+|---------------------|---------------------------------------------------|
+| player         | player name                                                                   |
+| birdie_avg     | the average number of birdies from an 18 hole round                           |
+| bogey_avg      | the average number of bogeys from an 18 hole round                            |
+| PKD            | the percentage of shots a player has 'parked' (within 10 ft of the basket)    |
+| C1R            | the percent of shots throw within 'Circle 1'(0-33ft) in regulation            |
+| C2R            | the percent of shots throw within 'Circle 2'(33-66ft) in regulation           |
+| FWY            | the percent fairways hit with drives                                          |
+| SCR            | the percent of successful 'scrambles' the player achieves                     |
+| OB/18          | the average total out of bounds shots for 18 holes                            |
+| C1X            | the percent of putts made from C1 excluding tap in putts(0-10ft)              |
+| C2P            | the percent of putts made from C2 (33-66ft)                                   |
+| tot_SG:TG      | the total 'Strokes Gained' on the rest of the field from the tee to the green |
+| tot_SG:P       | the total 'Strokes Gained' on the rest of the field putting                   |
+| events         | total events played for the 2024 DGPT season                                  |
+| rounds         | total rounds played for the 2024 DGPT season                                  |
+| wins           | wins from the 2024 DGPT season                                                |
+| podiums        | total podium placements from the 2024 DGPT season                             |
+| top_10s        | total top 10 placements from the 2024 DGPT season                             |
+| top_20s        | total top 20 placements from the 2024 DGPT season                             |
+| avg_place      | average event placement from the 2024 DGPT season                             |
+| top_10%        | percent of events where the player placed in the top 10                       |
+| top_20%        | percent of events where the player placed in the top 20                       |
+| total_earnings | the players total earnings from the 2024 DGPT season                          |
+| total_strokes  | the total number of shots the player has taken during the DGPT season         |
+
+
+: [DGPT24.csv](../data/DGPT24.csv)
+
+
+::: {.callout-note collapse="true" title="Important Disc Golf Terms" appearance="minimal"}
+**Parked(PKD):** When a player throws their disc within 10 feet of the basket with a tee shot on par 3s or an approach shot on par 4s and 5s. A score of eagle or better also counts as a shot being parked.
+
+**Circle 1 in Regulation(C1R):** When a player's disc comes to rest within 10m(33ft) of the basket in the expected amount of shots. This is their tee shot on a par 3, 2nd shot on a par 4, and third shot on a par 5. C1 is defined by a 10m circle around the basket.
+
+**Circle 2 in Regulation(C2R):** This has the same definition as Circle 1 in Regulation, but Circle 2 extends to within 20m(66ft) of the basket.
+
+**Fairways Hit(FWY):** This is the percent of holes where the player lands on the fairway with their drive. This includes being inside Circle 1 or 2 on a drive.
+
+**Scramble(SCR):** A scramble is when a player scores par or better on a hole after missing the fairway or being out-of-bounds. Scramble percentage is the percentage of holes where a player scored par or better after an errant drive.
+
+**Circle 1X putting(C1X):** The putting percentage of the player from within Circle 1 (10m/66ft), excluding tap in putts within 10ft of the basket.
+
+**Circle 2 putting(C2P):** The putting percentage of the player from Circle 2 (10m-20m/33ft-66ft).
+
+**Strokes Gained Tee to Green(SG:TG):** This is the number of strokes by which the player has exceeded the average throwing performance of the field on drives and approaches.
+
+**Strokes Gained Putting(SG:P):** This is the number of strokes by which the player has exceeded the average putting performance of the field in circle 1 and 2.
+:::
+
+## Questions
+
+1.  What statistics are most strongly correlated with successful performances (total_earnings, wins, avg_place)?
+
+2.  If a player were to improve in a specific statistic, how would you expect his scoring to change(average birdies or bogeys)?
+
+3.  Does the old golf saying "Drive for show, putt for dough" apply to disc golf? Are wins or total earnings more correlated with putting?
+
+## References
+
+Profession Disc Golf Association via. StatMando, 2024, 2024 MPO DGPT Season Stats. [https://statmando.com/stats/season-stats-main-dgpt-2024-mpo](https://statmando.com/stats/season-stats-main-dgpt-2024-mpo){target="_blank"}
+
+Profession Disc Golf Association via. StatMando, 2024, Stats for Majors and Elite Events: 2024 (MPO). [https://statmando.com/stats/stats-elite-series-majors-2024-mpo](https://statmando.com/stats/stats-elite-series-majors-2024-mpo){target="_blank"}

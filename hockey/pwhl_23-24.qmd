@@ -1,0 +1,54 @@
+---
+title: 2023-24 PWHL Skaters 
+author: Brendan Karadenes
+date: June 6, 2024
+description: The data set looks at statistics from PWHL skaters during the 2023-24 regular season. If possible, give a brief summary of the sports problem and statistical situation.
+categories:
+  - data visualization
+  - data wrangling
+  - exploratory data Analysis
+editor:
+  markdown: 
+    canonical: true
+---
+
+## Motivation
+
+The Professional Woman's Hockey League (PWHL) began in 2023 in the United States and Canada. The league contains six franchises and contains players from 11 different countries. Analyzing the results of the skaters gives exposure to the new league and insights into the athletes that competed in the inaugural season.
+
+## Data
+
+The data set contains 147 rows of 16 variables. Each row representing a player during the 2023-24 PWHL season.
+
+| Variable   | Description                                                           |
+|------------|-----------------------------------------------------------------------|
+| Rk         | League ranking for number of total points                             |
+| Name       | First and last name of the player                                     |
+| Age        | Age in years of the player                                            |
+| Pos        | Position of the player, either Goalie (G), Defense (D) or Forward (F) |
+| GP         | Number of games played by the player                                  |
+| G          | Number of goals by the player                                         |
+| A          | Number of assists by the player                                       |
+| P          | Number of points by the player (Goals + Assists)                      |
+| PIM        | Penalty minutes accumulated by the player                             |
+| Plus_Minus | Plus/Minus rating for the player                                      |
+| PPG        | Points per game for the player                                        |
+| SHG        | Number of short-handed goals for the player                           |
+| GWG        | Number of game winning goals for the player                           |
+| G_Per_GP   | Number of goals per games played                                      |
+| A_Per_GP   | Number of assists per games played                                    |
+| P_Per_GP   | Number of points per games played                                     |
+
+: [pwhl_23-24.csv](../data/pwhl_23-24.csv)
+
+## Questions
+
+-   Explore the relationship between goals per game played and position.
+-   Use dplyr to create some new variables and explain what they do.
+-   Describe shape, skew, and noting any outliers of visualizations displaying the data.
+
+## References
+
+Quant Hockey
+
+<https://www.quanthockey.com/pwhl/en/seasons/pwhl-players-stats.html>
