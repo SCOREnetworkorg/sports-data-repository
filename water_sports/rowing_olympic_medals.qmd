@@ -1,0 +1,49 @@
+---
+title: Olympic Rowing Medals Between 1896 and 2022
+author: Abigail Smith
+date: June 5, 2024
+description: The total number of medals and the weighted points for nations competing in rowing events in the Summer Olympic Games between 1896 and 2022. 
+categories:
+  - distribution and skewness
+  - outlier detection
+  - summary statistics
+  - confounding variable
+  
+editor: 
+  markdown: 
+    wrap: 72
+---
+## Motivation
+
+The Summer Olympic Games are an international athletics event held every four years and hosted in different countries around the world. Rowing was added to the Olympics in 1896 and has been in every Summer Olympics since. Rowing races in the Olympic context are typically regatta style, meaning that there are multiple boats racing head to head against each other in multiple lanes. Since 1912, the standard distance for Olympic regattas has been 2000m, but until then there had been a range in distances. The boat that is first to cross the finish line is awarded a gold medal, the second a silver medal, and the third a bronze. Over the course of its time as an Olympic sport there have been 25 different event entries. These events range with the number of rowers in the boat (1, 2, 4, 6, 8, 17), the rigging (inrigged, outrigged), sculling, sweeping, and whether or not they are coxed. An inrigged shell means the riggers (where the oar is attached to the boat) are on the inside of the boat, outrigged shells mean the riggers are on the outside. Sculling is where the rowers have an oar on each side and sweeping is when each rower only has one oar on one side. The coxswain steers the boat and guides the rowers, some events have coxed boats whereas some others do not. The total_medals and total_points have been divided by the number of athletes in each event so that the medals are counted towards the whole team not just the athletes. In looking at the total medals and total points for each nation, it is interesting to see which nations dominate in Olympic rowing. Additionally, looking at the overall distribution of the medals for all countries provides insight on just how lob-sided medaling can be in rowing at the Olympic level. 
+
+## Data
+
+In the data set there are 101 nations competing in 25 events, each row represents a combination of an event and the country competing in that event. In total, there are 733 rows with 5 variables. The data is cumulative of the 120 years in the original data set. 
+
+| Variable | Description                                                                                                                |
+|-------------------|-----------------------------------------------------|
+| `Event` | The event the nation competed in. |
+| `NOC` | National Olympic Committee or the nation competing. |
+| `Number of Athletes`| The number of athletes in the boat for that event. |
+| `total_medals` | The total number of medals for that country in that event. |
+| `total_points` | The total number of points for that country in that event. The points are scaled with a gold medal counting for 3 points, a silver for 2, and a bronze for 1. |
+
+: [rowing_medals.csv](../data/rowing_medals.csv)
+
+[*Data Prep File*](../_prep/rowing_olympic_medals/init-rowing_olympic_medals.qmd)
+
+
+## Questions
+
+1.    Describe the distribution of the total_medals for all countries in all events.
+
+2.    Obtain the summary statistics for total_points for all countries in all events. 
+
+3.    USA has 94.2 points in the women's coxed eight event, determine whether or not that is an outlier. 
+
+4.    Based on the distribution of total_medals amongst the countries in the dataset, would it be fair to assume that poverty is a confounding variable? Explain why or why not
+
+## References
+
+[Kaggle Original Dataset](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results?resource=download)

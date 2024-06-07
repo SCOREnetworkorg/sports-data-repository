@@ -1,0 +1,32 @@
+---
+title: "tennis_prep"
+author: "eric seltzer"
+format: html
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+# can download updated data from Wheelo Ratings, make sure to select All and not All combined
+# read in the data
+# this file comes from this website: https://www.wheeloratings.com/tennis_atp_stats_last52.html
+tennis <- read_csv("original_tennis.csv")
+```
+
+```{r}
+# select whichever variables you want to use
+# and change surface to a factored variable and get rid of all
+tennis <-
+  tennis |>
+  select(c(Player, Surface, ReturnPointsWonPercentage, DoubleFaultPercentage, WinPercentage)) |>
+  filter(Surface != "All") |>
+  mutate(Surface = as_factor(Surface))
+```
+
+```{r}
+# write the reduced file as a new csv
+write_csv(tennis, "atp-tennis.csv")
+```
+

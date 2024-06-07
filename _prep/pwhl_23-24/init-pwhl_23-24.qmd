@@ -1,0 +1,73 @@
+---
+title: "PWHL_Cleaning"
+author: "Brendan Karadenes"
+format: html
+---
+
+## Step 1: Setting up the data
+
+```{r}
+# Import Packages
+library(tidyverse)
+library(readxl)
+# Load and join data
+# hockey 1, 2, and 3 are from clicking the export to excel button on the
+# website
+# https://www.quanthockey.com/pwhl/en/seasons/pwhl-players-stats.html
+hockey1 <- read_excel("hockey1.xlsx")
+hockey2 <- read_excel("hockey2.xlsx")
+hockey3 <- read_excel("hockey3.xlsx")
+data1 <- full_join(hockey1, hockey2)
+PWHL_data <- full_join(data1, hockey3)
+```
+
+```{r}
+## Remove top row
+names(PWHL_Scoring) <- NULL
+
+# Set the current first row as new variable names
+names(PWHL_Scoring) <- as.character(unlist(PWHL_Scoring[1, ]))
+
+# Remove the first row, now that it's been set as variable names
+PWHL_Scoring <- PWHL_Scoring[-1, ]
+```
+
+```{r}
+# Removing NA columns
+PWHL_Scoring <- PWHL_Scoring[ , colSums(is.na(PWHL_Scoring))==0]
+```
+
+## Step 2: Cleaning Dataset
+
+```{r}
+# Renaming columns to make easier to use
+# Switching columns from character to numeric
+PWHL_Scoring <- PWHL_Scoring %>%
+  rename(Plus_Minus = `+/-`,
+         G_Per_GP = `G/GP`,
+         A_Per_GP = `A/GP`,
+         P_Per_GP = `P/GP`) %>%
+  mutate(Rk = as.numeric(Rk),
+         Age = as.numeric(Age),
+         GP = as.numeric(GP),
+         G = as.numeric(G),
+         A = as.numeric(A),
+         P = as.numeric(P),
+         PIM = as.numeric(PIM),
+        Plus_Minus = as.numeric(Plus_Minus),
+        PPG = as.numeric(PPG),
+        SHG = as.numeric(SHG),
+        GWG = as.numeric(GWG),
+        G_Per_GP = as.numeric(G_Per_GP),
+        A_Per_GP = as.numeric(A_Per_GP),
+        P_Per_GP = as.numeric(P_Per_GP))
+```
+
+```{r}
+# writing the new cleaned data as csv file
+write.csv(PWHL_Scoring, "PWHL_Final.csv", row.names = FALSE)
+```
+
+
+
+
