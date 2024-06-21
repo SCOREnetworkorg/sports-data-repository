@@ -1,8 +1,8 @@
 ---
-title: Olympic Rowing Medals Between 1896 and 2022
+title: Olympic Rowing Medals Between 1900 and 2022
 author: Abigail Smith
 date: June 5, 2024
-description: The total number of medals and the weighted points for nations competing in rowing events in the Summer Olympic Games between 1896 and 2022. 
+description: The total number of medals and the weighted points for nations competing in rowing events in the Summer Olympic Games between 1900 and 2022. 
 categories:
   - distribution and skewness
   - outlier detection
@@ -15,19 +15,23 @@ editor:
 ---
 ## Motivation
 
-The Summer Olympic Games are an international athletics event held every four years and hosted in different countries around the world. Rowing was added to the Olympics in 1896 and has been in every Summer Olympics since. Rowing races in the Olympic context are typically regatta style, meaning that there are multiple boats racing head to head against each other in multiple lanes. Since 1912, the standard distance for Olympic regattas has been 2000m, but until then there had been a range in distances. The boat that is first to cross the finish line is awarded a gold medal, the second a silver medal, and the third a bronze. Over the course of its time as an Olympic sport there have been 25 different event entries. These events range with the number of rowers in the boat (1, 2, 4, 6, 8, 17), the rigging (inrigged, outrigged), sculling, sweeping, and whether or not they are coxed. An inrigged shell means the riggers (where the oar is attached to the boat) are on the inside of the boat, outrigged shells mean the riggers are on the outside. Sculling is where the rowers have an oar on each side and sweeping is when each rower only has one oar on one side. The coxswain steers the boat and guides the rowers, some events have coxed boats whereas some others do not. The total_medals and total_points have been divided by the number of athletes in each event so that the medals are counted towards the whole team not just the athletes. In looking at the total medals and total points for each nation, it is interesting to see which nations dominate in Olympic rowing. Additionally, looking at the overall distribution of the medals for all countries provides insight on just how lob-sided medaling can be in rowing at the Olympic level. 
+The Summer Olympic Games are an international athletics event held every four years and hosted in different countries around the world. Rowing was added to the Olympics in 1896 but was cancelled due to weather, it has been in every Summer Olympics since 1900. Rowing races in the Olympic context are typically regatta style, meaning that there are multiple boats racing head to head against each other in multiple lanes. Since 1912, the standard distance for Olympic regattas has been 2000m, but until then there had been a range in distances. The boat that is first to cross the finish line is awarded a gold medal, the second a silver medal, and the third a bronze. Over the course of its time as an Olympic sport there have been 25 different event entries. These events are separated by gender and range with the number of rowers in the boat (1, 2, 4, 6, 8, 17), the rigging (inrigged, outrigged), sculling, sweeping, and whether or not they are coxed. An inrigged shell means the riggers (where the oar is attached to the boat) are on the inside of the boat, outrigged shells mean the riggers are on the outside. Sculling is where the rowers have an oar on each side and sweeping is when each rower only has one oar on one side. The coxswain steers the boat and guides the rowers, some events have coxed boats whereas some others do not. Since the data spans so far back in time, the original dataset had some interesting issues in which some of the numbers were off for the number of medals awarded to athletes or nations. For example in the 1964 Rowing Men's Coxless 4 event, the US had 5 medals awarded instead of 4 because one of the rowers passed out after the first heat and the sub had to row in the final heat so both were given medals. Situations like this were not super common but they were frequent enough to through out the data. Using dyplyr the data has been adjusted to avoid these errors. 
+
+The `total_medals` and `total_points` are counted as one medal towards each boat as opposed to each athlete in the boat. In looking at the total medals and total points for each nation, it is interesting to see which nations dominate in Olympic rowing. Additionally, looking at the overall distribution of the medals for all countries provides insight on just how lob-sided medaling can be in rowing at the Olympic level. This effect could likely be attributed towards how much funding nations are placing towards their rowing teams.  
 
 ## Data
 
-In the data set there are 101 nations competing in 25 events, each row represents a combination of an event and the country competing in that event. In total, there are 733 rows with 5 variables. The data is cumulative of the 120 years in the original data set. 
+
+In the data set there are 41 medalling nations that competed in 25 different events. Each row represents a nation and their `total_medals` and `total_points` which are cumulative from all rowing Olympics between 1900 and 2022. In total, there are 41 rows with 3 variables. In the original dataset, there were 101 nations in rowing, but the data has been adjusted to include only nations that medalled. 
 
 | Variable | Description                                                                                                                |
 |-------------------|-----------------------------------------------------|
-| `Event` | The event the nation competed in. |
 | `NOC` | National Olympic Committee or the nation competing. |
-| `Number of Athletes`| The number of athletes in the boat for that event. |
-| `total_medals` | The total number of medals for that country in that event. |
-| `total_points` | The total number of points for that country in that event. The points are scaled with a gold medal counting for 3 points, a silver for 2, and a bronze for 1. |
+| `total_medals` | The total number of medals for that country. |
+| `total_points` | The total number of points for that country. The points are scaled with a gold medal counting for 3 points, a silver for 2, and a bronze for 1. |
+| `total_gold` | The total number of gold medals for that country. |
+| `total_silver` | The total number of silver medals for that country. |
+| `total_bronze` | The total number of bronze medals for that country. |
 
 : [rowing_medals.csv](../data/rowing_medals.csv)
 
@@ -36,14 +40,23 @@ In the data set there are 101 nations competing in 25 events, each row represent
 
 ## Questions
 
-1.    Describe the distribution of the total_medals for all countries in all events.
+1.    Describe the distribution of total_points for all countries. Is there a skew, if so, what is it and what does it mean?
 
-2.    Obtain the summary statistics for total_points for all countries in all events. 
+2.    Obtain the summary statistics for total_points. 
 
-3.    USA has 94.2 points in the women's coxed eight event, determine whether or not that is an outlier. 
+3.    The UK has 154 total_points in the dataset, determine whether or not that is an outlier. Use calculations to justify your answer.
 
 4.    Based on the distribution of total_medals amongst the countries in the dataset, would it be fair to assume that poverty is a confounding variable? Explain why or why not
+
+5.    What could be a reason for the distribution of medals and points being so heavily skewed towards certain nations winning more than others?
+
+6.	In the data set, notice that the German Democratic Republic (GDR) or East Germany is listed as a country. Since the end of the Cold War the GDR is no longer a country. What would you do with countries in the dataset that are no longer existent today? How would it impact the data?
+
+7.    There is a lot of debate about how to best weigh the points for the different types of medals, what is a method you think would be best for weighing these medals? How would the new method alter the data?
+
 
 ## References
 
 [Kaggle Original Dataset](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results?resource=download)
+
+[Olympic Medal Weighing Methods](https://www.topendsports.com/events/summer/medal-tally/rankings-weighted.htm){target="_blank"}

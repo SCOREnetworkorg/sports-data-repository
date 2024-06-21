@@ -1,0 +1,63 @@
+---
+title: "Exploring Logistic Regression Through Cricket"
+author: "Vivian Johnson" 
+date: "June 10, 2024" 
+
+categories:
+  - Multiple Logistic Regression
+---
+
+## Motivation
+
+Cricket is a game watched and played by billions of people across the world. Second in global popularity only to football (soccer), it is extremely popular in South Asia, Australia, Africa, and Europe.
+
+### The Rules of Cricket
+
+[Cricket](https://www.youtube.com/watch?v=yPXAzgwwo0A){target="_blank"} is played on a rectangular pitch inside an oval boundary. In the pitch, on either side, there is a vertical **wicket**, made up of three vertical wooden "stumps" with two wooden bails (small blocks of wood) resting atop the stumps. There are two teams, each with 11 players (a batting team and a bowling team).
+
+**The bowling team:** The bowler bounces a small leather ball at the batter. The goal of the bowler is to get the batter out and ultimately knock the bails off of the stumps.
+
+**The batting team:** The goal of the batting team is to score as many runs as possible and not let the bowler hit the bail off of the stumps. There are two batters at a time for the batting team. After the batter hits the ball, the two batters will attempt to switch sides. Each batter will go until they get out, when at that time, they will switch with another teammate.
+
+**Scoring Runs:** Each time the two batters switch sides without getting out counts as a run scored. For example, if you hit the ball and are able to run to the other wicket and back without getting out, that would score two runs for your team. If the batter hits the ball on a bounce to the oval boundary, it counts as four runs scored. If the batter hits the ball over the oval boundary on a fly, it counts as six runs.
+
+**Outs:** Below are a few common ways in which a batter can get out
+
+-   If the batter hits the ball and it is caught in the air (caught out)
+-   If a player on the bowling team throws the ball and it hits the bails off the stumps before the batter can cross the line while trying to score a run (run out)
+-   If the bowler throws the ball past the batter and it knocks a bail off the wicket
+-   If the batter gets hit in the legs by a ball that would have hit the wicket (Note: if the batter gets hit and the ball wasn't ruled as one that would have hit the wicket, the batter is not out)
+
+The duration of cricket matches can range from hours to days, depending on what format is being played, and scores are often high as each individual batter usually scores many runs on multiple pitches before getting out.
+
+## Data
+
+The `asia_cup` data set includes data from each cricket match played in all Asia Cup Tournaments from 1984 (the first one) to 2022. The Asia Cup is a tournament that now takes place every two years, alternating host cities in different countries throughout Asia.
+
+| Variable      | Description                                                              |
+|-----------------------|-------------------------------------------------|
+| Team          | One team of the match                                                    |
+| Opponent      | The team played                                                          |
+| Host          | Venue played at                                                          |
+| Year          | Tournament year played                                                   |
+| Toss          | Coin toss to determine who starts batting or bowling (0 = lost, 1 = won) |
+| Selection     | Team's selection after winning / losing the toss (0 = Batting, 1 = Bowling)                     |
+| Run Scored    | Total runs scored by that team                                           |
+| Fours         | Total scored fours for that team                                         |
+| Sixes         | Total scored sixes for that team                                         |
+| Extras        | Amount of extra runs scored by that team                                 |
+| Highest Score | Highest individual number of runs scored                                 |
+| Result        | 0 = lost match, 1 = won match                                            |
+| Given Extras  | Number of extra runs given up                                            |
+
+Data Download: [cricket_asia_cup.csv](../data/cricket_asia_cup.csv)
+
+## Questions
+
+1.  Building Simple Logistic Regression and Multiple Logistic Regression
+2.  Interpreting Logistic Regression
+3.  Finding odds and log odds of an event
+
+## References
+
+[Asia Cup 1984-2022](https://www.kaggle.com/datasets/hasibalmuzdadid/asia-cup-cricket-1984-to-2022/data){target="_blank"}

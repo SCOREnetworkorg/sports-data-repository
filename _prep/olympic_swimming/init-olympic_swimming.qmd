@@ -1,0 +1,74 @@
+---
+title: "Prep File"
+author: "Brendan Karadenes"
+format: html
+---
+
+```{r}
+library(tidyverse)
+library(here)
+# csv downloaded from Kaggle
+# https://www.kaggle.com/datasets/datasciencedonut/olympic-swimming-1912-to-2020
+swimming <- read.csv(here("Olympic_Swimming_Results_1912to2020.csv"))
+```
+
+# Cleaning Data Set
+
+```{r}
+swimming <- swimming %>%
+  rename(Relay = Relay.) %>%
+  rename(dist_m = Distance..in.meters.) %>%
+  mutate(Results = as.numeric(Results)) %>%
+  filter(!is.na(Results)) 
+```
+
+```{r}
+swimming <- swimming %>%
+  rename(Relay = Relay.) 
+```
+
+```{r}
+swimming$dist_m <- gsub("m", "", swimming$dist_m)
+```
+
+```{r}
+swimming <- swimming %>%
+  mutate(dist_m = as.numeric(dist_m))
+```
+
+```{r}
+swimming <- swimming %>%
+  select(-Relay)
+```
+
+# Filtering for 100m races
+
+```{r}
+swimming <- swimming %>%
+  filter(dist_m == 100)
+```
+
+# Add time period variable
+
+```{r}
+swimming <- swimming %>%
+  mutate(time_period = case_when(
+    Year >= 1924 & Year < 1976 ~ "early",
+    Year >= 1976 & Year <= 2020 ~ "recent"
+  ))
+```
+
+# Writing cleaned data as csv
+
+```{r}
+write.csv(swimming, "olympic_swimming.csv", row.names = FALSE)
+```
+
+
+
+
+
+
+
+
+

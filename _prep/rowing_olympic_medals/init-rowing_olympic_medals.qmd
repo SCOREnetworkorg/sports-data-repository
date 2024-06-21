@@ -15,7 +15,7 @@ library(readr)
 Find the dataset on [this link](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results?resource=download) and download it. 
 
 ```{r}
-athletes_df <- read_csv("medals.csv")
+athletes_df <- read_csv("athlete_events.csv")
 ```
 
 # Set up rowing_df
@@ -24,47 +24,46 @@ athletes_df <- read_csv("medals.csv")
 rowing_df <- athletes_df |> filter(Sport == "Rowing")
 ```
 
-# Set up medals
+```{r}
+rowing_df <- rowing_df |> filter(!is.na(Medal))
+```
+
+# Set up so that one athlete for each team represents the team
 
 ```{r}
-country_event <- rowing_df |> group_by(Event, NOC) |> summarise()
+country_event <- rowing_df |> 
+  group_by(Year, Event, Medal, NOC) |> 
+  select(Year, Event, NOC, Medal) |>
+  slice(1) |> 
+  arrange(Year, Event, Medal)
 ```
 
 ```{r}
-write_excel_csv(country_event, "country_event.csv")
+country_medals <- country_event |> 
+  mutate(n_point= case_when(
+      Medal == "Gold" ~ 3, 
+      Medal == "Silver" ~ 2, 
+      Medal == "Bronze" ~ 1), 
+    n_gold = case_when(
+      Medal == "Gold" ~ 1, 
+      Medal == "Silver" ~ 0, 
+      Medal == "Bronze" ~ 0), 
+    n_silver = case_when(
+      Medal == "Gold" ~ 0, 
+      Medal == "Silver" ~ 1,
+      Medal == "Bronze" ~ 0),
+    n_bronze = case_when(
+      Medal == "Gold" ~ 0,
+      Medal == "Silver" ~ 0,
+      Medal == "Bronze" ~ 1)) |> 
+  group_by(NOC) |>
+  summarise(total_medals = n(), 
+            total_points = sum(n_point),
+            total_gold = sum(n_gold), 
+            total_silver = sum(n_silver),
+            total_bronze = sum(n_bronze))
 ```
 
 ```{r}
-events <- rowing_df |> group_by(Event) |> summarise()
-```
-
-```{r}
-write_excel_csv(events, "events.csv")
-```
-
-```{r}
-# `Number of Athletes` was edited manually in an excel file and then read back in a csv file
-events_athletes <- read_csv("events_athletes.csv")
-```
-
-```{r}
-events_noc_athletes <- left_join(country_event, events_athletes, by = "Event")
-```
-
-```{r}
-rowingsum <- rowing_df |> mutate(n_medal= case_when(Medal == "Gold" ~ 1, Medal == "Silver" ~ 1, Medal == "Bronze" ~ 1, is.na(Medal) ~ 0)) |> mutate(n_point= case_when(Medal == "Gold" ~ 3, Medal == "Silver" ~ 2, Medal == "Bronze" ~ 1, is.na(Medal) ~ 0)) |> group_by(NOC) |> summarise(total_medals = sum(n_medal), total_points = sum(n_point))
-```
-
-```{r}
-complete <- left_join(events_noc_athletes, rowingsum)
-```
-
-# Finalized medals
-
-```{r}
-medals <- complete |> mutate(total_medals = total_medals/`Number of Athletes`, total_points = total_points/`Number of Athletes`)
-```
-
-```{r}
-write_excel_csv(medals, "medals.csv")
+write_csv(country_medals, "rowing_medals.csv")
 ```
