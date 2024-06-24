@@ -6,11 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Matt Maslow">
-<meta name="dcterms.date" content="2024-03-06">
-<meta name="description" content="Investigating a collection of professional bull riders and their statistics from 2023 season for the Touring Pro Division of the Professional Bull Riding League.">
+<meta name="author" content="Vivian Johnson">
+<meta name="dcterms.date" content="2024-06-10">
 
-<title>SCORE Sports Data Repository - Professional Bull Riding Analysis</title>
+<title>SCORE Sports Data Repository - Exploring Logistic Regression Through Cricket</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -162,7 +161,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../rodeo_sports/bullriders_n_bulls_pbr_tpd_2023.html">Rodeo Sports</a></li><li class="breadcrumb-item"><a href="../rodeo_sports/bullriders_n_bulls_pbr_tpd_2023.html">Professional Bull Riding Analysis</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../cricket/cricket_data_repo.html">Cricket</a></li><li class="breadcrumb-item"><a href="../cricket/cricket_data_repo.html">Exploring Logistic Regression Through Cricket</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -263,16 +262,16 @@ cookieconsent.run({
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
  <span class="menu-text">Cricket</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../cricket/cricket_data_repo.html" class="sidebar-item-text sidebar-link">
+  <a href="../cricket/cricket_data_repo.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Exploring Logistic Regression Through Cricket</span></a>
   </div>
 </li>
@@ -481,16 +480,16 @@ cookieconsent.run({
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="false">
  <span class="menu-text">Rodeo Sports</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../rodeo_sports/bullriders_n_bulls_pbr_tpd_2023.html" class="sidebar-item-text sidebar-link active">
+  <a href="../rodeo_sports/bullriders_n_bulls_pbr_tpd_2023.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Professional Bull Riding Analysis</span></a>
   </div>
 </li>
@@ -736,32 +735,25 @@ cookieconsent.run({
   <ul>
   <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation">Motivation</a>
   <ul class="collapse">
-  <li><a href="#data-preparation" id="toc-data-preparation" class="nav-link" data-scroll-target="#data-preparation">Data Preparation</a></li>
-  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References:</a></li>
+  <li><a href="#the-rules-of-cricket" id="toc-the-rules-of-cricket" class="nav-link" data-scroll-target="#the-rules-of-cricket">The Rules of Cricket</a></li>
   </ul></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/rodeo_sports/bullriders_n_bulls_pbr_tpd_2023.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/cricket/cricket_data_repo.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../rodeo_sports/bullriders_n_bulls_pbr_tpd_2023.html">Rodeo Sports</a></li><li class="breadcrumb-item"><a href="../rodeo_sports/bullriders_n_bulls_pbr_tpd_2023.html">Professional Bull Riding Analysis</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../cricket/cricket_data_repo.html">Cricket</a></li><li class="breadcrumb-item"><a href="../cricket/cricket_data_repo.html">Exploring Logistic Regression Through Cricket</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Professional Bull Riding Analysis</h1>
+<h1 class="title">Exploring Logistic Regression Through Cricket</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Linear Regression</div>
-    <div class="quarto-category">Summary Statistics</div>
-    <div class="quarto-category">Influential Points</div>
-    <div class="quarto-category">Hypothesis Testing</div>
+    <div class="quarto-category">Multiple Logistic Regression</div>
   </div>
   </div>
 
-<div>
-  <div class="description">
-    Investigating a collection of professional bull riders and their statistics from 2023 season for the Touring Pro Division of the Professional Bull Riding League.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -769,14 +761,14 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Matt Maslow </p>
+             <p>Vivian Johnson </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 6, 2024</p>
+      <p class="date">June 10, 2024</p>
     </div>
   </div>
   
@@ -790,182 +782,107 @@ cookieconsent.run({
 
 <section id="motivation" class="level2">
 <h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
-<div style="text-align: center;">
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bull-Riding2-Szmurlo.jpg/800px-Bull-Riding2-Szmurlo.jpg" width="150"></p>
-</div>
-<p>The <a href="https://pbr.com/tours/touring-pro-division" target="_blank">Touring Pro Division</a> (TPD) of the Professional Bull Riding League (PBR) is a dynamic and thrilling level of competition that serves as an essential proving ground for riders aiming to enhance their skills and gain valuable experience. Known for its non-stop excitement, the Touring Pro Division keeps the spirit of bull riding alive, offering an adrenaline-charged journey through the sport where aspiring champions can shape their dreams and hone their talents. It is described as an electrifying landscape where the future stars of bull riding emerge, highlighting its significance as a critical stepping stone for athletes on their path to higher levels of professional bull riding competition​</p>
-<section id="data-preparation" class="level3">
-<h3 class="anchored" data-anchor-id="data-preparation">Data Preparation</h3>
-<p><a href="../_prep/bull_riding/init-bullriders_n_bulls_pbr_tpd_2023.qmd">init-bullriders_n_bulls_pbr_tpd_2023.qmd</a></p>
-<section id="about-the-data" class="level4">
-<h4 class="anchored" data-anchor-id="about-the-data">About the data</h4>
-<p>A data frame for 38 riders from the 2023 season of the Professional Bull Riding (PBR) league, for the Touring Pro Division. These data frames hold the stats for the riders and the bulls they ride. The data was scraped from the PBR website. For the rider data set, there are 357 riders with 16 variables, however, not all of the riders points meaning they would not hold a lot of significance in data and may skew the results. The bull data set has 50 bulls with 11 variables on their scoring statistics.</p>
-<details>
-<summary>
-<b>Riders Data: Variable Descriptions</b>
-</summary>
+<p>Cricket is a game watched and played by billions of people across the world. Second in global popularity only to football (soccer), it is extremely popular in South Asia, Australia, Africa, and Europe.</p>
+<section id="the-rules-of-cricket" class="level3">
+<h3 class="anchored" data-anchor-id="the-rules-of-cricket">The Rules of Cricket</h3>
+<p><a href="https://www.youtube.com/watch?v=yPXAzgwwo0A" target="_blank">Cricket</a> is played on a rectangular pitch inside an oval boundary. In the pitch, on either side, there is a vertical <strong>wicket</strong>, made up of three vertical wooden “stumps” with two wooden bails (small blocks of wood) resting atop the stumps. There are two teams, each with 11 players (a batting team and a bowling team).</p>
+<p><strong>The bowling team:</strong> The bowler bounces a small leather ball at the batter. The goal of the bowler is to get the batter out and ultimately knock the bails off of the stumps.</p>
+<p><strong>The batting team:</strong> The goal of the batting team is to score as many runs as possible and not let the bowler hit the bail off of the stumps. There are two batters at a time for the batting team. After the batter hits the ball, the two batters will attempt to switch sides. Each batter will go until they get out, when at that time, they will switch with another teammate.</p>
+<p><strong>Scoring Runs:</strong> Each time the two batters switch sides without getting out counts as a run scored. For example, if you hit the ball and are able to run to the other wicket and back without getting out, that would score two runs for your team. If the batter hits the ball on a bounce to the oval boundary, it counts as four runs scored. If the batter hits the ball over the oval boundary on a fly, it counts as six runs.</p>
+<p><strong>Outs:</strong> Below are a few common ways in which a batter can get out</p>
+<ul>
+<li>If the batter hits the ball and it is caught in the air (caught out)</li>
+<li>If a player on the bowling team throws the ball and it hits the bails off the stumps before the batter can cross the line while trying to score a run (run out)</li>
+<li>If the bowler throws the ball past the batter and it knocks a bail off the wicket</li>
+<li>If the batter gets hit in the legs by a ball that would have hit the wicket (Note: if the batter gets hit and the ball wasn’t ruled as one that would have hit the wicket, the batter is not out)</li>
+</ul>
+<p>The duration of cricket matches can range from hours to days, depending on what format is being played, and scores are often high as each individual batter usually scores many runs on multiple pitches before getting out.</p>
+</section>
+</section>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p>The <code>asia_cup</code> data set includes data from each cricket match played in all Asia Cup Tournaments from 1984 (the first one) to 2022. The Asia Cup is a tournament that now takes place every two years, alternating host cities in different countries throughout Asia.</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 27%">
-<col style="width: 72%">
+<col style="width: 31%">
+<col style="width: 68%">
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Variable</strong></th>
-<th><strong>Description</strong></th>
+<th>Variable</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>Rider</code></td>
-<td>Name of the pro bull rider</td>
+<td>Team</td>
+<td>One team of the match</td>
 </tr>
 <tr class="even">
-<td><code>Points</code></td>
-<td>Total points earned by the bull rider</td>
+<td>Opponent</td>
+<td>The team played</td>
 </tr>
 <tr class="odd">
-<td><code>Points Back</code></td>
-<td>Difference in points between the rider and the leader</td>
+<td>Host</td>
+<td>Venue played at</td>
 </tr>
 <tr class="even">
-<td><code>Events</code></td>
-<td>Number of events participated in by the rider</td>
+<td>Year</td>
+<td>Tournament year played</td>
 </tr>
 <tr class="odd">
-<td><code>Outs</code></td>
-<td>Number of times the rider was scheduled to ride</td>
+<td>Toss</td>
+<td>Coin toss to determine who starts batting or bowling (0 = lost, 1 = won)</td>
 </tr>
 <tr class="even">
-<td><code>Rides</code></td>
-<td>Number of successful rides by the rider</td>
+<td>Selection</td>
+<td>Team’s selection after winning / losing the toss (0 = Batting, 1 = Bowling)</td>
 </tr>
 <tr class="odd">
-<td><code>Buckoffs</code></td>
-<td>Number of unsuccessful rides by the rider</td>
+<td>Run Scored</td>
+<td>Total runs scored by that team</td>
 </tr>
 <tr class="even">
-<td><code>prop.Ridden</code></td>
-<td>Percent of successful rides</td>
+<td>Fours</td>
+<td>Total scored fours for that team</td>
 </tr>
 <tr class="odd">
-<td><code>Avg Ride Score</code></td>
-<td>Average score for successful rides by the rider</td>
+<td>Sixes</td>
+<td>Total scored sixes for that team</td>
 </tr>
 <tr class="even">
-<td><code>Highest RideScore</code></td>
-<td>Highest score achieved by the rider in a single ride</td>
+<td>Extras</td>
+<td>Amount of extra runs scored by that team</td>
 </tr>
 <tr class="odd">
-<td><code>Avg Buckoff Time</code></td>
-<td>Average time spent on bulls that the rider failed to ride</td>
+<td>Highest Score</td>
+<td>Highest individual number of runs scored</td>
 </tr>
 <tr class="even">
-<td><code>Round Wins</code></td>
-<td>Number of round wins achieved by the rider</td>
+<td>Result</td>
+<td>0 = lost match, 1 = won match</td>
 </tr>
 <tr class="odd">
-<td><code>Event Wins</code></td>
-<td>Number of event wins achieved by the rider</td>
-</tr>
-<tr class="even">
-<td><code>ReRides Taken</code></td>
-<td>Number of re-rides taken by the rider</td>
-</tr>
-<tr class="odd">
-<td><code>Earnings</code></td>
-<td>Total earnings of the rider from bull riding events</td>
-</tr>
-<tr class="even">
-<td><code>90Pt Rides</code></td>
-<td>Number of rides scoring 90 points or above</td>
+<td>Given Extras</td>
+<td>Number of extra runs given up</td>
 </tr>
 </tbody>
 </table>
-</details>
-<p>Download data: <a href="../data/BullRiders_PBR_TPD_2023.csv">BullRiders_PBR_TPD_2023.csv</a></p>
-<details>
-<summary>
-<b>Bull’s Data: Variable Descriptions</b>
-</summary>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 30%">
-<col style="width: 69%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Variable</strong></th>
-<th><strong>Description</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><code>Bull</code></td>
-<td>Name of the bull</td>
-</tr>
-<tr class="even">
-<td><code>World Champ Avg Score</code></td>
-<td>Average score of the bull at world championship events</td>
-</tr>
-<tr class="odd">
-<td><code>Events</code></td>
-<td>Number of events the bull participated in</td>
-</tr>
-<tr class="even">
-<td><code>Ridden</code></td>
-<td>Number of times the bull was successfully ridden</td>
-</tr>
-<tr class="odd">
-<td><code>Outs</code></td>
-<td>Number of times the bull was scheduled to be ridden</td>
-</tr>
-<tr class="even">
-<td><code>Rides</code></td>
-<td>Number of successful rides on the bull</td>
-</tr>
-<tr class="odd">
-<td><code>Buckoffs</code></td>
-<td>Number of unsuccessful rides on the bull</td>
-</tr>
-<tr class="even">
-<td><code>Avg BullScore</code></td>
-<td>Average score for successful rides on the bull</td>
-</tr>
-<tr class="odd">
-<td><code>Highest BullScore</code></td>
-<td>Highest score achieved by a rider on this bull</td>
-</tr>
-<tr class="even">
-<td><code>Avg Buckoff Time</code></td>
-<td>Average time a rider spends on the bull before bucking off</td>
-</tr>
-<tr class="odd">
-<td><code>45Pt Rides</code></td>
-<td>Number of rides scoring 45 points or above on this bull</td>
-</tr>
-</tbody>
-</table>
-</details>
-<p>Download data: <a href="../data/Bulls_PBR_TPD_2023.csv">Bulls_PBR_TPD_2023.csv</a></p>
+<p>Data Download: <a href="../data/cricket_asia_cup.csv">cricket_asia_cup.csv</a></p>
 </section>
+<section id="questions" class="level2">
+<h2 class="anchored" data-anchor-id="questions">Questions</h2>
+<ol type="1">
+<li>Building Simple Logistic Regression and Multiple Logistic Regression</li>
+<li>Interpreting Logistic Regression</li>
+<li>Finding odds and log odds of an event</li>
+</ol>
 </section>
-<section id="questions" class="level3">
-<h3 class="anchored" data-anchor-id="questions">Questions</h3>
-<p><code>1.</code> What are the most significant predictors of a bull rider’s final points?</p>
-<p><code>2.</code> What is the stronger model for predicting PBR’s final points?</p>
-<p><code>3.</code> Are there any outliers or a potential influential point? How would we handle these point(s)?</p>
-<p><code>4.</code> If we want to create a new variable in the PBR dataset, how would we do that?</p>
-</section>
-<section id="references" class="level3">
-<h3 class="anchored" data-anchor-id="references">References:</h3>
-<p><a href="https://azcms.pbr.com/statistics/rider/?season=2023&amp;tour=TPD-US" target="_blank">Bull Rider’s Data</a></p>
-<p><a href="https://azcms.pbr.com/statistics/bull/" target="_blank">Bull’s Data</a></p>
-<p><a href="https://pbr.com/tours/touring-pro-division/results" target="_blank">PBR Touring Pro Division Results Page</a></p>
-<p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bull-Riding2-Szmurlo.jpg/800px-Bull-Riding2-Szmurlo.jpg">Link to the Photo</a></p>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p><a href="https://www.kaggle.com/datasets/hasibalmuzdadid/asia-cup-cricket-1984-to-2022/data" target="_blank">Asia Cup 1984-2022</a></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -1386,7 +1303,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 <p>Maintained by <a href="https://www.stat.cmu.edu/~ryurko/">Ron Yurko</a></p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/rodeo_sports/bullriders_n_bulls_pbr_tpd_2023.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/cricket/cricket_data_repo.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
