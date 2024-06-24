@@ -1,0 +1,46 @@
+---
+title: "Olympic_Swimming"
+author: "Brendan Karadenes"
+date: June 13, 2024
+description: The dataset looks at Olympic swimmers 100 meter races from 1924 to 2020.
+categories:
+  - Hypothesis Testing
+  - Side-By-Side Boxplots
+  - Confidence Intervals
+editor:
+  markdown: 
+    canonical: true
+---
+
+## Motivation
+
+Olympic swimming has been a sport at every summer Olympics and contains a diverse background of athletes from over 150 countries. Examining the results of this event allows us to have a detailed look into the trend of the athletes that competed over the years.
+
+The dataset contains 606 rows and 10 variables. Each row represents a swimmer that completed their race in the Olympics.
+
+| Variable    | Description                                                                           |
+|-------------|---------------------------------------------------------------------------------------|
+| Location    | hosting city of the Olympics that the swimmer competed in                             |
+| Year        | year that the swimmer competed                                                        |
+| dist_m      | distance in meters of the race                                                        |
+| Stroke      | Backstroke, Breaststroke, Butterfly, or Freestyle                                     |
+| Gender      | gender of swimmer (Male or Female)                                                    |
+| Team        | 3 letter country code the swimmer is affiliated with                                  |
+| Athlete     | first and last name of the swimmer                                                    |
+| Results     | time, in seconds, that the swimmer completed the race                                 |
+| Rank        | place of the swimmer in the event out of four                                         |
+| time_period | time period that olympian swam in, either "early" (1924-1972) or "recent" (1976-2020) |
+
+Data file
+
+:   [olympic_swimming.csv](../data/olympic_swimming.csv)
+
+## Questions
+
+-   Construct a hypothesis test to examine if swimmers have gotten quicker over the years
+-   Analyze the trend and correlation of a scatterplot of years and times and explain it's meaning in context
+-   Examine side-by-side boxplots to see the relationship between different strokes and times between males and females
+
+## References
+
+[Olympics](https://www.kaggle.com/datasets/datasciencedonut/olympic-swimming-1912-to-2020){target="_blank"}

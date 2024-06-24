@@ -7,6 +7,9 @@ categories:
   - Data Cleaning
   - Summarization
   - Merging
+editor:
+  markdown: 
+    canonical: true
 ---
 
 ## Motivation
@@ -36,7 +39,7 @@ The first athletes contains information on individual athletes. Each row in this
 | height_m/ft       | Athlete Height (meters and feet) |
 | url               | Athlete Profile Link             |
 
-: [athletes.csv](data/beijing_athletes.csv)
+: [beijing_athletes.csv](../data/beijing_athletes.csv)
 
 The second medals contains information on medal winners. Each row in this data set represents a medal won in the Beijing 2022 Olympic Winter Games. This can mean Gold, Bronze, or Silver medals. This data set has 694 rows and 12 columns.
 
@@ -55,7 +58,7 @@ The second medals contains information on medal winners. Each row in this data s
 | discipline         | Discipline                        |
 | discipline_code    | Discipline Code                   |
 
-: [medals.csv](data/beijing_medals.csv)
+: [beijing_medals.csv](../data/beijing_medals.csv)
 
 ## Questions
 

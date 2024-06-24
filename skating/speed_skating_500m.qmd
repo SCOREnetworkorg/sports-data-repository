@@ -1,0 +1,67 @@
+---
+title: 500m Short Track Speed Skating
+author: Gavin Cassidy
+date: June 13, 2024
+description: Race and Lap times from 500m short track speed skating athletes at European Championship, World Cup, World Championship and Olympic events.
+categories:
+  - Histograms
+  - Summary Statistics
+  - Outliers
+---
+
+## Motivation
+
+This data set was found via [kaggle](https://www.kaggle.com/datasets/seniorwx/shorttrack?resource=download)
+
+Speed Skating is a competition where athletes compete to see who can complete a distance in the shortest amount of time. There are two iterations of Speed Skating, long track, where athletes have their own lane and compete on a 400m oval without any contact with competitors, and short track, where 4-6 athletes compete simultaneously on a 111m circuit. A 500m race consists of 4 and 1/2 laps with flying around turns and drafting off each other. Short track speed skating tends to be very contact heavy and crowded, with competitors jostling for position while flying around turns leading to some chaotic races and dangerous crashes. Skaters are able to complete a full lap of the 111m track in just over 8 seconds, leading to quick but exciting races.
+
+## Data
+
+The Short Track Speed Skating data set contains 5125 rows and 28 columns, where each row is 1 race from an athlete at either the European Championship, World Cup, World Championship, or Olympics. Each row includes lap times and placements, as well as location and qualification status. This data set contains each race from the 2012/13 season up to the end of 2016 in the 2016/17 season. The columns for each row are as follows:
+
+| Variable       | Description                                                                     |
+|------------------------|-----------------------------------------------|
+| Season         | the season the race occurred during, ex. 2015/2016                              |
+| Series         | the type of event, ex. World Championships                                      |
+| City           | the city where the event is located                                             |
+| Country        | the abbreviation of the country where event is located                          |
+| Year           | the year of the event                                                           |
+| Month          | the month of the event                                                          |
+| Day            | the day of the event                                                            |
+| Distance       | the distance (500m for all)                                                     |
+| Round          | the round that the race occurred during                                         |
+| Group          | the group of the racer for the particular round                                 |
+| Num_Skater     | the number of the skater for the event                                          |
+| Name           | the name of the skater                                                          |
+| Nationality    | the nationality of the skater                                                   |
+| Rank_In_Group  | the rank of the skater in their race                                            |
+| Start_Position | the position on the track where the skater started, 1 is on the inside          |
+| Time           | the time of the skater                                                          |
+| Qualification  | the qualification status of the racer for their race, included penalties        |
+| rank_lap1      | the rank of the racer after lap 1 (lap 1 is the first half lap)                 |
+| time_lap1      | the time of the racer after lap 1 (lap 1 is the first half lap)                 |
+| rank_lap2      | the rank of the racer after lap 2 (laps after 1 are tracked on the finish line) |
+| time_lap2      | the rank of the racer after lap 2                                               |
+| rank_lap3      | the rank of the racer after lap 3                                               |
+| time_lap3      | the time of the racer after lap 3                                               |
+| rank_lap4      | the rank of the racer after lap 4                                               |
+| time_lap4      | the time of the racer after lap 4                                               |
+| rank_lap5      | the rank of the racer after lap 5                                               |
+| time_lap5      | the time of the racer after lap 5                                               |
+| Time_Event     | the date of event expressed as year followed by a decimal month and day         |
+
+Data File: [speed_skating_500m.csv](../data/speed_skating_500m.csv)
+
+## Questions
+
+1.  How are the lap times and overall times distributed?
+
+2.  What laps are more crucial to a good placement and time?
+
+3.  What might cause some athletes to have times that are extreme outliers?
+
+## References
+
+[International Skating Union](https://isu.org) via kaggle
+
+Data set source: <https://www.kaggle.com/datasets/seniorwx/shorttrack?resource=download>
