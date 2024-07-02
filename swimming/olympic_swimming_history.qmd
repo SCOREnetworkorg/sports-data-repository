@@ -1,0 +1,44 @@
+---
+title: Olympic Swimming History
+author: Andrew Poock 
+date: July 2, 2024
+description: "Olympic swimming data from 1912-2020. Includes athlete name, year, team, location, time, medal/no medal, stroke, distance, etc."
+categories:
+  - exploratory data analysis
+---
+
+## Motivation
+
+Source: olympics.com
+Background: results of swimming races in the olympics from 1912-2020
+
+## Data
+
+Each row is an event that an athlete competed in, with 4359 total rows. There are no missing values, and the columns are as follows:
+
+| Variable       | Description                                       |
+|----------------|---------------------------------------------------|
+| `Location`          | Hosting city                        |
+| `Year`       | Year of Olympics                                 |
+| `Distance`       | Distance in meters. Relays are the number of swimmers by the distance swam by one swimmer                              |
+| `Stroke`    | Stroke type                        |
+| `Relay?`    | 0-Individual/1-Relay           |
+| `Gender`    | Men/Women    |
+| `Team`    | 3 Letter country code   |
+| `Athlete`    | Name of athlete  |
+| `Results`    | Time minutes:seconds.decimal  |
+| `Rank`    | 0-DNS or DQ/1-Gold/2-Silver/3-Bronze/4-No Medal/5-No Data |
+
+
+: [Olympic_Swimming_1912-2020.csv](../data/Olympic_Swimming_1912-2020.csv)
+
+
+## Questions
+
+1. What is the difference between winning times for men/women? Between strokes? 
+
+2. What is the difference in time between gold and not medaling?
+
+## References
+
+Posted by [datasciencedonut on Kaggle.](https://www.kaggle.com/datasets/datasciencedonut/olympic-swimming-1912-to-2020)
