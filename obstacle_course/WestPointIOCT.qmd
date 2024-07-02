@@ -1,0 +1,39 @@
+---
+title: West Point Indoor Obstacle Course Test Data
+author: Nicholas Clark
+date: July 2, 2024
+description: Dataset for the Indoor Obstacle Course, an obstacle course that all Cadets at West Point must complete prior to graduation.
+categories:
+  - confounding variables
+  - multiple regression
+  - interactions
+---
+
+## Motivation
+
+Data set for the [Indoor Obstacle Course](https://www.youtube.com/watch?v=Dw5rR1yqyp8), an obstacle course that all Cadets at West Point must complete prior to graduation. This dataset can be used to build linear regression and explore the effects of confounding variables looking at the impact of height on IOCT time. Height, as students will discover, is highly confounded with gender, masking the effect.
+
+## Data
+
+Each row is a unique cadet who completed the IOCT in an unknown year. The columns are as follows:
+
+| Variable       | Description                                       |
+|----------------|---------------------------------------------------|
+| `sex`          | M (male) or F (female)                            |
+| `height`       | height in inches                                  |
+| `weight`       | weight in inches                                  |
+| `IOCT_Time`    | IOCT time in seconds                              |
+
+
+: [ioct_west_point.csv](../data/ioct_west_point.csv)
+
+
+## Questions
+
+1. Explore the relationships between `height` and `weight` with IOCT time.
+
+2. Explore differences between interactions and confounding variables, e.g., height is confounded with gender, masking the effect.
+
+## References
+
+These data were hand collected.
