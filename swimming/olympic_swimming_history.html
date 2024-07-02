@@ -6,10 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Vivian Johnson">
-<meta name="dcterms.date" content="2024-06-04">
+<meta name="author" content="Andrew Poock">
+<meta name="dcterms.date" content="2024-07-02">
+<meta name="description" content="Olympic swimming data from 1912-2020. Includes athlete name, year, team, location, time, medal/no medal, stroke, distance, etc.">
 
-<title>Ratio Between Dumbbell Press and Flat Bench Press – SCORE Sports Data Repository</title>
+<title>Olympic Swimming History – SCORE Sports Data Repository</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -161,7 +162,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../training/dumbbell_vs_barbell_weightlifting.html">Training</a></li><li class="breadcrumb-item"><a href="../training/dumbbell_vs_barbell_weightlifting.html">Ratio Between Dumbbell Press and Flat Bench Press</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../swimming/olympic_swimming.html">Swimming</a></li><li class="breadcrumb-item"><a href="../swimming/olympic_swimming_history.html">Olympic Swimming History</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -617,13 +618,13 @@ cookieconsent.run({
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" role="navigation" aria-expanded="true">
  <span class="menu-text">Swimming</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-21" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-21" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../swimming/olympic_swimming.html" class="sidebar-item-text sidebar-link">
@@ -632,7 +633,7 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../swimming/olympic_swimming_history.html" class="sidebar-item-text sidebar-link">
+  <a href="../swimming/olympic_swimming_history.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Olympic Swimming History</span></a>
   </div>
 </li>
@@ -663,16 +664,16 @@ cookieconsent.run({
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-23" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-23" role="navigation" aria-expanded="false">
  <span class="menu-text">Training</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-23" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-23" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-23" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-23" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../training/dumbbell_vs_barbell_weightlifting.html" class="sidebar-item-text sidebar-link active">
+  <a href="../training/dumbbell_vs_barbell_weightlifting.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ratio Between Dumbbell Press and Flat Bench Press</span></a>
   </div>
 </li>
@@ -761,21 +762,24 @@ cookieconsent.run({
   <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/training/dumbbell_vs_barbell_weightlifting.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/swimming/olympic_swimming_history.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../training/dumbbell_vs_barbell_weightlifting.html">Training</a></li><li class="breadcrumb-item"><a href="../training/dumbbell_vs_barbell_weightlifting.html">Ratio Between Dumbbell Press and Flat Bench Press</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../swimming/olympic_swimming.html">Swimming</a></li><li class="breadcrumb-item"><a href="../swimming/olympic_swimming_history.html">Olympic Swimming History</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Ratio Between Dumbbell Press and Flat Bench Press</h1>
+<h1 class="title">Olympic Swimming History</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Histogram</div>
-    <div class="quarto-category">Mean, IQR</div>
-    <div class="quarto-category">One Sample T-Interval</div>
+    <div class="quarto-category">exploratory data analysis</div>
   </div>
   </div>
 
+<div>
+  <div class="description">
+    Olympic swimming data from 1912-2020. Includes athlete name, year, team, location, time, medal/no medal, stroke, distance, etc.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -783,14 +787,14 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Vivian Johnson </p>
+             <p>Andrew Poock </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 4, 2024</p>
+      <p class="date">July 2, 2024</p>
     </div>
   </div>
   
@@ -804,17 +808,13 @@ cookieconsent.run({
 
 <section id="motivation" class="level2">
 <h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
-<p>Weightlifters may be inclined to track the specific ratio between flat dumbbell press and barbell bench press. Flat dumbbell press is when the lifter lies on a flat bench with their arms positioned at roughly 45 degree angles, lifts two equal sized dumbbells, brings them back to the chest, and then keeps going. Barbell bench press is when the lifter lies on a bench and lifts a horizontal bar (the barbell) with equal weighted plates on both sides and brings it back down to the chest.</p>
-<p>The ratio of flat dumbbell press to barbell bench press works to track how much someone is lifting two dumbbells compared to how much they are able to lift the weighted barbell. When calculating the ratio, it was multiplied by two in order to account for the total weight lifted when doing a flat dumbbell press, as there are two dumbbells that would have to be held by the lifter.</p>
-<p><strong>An example of this is as follows:</strong></p>
-<p><em>Say Melissa is able to flat dumbbell press two 30 lbs dumbbells. The total amount she can flat dumbbell press is 60 lbs (one dumbbell for each arm). On flat bench press, she can lift 75 lbs. Her ratio would be calculated by dividing flat dumbbell press by barbell bench press (60/75) which equals 0.8, meaning that Melissa can lift two dumbbells up to 80% as heavy as she can bench press the barbell.</em></p>
-<p>Many weightlifters like to track this ratio to work towards specific strength goals and target any weakness in certain muscle groups. For example, if someone’s ratio is low (i.e.&nbsp;they can barbell bench press much more than they can flat dumbbell press), it highlights that they might want to work on targeting the muscles used in flat dumbbell press. Since the two exercises can focus on different muscle groups, weightlifters like this ratio as a tool for seeing where progress could be made. Weightlifters also use this ratio as a measure of progress. A common goal in weightlifting is to increase the ratio, and as one continues lifting, their starting ratio is often compared to their current one. While many professional weightlifters use this ratio for tracking progress and examining muscle balance, it isn’t an official statistic used in competitions, only a personal one.</p>
+<p>Source: olympics.com Background: results of swimming races in the olympics from 1912-2020</p>
 </section>
 <section id="data" class="level2">
 <h2 class="anchored" data-anchor-id="data">Data</h2>
-<p>The <code>dumbbell_barbell_weight_ratio</code> data set contains observed strength ratios from 18 different weightlifters. Each row represents a different weightlifter.</p>
+<p>Each row is an event that an athlete competed in, with 4359 total rows. There are no missing values, and the columns are as follows:</p>
 <table class="caption-top table">
-<caption><a href="../data/dumbbell_barbell_weight_ratio.csv">dumbbell_barbell_weight_ratio.csv</a></caption>
+<caption><a href="../data/Olympic_Swimming_1912-2020.csv">Olympic_Swimming_1912-2020.csv</a></caption>
 <thead>
 <tr class="header">
 <th>Variable</th>
@@ -823,8 +823,44 @@ cookieconsent.run({
 </thead>
 <tbody>
 <tr class="odd">
-<td>Ratio</td>
-<td>Flat dumbbell press to barbell bench press weight ratio</td>
+<td><code>Location</code></td>
+<td>Hosting city</td>
+</tr>
+<tr class="even">
+<td><code>Year</code></td>
+<td>Year of Olympics</td>
+</tr>
+<tr class="odd">
+<td><code>Distance</code></td>
+<td>Distance in meters. Relays are the number of swimmers by the distance swam by one swimmer</td>
+</tr>
+<tr class="even">
+<td><code>Stroke</code></td>
+<td>Stroke type</td>
+</tr>
+<tr class="odd">
+<td><code>Relay?</code></td>
+<td>0-Individual/1-Relay</td>
+</tr>
+<tr class="even">
+<td><code>Gender</code></td>
+<td>Men/Women</td>
+</tr>
+<tr class="odd">
+<td><code>Team</code></td>
+<td>3 Letter country code</td>
+</tr>
+<tr class="even">
+<td><code>Athlete</code></td>
+<td>Name of athlete</td>
+</tr>
+<tr class="odd">
+<td><code>Results</code></td>
+<td>Time minutes:seconds.decimal</td>
+</tr>
+<tr class="even">
+<td><code>Rank</code></td>
+<td>0-DNS or DQ/1-Gold/2-Silver/3-Bronze/4-No Medal/5-No Data</td>
 </tr>
 </tbody>
 </table>
@@ -832,17 +868,13 @@ cookieconsent.run({
 <section id="questions" class="level2">
 <h2 class="anchored" data-anchor-id="questions">Questions</h2>
 <ol type="1">
-<li>What percent of weight lifters had a ratio above 0.65?</li>
-<li>Construct a 90% confidence interval for the average weightlifter’s ratio and interpret it in context.</li>
-<li>Using the mean, explain whether or not you believe the variance of the data set to be high or low.</li>
-<li>What would a ratio greater than one suggest?</li>
-<li>What potential problems could arise from the way the data was collected?</li>
+<li><p>What is the difference between winning times for men/women? Between strokes?</p></li>
+<li><p>What is the difference in time between gold and not medaling?</p></li>
 </ol>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
-<p><a href="https://www.reddit.com/r/Fitness/comments/35q4i3/how_much_do_you_dumbbell_flat_bench_compared_to/">how_much_do_you_dumbbell_flat_bench_compared_to (Reddit)</a></p>
-<p>The data is compiled from a Reddit thread where users self reported their weight and it was compiled into a list of ratio.</p>
+<p>Posted by <a href="https://www.kaggle.com/datasets/datasciencedonut/olympic-swimming-1912-to-2020">datasciencedonut on Kaggle.</a></p>
 
 
 </section>
@@ -1276,7 +1308,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 <p>Maintained by <a href="https://www.stat.cmu.edu/~ryurko/">Ron Yurko</a></p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/training/dumbbell_vs_barbell_weightlifting.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/swimming/olympic_swimming_history.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
