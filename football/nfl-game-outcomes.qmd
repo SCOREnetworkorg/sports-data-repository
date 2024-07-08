@@ -22,7 +22,7 @@ Each row in the dataset corresponds to a single game, with a total of 1,657 game
 
 | Variable | Description |
 |----|-------------|
-| `season` |	Regular season year of team's statistics |
+| `season` |	Regular season year the game was played in |
 | `game_id` | Unique game ID based on the year, week, and teams |
 | `game_type` | String indicating the type of game, which is either regular season (`REG`) or in the playoffs (wildcard `WC`, divisional `DIV`, conference championship `CON`, and Super Bowl `SB`) |
 | `week` | Integer denoting the week of the season (note the playoffs week just continues from the end of the regular season) |
