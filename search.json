@@ -868,794 +868,63 @@
     ]
   },
   {
-    "objectID": "esports/lol-buff-nerf.html",
-    "href": "esports/lol-buff-nerf.html",
-    "title": "League of Legends - Buffing and Nerfing",
+    "objectID": "water_sports/rowing_olympic_medals.html",
+    "href": "water_sports/rowing_olympic_medals.html",
+    "title": "Olympic Rowing Medals Between 1900 and 2022",
     "section": "",
-    "text": "League of Legends is a 5 v. 5 multiplayer online battle arena (MOBA) game developed by Riot Games. They collect data to evaluate the effect of every champion, adjusting and fine-tuning various aspects associated with each champion, to ensure fair and competitive gameplay. Through updates (patches) they can reduce the power of champions that are too strong (known as nerfing) or enhance the abilities of less successful champions (nerfing).",
+    "text": "The Summer Olympic Games are an international athletics event held every four years and hosted in different countries around the world. Rowing was added to the Olympics in 1896 but was cancelled due to weather, it has been in every Summer Olympics since 1900. Rowing races in the Olympic context are typically regatta style, meaning that there are multiple boats racing head to head against each other in multiple lanes. Since 1912, the standard distance for Olympic regattas has been 2000m, but until then there had been a range in distances. The boat that is first to cross the finish line is awarded a gold medal, the second a silver medal, and the third a bronze. Over the course of its time as an Olympic sport there have been 25 different event entries. These events are separated by gender and range with the number of rowers in the boat (1, 2, 4, 6, 8, 17), the rigging (inrigged, outrigged), sculling, sweeping, and whether or not they are coxed. An inrigged shell means the riggers (where the oar is attached to the boat) are on the inside of the boat, outrigged shells mean the riggers are on the outside. Sculling is where the rowers have an oar on each side and sweeping is when each rower only has one oar on one side. The coxswain steers the boat and guides the rowers, some events have coxed boats whereas some others do not. Since the data spans so far back in time, the original dataset had some interesting issues in which some of the numbers were off for the number of medals awarded to athletes or nations. For example in the 1964 Rowing Men’s Coxless 4 event, the US had 5 medals awarded instead of 4 because one of the rowers passed out after the first heat and the sub had to row in the final heat so both were given medals. Situations like this were not super common but they were frequent enough to through out the data. Using dyplyr the data has been adjusted to avoid these errors.\nThe total_medals and total_points are counted as one medal towards each boat as opposed to each athlete in the boat. In looking at the total medals and total points for each nation, it is interesting to see which nations dominate in Olympic rowing. Additionally, looking at the overall distribution of the medals for all countries provides insight on just how lob-sided medaling can be in rowing at the Olympic level. This effect could likely be attributed towards how much funding nations are placing towards their rowing teams.",
     "crumbs": [
       "Home",
-      "Esports",
-      "League of Legends - Buffing and Nerfing"
+      "Water Sports",
+      "Olympic Rowing Medals Between 1900 and 2022"
     ]
   },
   {
-    "objectID": "esports/lol-buff-nerf.html#motivation",
-    "href": "esports/lol-buff-nerf.html#motivation",
-    "title": "League of Legends - Buffing and Nerfing",
+    "objectID": "water_sports/rowing_olympic_medals.html#motivation",
+    "href": "water_sports/rowing_olympic_medals.html#motivation",
+    "title": "Olympic Rowing Medals Between 1900 and 2022",
     "section": "",
-    "text": "League of Legends is a 5 v. 5 multiplayer online battle arena (MOBA) game developed by Riot Games. They collect data to evaluate the effect of every champion, adjusting and fine-tuning various aspects associated with each champion, to ensure fair and competitive gameplay. Through updates (patches) they can reduce the power of champions that are too strong (known as nerfing) or enhance the abilities of less successful champions (nerfing).",
+    "text": "The Summer Olympic Games are an international athletics event held every four years and hosted in different countries around the world. Rowing was added to the Olympics in 1896 but was cancelled due to weather, it has been in every Summer Olympics since 1900. Rowing races in the Olympic context are typically regatta style, meaning that there are multiple boats racing head to head against each other in multiple lanes. Since 1912, the standard distance for Olympic regattas has been 2000m, but until then there had been a range in distances. The boat that is first to cross the finish line is awarded a gold medal, the second a silver medal, and the third a bronze. Over the course of its time as an Olympic sport there have been 25 different event entries. These events are separated by gender and range with the number of rowers in the boat (1, 2, 4, 6, 8, 17), the rigging (inrigged, outrigged), sculling, sweeping, and whether or not they are coxed. An inrigged shell means the riggers (where the oar is attached to the boat) are on the inside of the boat, outrigged shells mean the riggers are on the outside. Sculling is where the rowers have an oar on each side and sweeping is when each rower only has one oar on one side. The coxswain steers the boat and guides the rowers, some events have coxed boats whereas some others do not. Since the data spans so far back in time, the original dataset had some interesting issues in which some of the numbers were off for the number of medals awarded to athletes or nations. For example in the 1964 Rowing Men’s Coxless 4 event, the US had 5 medals awarded instead of 4 because one of the rowers passed out after the first heat and the sub had to row in the final heat so both were given medals. Situations like this were not super common but they were frequent enough to through out the data. Using dyplyr the data has been adjusted to avoid these errors.\nThe total_medals and total_points are counted as one medal towards each boat as opposed to each athlete in the boat. In looking at the total medals and total points for each nation, it is interesting to see which nations dominate in Olympic rowing. Additionally, looking at the overall distribution of the medals for all countries provides insight on just how lob-sided medaling can be in rowing at the Olympic level. This effect could likely be attributed towards how much funding nations are placing towards their rowing teams.",
     "crumbs": [
       "Home",
-      "Esports",
-      "League of Legends - Buffing and Nerfing"
+      "Water Sports",
+      "Olympic Rowing Medals Between 1900 and 2022"
     ]
   },
   {
-    "objectID": "esports/lol-buff-nerf.html#data",
-    "href": "esports/lol-buff-nerf.html#data",
-    "title": "League of Legends - Buffing and Nerfing",
+    "objectID": "water_sports/rowing_olympic_medals.html#data",
+    "href": "water_sports/rowing_olympic_medals.html#data",
+    "title": "Olympic Rowing Medals Between 1900 and 2022",
     "section": "Data",
-    "text": "Data\nEach row is one of the 162 League of Legends champions. The two datasets show play results (e.g. win rates) for two consecutive patches of the game (12.22 and 12.23).\n\nLOL_patch_12.22.csv, LOL_patch_12.23.csv\n\n\nVariable\nDescription\n\n\n\n\nName\nName of the champion\n\n\nRole\nRole of the champion in a game\n\n\nKDA\nAverage kills, deaths and assists associated with each champion\n\n\nWRate\nWin rates of each champion\n\n\nPickRate\nSPick rates of each champion\n\n\nRolePerc\nPercent of time the champion is used in the expected role\n\n\nBanPerc\nBan percentages associated with each champion",
+    "text": "Data\nIn the data set there are 41 medalling nations that competed in 25 different events. Each row represents a nation and their total_medals and total_points which are cumulative from all rowing Olympics between 1900 and 2022. In total, there are 41 rows with 3 variables. In the original dataset, there were 101 nations in rowing, but the data has been adjusted to include only nations that medalled.\n\nrowing_medals.csv\n\n\nVariable\nDescription\n\n\n\n\nNOC\nNational Olympic Committee or the nation competing.\n\n\ntotal_medals\nThe total number of medals for that country.\n\n\ntotal_points\nThe total number of points for that country. The points are scaled with a gold medal counting for 3 points, a silver for 2, and a bronze for 1.\n\n\ntotal_gold\nThe total number of gold medals for that country.\n\n\ntotal_silver\nThe total number of silver medals for that country.\n\n\ntotal_bronze\nThe total number of bronze medals for that country.\n\n\n\nData Prep File",
     "crumbs": [
       "Home",
-      "Esports",
-      "League of Legends - Buffing and Nerfing"
+      "Water Sports",
+      "Olympic Rowing Medals Between 1900 and 2022"
     ]
   },
   {
-    "objectID": "esports/lol-buff-nerf.html#questions",
-    "href": "esports/lol-buff-nerf.html#questions",
-    "title": "League of Legends - Buffing and Nerfing",
+    "objectID": "water_sports/rowing_olympic_medals.html#questions",
+    "href": "water_sports/rowing_olympic_medals.html#questions",
+    "title": "Olympic Rowing Medals Between 1900 and 2022",
     "section": "Questions",
-    "text": "Questions\n\nLook for outliers (e.g. in win rate) for the 12.22 patch to identify champions that might need to be buffed or nerfed.\nLook at results for the 12.23 patch to see if outliers identified from 12.22 might have been adjusted of if any different champions are now outliers.",
+    "text": "Questions\n\nDescribe the distribution of total_points for all countries. Is there a skew, if so, what is it and what does it mean?\nObtain the summary statistics for total_points.\nThe UK has 154 total_points in the dataset, determine whether or not that is an outlier. Use calculations to justify your answer.\nBased on the distribution of total_medals amongst the countries in the dataset, would it be fair to assume that poverty is a confounding variable? Explain why or why not\nWhat could be a reason for the distribution of medals and points being so heavily skewed towards certain nations winning more than others?\nIn the data set, notice that the German Democratic Republic (GDR) or East Germany is listed as a country. Since the end of the Cold War the GDR is no longer a country. What would you do with countries in the dataset that are no longer existent today? How would it impact the data?\nThere is a lot of debate about how to best weigh the points for the different types of medals, what is a method you think would be best for weighing these medals? How would the new method alter the data?",
     "crumbs": [
       "Home",
-      "Esports",
-      "League of Legends - Buffing and Nerfing"
+      "Water Sports",
+      "Olympic Rowing Medals Between 1900 and 2022"
     ]
   },
   {
-    "objectID": "esports/lol-buff-nerf.html#references",
-    "href": "esports/lol-buff-nerf.html#references",
-    "title": "League of Legends - Buffing and Nerfing",
+    "objectID": "water_sports/rowing_olympic_medals.html#references",
+    "href": "water_sports/rowing_olympic_medals.html#references",
+    "title": "Olympic Rowing Medals Between 1900 and 2022",
     "section": "References",
-    "text": "References\nLol champion stats, 12.22 master, win rates. METAsrc. (n.d.). https://www.metasrc.com/5v5/12.22/stats?ranks=master\nLol champion stats, 12.23 master, win rates. METAsrc. (n.d.-b). https://www.metasrc.com/5v5/12.23/stats?ranks=master",
+    "text": "References\nKaggle Original Dataset\nOlympic Medal Weighing Methods",
     "crumbs": [
       "Home",
-      "Esports",
-      "League of Legends - Buffing and Nerfing"
-    ]
-  },
-  {
-    "objectID": "hockey/nhl_powerplay.html",
-    "href": "hockey/nhl_powerplay.html",
-    "title": "NHL Team Power Play Perfomance in 2022-2023",
-    "section": "",
-    "text": "Certain infractions in a hockey game can lead to one or more players being forced to sit out for a period of time while their team has to skate with fewer payers. A common scenario that results is a 5 on 4 power play where one team has five skates (plus a goalie) and the penalized team has only four skaters (plus a goalie). The team with fewer skates is said to be shorthanded. Typical penalty times are for two minutes and the penalized player is allowed to return to the ice if the opponent scores a goal while on the power play. Rare, but more serious infractions, produce a major penalty (5 minutes) where the penalized player is not allowed to return to the ice when a goal is scored. A power play can also end before two minutes when the team on the power play commits a penalty which results in one of its players being sent off the ice to even the sides.\nThis dataset shows information for all 32 National Hockey League (NHL) teams based on their performance while on a 5 on 4 power play in the 2022-2023 regular season. Goals scored, shots on goals, and hits are all scaled to give a count of these events for every full two minutes of a power play.",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "NHL Team Power Play Perfomance in 2022-2023"
-    ]
-  },
-  {
-    "objectID": "hockey/nhl_powerplay.html#motivation",
-    "href": "hockey/nhl_powerplay.html#motivation",
-    "title": "NHL Team Power Play Perfomance in 2022-2023",
-    "section": "",
-    "text": "Certain infractions in a hockey game can lead to one or more players being forced to sit out for a period of time while their team has to skate with fewer payers. A common scenario that results is a 5 on 4 power play where one team has five skates (plus a goalie) and the penalized team has only four skaters (plus a goalie). The team with fewer skates is said to be shorthanded. Typical penalty times are for two minutes and the penalized player is allowed to return to the ice if the opponent scores a goal while on the power play. Rare, but more serious infractions, produce a major penalty (5 minutes) where the penalized player is not allowed to return to the ice when a goal is scored. A power play can also end before two minutes when the team on the power play commits a penalty which results in one of its players being sent off the ice to even the sides.\nThis dataset shows information for all 32 National Hockey League (NHL) teams based on their performance while on a 5 on 4 power play in the 2022-2023 regular season. Goals scored, shots on goals, and hits are all scaled to give a count of these events for every full two minutes of a power play.",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "NHL Team Power Play Perfomance in 2022-2023"
-    ]
-  },
-  {
-    "objectID": "hockey/nhl_powerplay.html#data",
-    "href": "hockey/nhl_powerplay.html#data",
-    "title": "NHL Team Power Play Perfomance in 2022-2023",
-    "section": "Data",
-    "text": "Data\nEach row of data gives power play statistics for one of the 32 National Hockey League teams from the 2022-2023 regular season.\n\nNHL_PowerPlay2022.csv\n\n\nVariable\nDescription\n\n\n\n\nteam\nName of the team\n\n\ngoals_per_2_min\nHow many goals scored in 2 minute increments\n\n\nSOG_per_2_min\nHow many shots on goal were taken in a 2 minute increments\n\n\nhits_per_2_min\nAverage hits recorded for 2 minutes\n\n\nConference\nConference the team plays in (east vs west)\n\n\ngoal_differential\nPower play goals scored minus short-handed goals allowed\n\n\nIcetime\nTotal time spent on the power play (in minutes)",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "NHL Team Power Play Perfomance in 2022-2023"
-    ]
-  },
-  {
-    "objectID": "hockey/nhl_powerplay.html#questions",
-    "href": "hockey/nhl_powerplay.html#questions",
-    "title": "NHL Team Power Play Perfomance in 2022-2023",
-    "section": "Questions",
-    "text": "Questions\n\nDescribe the distribution of goals-per-2min. Does any team appear to have unusually high or low values for this variable?\nCreate plot to look at the relationship between goals_per_2min and SOG_per_2min. Does it look like more shots tend to lead to more goals?\nCreate plot to look at the relationship between goals_per_2min and hits_per_2min. Does it look like more hits tend to lead to more goals?\nCreate a plot to compare the distribution of goal scoring rates while on the power play between the two conferences. Does there appear to be much difference between the two conferences?",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "NHL Team Power Play Perfomance in 2022-2023"
-    ]
-  },
-  {
-    "objectID": "hockey/nhl_powerplay.html#references",
-    "href": "hockey/nhl_powerplay.html#references",
-    "title": "NHL Team Power Play Perfomance in 2022-2023",
-    "section": "References",
-    "text": "References\nThe data were obtained from the MoneyPuck website.",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "NHL Team Power Play Perfomance in 2022-2023"
-    ]
-  },
-  {
-    "objectID": "hockey/nhl_2223.html",
-    "href": "hockey/nhl_2223.html",
-    "title": "NHL Team Statistics",
-    "section": "",
-    "text": "In 2005 the National Hockey League added shootouts to regular season games. In the event that regulation time ends in a tie and no goals are scored in overtime, the game goes to a 3-player shootout. This data set can be used to explore the relationship between various team-level statistics.\nRegulation time in an NHL game consists of three 20 minute periods. If regulation time ends and the score is tied (both teams have the same number of goals), the game goes into a 5 minute 3-on-3 overtime, where the next goal wins. If the game is still not resolved after overtime, it goes into a 3 round shootout, where players take a 1-on-1 breakaway against the goalie. If still tied after three shootout rounds, shootout rounds continue until one team is victorious. A team gets 2 points for a win (whether it’s regulation, overtime, or shootout), and the losing team gets 0 points for a regulation loss, or 1 point for an overtime/shootout loss.",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "NHL Team Statistics"
-    ]
-  },
-  {
-    "objectID": "hockey/nhl_2223.html#motivation",
-    "href": "hockey/nhl_2223.html#motivation",
-    "title": "NHL Team Statistics",
-    "section": "",
-    "text": "In 2005 the National Hockey League added shootouts to regular season games. In the event that regulation time ends in a tie and no goals are scored in overtime, the game goes to a 3-player shootout. This data set can be used to explore the relationship between various team-level statistics.\nRegulation time in an NHL game consists of three 20 minute periods. If regulation time ends and the score is tied (both teams have the same number of goals), the game goes into a 5 minute 3-on-3 overtime, where the next goal wins. If the game is still not resolved after overtime, it goes into a 3 round shootout, where players take a 1-on-1 breakaway against the goalie. If still tied after three shootout rounds, shootout rounds continue until one team is victorious. A team gets 2 points for a win (whether it’s regulation, overtime, or shootout), and the losing team gets 0 points for a regulation loss, or 1 point for an overtime/shootout loss.",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "NHL Team Statistics"
-    ]
-  },
-  {
-    "objectID": "hockey/nhl_2223.html#data",
-    "href": "hockey/nhl_2223.html#data",
-    "title": "NHL Team Statistics",
-    "section": "Data",
-    "text": "Data\nThe data set contains the final standings of the 2022-2023 NHL Season with team level statistics.\n\nnhl_2223.csv\n\n\nVariable\nDescription\n\n\n\n\nTeam\nNHL team abbreviation\n\n\nGP\nTotal games played\n\n\nSOG\nNumber of games that went to shootout\n\n\nW\nWins\n\n\nL\nLosses\n\n\nOTL\nOvertime losses\n\n\nPTS\nPoints\n\n\nReg_PTS\nPoints won during regulation time or overtime (2 points per game)\n\n\nPPG\nPoints won per game in regulation time or overtime (# of non-shootout points / # of non-shootout games)\n\n\nSO_PTS\nPoints won from shootout (1 extra point per shootout)\n\n\nPct_SO\nProportion of possible points from shootout won (# of shootout points / # of shootout games)\n\n\nRW\nNumber of regulation wins\n\n\nROW\nNumber of regulation and overtime wins\n\n\nSOW\nNumber of shootout wins\n\n\nSOL\nNumber of shootout losses\n\n\nGF\nTotal goals scored\n\n\nGA\nTotal goals against\n\n\nDIFF\nGoal differential (GF-GA)",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "NHL Team Statistics"
-    ]
-  },
-  {
-    "objectID": "hockey/nhl_2223.html#questions",
-    "href": "hockey/nhl_2223.html#questions",
-    "title": "NHL Team Statistics",
-    "section": "Questions",
-    "text": "Questions\n\nPlot GA versus GF. Describe the trend. Do teams that score more goals tend to allow more or less goals against?\nIs offensive ability (‘GF’) or defensive ability (‘GA’) a better predictor of overall performance of a team (as measured by ‘PTS’)?\nIs there a relationship between the ability to win shootouts (‘Pct_SO’) the ability to win games before shootouts (‘PPG’)?\nIs there a relationship between the total number of goals a team scored during the season (GF) and the proportion of shootout points they won (Pct_SO)?",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "NHL Team Statistics"
-    ]
-  },
-  {
-    "objectID": "hockey/nhl_2223.html#references",
-    "href": "hockey/nhl_2223.html#references",
-    "title": "NHL Team Statistics",
-    "section": "References",
-    "text": "References\nNHL Standings 2022-23. ESPN (n.d.). https://www.espn.com/nhl/standings/_/season/2023/group/league",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "NHL Team Statistics"
-    ]
-  },
-  {
-    "objectID": "hockey/phf-shots.html",
-    "href": "hockey/phf-shots.html",
-    "title": "Premier Hockey Federation Shots",
-    "section": "",
-    "text": "The Premier Hockey Federation (PHF) is a professional women’s hockey league in North America. Recently, more data has become available for people to explore and join the women’s hockey analytics community. This dataset lets you explore shots taken during the 2021-2022 PHF season.",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "Premier Hockey Federation Shots"
-    ]
-  },
-  {
-    "objectID": "hockey/phf-shots.html#motivation",
-    "href": "hockey/phf-shots.html#motivation",
-    "title": "Premier Hockey Federation Shots",
-    "section": "",
-    "text": "The Premier Hockey Federation (PHF) is a professional women’s hockey league in North America. Recently, more data has become available for people to explore and join the women’s hockey analytics community. This dataset lets you explore shots taken during the 2021-2022 PHF season.",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "Premier Hockey Federation Shots"
-    ]
-  },
-  {
-    "objectID": "hockey/phf-shots.html#data",
-    "href": "hockey/phf-shots.html#data",
-    "title": "Premier Hockey Federation Shots",
-    "section": "Data",
-    "text": "Data\nThis dataset contains information about 1,502 shots during the 2021-2022 PHF season.\nThe data was collected using the fastRhockey package in R.\n\nphf-shots-2021.csv\n\n\nVariable\nDescription\n\n\n\n\nplay_description\nString detailed description of event\n\n\nplay_type\nString denoting the outcome of the shot, either Goal, PP Goal (meaning power play goal), SH Goal, (meaning shorthanded goal), Shot (shot saved by goalie), or Shot BLK (meaning blocked by a non-goalie)\n\n\nperiod_id\nInteger value of the game period\n\n\ntime_remaining\nString display of time remaining in period in MM:SS format where MM and SS denotes minutes and seconds remaning respectively\n\n\nsec_from_start\nNumeric value of the seconds since the start of the game\n\n\nhome_team\nString name of the home team\n\n\naway_team\nString name of the away team\n\n\nhome_goals\nInteger value of the home team score after the event\n\n\naway_goals\nInteger value of the away team score after the event\n\n\nshooting_team\nString defining the team taking the shot\n\n\nplayer_name_1\nString name of the player taking the shot\n\n\nplayer_name_2\nString name of the secondary event player (blocker or goalie)\n\n\ngoalie_involved\nString name of the goalie involved in the shot attempt\n\n\nshot_result\nString denoting the outcome of the shot, either blocked (meaning blocked by a non-goalie), made (goal), or saved (shot on net that was saved by a goalie)\n\n\non_ice_situation\nString indicator for game strength: Even Strength or Power Play\n\n\nhome_score_total\nInteger value of the home team score at the end of the game\n\n\naway_score_total\nInteger value of the away team score at the end of the game",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "Premier Hockey Federation Shots"
-    ]
-  },
-  {
-    "objectID": "hockey/phf-shots.html#questions",
-    "href": "hockey/phf-shots.html#questions",
-    "title": "Premier Hockey Federation Shots",
-    "section": "Questions",
-    "text": "Questions\n\nUsing the appropriate statistical test, assess whether or not shot_result is independent of the on_ice_situation.\nCount the number of shots taken by each team. Build a logistic regression model to predict the probability of the home team winning the game based on the number of attempted shots by each team.",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "Premier Hockey Federation Shots"
-    ]
-  },
-  {
-    "objectID": "hockey/phf-shots.html#references",
-    "href": "hockey/phf-shots.html#references",
-    "title": "Premier Hockey Federation Shots",
-    "section": "References",
-    "text": "References\nHowell B, Gilani S (2022). fastRhockey: Functions to Access Premier Hockey Federation and National Hockey League Play by Play Data. R package version 0.4.0, https://CRAN.R-project.org/package=fastRhockey.",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "Premier Hockey Federation Shots"
-    ]
-  },
-  {
-    "objectID": "cricket/cricket_data_repo.html",
-    "href": "cricket/cricket_data_repo.html",
-    "title": "Exploring Logistic Regression Through Cricket",
-    "section": "",
-    "text": "Cricket is a game watched and played by billions of people across the world. Second in global popularity only to football (soccer), it is extremely popular in South Asia, Australia, Africa, and Europe.\n\n\nCricket is played on a rectangular pitch inside an oval boundary. In the pitch, on either side, there is a vertical wicket, made up of three vertical wooden “stumps” with two wooden bails (small blocks of wood) resting atop the stumps. There are two teams, each with 11 players (a batting team and a bowling team).\nThe bowling team: The bowler bounces a small leather ball at the batter. The goal of the bowler is to get the batter out and ultimately knock the bails off of the stumps.\nThe batting team: The goal of the batting team is to score as many runs as possible and not let the bowler hit the bail off of the stumps. There are two batters at a time for the batting team. After the batter hits the ball, the two batters will attempt to switch sides. Each batter will go until they get out, when at that time, they will switch with another teammate.\nScoring Runs: Each time the two batters switch sides without getting out counts as a run scored. For example, if you hit the ball and are able to run to the other wicket and back without getting out, that would score two runs for your team. If the batter hits the ball on a bounce to the oval boundary, it counts as four runs scored. If the batter hits the ball over the oval boundary on a fly, it counts as six runs.\nOuts: Below are a few common ways in which a batter can get out\n\nIf the batter hits the ball and it is caught in the air (caught out)\nIf a player on the bowling team throws the ball and it hits the bails off the stumps before the batter can cross the line while trying to score a run (run out)\nIf the bowler throws the ball past the batter and it knocks a bail off the wicket\nIf the batter gets hit in the legs by a ball that would have hit the wicket (Note: if the batter gets hit and the ball wasn’t ruled as one that would have hit the wicket, the batter is not out)\n\nThe duration of cricket matches can range from hours to days, depending on what format is being played, and scores are often high as each individual batter usually scores many runs on multiple pitches before getting out.",
-    "crumbs": [
-      "Home",
-      "Cricket",
-      "Exploring Logistic Regression Through Cricket"
-    ]
-  },
-  {
-    "objectID": "cricket/cricket_data_repo.html#motivation",
-    "href": "cricket/cricket_data_repo.html#motivation",
-    "title": "Exploring Logistic Regression Through Cricket",
-    "section": "",
-    "text": "Cricket is a game watched and played by billions of people across the world. Second in global popularity only to football (soccer), it is extremely popular in South Asia, Australia, Africa, and Europe.\n\n\nCricket is played on a rectangular pitch inside an oval boundary. In the pitch, on either side, there is a vertical wicket, made up of three vertical wooden “stumps” with two wooden bails (small blocks of wood) resting atop the stumps. There are two teams, each with 11 players (a batting team and a bowling team).\nThe bowling team: The bowler bounces a small leather ball at the batter. The goal of the bowler is to get the batter out and ultimately knock the bails off of the stumps.\nThe batting team: The goal of the batting team is to score as many runs as possible and not let the bowler hit the bail off of the stumps. There are two batters at a time for the batting team. After the batter hits the ball, the two batters will attempt to switch sides. Each batter will go until they get out, when at that time, they will switch with another teammate.\nScoring Runs: Each time the two batters switch sides without getting out counts as a run scored. For example, if you hit the ball and are able to run to the other wicket and back without getting out, that would score two runs for your team. If the batter hits the ball on a bounce to the oval boundary, it counts as four runs scored. If the batter hits the ball over the oval boundary on a fly, it counts as six runs.\nOuts: Below are a few common ways in which a batter can get out\n\nIf the batter hits the ball and it is caught in the air (caught out)\nIf a player on the bowling team throws the ball and it hits the bails off the stumps before the batter can cross the line while trying to score a run (run out)\nIf the bowler throws the ball past the batter and it knocks a bail off the wicket\nIf the batter gets hit in the legs by a ball that would have hit the wicket (Note: if the batter gets hit and the ball wasn’t ruled as one that would have hit the wicket, the batter is not out)\n\nThe duration of cricket matches can range from hours to days, depending on what format is being played, and scores are often high as each individual batter usually scores many runs on multiple pitches before getting out.",
-    "crumbs": [
-      "Home",
-      "Cricket",
-      "Exploring Logistic Regression Through Cricket"
-    ]
-  },
-  {
-    "objectID": "cricket/cricket_data_repo.html#data",
-    "href": "cricket/cricket_data_repo.html#data",
-    "title": "Exploring Logistic Regression Through Cricket",
-    "section": "Data",
-    "text": "Data\nThe asia_cup data set includes data from each cricket match played in all Asia Cup Tournaments from 1984 (the first one) to 2022. The Asia Cup is a tournament that now takes place every two years, alternating host cities in different countries throughout Asia.\n\n\n\n\n\n\n\nVariable\nDescription\n\n\n\n\nTeam\nOne team of the match\n\n\nOpponent\nThe team played\n\n\nHost\nVenue played at\n\n\nYear\nTournament year played\n\n\nToss\nCoin toss to determine who starts batting or bowling (0 = lost, 1 = won)\n\n\nSelection\nTeam’s selection after winning / losing the toss (0 = Batting, 1 = Bowling)\n\n\nRun Scored\nTotal runs scored by that team\n\n\nFours\nTotal scored fours for that team\n\n\nSixes\nTotal scored sixes for that team\n\n\nExtras\nAmount of extra runs scored by that team\n\n\nHighest Score\nHighest individual number of runs scored\n\n\nResult\n0 = lost match, 1 = won match\n\n\nGiven Extras\nNumber of extra runs given up\n\n\n\nData Download: cricket_asia_cup.csv",
-    "crumbs": [
-      "Home",
-      "Cricket",
-      "Exploring Logistic Regression Through Cricket"
-    ]
-  },
-  {
-    "objectID": "cricket/cricket_data_repo.html#questions",
-    "href": "cricket/cricket_data_repo.html#questions",
-    "title": "Exploring Logistic Regression Through Cricket",
-    "section": "Questions",
-    "text": "Questions\n\nBuilding Simple Logistic Regression and Multiple Logistic Regression\nInterpreting Logistic Regression\nFinding odds and log odds of an event",
-    "crumbs": [
-      "Home",
-      "Cricket",
-      "Exploring Logistic Regression Through Cricket"
-    ]
-  },
-  {
-    "objectID": "cricket/cricket_data_repo.html#references",
-    "href": "cricket/cricket_data_repo.html#references",
-    "title": "Exploring Logistic Regression Through Cricket",
-    "section": "References",
-    "text": "References\nAsia Cup 1984-2022",
-    "crumbs": [
-      "Home",
-      "Cricket",
-      "Exploring Logistic Regression Through Cricket"
-    ]
-  },
-  {
-    "objectID": "by-statsds-topic.html",
-    "href": "by-statsds-topic.html",
-    "title": "Datasets By Topic",
-    "section": "",
-    "text": "2022 Divison III Women’s Soccer Results\n\n\n\n\n\n\nCorrelation\n\n\nChi-square test for association\n\n\n\nDivision III women’s soccer teams game results from 2022 season\n\n\n\n\n\nHope Donoghue, Robin Lock\n\n\n\n\n\n\n\n\n\n\n\n\n2023 Boston Marathon runners\n\n\n\n\n\n\nSummary statistics\n\n\nOutliers\n\n\nz-scores\n\n\n\nThe data set looks at the 2023 Boston Marathon results.\n\n\n\n\n\nJun 27, 2023\n\n\nJack Fay, A.J. Dykstra, and Ivan Ramler\n\n\n\n\n\n\n\n\n\n\n\n\n2023 Miami Grand Prix Lap Data\n\n\n\n\n\n\nsummary statistics\n\n\nhistogram analysis\n\n\ndata interpretation\n\n\n\nUse Minitab or other statistical software to gather summary statistics about the 2023 F1 Miami GP a\n\n\n\n\n\nMar 7, 2024\n\n\nNorah Kuduk\n\n\n\n\n\n\n\n\n\n\n\n\n2023-24 PWHL Skaters\n\n\n\n\n\n\ndata visualization\n\n\ndata wrangling\n\n\nexploratory data Analysis\n\n\n\nThe data set looks at statistics from PWHL skaters during the 2023-24 regular season. If possible, give a brief summary of the sports problem and statistical situation.\n\n\n\n\n\nJun 6, 2024\n\n\nBrendan Karadenes\n\n\n\n\n\n\n\n\n\n\n\n\n2024 Disc Golf Pro Tour MPO Statistics\n\n\n\n\n\n\nCorrelation\n\n\n\nDGPT statistics containg, scoring, throwing, putting, placement, and earning statistics. We will look at the correlation between throwing and putting statistics, and the success of a player.\n\n\n\n\n\nJun 6, 2024\n\n\nGavin Cassidy\n\n\n\n\n\n\n\n\n\n\n\n\n500m Short Track Speed Skating\n\n\n\n\n\n\nHistograms\n\n\nSummary Statistics\n\n\nOutliers\n\n\n\nRace and Lap times from 500m short track speed skating athletes at European Championship, World Cup, World Championship and Olympic events.\n\n\n\n\n\nJun 13, 2024\n\n\nGavin Cassidy\n\n\n\n\n\n\n\n\n\n\n\n\nAustralian Open Tennis (2008-2022)\n\n\n\n\n\n\nproportions\n\n\ntwo-way tables\n\n\n\nResults from matches at the Men’s Australian Open Tennis Tournament between 2008 and 2022.\n\n\n\n\n\nAug 3, 2023\n\n\nTrent Meyer, Robin Lock\n\n\n\n\n\n\n\n\n\n\n\n\nBatting Statistics for Division I Softball\n\n\n\n\n\n\nmerging\n\n\njoining\n\n\ndata wrangling\n\n\n\nThese data sets contain batting statistics for Division I softball in the 2021 and 2022 seasons.\n\n\n\n\n\nMay 23, 2023\n\n\nSarah Weaver and Ivan Ramler\n\n\n\n\n\n\n\n\n\n\n\n\nBeijing 2022 Winter Olympics Data\n\n\n\n\n\n\nData Cleaning\n\n\nSummarization\n\n\nMerging\n\n\n\nThese datasets contain both athlete information and medal winner information from the Beijing 2022 Olympic Winter Games.\n\n\n\n\n\nFeb 28, 2024\n\n\nEric Seltzer\n\n\n\n\n\n\n\n\n\n\n\n\nExploring Logistic Regression Through Cricket\n\n\n\n\n\n\nMultiple Logistic Regression\n\n\n\n\n\n\n\n\n\nJun 10, 2024\n\n\nVivian Johnson\n\n\n\n\n\n\n\n\n\n\n\n\nFINA World Junior Championships 2022 Diving Data\n\n\n\n\n\n\nANOVA for difference in means\n\n\nPairwise Comparisons\n\n\nFisher’s LSD\n\n\nTukey’s HSD\n\n\n\nPreliminary diving results of womens 16-18 1m springboard from the 2022 FINA World Junior Championships.\n\n\n\n\n\nFeb 29, 2024\n\n\nEmma Deering\n\n\n\n\n\n\n\n\n\n\n\n\nJustin Verlander Pitches\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\n\nInformation about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\n\n\n\n\nLacrosse PLL vs. NLL\n\n\n\n\n\n\nDifference in means hypothesis tests\n\n\nDifference in means confidence intervals\n\n\n\nThe data set looks at both lacrosse leagues, their respective teams, and their shot and goal amounts.\n\n\n\n\n\nJun 22, 2023\n\n\nAJ Dykstra, Jack Cowan, and Ivan Ramler\n\n\n\n\n\n\n\n\n\n\n\n\nLake Placid Women’s Ironman Triathlon\n\n\n\n\n\n\nHistograms\n\n\nScatter Plots\n\n\nCorrelation\n\n\nLinear Regression\n\n\n\nThe data set looks at female participatants in the triathlon Ironman.\n\n\n\n\n\nJun 17, 2023\n\n\nMichael Schuckers, Matthew Abel, and A.J. Dykstra\n\n\n\n\n\n\n\n\n\n\n\n\nLeague of Legends - Buffing and Nerfing\n\n\n\n\n\n\noutlier detection\n\n\nfive number summary\n\n\nz-scores\n\n\n\nGame play statistics for League of Legends champions in two different patches. Can detecting outliers indicate champions that should be enhanced (buffed) or scaled back (nerfed)?\n\n\n\n\n\nJul 1, 2023\n\n\nGeorge Charalambous, Ivan Ramler, and A.J. Dykstra\n\n\n\n\n\n\n\n\n\n\n\n\nNASCAR Data Description\n\n\n\n\n\n\ndata visualization\n\n\ndata wrangling\n\n\nlinear regression\n\n\ntransformations in regression\n\n\nmodel assumptions\n\n\nmodel building\n\n\n\nNASCAR Driver Ratings and statistics from 2007-2022\n\n\n\n\n\nJul 6, 2023\n\n\nAlyssa Bigness, Jack Fay, and Ivan Ramler\n\n\n\n\n\n\n\n\n\n\n\n\nNBA RAPM Datasets\n\n\n\n\n\n\nregularization\n\n\nridge regression\n\n\nhierarchical models\n\n\n\nDatasets to build regularized adjusted plus-minus (RAPM) models for NBA players during the 2022-2023 regular season\n\n\n\n\n\nMar 6, 2024\n\n\nRon Yurko\n\n\n\n\n\n\n\n\n\n\n\n\nNFL Draft Combine\n\n\n\n\n\n\nExploratory Data Analysis\n\n\nLinear regression\n\n\n\nNFL Scouting Combine Event scores from 2004 - 2023\n\n\n\n\n\nAug 3, 2023\n\n\nShane Hauk, Michael Schuckers, Robin Lock\n\n\n\n\n\n\n\n\n\n\n\n\nNHL Team Power Play Perfomance in 2022-2023\n\n\n\n\n\n\nexploratory data Analysis\n\n\n\nMeasures for National Hockey League teams from all 5 on 4 power plays in the 2022-2023 season.\n\n\n\n\n\nJul 27, 2023\n\n\nAbby Hustler, Robin Lock\n\n\n\n\n\n\n\n\n\n\n\n\nNHL Team Statistics\n\n\n\n\n\n\nlinear regression\n\n\ncorrelation\n\n\n\nTeam-level statistics from the 2022-2023 NHL season\n\n\n\n\n\nDec 15, 2023\n\n\nTaylor Lum, Robin Lock\n\n\n\n\n\n\n\n\n\n\n\n\nNational Basketball Association Player Statistics\n\n\n\n\n\n\nclustering\n\n\nprincipal component analysis\n\n\n\nNBA player statistics from the 2021-2022 regular season\n\n\n\n\n\nMar 25, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\n\n\n\n\nNational Football League Team Statistics\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\nmissing data\n\n\nvariable selection\n\n\nregularization\n\n\n\nNFL team statistics from 1999 to 2022\n\n\n\n\n\nMay 24, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\n\n\n\n\nNational Hockey League Shots\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\nInformation about shots during the 2021-2022 NHL season\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\n\n\n\n\nNational Women’s Soccer League Team Statistics\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\n\nNWSL team statistics from 2016 to 2022\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\n\n\n\n\nOlympic Rowing Medals Between 1900 and 2022\n\n\n\n\n\n\ndistribution and skewness\n\n\noutlier detection\n\n\nsummary statistics\n\n\nconfounding variable\n\n\n\nThe total number of medals and the weighted points for nations competing in rowing events in the Summer Olympic Games between 1900 and 2022.\n\n\n\n\n\nJun 5, 2024\n\n\nAbigail Smith\n\n\n\n\n\n\n\n\n\n\n\n\nOlympic Swimming History\n\n\n\n\n\n\nexploratory data analysis\n\n\n\nOlympic swimming data from 1912-2020. Includes athlete name, year, team, location, time, medal/no medal, stroke, distance, etc.\n\n\n\n\n\nJul 2, 2024\n\n\nAndrew Poock\n\n\n\n\n\n\n\n\n\n\n\n\nOlympic_Swimming\n\n\n\n\n\n\nHypothesis Testing\n\n\nSide-By-Side Boxplots\n\n\nConfidence Intervals\n\n\n\nThe dataset looks at Olympic swimmers 100 meter races from 1924 to 2020.\n\n\n\n\n\nJun 13, 2024\n\n\nBrendan Karadenes\n\n\n\n\n\n\n\n\n\n\n\n\nPremier Hockey Federation Shots\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\nlogistic regression\n\n\n\nInformation about shots during the 2021-2022 PHF season\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\n\n\n\n\nProfessional Bull Riding Analysis\n\n\n\n\n\n\nLinear Regression\n\n\nSummary Statistics\n\n\nInfluential Points\n\n\nHypothesis Testing\n\n\n\nInvestigating a collection of professional bull riders and their statistics from 2023 season for the Touring Pro Division of the Professional Bull Riding League.\n\n\n\n\n\nMar 6, 2024\n\n\nMatt Maslow\n\n\n\n\n\n\n\n\n\n\n\n\nRatio Between Dumbbell Press and Flat Bench Press\n\n\n\n\n\n\nHistogram\n\n\nMean, IQR\n\n\nOne Sample T-Interval\n\n\n\n\n\n\n\n\n\nJun 4, 2024\n\n\nVivian Johnson\n\n\n\n\n\n\n\n\n\n\n\n\nSoccer Heights\n\n\n\n\n\n\nANOVA for means\n\n\nPairwise comparisons\n\n\n\nHeights for a sample of 100 soccer players by position\n\n\n\n\n\nAug 3, 2023\n\n\nRoderick Mpofu, Robin Lock\n\n\n\n\n\n\n\n\n\n\n\n\nStatistics of PGA Tournaments During the 2022 Season\n\n\n\n\n\n\ncorrelation\n\n\nlinear regression\n\n\n\nMeasures of Putting, Driving, and Success for individual golfers in 19 professional tournaments in 2022\n\n\n\n\n\nMay 19, 2023\n\n\nAlysssa Bigness\n\n\n\n\n\n\n\n\n\n\n\n\nSumo wrestler characteristics\n\n\n\n\n\n\ndata wrangling\n\n\ndata visualization\n\n\n\nSumo wrestling data 1957-2023.\n\n\n\n\n\nJun 29, 2023\n\n\nJack Fay, A.J. Dykstra, and Ivan Ramler\n\n\n\n\n\n\n\n\n\n\n\n\nSynergistic Interactions in League of Legends\n\n\n\n\n\n\nChi-Squared\n\n\nPredictor Categories\n\n\nRelationship\n\n\n\nThis module focuses on examining the synergistic relationships between champions in the AD Carry and Support roles within the popular video game, League of Legends. Through Chi-Squared analysis, we will assess potential interactions among the top five most-selected champions in these positions to determine if any statistically significant relationships exist.\n\n\n\n\n\nFeb 29, 2024\n\n\nGeorge Charalambous\n\n\n\n\n\n\n\n\n\n\n\n\nTeam Statistics for Division I Women’s Volleyball\n\n\n\n\n\n\nmulticollinearity\n\n\nmultiple linear regression\n\n\ncorrelations\n\n\nsummary statistics\n\n\n\nThese data sets contain team statistics for Division I women’s volleyball in the 2022 and 2023 seasons.\n\n\n\n\n\nJul 24, 2023\n\n\nJack Fay, A.J. Dykstra, and Ivan Ramler\n\n\n\n\n\n\n\n\n\n\n\n\nTeam statistics for NCAA Division 1 Men’s and Women’s Lacrosse\n\n\n\n\n\n\ncorrelation\n\n\nindicator variables\n\n\nlinear regression\n\n\nside-by-side boxplots\n\n\n\nThese data sets contain team statistics for NCAA Division I women’s and men’s lacrosse in the 2022 and 2023 seasons.\n\n\n\n\n\nJul 24, 2023\n\n\nJack Fay, A.J. Dykstra, and Ivan Ramler\n\n\n\n\n\n\n\n\n\n\n\n\nUFC Striking Statistics\n\n\n\n\n\n\nNormal Distribution\n\n\nQuantiles\n\n\nProportions\n\n\n\nUFC fighter data containing information about height, weight, striking, reach, stance, and takedowns. Since the striking accuracy distribution is approximately normal, we will look at proportions and percentiles of fighters with “good” and “bad” percentages.\n\n\n\n\n\nMar 1, 2023\n\n\nBrendan Karadenes\n\n\n\n\n\n\n\n\n\n\n\n\nWTA Grand Slam Matches\n\n\n\n\n\n\nlogistic regression\n\n\ndata wrangling\n\n\ncategorical data\n\n\nchi-squared test\n\n\nclustering\n\n\n\nWTA Grand Slam Matches from 2018 to 2022\n\n\n\n\n\nMay 24, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\n\n\n\n\nWest Point Indoor Obstacle Course Test Data\n\n\n\n\n\n\nconfounding variables\n\n\nmultiple regression\n\n\ninteractions\n\n\n\nDataset for the Indoor Obstacle Course, an obstacle course that all Cadets at West Point must complete prior to graduation.\n\n\n\n\n\nJul 2, 2024\n\n\nNicholas Clark\n\n\n\n\n\n\n\n\n\n\n\n\nWomen’s Alpine Skiing World Cup GS Statistics\n\n\n\n\n\n\nPaired data\n\n\nDifference in means\n\n\nCorrelation\n\n\n\nStatistics from a two-run women’s World Cup Giant Slalom race at Mont-Tremblant\n\n\n\n\n\nMar 14, 2024\n\n\nEmilia Agostinelli\n\n\n\n\n\n\n\n\n\n\n\n\nWomen’s National Baskeball Assosiation game statistics\n\n\n\n\n\n\nData cleaning\n\n\nMissing Data\n\n\nTables\n\n\nLogistic Regression\n\n\n\nThis data set contains team game statistics for 16 WNBA teams and for 20 seasons.\n\n\n\n\n\nDec 15, 2023\n\n\nKristen Varin\n\n\n\n\n\n\n\n\n\n\n\n\nWomen’s National Basketball Association Shots\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\nInformation about shots during the 2021-2022 WNBA season\n\n\n\n\n\nMar 25, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\n\n\n\n\nWorld Cup Women’s 10k Classic Nordic Ski Race\n\n\n\n\n\n\nanova for difference in means\n\n\nlinear regression analysis\n\n\ncorrelation\n\n\nchecking conditions for simple linear regression\n\n\n\nThe times and ranks of skiers taken at four different distance points (1.3, 4.3, 7.5, and 10k) in a 10k classic race in Trondheim, Norway.\n\n\n\n\n\nFeb 29, 2024\n\n\nAbigail Smith\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home",
-      "Datasets By Topic"
-    ]
-  },
-  {
-    "objectID": "lacrosse/lacrosse_ncaa_div1.html",
-    "href": "lacrosse/lacrosse_ncaa_div1.html",
-    "title": "Team statistics for NCAA Division 1 Men’s and Women’s Lacrosse",
-    "section": "",
-    "text": "Over the years, lacrosse has experienced remarkable growth, with increased popularity and participation propelling the sport to new heights. This surge has led to a rise in skilled athletes competing in high-level leagues, notably NCAA Division I Men’s Lacrosse. Within this heightened competition, faceoffs are known to be a vital aspect of the game. Due to their important impact, players train to specifically specialize in them, as winning a faceoff often grants their teams crucial opportunities for offensive possession which can profoundly impact the course of the game.",
-    "crumbs": [
-      "Home",
-      "Lacrosse",
-      "Team statistics for NCAA Division 1 Men's and Women's Lacrosse"
-    ]
-  },
-  {
-    "objectID": "lacrosse/lacrosse_ncaa_div1.html#motivation",
-    "href": "lacrosse/lacrosse_ncaa_div1.html#motivation",
-    "title": "Team statistics for NCAA Division 1 Men’s and Women’s Lacrosse",
-    "section": "",
-    "text": "Over the years, lacrosse has experienced remarkable growth, with increased popularity and participation propelling the sport to new heights. This surge has led to a rise in skilled athletes competing in high-level leagues, notably NCAA Division I Men’s Lacrosse. Within this heightened competition, faceoffs are known to be a vital aspect of the game. Due to their important impact, players train to specifically specialize in them, as winning a faceoff often grants their teams crucial opportunities for offensive possession which can profoundly impact the course of the game.",
-    "crumbs": [
-      "Home",
-      "Lacrosse",
-      "Team statistics for NCAA Division 1 Men's and Women's Lacrosse"
-    ]
-  },
-  {
-    "objectID": "lacrosse/lacrosse_ncaa_div1.html#data",
-    "href": "lacrosse/lacrosse_ncaa_div1.html#data",
-    "title": "Team statistics for NCAA Division 1 Men’s and Women’s Lacrosse",
-    "section": "Data",
-    "text": "Data\n\nThere are three data sets: 2022-2023 statistics for Men’s teams, 2022-2023 statsitics for Women’s teams, and a dataset combining the Men’s and Women’s statisitcs (that only includes the variables available in each of the other two).\n\nlacrosse_men_ncaa_div1_2022_2023.csv\n\n\nThis data set contains 72 rows and 22 columns. Each row represents a men’s lacrosse team at the NCAA Division 1 level from the 2022-2023 season.\n\nlacrosse_women_ncaa_div1_2022_2023.csv\n\n\nVariable\nDescription\n\n\n\n\nTeam\ncollege of the team\n\n\navg_assists\naverage assists to goals per game\n\n\navg_caused_turnovers\naverage turnovers forced by the team per game\n\n\nclearing_pctg\npercentage of successful attempts to earn an offensive opportunity after gaining the ball in the teams own half\n\n\ntotal_faceoffs\ntotal faceoffs taken by a team for the season\n\n\nfaceoff_wins\ntotal faceoff wins by a team for the season\n\n\nfaceoff_win_pct\nproportion of total faceoff wins out of total faceoffs. Equivalent to the draw percentage in women’s lacrosse.\n\n\navg_goals\naverage goals per game\n\n\navg_goals_allowed\naverage goals allowed by the team per game\n\n\navg_ground_balls\naverage loose balls picked up by the team per game\n\n\nman_down_defense_pctg\nproportion of times a team stops the opponent from scoring while man down due to a penalty\n\n\nman_up_offense_pctg\nproportion of times the offense scores out of total opportunities while man up\n\n\navg_scoring_margin\naverage margin of goals per game\n\n\nopp_clear_pctg\nopponents clearing percentage averaged by game\n\n\navg_points\naverage team points per game\n\n\navg_saves\naverage saves per game\n\n\nshot_pctg\nproportion of shots that go in out of total shots\n\n\navg_turnovers\naverage turnovers that are directly the fault of a player per game\n\n\nW\ntotal wins by the team\n\n\nL\ntotal losses by the team\n\n\nwin_loss_pctg\nproportion of games won out of total games\n\n\n\nThis data set contains 120 rows and 18 columns. Each row represents a women’s lacrosse team at the NCAA Division 1 level from the 2022-2023 season.\n\n\n\n\n\n\n\nVariable Name\nDescription\n\n\n\n\nTeam\nThe name of the women’s NCAA lacrosse team.\n\n\ndraw_pctg\nDraw percentage, the proportion of draw controls won by the team in a game. Equivalent to the Faceoff percentage in Men’s lacrosse.\n\n\nturnovers_per_game\nAverage number of turnovers committed by the team per game.\n\n\nsog_per_game\nShots on goal (SOG) per game, the average number of shots on goal taken by the team.\n\n\nassists_per_game\nAverage number of assists made by the team per game.\n\n\ncaused_turnovers_per_game\nThe average number of caused turnovers by the team per game.\n\n\nclearing_pctg\nClearing percentage, the rate at which the team successfully clears the ball from defense to offense.\n\n\ndraw_controls_per_game\nThe average number of draw controls won by the team per game.\n\n\nfouls_per_game\nAverage number of fouls committed by the team per game.\n\n\nfree_position_pctg\nFree position percentage, the rate of successful free position shots taken by the team.\n\n\nground_balls_per_game\nThe average number of ground balls scooped by the team per game.\n\n\npoints_per_game\nAverage number of total points (goals + assists) scored by the team per game.\n\n\nsave_pctg\nSave percentage, the proportion of shots on goal saved by the team’s goalkeeper.\n\n\ngoals_allowed_per_game\nAverage number of goals allowed by the team’s defense per game.\n\n\ngoals_per_game\nAverage number of goals scored by the team per game.\n\n\nshots_per_game\nAverage number of total shots (on goal + off target) taken by the team per game.\n\n\nshot_pctg\nShooting percentage, the proportion of shots on goal that result in a goal.\n\n\nwin_pctg\nThe team’s winning percentage, calculated as the number of wins divided by total games played.\n\n\n\n\nNote: The table provides a brief description of each variable, but more context and understanding might be required to interpret and analyze these statistics effectively in the context of women’s NCAA lacrosse.\n\nlacrosse_men_and_women_ncaa_div1_2022_2023.csv\n\n\nThis data set contains 192 rows and 6 columns. Each row represents a lacrosse team at the NCAA Division 1 level from the 2022-2023 season. Teams come from both the men’s and womens division.\n\n\n\n\n\n\n\nVariable\nDescription\n\n\n\n\nTeam\ncollege of the team\n\n\nfaceoff_win_pct\nthe proportion of faceoffs win out of total faceoffs taken\n\n\nshots_per_game\naverage amount of shots per game\n\n\nshot_pctg\nproportion of shots that are goals out of total shots\n\n\nwin_loss_percentage\namount of wins out of total games played\n\n\nDivision\nthe division the team is in (Mens or Womens)",
-    "crumbs": [
-      "Home",
-      "Lacrosse",
-      "Team statistics for NCAA Division 1 Men's and Women's Lacrosse"
-    ]
-  },
-  {
-    "objectID": "lacrosse/lacrosse_ncaa_div1.html#questions",
-    "href": "lacrosse/lacrosse_ncaa_div1.html#questions",
-    "title": "Team statistics for NCAA Division 1 Men’s and Women’s Lacrosse",
-    "section": "Questions",
-    "text": "Questions\nUsing either Women’s or Men’s\n\nWhich teams have better faceoff win proportions than the average?\nWhich teams have worse faceoff win proportions than the average?\nWhat sort of impact does faceoff percentage have on the success of the team?\n\nUsing the data with both Women’s and Men’s\n\nIn terms of a team’s win percentage, are faceoffs more important for men or women?\nWhat factors could make faceoffs more important for men or women?\nHow does faceoff win percentage affect winning percentage?",
-    "crumbs": [
-      "Home",
-      "Lacrosse",
-      "Team statistics for NCAA Division 1 Men's and Women's Lacrosse"
-    ]
-  },
-  {
-    "objectID": "lacrosse/lacrosse_ncaa_div1.html#references",
-    "href": "lacrosse/lacrosse_ncaa_div1.html#references",
-    "title": "Team statistics for NCAA Division 1 Men’s and Women’s Lacrosse",
-    "section": "References",
-    "text": "References\nNCAA Website: Women’s and Men’s Lacrosse Division I\nhttp://stats.ncaa.org/rankings/change_sport_year_div",
-    "crumbs": [
-      "Home",
-      "Lacrosse",
-      "Team statistics for NCAA Division 1 Men's and Women's Lacrosse"
-    ]
-  },
-  {
-    "objectID": "golf/pga_drive_putt.html",
-    "href": "golf/pga_drive_putt.html",
-    "title": "Statistics of PGA Tournaments During the 2022 Season",
-    "section": "",
-    "text": "A common expression among golfers is “Drive for show, putt for dough.” This implies that the long initial tee shots (drives) on each hole are impressive, but the real key to success is the final strokes rolling the ball along the green into the hole (putts). Do data support this adage? The dataset for this activity was obtained from the PGA statistics website. Cases include all golfers who made the cut in each of 19 PGA tournaments in 2022. The dataset includes variables for driving ability, putting ability, and measuring success in the tournament. The “driving” variables include average driving distance (avgDriveDist), driving accuracy percentage (drivePct), and strokes gained off the tee (driveSG). The “putting” variables are average putts per round (avgPuttsPerRound), one putt percentage (onePuttPct), and strokes gained putting (puttsSG). The variables to measure success are scoring average (avgScore), official money won (Money), and Fedex Cup points (Points).",
-    "crumbs": [
-      "Home",
-      "Golf",
-      "Statistics of PGA Tournaments During the 2022 Season"
-    ]
-  },
-  {
-    "objectID": "golf/pga_drive_putt.html#motivation",
-    "href": "golf/pga_drive_putt.html#motivation",
-    "title": "Statistics of PGA Tournaments During the 2022 Season",
-    "section": "",
-    "text": "A common expression among golfers is “Drive for show, putt for dough.” This implies that the long initial tee shots (drives) on each hole are impressive, but the real key to success is the final strokes rolling the ball along the green into the hole (putts). Do data support this adage? The dataset for this activity was obtained from the PGA statistics website. Cases include all golfers who made the cut in each of 19 PGA tournaments in 2022. The dataset includes variables for driving ability, putting ability, and measuring success in the tournament. The “driving” variables include average driving distance (avgDriveDist), driving accuracy percentage (drivePct), and strokes gained off the tee (driveSG). The “putting” variables are average putts per round (avgPuttsPerRound), one putt percentage (onePuttPct), and strokes gained putting (puttsSG). The variables to measure success are scoring average (avgScore), official money won (Money), and Fedex Cup points (Points).",
-    "crumbs": [
-      "Home",
-      "Golf",
-      "Statistics of PGA Tournaments During the 2022 Season"
-    ]
-  },
-  {
-    "objectID": "golf/pga_drive_putt.html#data",
-    "href": "golf/pga_drive_putt.html#data",
-    "title": "Statistics of PGA Tournaments During the 2022 Season",
-    "section": "Data",
-    "text": "Data\nEach row of data gives the measures for one golfer in one tournament. The dataset covers 19 PGA tournaments from the 2022 season with 1387 cases in all. Each tournament consists of four rounds of golf. Some golfers are eliminated after the first two (or sometimes three) rounds. Only players who competed in all four rounds (i.e. those that made the “cut”) are included in this dataset.\n\nPGA2022.csv\n\n\nVariable\nDescription\n\n\n\n\nplayerName\nName of the player\n\n\ncountry\nThe country where the player is from\n\n\navgDriveDist\nAverage driving distance (in yards)\n\n\ndrivePct\nPercentage of times a tee shot comes to rest in the fairway\n\n\ndriveSG\nStrokes gained off the tee measures player performance off the tee on all par 4s and par 5s of how much better or worse a player’s drive is than the PGA Tour average\n\n\navgPuttsPerRound\nAverage number of total putts per round\n\n\nonePuttPct\nPercentage of times it took one putt to get the ball into the hole\n\n\nputtsSG\nStrokes gained putting measures how many strokes a player gains or loses on the greens compared to the PGA Tour average\n\n\navgScore\nThe scoring average is the total strokes divided by the total rounds\n\n\nMoney\nThe official money is the prize money award to the Professional members\n\n\nPoints\nFedexCup Regular Season Points are awarded points by finished position for performance in each tournament\n\n\nTournament\nThe tournament where the PGA Tour is taking place",
-    "crumbs": [
-      "Home",
-      "Golf",
-      "Statistics of PGA Tournaments During the 2022 Season"
-    ]
-  },
-  {
-    "objectID": "golf/pga_drive_putt.html#questions",
-    "href": "golf/pga_drive_putt.html#questions",
-    "title": "Statistics of PGA Tournaments During the 2022 Season",
-    "section": "Questions",
-    "text": "Questions\n\nAre driving or putting statistics generally more effective for predicting success in a PGA tournament?\nWhich measure of success (avgScore, Money, or Points) appears to be easiest to predict with either driving or putting information?\nFor each measure of success, generate a scatterplot with one the putting or driving variables. Which of these plots suggest we might want to use a transformation of one of the variables to improve linearity?\nCan you find a transformation that improves the linearity of the relationship for one of the problematic cases in question #3?",
-    "crumbs": [
-      "Home",
-      "Golf",
-      "Statistics of PGA Tournaments During the 2022 Season"
-    ]
-  },
-  {
-    "objectID": "golf/pga_drive_putt.html#references",
-    "href": "golf/pga_drive_putt.html#references",
-    "title": "Statistics of PGA Tournaments During the 2022 Season",
-    "section": "References",
-    "text": "References\nThe data were obtained from the PGA statistics website.",
-    "crumbs": [
-      "Home",
-      "Golf",
-      "Statistics of PGA Tournaments During the 2022 Season"
-    ]
-  },
-  {
-    "objectID": "disc_sports/DGPT24.html",
-    "href": "disc_sports/DGPT24.html",
-    "title": "2024 Disc Golf Pro Tour MPO Statistics",
-    "section": "",
-    "text": "Disc golf is a sport where players throw discs from a teeing area and try to get them into a basket in a few strokes as possible. Similarly to ball golf, players compete with a bag of discs that include drivers, midranges, and putters, and try to achieve a score of par or better every hole. The Disc Golf Pro Tour is the main professional disc golf tour that holds tournaments across the United States and Europe where Disc Golfers from all around the world can compete. The DGPT tracks putting and driving statistics for each player across all of their events and the top 40% of finishers in each event receive cash for their performance.",
-    "crumbs": [
-      "Home",
-      "Disc Sports",
-      "2024 Disc Golf Pro Tour MPO Statistics"
-    ]
-  },
-  {
-    "objectID": "disc_sports/DGPT24.html#motivation",
-    "href": "disc_sports/DGPT24.html#motivation",
-    "title": "2024 Disc Golf Pro Tour MPO Statistics",
-    "section": "",
-    "text": "Disc golf is a sport where players throw discs from a teeing area and try to get them into a basket in a few strokes as possible. Similarly to ball golf, players compete with a bag of discs that include drivers, midranges, and putters, and try to achieve a score of par or better every hole. The Disc Golf Pro Tour is the main professional disc golf tour that holds tournaments across the United States and Europe where Disc Golfers from all around the world can compete. The DGPT tracks putting and driving statistics for each player across all of their events and the top 40% of finishers in each event receive cash for their performance.",
-    "crumbs": [
-      "Home",
-      "Disc Sports",
-      "2024 Disc Golf Pro Tour MPO Statistics"
-    ]
-  },
-  {
-    "objectID": "disc_sports/DGPT24.html#data",
-    "href": "disc_sports/DGPT24.html#data",
-    "title": "2024 Disc Golf Pro Tour MPO Statistics",
-    "section": "Data",
-    "text": "Data\nThe DGPT data set contains 97 rows and 25 columns where each row is a disc golfer’s statistics from the first 11 events of 2024 Disc Golf Pro Tour season. Each row includes a players average scoring, throwing, and putting statistics, as well as cumulative and average placement and earning statistics. This data set include each player who finished above the cash line at least 1 tournament in the first 11 events of the DGPT season. The columns are as follows:\n\nDGPT24.csv\n\n\nVariable\nDescription\n\n\n\n\nplayer\nplayer name\n\n\nbirdie_avg\nthe average number of birdies from an 18 hole round\n\n\nbogey_avg\nthe average number of bogeys from an 18 hole round\n\n\nPKD\nthe percentage of shots a player has ‘parked’ (within 10 ft of the basket)\n\n\nC1R\nthe percent of shots throw within ‘Circle 1’(0-33ft) in regulation\n\n\nC2R\nthe percent of shots throw within ‘Circle 2’(33-66ft) in regulation\n\n\nFWY\nthe percent fairways hit with drives\n\n\nSCR\nthe percent of successful ‘scrambles’ the player achieves\n\n\nOB/18\nthe average total out of bounds shots for 18 holes\n\n\nC1X\nthe percent of putts made from C1 excluding tap in putts(0-10ft)\n\n\nC2P\nthe percent of putts made from C2 (33-66ft)\n\n\ntot_SG:TG\nthe total ‘Strokes Gained’ on the rest of the field from the tee to the green\n\n\ntot_SG:P\nthe total ‘Strokes Gained’ on the rest of the field putting\n\n\nevents\ntotal events played for the 2024 DGPT season\n\n\nrounds\ntotal rounds played for the 2024 DGPT season\n\n\nwins\nwins from the 2024 DGPT season\n\n\npodiums\ntotal podium placements from the 2024 DGPT season\n\n\ntop_10s\ntotal top 10 placements from the 2024 DGPT season\n\n\ntop_20s\ntotal top 20 placements from the 2024 DGPT season\n\n\navg_place\naverage event placement from the 2024 DGPT season\n\n\ntop_10%\npercent of events where the player placed in the top 10\n\n\ntop_20%\npercent of events where the player placed in the top 20\n\n\ntotal_earnings\nthe players total earnings from the 2024 DGPT season\n\n\ntotal_strokes\nthe total number of shots the player has taken during the DGPT season\n\n\n\n\n\n\n\n\n\nImportant Disc Golf Terms\n\n\n\n\n\nParked(PKD): When a player throws their disc within 10 feet of the basket with a tee shot on par 3s or an approach shot on par 4s and 5s. A score of eagle or better also counts as a shot being parked.\nCircle 1 in Regulation(C1R): When a player’s disc comes to rest within 10m(33ft) of the basket in the expected amount of shots. This is their tee shot on a par 3, 2nd shot on a par 4, and third shot on a par 5. C1 is defined by a 10m circle around the basket.\nCircle 2 in Regulation(C2R): This has the same definition as Circle 1 in Regulation, but Circle 2 extends to within 20m(66ft) of the basket.\nFairways Hit(FWY): This is the percent of holes where the player lands on the fairway with their drive. This includes being inside Circle 1 or 2 on a drive.\nScramble(SCR): A scramble is when a player scores par or better on a hole after missing the fairway or being out-of-bounds. Scramble percentage is the percentage of holes where a player scored par or better after an errant drive.\nCircle 1X putting(C1X): The putting percentage of the player from within Circle 1 (10m/66ft), excluding tap in putts within 10ft of the basket.\nCircle 2 putting(C2P): The putting percentage of the player from Circle 2 (10m-20m/33ft-66ft).\nStrokes Gained Tee to Green(SG:TG): This is the number of strokes by which the player has exceeded the average throwing performance of the field on drives and approaches.\nStrokes Gained Putting(SG:P): This is the number of strokes by which the player has exceeded the average putting performance of the field in circle 1 and 2.",
-    "crumbs": [
-      "Home",
-      "Disc Sports",
-      "2024 Disc Golf Pro Tour MPO Statistics"
-    ]
-  },
-  {
-    "objectID": "disc_sports/DGPT24.html#questions",
-    "href": "disc_sports/DGPT24.html#questions",
-    "title": "2024 Disc Golf Pro Tour MPO Statistics",
-    "section": "Questions",
-    "text": "Questions\n\nWhat statistics are most strongly correlated with successful performances (total_earnings, wins, avg_place)?\nIf a player were to improve in a specific statistic, how would you expect his scoring to change(average birdies or bogeys)?\nDoes the old golf saying “Drive for show, putt for dough” apply to disc golf? Are wins or total earnings more correlated with putting?",
-    "crumbs": [
-      "Home",
-      "Disc Sports",
-      "2024 Disc Golf Pro Tour MPO Statistics"
-    ]
-  },
-  {
-    "objectID": "disc_sports/DGPT24.html#references",
-    "href": "disc_sports/DGPT24.html#references",
-    "title": "2024 Disc Golf Pro Tour MPO Statistics",
-    "section": "References",
-    "text": "References\nProfession Disc Golf Association via. StatMando, 2024, 2024 MPO DGPT Season Stats. https://statmando.com/stats/season-stats-main-dgpt-2024-mpo\nProfession Disc Golf Association via. StatMando, 2024, Stats for Majors and Elite Events: 2024 (MPO). https://statmando.com/stats/stats-elite-series-majors-2024-mpo",
-    "crumbs": [
-      "Home",
-      "Disc Sports",
-      "2024 Disc Golf Pro Tour MPO Statistics"
-    ]
-  },
-  {
-    "objectID": "lacrosse/lacrosse_pll_vs_nll.html",
-    "href": "lacrosse/lacrosse_pll_vs_nll.html",
-    "title": "Lacrosse PLL vs. NLL",
-    "section": "",
-    "text": "This data set examines the goals and shots in two prominent lacrosse leagues: the Premier Lacrosse League (PLL) and the National Lacrosse League (NLL).\nThe PLL and NLL are highly regarded professional lacrosse leagues that feature top-tier athletes from around the world. The PLL is played in an indoor, smaller field while the NLL plays on an outdoor field with traditional dimensions. This data set allows for an analysis of goal-scoring within these leagues.",
-    "crumbs": [
-      "Home",
-      "Lacrosse",
-      "Lacrosse PLL vs. NLL"
-    ]
-  },
-  {
-    "objectID": "lacrosse/lacrosse_pll_vs_nll.html#motivation",
-    "href": "lacrosse/lacrosse_pll_vs_nll.html#motivation",
-    "title": "Lacrosse PLL vs. NLL",
-    "section": "",
-    "text": "This data set examines the goals and shots in two prominent lacrosse leagues: the Premier Lacrosse League (PLL) and the National Lacrosse League (NLL).\nThe PLL and NLL are highly regarded professional lacrosse leagues that feature top-tier athletes from around the world. The PLL is played in an indoor, smaller field while the NLL plays on an outdoor field with traditional dimensions. This data set allows for an analysis of goal-scoring within these leagues.",
-    "crumbs": [
-      "Home",
-      "Lacrosse",
-      "Lacrosse PLL vs. NLL"
-    ]
-  },
-  {
-    "objectID": "lacrosse/lacrosse_pll_vs_nll.html#data",
-    "href": "lacrosse/lacrosse_pll_vs_nll.html#data",
-    "title": "Lacrosse PLL vs. NLL",
-    "section": "Data",
-    "text": "Data\nThe data set has 162 rows with 9 columns. Each row represents a single lacrosse match either in the Premier Lacrosse League or the National Lacrosse League for the 2021 - 2022 season. NLL seasons typically run from December to May while PLL seasons typically run from June to September.\n\nlacrosse_pll_nll_2021-2022.csv\n\n\nVariable\nDescription\n\n\n\n\nLeague\nThe Premier Lacrosse league and the National Lacrosse League\n\n\nAway_team\nThe traveling team\n\n\nHome_team\nThe hosting team\n\n\nAway_shots\nHow many shots the Away_team had on net\n\n\nHome_shots\nHow many shots the Home_team had on net\n\n\nAway_goals\nHow many goals the Away_team had on net\n\n\nHome_goals\nHow many goals the Home_team had on net\n\n\ngoals_per_game\nThe total amount of goals scored each game\n\n\ngoals_per_48\nThe average amount of goals for the first 48 minutes of a game",
-    "crumbs": [
-      "Home",
-      "Lacrosse",
-      "Lacrosse PLL vs. NLL"
-    ]
-  },
-  {
-    "objectID": "lacrosse/lacrosse_pll_vs_nll.html#questions",
-    "href": "lacrosse/lacrosse_pll_vs_nll.html#questions",
-    "title": "Lacrosse PLL vs. NLL",
-    "section": "Questions",
-    "text": "Questions\n\nDo these data provide evidence that, on average, goals scored in the PLL and NLL differ? Include all details of the appropriate hypothesis test.\nConstruct and interpret a 95% confidence interval in average goals for NLL and PLL lacrosse games per 48 minutes.",
-    "crumbs": [
-      "Home",
-      "Lacrosse",
-      "Lacrosse PLL vs. NLL"
-    ]
-  },
-  {
-    "objectID": "lacrosse/lacrosse_pll_vs_nll.html#references",
-    "href": "lacrosse/lacrosse_pll_vs_nll.html#references",
-    "title": "Lacrosse PLL vs. NLL",
-    "section": "References",
-    "text": "References\nPremier Lacrosse League stats. Premier Lacrosse League Stats. (n.d.). https://stats.premierlacrosseleague.com/\nPlayer stats. NLL. (2023, January 26). https://www.nll.com/stats/all-player-stats/",
-    "crumbs": [
-      "Home",
-      "Lacrosse",
-      "Lacrosse PLL vs. NLL"
-    ]
-  },
-  {
-    "objectID": "volleyball/volleyball_ncaa_team_stats.html",
-    "href": "volleyball/volleyball_ncaa_team_stats.html",
-    "title": "Team Statistics for Division I Women’s Volleyball",
-    "section": "",
-    "text": "Division 1 NCAA women’s volleyball is the highest level of collegiate competition for women’s volleyball in the United States. With well over 300 teams compete at the Division 1 level, there is fierce competition each year as only 64 teams make the post-season Volleyball Championship. The division demands high-level athletic performances, teamwork, and strategic game play from a variety of aspects. With each team having their own strengths and weaknesses, there is no exception of exciting matchups and and shocking results.\nIn volleyball, a kill is awarded to a player any time their attack is unreturnable by the opposition because it is the direct cause of the opponent not returning the ball. An assist is awarded when a set, pass, or dig to a teammate results in that teammate attacking the ball for a kill.",
-    "crumbs": [
-      "Home",
-      "Volleyball",
-      "Team Statistics for Division I Women's Volleyball"
-    ]
-  },
-  {
-    "objectID": "volleyball/volleyball_ncaa_team_stats.html#motivation",
-    "href": "volleyball/volleyball_ncaa_team_stats.html#motivation",
-    "title": "Team Statistics for Division I Women’s Volleyball",
-    "section": "",
-    "text": "Division 1 NCAA women’s volleyball is the highest level of collegiate competition for women’s volleyball in the United States. With well over 300 teams compete at the Division 1 level, there is fierce competition each year as only 64 teams make the post-season Volleyball Championship. The division demands high-level athletic performances, teamwork, and strategic game play from a variety of aspects. With each team having their own strengths and weaknesses, there is no exception of exciting matchups and and shocking results.\nIn volleyball, a kill is awarded to a player any time their attack is unreturnable by the opposition because it is the direct cause of the opponent not returning the ball. An assist is awarded when a set, pass, or dig to a teammate results in that teammate attacking the ball for a kill.",
-    "crumbs": [
-      "Home",
-      "Volleyball",
-      "Team Statistics for Division I Women's Volleyball"
-    ]
-  },
-  {
-    "objectID": "volleyball/volleyball_ncaa_team_stats.html#data",
-    "href": "volleyball/volleyball_ncaa_team_stats.html#data",
-    "title": "Team Statistics for Division I Women’s Volleyball",
-    "section": "Data",
-    "text": "Data\nThe data set contains 334 rows and 14 columns. Each row represents a team at the NCAA Division 1 level from the 2022-2023 season.\n\nvolleyball_ncaa_div1_2022_23.csv\n\n\nVariable\nDescription\n\n\n\n\nTeam\ncollege of the volleyball team\n\n\nConference\nconference to which the team belongs\n\n\nregion\nregion to which the team belongs\n\n\naces_per_set\nthe average amount of balls served that directly lead to a point not including errors by the opponent per set\n\n\nassists_per_set\nthe average amount of sets, passes, or digs to a teammate that directly result in a kill per set\n\n\nteam_attacks_per_set\nthe average amount of times the ball is sent to the other team’s court per set\n\n\nblocks_per_set\nthe average amount of times the ball is blocked from being hit on to the teams side per set\n\n\ndigs_per_set\naverage amount of times the ball is passed by a player successfully after an opponents attack per set\n\n\nhitting_pctg\ntotal team kills minus team hitting errors all divided by total attempts\n\n\nkills_per_set\naverage amount of hits that directly result in a point per set\n\n\nopp_hitting_pctg\nthe average hitting percentage of the teams opponent per set\n\n\nW\nthe amount of team wins for the season\n\n\nL\nthe amount of team losses for the season\n\n\nwin_loss_pctg\nthe amount of total wins divided by the total matches of the season",
-    "crumbs": [
-      "Home",
-      "Volleyball",
-      "Team Statistics for Division I Women's Volleyball"
-    ]
-  },
-  {
-    "objectID": "volleyball/volleyball_ncaa_team_stats.html#questions",
-    "href": "volleyball/volleyball_ncaa_team_stats.html#questions",
-    "title": "Team Statistics for Division I Women’s Volleyball",
-    "section": "Questions",
-    "text": "Questions\n\nWhat variables are most highly correlated with win/loss percentage of a team?\nHow are assists and kills related?\nWhat model is best for predicting win/loss percentage?",
-    "crumbs": [
-      "Home",
-      "Volleyball",
-      "Team Statistics for Division I Women's Volleyball"
-    ]
-  },
-  {
-    "objectID": "volleyball/volleyball_ncaa_team_stats.html#references",
-    "href": "volleyball/volleyball_ncaa_team_stats.html#references",
-    "title": "Team Statistics for Division I Women’s Volleyball",
-    "section": "References",
-    "text": "References\nNCAA - Women’s Volleyball\nhttps://www.ncaa.com/stats/volleyball-women/d1",
-    "crumbs": [
-      "Home",
-      "Volleyball",
-      "Team Statistics for Division I Women's Volleyball"
-    ]
-  },
-  {
-    "objectID": "softball/softball_d1_2021-2022.html",
-    "href": "softball/softball_d1_2021-2022.html",
-    "title": "Batting Statistics for Division I Softball",
-    "section": "",
-    "text": "Data for a particular sport is often stored across numerous locations. For example, in NCAA Division I Softball, batting statistics for each season are typically stored in separate tables. (See for example the statistics hosted by https://d1softball.com/)\nSuppose we are interested in tracking the statistics of players across multiple seasons. A common way to prep the data to do this is to use join statements to merge each season’s data into one table with one row per player (and columns associated with their different statistics for each season).",
-    "crumbs": [
-      "Home",
-      "Softball",
-      "Batting Statistics for Division I Softball"
-    ]
-  },
-  {
-    "objectID": "softball/softball_d1_2021-2022.html#motivation",
-    "href": "softball/softball_d1_2021-2022.html#motivation",
-    "title": "Batting Statistics for Division I Softball",
-    "section": "",
-    "text": "Data for a particular sport is often stored across numerous locations. For example, in NCAA Division I Softball, batting statistics for each season are typically stored in separate tables. (See for example the statistics hosted by https://d1softball.com/)\nSuppose we are interested in tracking the statistics of players across multiple seasons. A common way to prep the data to do this is to use join statements to merge each season’s data into one table with one row per player (and columns associated with their different statistics for each season).",
-    "crumbs": [
-      "Home",
-      "Softball",
-      "Batting Statistics for Division I Softball"
-    ]
-  },
-  {
-    "objectID": "softball/softball_d1_2021-2022.html#data",
-    "href": "softball/softball_d1_2021-2022.html#data",
-    "title": "Batting Statistics for Division I Softball",
-    "section": "Data",
-    "text": "Data\nThere are four data tables associated with this page.\nTwo of them, batting2021 and batting2022, contain statistics for all Division 1 Softball player who played in the 2021 and/or 2022 season.\nThe other two, batting2021_subset and batting2022_subset, represent non-random samples taken the full data and can be used to manually illustrate how to merge the tables.\nThe 2021 data set has 2131 rows with 22 columns. The 2022 data set has 2275 rows with the same 22 columns. Each row represents a Division 1 Softball player who played in the 2021 and/or 2022 season.\n\n\n\n\n\n\n\nVariable\nDescription\n\n\n\n\nPlayer\nName of the softball player\n\n\nTeam\nName of the team (school) for each player\n\n\nBA\nBatting Average - The ratio of a player’s total base hits to their total number of at-bats, indicating their ability to make successful hits.\n\n\nOBP\nOn-Base Percentage - The percentage of times a player reaches base, either through a hit, walk, or hit-by-pitch, out of their total plate appearances.\n\n\nSLG\nSlugging Percentage - The measure of a player’s power by calculating the total number of bases they accumulate per at-bat.\n\n\nOPS\nOn-Base Plus Slugging - The sum of a player’s on-base percentage and slugging percentage, providing a comprehensive measure of their offensive contribution.\n\n\nGP\nGames Played - The total number of games in which a player has participated.\n\n\nPA\nPlate Appearances - The total number of times a player has come up to bat, including at-bats, walks, and hit-by-pitches.\n\n\nAB\nAt-Bats - The number of times a player has officially faced a pitcher and had an opportunity to hit.\n\n\nR\nRuns Scored - The number of times a player has crossed home plate and scored a run.\n\n\nH\nHits - The total number of successful hits made by a player.\n\n\n2B\nDoubles - The number of hits resulting in the batter reaching second base.\n\n\n3B\nTriples - The number of hits resulting in the batter reaching third base.\n\n\nHR\nHome Runs - The number of hits resulting in the batter scoring a run by hitting the ball out of the park.\n\n\nRBI\nRuns Batted In - The number of runs a player has driven in with a hit or sacrifice.\n\n\nHBP\nHit by Pitch - The number of times a player has been struck by a pitched ball and awarded first base.\n\n\nBB\nWalks - The number of times a player has received a base on balls (four balls) and been awarded first base.\n\n\nK\nStrikeouts - The number of times a player has been called out after accumulating three strikes.\n\n\nSB\nStolen Bases - The number of times a player successfully advances to the next base without a hit, during a pitch while the ball is in play.\n\n\nCS\nCaught Stealing - The number of times a player is thrown out while attempting to steal a base.\n\n\n\n\nThe data tables are available for individual download as csv files or bundled together into either a SQLite or DuckDB database.\n\nbatting2021.csv\n\n\nbatting2022.csv\n\n\nbatting2021_subset.csv\n\n\nbatting2022_subset.csv\n\n\nsoftball_batting.sqlite\n\n\nsoftball_batting.duckdb",
-    "crumbs": [
-      "Home",
-      "Softball",
-      "Batting Statistics for Division I Softball"
-    ]
-  },
-  {
-    "objectID": "softball/softball_d1_2021-2022.html#questions",
-    "href": "softball/softball_d1_2021-2022.html#questions",
-    "title": "Batting Statistics for Division I Softball",
-    "section": "Questions",
-    "text": "Questions\n\nWith multiple seasons of data, you can investigate the different ways to join the the 2021 and 2022 statistics. (e.g., comparing the results of an inner join vs a full join) This can be done manually using subsets of data (to illustrate the joins with simple examples) or scaled up using the full data\nWith a single season/table, you can practice different data wrangling techniques. e.g., finding the league leaders in different categories",
-    "crumbs": [
-      "Home",
-      "Softball",
-      "Batting Statistics for Division I Softball"
-    ]
-  },
-  {
-    "objectID": "softball/softball_d1_2021-2022.html#references",
-    "href": "softball/softball_d1_2021-2022.html#references",
-    "title": "Batting Statistics for Division I Softball",
-    "section": "References",
-    "text": "References\nStatistics. D1Softball. (2019, October 24). https://d1softball.com/statistics/",
-    "crumbs": [
-      "Home",
-      "Softball",
-      "Batting Statistics for Division I Softball"
-    ]
-  },
-  {
-    "objectID": "hockey/pwhl_23-24.html",
-    "href": "hockey/pwhl_23-24.html",
-    "title": "2023-24 PWHL Skaters",
-    "section": "",
-    "text": "The Professional Woman’s Hockey League (PWHL) began in 2023 in the United States and Canada. The league contains six franchises and contains players from 11 different countries. Analyzing the results of the skaters gives exposure to the new league and insights into the athletes that competed in the inaugural season.",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "2023-24 PWHL Skaters"
-    ]
-  },
-  {
-    "objectID": "hockey/pwhl_23-24.html#motivation",
-    "href": "hockey/pwhl_23-24.html#motivation",
-    "title": "2023-24 PWHL Skaters",
-    "section": "",
-    "text": "The Professional Woman’s Hockey League (PWHL) began in 2023 in the United States and Canada. The league contains six franchises and contains players from 11 different countries. Analyzing the results of the skaters gives exposure to the new league and insights into the athletes that competed in the inaugural season.",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "2023-24 PWHL Skaters"
-    ]
-  },
-  {
-    "objectID": "hockey/pwhl_23-24.html#data",
-    "href": "hockey/pwhl_23-24.html#data",
-    "title": "2023-24 PWHL Skaters",
-    "section": "Data",
-    "text": "Data\nThe data set contains 147 rows of 16 variables. Each row representing a player during the 2023-24 PWHL season.\n\npwhl_23-24.csv\n\n\nVariable\nDescription\n\n\n\n\nRk\nLeague ranking for number of total points\n\n\nName\nFirst and last name of the player\n\n\nAge\nAge in years of the player\n\n\nPos\nPosition of the player, either Goalie (G), Defense (D) or Forward (F)\n\n\nGP\nNumber of games played by the player\n\n\nG\nNumber of goals by the player\n\n\nA\nNumber of assists by the player\n\n\nP\nNumber of points by the player (Goals + Assists)\n\n\nPIM\nPenalty minutes accumulated by the player\n\n\nPlus_Minus\nPlus/Minus rating for the player\n\n\nPPG\nPoints per game for the player\n\n\nSHG\nNumber of short-handed goals for the player\n\n\nGWG\nNumber of game winning goals for the player\n\n\nG_Per_GP\nNumber of goals per games played\n\n\nA_Per_GP\nNumber of assists per games played\n\n\nP_Per_GP\nNumber of points per games played",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "2023-24 PWHL Skaters"
-    ]
-  },
-  {
-    "objectID": "hockey/pwhl_23-24.html#questions",
-    "href": "hockey/pwhl_23-24.html#questions",
-    "title": "2023-24 PWHL Skaters",
-    "section": "Questions",
-    "text": "Questions\n\nExplore the relationship between goals per game played and position.\nUse dplyr to create some new variables and explain what they do.\nDescribe shape, skew, and noting any outliers of visualizations displaying the data.",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "2023-24 PWHL Skaters"
-    ]
-  },
-  {
-    "objectID": "hockey/pwhl_23-24.html#references",
-    "href": "hockey/pwhl_23-24.html#references",
-    "title": "2023-24 PWHL Skaters",
-    "section": "References",
-    "text": "References\nQuant Hockey\nhttps://www.quanthockey.com/pwhl/en/seasons/pwhl-players-stats.html",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "2023-24 PWHL Skaters"
-    ]
-  },
-  {
-    "objectID": "hockey/nhl-shots.html",
-    "href": "hockey/nhl-shots.html",
-    "title": "National Hockey League Shots",
-    "section": "",
-    "text": "The National Hockey League (NHL) is the top professional men’s hockey league in the world. The league records every shot players take along with contextual information about the shot such as its location, the player’s distance and angle to the goal when attempting the shot, as well as the outcome (blocked, missed, or goal). Using this information, the hockey analytics community have developed measures of shot quality known as expected goals. With this dataset, you can create your own expected goals model to predict the shot outcome given relevant features.",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "National Hockey League Shots"
-    ]
-  },
-  {
-    "objectID": "hockey/nhl-shots.html#motivation",
-    "href": "hockey/nhl-shots.html#motivation",
-    "title": "National Hockey League Shots",
-    "section": "",
-    "text": "The National Hockey League (NHL) is the top professional men’s hockey league in the world. The league records every shot players take along with contextual information about the shot such as its location, the player’s distance and angle to the goal when attempting the shot, as well as the outcome (blocked, missed, or goal). Using this information, the hockey analytics community have developed measures of shot quality known as expected goals. With this dataset, you can create your own expected goals model to predict the shot outcome given relevant features.",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "National Hockey League Shots"
-    ]
-  },
-  {
-    "objectID": "hockey/nhl-shots.html#data",
-    "href": "hockey/nhl-shots.html#data",
-    "title": "National Hockey League Shots",
-    "section": "Data",
-    "text": "Data\nThis dataset contains information about 160,573 shots during the 2021-2022 NHL season.\nThe data was collected using the hockeyR package in R.\n\nnhl-shots-2021.csv.gz\n\n\nVariable\nDescription\n\n\n\n\ngame_id\nUnique integer identifier for game shot took place in\n\n\ndescription\nString detailed description of shot event\n\n\nshot_outcome\nString denoting the outcome of the shot, either BLOCKED_SHOT (meaning blocked by a non-goalie), GOAL, MISSED_SHOT (shot that missed the net), or SHOT (shot on net that was saved by a goalie)\n\n\nperiod\nInteger value of the game period\n\n\nperiod_seconds_remaining\nNumeric value of the seconds remaining in the period\n\n\ngame_seconds_remaining\nNumeric value of the seconds remaining in the game; negative for overtime periods\n\n\nhome_score\nInteger value of the home team score after the event\n\n\naway_score\nInteger value of the away team score after the event\n\n\nhome_name\nString name of the home team\n\n\naway_name\nString name of the away team\n\n\nevent_team\nString defining the team taking the shot\n\n\nevent_goalie_name\nString name of goalie (if in net)\n\n\nempty_net\nBoolean indicating if the shot was during an empty net situation, TRUE if so but FALSE or NA if not\n\n\nevent_player_1_name\nString name of the primary event player\n\n\nevent_player_1_type\nString indicator for the role of event_player_1 (typically the shooter)\n\n\nevent_player_2_name\nString name of the secondary event player\n\n\nevent_player_2_type\nString indicator for the role of event_player_2 (blocker, assist, or goalie)\n\n\nstrength_code\nString indicator for game strength: EV (Even), SH (Shorthanded), or PP (Power Play)\n\n\nx_fixed\nNumeric transformed x-coordinate of event in feet, where the home team always shoots to the right, away team to the left\n\n\ny_fixed\nNumeric transformed y-coordinate of event in feet, where the home team always shoots to the right, away team to the left\n\n\nshot_distance\nNumeric distance (in feet) to center of net for unblocked shot events\n\n\nshot_angle\nNumeric angle (in degrees) to center of net for unlocked shot events",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "National Hockey League Shots"
-    ]
-  },
-  {
-    "objectID": "hockey/nhl-shots.html#questions",
-    "href": "hockey/nhl-shots.html#questions",
-    "title": "National Hockey League Shots",
-    "section": "Questions",
-    "text": "Questions\n\nBuild a logistic regression model to predict whether or not the shot will result in a goal based on the shot distance and angle.\nBuild a classification model to predict the outcome based on the spatial x,y coordinates of the shot.\nCreate a visualization displaying the joint frequency of shot locations. Do there appear to be any clear modes of frequently taken shots? Create a conditional version of this display by shot outcome. Does the distribution shape vary by shot outcome? (You can also perform a similar analysis by team).",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "National Hockey League Shots"
-    ]
-  },
-  {
-    "objectID": "hockey/nhl-shots.html#references",
-    "href": "hockey/nhl-shots.html#references",
-    "title": "National Hockey League Shots",
-    "section": "References",
-    "text": "References\nMorse D (2023). hockeyR: Collect and Clean Hockey Stats. R package version 1.3.1, https://github.com/danmorse314/hockeyR.",
-    "crumbs": [
-      "Home",
-      "Hockey",
-      "National Hockey League Shots"
+      "Water Sports",
+      "Olympic Rowing Medals Between 1900 and 2022"
     ]
   },
   {
@@ -1719,63 +988,854 @@
     ]
   },
   {
-    "objectID": "water_sports/rowing_olympic_medals.html",
-    "href": "water_sports/rowing_olympic_medals.html",
-    "title": "Olympic Rowing Medals Between 1900 and 2022",
+    "objectID": "hockey/nhl-shots.html",
+    "href": "hockey/nhl-shots.html",
+    "title": "National Hockey League Shots",
     "section": "",
-    "text": "The Summer Olympic Games are an international athletics event held every four years and hosted in different countries around the world. Rowing was added to the Olympics in 1896 but was cancelled due to weather, it has been in every Summer Olympics since 1900. Rowing races in the Olympic context are typically regatta style, meaning that there are multiple boats racing head to head against each other in multiple lanes. Since 1912, the standard distance for Olympic regattas has been 2000m, but until then there had been a range in distances. The boat that is first to cross the finish line is awarded a gold medal, the second a silver medal, and the third a bronze. Over the course of its time as an Olympic sport there have been 25 different event entries. These events are separated by gender and range with the number of rowers in the boat (1, 2, 4, 6, 8, 17), the rigging (inrigged, outrigged), sculling, sweeping, and whether or not they are coxed. An inrigged shell means the riggers (where the oar is attached to the boat) are on the inside of the boat, outrigged shells mean the riggers are on the outside. Sculling is where the rowers have an oar on each side and sweeping is when each rower only has one oar on one side. The coxswain steers the boat and guides the rowers, some events have coxed boats whereas some others do not. Since the data spans so far back in time, the original dataset had some interesting issues in which some of the numbers were off for the number of medals awarded to athletes or nations. For example in the 1964 Rowing Men’s Coxless 4 event, the US had 5 medals awarded instead of 4 because one of the rowers passed out after the first heat and the sub had to row in the final heat so both were given medals. Situations like this were not super common but they were frequent enough to through out the data. Using dyplyr the data has been adjusted to avoid these errors.\nThe total_medals and total_points are counted as one medal towards each boat as opposed to each athlete in the boat. In looking at the total medals and total points for each nation, it is interesting to see which nations dominate in Olympic rowing. Additionally, looking at the overall distribution of the medals for all countries provides insight on just how lob-sided medaling can be in rowing at the Olympic level. This effect could likely be attributed towards how much funding nations are placing towards their rowing teams.",
+    "text": "The National Hockey League (NHL) is the top professional men’s hockey league in the world. The league records every shot players take along with contextual information about the shot such as its location, the player’s distance and angle to the goal when attempting the shot, as well as the outcome (blocked, missed, or goal). Using this information, the hockey analytics community have developed measures of shot quality known as expected goals. With this dataset, you can create your own expected goals model to predict the shot outcome given relevant features.",
     "crumbs": [
       "Home",
-      "Water Sports",
-      "Olympic Rowing Medals Between 1900 and 2022"
+      "Hockey",
+      "National Hockey League Shots"
     ]
   },
   {
-    "objectID": "water_sports/rowing_olympic_medals.html#motivation",
-    "href": "water_sports/rowing_olympic_medals.html#motivation",
-    "title": "Olympic Rowing Medals Between 1900 and 2022",
+    "objectID": "hockey/nhl-shots.html#motivation",
+    "href": "hockey/nhl-shots.html#motivation",
+    "title": "National Hockey League Shots",
     "section": "",
-    "text": "The Summer Olympic Games are an international athletics event held every four years and hosted in different countries around the world. Rowing was added to the Olympics in 1896 but was cancelled due to weather, it has been in every Summer Olympics since 1900. Rowing races in the Olympic context are typically regatta style, meaning that there are multiple boats racing head to head against each other in multiple lanes. Since 1912, the standard distance for Olympic regattas has been 2000m, but until then there had been a range in distances. The boat that is first to cross the finish line is awarded a gold medal, the second a silver medal, and the third a bronze. Over the course of its time as an Olympic sport there have been 25 different event entries. These events are separated by gender and range with the number of rowers in the boat (1, 2, 4, 6, 8, 17), the rigging (inrigged, outrigged), sculling, sweeping, and whether or not they are coxed. An inrigged shell means the riggers (where the oar is attached to the boat) are on the inside of the boat, outrigged shells mean the riggers are on the outside. Sculling is where the rowers have an oar on each side and sweeping is when each rower only has one oar on one side. The coxswain steers the boat and guides the rowers, some events have coxed boats whereas some others do not. Since the data spans so far back in time, the original dataset had some interesting issues in which some of the numbers were off for the number of medals awarded to athletes or nations. For example in the 1964 Rowing Men’s Coxless 4 event, the US had 5 medals awarded instead of 4 because one of the rowers passed out after the first heat and the sub had to row in the final heat so both were given medals. Situations like this were not super common but they were frequent enough to through out the data. Using dyplyr the data has been adjusted to avoid these errors.\nThe total_medals and total_points are counted as one medal towards each boat as opposed to each athlete in the boat. In looking at the total medals and total points for each nation, it is interesting to see which nations dominate in Olympic rowing. Additionally, looking at the overall distribution of the medals for all countries provides insight on just how lob-sided medaling can be in rowing at the Olympic level. This effect could likely be attributed towards how much funding nations are placing towards their rowing teams.",
+    "text": "The National Hockey League (NHL) is the top professional men’s hockey league in the world. The league records every shot players take along with contextual information about the shot such as its location, the player’s distance and angle to the goal when attempting the shot, as well as the outcome (blocked, missed, or goal). Using this information, the hockey analytics community have developed measures of shot quality known as expected goals. With this dataset, you can create your own expected goals model to predict the shot outcome given relevant features.",
     "crumbs": [
       "Home",
-      "Water Sports",
-      "Olympic Rowing Medals Between 1900 and 2022"
+      "Hockey",
+      "National Hockey League Shots"
     ]
   },
   {
-    "objectID": "water_sports/rowing_olympic_medals.html#data",
-    "href": "water_sports/rowing_olympic_medals.html#data",
-    "title": "Olympic Rowing Medals Between 1900 and 2022",
+    "objectID": "hockey/nhl-shots.html#data",
+    "href": "hockey/nhl-shots.html#data",
+    "title": "National Hockey League Shots",
     "section": "Data",
-    "text": "Data\nIn the data set there are 41 medalling nations that competed in 25 different events. Each row represents a nation and their total_medals and total_points which are cumulative from all rowing Olympics between 1900 and 2022. In total, there are 41 rows with 3 variables. In the original dataset, there were 101 nations in rowing, but the data has been adjusted to include only nations that medalled.\n\nrowing_medals.csv\n\n\nVariable\nDescription\n\n\n\n\nNOC\nNational Olympic Committee or the nation competing.\n\n\ntotal_medals\nThe total number of medals for that country.\n\n\ntotal_points\nThe total number of points for that country. The points are scaled with a gold medal counting for 3 points, a silver for 2, and a bronze for 1.\n\n\ntotal_gold\nThe total number of gold medals for that country.\n\n\ntotal_silver\nThe total number of silver medals for that country.\n\n\ntotal_bronze\nThe total number of bronze medals for that country.\n\n\n\nData Prep File",
+    "text": "Data\nThis dataset contains information about 160,573 shots during the 2021-2022 NHL season.\nThe data was collected using the hockeyR package in R.\n\nnhl-shots-2021.csv.gz\n\n\nVariable\nDescription\n\n\n\n\ngame_id\nUnique integer identifier for game shot took place in\n\n\ndescription\nString detailed description of shot event\n\n\nshot_outcome\nString denoting the outcome of the shot, either BLOCKED_SHOT (meaning blocked by a non-goalie), GOAL, MISSED_SHOT (shot that missed the net), or SHOT (shot on net that was saved by a goalie)\n\n\nperiod\nInteger value of the game period\n\n\nperiod_seconds_remaining\nNumeric value of the seconds remaining in the period\n\n\ngame_seconds_remaining\nNumeric value of the seconds remaining in the game; negative for overtime periods\n\n\nhome_score\nInteger value of the home team score after the event\n\n\naway_score\nInteger value of the away team score after the event\n\n\nhome_name\nString name of the home team\n\n\naway_name\nString name of the away team\n\n\nevent_team\nString defining the team taking the shot\n\n\nevent_goalie_name\nString name of goalie (if in net)\n\n\nempty_net\nBoolean indicating if the shot was during an empty net situation, TRUE if so but FALSE or NA if not\n\n\nevent_player_1_name\nString name of the primary event player\n\n\nevent_player_1_type\nString indicator for the role of event_player_1 (typically the shooter)\n\n\nevent_player_2_name\nString name of the secondary event player\n\n\nevent_player_2_type\nString indicator for the role of event_player_2 (blocker, assist, or goalie)\n\n\nstrength_code\nString indicator for game strength: EV (Even), SH (Shorthanded), or PP (Power Play)\n\n\nx_fixed\nNumeric transformed x-coordinate of event in feet, where the home team always shoots to the right, away team to the left\n\n\ny_fixed\nNumeric transformed y-coordinate of event in feet, where the home team always shoots to the right, away team to the left\n\n\nshot_distance\nNumeric distance (in feet) to center of net for unblocked shot events\n\n\nshot_angle\nNumeric angle (in degrees) to center of net for unlocked shot events",
     "crumbs": [
       "Home",
-      "Water Sports",
-      "Olympic Rowing Medals Between 1900 and 2022"
+      "Hockey",
+      "National Hockey League Shots"
     ]
   },
   {
-    "objectID": "water_sports/rowing_olympic_medals.html#questions",
-    "href": "water_sports/rowing_olympic_medals.html#questions",
-    "title": "Olympic Rowing Medals Between 1900 and 2022",
+    "objectID": "hockey/nhl-shots.html#questions",
+    "href": "hockey/nhl-shots.html#questions",
+    "title": "National Hockey League Shots",
     "section": "Questions",
-    "text": "Questions\n\nDescribe the distribution of total_points for all countries. Is there a skew, if so, what is it and what does it mean?\nObtain the summary statistics for total_points.\nThe UK has 154 total_points in the dataset, determine whether or not that is an outlier. Use calculations to justify your answer.\nBased on the distribution of total_medals amongst the countries in the dataset, would it be fair to assume that poverty is a confounding variable? Explain why or why not\nWhat could be a reason for the distribution of medals and points being so heavily skewed towards certain nations winning more than others?\nIn the data set, notice that the German Democratic Republic (GDR) or East Germany is listed as a country. Since the end of the Cold War the GDR is no longer a country. What would you do with countries in the dataset that are no longer existent today? How would it impact the data?\nThere is a lot of debate about how to best weigh the points for the different types of medals, what is a method you think would be best for weighing these medals? How would the new method alter the data?",
+    "text": "Questions\n\nBuild a logistic regression model to predict whether or not the shot will result in a goal based on the shot distance and angle.\nBuild a classification model to predict the outcome based on the spatial x,y coordinates of the shot.\nCreate a visualization displaying the joint frequency of shot locations. Do there appear to be any clear modes of frequently taken shots? Create a conditional version of this display by shot outcome. Does the distribution shape vary by shot outcome? (You can also perform a similar analysis by team).",
     "crumbs": [
       "Home",
-      "Water Sports",
-      "Olympic Rowing Medals Between 1900 and 2022"
+      "Hockey",
+      "National Hockey League Shots"
     ]
   },
   {
-    "objectID": "water_sports/rowing_olympic_medals.html#references",
-    "href": "water_sports/rowing_olympic_medals.html#references",
-    "title": "Olympic Rowing Medals Between 1900 and 2022",
+    "objectID": "hockey/nhl-shots.html#references",
+    "href": "hockey/nhl-shots.html#references",
+    "title": "National Hockey League Shots",
     "section": "References",
-    "text": "References\nKaggle Original Dataset\nOlympic Medal Weighing Methods",
+    "text": "References\nMorse D (2023). hockeyR: Collect and Clean Hockey Stats. R package version 1.3.1, https://github.com/danmorse314/hockeyR.",
     "crumbs": [
       "Home",
-      "Water Sports",
-      "Olympic Rowing Medals Between 1900 and 2022"
+      "Hockey",
+      "National Hockey League Shots"
+    ]
+  },
+  {
+    "objectID": "hockey/pwhl_23-24.html",
+    "href": "hockey/pwhl_23-24.html",
+    "title": "2023-24 PWHL Skaters",
+    "section": "",
+    "text": "The Professional Woman’s Hockey League (PWHL) began in 2023 in the United States and Canada. The league contains six franchises and contains players from 11 different countries. Analyzing the results of the skaters gives exposure to the new league and insights into the athletes that competed in the inaugural season.",
+    "crumbs": [
+      "Home",
+      "Hockey",
+      "2023-24 PWHL Skaters"
+    ]
+  },
+  {
+    "objectID": "hockey/pwhl_23-24.html#motivation",
+    "href": "hockey/pwhl_23-24.html#motivation",
+    "title": "2023-24 PWHL Skaters",
+    "section": "",
+    "text": "The Professional Woman’s Hockey League (PWHL) began in 2023 in the United States and Canada. The league contains six franchises and contains players from 11 different countries. Analyzing the results of the skaters gives exposure to the new league and insights into the athletes that competed in the inaugural season.",
+    "crumbs": [
+      "Home",
+      "Hockey",
+      "2023-24 PWHL Skaters"
+    ]
+  },
+  {
+    "objectID": "hockey/pwhl_23-24.html#data",
+    "href": "hockey/pwhl_23-24.html#data",
+    "title": "2023-24 PWHL Skaters",
+    "section": "Data",
+    "text": "Data\nThe data set contains 147 rows of 16 variables. Each row representing a player during the 2023-24 PWHL season.\n\npwhl_23-24.csv\n\n\nVariable\nDescription\n\n\n\n\nRk\nLeague ranking for number of total points\n\n\nName\nFirst and last name of the player\n\n\nAge\nAge in years of the player\n\n\nPos\nPosition of the player, either Goalie (G), Defense (D) or Forward (F)\n\n\nGP\nNumber of games played by the player\n\n\nG\nNumber of goals by the player\n\n\nA\nNumber of assists by the player\n\n\nP\nNumber of points by the player (Goals + Assists)\n\n\nPIM\nPenalty minutes accumulated by the player\n\n\nPlus_Minus\nPlus/Minus rating for the player\n\n\nPPG\nPoints per game for the player\n\n\nSHG\nNumber of short-handed goals for the player\n\n\nGWG\nNumber of game winning goals for the player\n\n\nG_Per_GP\nNumber of goals per games played\n\n\nA_Per_GP\nNumber of assists per games played\n\n\nP_Per_GP\nNumber of points per games played",
+    "crumbs": [
+      "Home",
+      "Hockey",
+      "2023-24 PWHL Skaters"
+    ]
+  },
+  {
+    "objectID": "hockey/pwhl_23-24.html#questions",
+    "href": "hockey/pwhl_23-24.html#questions",
+    "title": "2023-24 PWHL Skaters",
+    "section": "Questions",
+    "text": "Questions\n\nExplore the relationship between goals per game played and position.\nUse dplyr to create some new variables and explain what they do.\nDescribe shape, skew, and noting any outliers of visualizations displaying the data.",
+    "crumbs": [
+      "Home",
+      "Hockey",
+      "2023-24 PWHL Skaters"
+    ]
+  },
+  {
+    "objectID": "hockey/pwhl_23-24.html#references",
+    "href": "hockey/pwhl_23-24.html#references",
+    "title": "2023-24 PWHL Skaters",
+    "section": "References",
+    "text": "References\nQuant Hockey\nhttps://www.quanthockey.com/pwhl/en/seasons/pwhl-players-stats.html",
+    "crumbs": [
+      "Home",
+      "Hockey",
+      "2023-24 PWHL Skaters"
+    ]
+  },
+  {
+    "objectID": "softball/softball_d1_2021-2022.html",
+    "href": "softball/softball_d1_2021-2022.html",
+    "title": "Batting Statistics for Division I Softball",
+    "section": "",
+    "text": "Data for a particular sport is often stored across numerous locations. For example, in NCAA Division I Softball, batting statistics for each season are typically stored in separate tables. (See for example the statistics hosted by https://d1softball.com/)\nSuppose we are interested in tracking the statistics of players across multiple seasons. A common way to prep the data to do this is to use join statements to merge each season’s data into one table with one row per player (and columns associated with their different statistics for each season).",
+    "crumbs": [
+      "Home",
+      "Softball",
+      "Batting Statistics for Division I Softball"
+    ]
+  },
+  {
+    "objectID": "softball/softball_d1_2021-2022.html#motivation",
+    "href": "softball/softball_d1_2021-2022.html#motivation",
+    "title": "Batting Statistics for Division I Softball",
+    "section": "",
+    "text": "Data for a particular sport is often stored across numerous locations. For example, in NCAA Division I Softball, batting statistics for each season are typically stored in separate tables. (See for example the statistics hosted by https://d1softball.com/)\nSuppose we are interested in tracking the statistics of players across multiple seasons. A common way to prep the data to do this is to use join statements to merge each season’s data into one table with one row per player (and columns associated with their different statistics for each season).",
+    "crumbs": [
+      "Home",
+      "Softball",
+      "Batting Statistics for Division I Softball"
+    ]
+  },
+  {
+    "objectID": "softball/softball_d1_2021-2022.html#data",
+    "href": "softball/softball_d1_2021-2022.html#data",
+    "title": "Batting Statistics for Division I Softball",
+    "section": "Data",
+    "text": "Data\nThere are four data tables associated with this page.\nTwo of them, batting2021 and batting2022, contain statistics for all Division 1 Softball player who played in the 2021 and/or 2022 season.\nThe other two, batting2021_subset and batting2022_subset, represent non-random samples taken the full data and can be used to manually illustrate how to merge the tables.\nThe 2021 data set has 2131 rows with 22 columns. The 2022 data set has 2275 rows with the same 22 columns. Each row represents a Division 1 Softball player who played in the 2021 and/or 2022 season.\n\n\n\n\n\n\n\nVariable\nDescription\n\n\n\n\nPlayer\nName of the softball player\n\n\nTeam\nName of the team (school) for each player\n\n\nBA\nBatting Average - The ratio of a player’s total base hits to their total number of at-bats, indicating their ability to make successful hits.\n\n\nOBP\nOn-Base Percentage - The percentage of times a player reaches base, either through a hit, walk, or hit-by-pitch, out of their total plate appearances.\n\n\nSLG\nSlugging Percentage - The measure of a player’s power by calculating the total number of bases they accumulate per at-bat.\n\n\nOPS\nOn-Base Plus Slugging - The sum of a player’s on-base percentage and slugging percentage, providing a comprehensive measure of their offensive contribution.\n\n\nGP\nGames Played - The total number of games in which a player has participated.\n\n\nPA\nPlate Appearances - The total number of times a player has come up to bat, including at-bats, walks, and hit-by-pitches.\n\n\nAB\nAt-Bats - The number of times a player has officially faced a pitcher and had an opportunity to hit.\n\n\nR\nRuns Scored - The number of times a player has crossed home plate and scored a run.\n\n\nH\nHits - The total number of successful hits made by a player.\n\n\n2B\nDoubles - The number of hits resulting in the batter reaching second base.\n\n\n3B\nTriples - The number of hits resulting in the batter reaching third base.\n\n\nHR\nHome Runs - The number of hits resulting in the batter scoring a run by hitting the ball out of the park.\n\n\nRBI\nRuns Batted In - The number of runs a player has driven in with a hit or sacrifice.\n\n\nHBP\nHit by Pitch - The number of times a player has been struck by a pitched ball and awarded first base.\n\n\nBB\nWalks - The number of times a player has received a base on balls (four balls) and been awarded first base.\n\n\nK\nStrikeouts - The number of times a player has been called out after accumulating three strikes.\n\n\nSB\nStolen Bases - The number of times a player successfully advances to the next base without a hit, during a pitch while the ball is in play.\n\n\nCS\nCaught Stealing - The number of times a player is thrown out while attempting to steal a base.\n\n\n\n\nThe data tables are available for individual download as csv files or bundled together into either a SQLite or DuckDB database.\n\nbatting2021.csv\n\n\nbatting2022.csv\n\n\nbatting2021_subset.csv\n\n\nbatting2022_subset.csv\n\n\nsoftball_batting.sqlite\n\n\nsoftball_batting.duckdb",
+    "crumbs": [
+      "Home",
+      "Softball",
+      "Batting Statistics for Division I Softball"
+    ]
+  },
+  {
+    "objectID": "softball/softball_d1_2021-2022.html#questions",
+    "href": "softball/softball_d1_2021-2022.html#questions",
+    "title": "Batting Statistics for Division I Softball",
+    "section": "Questions",
+    "text": "Questions\n\nWith multiple seasons of data, you can investigate the different ways to join the the 2021 and 2022 statistics. (e.g., comparing the results of an inner join vs a full join) This can be done manually using subsets of data (to illustrate the joins with simple examples) or scaled up using the full data\nWith a single season/table, you can practice different data wrangling techniques. e.g., finding the league leaders in different categories",
+    "crumbs": [
+      "Home",
+      "Softball",
+      "Batting Statistics for Division I Softball"
+    ]
+  },
+  {
+    "objectID": "softball/softball_d1_2021-2022.html#references",
+    "href": "softball/softball_d1_2021-2022.html#references",
+    "title": "Batting Statistics for Division I Softball",
+    "section": "References",
+    "text": "References\nStatistics. D1Softball. (2019, October 24). https://d1softball.com/statistics/",
+    "crumbs": [
+      "Home",
+      "Softball",
+      "Batting Statistics for Division I Softball"
+    ]
+  },
+  {
+    "objectID": "volleyball/volleyball_ncaa_team_stats.html",
+    "href": "volleyball/volleyball_ncaa_team_stats.html",
+    "title": "Team Statistics for Division I Women’s Volleyball",
+    "section": "",
+    "text": "Division 1 NCAA women’s volleyball is the highest level of collegiate competition for women’s volleyball in the United States. With well over 300 teams compete at the Division 1 level, there is fierce competition each year as only 64 teams make the post-season Volleyball Championship. The division demands high-level athletic performances, teamwork, and strategic game play from a variety of aspects. With each team having their own strengths and weaknesses, there is no exception of exciting matchups and and shocking results.\nIn volleyball, a kill is awarded to a player any time their attack is unreturnable by the opposition because it is the direct cause of the opponent not returning the ball. An assist is awarded when a set, pass, or dig to a teammate results in that teammate attacking the ball for a kill.",
+    "crumbs": [
+      "Home",
+      "Volleyball",
+      "Team Statistics for Division I Women's Volleyball"
+    ]
+  },
+  {
+    "objectID": "volleyball/volleyball_ncaa_team_stats.html#motivation",
+    "href": "volleyball/volleyball_ncaa_team_stats.html#motivation",
+    "title": "Team Statistics for Division I Women’s Volleyball",
+    "section": "",
+    "text": "Division 1 NCAA women’s volleyball is the highest level of collegiate competition for women’s volleyball in the United States. With well over 300 teams compete at the Division 1 level, there is fierce competition each year as only 64 teams make the post-season Volleyball Championship. The division demands high-level athletic performances, teamwork, and strategic game play from a variety of aspects. With each team having their own strengths and weaknesses, there is no exception of exciting matchups and and shocking results.\nIn volleyball, a kill is awarded to a player any time their attack is unreturnable by the opposition because it is the direct cause of the opponent not returning the ball. An assist is awarded when a set, pass, or dig to a teammate results in that teammate attacking the ball for a kill.",
+    "crumbs": [
+      "Home",
+      "Volleyball",
+      "Team Statistics for Division I Women's Volleyball"
+    ]
+  },
+  {
+    "objectID": "volleyball/volleyball_ncaa_team_stats.html#data",
+    "href": "volleyball/volleyball_ncaa_team_stats.html#data",
+    "title": "Team Statistics for Division I Women’s Volleyball",
+    "section": "Data",
+    "text": "Data\nThe data set contains 334 rows and 14 columns. Each row represents a team at the NCAA Division 1 level from the 2022-2023 season.\n\nvolleyball_ncaa_div1_2022_23.csv\n\n\nVariable\nDescription\n\n\n\n\nTeam\ncollege of the volleyball team\n\n\nConference\nconference to which the team belongs\n\n\nregion\nregion to which the team belongs\n\n\naces_per_set\nthe average amount of balls served that directly lead to a point not including errors by the opponent per set\n\n\nassists_per_set\nthe average amount of sets, passes, or digs to a teammate that directly result in a kill per set\n\n\nteam_attacks_per_set\nthe average amount of times the ball is sent to the other team’s court per set\n\n\nblocks_per_set\nthe average amount of times the ball is blocked from being hit on to the teams side per set\n\n\ndigs_per_set\naverage amount of times the ball is passed by a player successfully after an opponents attack per set\n\n\nhitting_pctg\ntotal team kills minus team hitting errors all divided by total attempts\n\n\nkills_per_set\naverage amount of hits that directly result in a point per set\n\n\nopp_hitting_pctg\nthe average hitting percentage of the teams opponent per set\n\n\nW\nthe amount of team wins for the season\n\n\nL\nthe amount of team losses for the season\n\n\nwin_loss_pctg\nthe amount of total wins divided by the total matches of the season",
+    "crumbs": [
+      "Home",
+      "Volleyball",
+      "Team Statistics for Division I Women's Volleyball"
+    ]
+  },
+  {
+    "objectID": "volleyball/volleyball_ncaa_team_stats.html#questions",
+    "href": "volleyball/volleyball_ncaa_team_stats.html#questions",
+    "title": "Team Statistics for Division I Women’s Volleyball",
+    "section": "Questions",
+    "text": "Questions\n\nWhat variables are most highly correlated with win/loss percentage of a team?\nHow are assists and kills related?\nWhat model is best for predicting win/loss percentage?",
+    "crumbs": [
+      "Home",
+      "Volleyball",
+      "Team Statistics for Division I Women's Volleyball"
+    ]
+  },
+  {
+    "objectID": "volleyball/volleyball_ncaa_team_stats.html#references",
+    "href": "volleyball/volleyball_ncaa_team_stats.html#references",
+    "title": "Team Statistics for Division I Women’s Volleyball",
+    "section": "References",
+    "text": "References\nNCAA - Women’s Volleyball\nhttps://www.ncaa.com/stats/volleyball-women/d1",
+    "crumbs": [
+      "Home",
+      "Volleyball",
+      "Team Statistics for Division I Women's Volleyball"
+    ]
+  },
+  {
+    "objectID": "lacrosse/lacrosse_pll_vs_nll.html",
+    "href": "lacrosse/lacrosse_pll_vs_nll.html",
+    "title": "Lacrosse PLL vs. NLL",
+    "section": "",
+    "text": "This data set examines the goals and shots in two prominent lacrosse leagues: the Premier Lacrosse League (PLL) and the National Lacrosse League (NLL).\nThe PLL and NLL are highly regarded professional lacrosse leagues that feature top-tier athletes from around the world. The PLL is played in an indoor, smaller field while the NLL plays on an outdoor field with traditional dimensions. This data set allows for an analysis of goal-scoring within these leagues.",
+    "crumbs": [
+      "Home",
+      "Lacrosse",
+      "Lacrosse PLL vs. NLL"
+    ]
+  },
+  {
+    "objectID": "lacrosse/lacrosse_pll_vs_nll.html#motivation",
+    "href": "lacrosse/lacrosse_pll_vs_nll.html#motivation",
+    "title": "Lacrosse PLL vs. NLL",
+    "section": "",
+    "text": "This data set examines the goals and shots in two prominent lacrosse leagues: the Premier Lacrosse League (PLL) and the National Lacrosse League (NLL).\nThe PLL and NLL are highly regarded professional lacrosse leagues that feature top-tier athletes from around the world. The PLL is played in an indoor, smaller field while the NLL plays on an outdoor field with traditional dimensions. This data set allows for an analysis of goal-scoring within these leagues.",
+    "crumbs": [
+      "Home",
+      "Lacrosse",
+      "Lacrosse PLL vs. NLL"
+    ]
+  },
+  {
+    "objectID": "lacrosse/lacrosse_pll_vs_nll.html#data",
+    "href": "lacrosse/lacrosse_pll_vs_nll.html#data",
+    "title": "Lacrosse PLL vs. NLL",
+    "section": "Data",
+    "text": "Data\nThe data set has 162 rows with 9 columns. Each row represents a single lacrosse match either in the Premier Lacrosse League or the National Lacrosse League for the 2021 - 2022 season. NLL seasons typically run from December to May while PLL seasons typically run from June to September.\n\nlacrosse_pll_nll_2021-2022.csv\n\n\nVariable\nDescription\n\n\n\n\nLeague\nThe Premier Lacrosse league and the National Lacrosse League\n\n\nAway_team\nThe traveling team\n\n\nHome_team\nThe hosting team\n\n\nAway_shots\nHow many shots the Away_team had on net\n\n\nHome_shots\nHow many shots the Home_team had on net\n\n\nAway_goals\nHow many goals the Away_team had on net\n\n\nHome_goals\nHow many goals the Home_team had on net\n\n\ngoals_per_game\nThe total amount of goals scored each game\n\n\ngoals_per_48\nThe average amount of goals for the first 48 minutes of a game",
+    "crumbs": [
+      "Home",
+      "Lacrosse",
+      "Lacrosse PLL vs. NLL"
+    ]
+  },
+  {
+    "objectID": "lacrosse/lacrosse_pll_vs_nll.html#questions",
+    "href": "lacrosse/lacrosse_pll_vs_nll.html#questions",
+    "title": "Lacrosse PLL vs. NLL",
+    "section": "Questions",
+    "text": "Questions\n\nDo these data provide evidence that, on average, goals scored in the PLL and NLL differ? Include all details of the appropriate hypothesis test.\nConstruct and interpret a 95% confidence interval in average goals for NLL and PLL lacrosse games per 48 minutes.",
+    "crumbs": [
+      "Home",
+      "Lacrosse",
+      "Lacrosse PLL vs. NLL"
+    ]
+  },
+  {
+    "objectID": "lacrosse/lacrosse_pll_vs_nll.html#references",
+    "href": "lacrosse/lacrosse_pll_vs_nll.html#references",
+    "title": "Lacrosse PLL vs. NLL",
+    "section": "References",
+    "text": "References\nPremier Lacrosse League stats. Premier Lacrosse League Stats. (n.d.). https://stats.premierlacrosseleague.com/\nPlayer stats. NLL. (2023, January 26). https://www.nll.com/stats/all-player-stats/",
+    "crumbs": [
+      "Home",
+      "Lacrosse",
+      "Lacrosse PLL vs. NLL"
+    ]
+  },
+  {
+    "objectID": "disc_sports/DGPT24.html",
+    "href": "disc_sports/DGPT24.html",
+    "title": "2024 Disc Golf Pro Tour MPO Statistics",
+    "section": "",
+    "text": "Disc golf is a sport where players throw discs from a teeing area and try to get them into a basket in a few strokes as possible. Similarly to ball golf, players compete with a bag of discs that include drivers, midranges, and putters, and try to achieve a score of par or better every hole. The Disc Golf Pro Tour is the main professional disc golf tour that holds tournaments across the United States and Europe where Disc Golfers from all around the world can compete. The DGPT tracks putting and driving statistics for each player across all of their events and the top 40% of finishers in each event receive cash for their performance.",
+    "crumbs": [
+      "Home",
+      "Disc Sports",
+      "2024 Disc Golf Pro Tour MPO Statistics"
+    ]
+  },
+  {
+    "objectID": "disc_sports/DGPT24.html#motivation",
+    "href": "disc_sports/DGPT24.html#motivation",
+    "title": "2024 Disc Golf Pro Tour MPO Statistics",
+    "section": "",
+    "text": "Disc golf is a sport where players throw discs from a teeing area and try to get them into a basket in a few strokes as possible. Similarly to ball golf, players compete with a bag of discs that include drivers, midranges, and putters, and try to achieve a score of par or better every hole. The Disc Golf Pro Tour is the main professional disc golf tour that holds tournaments across the United States and Europe where Disc Golfers from all around the world can compete. The DGPT tracks putting and driving statistics for each player across all of their events and the top 40% of finishers in each event receive cash for their performance.",
+    "crumbs": [
+      "Home",
+      "Disc Sports",
+      "2024 Disc Golf Pro Tour MPO Statistics"
+    ]
+  },
+  {
+    "objectID": "disc_sports/DGPT24.html#data",
+    "href": "disc_sports/DGPT24.html#data",
+    "title": "2024 Disc Golf Pro Tour MPO Statistics",
+    "section": "Data",
+    "text": "Data\nThe DGPT data set contains 97 rows and 25 columns where each row is a disc golfer’s statistics from the first 11 events of 2024 Disc Golf Pro Tour season. Each row includes a players average scoring, throwing, and putting statistics, as well as cumulative and average placement and earning statistics. This data set include each player who finished above the cash line at least 1 tournament in the first 11 events of the DGPT season. The columns are as follows:\n\nDGPT24.csv\n\n\nVariable\nDescription\n\n\n\n\nplayer\nplayer name\n\n\nbirdie_avg\nthe average number of birdies from an 18 hole round\n\n\nbogey_avg\nthe average number of bogeys from an 18 hole round\n\n\nPKD\nthe percentage of shots a player has ‘parked’ (within 10 ft of the basket)\n\n\nC1R\nthe percent of shots throw within ‘Circle 1’(0-33ft) in regulation\n\n\nC2R\nthe percent of shots throw within ‘Circle 2’(33-66ft) in regulation\n\n\nFWY\nthe percent fairways hit with drives\n\n\nSCR\nthe percent of successful ‘scrambles’ the player achieves\n\n\nOB/18\nthe average total out of bounds shots for 18 holes\n\n\nC1X\nthe percent of putts made from C1 excluding tap in putts(0-10ft)\n\n\nC2P\nthe percent of putts made from C2 (33-66ft)\n\n\ntot_SG:TG\nthe total ‘Strokes Gained’ on the rest of the field from the tee to the green\n\n\ntot_SG:P\nthe total ‘Strokes Gained’ on the rest of the field putting\n\n\nevents\ntotal events played for the 2024 DGPT season\n\n\nrounds\ntotal rounds played for the 2024 DGPT season\n\n\nwins\nwins from the 2024 DGPT season\n\n\npodiums\ntotal podium placements from the 2024 DGPT season\n\n\ntop_10s\ntotal top 10 placements from the 2024 DGPT season\n\n\ntop_20s\ntotal top 20 placements from the 2024 DGPT season\n\n\navg_place\naverage event placement from the 2024 DGPT season\n\n\ntop_10%\npercent of events where the player placed in the top 10\n\n\ntop_20%\npercent of events where the player placed in the top 20\n\n\ntotal_earnings\nthe players total earnings from the 2024 DGPT season\n\n\ntotal_strokes\nthe total number of shots the player has taken during the DGPT season\n\n\n\n\n\n\n\n\n\nImportant Disc Golf Terms\n\n\n\n\n\nParked(PKD): When a player throws their disc within 10 feet of the basket with a tee shot on par 3s or an approach shot on par 4s and 5s. A score of eagle or better also counts as a shot being parked.\nCircle 1 in Regulation(C1R): When a player’s disc comes to rest within 10m(33ft) of the basket in the expected amount of shots. This is their tee shot on a par 3, 2nd shot on a par 4, and third shot on a par 5. C1 is defined by a 10m circle around the basket.\nCircle 2 in Regulation(C2R): This has the same definition as Circle 1 in Regulation, but Circle 2 extends to within 20m(66ft) of the basket.\nFairways Hit(FWY): This is the percent of holes where the player lands on the fairway with their drive. This includes being inside Circle 1 or 2 on a drive.\nScramble(SCR): A scramble is when a player scores par or better on a hole after missing the fairway or being out-of-bounds. Scramble percentage is the percentage of holes where a player scored par or better after an errant drive.\nCircle 1X putting(C1X): The putting percentage of the player from within Circle 1 (10m/66ft), excluding tap in putts within 10ft of the basket.\nCircle 2 putting(C2P): The putting percentage of the player from Circle 2 (10m-20m/33ft-66ft).\nStrokes Gained Tee to Green(SG:TG): This is the number of strokes by which the player has exceeded the average throwing performance of the field on drives and approaches.\nStrokes Gained Putting(SG:P): This is the number of strokes by which the player has exceeded the average putting performance of the field in circle 1 and 2.",
+    "crumbs": [
+      "Home",
+      "Disc Sports",
+      "2024 Disc Golf Pro Tour MPO Statistics"
+    ]
+  },
+  {
+    "objectID": "disc_sports/DGPT24.html#questions",
+    "href": "disc_sports/DGPT24.html#questions",
+    "title": "2024 Disc Golf Pro Tour MPO Statistics",
+    "section": "Questions",
+    "text": "Questions\n\nWhat statistics are most strongly correlated with successful performances (total_earnings, wins, avg_place)?\nIf a player were to improve in a specific statistic, how would you expect his scoring to change(average birdies or bogeys)?\nDoes the old golf saying “Drive for show, putt for dough” apply to disc golf? Are wins or total earnings more correlated with putting?",
+    "crumbs": [
+      "Home",
+      "Disc Sports",
+      "2024 Disc Golf Pro Tour MPO Statistics"
+    ]
+  },
+  {
+    "objectID": "disc_sports/DGPT24.html#references",
+    "href": "disc_sports/DGPT24.html#references",
+    "title": "2024 Disc Golf Pro Tour MPO Statistics",
+    "section": "References",
+    "text": "References\nProfession Disc Golf Association via. StatMando, 2024, 2024 MPO DGPT Season Stats. https://statmando.com/stats/season-stats-main-dgpt-2024-mpo\nProfession Disc Golf Association via. StatMando, 2024, Stats for Majors and Elite Events: 2024 (MPO). https://statmando.com/stats/stats-elite-series-majors-2024-mpo",
+    "crumbs": [
+      "Home",
+      "Disc Sports",
+      "2024 Disc Golf Pro Tour MPO Statistics"
+    ]
+  },
+  {
+    "objectID": "golf/pga_drive_putt.html",
+    "href": "golf/pga_drive_putt.html",
+    "title": "Statistics of PGA Tournaments During the 2022 Season",
+    "section": "",
+    "text": "A common expression among golfers is “Drive for show, putt for dough.” This implies that the long initial tee shots (drives) on each hole are impressive, but the real key to success is the final strokes rolling the ball along the green into the hole (putts). Do data support this adage? The dataset for this activity was obtained from the PGA statistics website. Cases include all golfers who made the cut in each of 19 PGA tournaments in 2022. The dataset includes variables for driving ability, putting ability, and measuring success in the tournament. The “driving” variables include average driving distance (avgDriveDist), driving accuracy percentage (drivePct), and strokes gained off the tee (driveSG). The “putting” variables are average putts per round (avgPuttsPerRound), one putt percentage (onePuttPct), and strokes gained putting (puttsSG). The variables to measure success are scoring average (avgScore), official money won (Money), and Fedex Cup points (Points).",
+    "crumbs": [
+      "Home",
+      "Golf",
+      "Statistics of PGA Tournaments During the 2022 Season"
+    ]
+  },
+  {
+    "objectID": "golf/pga_drive_putt.html#motivation",
+    "href": "golf/pga_drive_putt.html#motivation",
+    "title": "Statistics of PGA Tournaments During the 2022 Season",
+    "section": "",
+    "text": "A common expression among golfers is “Drive for show, putt for dough.” This implies that the long initial tee shots (drives) on each hole are impressive, but the real key to success is the final strokes rolling the ball along the green into the hole (putts). Do data support this adage? The dataset for this activity was obtained from the PGA statistics website. Cases include all golfers who made the cut in each of 19 PGA tournaments in 2022. The dataset includes variables for driving ability, putting ability, and measuring success in the tournament. The “driving” variables include average driving distance (avgDriveDist), driving accuracy percentage (drivePct), and strokes gained off the tee (driveSG). The “putting” variables are average putts per round (avgPuttsPerRound), one putt percentage (onePuttPct), and strokes gained putting (puttsSG). The variables to measure success are scoring average (avgScore), official money won (Money), and Fedex Cup points (Points).",
+    "crumbs": [
+      "Home",
+      "Golf",
+      "Statistics of PGA Tournaments During the 2022 Season"
+    ]
+  },
+  {
+    "objectID": "golf/pga_drive_putt.html#data",
+    "href": "golf/pga_drive_putt.html#data",
+    "title": "Statistics of PGA Tournaments During the 2022 Season",
+    "section": "Data",
+    "text": "Data\nEach row of data gives the measures for one golfer in one tournament. The dataset covers 19 PGA tournaments from the 2022 season with 1387 cases in all. Each tournament consists of four rounds of golf. Some golfers are eliminated after the first two (or sometimes three) rounds. Only players who competed in all four rounds (i.e. those that made the “cut”) are included in this dataset.\n\nPGA2022.csv\n\n\nVariable\nDescription\n\n\n\n\nplayerName\nName of the player\n\n\ncountry\nThe country where the player is from\n\n\navgDriveDist\nAverage driving distance (in yards)\n\n\ndrivePct\nPercentage of times a tee shot comes to rest in the fairway\n\n\ndriveSG\nStrokes gained off the tee measures player performance off the tee on all par 4s and par 5s of how much better or worse a player’s drive is than the PGA Tour average\n\n\navgPuttsPerRound\nAverage number of total putts per round\n\n\nonePuttPct\nPercentage of times it took one putt to get the ball into the hole\n\n\nputtsSG\nStrokes gained putting measures how many strokes a player gains or loses on the greens compared to the PGA Tour average\n\n\navgScore\nThe scoring average is the total strokes divided by the total rounds\n\n\nMoney\nThe official money is the prize money award to the Professional members\n\n\nPoints\nFedexCup Regular Season Points are awarded points by finished position for performance in each tournament\n\n\nTournament\nThe tournament where the PGA Tour is taking place",
+    "crumbs": [
+      "Home",
+      "Golf",
+      "Statistics of PGA Tournaments During the 2022 Season"
+    ]
+  },
+  {
+    "objectID": "golf/pga_drive_putt.html#questions",
+    "href": "golf/pga_drive_putt.html#questions",
+    "title": "Statistics of PGA Tournaments During the 2022 Season",
+    "section": "Questions",
+    "text": "Questions\n\nAre driving or putting statistics generally more effective for predicting success in a PGA tournament?\nWhich measure of success (avgScore, Money, or Points) appears to be easiest to predict with either driving or putting information?\nFor each measure of success, generate a scatterplot with one the putting or driving variables. Which of these plots suggest we might want to use a transformation of one of the variables to improve linearity?\nCan you find a transformation that improves the linearity of the relationship for one of the problematic cases in question #3?",
+    "crumbs": [
+      "Home",
+      "Golf",
+      "Statistics of PGA Tournaments During the 2022 Season"
+    ]
+  },
+  {
+    "objectID": "golf/pga_drive_putt.html#references",
+    "href": "golf/pga_drive_putt.html#references",
+    "title": "Statistics of PGA Tournaments During the 2022 Season",
+    "section": "References",
+    "text": "References\nThe data were obtained from the PGA statistics website.",
+    "crumbs": [
+      "Home",
+      "Golf",
+      "Statistics of PGA Tournaments During the 2022 Season"
+    ]
+  },
+  {
+    "objectID": "lacrosse/lacrosse_ncaa_div1.html",
+    "href": "lacrosse/lacrosse_ncaa_div1.html",
+    "title": "Team statistics for NCAA Division 1 Men’s and Women’s Lacrosse",
+    "section": "",
+    "text": "Over the years, lacrosse has experienced remarkable growth, with increased popularity and participation propelling the sport to new heights. This surge has led to a rise in skilled athletes competing in high-level leagues, notably NCAA Division I Men’s Lacrosse. Within this heightened competition, faceoffs are known to be a vital aspect of the game. Due to their important impact, players train to specifically specialize in them, as winning a faceoff often grants their teams crucial opportunities for offensive possession which can profoundly impact the course of the game.",
+    "crumbs": [
+      "Home",
+      "Lacrosse",
+      "Team statistics for NCAA Division 1 Men's and Women's Lacrosse"
+    ]
+  },
+  {
+    "objectID": "lacrosse/lacrosse_ncaa_div1.html#motivation",
+    "href": "lacrosse/lacrosse_ncaa_div1.html#motivation",
+    "title": "Team statistics for NCAA Division 1 Men’s and Women’s Lacrosse",
+    "section": "",
+    "text": "Over the years, lacrosse has experienced remarkable growth, with increased popularity and participation propelling the sport to new heights. This surge has led to a rise in skilled athletes competing in high-level leagues, notably NCAA Division I Men’s Lacrosse. Within this heightened competition, faceoffs are known to be a vital aspect of the game. Due to their important impact, players train to specifically specialize in them, as winning a faceoff often grants their teams crucial opportunities for offensive possession which can profoundly impact the course of the game.",
+    "crumbs": [
+      "Home",
+      "Lacrosse",
+      "Team statistics for NCAA Division 1 Men's and Women's Lacrosse"
+    ]
+  },
+  {
+    "objectID": "lacrosse/lacrosse_ncaa_div1.html#data",
+    "href": "lacrosse/lacrosse_ncaa_div1.html#data",
+    "title": "Team statistics for NCAA Division 1 Men’s and Women’s Lacrosse",
+    "section": "Data",
+    "text": "Data\n\nThere are three data sets: 2022-2023 statistics for Men’s teams, 2022-2023 statsitics for Women’s teams, and a dataset combining the Men’s and Women’s statisitcs (that only includes the variables available in each of the other two).\n\nlacrosse_men_ncaa_div1_2022_2023.csv\n\n\nThis data set contains 72 rows and 22 columns. Each row represents a men’s lacrosse team at the NCAA Division 1 level from the 2022-2023 season.\n\nlacrosse_women_ncaa_div1_2022_2023.csv\n\n\nVariable\nDescription\n\n\n\n\nTeam\ncollege of the team\n\n\navg_assists\naverage assists to goals per game\n\n\navg_caused_turnovers\naverage turnovers forced by the team per game\n\n\nclearing_pctg\npercentage of successful attempts to earn an offensive opportunity after gaining the ball in the teams own half\n\n\ntotal_faceoffs\ntotal faceoffs taken by a team for the season\n\n\nfaceoff_wins\ntotal faceoff wins by a team for the season\n\n\nfaceoff_win_pct\nproportion of total faceoff wins out of total faceoffs. Equivalent to the draw percentage in women’s lacrosse.\n\n\navg_goals\naverage goals per game\n\n\navg_goals_allowed\naverage goals allowed by the team per game\n\n\navg_ground_balls\naverage loose balls picked up by the team per game\n\n\nman_down_defense_pctg\nproportion of times a team stops the opponent from scoring while man down due to a penalty\n\n\nman_up_offense_pctg\nproportion of times the offense scores out of total opportunities while man up\n\n\navg_scoring_margin\naverage margin of goals per game\n\n\nopp_clear_pctg\nopponents clearing percentage averaged by game\n\n\navg_points\naverage team points per game\n\n\navg_saves\naverage saves per game\n\n\nshot_pctg\nproportion of shots that go in out of total shots\n\n\navg_turnovers\naverage turnovers that are directly the fault of a player per game\n\n\nW\ntotal wins by the team\n\n\nL\ntotal losses by the team\n\n\nwin_loss_pctg\nproportion of games won out of total games\n\n\n\nThis data set contains 120 rows and 18 columns. Each row represents a women’s lacrosse team at the NCAA Division 1 level from the 2022-2023 season.\n\n\n\n\n\n\n\nVariable Name\nDescription\n\n\n\n\nTeam\nThe name of the women’s NCAA lacrosse team.\n\n\ndraw_pctg\nDraw percentage, the proportion of draw controls won by the team in a game. Equivalent to the Faceoff percentage in Men’s lacrosse.\n\n\nturnovers_per_game\nAverage number of turnovers committed by the team per game.\n\n\nsog_per_game\nShots on goal (SOG) per game, the average number of shots on goal taken by the team.\n\n\nassists_per_game\nAverage number of assists made by the team per game.\n\n\ncaused_turnovers_per_game\nThe average number of caused turnovers by the team per game.\n\n\nclearing_pctg\nClearing percentage, the rate at which the team successfully clears the ball from defense to offense.\n\n\ndraw_controls_per_game\nThe average number of draw controls won by the team per game.\n\n\nfouls_per_game\nAverage number of fouls committed by the team per game.\n\n\nfree_position_pctg\nFree position percentage, the rate of successful free position shots taken by the team.\n\n\nground_balls_per_game\nThe average number of ground balls scooped by the team per game.\n\n\npoints_per_game\nAverage number of total points (goals + assists) scored by the team per game.\n\n\nsave_pctg\nSave percentage, the proportion of shots on goal saved by the team’s goalkeeper.\n\n\ngoals_allowed_per_game\nAverage number of goals allowed by the team’s defense per game.\n\n\ngoals_per_game\nAverage number of goals scored by the team per game.\n\n\nshots_per_game\nAverage number of total shots (on goal + off target) taken by the team per game.\n\n\nshot_pctg\nShooting percentage, the proportion of shots on goal that result in a goal.\n\n\nwin_pctg\nThe team’s winning percentage, calculated as the number of wins divided by total games played.\n\n\n\n\nNote: The table provides a brief description of each variable, but more context and understanding might be required to interpret and analyze these statistics effectively in the context of women’s NCAA lacrosse.\n\nlacrosse_men_and_women_ncaa_div1_2022_2023.csv\n\n\nThis data set contains 192 rows and 6 columns. Each row represents a lacrosse team at the NCAA Division 1 level from the 2022-2023 season. Teams come from both the men’s and womens division.\n\n\n\n\n\n\n\nVariable\nDescription\n\n\n\n\nTeam\ncollege of the team\n\n\nfaceoff_win_pct\nthe proportion of faceoffs win out of total faceoffs taken\n\n\nshots_per_game\naverage amount of shots per game\n\n\nshot_pctg\nproportion of shots that are goals out of total shots\n\n\nwin_loss_percentage\namount of wins out of total games played\n\n\nDivision\nthe division the team is in (Mens or Womens)",
+    "crumbs": [
+      "Home",
+      "Lacrosse",
+      "Team statistics for NCAA Division 1 Men's and Women's Lacrosse"
+    ]
+  },
+  {
+    "objectID": "lacrosse/lacrosse_ncaa_div1.html#questions",
+    "href": "lacrosse/lacrosse_ncaa_div1.html#questions",
+    "title": "Team statistics for NCAA Division 1 Men’s and Women’s Lacrosse",
+    "section": "Questions",
+    "text": "Questions\nUsing either Women’s or Men’s\n\nWhich teams have better faceoff win proportions than the average?\nWhich teams have worse faceoff win proportions than the average?\nWhat sort of impact does faceoff percentage have on the success of the team?\n\nUsing the data with both Women’s and Men’s\n\nIn terms of a team’s win percentage, are faceoffs more important for men or women?\nWhat factors could make faceoffs more important for men or women?\nHow does faceoff win percentage affect winning percentage?",
+    "crumbs": [
+      "Home",
+      "Lacrosse",
+      "Team statistics for NCAA Division 1 Men's and Women's Lacrosse"
+    ]
+  },
+  {
+    "objectID": "lacrosse/lacrosse_ncaa_div1.html#references",
+    "href": "lacrosse/lacrosse_ncaa_div1.html#references",
+    "title": "Team statistics for NCAA Division 1 Men’s and Women’s Lacrosse",
+    "section": "References",
+    "text": "References\nNCAA Website: Women’s and Men’s Lacrosse Division I\nhttp://stats.ncaa.org/rankings/change_sport_year_div",
+    "crumbs": [
+      "Home",
+      "Lacrosse",
+      "Team statistics for NCAA Division 1 Men's and Women's Lacrosse"
+    ]
+  },
+  {
+    "objectID": "by-statsds-topic.html",
+    "href": "by-statsds-topic.html",
+    "title": "Datasets By Topic",
+    "section": "",
+    "text": "2022 Divison III Women’s Soccer Results\n\n\n\n\n\n\nCorrelation\n\n\nChi-square test for association\n\n\n\nDivision III women’s soccer teams game results from 2022 season\n\n\n\n\n\nHope Donoghue, Robin Lock\n\n\n\n\n\n\n\n\n\n\n\n\n2023 Boston Marathon runners\n\n\n\n\n\n\nSummary statistics\n\n\nOutliers\n\n\nz-scores\n\n\n\nThe data set looks at the 2023 Boston Marathon results.\n\n\n\n\n\nJun 27, 2023\n\n\nJack Fay, A.J. Dykstra, and Ivan Ramler\n\n\n\n\n\n\n\n\n\n\n\n\n2023 Miami Grand Prix Lap Data\n\n\n\n\n\n\nsummary statistics\n\n\nhistogram analysis\n\n\ndata interpretation\n\n\n\nUse Minitab or other statistical software to gather summary statistics about the 2023 F1 Miami GP a\n\n\n\n\n\nMar 7, 2024\n\n\nNorah Kuduk\n\n\n\n\n\n\n\n\n\n\n\n\n2023-24 PWHL Skaters\n\n\n\n\n\n\ndata visualization\n\n\ndata wrangling\n\n\nexploratory data Analysis\n\n\n\nThe data set looks at statistics from PWHL skaters during the 2023-24 regular season. If possible, give a brief summary of the sports problem and statistical situation.\n\n\n\n\n\nJun 6, 2024\n\n\nBrendan Karadenes\n\n\n\n\n\n\n\n\n\n\n\n\n2024 Disc Golf Pro Tour MPO Statistics\n\n\n\n\n\n\nCorrelation\n\n\n\nDGPT statistics containg, scoring, throwing, putting, placement, and earning statistics. We will look at the correlation between throwing and putting statistics, and the success of a player.\n\n\n\n\n\nJun 6, 2024\n\n\nGavin Cassidy\n\n\n\n\n\n\n\n\n\n\n\n\n500m Short Track Speed Skating\n\n\n\n\n\n\nHistograms\n\n\nSummary Statistics\n\n\nOutliers\n\n\n\nRace and Lap times from 500m short track speed skating athletes at European Championship, World Cup, World Championship and Olympic events.\n\n\n\n\n\nJun 13, 2024\n\n\nGavin Cassidy\n\n\n\n\n\n\n\n\n\n\n\n\nAustralian Open Tennis (2008-2022)\n\n\n\n\n\n\nproportions\n\n\ntwo-way tables\n\n\n\nResults from matches at the Men’s Australian Open Tennis Tournament between 2008 and 2022.\n\n\n\n\n\nAug 3, 2023\n\n\nTrent Meyer, Robin Lock\n\n\n\n\n\n\n\n\n\n\n\n\nBatting Statistics for Division I Softball\n\n\n\n\n\n\nmerging\n\n\njoining\n\n\ndata wrangling\n\n\n\nThese data sets contain batting statistics for Division I softball in the 2021 and 2022 seasons.\n\n\n\n\n\nMay 23, 2023\n\n\nSarah Weaver and Ivan Ramler\n\n\n\n\n\n\n\n\n\n\n\n\nBeijing 2022 Winter Olympics Data\n\n\n\n\n\n\nData Cleaning\n\n\nSummarization\n\n\nMerging\n\n\n\nThese datasets contain both athlete information and medal winner information from the Beijing 2022 Olympic Winter Games.\n\n\n\n\n\nFeb 28, 2024\n\n\nEric Seltzer\n\n\n\n\n\n\n\n\n\n\n\n\nExploring Logistic Regression Through Cricket\n\n\n\n\n\n\nMultiple Logistic Regression\n\n\n\n\n\n\n\n\n\nJun 10, 2024\n\n\nVivian Johnson\n\n\n\n\n\n\n\n\n\n\n\n\nFINA World Junior Championships 2022 Diving Data\n\n\n\n\n\n\nANOVA for difference in means\n\n\nPairwise Comparisons\n\n\nFisher’s LSD\n\n\nTukey’s HSD\n\n\n\nPreliminary diving results of womens 16-18 1m springboard from the 2022 FINA World Junior Championships.\n\n\n\n\n\nFeb 29, 2024\n\n\nEmma Deering\n\n\n\n\n\n\n\n\n\n\n\n\nJustin Verlander Pitches\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\n\nInformation about pitches thrown by Justin Verlander in the 2019 and 2022 MLB seasons\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\n\n\n\n\nLacrosse PLL vs. NLL\n\n\n\n\n\n\nDifference in means hypothesis tests\n\n\nDifference in means confidence intervals\n\n\n\nThe data set looks at both lacrosse leagues, their respective teams, and their shot and goal amounts.\n\n\n\n\n\nJun 22, 2023\n\n\nAJ Dykstra, Jack Cowan, and Ivan Ramler\n\n\n\n\n\n\n\n\n\n\n\n\nLake Placid Women’s Ironman Triathlon\n\n\n\n\n\n\nHistograms\n\n\nScatter Plots\n\n\nCorrelation\n\n\nLinear Regression\n\n\n\nThe data set looks at female participatants in the triathlon Ironman.\n\n\n\n\n\nJun 17, 2023\n\n\nMichael Schuckers, Matthew Abel, and A.J. Dykstra\n\n\n\n\n\n\n\n\n\n\n\n\nLeague of Legends - Buffing and Nerfing\n\n\n\n\n\n\noutlier detection\n\n\nfive number summary\n\n\nz-scores\n\n\n\nGame play statistics for League of Legends champions in two different patches. Can detecting outliers indicate champions that should be enhanced (buffed) or scaled back (nerfed)?\n\n\n\n\n\nJul 1, 2023\n\n\nGeorge Charalambous, Ivan Ramler, and A.J. Dykstra\n\n\n\n\n\n\n\n\n\n\n\n\nNASCAR Data Description\n\n\n\n\n\n\ndata visualization\n\n\ndata wrangling\n\n\nlinear regression\n\n\ntransformations in regression\n\n\nmodel assumptions\n\n\nmodel building\n\n\n\nNASCAR Driver Ratings and statistics from 2007-2022\n\n\n\n\n\nJul 6, 2023\n\n\nAlyssa Bigness, Jack Fay, and Ivan Ramler\n\n\n\n\n\n\n\n\n\n\n\n\nNBA RAPM Datasets\n\n\n\n\n\n\nregularization\n\n\nridge regression\n\n\nhierarchical models\n\n\n\nDatasets to build regularized adjusted plus-minus (RAPM) models for NBA players during the 2022-2023 regular season\n\n\n\n\n\nMar 6, 2024\n\n\nRon Yurko\n\n\n\n\n\n\n\n\n\n\n\n\nNFL Draft Combine\n\n\n\n\n\n\nExploratory Data Analysis\n\n\nLinear regression\n\n\n\nNFL Scouting Combine Event scores from 2004 - 2023\n\n\n\n\n\nAug 3, 2023\n\n\nShane Hauk, Michael Schuckers, Robin Lock\n\n\n\n\n\n\n\n\n\n\n\n\nNHL Team Power Play Perfomance in 2022-2023\n\n\n\n\n\n\nexploratory data Analysis\n\n\n\nMeasures for National Hockey League teams from all 5 on 4 power plays in the 2022-2023 season.\n\n\n\n\n\nJul 27, 2023\n\n\nAbby Hustler, Robin Lock\n\n\n\n\n\n\n\n\n\n\n\n\nNHL Team Statistics\n\n\n\n\n\n\nlinear regression\n\n\ncorrelation\n\n\n\nTeam-level statistics from the 2022-2023 NHL season\n\n\n\n\n\nDec 15, 2023\n\n\nTaylor Lum, Robin Lock\n\n\n\n\n\n\n\n\n\n\n\n\nNational Basketball Association Player Statistics\n\n\n\n\n\n\nclustering\n\n\nprincipal component analysis\n\n\n\nNBA player statistics from the 2021-2022 regular season\n\n\n\n\n\nMar 25, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\n\n\n\n\nNational Football League Game Outcomes\n\n\n\n\n\n\nElo ratings\n\n\nlogistic regression\n\n\nBradley-Terry\n\n\nState-space\n\n\n\nNFL game outcomes during the Patrick Mahomes’ era (2018-present)\n\n\n\n\n\nJul 8, 2024\n\n\nRon Yurko\n\n\n\n\n\n\n\n\n\n\n\n\nNational Football League Team Statistics\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\nmissing data\n\n\nvariable selection\n\n\nregularization\n\n\n\nNFL team statistics from 1999 to 2022\n\n\n\n\n\nMay 24, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\n\n\n\n\nNational Hockey League Shots\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\nInformation about shots during the 2021-2022 NHL season\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\n\n\n\n\nNational Women’s Soccer League Team Statistics\n\n\n\n\n\n\nlinear regression\n\n\nprincipal component analysis\n\n\n\nNWSL team statistics from 2016 to 2022\n\n\n\n\n\nMar 18, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\n\n\n\n\nOlympic Rowing Medals Between 1900 and 2022\n\n\n\n\n\n\ndistribution and skewness\n\n\noutlier detection\n\n\nsummary statistics\n\n\nconfounding variable\n\n\n\nThe total number of medals and the weighted points for nations competing in rowing events in the Summer Olympic Games between 1900 and 2022.\n\n\n\n\n\nJun 5, 2024\n\n\nAbigail Smith\n\n\n\n\n\n\n\n\n\n\n\n\nOlympic Swimming History\n\n\n\n\n\n\nexploratory data analysis\n\n\n\nOlympic swimming data from 1912-2020. Includes athlete name, year, team, location, time, medal/no medal, stroke, distance, etc.\n\n\n\n\n\nJul 2, 2024\n\n\nAndrew Poock\n\n\n\n\n\n\n\n\n\n\n\n\nOlympic_Swimming\n\n\n\n\n\n\nHypothesis Testing\n\n\nSide-By-Side Boxplots\n\n\nConfidence Intervals\n\n\n\nThe dataset looks at Olympic swimmers 100 meter races from 1924 to 2020.\n\n\n\n\n\nJun 13, 2024\n\n\nBrendan Karadenes\n\n\n\n\n\n\n\n\n\n\n\n\nPremier Hockey Federation Shots\n\n\n\n\n\n\ncategorical data\n\n\nchi-squared test\n\n\nlogistic regression\n\n\n\nInformation about shots during the 2021-2022 PHF season\n\n\n\n\n\nMar 23, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\n\n\n\n\nProfessional Bull Riding Analysis\n\n\n\n\n\n\nLinear Regression\n\n\nSummary Statistics\n\n\nInfluential Points\n\n\nHypothesis Testing\n\n\n\nInvestigating a collection of professional bull riders and their statistics from 2023 season for the Touring Pro Division of the Professional Bull Riding League.\n\n\n\n\n\nMar 6, 2024\n\n\nMatt Maslow\n\n\n\n\n\n\n\n\n\n\n\n\nRatio Between Dumbbell Press and Flat Bench Press\n\n\n\n\n\n\nHistogram\n\n\nMean, IQR\n\n\nOne Sample T-Interval\n\n\n\n\n\n\n\n\n\nJun 4, 2024\n\n\nVivian Johnson\n\n\n\n\n\n\n\n\n\n\n\n\nSoccer Heights\n\n\n\n\n\n\nANOVA for means\n\n\nPairwise comparisons\n\n\n\nHeights for a sample of 100 soccer players by position\n\n\n\n\n\nAug 3, 2023\n\n\nRoderick Mpofu, Robin Lock\n\n\n\n\n\n\n\n\n\n\n\n\nStatistics of PGA Tournaments During the 2022 Season\n\n\n\n\n\n\ncorrelation\n\n\nlinear regression\n\n\n\nMeasures of Putting, Driving, and Success for individual golfers in 19 professional tournaments in 2022\n\n\n\n\n\nMay 19, 2023\n\n\nAlysssa Bigness\n\n\n\n\n\n\n\n\n\n\n\n\nSumo wrestler characteristics\n\n\n\n\n\n\ndata wrangling\n\n\ndata visualization\n\n\n\nSumo wrestling data 1957-2023.\n\n\n\n\n\nJun 29, 2023\n\n\nJack Fay, A.J. Dykstra, and Ivan Ramler\n\n\n\n\n\n\n\n\n\n\n\n\nSynergistic Interactions in League of Legends\n\n\n\n\n\n\nChi-Squared\n\n\nPredictor Categories\n\n\nRelationship\n\n\n\nThis module focuses on examining the synergistic relationships between champions in the AD Carry and Support roles within the popular video game, League of Legends. Through Chi-Squared analysis, we will assess potential interactions among the top five most-selected champions in these positions to determine if any statistically significant relationships exist.\n\n\n\n\n\nFeb 29, 2024\n\n\nGeorge Charalambous\n\n\n\n\n\n\n\n\n\n\n\n\nTeam Statistics for Division I Women’s Volleyball\n\n\n\n\n\n\nmulticollinearity\n\n\nmultiple linear regression\n\n\ncorrelations\n\n\nsummary statistics\n\n\n\nThese data sets contain team statistics for Division I women’s volleyball in the 2022 and 2023 seasons.\n\n\n\n\n\nJul 24, 2023\n\n\nJack Fay, A.J. Dykstra, and Ivan Ramler\n\n\n\n\n\n\n\n\n\n\n\n\nTeam statistics for NCAA Division 1 Men’s and Women’s Lacrosse\n\n\n\n\n\n\ncorrelation\n\n\nindicator variables\n\n\nlinear regression\n\n\nside-by-side boxplots\n\n\n\nThese data sets contain team statistics for NCAA Division I women’s and men’s lacrosse in the 2022 and 2023 seasons.\n\n\n\n\n\nJul 24, 2023\n\n\nJack Fay, A.J. Dykstra, and Ivan Ramler\n\n\n\n\n\n\n\n\n\n\n\n\nUFC Striking Statistics\n\n\n\n\n\n\nNormal Distribution\n\n\nQuantiles\n\n\nProportions\n\n\n\nUFC fighter data containing information about height, weight, striking, reach, stance, and takedowns. Since the striking accuracy distribution is approximately normal, we will look at proportions and percentiles of fighters with “good” and “bad” percentages.\n\n\n\n\n\nMar 1, 2023\n\n\nBrendan Karadenes\n\n\n\n\n\n\n\n\n\n\n\n\nWTA Grand Slam Matches\n\n\n\n\n\n\nlogistic regression\n\n\ndata wrangling\n\n\ncategorical data\n\n\nchi-squared test\n\n\nclustering\n\n\n\nWTA Grand Slam Matches from 2018 to 2022\n\n\n\n\n\nMay 24, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\n\n\n\n\nWest Point Indoor Obstacle Course Test Data\n\n\n\n\n\n\nconfounding variables\n\n\nmultiple regression\n\n\ninteractions\n\n\n\nDataset for the Indoor Obstacle Course, an obstacle course that all Cadets at West Point must complete prior to graduation.\n\n\n\n\n\nJul 2, 2024\n\n\nNicholas Clark\n\n\n\n\n\n\n\n\n\n\n\n\nWomen’s Alpine Skiing World Cup GS Statistics\n\n\n\n\n\n\nPaired data\n\n\nDifference in means\n\n\nCorrelation\n\n\n\nStatistics from a two-run women’s World Cup Giant Slalom race at Mont-Tremblant\n\n\n\n\n\nMar 14, 2024\n\n\nEmilia Agostinelli\n\n\n\n\n\n\n\n\n\n\n\n\nWomen’s National Baskeball Assosiation game statistics\n\n\n\n\n\n\nData cleaning\n\n\nMissing Data\n\n\nTables\n\n\nLogistic Regression\n\n\n\nThis data set contains team game statistics for 16 WNBA teams and for 20 seasons.\n\n\n\n\n\nDec 15, 2023\n\n\nKristen Varin\n\n\n\n\n\n\n\n\n\n\n\n\nWomen’s National Basketball Association Shots\n\n\n\n\n\n\nclassification\n\n\nlogistic regression\n\n\ngeneralized additive models\n\n\nmultinomial logistic regression\n\n\nnaive bayes classifier\n\n\ndensity estimation\n\n\n\nInformation about shots during the 2021-2022 WNBA season\n\n\n\n\n\nMar 25, 2023\n\n\nRon Yurko\n\n\n\n\n\n\n\n\n\n\n\n\nWorld Cup Women’s 10k Classic Nordic Ski Race\n\n\n\n\n\n\nanova for difference in means\n\n\nlinear regression analysis\n\n\ncorrelation\n\n\nchecking conditions for simple linear regression\n\n\n\nThe times and ranks of skiers taken at four different distance points (1.3, 4.3, 7.5, and 10k) in a 10k classic race in Trondheim, Norway.\n\n\n\n\n\nFeb 29, 2024\n\n\nAbigail Smith\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home",
+      "Datasets By Topic"
+    ]
+  },
+  {
+    "objectID": "cricket/cricket_data_repo.html",
+    "href": "cricket/cricket_data_repo.html",
+    "title": "Exploring Logistic Regression Through Cricket",
+    "section": "",
+    "text": "Cricket is a game watched and played by billions of people across the world. Second in global popularity only to football (soccer), it is extremely popular in South Asia, Australia, Africa, and Europe.\n\n\nCricket is played on a rectangular pitch inside an oval boundary. In the pitch, on either side, there is a vertical wicket, made up of three vertical wooden “stumps” with two wooden bails (small blocks of wood) resting atop the stumps. There are two teams, each with 11 players (a batting team and a bowling team).\nThe bowling team: The bowler bounces a small leather ball at the batter. The goal of the bowler is to get the batter out and ultimately knock the bails off of the stumps.\nThe batting team: The goal of the batting team is to score as many runs as possible and not let the bowler hit the bail off of the stumps. There are two batters at a time for the batting team. After the batter hits the ball, the two batters will attempt to switch sides. Each batter will go until they get out, when at that time, they will switch with another teammate.\nScoring Runs: Each time the two batters switch sides without getting out counts as a run scored. For example, if you hit the ball and are able to run to the other wicket and back without getting out, that would score two runs for your team. If the batter hits the ball on a bounce to the oval boundary, it counts as four runs scored. If the batter hits the ball over the oval boundary on a fly, it counts as six runs.\nOuts: Below are a few common ways in which a batter can get out\n\nIf the batter hits the ball and it is caught in the air (caught out)\nIf a player on the bowling team throws the ball and it hits the bails off the stumps before the batter can cross the line while trying to score a run (run out)\nIf the bowler throws the ball past the batter and it knocks a bail off the wicket\nIf the batter gets hit in the legs by a ball that would have hit the wicket (Note: if the batter gets hit and the ball wasn’t ruled as one that would have hit the wicket, the batter is not out)\n\nThe duration of cricket matches can range from hours to days, depending on what format is being played, and scores are often high as each individual batter usually scores many runs on multiple pitches before getting out.",
+    "crumbs": [
+      "Home",
+      "Cricket",
+      "Exploring Logistic Regression Through Cricket"
+    ]
+  },
+  {
+    "objectID": "cricket/cricket_data_repo.html#motivation",
+    "href": "cricket/cricket_data_repo.html#motivation",
+    "title": "Exploring Logistic Regression Through Cricket",
+    "section": "",
+    "text": "Cricket is a game watched and played by billions of people across the world. Second in global popularity only to football (soccer), it is extremely popular in South Asia, Australia, Africa, and Europe.\n\n\nCricket is played on a rectangular pitch inside an oval boundary. In the pitch, on either side, there is a vertical wicket, made up of three vertical wooden “stumps” with two wooden bails (small blocks of wood) resting atop the stumps. There are two teams, each with 11 players (a batting team and a bowling team).\nThe bowling team: The bowler bounces a small leather ball at the batter. The goal of the bowler is to get the batter out and ultimately knock the bails off of the stumps.\nThe batting team: The goal of the batting team is to score as many runs as possible and not let the bowler hit the bail off of the stumps. There are two batters at a time for the batting team. After the batter hits the ball, the two batters will attempt to switch sides. Each batter will go until they get out, when at that time, they will switch with another teammate.\nScoring Runs: Each time the two batters switch sides without getting out counts as a run scored. For example, if you hit the ball and are able to run to the other wicket and back without getting out, that would score two runs for your team. If the batter hits the ball on a bounce to the oval boundary, it counts as four runs scored. If the batter hits the ball over the oval boundary on a fly, it counts as six runs.\nOuts: Below are a few common ways in which a batter can get out\n\nIf the batter hits the ball and it is caught in the air (caught out)\nIf a player on the bowling team throws the ball and it hits the bails off the stumps before the batter can cross the line while trying to score a run (run out)\nIf the bowler throws the ball past the batter and it knocks a bail off the wicket\nIf the batter gets hit in the legs by a ball that would have hit the wicket (Note: if the batter gets hit and the ball wasn’t ruled as one that would have hit the wicket, the batter is not out)\n\nThe duration of cricket matches can range from hours to days, depending on what format is being played, and scores are often high as each individual batter usually scores many runs on multiple pitches before getting out.",
+    "crumbs": [
+      "Home",
+      "Cricket",
+      "Exploring Logistic Regression Through Cricket"
+    ]
+  },
+  {
+    "objectID": "cricket/cricket_data_repo.html#data",
+    "href": "cricket/cricket_data_repo.html#data",
+    "title": "Exploring Logistic Regression Through Cricket",
+    "section": "Data",
+    "text": "Data\nThe asia_cup data set includes data from each cricket match played in all Asia Cup Tournaments from 1984 (the first one) to 2022. The Asia Cup is a tournament that now takes place every two years, alternating host cities in different countries throughout Asia.\n\n\n\n\n\n\n\nVariable\nDescription\n\n\n\n\nTeam\nOne team of the match\n\n\nOpponent\nThe team played\n\n\nHost\nVenue played at\n\n\nYear\nTournament year played\n\n\nToss\nCoin toss to determine who starts batting or bowling (0 = lost, 1 = won)\n\n\nSelection\nTeam’s selection after winning / losing the toss (0 = Batting, 1 = Bowling)\n\n\nRun Scored\nTotal runs scored by that team\n\n\nFours\nTotal scored fours for that team\n\n\nSixes\nTotal scored sixes for that team\n\n\nExtras\nAmount of extra runs scored by that team\n\n\nHighest Score\nHighest individual number of runs scored\n\n\nResult\n0 = lost match, 1 = won match\n\n\nGiven Extras\nNumber of extra runs given up\n\n\n\nData Download: cricket_asia_cup.csv",
+    "crumbs": [
+      "Home",
+      "Cricket",
+      "Exploring Logistic Regression Through Cricket"
+    ]
+  },
+  {
+    "objectID": "cricket/cricket_data_repo.html#questions",
+    "href": "cricket/cricket_data_repo.html#questions",
+    "title": "Exploring Logistic Regression Through Cricket",
+    "section": "Questions",
+    "text": "Questions\n\nBuilding Simple Logistic Regression and Multiple Logistic Regression\nInterpreting Logistic Regression\nFinding odds and log odds of an event",
+    "crumbs": [
+      "Home",
+      "Cricket",
+      "Exploring Logistic Regression Through Cricket"
+    ]
+  },
+  {
+    "objectID": "cricket/cricket_data_repo.html#references",
+    "href": "cricket/cricket_data_repo.html#references",
+    "title": "Exploring Logistic Regression Through Cricket",
+    "section": "References",
+    "text": "References\nAsia Cup 1984-2022",
+    "crumbs": [
+      "Home",
+      "Cricket",
+      "Exploring Logistic Regression Through Cricket"
+    ]
+  },
+  {
+    "objectID": "hockey/phf-shots.html",
+    "href": "hockey/phf-shots.html",
+    "title": "Premier Hockey Federation Shots",
+    "section": "",
+    "text": "The Premier Hockey Federation (PHF) is a professional women’s hockey league in North America. Recently, more data has become available for people to explore and join the women’s hockey analytics community. This dataset lets you explore shots taken during the 2021-2022 PHF season.",
+    "crumbs": [
+      "Home",
+      "Hockey",
+      "Premier Hockey Federation Shots"
+    ]
+  },
+  {
+    "objectID": "hockey/phf-shots.html#motivation",
+    "href": "hockey/phf-shots.html#motivation",
+    "title": "Premier Hockey Federation Shots",
+    "section": "",
+    "text": "The Premier Hockey Federation (PHF) is a professional women’s hockey league in North America. Recently, more data has become available for people to explore and join the women’s hockey analytics community. This dataset lets you explore shots taken during the 2021-2022 PHF season.",
+    "crumbs": [
+      "Home",
+      "Hockey",
+      "Premier Hockey Federation Shots"
+    ]
+  },
+  {
+    "objectID": "hockey/phf-shots.html#data",
+    "href": "hockey/phf-shots.html#data",
+    "title": "Premier Hockey Federation Shots",
+    "section": "Data",
+    "text": "Data\nThis dataset contains information about 1,502 shots during the 2021-2022 PHF season.\nThe data was collected using the fastRhockey package in R.\n\nphf-shots-2021.csv\n\n\nVariable\nDescription\n\n\n\n\nplay_description\nString detailed description of event\n\n\nplay_type\nString denoting the outcome of the shot, either Goal, PP Goal (meaning power play goal), SH Goal, (meaning shorthanded goal), Shot (shot saved by goalie), or Shot BLK (meaning blocked by a non-goalie)\n\n\nperiod_id\nInteger value of the game period\n\n\ntime_remaining\nString display of time remaining in period in MM:SS format where MM and SS denotes minutes and seconds remaning respectively\n\n\nsec_from_start\nNumeric value of the seconds since the start of the game\n\n\nhome_team\nString name of the home team\n\n\naway_team\nString name of the away team\n\n\nhome_goals\nInteger value of the home team score after the event\n\n\naway_goals\nInteger value of the away team score after the event\n\n\nshooting_team\nString defining the team taking the shot\n\n\nplayer_name_1\nString name of the player taking the shot\n\n\nplayer_name_2\nString name of the secondary event player (blocker or goalie)\n\n\ngoalie_involved\nString name of the goalie involved in the shot attempt\n\n\nshot_result\nString denoting the outcome of the shot, either blocked (meaning blocked by a non-goalie), made (goal), or saved (shot on net that was saved by a goalie)\n\n\non_ice_situation\nString indicator for game strength: Even Strength or Power Play\n\n\nhome_score_total\nInteger value of the home team score at the end of the game\n\n\naway_score_total\nInteger value of the away team score at the end of the game",
+    "crumbs": [
+      "Home",
+      "Hockey",
+      "Premier Hockey Federation Shots"
+    ]
+  },
+  {
+    "objectID": "hockey/phf-shots.html#questions",
+    "href": "hockey/phf-shots.html#questions",
+    "title": "Premier Hockey Federation Shots",
+    "section": "Questions",
+    "text": "Questions\n\nUsing the appropriate statistical test, assess whether or not shot_result is independent of the on_ice_situation.\nCount the number of shots taken by each team. Build a logistic regression model to predict the probability of the home team winning the game based on the number of attempted shots by each team.",
+    "crumbs": [
+      "Home",
+      "Hockey",
+      "Premier Hockey Federation Shots"
+    ]
+  },
+  {
+    "objectID": "hockey/phf-shots.html#references",
+    "href": "hockey/phf-shots.html#references",
+    "title": "Premier Hockey Federation Shots",
+    "section": "References",
+    "text": "References\nHowell B, Gilani S (2022). fastRhockey: Functions to Access Premier Hockey Federation and National Hockey League Play by Play Data. R package version 0.4.0, https://CRAN.R-project.org/package=fastRhockey.",
+    "crumbs": [
+      "Home",
+      "Hockey",
+      "Premier Hockey Federation Shots"
+    ]
+  },
+  {
+    "objectID": "hockey/nhl_2223.html",
+    "href": "hockey/nhl_2223.html",
+    "title": "NHL Team Statistics",
+    "section": "",
+    "text": "In 2005 the National Hockey League added shootouts to regular season games. In the event that regulation time ends in a tie and no goals are scored in overtime, the game goes to a 3-player shootout. This data set can be used to explore the relationship between various team-level statistics.\nRegulation time in an NHL game consists of three 20 minute periods. If regulation time ends and the score is tied (both teams have the same number of goals), the game goes into a 5 minute 3-on-3 overtime, where the next goal wins. If the game is still not resolved after overtime, it goes into a 3 round shootout, where players take a 1-on-1 breakaway against the goalie. If still tied after three shootout rounds, shootout rounds continue until one team is victorious. A team gets 2 points for a win (whether it’s regulation, overtime, or shootout), and the losing team gets 0 points for a regulation loss, or 1 point for an overtime/shootout loss.",
+    "crumbs": [
+      "Home",
+      "Hockey",
+      "NHL Team Statistics"
+    ]
+  },
+  {
+    "objectID": "hockey/nhl_2223.html#motivation",
+    "href": "hockey/nhl_2223.html#motivation",
+    "title": "NHL Team Statistics",
+    "section": "",
+    "text": "In 2005 the National Hockey League added shootouts to regular season games. In the event that regulation time ends in a tie and no goals are scored in overtime, the game goes to a 3-player shootout. This data set can be used to explore the relationship between various team-level statistics.\nRegulation time in an NHL game consists of three 20 minute periods. If regulation time ends and the score is tied (both teams have the same number of goals), the game goes into a 5 minute 3-on-3 overtime, where the next goal wins. If the game is still not resolved after overtime, it goes into a 3 round shootout, where players take a 1-on-1 breakaway against the goalie. If still tied after three shootout rounds, shootout rounds continue until one team is victorious. A team gets 2 points for a win (whether it’s regulation, overtime, or shootout), and the losing team gets 0 points for a regulation loss, or 1 point for an overtime/shootout loss.",
+    "crumbs": [
+      "Home",
+      "Hockey",
+      "NHL Team Statistics"
+    ]
+  },
+  {
+    "objectID": "hockey/nhl_2223.html#data",
+    "href": "hockey/nhl_2223.html#data",
+    "title": "NHL Team Statistics",
+    "section": "Data",
+    "text": "Data\nThe data set contains the final standings of the 2022-2023 NHL Season with team level statistics.\n\nnhl_2223.csv\n\n\nVariable\nDescription\n\n\n\n\nTeam\nNHL team abbreviation\n\n\nGP\nTotal games played\n\n\nSOG\nNumber of games that went to shootout\n\n\nW\nWins\n\n\nL\nLosses\n\n\nOTL\nOvertime losses\n\n\nPTS\nPoints\n\n\nReg_PTS\nPoints won during regulation time or overtime (2 points per game)\n\n\nPPG\nPoints won per game in regulation time or overtime (# of non-shootout points / # of non-shootout games)\n\n\nSO_PTS\nPoints won from shootout (1 extra point per shootout)\n\n\nPct_SO\nProportion of possible points from shootout won (# of shootout points / # of shootout games)\n\n\nRW\nNumber of regulation wins\n\n\nROW\nNumber of regulation and overtime wins\n\n\nSOW\nNumber of shootout wins\n\n\nSOL\nNumber of shootout losses\n\n\nGF\nTotal goals scored\n\n\nGA\nTotal goals against\n\n\nDIFF\nGoal differential (GF-GA)",
+    "crumbs": [
+      "Home",
+      "Hockey",
+      "NHL Team Statistics"
+    ]
+  },
+  {
+    "objectID": "hockey/nhl_2223.html#questions",
+    "href": "hockey/nhl_2223.html#questions",
+    "title": "NHL Team Statistics",
+    "section": "Questions",
+    "text": "Questions\n\nPlot GA versus GF. Describe the trend. Do teams that score more goals tend to allow more or less goals against?\nIs offensive ability (‘GF’) or defensive ability (‘GA’) a better predictor of overall performance of a team (as measured by ‘PTS’)?\nIs there a relationship between the ability to win shootouts (‘Pct_SO’) the ability to win games before shootouts (‘PPG’)?\nIs there a relationship between the total number of goals a team scored during the season (GF) and the proportion of shootout points they won (Pct_SO)?",
+    "crumbs": [
+      "Home",
+      "Hockey",
+      "NHL Team Statistics"
+    ]
+  },
+  {
+    "objectID": "hockey/nhl_2223.html#references",
+    "href": "hockey/nhl_2223.html#references",
+    "title": "NHL Team Statistics",
+    "section": "References",
+    "text": "References\nNHL Standings 2022-23. ESPN (n.d.). https://www.espn.com/nhl/standings/_/season/2023/group/league",
+    "crumbs": [
+      "Home",
+      "Hockey",
+      "NHL Team Statistics"
+    ]
+  },
+  {
+    "objectID": "hockey/nhl_powerplay.html",
+    "href": "hockey/nhl_powerplay.html",
+    "title": "NHL Team Power Play Perfomance in 2022-2023",
+    "section": "",
+    "text": "Certain infractions in a hockey game can lead to one or more players being forced to sit out for a period of time while their team has to skate with fewer payers. A common scenario that results is a 5 on 4 power play where one team has five skates (plus a goalie) and the penalized team has only four skaters (plus a goalie). The team with fewer skates is said to be shorthanded. Typical penalty times are for two minutes and the penalized player is allowed to return to the ice if the opponent scores a goal while on the power play. Rare, but more serious infractions, produce a major penalty (5 minutes) where the penalized player is not allowed to return to the ice when a goal is scored. A power play can also end before two minutes when the team on the power play commits a penalty which results in one of its players being sent off the ice to even the sides.\nThis dataset shows information for all 32 National Hockey League (NHL) teams based on their performance while on a 5 on 4 power play in the 2022-2023 regular season. Goals scored, shots on goals, and hits are all scaled to give a count of these events for every full two minutes of a power play.",
+    "crumbs": [
+      "Home",
+      "Hockey",
+      "NHL Team Power Play Perfomance in 2022-2023"
+    ]
+  },
+  {
+    "objectID": "hockey/nhl_powerplay.html#motivation",
+    "href": "hockey/nhl_powerplay.html#motivation",
+    "title": "NHL Team Power Play Perfomance in 2022-2023",
+    "section": "",
+    "text": "Certain infractions in a hockey game can lead to one or more players being forced to sit out for a period of time while their team has to skate with fewer payers. A common scenario that results is a 5 on 4 power play where one team has five skates (plus a goalie) and the penalized team has only four skaters (plus a goalie). The team with fewer skates is said to be shorthanded. Typical penalty times are for two minutes and the penalized player is allowed to return to the ice if the opponent scores a goal while on the power play. Rare, but more serious infractions, produce a major penalty (5 minutes) where the penalized player is not allowed to return to the ice when a goal is scored. A power play can also end before two minutes when the team on the power play commits a penalty which results in one of its players being sent off the ice to even the sides.\nThis dataset shows information for all 32 National Hockey League (NHL) teams based on their performance while on a 5 on 4 power play in the 2022-2023 regular season. Goals scored, shots on goals, and hits are all scaled to give a count of these events for every full two minutes of a power play.",
+    "crumbs": [
+      "Home",
+      "Hockey",
+      "NHL Team Power Play Perfomance in 2022-2023"
+    ]
+  },
+  {
+    "objectID": "hockey/nhl_powerplay.html#data",
+    "href": "hockey/nhl_powerplay.html#data",
+    "title": "NHL Team Power Play Perfomance in 2022-2023",
+    "section": "Data",
+    "text": "Data\nEach row of data gives power play statistics for one of the 32 National Hockey League teams from the 2022-2023 regular season.\n\nNHL_PowerPlay2022.csv\n\n\nVariable\nDescription\n\n\n\n\nteam\nName of the team\n\n\ngoals_per_2_min\nHow many goals scored in 2 minute increments\n\n\nSOG_per_2_min\nHow many shots on goal were taken in a 2 minute increments\n\n\nhits_per_2_min\nAverage hits recorded for 2 minutes\n\n\nConference\nConference the team plays in (east vs west)\n\n\ngoal_differential\nPower play goals scored minus short-handed goals allowed\n\n\nIcetime\nTotal time spent on the power play (in minutes)",
+    "crumbs": [
+      "Home",
+      "Hockey",
+      "NHL Team Power Play Perfomance in 2022-2023"
+    ]
+  },
+  {
+    "objectID": "hockey/nhl_powerplay.html#questions",
+    "href": "hockey/nhl_powerplay.html#questions",
+    "title": "NHL Team Power Play Perfomance in 2022-2023",
+    "section": "Questions",
+    "text": "Questions\n\nDescribe the distribution of goals-per-2min. Does any team appear to have unusually high or low values for this variable?\nCreate plot to look at the relationship between goals_per_2min and SOG_per_2min. Does it look like more shots tend to lead to more goals?\nCreate plot to look at the relationship between goals_per_2min and hits_per_2min. Does it look like more hits tend to lead to more goals?\nCreate a plot to compare the distribution of goal scoring rates while on the power play between the two conferences. Does there appear to be much difference between the two conferences?",
+    "crumbs": [
+      "Home",
+      "Hockey",
+      "NHL Team Power Play Perfomance in 2022-2023"
+    ]
+  },
+  {
+    "objectID": "hockey/nhl_powerplay.html#references",
+    "href": "hockey/nhl_powerplay.html#references",
+    "title": "NHL Team Power Play Perfomance in 2022-2023",
+    "section": "References",
+    "text": "References\nThe data were obtained from the MoneyPuck website.",
+    "crumbs": [
+      "Home",
+      "Hockey",
+      "NHL Team Power Play Perfomance in 2022-2023"
+    ]
+  },
+  {
+    "objectID": "esports/lol-buff-nerf.html",
+    "href": "esports/lol-buff-nerf.html",
+    "title": "League of Legends - Buffing and Nerfing",
+    "section": "",
+    "text": "League of Legends is a 5 v. 5 multiplayer online battle arena (MOBA) game developed by Riot Games. They collect data to evaluate the effect of every champion, adjusting and fine-tuning various aspects associated with each champion, to ensure fair and competitive gameplay. Through updates (patches) they can reduce the power of champions that are too strong (known as nerfing) or enhance the abilities of less successful champions (nerfing).",
+    "crumbs": [
+      "Home",
+      "Esports",
+      "League of Legends - Buffing and Nerfing"
+    ]
+  },
+  {
+    "objectID": "esports/lol-buff-nerf.html#motivation",
+    "href": "esports/lol-buff-nerf.html#motivation",
+    "title": "League of Legends - Buffing and Nerfing",
+    "section": "",
+    "text": "League of Legends is a 5 v. 5 multiplayer online battle arena (MOBA) game developed by Riot Games. They collect data to evaluate the effect of every champion, adjusting and fine-tuning various aspects associated with each champion, to ensure fair and competitive gameplay. Through updates (patches) they can reduce the power of champions that are too strong (known as nerfing) or enhance the abilities of less successful champions (nerfing).",
+    "crumbs": [
+      "Home",
+      "Esports",
+      "League of Legends - Buffing and Nerfing"
+    ]
+  },
+  {
+    "objectID": "esports/lol-buff-nerf.html#data",
+    "href": "esports/lol-buff-nerf.html#data",
+    "title": "League of Legends - Buffing and Nerfing",
+    "section": "Data",
+    "text": "Data\nEach row is one of the 162 League of Legends champions. The two datasets show play results (e.g. win rates) for two consecutive patches of the game (12.22 and 12.23).\n\nLOL_patch_12.22.csv, LOL_patch_12.23.csv\n\n\nVariable\nDescription\n\n\n\n\nName\nName of the champion\n\n\nRole\nRole of the champion in a game\n\n\nKDA\nAverage kills, deaths and assists associated with each champion\n\n\nWRate\nWin rates of each champion\n\n\nPickRate\nSPick rates of each champion\n\n\nRolePerc\nPercent of time the champion is used in the expected role\n\n\nBanPerc\nBan percentages associated with each champion",
+    "crumbs": [
+      "Home",
+      "Esports",
+      "League of Legends - Buffing and Nerfing"
+    ]
+  },
+  {
+    "objectID": "esports/lol-buff-nerf.html#questions",
+    "href": "esports/lol-buff-nerf.html#questions",
+    "title": "League of Legends - Buffing and Nerfing",
+    "section": "Questions",
+    "text": "Questions\n\nLook for outliers (e.g. in win rate) for the 12.22 patch to identify champions that might need to be buffed or nerfed.\nLook at results for the 12.23 patch to see if outliers identified from 12.22 might have been adjusted of if any different champions are now outliers.",
+    "crumbs": [
+      "Home",
+      "Esports",
+      "League of Legends - Buffing and Nerfing"
+    ]
+  },
+  {
+    "objectID": "esports/lol-buff-nerf.html#references",
+    "href": "esports/lol-buff-nerf.html#references",
+    "title": "League of Legends - Buffing and Nerfing",
+    "section": "References",
+    "text": "References\nLol champion stats, 12.22 master, win rates. METAsrc. (n.d.). https://www.metasrc.com/5v5/12.22/stats?ranks=master\nLol champion stats, 12.23 master, win rates. METAsrc. (n.d.-b). https://www.metasrc.com/5v5/12.23/stats?ranks=master",
+    "crumbs": [
+      "Home",
+      "Esports",
+      "League of Legends - Buffing and Nerfing"
+    ]
+  },
+  {
+    "objectID": "football/nfl-game-outcomes.html",
+    "href": "football/nfl-game-outcomes.html",
+    "title": "National Football League Game Outcomes",
+    "section": "",
+    "text": "Since Patrick Mahomes became the starting quarterback for the Kansas City Chiefs in 2018, the Chiefs have been arguably the best team in the NFL with three Super Bowl championships. This dataset is comprised of NFL game outcomes during the Mahomes’ era (2018-present) and can be used for building measures of NFL team strengths, such as Elo ratings.",
+    "crumbs": [
+      "Home",
+      "Football",
+      "National Football League Game Outcomes"
+    ]
+  },
+  {
+    "objectID": "football/nfl-game-outcomes.html#motivation",
+    "href": "football/nfl-game-outcomes.html#motivation",
+    "title": "National Football League Game Outcomes",
+    "section": "",
+    "text": "Since Patrick Mahomes became the starting quarterback for the Kansas City Chiefs in 2018, the Chiefs have been arguably the best team in the NFL with three Super Bowl championships. This dataset is comprised of NFL game outcomes during the Mahomes’ era (2018-present) and can be used for building measures of NFL team strengths, such as Elo ratings.",
+    "crumbs": [
+      "Home",
+      "Football",
+      "National Football League Game Outcomes"
+    ]
+  },
+  {
+    "objectID": "football/nfl-game-outcomes.html#data",
+    "href": "football/nfl-game-outcomes.html#data",
+    "title": "National Football League Game Outcomes",
+    "section": "Data",
+    "text": "Data\nThis dataset contains NFL game outcomes for every regular season and playoff game from 2018 to the present. The data were collected using the nflreadr package in R.\nEach row in the dataset corresponds to a single game, with a total of 1,657 games and 10 columns containing relevant information about each game:\n\nnfl_mahomes_era_games.csv\n\n\nVariable\nDescription\n\n\n\n\nseason\nRegular season year of team’s statistics\n\n\ngame_id\nUnique game ID based on the year, week, and teams\n\n\ngame_type\nString indicating the type of game, which is either regular season (REG) or in the playoffs (wildcard WC, divisional DIV, conference championship CON, and Super Bowl SB)\n\n\nweek\nInteger denoting the week of the season (note the playoffs week just continues from the end of the regular season)\n\n\nhome_team\nNFL team three letter abbreviation for home team\n\n\naway_team\nNFL team three letter abbreviation for away team\n\n\nhome_score\nNumber of points scored by the home team\n\n\naway_score\nNumber of points scored by the away team\n\n\ngame_outcome\nIndicator variable denoting if either home team won (1), away team won (0), or if the game ended in a tie (0.5)\n\n\nscore_diff\nDifference between home_score and away_score\n\n\n\nNote: There are instances of rows where the Raiders are observed as either OAK or LV. An initial pre-processing step would be to convert all instances of OAK to LV.",
+    "crumbs": [
+      "Home",
+      "Football",
+      "National Football League Game Outcomes"
+    ]
+  },
+  {
+    "objectID": "football/nfl-game-outcomes.html#questions",
+    "href": "football/nfl-game-outcomes.html#questions",
+    "title": "National Football League Game Outcomes",
+    "section": "Questions",
+    "text": "Questions\n\nUse this dataset to build measures of team strength using an approach such as Elo ratings (SCORE Network module in progress, and will be available later).\nWhat is effect of home-field advantage in the NFL and how has it changed over time during the Mahomes’ era? You could use some type of regression technique (logistic for predicting win/loss, or linear for modeling the score differential) to infer the advantage (if any) a team has when playing at home.\nJoin this dataset another dataset containing team statistics and build a logistic regression model to predict which team will win the game. What variables are most predictive?",
+    "crumbs": [
+      "Home",
+      "Football",
+      "National Football League Game Outcomes"
+    ]
+  },
+  {
+    "objectID": "football/nfl-game-outcomes.html#references",
+    "href": "football/nfl-game-outcomes.html#references",
+    "title": "National Football League Game Outcomes",
+    "section": "References",
+    "text": "References\nHo T, Carl S (2022). nflreadr: Download ‘nflverse’ Data. R package version 1.3.1, https://CRAN.R-project.org/package=nflreadr.",
+    "crumbs": [
+      "Home",
+      "Football",
+      "National Football League Game Outcomes"
     ]
   },
   {
