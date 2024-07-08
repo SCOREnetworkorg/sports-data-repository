@@ -1,0 +1,53 @@
+---
+title: National Football League Game Outcomes
+author: Ron Yurko
+date: July 8, 2024
+description: NFL game outcomes during the Patrick Mahomes' era (2018-present)
+categories:
+  - Elo ratings
+  - logistic regression
+  - Bradley-Terry
+  - State-space
+---
+
+## Motivation
+
+Since [Patrick Mahomes](https://en.wikipedia.org/wiki/Patrick_Mahomes) became the starting quarterback for the Kansas City Chiefs in 2018, the Chiefs have been arguably the best team in the NFL with three Super Bowl championships. This dataset is comprised of NFL game outcomes during the Mahomes' era (2018-present) and can be used for building measures of NFL team strengths, such as [Elo ratings](https://en.wikipedia.org/wiki/Elo_rating_system).
+
+## Data
+
+This dataset contains NFL game outcomes for every regular season and playoff game from 2018 to the present. The data were collected using the [`nflreadr` package in `R`](https://nflreadr.nflverse.com/index.html). 
+
+Each row in the dataset corresponds to a single game, with a total of 1,657 games and 10 columns containing relevant information about each game:
+
+| Variable | Description |
+|----|-------------|
+| `season` |	Regular season year of team's statistics |
+| `game_id` | Unique game ID based on the year, week, and teams |
+| `game_type` | String indicating the type of game, which is either regular season (`REG`) or in the playoffs (wildcard `WC`, divisional `DIV`, conference championship `CON`, and Super Bowl `SB`) |
+| `week` | Integer denoting the week of the season (note the playoffs week just continues from the end of the regular season) |
+| `home_team` | NFL team three letter abbreviation for home team |
+| `away_team` | NFL team three letter abbreviation for away team |
+| `home_score` | Number of points scored by the home team |
+| `away_score` | Number of points scored by the away team |
+| `game_outcome` | Indicator variable denoting if either home team won (`1`), away team won (`0`), or if the game ended in a tie (`0.5`) |
+| `score_diff` | Difference between `home_score` and `away_score` |
+
+: [nfl_mahomes_era_games.csv](../data/nfl_mahomes_era_games.csv)
+
+_Note: There are instances of rows where the Raiders are observed as either OAK or LV. An initial pre-processing step would be to convert all instances of OAK to LV._
+
+## Questions
+
+1. Use this dataset to build measures of team strength using an approach such as Elo ratings (SCORE Network module in progress, and will be available later). 
+
+2. What is effect of home-field advantage in the NFL and how has it changed over time during the Mahomes' era? You could use some type of regression technique (logistic for predicting win/loss, or linear for modeling the score differential) to infer the advantage (if any) a team has when playing at home.
+
+3. Join this dataset [another dataset containing team statistics](https://data.scorenetwork.org/football/nfl-team-statistics.html) and build a logistic regression model to predict which team will win the game. What variables are most predictive?
+
+
+## References
+
+Ho T, Carl S (2022). _nflreadr: Download 'nflverse' Data_. R package
+  version 1.3.1, <https://CRAN.R-project.org/package=nflreadr>.
+  
