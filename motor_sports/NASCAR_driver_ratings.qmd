@@ -1,18 +1,16 @@
 ---
-title: "NASCAR Data Description"
+title: "NASCAR Driver Ratings: 2007 - 2022"
 author: Alyssa Bigness, Jack Fay, and Ivan Ramler
 date: July 6, 2023
 description: NASCAR Driver Ratings and statistics from 2007-2022
 categories:
-  - data visualization
-  - data wrangling
-  - linear regression
-  - transformations in regression
-  - model assumptions
-  - model building
+  - Data visualization
+  - Data wrangling
+  - Linear regression
+  - Transformations in regression
+  - Linear regression conditions
+  - Multiple regression
 ---
-
-## Motivation
 
 ## Data
 

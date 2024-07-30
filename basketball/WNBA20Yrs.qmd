@@ -5,9 +5,8 @@ date: December 15, 2023
 description: This data set contains team game statistics for 16 WNBA teams and for 20 seasons. 
 categories:
   - Data cleaning
-  - Missing Data
-  - Tables
-  - Logistic Regression
+  - Missing data
+  - Logistic regression
 ---
 
 ## Motivation

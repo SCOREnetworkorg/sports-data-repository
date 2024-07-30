@@ -1,0 +1,787 @@
+---
+title: "badminton_scraping"
+format: html
+---
+# Libraries
+
+```{r}
+library(tidyverse)
+library(rvest)
+```
+
+# Data
+
+Data can be scraped from [this link](https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=%&year=-1&level=worldtour&country=%){target="_blank"}. Make sure to select the correct categories and years for each dataset. Leave the level on `World Tour`, country on `All`, and report on `Points H2H`. 
+
+# 2023 top 25 women's singles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlws2023 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=WS&year=2023&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabws2023 <- read_html(urlws2023) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testws2023 <- tabws2023[[1]] |> html_table()
+testws2023
+```
+
+# Cleaning
+
+```{r}
+ws2023 <- testws2023 |> separate(c("Cat"), into = c("Gender", "Category"), sep = 1) |> mutate(Category = str_replace_all(Category, "S", "Singles")) |> mutate(Gender = str_replace_all(Gender, "W", "Women")) |> rename(Player1 = Players, Opponent1 = Opponents) |> mutate(Year = 2023) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+
+# 2023 top 25 women's doubles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlwd2023 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=WD&year=2023&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabwd2023 <- read_html(urlwd2023) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testwd2023 <- tabwd2023[[1]] |> html_table()
+testwd2023
+```
+
+# Cleaning
+
+```{r}
+wd2023 <- testwd2023 |> separate(Players, into = c("Player1", "Player2"), sep = " / ") |> separate(Opponents, into = c("Opponent1", "Opponent2"), sep = " / ") |> separate(Cat, into = c("Gender", "Category"), sep = 1) |> mutate(Gender = str_replace_all(Gender, "W", "Women")) |> mutate(Category = str_replace_all(Category, "D", "Doubles")) |> mutate(Year = 2023) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2023 top 25 men's doubles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlms2023 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=MS&year=2023&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabms2023 <- read_html(urlms2023) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testms2023 <- tabms2023[[1]] |> html_table()
+testms2023
+```
+
+# Cleaning
+
+```{r}
+ms2023 <- testms2023 |> rename(Player1 = Players, Opponent1 = Opponents) |> separate(Cat, into = c("Gender", "Category"), sep = 1) |> mutate(Gender = str_replace_all(Gender, "M", "Men")) |> mutate(Category = str_replace_all(Category, "S", "Singles")) |> mutate(Year = 2023) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2023 top 25 men's doubles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlmd2023 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=MD&year=2023&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabmd2023 <- read_html(urlmd2023) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testmd2023 <- tabmd2023[[1]] |> html_table()
+testmd2023
+```
+
+# Cleaning
+
+```{r}
+md2023 <- testmd2023 |> separate(Players, into = c("Player1", "Player2"), sep = " / ") |> separate(Opponents, into = c("Opponent1", "Opponent2"), sep = " / ") |> separate(Cat, into = c("Gender", "Category"), sep = 1) |> mutate(Gender = str_replace_all(Gender, "M", "Men")) |> mutate(Category = str_replace_all(Category, "D", "Doubles")) |> mutate(Year = 2023)|> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2023 top 25 mixed doubles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlxd2023 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=XD&year=2023&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabxd2023 <- read_html(urlxd2023) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testxd2023 <- tabxd2023[[1]] |> html_table()
+testxd2023
+```
+
+# Cleaning
+
+```{r}
+mixed2023 <- testxd2023 |> separate(Players, into = c("Player1", "Player2"), sep = " / ") |> separate(Opponents, into = c("Opponent1", "Opponent2"), sep = " / ") |> separate(Cat, into = c("Gender", "Category"), sep = 1) |> mutate(Gender = str_replace_all(Gender, "X", "Mixed")) |> mutate(Category = str_replace_all(Category, "D", "Doubles")) |> mutate(Year = 2023)|> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2022 top 25 women's singles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlws2022 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=WS&year=2022&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabws2022 <- read_html(urlws2022) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testws2022 <- tabws2022[[1]] |> html_table()
+testws2022
+```
+
+# Cleaning
+
+```{r}
+ws2022 <- testws2022 |> separate(c("Cat"), into = c("Gender", "Category"), sep = 1) |> mutate(Category = str_replace_all(Category, "S", "Singles")) |> mutate(Gender = str_replace_all(Gender, "W", "Women")) |> rename(Player1 = Players, Opponent1 = Opponents) |> mutate(Year = 2022)|> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2022 top 25 women's doubles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlwd2022 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=WD&year=2022&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabwd2022 <- read_html(urlwd2022) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testwd2022 <- tabwd2022[[1]] |> html_table()
+testwd2022
+```
+
+# Cleaning
+
+```{r}
+wd2022 <- testwd2022 |> separate(Players, into = c("Player1", "Player2"), sep = " / ") |> separate(Opponents, into = c("Opponent1", "Opponent2"), sep = " / ") |> separate(Cat, into = c("Gender", "Category"), sep = 1) |> mutate(Gender = str_replace_all(Gender, "W", "Women")) |> mutate(Category = str_replace_all(Category, "D", "Doubles")) |> mutate(Year = 2022) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2022 top 25 men's doubles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlms2022 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=MS&year=2022&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabms2022 <- read_html(urlms2022) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testms2022 <- tabms2022[[1]] |> html_table()
+testms2022
+```
+
+# Cleaning
+
+```{r}
+ms2022 <- testms2022 |> rename(Player1 = Players, Opponent1 = Opponents) |> separate(Cat, into = c("Gender", "Category"), sep = 1) |> mutate(Gender = str_replace_all(Gender, "M", "Men")) |> mutate(Category = str_replace_all(Category, "S", "Singles")) |> mutate(Year = 2022) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2022 top 25 men's doubles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlmd2022 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=MD&year=2022&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabmd2022 <- read_html(urlmd2022) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testmd2022 <- tabmd2022[[1]] |> html_table()
+testmd2022
+```
+
+# Cleaning
+
+```{r}
+md2022 <- testmd2022 |> separate(Players, into = c("Player1", "Player2"), sep = " / ") |> separate(Opponents, into = c("Opponent1", "Opponent2"), sep = " / ") |> separate(Cat, into = c("Gender", "Category"), sep = 1) |> mutate(Gender = str_replace_all(Gender, "M", "Men")) |> mutate(Category = str_replace_all(Category, "D", "Doubles")) |> mutate(Year = 2022) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2022 top 25 mixed doubles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlxd2022 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=XD&year=2022&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabxd2022 <- read_html(urlxd2022) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testxd2022 <- tabxd2022[[1]] |> html_table()
+testxd2022
+```
+
+# Cleaning
+
+```{r}
+mixed2022 <- testxd2022 |> separate(Players, into = c("Player1", "Player2"), sep = " / ") |> separate(Opponents, into = c("Opponent1", "Opponent2"), sep = " / ") |> separate(Cat, into = c("Gender", "Category"), sep = 1) |> mutate(Gender = str_replace_all(Gender, "X", "Mixed")) |> mutate(Category = str_replace_all(Category, "D", "Doubles")) |> mutate(Year = 2022) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2021 top 25 women's singles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlws2021 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=WS&year=2021&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabws2021 <- read_html(urlws2021) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testws2021 <- tabws2021[[1]] |> html_table()
+testws2021
+```
+
+# Cleaning
+
+```{r}
+ws2021 <- testws2021 |> separate(c("Cat"), into = c("Gender", "Category"), sep = 1) |> mutate(Category = str_replace_all(Category, "S", "Singles")) |> mutate(Gender = str_replace_all(Gender, "W", "Women")) |> rename(Player1 = Players, Opponent1 = Opponents) |> mutate(Year = 2021) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2021 top 25 women's doubles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlwd2021 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=WD&year=2021&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabwd2021 <- read_html(urlwd2021) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testwd2021 <- tabwd2021[[1]] |> html_table()
+testwd2021
+```
+
+# Cleaning
+
+```{r}
+wd2021 <- testwd2021 |> separate(Players, into = c("Player1", "Player2"), sep = " / ") |> separate(Opponents, into = c("Opponent1", "Opponent2"), sep = " / ") |> separate(Cat, into = c("Gender", "Category"), sep = 1) |> mutate(Gender = str_replace_all(Gender, "W", "Women")) |> mutate(Category = str_replace_all(Category, "D", "Doubles")) |> mutate(Year = 2021) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2021 top 25 men's doubles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlms2021 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=MS&year=2021&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabms2021 <- read_html(urlms2021) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testms2021 <- tabms2021[[1]] |> html_table()
+testms2021
+```
+
+# Cleaning
+
+```{r}
+ms2021 <- testms2021 |> rename(Player1 = Players, Opponent1 = Opponents) |> separate(Cat, into = c("Gender", "Category"), sep = 1) |> mutate(Gender = str_replace_all(Gender, "M", "Men")) |> mutate(Category = str_replace_all(Category, "S", "Singles")) |> mutate(Year = 2021) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2021 top 25 men's doubles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlmd2021 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=MD&year=2021&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabmd2021 <- read_html(urlmd2021) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testmd2021 <- tabmd2021[[1]] |> html_table()
+testmd2021
+```
+
+# Cleaning
+
+```{r}
+md2021 <- testmd2021 |> separate(Players, into = c("Player1", "Player2"), sep = " / ") |> separate(Opponents, into = c("Opponent1", "Opponent2"), sep = " / ") |> separate(Cat, into = c("Gender", "Category"), sep = 1) |> mutate(Gender = str_replace_all(Gender, "M", "Men")) |> mutate(Category = str_replace_all(Category, "D", "Doubles")) |> mutate(Year = 2021) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2021 top 25 mixed doubles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlxd2021 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=XD&year=2021&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabxd2021 <- read_html(urlxd2021) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testxd2021 <- tabxd2021[[1]] |> html_table()
+testxd2021
+```
+
+# Cleaning
+
+```{r}
+mixed2021 <- testxd2021 |> separate(Players, into = c("Player1", "Player2"), sep = " / ") |> separate(Opponents, into = c("Opponent1", "Opponent2"), sep = " / ") |> separate(Cat, into = c("Gender", "Category"), sep = 1) |> mutate(Gender = str_replace_all(Gender, "X", "Mixed")) |> mutate(Category = str_replace_all(Category, "D", "Doubles")) |> mutate(Year = 2021) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2020 top 25 women's singles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlws2020 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=WS&year=2020&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabws2020 <- read_html(urlws2020) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testws2020 <- tabws2020[[1]] |> html_table()
+testws2020
+```
+
+# Cleaning
+
+```{r}
+ws2020 <- testws2020 |> separate(c("Cat"), into = c("Gender", "Category"), sep = 1) |> mutate(Category = str_replace_all(Category, "S", "Singles")) |> mutate(Gender = str_replace_all(Gender, "W", "Women")) |> rename(Player1 = Players, Opponent1 = Opponents) |> mutate(Year = 2020) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2020 top 25 women's doubles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlwd2020 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=WD&year=2020&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabwd2020 <- read_html(urlwd2020) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testwd2020 <- tabwd2020[[1]] |> html_table()
+testwd2020
+```
+
+# Cleaning
+
+```{r}
+wd2020 <- testwd2020 |> separate(Players, into = c("Player1", "Player2"), sep = " / ") |> separate(Opponents, into = c("Opponent1", "Opponent2"), sep = " / ") |> separate(Cat, into = c("Gender", "Category"), sep = 1) |> mutate(Gender = str_replace_all(Gender, "W", "Women")) |> mutate(Category = str_replace_all(Category, "D", "Doubles")) |> mutate(Year = 2020) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2020 top 25 men's doubles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlms2020 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=MS&year=2020&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabms2020 <- read_html(urlms2020) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testms2020 <- tabms2020[[1]] |> html_table()
+testms2020
+```
+
+# Cleaning
+
+```{r}
+ms2020 <- testms2020 |> rename(Player1 = Players, Opponent1 = Opponents) |> separate(Cat, into = c("Gender", "Category"), sep = 1) |> mutate(Gender = str_replace_all(Gender, "M", "Men")) |> mutate(Category = str_replace_all(Category, "S", "Singles")) |> mutate(Year = 2020) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2020 top 25 men's doubles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlmd2020 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=MD&year=2020&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabmd2020 <- read_html(urlmd2020) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testmd2020 <- tabmd2020[[1]] |> html_table()
+testmd2020
+```
+
+# Cleaning
+
+```{r}
+md2020 <- testmd2020 |> separate(Players, into = c("Player1", "Player2"), sep = " / ") |> separate(Opponents, into = c("Opponent1", "Opponent2"), sep = " / ") |> separate(Cat, into = c("Gender", "Category"), sep = 1) |> mutate(Gender = str_replace_all(Gender, "M", "Men")) |> mutate(Category = str_replace_all(Category, "D", "Doubles")) |> mutate(Year = 2020)|> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2020 top 25 mixed doubles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlxd2020 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=XD&year=2020&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabxd2020 <- read_html(urlxd2020) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testxd2020 <- tabxd2020[[1]] |> html_table()
+testxd2020
+```
+
+# Cleaning
+
+```{r}
+mixed2020 <- testxd2020 |> separate(Players, into = c("Player1", "Player2"), sep = " / ") |> separate(Opponents, into = c("Opponent1", "Opponent2"), sep = " / ") |> separate(Cat, into = c("Gender", "Category"), sep = 1) |> mutate(Gender = str_replace_all(Gender, "X", "Mixed")) |> mutate(Category = str_replace_all(Category, "D", "Doubles")) |> mutate(Year = 2020)|> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2019 top 25 women's singles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlws2019 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=WS&year=2019&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabws2019 <- read_html(urlws2019) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testws2019 <- tabws2019[[1]] |> html_table()
+testws2019
+```
+
+# Cleaning
+
+```{r}
+ws2019 <- testws2019 |> separate(c("Cat"), into = c("Gender", "Category"), sep = 1) |> mutate(Category = str_replace_all(Category, "S", "Singles")) |> mutate(Gender = str_replace_all(Gender, "W", "Women")) |> rename(Player1 = Players, Opponent1 = Opponents) |> mutate(Year = 2019) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2019 top 25 women's doubles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlwd2019 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=WD&year=2019&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabwd2019 <- read_html(urlwd2019) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testwd2019 <- tabwd2019[[1]] |> html_table()
+testwd2019
+```
+
+# Cleaning
+
+```{r}
+wd2019 <- testwd2019 |> separate(Players, into = c("Player1", "Player2"), sep = " / ") |> separate(Opponents, into = c("Opponent1", "Opponent2"), sep = " / ") |> separate(Cat, into = c("Gender", "Category"), sep = 1) |> mutate(Gender = str_replace_all(Gender, "W", "Women")) |> mutate(Category = str_replace_all(Category, "D", "Doubles")) |> mutate(Year = 2019) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2019 top 25 men's doubles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlms2019 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=MS&year=2019&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabms2019 <- read_html(urlms2019) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testms2019 <- tabms2019[[1]] |> html_table()
+testms2019
+```
+
+# Cleaning
+
+```{r}
+ms2019 <- testms2019 |> rename(Player1 = Players, Opponent1 = Opponents) |> separate(Cat, into = c("Gender", "Category"), sep = 1) |> mutate(Gender = str_replace_all(Gender, "M", "Men")) |> mutate(Category = str_replace_all(Category, "S", "Singles")) |> mutate(Year = 2019) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2019 top 25 men's doubles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlmd2019 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=MD&year=2019&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabmd2019 <- read_html(urlmd2019) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testmd2019 <- tabmd2019[[1]] |> html_table()
+testmd2019
+```
+
+# Cleaning
+
+```{r}
+md2019 <- testmd2019 |> separate(Players, into = c("Player1", "Player2"), sep = " / ") |> separate(Opponents, into = c("Opponent1", "Opponent2"), sep = " / ") |> separate(Cat, into = c("Gender", "Category"), sep = 1) |> mutate(Gender = str_replace_all(Gender, "M", "Men")) |> mutate(Category = str_replace_all(Category, "D", "Doubles")) |> mutate(Year = 2019) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2019 top 25 mixed doubles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlxd2019 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=XD&year=2019&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabxd2019 <- read_html(urlxd2019) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testxd2019 <- tabxd2019[[1]] |> html_table()
+testxd2019
+```
+
+# Cleaning
+
+```{r}
+mixed2019 <- testxd2019 |> separate(Players, into = c("Player1", "Player2"), sep = " / ") |> separate(Opponents, into = c("Opponent1", "Opponent2"), sep = " / ") |> separate(Cat, into = c("Gender", "Category"), sep = 1) |> mutate(Gender = str_replace_all(Gender, "X", "Mixed")) |> mutate(Category = str_replace_all(Category, "D", "Doubles")) |> mutate(Year = 2019) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2018 top 25 women's singles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlws2018 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=WS&year=2018&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabws2018 <- read_html(urlws2018) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testws2018 <- tabws2018[[1]] |> html_table()
+testws2018
+```
+
+# Cleaning
+
+```{r}
+ws2018 <- testws2018 |> separate(c("Cat"), into = c("Gender", "Category"), sep = 1) |> mutate(Category = str_replace_all(Category, "S", "Singles")) |> mutate(Gender = str_replace_all(Gender, "W", "Women")) |> rename(Player1 = Players, Opponent1 = Opponents) |> mutate(Year = 2018) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2018 top 25 women's doubles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlwd2018 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=WD&year=2018&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabwd2018 <- read_html(urlwd2018) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testwd2018 <- tabwd2018[[1]] |> html_table()
+testwd2018
+```
+
+# Cleaning
+
+```{r}
+wd2018 <- testwd2018 |> separate(Players, into = c("Player1", "Player2"), sep = " / ") |> separate(Opponents, into = c("Opponent1", "Opponent2"), sep = " / ") |> separate(Cat, into = c("Gender", "Category"), sep = 1) |> mutate(Gender = str_replace_all(Gender, "W", "Women")) |> mutate(Category = str_replace_all(Category, "D", "Doubles")) |> mutate(Year = 2018) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2018 top 25 men's doubles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlms2018 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=MS&year=2018&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabms2018 <- read_html(urlms2018) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testms2018 <- tabms2018[[1]] |> html_table()
+testms2018
+```
+
+# Cleaning
+
+```{r}
+ms2018 <- testms2018 |> rename(Player1 = Players, Opponent1 = Opponents) |> separate(Cat, into = c("Gender", "Category"), sep = 1) |> mutate(Gender = str_replace_all(Gender, "M", "Men")) |> mutate(Category = str_replace_all(Category, "S", "Singles")) |> mutate(Year = 2018) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2018 top 25 men's doubles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlmd2018 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=MD&year=2018&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabmd2018 <- read_html(urlmd2018) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testmd2018 <- tabmd2018[[1]] |> html_table()
+testmd2018
+```
+
+# Cleaning
+
+```{r}
+md2018 <- testmd2018 |> separate(Players, into = c("Player1", "Player2"), sep = " / ") |> separate(Opponents, into = c("Opponent1", "Opponent2"), sep = " / ") |> separate(Cat, into = c("Gender", "Category"), sep = 1) |> mutate(Gender = str_replace_all(Gender, "M", "Men")) |> mutate(Category = str_replace_all(Category, "D", "Doubles")) |> mutate(Year = 2018) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# 2018 top 25 mixed doubles scraping
+
+```{r}
+## provide the URL and name it something (in this case, url).
+urlxd2018 <- "https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=XD&year=2018&level=worldtour&country=%"
+
+
+## read_html() convert the html code from the URL into something R can read
+tabxd2018 <- read_html(urlxd2018) |> 
+  html_nodes("table") ## html_nodes can grab only the tables 
+```
+
+```{r}
+testxd2018 <- tabxd2018[[1]] |> html_table()
+testxd2018
+```
+
+# Cleaning
+
+```{r}
+mixed2018 <- testxd2018 |> separate(Players, into = c("Player1", "Player2"), sep = " / ") |> separate(Opponents, into = c("Opponent1", "Opponent2"), sep = " / ") |> separate(Cat, into = c("Gender", "Category"), sep = 1) |> mutate(Gender = str_replace_all(Gender, "X", "Mixed")) |> mutate(Category = str_replace_all(Category, "D", "Doubles")) |> mutate(Year = 2018) |> mutate(Rank = rank(desc(`Points For`)))
+```
+
+# Joining the datasets
+
+```{r}
+# 2023 join
+women2023 <- full_join(ws2023, wd2023)
+men2023 <- full_join(ms2023, md2023)
+both2023 <- full_join(women2023, men2023)
+all2023 <- full_join(both2023, mixed2023)
+```
+
+```{r}
+# 2022 join
+women2022 <- full_join(ws2022, wd2022)
+men2022 <- full_join(ms2022, md2022)
+both2022 <- full_join(women2022, men2022)
+all2022 <- full_join(both2022, mixed2022)
+```
+
+```{r}
+# 2021 join
+women2021 <- full_join(ws2021, wd2021)
+men2021 <- full_join(ms2021, md2021)
+both2021 <- full_join(women2021, men2021)
+all2021 <- full_join(both2021, mixed2021)
+```
+
+```{r}
+# 2020 join
+women2020 <- full_join(ws2020, wd2020)
+men2020 <- full_join(ms2020, md2020)
+both2020 <- full_join(women2020, men2020)
+all2020 <- full_join(both2020, mixed2020)
+```
+
+```{r}
+# 2019 join
+women2019 <- full_join(ws2019, wd2019)
+men2019 <- full_join(ms2019, md2019)
+both2019 <- full_join(women2019, men2019)
+all2019 <- full_join(both2019, mixed2019)
+```
+
+```{r}
+# 2018 join
+women2018 <- full_join(ws2018, wd2018)
+men2018 <- full_join(ms2018, md2018)
+both2018 <- full_join(women2018, men2018)
+all2018 <- full_join(both2018, mixed2018)
+```
+
+```{r}
+# Complete join
+all23_22 <- full_join(all2023, all2022)
+all21_20 <- full_join(all2021, all2020)
+all19_18 <- full_join(all2019, all2018)
+
+all23_20 <- full_join(all23_22, all21_20)
+
+badminton_full <- full_join(all23_20, all19_18)
+```
+
+# Cleaning the full dataset
+
+```{r}
+badminton <- badminton_full |> relocate(Player1, Player2, Opponent1, Opponent2, Rank, Year, Gender, Category) |> mutate(Rank = as.integer(Rank))
+```
+
+```{r}
+badminton <- badminton |> mutate(win_pct = Wins/Matches, total_pts = `Points For` + `Points Against`, shot_pct = `Points For`/total_pts)
+```
+
+```{r}
+badminton_df <- badminton |> group_by(Player1, Category) |> summarise(Matches = sum(Matches), Wins = sum(Wins), Losses = sum(Losses), pts_for = sum(`Points For`), pts_agst = sum(`Points Against`), win_pct = Wins/Matches, shot_pct = pts_for/(pts_for + pts_agst)) |> rename(Player = Player1)
+```
+
+# Write the csv
+
+```{r}
+write.csv(badminton_df, "badminton.csv")
+```
+

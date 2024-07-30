@@ -5,8 +5,8 @@ date: "June 4, 2024"
 
 categories:
   - Histogram 
-  - Mean, IQR 
-  - One Sample T-Interval 
+  - Summary statistics 
+  - Confidence interval for a mean
 ---
 
 ## Motivation

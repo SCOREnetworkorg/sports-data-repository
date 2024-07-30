@@ -1,0 +1,82 @@
+---
+title: 2024 NCAA Fencing National Championship Individual Results
+author: Abigail Smith
+date: July 8, 2024
+description: Assessing the difference in victories for Ivy and Non-Ivy league fencers at the 2024 NCAA Fencing National Championships. 
+categories:
+  -  Boxplot
+  -  Linear regression
+  -  Side-by-side boxplots
+  -  Summary statistics
+  -  Difference in means hypothesis test
+  
+
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Motivation
+
+[Fencing](https://en.wikipedia.org/wiki/Fencing){target="_blank"} is a semi-contact sport that is based on sword fighting and dates back to the 1600s. There are three weapon types in fencing, epee, foil, and sabre. Fencing consists of bouts in which two fencers face-off against each other on a strip (14 x 1.5 meters). During bouts fencers attempt to hit each other with their weapon within the valid target area. Target areas vary for each weapon type. For epee, the entire body is a target area, for foil only the torso is a valid target area, and for sabre the target area is from the hips to the head. Bouts last 9 minutes total and are broken into three 3-minute phrases with a minute break in between. A bout is won by the first fencer to reach 15 touches, if the bout ends before either fencer has 15 touches, the fencer with the most touches is
+declared winner.
+
+At the [collegiate level](https://en.wikipedia.org/wiki/Collegiate_fencing){target="_blank"}
+the fencing season comes to a close with the [NCAA Fencing Championships](https://en.wikipedia.org/wiki/NCAA_Fencing_Championships){target="_blank"} which is hosted at a different school every year. The championship is non-divisional and consists of the top fencers from schools in each NCAA region (Northeast, Mid-Atlantic/South, Midwest, and West). Fencers qualify for nationals based on their performance at regionals. Schools are allowed up to 12 fencers total in the tournament, but are only allowed a maximum of two fencers in each weapon and gender. The final championship consists of a 24 fencer round-robin in which each fencer in the discipline faces each other in 5-touch bouts. Fencers are ranked based on descending indicator scores which is the difference in touches sent and touches received. The top 4 fencers from each discipline face each other off in a round of 15-touch semifinals and championship bouts. The fencer to win the championship places number 1 in the discipline. Each school is awarded a point for each victory from each of their fencers. Schools' points are added and ranked, and the school with the most points at the end of the tournament wins.
+
+This [fencing dataset](fencing.csv){target="_blank"}(fencing.csv) contains the final results for each individual fencer in the 2024 NCAA Fencing Championships hosted at Ohio State University. It has data for both men and women in all three weapon types. Investigating the number of `Victories` for Ivy League and Non-Ivy League fencers in this dataset can reveal patterns in NCAA fencing. 
+
+## Data
+
+The data set has 144 rows with 13 variables. Each row is a fencer who participated in the 2024 NCAA Fencing Championships. The statistics in each row are the fencers' totals from the tournament.
+
+| Variable   | Description                                                                                                             |
+|-----------------------|------------------------------------------------|
+| `Place` | The place the fencer finished the tournament in. |
+| `Tied` | If the fencer was tied for their place with someone else, `TRUE` or `FALSE`. |
+| `Name` | The fencer's name in `first name last name` order. |
+| `School` | The school the fencer is representing. |
+| `Victories`   | The total victories the fencer had in the tournament. |
+| `Bouts`  | The number of bouts the fencer was in in the tournament. |
+| `Pct` | The percentage of wins (`Victories`/`Bouts`) the fencer had in the tournament. |
+| `TS`  | The total touches sent by the fencer in the tournament, meaning touches they scored against opponents. |
+| `TR` | The total touches received by the fencer in the tournament, meaning touches scored against the fencer. |
+| `Ind` | The indicator score, calculated by `TS`-`TR`. |
+| `Gender` | The fencer's gender, `Women` or `Men`. |
+| `Ivy` | If the fencer's school is in the Ivy League, `Ivy` or `Non-Ivy`. |
+: [NCAAfencing.csv](../data/NCAAfencing.csv)
+
+## Questions
+
+1.    Draw a boxplot of `Victories` for womens' foil.
+
+2. Fit a regression model to predict number of victories using eh indicator score (Ind). 
+
+3. If a fencer has 16 victories with an idicator score of 15, compute the resudual uing the fitted model in the previous question. 
+
+4.    How many of the competitors were from Ivy league schools. How many were non-Ivies? .
+
+5.    Find the means and standard deviations of Victories for Ivies and Non-Ivies.
+
+6.    Create a side-by-side boxplot of Victories for Ivies and non-Ivies, compare the distributions.
+
+7.    Test for a discernible difference in the mean number of victories for ivy league fencers and non-ivy league fencers. 
+
+
+## References
+
+[NCAA cChampionships results](https://ncaa.escrimeresults.com/ncaa2024.html){target="_blank"}
+
+[Olympic Fencing Rules](https://www.nbcolympics.com/news/fencing-101-rules-and-scoring){target="_blank"}
+
+[NCAA Fencing Website](https://www.ncaa.com/sports/fencing){target="_blank"}
+
+[NCAA Fencing Championships Wikipedia](https://en.wikipedia.org/wiki/NCAA_Fencing_Championships){target="_blank"}
+
+[NCAA Fencing Wikipedia](https://en.wikipedia.org/wiki/Collegiate_fencing){target="_blank"}
+
+[Fencing Wikipedia](https://en.wikipedia.org/wiki/Fencing){target="_blank"}
+
+
+
+

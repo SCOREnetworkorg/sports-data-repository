@@ -4,9 +4,9 @@ author: George Charalambous, Ivan Ramler, and A.J. Dykstra
 date: July 1, 2023
 description: Game play statistics for League of Legends champions in two different patches.  Can detecting outliers indicate champions that should be enhanced (buffed) or scaled back (nerfed)?
 categories:
-  - outlier detection
-  - five number summary
-  - z-scores
+  - Outliers
+  - Summary statistics
+  - Z-scores
 ---
 
 ## Motivation

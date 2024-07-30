@@ -4,8 +4,8 @@ author: Emma Deering
 date: February 29, 2024
 description: Preliminary diving results of womens 16-18 1m springboard from the 2022 FINA World Junior Championships. 
 categories:
-  - ANOVA for difference in means
-  - Pairwise Comparisons
+  - ANOVA for means
+  - Pairwise comparisons
   - Fisher’s LSD
   - Tukey’s HSD
 ---

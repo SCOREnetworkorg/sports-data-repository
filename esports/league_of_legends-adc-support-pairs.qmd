@@ -4,9 +4,8 @@ author: "George Charalambous"
 date: "February 29, 2024"
 description: This module focuses on examining the synergistic relationships between champions in the AD Carry and Support roles within the popular video game, League of Legends. Through Chi-Squared analysis, we will assess potential interactions among the top five most-selected champions in these positions to determine if any statistically significant relationships exist.
 categories:
-  - Chi-Squared
-  - Predictor Categories
-  - Relationship
+  - Chi-square test for association
+  - Categorical predictors
 ---
 
 ## Motivation

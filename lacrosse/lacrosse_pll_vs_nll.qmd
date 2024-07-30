@@ -4,8 +4,8 @@ author: AJ Dykstra, Jack Cowan, and Ivan Ramler
 date: June 22, 2023
 description: The data set looks at both lacrosse leagues, their respective teams, and their shot and goal amounts. 
 categories:
-  - Difference in means hypothesis tests
-  - Difference in means confidence intervals
+  - Difference in means hypothesis test
+  - Difference in means confidence interval
 ---
 
 ## Motivation

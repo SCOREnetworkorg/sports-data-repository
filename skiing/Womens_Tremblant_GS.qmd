@@ -4,8 +4,7 @@ author: Emilia Agostinelli
 date: March 14, 2024
 description: Statistics from a two-run women's World Cup Giant Slalom race at Mont-Tremblant
 categories:
-  - Paired data
-  - Difference in means
+  - Paired difference in means
   - Correlation
 ---
 

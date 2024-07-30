@@ -1,0 +1,139 @@
+---
+title: "ump_scraping_cleaning"
+format: html
+---
+# Libraries
+
+```{r}
+library(tidyverse)
+library(rvest)
+library(stringr)
+```
+
+# Scraping
+
+The data can be found at [this link](https://swishanalytics.com/mlb/mlb-umpire-factors){target="_blank"}. 
+
+```{r}
+url <- "https://swishanalytics.com/mlb/mlb-umpire-factors"
+
+tab <- read_html(url) |> 
+  html_nodes("table") 
+```
+
+```{r}
+test <- tab[[2]] |> html_table()
+test
+```
+
+# Cleaning
+
+Changing the variable names to the first row. 
+
+```{r}
+names(test) <- test[1, ]
+test
+```
+
+Getting rid of the duplicate first row and the `Today` variable and renaming variables so they are easier to work with.
+
+```{r}
+cleaner <- test |> filter(Umpire != "Umpire") |> select(!Today) |> rename(k_pct = `K %`, bb_pct = `BB %`) 
+```
+
+Separating the boost variables, they are in lowercase so that there are no duplicates, this arrangement of the data is temporary. 
+
+```{r}
+boost <- cleaner |> separate(c(k_pct), into = c("Pct", "%"), sep = -1) |> 
+  rename(k_pct = Pct) |> select(!`%`) |> 
+  separate(c(bb_pct), into = c("Pct", "%"), sep = -1) |> 
+  rename(bb_pct = Pct) |> select(!`%`) |> 
+  separate(c(`K Boost`), into = c("k", "Boost"), sep = -1) |> 
+  select(!Boost) |> separate(c(`BB Boost`), into = c("bb", "Boost"), sep = -1) |> 
+  select(!Boost) |> separate(c(`R Boost`), into = c("r", "Boost"), sep = -1) |> 
+  select(!Boost) |> separate(c(`BA Boost`), into = c("ba", "Boost"), sep = -1) |> 
+  select(!Boost) |> separate(c(`OBP Boost`), into = c("obp", "Boost"), sep = -1) |>
+  select(!Boost) |> separate(c(`SLG Boost`), into = c("slg", "Boost"), sep = -1) |>
+  select(!Boost)
+```
+
+Converting all the qualitative variables to `Double`.
+
+```{r}
+numbers <- boost |> mutate(Games = as.double(Games)) |>
+  mutate(k_pct = as.double(k_pct)) |>
+  mutate(bb_pct = as.double(bb_pct)) |>
+  mutate(RPG = as.double(RPG)) |>
+  mutate(BA = as.double(BA)) |>
+  mutate(OBP = as.double(OBP)) |>
+  mutate(SLG = as.double(SLG)) |>
+  mutate(k = as.double(k)) |>
+  mutate(bb = as.double(bb)) |>
+  mutate(r = as.double(r)) |>
+  mutate(ba = as.double(ba)) |>
+  mutate(obp = as.double(obp)) |>
+  mutate(slg = as.double(slg)) 
+```
+
+Making the dataset longer with pivot so that the boost stats are clearly specified and organized more effectively.
+
+```{r}
+longer <- numbers |> pivot_longer(c(9:14), names_to = "boost_stat", values_to = "boost_pct")
+```
+
+Adjusting the `boost_pct` variable so that it is just the percentage off of the average. 
+
+```{r}
+pct <- longer |> mutate(boost_pct = (boost_pct-1)*100)
+```
+
+Converting the `boost_stat` variable so that all the values are capitalized. 
+
+```{r}
+caps <- pct |> mutate(boost_stat = str_to_upper(boost_stat))
+```
+
+Making a categorical variable for if the umpire if the umpire favors the offense or the defense relative to the average umpire.
+
+```{r}
+umpires <- caps |> mutate(Rating = case_when(boost_stat == "K" & boost_pct > 0 ~ "Defensive", 
+                                  boost_stat == "K" & boost_pct < 0 ~ "Offensive", 
+                                  boost_stat == "BB" & boost_pct < 0 ~ "Defensive", 
+                                  boost_stat == "BB" & boost_pct > 0 ~ "Offensive", 
+                                  boost_stat == "R" & boost_pct > 0 ~ "Offensive", 
+                                  boost_stat == "R" & boost_pct < 0 ~ "Defensive", 
+                                  boost_stat == "BA" & boost_pct < 0 ~ "Defensive", 
+                                  boost_stat == "BA" & boost_pct > 0 ~ "Offensive", 
+                                  boost_stat == "OBP" & boost_pct < 0 ~ "Defensive", 
+                                  boost_stat == "OBP" & boost_pct > 0 ~ "Offensive", 
+                                  boost_stat == "SLG" & boost_pct < 0 ~ "Defensive", 
+                                  boost_stat == "SLG" & boost_pct > 0 ~ "Offensive", 
+                                  boost_pct == 0 ~ "Neither"))
+```
+
+```{r}
+umpires <- umpires |> filter(Games > 1 )
+```
+
+
+# Write the csv file
+
+```{r}
+write_csv(umpires, "umpires.csv")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

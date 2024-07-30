@@ -1,0 +1,136 @@
+---
+title: "fencing_scraping"
+format: html
+---
+# Libraries
+
+```{r}
+library(tidyverse)
+library(rvest)
+```
+
+# Data
+
+Data can be scraped from [this link](https://ncaa.escrimeresults.com/ncaa2024.html){target="_blank"}. Scrape each table for each category individually. Only take the individual final standings tables for each category. Clean each table with the code below.
+
+# Scraping the url
+
+```{r}
+url_1 <- "https://ncaa.escrimeresults.com/ncaa2024.html"
+
+
+
+tab_1 <- read_html(url_1) |> 
+  html_nodes("table") 
+```
+
+# Women's saber
+
+```{r}
+# Scraping
+w_saber <- tab_1[[3]] |> html_table()
+w_saber
+```
+
+```{r}
+# Cleaning
+wsaber <- w_saber |> rename(Place = X1, Tied = X2, Name = X3, School = X4, `V/B` = X5, Pct = X6, TS = X7, TR = X8, Ind = X9) |> filter(Place != "Place") |> mutate(Place = as.integer(Place)) |> mutate(Tied = if_else(Tied == "T", true = TRUE, false = FALSE)) |> separate(`V/B`, into = c("Victories", "Bouts"), sep = "/") |> mutate(Victories = as.integer(Victories), Bouts = as.integer(Bouts), Pct = as.double(Pct), TS = as.integer(TS), TR = as.integer(TR), Ind = as.integer(Ind)) |> mutate(Gender = "Women", Weapon = "Sabre")
+```
+
+# Women's Foil
+
+```{r}
+# Scraping
+w_foil <- tab_1[[6]] |> html_table()
+w_foil
+```
+
+```{r}
+# Cleaning
+wfoil <- w_foil |> rename(Place = X1, Tied = X2, Name = X3, School = X4, `V/B` = X5, Pct = X6, TS = X7, TR = X8, Ind = X9) |> filter(Place != "Place") |> mutate(Place = as.integer(Place)) |> mutate(Tied = if_else(Tied == "T", true = TRUE, false = FALSE)) |> separate(`V/B`, into = c("Victories", "Bouts"), sep = "/") |> mutate(Victories = as.integer(Victories), Bouts = as.integer(Bouts), Pct = as.double(Pct), TS = as.integer(TS), TR = as.integer(TR), Ind = as.integer(Ind)) |> mutate(Gender = "Women", Weapon = "Foil")
+```
+
+# Women's Epee
+
+```{r}
+# Scraping
+w_epee <- tab_1[[9]] |> html_table()
+w_epee
+```
+
+```{r}
+# Cleaning
+wepee <- w_epee |> rename(Place = X1, Tied = X2, Name = X3, School = X4, `V/B` = X5, Pct = X6, TS = X7, TR = X8, Ind = X9) |> filter(Place != "Place") |> mutate(Place = as.integer(Place)) |> mutate(Tied = if_else(Tied == "T", true = TRUE, false = FALSE)) |> separate(`V/B`, into = c("Victories", "Bouts"), sep = "/") |> mutate(Victories = as.integer(Victories), Bouts = as.integer(Bouts), Pct = as.double(Pct), TS = as.integer(TS), TR = as.integer(TR), Ind = as.integer(Ind)) |> mutate(Gender = "Women", Weapon = "Epee")
+```
+
+# Men's saber
+
+```{r}
+# Scraping
+m_saber <- tab_1[[12]] |> html_table()
+m_saber
+```
+
+```{r}
+# Cleaning
+msaber <- m_saber |> rename(Place = X1, Tied = X2, Name = X3, School = X4, `V/B` = X5, Pct = X6, TS = X7, TR = X8, Ind = X9) |> filter(Place != "Place") |> mutate(Place = as.integer(Place)) |> mutate(Tied = if_else(Tied == "T", true = TRUE, false = FALSE)) |> separate(`V/B`, into = c("Victories", "Bouts"), sep = "/") |> mutate(Victories = as.integer(Victories), Bouts = as.integer(Bouts), Pct = as.double(Pct), TS = as.integer(TS), TR = as.integer(TR), Ind = as.integer(Ind)) |> mutate(Gender = "Men", Weapon = "Sabre")
+```
+
+# Men's foil
+
+```{r}
+# Scraping
+m_foil <- tab_1[[15]] |> html_table()
+m_foil
+```
+
+```{r}
+# Cleaning
+mfoil <- m_foil |> rename(Place = X1, Tied = X2, Name = X3, School = X4, `V/B` = X5, Pct = X6, TS = X7, TR = X8, Ind = X9) |> filter(Place != "Place") |> mutate(Place = as.integer(Place)) |> mutate(Tied = if_else(Tied == "T", true = TRUE, false = FALSE)) |> separate(`V/B`, into = c("Victories", "Bouts"), sep = "/") |> mutate(Victories = as.integer(Victories), Bouts = as.integer(Bouts), Pct = as.double(Pct), TS = as.integer(TS), TR = as.integer(TR), Ind = as.integer(Ind)) |> mutate(Gender = "Men", Weapon = "Foil")
+```
+
+# Men's Epee
+
+```{r}
+# Scraping
+m_epee <- tab_1[[18]] |> html_table()
+m_epee
+```
+
+```{r}
+# Cleaning
+mepee <- m_epee |> rename(Place = X1, Tied = X2, Name = X3, School = X4, `V/B` = X5, Pct = X6, TS = X7, TR = X8, Ind = X9) |> filter(Place != "Place") |> mutate(Place = as.integer(Place)) |> mutate(Tied = if_else(Tied == "T", true = TRUE, false = FALSE)) |> separate(`V/B`, into = c("Victories", "Bouts"), sep = "/") |> mutate(Victories = as.integer(Victories), Bouts = as.integer(Bouts), Pct = as.double(Pct), TS = as.integer(TS), TR = as.integer(TR), Ind = as.integer(Ind)) |> mutate(Gender = "Men", Weapon = "Epee")
+```
+
+# Joining
+
+Join all of the data sets to create one big one. 
+
+```{r}
+saber <- full_join(wsaber, msaber)
+foil <- full_join(wfoil, mfoil)
+epee <- full_join(wepee, mepee)
+```
+
+```{r}
+sab_foil <- full_join(saber, foil)
+```
+
+```{r}
+fencing_full <- full_join(sab_foil, epee)
+```
+
+# Cleaning
+
+```{r}
+ivies <- fencing_full |> mutate(School = str_replace_all(School, "Pennsylvania", "UPenn")) |> mutate(School = str_replace_all(School, "Columbia/Barnard", "Barnard"))  |> mutate(Ivy = case_when(School == "Brown" ~ "Ivy", School == "Barnard" ~ "Ivy", School == "Cornell" ~ "Ivy", School == "Columbia" ~ "Ivy", School == "Harvard" ~ "Ivy", School == "UPenn" ~ "Ivy", School == "Princeton" ~ "Ivy", School == "Yale" ~ "Ivy")) |> mutate(Ivy = if_else(is.na(Ivy), true = "Non-Ivy", false = "Ivy"))
+```
+
+# Write a csv file
+
+Create a csv file of the data set. 
+
+```{r}
+write_csv(ivies, "fencing.csv")
+```
+

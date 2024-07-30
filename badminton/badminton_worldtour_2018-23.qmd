@@ -1,0 +1,90 @@
+---
+title: 2018-2023 Badminton World Tour Points Head To Head 
+author: Abigail Smith
+date: June 26, 2024
+description: Analyzing wins and points head to head in singles and doubles in the Badminton World Tour from 2018-2023. 
+categories:
+  -  Histogram
+  -  Summary statistics
+  -  Side-by-side boxplots
+  -  Difference in means hypothesis test
+  -  Linear regression
+  -  Confidence interval for regression slope
+  
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Motivation
+
+[Badminton](https://en.wikipedia.org/wiki/badminton){target="_blank"} is
+a racket sport played by pairs (`Doubles`) or individuals (`Singles`).
+Badminton takes place on a court with a net in the middle separating the
+opponents. Players use rackets to hit a feathered ball known as the
+birdie across the net. Matches are won through the best of three games,
+each match is won by the first team to get 21 points. Points are won
+when the birdie hits the ground in the opposing side's court.
+
+While often considered a recreational sport, it is also played at the
+professional and
+[Olympic](https://olympics.com/en/news/badminton-guide-how-to-play-rules-olympic-history){target="_blank"} level. The [BWF Badminton World Tour](https://en.wikipedia.org/wiki/BWF_World_Tour){target="_blank"} is
+a tournament series with opens hosted in different countries around the
+world. The tour has been running since 2018 and even took place in 2020
+despite the covid-19 pandemic. Statistics have been compiled from each
+World Tour, a notable statistic being the `Points H2H` which looks at
+the points for (`pts_for`) a player and the points against (`pts_agst`) them.
+
+Through statistical analysis, patterns can be identified in this [badminton dataset](../data/badminton_worldtour.csv). Investigating the distribution of the `Wins` variable will highlight any patterns and what factors might impact winning in badminton at the World Tour Level. 
+
+## Data
+
+The data set has 185 rows with 9 variables. Each row is a player who participated in the World Tour. The data set has 5 years worth of data from 2018-2023, the players' statistics are cumulative over the 5 years.
+
+| Variable | Description |
+|----------------------|-------------------------------------------------|
+| `Player` | The name of the player competing. |
+| `Category` | The category of competition the player competed in, either `Singles` or `Doubles`. |
+| `Matches` | The total number of matches the player played in between 2018-2023 in the World Tour. |
+| `Wins` | The total number of wins the player had between 2018-2023 in the World Tour. |
+| `Losses` | The total number of losses the player had between 2018-2023 in the World Tour. |
+| `pts_for` | The total number of points scored by the player between 2018-2023 in the World Tour. |
+| `pts_agst` | The total number of points allowed by the player between 2018-2023 in the World Tour. |
+| `win_pct` | The cumulative win percentage (`Wins`/`Matches`) for the player between 2018-2023 in the World Tour. |
+| `shot_pct` | The cumulative shot percentage (`pts_for`/(`pts_for` + `pts_agst`)) for the player between 2018-2023 in the World Tour. |
+
+: [badminton.csv](../data/badminton_worldtour.csv)
+
+## Questions
+
+1.    Create a histogram of `Wins` and describe the distribution.
+
+2.    Obtain the summary statistics of `Wins` and fill them in below. 
+
+3.    Calculate the range for `Wins` and for `pts_for`. 
+
+4.    The ranges for `Wins` and `pts_for` are both quite large. What do you think is a possible         reason for this flaw in the data?
+
+5.    Create a side by side box plot of `Wins` for each `Category`. Describe the distribution.
+
+6.    Perform a t.test to determine if there is a significant difference in the mean number of         `Wins` for `Doubles` vs. `Singles`. 
+
+7.    Fit a simple linear model of `pts_for` predicting `Wins`.
+
+8.    Interpret the slope of the model you just fit.
+
+9.    If a player has 216 points calculate their predicted `Wins`. 
+
+10.   Assess the overall fit of the model. 
+
+11.   Find the 90% confidence interval of the slope of the model.
+
+12.   Do you think that `pts_for` is really the most effective predictor of `Wins`? Why or why          not? What could be a better predictor?
+
+## References
+
+[Original Dataset](https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=%&year=-1&level=worldtour&country=%){target="_blank"} from www.badmintonstatistics.net
+
+[Olympic Badminton Rules](https://olympics.com/en/news/badminton-guide-how-to-play-rules-olympic-history){target="_blank"}
+
+[BWF Tour Website](https://bwfworldtour.bwfbadminton.com/){target="_blank"}

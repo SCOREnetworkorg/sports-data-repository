@@ -1,0 +1,58 @@
+---
+title: Setka Table Tennis Dataset
+author: Gavin Cassidy
+date: July 17, 2024
+description: Table Tennis dataset containing results from one month of competition (Sept 2022) from the Setka Cup Table Tennis organization
+categories:
+  -  Ranking methods
+  
+---
+
+## Motivation
+
+Table Tennis, also know to many as ping-pong, is a sport played globally by people at all skill levels. Players use paddles to hit the ball back and forth in fast paced rallies. Players play games to 11, where players must win by 2 points. The first player to win 3 games wins the match. The Setka Cup is a table tennis organization located in Ukraine whose goal is to develop and popularize the sport of table tennis as an Olympic sport. Setka holds frequent tournaments for players with live coverage featured on their [Youtube Channel](https://www.youtube.com/@setkacuplive) for people to view. They are supported in their mission by the Ukrainian Table Tennis Federation who wants to support the development of Table Tennis in Ukraine.
+
+Setka has tournaments around the clock, so players have ample opportunity to compete. Most of their tournaments are structured as a box league, where all participants play each other and the player with the most wins in the victor.
+
+## Data
+
+This dataset contains data 1 month of data from a Ukranian Table tennis organization, Setka Cup. Setka holds daily events where players have several matches, usually against a player of similar skill. Each row in the data set holds the information for 1 match, including information about each game. The dataset contains 7851 rows and 18 columns.
+
+Dowload the data: [table_tennis-sept2022.csv](../data/table_tennis-sept2022.csv)
+
+| Variable   | Description                                                          |
+|-------------------------|-----------------------------------------------|
+| X          | the number of the match in the dataset                               |
+| Date       | the date and time that the match took place(yyy-mm-dd)               |
+| Time       | the time the match took place (hh:mm:ss)                             |
+| Player1    | the name of the first player                                         |
+| Player2    | the name of the second player                                        |
+| Sets_P1    | the number of sets won by player 1                                   |
+| Sets_P2    | the number of sets won by player 2                                   |
+| P1_G1      | the number of points won in Game 1 by Player 1                       |
+| P2_G1      | the number of points won in Game 1 by Player 2                       |
+| P1_G2      | the number of points won in Game 2 by Player 1                       |
+| P2_G2      | the number of points won in Game 2 by Player 2                       |
+| P1_G3      | the number of points won in Game 3 by Player 1                       |
+| P2_G3      | the number of points won in Game 3 by Player 2                       |
+| P1_G4      | the number of points won in Game 4 by Player 1(if game 4 was played) |
+| P2_G4      | the number of points won in Game 4 by Player 2(if game 4 was played) |
+| P1_G5      | the number of points won in Game 5 by Player 1(if game 5 was played) |
+| P2_G5      | the number of points won in Game 5 by Player 2(if game 5 was played) |
+| HomeWinner | the winner of the match, 1 means Player 1 won, 0 means Player 2.     |
+
+## Questions
+
+1. How could you devise a system to rank players based on match results?
+
+2. Would factoring in the results of each game make a ranking more accurate?
+
+3. Does playing more matches help or hurt a players ranking?
+
+
+## References
+
+This dataset was found on [Kaggle](https://www.kaggle.com/datasets/medaxone/one-month-table-tennis-dataset), and the data is from the [Setka Cup](https://tabletennis.setkacup.com/en/) Table Tennis Organizaiton.
+
+
+

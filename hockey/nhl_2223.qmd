@@ -4,8 +4,8 @@ author: Taylor Lum, Robin Lock
 date: December 15, 2023
 description: Team-level statistics from the 2022-2023 NHL season
 categories:
-  - linear regression
-  - correlation
+  - Linear regression
+  - Correlation
 ---
 
 ## Motivation

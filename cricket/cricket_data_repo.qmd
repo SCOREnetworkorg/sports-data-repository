@@ -1,10 +1,10 @@
 ---
-title: "Exploring Logistic Regression Through Cricket"
+title: "Cricket: Asia Cup Results 1984 - 2022"
 author: "Vivian Johnson" 
 date: "June 10, 2024" 
 
 categories:
-  - Multiple Logistic Regression
+  - Logistic regression
 ---
 
 ## Motivation
