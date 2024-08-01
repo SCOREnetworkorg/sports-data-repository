@@ -31,7 +31,7 @@ width="380"}](https://repfitness.com/products/concept2-row-erg)
 
 The below video shows the motion of erging. 
 
-{{< video https://www.youtube.com/watch?v=4zWu1yuJ0_g title= "Erg Technique" >}}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4zWu1yuJ0_g?si=ormpBc3D-vAXkpU5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 [Concept2](https://en.wikipedia.org/wiki/Concept2){target="_blank"} is the main company that sells ergs and other rowing equipment. All Concept2 ergs are equipped with performance monitor screens which measure a rowers, speed, time, rate, and distance. Since 1999, rowers have been able to log their ergs on an [online logbook](https://log.concept2.com){target="_blank"} which until then had been physical. In 2022, Concept2 released the [ErgData App](https://www.concept2.com/ergdata){target="_blank"} which connects to performance monitors via Bluetooth, when rowers use this app the data is immediately uploaded to their logbooks but it is still possible to manually record workouts in the online logbook. In the online logbook, Concept2 includes the option for rowers to "Rank" certain common workouts to compare with other rowers globally. These rankings are available to the general public on the [Concept2 website](https://log.concept2.com/rankings){target="_blank"}. 
 
