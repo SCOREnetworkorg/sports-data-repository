@@ -6,7 +6,7 @@ description: The data set looks at the 2023 Boston Marathon results.
 categories: 
   - Summary statistics
   - Outliers
-  - z-scores
+  - Z-scores
 ---
 
 ## Motivation

@@ -1,0 +1,60 @@
+---
+title: "NCAA Women's Gymnastics Championship Team Event Scores"
+author: "Vivian Johnson" 
+date: "July 3, 2024" 
+
+categories:
+  - Bootstrap distribution
+  - Confidence interval for a mean
+---
+
+## Motivation
+
+Each year, the National Collegiate Athletics Association (NCAA) holds the championship tournament for women's gymnastics to crown the national champion. There are two semi-final meets that consist of four teams, and the top two teams from each semi-final meet square off in the championship finals. 
+
+The competition consists of four events:
+
+1. [Vault](https://www.youtube.com/watch?v=vmFMXk3WQow){target="_blank"}: A high-energy, quick event where the gymnast gains momentum by running down a padded runway, jumps onto a spring board, and propels themselves over a slightly inclined vaulting table while performing an aerial combination of flips and twists. 
+
+2. [Uneven Bars](https://www.youtube.com/watch?v=j8N_xzlczQI){target="_blank"}: This is a routine in which the gymnast does a variety of flips and rotations on two horizontal bars that are set at different heights. The gymnast mounts onto a bar and the routine consists of transitioning from one bar to the other while swinging and flipping. The routine ends with a dismount off of the bar and onto the floor. 
+
+3. [Balance Beam](https://www.youtube.com/watch?v=bzi565Ioo3o){target="_blank"}: Gymnasts mount onto an elevated balance beam, which is a long, firm, padded plank about four inches (10 cm) wide. As the name suggests, this event highlights the gymnast's balance, acrobatic skills, and leaps while they attempt multiple turns, jumps, and flips on the beam before an aerial dismount. 
+
+4. [Floor](https://www.youtube.com/watch?v=_FBdDwpfH4I){target="_blank"}: The floor routine takes place on a square mat, and the gymnast performs a carefully choreographed routine that shows off dance skills as well as acrobats and tumbling. 
+
+Each team is allowed to have up to six people compete on each event, with the top five scores contributing to the combined score of that event for the team. After the entire rotation for each event, the combined scores for the four events are added together for a total score, and the team with the highest overall score is the champion. 
+
+Women's college gymnastics uses Perfect 10 scoring, with each routine being judged out of ten points. Gymnasts are evaluated on execution, difficulty, as well as the composition of the routine, and must meet certain requirements for each. 
+
+## Data
+
+The `ncaa_gymnastics.csv` data set includes data from the women's NCAA Gymnastics Championships from the years 2008-2024 (excluding 2020 as no championship was held due to the COVID-19 pandemic). Each row contains details from a specific university's performance at that year's tournament championship. 
+
+| Variable      | Description                                     |
+|---------------|-------------------------------------------------|
+| Year          | Year of NCAA women's gymnastics championship    |
+| Rank          | Final results of the championship               |
+| Team          | University participating                        |
+| Vault         | Combined team score on vault                    |
+| Bar           | Combined team score on bars                     |
+| Beam          | Combined team score on balance beam             |
+| Floor         | Combined team score on floor routine            |
+| Total         | Combined team score for all events              |
+
+
+: [ncaa_gymnastics.csv](../data/ncaa_gymnastics.csv)
+
+
+
+## Questions
+
+1. Calculate the bootstrap statistic for the mean of one of the events
+
+2. Create and comment on a bootstrap distribution. 
+
+3. Create a confidence interval for the population mean of that event
+
+
+## References
+
+The data are compiled from the [USA Gymnastics Results Website](https://usagym.org/results/2024/){target="_blank"}, which holds data from the NCAA Women's Gymnastics Championship for the relevant years. 

@@ -4,8 +4,8 @@ author: Alysssa Bigness
 date: May 19, 2023
 description: Measures of Putting, Driving, and Success for individual golfers in 19 professional tournaments in 2022 
 categories:
-  - correlation
-  - linear regression
+  - Correlation
+  - Linear regression
 ---
 
 ## Motivation

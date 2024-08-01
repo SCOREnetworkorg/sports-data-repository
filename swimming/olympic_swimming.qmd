@@ -1,12 +1,12 @@
 ---
-title: "Olympic_Swimming"
+title: "Olympic Swimming 1924 to 2020"
 author: "Brendan Karadenes"
 date: June 13, 2024
 description: The dataset looks at Olympic swimmers 100 meter races from 1924 to 2020.
 categories:
-  - Hypothesis Testing
-  - Side-By-Side Boxplots
-  - Confidence Intervals
+  - Difference in means hypothesis test
+  - Side-by-side boxplots
+  - Confidence interval for a mean
 editor:
   markdown: 
     canonical: true

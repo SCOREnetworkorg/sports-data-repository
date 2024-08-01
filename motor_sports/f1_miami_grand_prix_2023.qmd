@@ -2,11 +2,11 @@
 title: "2023 Miami Grand Prix Lap Data"
 author: "Norah Kuduk"
 date: March 7, 2024
-description: Use Minitab or other statistical software to gather summary statistics about the 2023 F1 Miami GP a
+description: Use Minitab or other statistical software to gather summary statistics about the 2023 F1 Miami GP
 categories:
-  - summary statistics
-  - histogram analysis
-  - data interpretation
+  - Summary statistics
+  - Histogram
+  - Outliers
 ---
 
 ## Motivation

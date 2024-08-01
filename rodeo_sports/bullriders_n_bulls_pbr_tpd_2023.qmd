@@ -6,10 +6,10 @@ description: Investigating a collection of professional bull riders and their st
 editor: 
   canonical: true
 categories:
-  - Linear Regression
-  - Summary Statistics
-  - Influential Points
-  - Hypothesis Testing
+  - Linear regression
+  - Summary statistics
+  - Influential points
+  - Difference in means hypothesis test
 ---
 
 ## Motivation

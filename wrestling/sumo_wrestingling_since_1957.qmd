@@ -4,8 +4,8 @@ author: Jack Fay, A.J. Dykstra, and Ivan Ramler
 date: 06/29/2023
 description: Sumo wrestling data 1957-2023.
 categories:
-  - data wrangling
-  - data visualization
+  - Data wrangling
+  - Data visualization
 ---
 
 ## Motivation

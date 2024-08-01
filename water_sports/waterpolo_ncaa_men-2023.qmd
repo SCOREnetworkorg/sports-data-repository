@@ -1,0 +1,92 @@
+---
+title: "NCAA Men's Water Polo 2023"
+author: "Vivian Johnson" 
+date: "July 16, 2024" 
+
+categories:
+  - Side-by-side boxplots
+  - Joining 
+  - Filtering 
+---
+
+## Motivation
+ 
+Water polo is a fast paced, competitive game that combines different elements of swimming, soccer, and basketball. The National Collegiate Athletic Association (NCAA) is the governing body that oversees collegiate water polo among many of the top US colleges. 
+
+##### Understanding Water Polo
+
+* The objective in water polo is to score more goals than the opposing team by throwing a ball into the opponent's net. 
+
+* Each team consists of six players plus a goal keeper. 
+
+* Each game consists of four quarters, each eight minutes long, as well as a half-time break. 
+
+##### The Field 
+
+* Water polo is played in a pool with a depth of at least six feet. Though exact dimensions vary, the standard size for a NCAA Men's Water Polo game is about 25 by 20 meters. There are two, three meter wide goals are located at each end of the pool. 
+
+##### Basic Rules 
+
+* Players are not allowed to touch the bottom of the pool and must tread water or swim throughout the duration of the game. 
+
+* Players also must only use one hand to hold or pass the ball (except for the goalkeeper).
+
+* There are some minor fours that result in free throws for the opposing team. For major fouls, a player can be temporarily sent out of the game. 
+
+
+Overall, water polo is an exciting sport that requires a lot of physical fitness and athleticism. The NCAA divides competing schools into different divisions based on school size and budgets for athletics. 
+
+## Data
+
+The `ncaa_waterpolo_goals` data set includes the leaders in goals scored from each major conference for collegiate Men's Water Polo. Each row has details about where the player attends college, what conference it competes in, their rank, and how many goals they've scored. 
+
+<details>
+
+<summary><b>Variable Descriptions</b></summary>
+
+| Variable         | Description                                                |
+|------------------|------------------------------------------------------------|
+| Conference       | Conference the school is a part of                         |
+| Rank             | Individual Ranking in the conference                       |
+| Name             | Player Name                                                |
+| Team             | University player attends                                  |
+| Goals            | Number of goals scored by that player in the 2023 season   |
+
+</details>
+
+**Download Goals Data:** [ncaa_waterpolo_goals.csv](../data/ncaa_waterpolo_goals.csv)
+
+
+Similarly, the `ncaa_waterpolo_assists` data set includes leaders in assists from each major conference for collegiate Men's Water Polo. 
+
+<details>
+
+<summary><b>Variable Descriptions </b></summary>
+
+| Variable         | Description                                                |
+|------------------|------------------------------------------------------------|
+| Conference       | Conference the school is a part of                         |
+| Rank             | Individual Ranking in the conference                       |
+| Name             | Player Name                                                |
+| Team             | University player attends                                  |
+| Assists          | Number of assists scored by that player in the 2023 season |
+
+</details>
+
+
+**Download Assists Data:** [ncaa_waterpolo_assists.csv](../data/ncaa_waterpolo_assists.csv)
+
+## Questions
+
+1. Use join statements to combine and filter data sets.
+
+2. Arrange data to find maximum and minimum values.
+
+3. Build data visualizations based on group totals. 
+
+## References
+
+The data are compiled from the FOSH, an online water polo score keeping website that tracks statistics and leaders from each conference for both men's and women's collegiate water polo. 
+
+[The FOSH](https://www.thefosh.net/league/1/M?year=2023){target="_blank"}
+

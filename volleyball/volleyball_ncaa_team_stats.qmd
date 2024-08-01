@@ -4,10 +4,10 @@ author: Jack Fay, A.J. Dykstra, and Ivan Ramler
 date: July 24, 2023
 description: These data sets contain team statistics for Division I women's volleyball in the 2022 and 2023 seasons.
 categories:
-  - multicollinearity
-  - multiple linear regression
-  -	correlations
-  - summary statistics
+  - Multicollinearity
+  - Multiple regression
+  -	Correlation
+  - Summary statistics
 ---
 
 ## Motivation

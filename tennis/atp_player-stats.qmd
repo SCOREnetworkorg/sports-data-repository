@@ -1,0 +1,48 @@
+---
+title: Win Percentages by Surface in Professional Tennis
+author: Eric Seltzer
+date: June 4, 2024
+description: Data of the ATP players from the last 52 weeks as of May 27, 2024. Players who have played a minimum of 10 matches overall or 5 matches on a particular surface are included in the table.
+categories:
+  - Summary statistics
+  - Linear regression
+  - Side-by-side boxplots
+  - Multiple regression
+editor:
+  markdown: 
+    canonical: true
+---
+
+## Motivation
+
+This data set is provided by Wheelo Ratings. They create an Elo ratings system for tennis players that takes into account who they are playing rather than just how many points a win gets like the ATP rankings do. The data here is from the past 52 weeks as of May 27, 2024 and includes many variables but for simplification, the variables have been narrowed down to 5 important indicators of a players ability to win a match.
+
+## Data
+
+This data is made up of 485 rows and 5 columns. Each row represents a player on a particular surface of court. The three options for these surfaces are Clay, Grass, and Hard.
+
+| Variable                  | Description                                          |
+|---------------------------|------------------------------------------------------|
+| Player                    | The player for which the data corresponds to         |
+| Surface                   | The type of surface that was played on for this data |
+| WinPercentage             | The percentage of matches won                        |
+| DoubleFaultPercentage     | The percentage of double faults                      |
+| ReturnPointsWonPercentage | The percentage of return points won                  |
+
+: [atp-tennis.csv](../data/atp-tennis.csv)
+
+## Questions
+
+1.  Learn how to build regression models with the data set
+
+2.  Look at differing types of distribution across variables
+
+3.  Create and interpret correlation matrices
+
+4.  Create side-by-side boxplots
+
+If possible, list some analyses or research questions that could be answered with this dataset, or the types of questions you'd ask students. This is mainly meant to give other instructors ideas for how they could use the data.
+
+## References
+
+Wheelo Ratings <https://www.wheeloratings.com/tennis_atp_stats_last52.html>.

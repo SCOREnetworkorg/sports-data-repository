@@ -4,9 +4,9 @@ author: Brendan Karadenes
 date: June 6, 2024
 description: The data set looks at statistics from PWHL skaters during the 2023-24 regular season. If possible, give a brief summary of the sports problem and statistical situation.
 categories:
-  - data visualization
-  - data wrangling
-  - exploratory data Analysis
+  - Data visualization
+  - Data wrangling
+  - Exploratory data analysis
 editor:
   markdown: 
     canonical: true

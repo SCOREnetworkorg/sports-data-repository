@@ -1,0 +1,145 @@
+Place,Tied,Name,School,Victories,Bouts,Pct,TS,TR,Ind,Gender,Weapon,Ivy
+1,FALSE,Maggie Shealy,Brandeis,18,23,0.783,109,74,35,Women,Sabre,Non-Ivy
+2,FALSE,Julia Cieslar,St. John's,14,23,0.609,92,75,17,Women,Sabre,Non-Ivy
+3,TRUE,Ryan Jenkins,Princeton,18,23,0.783,102,62,40,Women,Sabre,Ivy
+3,TRUE,Vera Kong,Barnard,16,23,0.696,98,67,31,Women,Sabre,Ivy
+5,FALSE,Atara Greenbaum,Notre Dame,14,23,0.609,93,79,14,Women,Sabre,Non-Ivy
+6,FALSE,Tamar Gordon,Barnard,14,23,0.609,92,78,14,Women,Sabre,Ivy
+7,FALSE,Alexandra Lee,Princeton,14,23,0.609,90,77,13,Women,Sabre,Ivy
+8,FALSE,Sydney Hirsch,Yale,14,23,0.609,91,83,8,Women,Sabre,Ivy
+9,FALSE,Jadeyn Williams,Notre Dame,13,23,0.565,92,77,15,Women,Sabre,Non-Ivy
+10,FALSE,Sophia Kovacs,North Carolina,13,23,0.565,88,76,12,Women,Sabre,Non-Ivy
+11,FALSE,Catinca Dumitru,St. John's,13,23,0.565,92,87,5,Women,Sabre,Non-Ivy
+12,FALSE,Zoe Kim,Harvard,13,23,0.565,88,84,4,Women,Sabre,Ivy
+13,FALSE,Kunling Tong,Duke,12,23,0.522,92,84,8,Women,Sabre,Non-Ivy
+14,FALSE,Joy Yun,Stanford,11,23,0.478,89,91,-2,Women,Sabre,Non-Ivy
+15,FALSE,Lauren Johnson,Temple,11,23,0.478,86,91,-5,Women,Sabre,Non-Ivy
+16,FALSE,Isabela Carvalho,Cornell,11,23,0.478,84,92,-8,Women,Sabre,Ivy
+17,FALSE,Aleksandra Strzalkowski,Penn State,10,23,0.435,79,87,-8,Women,Sabre,Non-Ivy
+18,FALSE,Casey Chan,Stanford,10,23,0.435,77,92,-15,Women,Sabre,Non-Ivy
+19,FALSE,Stella Berman,Cornell,8,23,0.348,73,95,-22,Women,Sabre,Ivy
+20,FALSE,Chloe Williams,Harvard,7,23,0.304,81,98,-17,Women,Sabre,Ivy
+21,FALSE,Levi Hoogendoorn,Northwestern,6,23,0.261,74,101,-27,Women,Sabre,Non-Ivy
+22,FALSE,Megumi Oishi,Northwestern,6,23,0.261,74,106,-32,Women,Sabre,Non-Ivy
+23,FALSE,Alexandra Tzou,Brown,6,23,0.261,61,96,-35,Women,Sabre,Ivy
+24,FALSE,Natalie Olsen,Duke,4,23,0.174,62,107,-45,Women,Sabre,Non-Ivy
+1,FALSE,Luke Linder,Notre Dame,22,23,0.957,113,50,63,Men,Sabre,Non-Ivy
+2,FALSE,Neil Lilov,Penn State,19,23,0.826,105,60,45,Men,Sabre,Non-Ivy
+3,TRUE,Luca Fioretto,Ohio State,18,23,0.783,106,71,35,Men,Sabre,Non-Ivy
+3,TRUE,Eyad Marouf,Wayne State,17,23,0.739,97,66,31,Men,Sabre,Non-Ivy
+5,FALSE,Jordan Silberzweig,Yale,16,23,0.696,95,66,29,Men,Sabre,Ivy
+6,FALSE,Kamar Skeete,Penn State,14,23,0.609,89,74,15,Men,Sabre,Non-Ivy
+7,FALSE,Alexandre Lacaze,Notre Dame,14,23,0.609,95,82,13,Men,Sabre,Non-Ivy
+8,FALSE,Antonio Escueta,Brandeis,13,23,0.565,91,73,18,Men,Sabre,Non-Ivy
+9,FALSE,Matthew Linsky,Harvard,13,23,0.565,88,81,7,Men,Sabre,Ivy
+10,FALSE,Matthew Limb,Princeton,12,23,0.522,80,79,1,Men,Sabre,Ivy
+11,FALSE,Ahmed Ferjani,St. John's,11,23,0.478,92,82,10,Men,Sabre,Non-Ivy
+12,FALSE,Jackson McBride,Columbia,11,23,0.478,84,90,-6,Men,Sabre,Ivy
+13,FALSE,Flavio Vinci,Wagner,11,23,0.478,78,86,-8,Men,Sabre,Non-Ivy
+14,FALSE,Andrew Johnson,Princeton,10,23,0.435,85,90,-5,Men,Sabre,Ivy
+15,FALSE,Gian Dhingra,UPenn,10,23,0.435,81,94,-13,Men,Sabre,Ivy
+16,FALSE,Luca Berman,Boston College,10,23,0.435,75,92,-17,Men,Sabre,Non-Ivy
+17,FALSE,Elden Wood,North Carolina,9,23,0.391,71,98,-27,Men,Sabre,Non-Ivy
+18,FALSE,Kevin Zu,N.Y.U.,8,23,0.348,72,96,-24,Men,Sabre,Non-Ivy
+19,FALSE,Arnav Raja,U.C. San Diego,8,23,0.348,67,99,-32,Men,Sabre,Non-Ivy
+20,FALSE,Kevin Sohn,Harvard,7,23,0.304,76,97,-21,Men,Sabre,Ivy
+21,FALSE,Jerry Pan,N.Y.U.,7,23,0.304,70,97,-27,Men,Sabre,Non-Ivy
+22,FALSE,Samir Travers,Duke,6,23,0.261,81,102,-21,Men,Sabre,Non-Ivy
+23,FALSE,Hananiah So,U.C. San Diego,5,23,0.217,67,98,-31,Men,Sabre,Non-Ivy
+24,FALSE,Jared Hammerstrom,Stanford,5,23,0.217,65,100,-35,Men,Sabre,Non-Ivy
+1,FALSE,Jessica Guo,Harvard,20,23,0.87,107,45,62,Women,Foil,Ivy
+2,FALSE,Lauren Scruggs,Harvard,17,23,0.739,104,63,41,Women,Foil,Ivy
+3,TRUE,Dariia Myroniuk,Ohio State,17,23,0.739,96,59,37,Women,Foil,Non-Ivy
+3,TRUE,Rebeca Candescu,Notre Dame,15,23,0.652,92,61,31,Women,Foil,Non-Ivy
+5,FALSE,Evelyn Cheng,Barnard,15,23,0.652,95,71,24,Women,Foil,Ivy
+6,FALSE,Crystal Qian,Stanford,14,23,0.609,92,70,22,Women,Foil,Non-Ivy
+7,FALSE,Kristina Petrova,Yale,14,23,0.609,88,67,21,Women,Foil,Ivy
+8,FALSE,Christina Ferrari,Duke,13,23,0.565,93,85,8,Women,Foil,Non-Ivy
+9,FALSE,Charlotte Koenig,Duke,13,23,0.565,89,86,3,Women,Foil,Non-Ivy
+10,FALSE,Samantha Catantan,Penn State,12,23,0.522,93,79,14,Women,Foil,Non-Ivy
+11,FALSE,Sabrina Cho,UPenn,12,23,0.522,80,80,0,Women,Foil,Ivy
+12,FALSE,Arianna Proietti,Penn State,11,23,0.478,87,85,2,Women,Foil,Non-Ivy
+13,FALSE,Josephina Conway,Notre Dame,11,23,0.478,74,75,-1,Women,Foil,Non-Ivy
+14,FALSE,Katina Proestakis Ortiz,UPenn,11,23,0.478,82,92,-10,Women,Foil,Ivy
+15,FALSE,Anna Novoseltseva,Temple,11,23,0.478,76,93,-17,Women,Foil,Non-Ivy
+16,FALSE,Helen Tan,Yale,11,23,0.478,70,88,-18,Women,Foil,Ivy
+17,FALSE,Malwina Ko&lstrok;odziejczyk,St. John's,10,23,0.435,69,84,-15,Women,Foil,Non-Ivy
+18,FALSE,Ludovica Mancini,Wayne State,10,23,0.435,73,92,-19,Women,Foil,Non-Ivy
+19,FALSE,Arianna Cao,Stanford,9,23,0.391,64,86,-22,Women,Foil,Non-Ivy
+20,FALSE,Rachael Kim,Barnard,8,23,0.348,77,91,-14,Women,Foil,Ivy
+21,FALSE,Karina Vasile,Northwestern,8,23,0.348,71,95,-24,Women,Foil,Non-Ivy
+22,FALSE,Elizabeth He,Princeton,6,23,0.261,61,98,-37,Women,Foil,Ivy
+23,FALSE,Anika Breker,Brown,6,23,0.261,50,97,-47,Women,Foil,Ivy
+24,FALSE,Alina Lee,Ohio State,2,23,0.087,63,104,-41,Women,Foil,Non-Ivy
+1,FALSE,Bryce Louie,UPenn,19,23,0.826,103,60,43,Men,Foil,Ivy
+2,FALSE,Blake Broszus,UPenn,16,23,0.696,105,71,34,Men,Foil,Ivy
+3,TRUE,Sam Kumbla,Columbia,16,23,0.696,96,70,26,Men,Foil,Ivy
+3,TRUE,Daniel Zhang,Harvard,16,23,0.696,92,75,17,Men,Foil,Ivy
+5,FALSE,Zach Binder,Columbia,15,23,0.652,96,71,25,Men,Foil,Ivy
+6,FALSE,Marcello Olivares,Notre Dame,14,23,0.609,96,75,21,Men,Foil,Non-Ivy
+7,FALSE,Edriss Ndiaye,Ohio State,14,23,0.609,94,76,18,Men,Foil,Non-Ivy
+8,FALSE,Ziyuan Chen,Notre Dame,14,23,0.609,90,75,15,Men,Foil,Non-Ivy
+9,FALSE,Jack Griffith,Air Force,14,23,0.609,94,85,9,Men,Foil,Non-Ivy
+10,FALSE,James Chen,Harvard,13,23,0.565,92,73,19,Men,Foil,Ivy
+11,FALSE,Tit Nam Cheng,Penn State,12,23,0.522,91,85,6,Men,Foil,Non-Ivy
+12,FALSE,Henry Zhang,M.I.T.,11,23,0.478,78,92,-14,Men,Foil,Non-Ivy
+13,FALSE,Arwen Borowiak,Penn State,10,23,0.435,86,85,1,Men,Foil,Non-Ivy
+14,FALSE,Alan Zheng,Johns Hopkins,10,23,0.435,82,86,-4,Men,Foil,Non-Ivy
+15,FALSE,Ethan Um,Princeton,10,23,0.435,84,93,-9,Men,Foil,Ivy
+16,FALSE,Justin Vogler,Ohio State,10,23,0.435,83,95,-12,Men,Foil,Non-Ivy
+17,FALSE,Adam Wong,N.Y.U.,10,23,0.435,82,96,-14,Men,Foil,Non-Ivy
+18,FALSE,Elijah Onik,Boston College,10,23,0.435,80,95,-15,Men,Foil,Non-Ivy
+19,FALSE,David Prilutsky,Princeton,9,23,0.391,81,90,-9,Men,Foil,Ivy
+20,FALSE,Sanjay Kasi,Stanford,9,23,0.391,80,91,-11,Men,Foil,Non-Ivy
+21,FALSE,Farr Dickson,N.Y.U.,8,23,0.348,72,92,-20,Men,Foil,Non-Ivy
+22,FALSE,Andy Zhang,M.I.T.,7,23,0.304,65,98,-33,Men,Foil,Non-Ivy
+23,FALSE,Jaewon Jang,Air Force,5,23,0.217,55,104,-49,Men,Foil,Non-Ivy
+24,FALSE,Scott Lao,U.C. San Diego,4,23,0.174,62,106,-44,Men,Foil,Non-Ivy
+1,FALSE,Emily Vermeule,Harvard,16,23,0.696,104,75,29,Women,Epee,Ivy
+2,FALSE,Tierna Oxenreider,Barnard,16,23,0.696,82,57,25,Women,Epee,Ivy
+3,TRUE,Ketki Ketkar,Cornell,17,23,0.739,94,80,14,Women,Epee,Ivy
+3,TRUE,Nicole Feygin,St. John's,16,23,0.696,101,74,27,Women,Epee,Non-Ivy
+5,FALSE,Montserrat Viveros,Ohio State,15,23,0.652,80,53,27,Women,Epee,Non-Ivy
+6,FALSE,Isabella Chin,Harvard,14,23,0.609,87,72,15,Women,Epee,Ivy
+7,FALSE,Ariana Rausch,Princeton,14,23,0.609,90,79,11,Women,Epee,Ivy
+8,FALSE,Mina Yamanaka,Barnard,12,23,0.522,91,86,5,Women,Epee,Ivy
+9,FALSE,Jessica Lin,Princeton,12,23,0.522,90,86,4,Women,Epee,Ivy
+10,FALSE,Grace Hu,UPenn,12,23,0.522,82,81,1,Women,Epee,Ivy
+11,FALSE,Kateryna Chorniy,Penn State,11,23,0.478,88,85,3,Women,Epee,Non-Ivy
+12,FALSE,Irene Yeu,Stanford,11,23,0.478,75,75,0,Women,Epee,Non-Ivy
+13,FALSE,Christina Watrall,Air Force,11,23,0.478,93,94,-1,Women,Epee,Non-Ivy
+14,FALSE,Jocelyn Ratzlaff,Air Force,11,23,0.478,77,86,-9,Women,Epee,Non-Ivy
+15,FALSE,Renee Zuhars,U.C. San Diego,10,23,0.435,86,91,-5,Women,Epee,Non-Ivy
+16,FALSE,Amanda Pirkowski,Notre Dame,10,23,0.435,80,85,-5,Women,Epee,Non-Ivy
+17,FALSE,Yeva Mazur,Ohio State,10,23,0.435,77,85,-8,Women,Epee,Non-Ivy
+18,FALSE,Michaela Joyce,Notre Dame,10,23,0.435,80,89,-9,Women,Epee,Non-Ivy
+19,FALSE,Amanda O'Donnell,Yale,10,23,0.435,83,93,-10,Women,Epee,Ivy
+20,FALSE,Jaclyn Khrol,Penn State,10,23,0.435,85,97,-12,Women,Epee,Non-Ivy
+21,FALSE,Karen Wang,Northwestern,10,23,0.435,83,97,-14,Women,Epee,Non-Ivy
+22,FALSE,Rachel Kowalsky,Duke,8,23,0.348,69,97,-28,Women,Epee,Non-Ivy
+23,FALSE,Elisa Treglia,St. John's,7,23,0.304,75,100,-25,Women,Epee,Non-Ivy
+24,FALSE,Alexa Drovetsky,Yale,3,23,0.13,69,104,-35,Women,Epee,Ivy
+1,FALSE,Tristan Szapary,Princeton,16,23,0.696,98,71,27,Men,Epee,Ivy
+2,FALSE,Jonathan Hamilton-Meikle,Notre Dame,16,23,0.696,105,78,27,Men,Epee,Non-Ivy
+3,TRUE,Henry Lawson,Harvard,17,23,0.739,99,69,30,Men,Epee,Ivy
+3,TRUE,Allen Marakov,Duke,17,23,0.739,107,80,27,Men,Epee,Non-Ivy
+5,FALSE,Justin Haddad,Columbia,16,23,0.696,95,77,18,Men,Epee,Ivy
+6,FALSE,Mihir Kumashi,Harvard,16,23,0.696,97,80,17,Men,Epee,Ivy
+7,FALSE,Paul Veltrup,Ohio State,15,23,0.652,97,81,16,Men,Epee,Non-Ivy
+8,FALSE,Paul Fortin,St. John's,15,23,0.652,91,78,13,Men,Epee,Non-Ivy
+9,FALSE,Rico Braun,U.I.W.,14,23,0.609,91,82,9,Men,Epee,Non-Ivy
+10,FALSE,Theodore Vinnitchouk,Yale,13,23,0.565,97,86,11,Men,Epee,Ivy
+11,FALSE,Tingwei Xu,Penn State,12,23,0.522,84,78,6,Men,Epee,Non-Ivy
+12,FALSE,Joey Wu,UPenn,11,23,0.478,89,91,-2,Men,Epee,Ivy
+13,FALSE,Levi Hughes,Boston College,11,23,0.478,85,93,-8,Men,Epee,Non-Ivy
+14,FALSE,Alec Brooke,Princeton,10,23,0.435,81,83,-2,Men,Epee,Ivy
+15,FALSE,Skyler Liverant,Columbia,10,23,0.435,88,93,-5,Men,Epee,Ivy
+16,FALSE,Miles Weiss,Ohio State,10,23,0.435,83,92,-9,Men,Epee,Non-Ivy
+17,FALSE,Devin Tafoya,Penn State,9,23,0.391,82,88,-6,Men,Epee,Non-Ivy
+18,FALSE,Valentin Matveev,Notre Dame,8,23,0.348,85,94,-9,Men,Epee,Non-Ivy
+19,FALSE,Thomas Whelan,Yale,8,23,0.348,81,91,-10,Men,Epee,Ivy
+20,FALSE,Daniil Mazur,St. John's,8,23,0.348,81,98,-17,Men,Epee,Non-Ivy
+21,FALSE,Wilson Zhu,M.I.T.,6,23,0.261,70,99,-29,Men,Epee,Non-Ivy
+22,FALSE,Jesse Ndjeka,Cleveland State,6,23,0.261,69,98,-29,Men,Epee,Non-Ivy
+23,FALSE,Jorge Gana,Johns Hopkins,6,23,0.261,63,94,-31,Men,Epee,Non-Ivy
+24,FALSE,Julian Spier,U.I.W.,6,23,0.261,61,105,-44,Men,Epee,Non-Ivy

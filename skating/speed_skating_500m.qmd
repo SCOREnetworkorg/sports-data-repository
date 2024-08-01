@@ -4,8 +4,8 @@ author: Gavin Cassidy
 date: June 13, 2024
 description: Race and Lap times from 500m short track speed skating athletes at European Championship, World Cup, World Championship and Olympic events.
 categories:
-  - Histograms
-  - Summary Statistics
+  - Histogram
+  - Summary statistics
   - Outliers
 ---
 

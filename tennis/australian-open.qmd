@@ -4,8 +4,8 @@ author: Trent Meyer, Robin Lock
 date: August 3, 2023
 description: Results from matches at the Men's Australian Open Tennis Tournament between 2008 and 2022.  
 categories:
-  - proportions
-  - two-way tables
+  - Proportions
+  - Two-way tables
 ---
 
 ## Motivation

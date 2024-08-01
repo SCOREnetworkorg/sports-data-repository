@@ -4,9 +4,9 @@ author: Sarah Weaver and Ivan Ramler
 date: May 23, 2023
 description: These data sets contain batting statistics for Division I softball in the 2021 and 2022 seasons.
 categories:
-  - merging
-  - joining
-  - data wrangling
+  - Merging
+  - Joining
+  - Data wrangling
 ---
 
 ## Motivation

@@ -1,0 +1,1213 @@
+---
+title: "erging_scraping"
+format: html
+---
+# Libraries
+
+```{r}
+library(tidyverse)
+library(rvest)
+```
+
+# Scraping
+
+The data is scraped from [Concept2's rankings page](https://log.concept2.com/rankings){target="_blank"}. Each category is selected manually. 
+
+# Women's 2k 2023
+
+Top 50 for women's 2k 2023
+
+```{r}
+urlw2k2023 <- "https://log.concept2.com/rankings/2023/rower/2000?gender=F"
+
+tabw2k2023 <- read_html(urlw2k2023) |> 
+  html_nodes("table")
+```
+
+```{r}
+w2k2023 <- tabw2k2023[[2]] |> html_table()
+w2k2023
+```
+
+# Cleaning
+
+```{r}
+w2k2023_df <- w2k2023 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Women") |> mutate(Year = 2023) |> mutate(Distance = 2000)
+```
+
+# Women's 6k 2023
+
+Top 50 for women's 6k 2023
+
+```{r}
+urlw6k2023 <- "https://log.concept2.com/rankings/2023/rower/6000?gender=F"
+
+tabw6k2023 <- read_html(urlw6k2023) |> 
+  html_nodes("table") 
+```
+
+```{r}
+w6k2023 <- tabw6k2023[[2]] |> html_table()
+w6k2023
+```
+
+# Cleaning
+
+```{r}
+w6k2023_df <- w6k2023 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Women") |> mutate(Year = 2023) |> mutate(Distance = 6000)
+```
+
+# Women's 10k 2023
+
+Top 50 for women's 10k 2023
+
+```{r}
+urlw10k2023 <- "https://log.concept2.com/rankings/2023/rower/10000?gender=F"
+
+tabw10k2023 <- read_html(urlw10k2023) |> 
+  html_nodes("table")
+```
+
+```{r}
+w10k2023 <- tabw10k2023[[2]] |> html_table()
+w10k2023
+```
+
+# Cleaning
+
+```{r}
+w10k2023_df <- w10k2023 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Women") |> mutate(Year = 2023) |> mutate(Distance = 10000)
+```
+
+# Men's 2k 2023
+
+Top 50 for men's 2k 2023
+
+```{r}
+urlm2k2023 <- "https://log.concept2.com/rankings/2023/rower/2000?gender=M"
+
+tabm2k2023 <- read_html(urlm2k2023) |> 
+  html_nodes("table") 
+```
+
+```{r}
+m2k2023 <- tabm2k2023[[2]] |> html_table()
+m2k2023
+```
+
+# Cleaning
+
+```{r}
+m2k2023_df <- m2k2023 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Men") |> mutate(Year = 2023) |> mutate(Distance = 2000)
+```
+
+# Men's 6k 2023
+
+Top 50 for Men's 6k 2023
+
+```{r}
+urlm6k2023 <- "https://log.concept2.com/rankings/2023/rower/6000?gender=M"
+
+tabm6k2023 <- read_html(urlm6k2023) |> 
+  html_nodes("table")
+```
+
+```{r}
+m6k2023 <- tabm6k2023[[2]] |> html_table()
+m6k2023
+```
+
+# Cleaning
+
+```{r}
+m6k2023_df <- m6k2023 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Men") |> mutate(Year = 2023) |> mutate(Distance = 6000)
+```
+
+# Men's 10k 2023
+
+Top 50 for Men's 10k 2023
+
+```{r}
+urlm10k2023 <- "https://log.concept2.com/rankings/2023/rower/10000?gender=M"
+
+tabm10k2023 <- read_html(urlm10k2023) |> 
+  html_nodes("table") 
+```
+
+```{r}
+m10k2023 <- tabm10k2023[[2]] |> html_table()
+m10k2023
+```
+
+# Cleaning
+
+```{r}
+m10k2023_df <- m10k2023 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Men") |> mutate(Year = 2023) |> mutate(Distance = 10000)
+```
+
+
+# Women's 2k 2022
+
+Top 50 for women's 2k 2022
+
+```{r}
+urlw2k2022 <- "https://log.concept2.com/rankings/2022/rower/2000?gender=F"
+
+tabw2k2022 <- read_html(urlw2k2022) |> 
+  html_nodes("table")
+```
+
+```{r}
+w2k2022 <- tabw2k2022[[2]] |> html_table()
+w2k2022
+```
+
+# Cleaning
+
+```{r}
+w2k2022_df <- w2k2022 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Women") |> mutate(Year = 2022) |> mutate(Distance = 2000)
+```
+
+# Women's 6k 2022
+
+Top 50 for women's 6k 2022
+
+```{r}
+urlw6k2022 <- "https://log.concept2.com/rankings/2022/rower/6000?gender=F"
+
+tabw6k2022 <- read_html(urlw6k2022) |> 
+  html_nodes("table") 
+```
+
+```{r}
+w6k2022 <- tabw6k2022[[2]] |> html_table()
+w6k2022
+```
+
+# Cleaning
+
+```{r}
+w6k2022_df <- w6k2022 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Women") |> mutate(Year = 2022) |> mutate(Distance = 6000)
+```
+
+# Women's 10k 2022
+
+Top 50 for women's 10k 2022
+
+```{r}
+urlw10k2022 <- "https://log.concept2.com/rankings/2022/rower/10000?gender=F"
+
+tabw10k2022 <- read_html(urlw10k2022) |> 
+  html_nodes("table")
+```
+
+```{r}
+w10k2022 <- tabw10k2022[[2]] |> html_table()
+w10k2022
+```
+
+# Cleaning
+
+```{r}
+w10k2022_df <- w10k2022 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Women") |> mutate(Year = 2022) |> mutate(Distance = 10000)
+```
+
+# Men's 2k 2022
+
+Top 50 for men's 2k 2022
+
+```{r}
+urlm2k2022 <- "https://log.concept2.com/rankings/2022/rower/2000?gender=M"
+
+tabm2k2022 <- read_html(urlm2k2022) |> 
+  html_nodes("table") 
+```
+
+```{r}
+m2k2022 <- tabm2k2022[[2]] |> html_table()
+m2k2022
+```
+
+# Cleaning
+
+```{r}
+m2k2022_df <- m2k2022 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Men") |> mutate(Year = 2022) |> mutate(Distance = 2000)
+```
+
+# Men's 6k 2022
+
+Top 50 for Men's 6k 2022
+
+```{r}
+urlm6k2022 <- "https://log.concept2.com/rankings/2022/rower/6000?gender=M"
+
+tabm6k2022 <- read_html(urlm6k2022) |> 
+  html_nodes("table")
+```
+
+```{r}
+m6k2022 <- tabm6k2022[[2]] |> html_table()
+m6k2022
+```
+
+# Cleaning
+
+```{r}
+m6k2022_df <- m6k2022 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Men") |> mutate(Year = 2022) |> mutate(Distance = 6000)
+```
+
+# Men's 10k 2022
+
+Top 50 for Men's 10k 2022
+
+```{r}
+urlm10k2022 <- "https://log.concept2.com/rankings/2022/rower/10000?gender=M"
+
+tabm10k2022 <- read_html(urlm10k2022) |> 
+  html_nodes("table") 
+```
+
+```{r}
+m10k2022 <- tabm10k2022[[2]] |> html_table()
+m10k2022
+```
+
+# Cleaning
+
+```{r}
+m10k2022_df <- m10k2022 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Men") |> mutate(Year = 2022) |> mutate(Distance = 10000)
+```
+
+# Women's 2k 2021
+
+Top 50 for women's 2k 2021
+
+```{r}
+urlw2k2021 <- "https://log.concept2.com/rankings/2021/rower/2000?gender=F"
+
+tabw2k2021 <- read_html(urlw2k2021) |> 
+  html_nodes("table")
+```
+
+```{r}
+w2k2021 <- tabw2k2021[[2]] |> html_table()
+w2k2021
+```
+
+# Cleaning
+
+```{r}
+w2k2021_df <- w2k2021 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Women") |> mutate(Year = 2021) |> mutate(Distance = 2000)
+```
+
+# Women's 6k 2021
+
+Top 50 for women's 6k 2021
+
+```{r}
+urlw6k2021 <- "https://log.concept2.com/rankings/2021/rower/6000?gender=F"
+
+tabw6k2021 <- read_html(urlw6k2021) |> 
+  html_nodes("table") 
+```
+
+```{r}
+w6k2021 <- tabw6k2021[[2]] |> html_table()
+w6k2021
+```
+
+# Cleaning
+
+```{r}
+w6k2021_df <- w6k2021 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Women") |> mutate(Year = 2021) |> mutate(Distance = 6000)
+```
+
+# Women's 10k 2021
+
+Top 50 for women's 10k 2021
+
+```{r}
+urlw10k2021 <- "https://log.concept2.com/rankings/2021/rower/10000?gender=F"
+
+tabw10k2021 <- read_html(urlw10k2021) |> 
+  html_nodes("table")
+```
+
+```{r}
+w10k2021 <- tabw10k2021[[2]] |> html_table()
+w10k2021
+```
+
+# Cleaning
+
+```{r}
+w10k2021_df <- w10k2021 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Women") |> mutate(Year = 2021) |> mutate(Distance = 10000)
+```
+
+# Men's 2k 2021
+
+Top 50 for men's 2k 2021
+
+```{r}
+urlm2k2021 <- "https://log.concept2.com/rankings/2021/rower/2000?gender=M"
+
+tabm2k2021 <- read_html(urlm2k2021) |> 
+  html_nodes("table") 
+```
+
+```{r}
+m2k2021 <- tabm2k2021[[2]] |> html_table()
+m2k2021
+```
+
+# Cleaning
+
+```{r}
+m2k2021_df <- m2k2021 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Men") |> mutate(Year = 2021) |> mutate(Distance = 2000)
+```
+
+# Men's 6k 2021
+
+Top 50 for Men's 6k 2021
+
+```{r}
+urlm6k2021 <- "https://log.concept2.com/rankings/2021/rower/6000?gender=M"
+
+tabm6k2021 <- read_html(urlm6k2021) |> 
+  html_nodes("table")
+```
+
+```{r}
+m6k2021 <- tabm6k2021[[2]] |> html_table()
+m6k2021
+```
+
+# Cleaning
+
+```{r}
+m6k2021_df <- m6k2021 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Men") |> mutate(Year = 2021) |> mutate(Distance = 6000)
+```
+
+# Men's 10k 2021
+
+Top 50 for Men's 10k 2021
+
+```{r}
+urlm10k2021 <- "https://log.concept2.com/rankings/2021/rower/10000?gender=M"
+
+tabm10k2021 <- read_html(urlm10k2021) |> 
+  html_nodes("table") 
+```
+
+```{r}
+m10k2021 <- tabm10k2021[[2]] |> html_table()
+m10k2021
+```
+
+# Cleaning
+
+```{r}
+m10k2021_df <- m10k2021 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Men") |> mutate(Year = 2021) |> mutate(Distance = 10000)
+```
+
+# Women's 2k 2020
+
+Top 50 for women's 2k 2020
+
+```{r}
+urlw2k2020 <- "https://log.concept2.com/rankings/2020/rower/2000?gender=F"
+
+tabw2k2020 <- read_html(urlw2k2020) |> 
+  html_nodes("table")
+```
+
+```{r}
+w2k2020 <- tabw2k2020[[2]] |> html_table()
+w2k2020
+```
+
+# Cleaning
+
+```{r}
+w2k2020_df <- w2k2020 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Women") |> mutate(Year = 2020) |> mutate(Distance = 2000)
+```
+
+# Women's 6k 2020
+
+Top 50 for women's 6k 2020
+
+```{r}
+urlw6k2020 <- "https://log.concept2.com/rankings/2020/rower/6000?gender=F"
+
+tabw6k2020 <- read_html(urlw6k2020) |> 
+  html_nodes("table") 
+```
+
+```{r}
+w6k2020 <- tabw6k2020[[2]] |> html_table()
+w6k2020
+```
+
+# Cleaning
+
+```{r}
+w6k2020_df <- w6k2020 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Women") |> mutate(Year = 2020) |> mutate(Distance = 6000)
+```
+
+# Women's 10k 2020
+
+Top 50 for women's 10k 2020
+
+```{r}
+urlw10k2020 <- "https://log.concept2.com/rankings/2020/rower/10000?gender=F"
+
+tabw10k2020 <- read_html(urlw10k2020) |> 
+  html_nodes("table")
+```
+
+```{r}
+w10k2020 <- tabw10k2020[[2]] |> html_table()
+w10k2020
+```
+
+# Cleaning
+
+```{r}
+w10k2020_df <- w10k2020 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Women") |> mutate(Year = 2020) |> mutate(Distance = 10000)
+```
+
+# Men's 2k 2020
+
+Top 50 for men's 2k 2020
+
+```{r}
+urlm2k2020 <- "https://log.concept2.com/rankings/2020/rower/2000?gender=M"
+
+tabm2k2020 <- read_html(urlm2k2020) |> 
+  html_nodes("table") 
+```
+
+```{r}
+m2k2020 <- tabm2k2020[[2]] |> html_table()
+m2k2020
+```
+
+# Cleaning
+
+```{r}
+m2k2020_df <- m2k2020 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Men") |> mutate(Year = 2020) |> mutate(Distance = 2000)
+```
+
+# Men's 6k 2020
+
+Top 50 for Men's 6k 2020
+
+```{r}
+urlm6k2020 <- "https://log.concept2.com/rankings/2020/rower/6000?gender=M"
+
+tabm6k2020 <- read_html(urlm6k2020) |> 
+  html_nodes("table")
+```
+
+```{r}
+m6k2020 <- tabm6k2020[[2]] |> html_table()
+m6k2020
+```
+
+# Cleaning
+
+```{r}
+m6k2020_df <- m6k2020 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Men") |> mutate(Year = 2020) |> mutate(Distance = 6000)
+```
+
+# Men's 10k 2020
+
+Top 50 for Men's 10k 2020
+
+```{r}
+urlm10k2020 <- "https://log.concept2.com/rankings/2020/rower/10000?gender=M"
+
+tabm10k2020 <- read_html(urlm10k2020) |> 
+  html_nodes("table") 
+```
+
+```{r}
+m10k2020 <- tabm10k2020[[2]] |> html_table()
+m10k2020
+```
+
+# Cleaning
+
+```{r}
+m10k2020_df <- m10k2020 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Men") |> mutate(Year = 2020) |> mutate(Distance = 10000)
+```
+
+# Women's 2k 2019
+
+Top 50 for women's 2k 2019
+
+```{r}
+urlw2k2019 <- "https://log.concept2.com/rankings/2019/rower/2000?gender=F"
+
+tabw2k2019 <- read_html(urlw2k2019) |> 
+  html_nodes("table")
+```
+
+```{r}
+w2k2019 <- tabw2k2019[[2]] |> html_table()
+w2k2019
+```
+
+# Cleaning
+
+```{r}
+w2k2019_df <- w2k2019 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Women") |> mutate(Year = 2019) |> mutate(Distance = 2000)
+```
+
+# Women's 6k 2019
+
+Top 50 for women's 6k 2019
+
+```{r}
+urlw6k2019 <- "https://log.concept2.com/rankings/2019/rower/6000?gender=F"
+
+tabw6k2019 <- read_html(urlw6k2019) |> 
+  html_nodes("table") 
+```
+
+```{r}
+w6k2019 <- tabw6k2019[[2]] |> html_table()
+w6k2019
+```
+
+# Cleaning
+
+```{r}
+w6k2019_df <- w6k2019 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Women") |> mutate(Year = 2019) |> mutate(Distance = 6000)
+```
+
+# Women's 10k 2019
+
+Top 50 for women's 10k 2019
+
+```{r}
+urlw10k2019 <- "https://log.concept2.com/rankings/2019/rower/10000?gender=F"
+
+tabw10k2019 <- read_html(urlw10k2019) |> 
+  html_nodes("table")
+```
+
+```{r}
+w10k2019 <- tabw10k2019[[2]] |> html_table()
+w10k2019
+```
+
+# Cleaning
+
+```{r}
+w10k2019_df <- w10k2019 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Women") |> mutate(Year = 2019) |> mutate(Distance = 10000)
+```
+
+# Men's 2k 2019
+
+Top 50 for men's 2k 2019
+
+```{r}
+urlm2k2019 <- "https://log.concept2.com/rankings/2019/rower/2000?gender=M"
+
+tabm2k2019 <- read_html(urlm2k2019) |> 
+  html_nodes("table") 
+```
+
+```{r}
+m2k2019 <- tabm2k2019[[2]] |> html_table()
+m2k2019
+```
+
+# Cleaning
+
+```{r}
+m2k2019_df <- m2k2019 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Men") |> mutate(Year = 2019) |> mutate(Distance = 2000)
+```
+
+# Men's 6k 2019
+
+Top 50 for Men's 6k 2019
+
+```{r}
+urlm6k2019 <- "https://log.concept2.com/rankings/2019/rower/6000?gender=M"
+
+tabm6k2019 <- read_html(urlm6k2019) |> 
+  html_nodes("table")
+```
+
+```{r}
+m6k2019 <- tabm6k2019[[2]] |> html_table()
+m6k2019
+```
+
+# Cleaning
+
+```{r}
+m6k2019_df <- m6k2019 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Men") |> mutate(Year = 2019) |> mutate(Distance = 6000)
+```
+
+# Men's 10k 2019
+
+Top 50 for Men's 10k 2019
+
+```{r}
+urlm10k2019 <- "https://log.concept2.com/rankings/2019/rower/10000?gender=M"
+
+tabm10k2019 <- read_html(urlm10k2019) |> 
+  html_nodes("table") 
+```
+
+```{r}
+m10k2019 <- tabm10k2019[[2]] |> html_table()
+m10k2019
+```
+
+# Cleaning
+
+```{r}
+m10k2019_df <- m10k2019 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Men") |> mutate(Year = 2019) |> mutate(Distance = 10000)
+```
+
+# Women's 2k 2018
+
+Top 50 for women's 2k 2018
+
+```{r}
+urlw2k2018 <- "https://log.concept2.com/rankings/2018/rower/2000?gender=F"
+
+tabw2k2018 <- read_html(urlw2k2018) |> 
+  html_nodes("table")
+```
+
+```{r}
+w2k2018 <- tabw2k2018[[2]] |> html_table()
+w2k2018
+```
+
+# Cleaning
+
+```{r}
+w2k2018_df <- w2k2018 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Women") |> mutate(Year = 2018) |> mutate(Distance = 2000)
+```
+
+# Women's 6k 2018
+
+Top 50 for women's 6k 2018
+
+```{r}
+urlw6k2018 <- "https://log.concept2.com/rankings/2018/rower/6000?gender=F"
+
+tabw6k2018 <- read_html(urlw6k2018) |> 
+  html_nodes("table") 
+```
+
+```{r}
+w6k2018 <- tabw6k2018[[2]] |> html_table()
+w6k2018
+```
+
+# Cleaning
+
+```{r}
+w6k2018_df <- w6k2018 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Women") |> mutate(Year = 2018) |> mutate(Distance = 6000)
+```
+
+# Women's 10k 2018
+
+Top 50 for women's 10k 2018
+
+```{r}
+urlw10k2018 <- "https://log.concept2.com/rankings/2018/rower/10000?gender=F"
+
+tabw10k2018 <- read_html(urlw10k2018) |> 
+  html_nodes("table")
+```
+
+```{r}
+w10k2018 <- tabw10k2018[[2]] |> html_table()
+w10k2018
+```
+
+# Cleaning
+
+```{r}
+w10k2018_df <- w10k2018 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Women") |> mutate(Year = 2018) |> mutate(Distance = 10000)
+```
+
+# Men's 2k 2018
+
+Top 50 for men's 2k 2018
+
+```{r}
+urlm2k2018 <- "https://log.concept2.com/rankings/2018/rower/2000?gender=M"
+
+tabm2k2018 <- read_html(urlm2k2018) |> 
+  html_nodes("table") 
+```
+
+```{r}
+m2k2018 <- tabm2k2018[[2]] |> html_table()
+m2k2018
+```
+
+# Cleaning
+
+```{r}
+m2k2018_df <- m2k2018 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Men") |> mutate(Year = 2018) |> mutate(Distance = 2000)
+```
+
+# Men's 6k 2018
+
+Top 50 for Men's 6k 2018
+
+```{r}
+urlm6k2018 <- "https://log.concept2.com/rankings/2018/rower/6000?gender=M"
+
+tabm6k2018 <- read_html(urlm6k2018) |> 
+  html_nodes("table")
+```
+
+```{r}
+m6k2018 <- tabm6k2018[[2]] |> html_table()
+m6k2018
+```
+
+# Cleaning
+
+```{r}
+m6k2018_df <- m6k2018 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Men") |> mutate(Year = 2018) |> mutate(Distance = 6000)
+```
+
+# Men's 10k 2018
+
+Top 50 for Men's 10k 2018
+
+```{r}
+urlm10k2018 <- "https://log.concept2.com/rankings/2018/rower/10000?gender=M"
+
+tabm10k2018 <- read_html(urlm10k2018) |> 
+  html_nodes("table") 
+```
+
+```{r}
+m10k2018 <- tabm10k2018[[2]] |> html_table()
+m10k2018
+```
+
+# Cleaning
+
+```{r}
+m10k2018_df <- m10k2018 |> separate(Time, into = c("Minutes", "Seconds"), sep = ":") |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Seconds = Seconds/60) |> 
+  mutate(Time = Minutes + Seconds) |> 
+  mutate(Verified = as.factor(Verified)) |> 
+  select(!c(Minutes, Seconds)) |> 
+  mutate(Gender = "Men") |> mutate(Year = 2018) |> mutate(Distance = 10000)
+```
+
+# Joining
+
+# Women 2023
+
+```{r}
+w2_6k23 <- full_join(w2k2023_df, w6k2023_df)
+w23 <- full_join(w2_6k23, w10k2023_df)
+```
+
+# Women 2022
+
+```{r}
+w2_6k22 <- full_join(w2k2022_df, w6k2022_df)
+w22 <- full_join(w2_6k22, w10k2022_df)
+```
+
+# Women 2021
+
+```{r}
+w2_6k21 <- full_join(w2k2021_df, w6k2021_df)
+w21 <- full_join(w2_6k21, w10k2021_df)
+```
+
+# Women 2020
+
+```{r}
+w2_6k20 <- full_join(w2k2020_df, w6k2020_df)
+w20 <- full_join(w2_6k20, w10k2020_df)
+```
+
+# Women 2019
+
+```{r}
+w2_6k19 <- full_join(w2k2019_df, w6k2019_df)
+w19 <- full_join(w2_6k19, w10k2019_df)
+```
+
+# Women 2018
+
+```{r}
+w2_6k18 <- full_join(w2k2018_df, w6k2018_df)
+w18 <- full_join(w2_6k18, w10k2018_df)
+```
+
+# Women
+
+```{r}
+w23_22 <- full_join(w23, w22)
+w21_20 <- full_join(w21, w20)
+w19_18 <- full_join(w19, w18)
+
+w23_20 <- full_join(w23_22, w21_20)
+
+women <- full_join(w23_20, w19_18)
+```
+
+# Men 2023
+
+```{r}
+m2_6k23 <- full_join(m2k2023_df, m6k2023_df)
+m23 <- full_join(m2_6k23, m10k2023_df)
+```
+
+# Men 2022
+
+```{r}
+m2_6k22 <- full_join(m2k2022_df, m6k2022_df)
+m22 <- full_join(m2_6k22, m10k2022_df)
+```
+
+# Men 2021
+
+```{r}
+m2_6k21 <- full_join(m2k2021_df, m6k2021_df)
+m21 <- full_join(m2_6k21, m10k2021_df)
+```
+
+# Men 2020
+
+```{r}
+m2_6k20 <- full_join(m2k2020_df, m6k2020_df)
+m20 <- full_join(m2_6k20, m10k2020_df)
+```
+
+# Men 2019
+
+```{r}
+m2_6k19 <- full_join(m2k2019_df, m6k2019_df)
+m19 <- full_join(m2_6k19, m10k2019_df)
+```
+
+# Men 2018
+
+```{r}
+m2_6k18 <- full_join(m2k2018_df, m6k2018_df)
+m18 <- full_join(m2_6k18, m10k2018_df)
+```
+
+# Men
+
+```{r}
+m23_22 <- full_join(m23, m22)
+m21_20 <- full_join(m21, m20)
+m19_18 <- full_join(m19, m18)
+
+m23_20 <- full_join(m23_22, m21_20)
+
+men <- full_join(m23_20, m19_18)
+```
+
+# Complete Join
+
+```{r}
+erging <- full_join(women, men)
+```
+
+# Cleaning
+
+```{r}
+erging_df <- erging |> 
+  mutate(Year = as.factor(Year)) |> 
+  mutate(Speed = Distance/Time) |> 
+  mutate(Split =  500 * (Time/Distance)) |> 
+  separate(Split, into = c("Minutes", "Seconds"), sep = 1) |> 
+  mutate(Seconds = as.double(Seconds)) |> 
+  mutate(Minutes = as.integer(Minutes)) |> 
+  mutate(Split = Seconds + Minutes) |> 
+  rename(Pos = Pos.) |> 
+  rename(Affiliation = `Club/Affiliation`) |> 
+  mutate(Gender = as.factor(Gender)) |> 
+  select(!c(Minutes, Seconds)) |>
+  mutate(Distance = as.factor(Distance)) |>
+  mutate(Location = if_else(Location == "", true = "None Listed", false = Location)) |>
+  mutate(Affiliation = if_else(Affiliation == "", true = "None Listed", false = Affiliation)) |>
+  mutate(Verified = if_else(Verified == "Race", true = "Yes", false = Verified)) |>
+  mutate(Age_Group = case_when(Age > 0 & Age <=12 ~ "0-12", 
+                               Age >= 13 & Age <= 18 ~ "13-18", 
+                               Age >= 19 & Age <= 29 ~ "19-29", 
+                               Age >= 30 & Age <= 39 ~ "30-39", 
+                               Age >= 40 & Age <= 49 ~ "40-49", 
+                               Age >= 50 & Age <= 54 ~ "50-54", 
+                               Age >= 55 & Age <= 59 ~ "55-59", 
+                               Age >= 60 & Age <= 64 ~ "60-64", 
+                               Age >= 65 & Age <= 69 ~ "65-69"))
+```
+
+# Write CSV
+
+```{r}
+write_csv(erging_df, "erg.csv")
+```
+
+

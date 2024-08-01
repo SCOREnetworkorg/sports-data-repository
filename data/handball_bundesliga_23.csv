@@ -1,0 +1,310 @@
+NAME,CLUB,POSITION,total_offense,total_penalties,GP,HPI
+"Mortensen, Casper Ulrich",HSV,LW,521,26,28,77
+"Knorr, Juri",RNL,CB,563,85,29,71
+"Steinert, Christoph",HCE,RB,463,39,30,72
+"Blohme, Lukas",GUM,RW,424,27,30,74
+"Smits, Kay",SCM,RB,441,34,30,74
+"Jakobsen, Emil",SGF,LW,380,18,30,74
+"Kristjansson, Gisli Thorgeir",SCM,CB,456,72,29,74
+"Rubin, Lenny",WET,LB,460,64,30,70
+"Kristjánsson, Viggó",LEI,RB,421,70,23,70
+"Lindberg, Hans",BER,RW,313,10,24,76
+"Schiller, Marcel",FAG,LW,330,6,23,76
+"Zehnder, Samuel",TBV,LW,314,8,23,76
+"Golla, Johannes",SGF,PV,330,36,29,79
+"Köster, Julian",GUM,LB,490,97,30,71
+"Versteijnen, Niels Gerardus",TBV,RB,414,70,30,69
+"Holm, Jacob",BER,CB,391,43,30,70
+"Ekberg, Niclas",THW,RW,287,9,27,74
+"Huesmann, Fabian",ASV,LW,305,21,28,70
+"Groetzki, Patrick",RNL,RW,303,20,28,75
+"Mappes, Dominik",GUM,CB,376,29,20,72
+"Arnesson, Linus",BHC,CB,403,61,26,72
+"Lassen, Jacob Arenth",HSV,RB,422,64,23,71
+"Andersen, Frederik Bo",HSV,RW,272,12,28,75
+"Pfattheicher, Sascha",STU,RW,281,19,29,71
+"Baijens, Dani",HSV,CB,390,76,29,66
+"Gidsel, Mathias",BER,RB,357,43,23,75
+"Ahouansou, Philipp",RNL,LB,359,48,28,69
+"Hutecek, Lukas",TBV,LB,403,61,30,72
+"Darmoul, Mohamed Amine",GWD,CB,303,43,22,70
+"Sarac, Josip",FAG,LB,347,50,30,70
+"Lönn, Adam",STU,LB,369,80,30,68
+"Gerbl, Maximilian",HAN,RW,265,13,30,73
+"Ladefoged, Frederik",BHC,PV,267,68,30,73
+"Beyer, Noah",BHC,LW,259,18,27,72
+"Zerbe, Lukas",TBV,RW,256,16,29,74
+"Vidarsson, Ellidi Snaer",GUM,PV,281,51,30,75
+"Kohlbacher, Jannik",RNL,PV,267,45,27,76
+"Magnusson, Omar Ingi",SCM,RB,307,34,15,75
+"Gensheimer, Uwe",RNL,LW,266,12,19,72
+"Marsenic, Mijajlo",BER,PV,250,49,29,76
+"Savvas, Savvas",ASV,LB,345,52,30,68
+"Häfner, Kai",MTM,RB,309,41,26,71
+"Korte, Mats",GWD,LW,252,9,30,73
+"Bilyk, Nikola",THW,LB,296,29,28,71
+"Wiesmach, Patrick",LEI,RW,256,22,29,71
+"Casado Marcelo, Agustin",MTM,CB,392,84,28,68
+"Hansen, Johan",SGF,RW,254,10,28,70
+"Steinhauser, Marius",HAN,RW,224,14,25,73
+"Hanusz, Egon",STU,CB,293,55,30,68
+"Hornke, Tim",SCM,RW,224,14,28,73
+"Reinkind, Harald",THW,RB,346,40,29,71
+"Schmidt, David",FAG,RB,281,39,29,69
+"Suton, Tim",TBV,CB,304,49,29,69
+"Von Boenigk, Jan",ASV,RB,318,69,28,67
+"Jeppsson, Simon",HCE,LB,352,63,29,68
+"Ivic, Sime",LEI,RB,305,51,29,68
+"Andersson, Lasse Bredekjaer",BER,LB,327,40,24,72
+"Stutzke, Lukas",BHC,LB,294,50,24,68
+"Novak, Domen",WET,RW,227,18,27,71
+"Johansson, Eric",THW,LB,290,37,23,72
+"Büdel, Nico",HCE,CB,300,74,30,69
+"Bissel, Christopher",HCE,LW,263,41,29,71
+"Fernandez Jimenez, Daniel",STU,LW,215,11,28,72
+"Brozovic, Ilija",HAN,PV,213,30,30,74
+"Rød, Magnus Abelvik",SGF,RB,296,44,27,71
+"Witzke, Luca",LEI,CB,319,44,23,70
+"Vujovic, Branko",HAN,RB,311,48,27,69
+"Zechel, Tim",HCE,PV,210,39,29,75
+"Urban, Tomas",GWD,RW,276,35,29,68
+"Babak, Tomas",BHC,CB,283,54,27,69
+"Kulesh, Uladzislau",HAN,LB,283,37,27,68
+"Damgaard, Michael",SCM,LB,245,13,30,72
+"Olsson, Hampus",HCE,RW,199,13,24,73
+"Kirkelokke, Niclas",RNL,RB,269,41,28,70
+"Wiencek, Patrick",THW,PV,200,39,29,73
+"Orlowski, Marian",ASV,LB,271,46,28,67
+"Weller, Niklas",HSV,PV,203,49,28,73
+"Mensing, Hans Aaron",SGF,LB,253,14,23,74
+"Lagergren, Albin",RNL,RB,296,32,28,70
+"Wiede, Fabian",BER,RB,274,58,28,69
+"Kneule, Tim",FAG,CB,257,61,30,65
+"Binder, Lukas",LEI,LW,199,13,29,71
+"Klima, Matej",LEI,LB,241,45,22,69
+"Gomes, André",MTM,LB,239,26,29,68
+"Saugstrup, Magnus",SCM,PV,184,26,16,79
+"Lindenchrone Andersen, Jon",FAG,RB,248,65,30,66
+"Bornemann, Andreas",ASV,RB,249,43,30,67
+"Vujovic, Milos",BER,LW,174,11,30,72
+"Jansen, Tom",GUM,RB,301,46,29,69
+"Axmann, Dominik",HSV,LB,254,48,29,69
+"Gulliksen, Kevin Maageroe",FAG,RW,189,7,23,70
+"Pieczkowski, Niclas",GWD,CB,274,74,26,64
+"Guardiola, Gedeon",TBV,PV,191,23,29,74
+"Jonsson, Elvar Örn",MTM,CB,244,36,23,70
+"Firnhaber, Sebastian",HCE,PV,188,43,30,73
+"Freihöfer, Tim",BER,LW,175,1,29,72
+"Søgard Johannessen, Gøran",SGF,LB,223,47,30,69
+"Drux, Paul",BER,LB,218,36,26,70
+"Larsen, Mads Mensah",SGF,CB,262,52,30,69
+"Heiny, Lutz",HCE,LB,229,36,30,68
+"Kjær Møller, Lasse",SGF,LB,218,25,29,70
+"Lærke, Emil Buhl",TBV,LB,250,34,29,67
+"Zieker, Patrick",STU,LW,164,15,29,69
+"Kozina, Kresimir",FAG,PV,167,57,30,72
+"Sagosen, Sander",THW,CB,209,20,16,73
+"Mertens, Lukas",SCM,LW,174,7,30,72
+"Kodrin, Tilen",GUM,LW,160,19,28,69
+"Wieling, Tim",ASV,RW,167,11,30,70
+"Uscins, Renars",HAN,RB,210,41,25,67
+"Häfner, Max",STU,CB,236,37,30,67
+"Sunnefeldt, Oskar",LEI,LB,210,41,22,69
+"Duvnjak, Domagoj",THW,CB,210,22,29,71
+"Weber, Philipp",SCM,CB,188,28,28,69
+"Forsell Schefvert, Olle",RNL,LB,201,48,27,71
+"Jaganjac, Halil",RNL,LB,173,26,13,72
+"Mellegard, Emil",WET,LW,167,17,29,68
+"Büchner, Vincent",HAN,LW,159,9,27,72
+"Arnarsson, Arnar Freyr",MTM,PV,135,34,29,73
+"Michalczik, Marian",HAN,LB,309,94,30,68
+"Styrmisson, Hakon Dadi",GUM,LW,152,8,27,69
+"Martinovic, Ivan",MTM,RB,179,12,15,69
+"Weber, Robert",BER,RW,132,2,11,76
+"Lipovina, Vladan",SCM,RB,219,27,31,68
+"Brosch, Jan",TBV,PV,141,41,29,71
+"Weissgerber, Lars",WET,RW,139,10,30,70
+"Ernst, Simon",LEI,CB,218,67,30,68
+"Schmidt, Erik",WET,PV,134,46,28,73
+"Valiullin, Azat",HSV,LB,191,42,29,67
+"Bitsch, Mathias",GWD,RB,231,34,28,65
+"Kastening, Timo",MTM,RW,134,5,11,73
+"Gebala, Maciej",LEI,PV,135,19,25,75
+"Ellebaek, Tobias",FAG,LB,219,38,26,67
+"Helander, Benjamin",RNL,LW,139,8,28,70
+"Mandic, David",MTM,LW,144,22,22,68
+"Forstbauer, Jan",STU,RB,196,53,30,65
+"Zintel, Björn",ASV,CB,178,36,16,68
+"Maric, Marino",STU,PV,132,36,30,71
+"Müller, Jerome",STU,RB,197,36,22,65
+"Sebetic, Luka",GWD,RB,170,47,21,65
+"Pregler, Ole",GUM,CB,194,42,30,67
+"Sellin, Johannes",HCE,RW,135,10,29,70
+"Persson, Isak",BHC,RW,124,7,28,69
+"Landin, Magnus",THW,LW,134,23,24,69
+"Cavor, Stefan",WET,RB,161,28,12,67
+"Malus, Jaka",FAG,CB,156,23,29,67
+"Nyfjäll, Adam",WET,PV,122,25,28,72
+"Gottfridsson, Jim",SGF,CB,175,30,18,73
+"Nilsson, Lukas",RNL,LB,145,24,20,68
+"Feise, Hannes",HAN,LW,139,24,30,68
+"Dayan, Yonatan",ASV,CB,157,37,30,67
+"Mävers, Veit",HAN,CB,149,27,27,67
+"Meister, Lucas",SCM,PV,113,26,30,71
+"Wagner, Hendrik",WET,LB,162,29,28,67
+"Zehnder, Manuel",HCE,CB,154,32,30,67
+"Schagen, Bobby",TBV,RW,122,13,30,70
+"Nikolaisen, Tom Kare",BHC,PV,116,40,28,72
+"Pevnov, Evgeni",HAN,PV,112,17,23,76
+"Weinhold, Steffen",THW,RB,145,23,15,70
+"M'Bengue, Djibril",BHC,RB,164,59,29,63
+"Hald Jensen, Simon",SGF,PV,112,31,28,75
+"Blagotinsek, Blaz",FAG,PV,107,46,28,73
+"Staar, Max",GWD,RW,152,24,27,69
+"Weck, Alexander",BHC,LB,179,28,29,67
+"Schelker, Jonas",WET,CB,151,47,29,65
+"Fischer, Justus",HAN,PV,109,19,25,74
+"Bergendahl, Oscar",STU,PV,101,34,23,71
+"Øverby, Petter",THW,PV,104,27,29,73
+"Pekeler, Hendrik",THW,PV,110,17,18,73
+"Ignatow, Dimitri",MTM,RW,108,7,28,70
+"Malasinskas, Aidenas",MTM,CB,151,38,29,66
+"Nikolic, Jovica",WET,RB,120,40,22,66
+"Zarabec, Miha",THW,CB,127,18,29,67
+"Horzen, Kristjan",RNL,PV,103,16,29,73
+"Schulze, Alexander",ASV,LW,117,17,30,68
+"Dahmke, Rune",THW,LW,96,9,27,69
+"Moraes Ferreira, Rogerio",MTM,PV,93,25,15,74
+"Pettersson, Daniel",SCM,RW,92,4,24,71
+"Gunnarsson, Arnor Thor",BHC,RW,91,7,29,69
+"O'Sullivan, Christian",SCM,CB,149,32,30,69
+"Fredriksen, Magnus",WET,CB,164,40,22,65
+"Bauer, Stefan",ASV,PV,115,47,26,70
+"Musche, Matthias",SCM,LW,98,10,26,70
+"Fraatz, Yannick",BHC,RW,94,4,30,71
+"Kalarash, Gleb",MTM,PV,93,40,29,71
+"Krzikalla, Lucas",LEI,RW,88,3,29,69
+"Metzner, Antonio",HCE,RB,120,39,20,66
+"Magaard, Andreas",HSV,PV,84,11,21,73
+"Schluroff, Miro",GUM,LB,125,24,26,67
+"Kranzmann, Florian",GWD,LW,89,5,23,70
+"Sliskovic, Ivan",STU,LB,123,26,21,66
+"Wallinius, Karl",THW,LB,120,12,21,69
+"Hermann, Till",FAG,LW,85,6,29,69
+"Semper, Franz",SGF,RB,105,14,27,68
+"Nothdurft, Tim",BHC,LW,80,4,16,72
+"Tissier, Leif",HSV,CB,123,20,15,69
+"Goller, Axel",FAG,RW,97,13,30,67
+"Darj, Max",BER,PV,90,35,30,70
+"Simak, Frederik",TBV,LB,108,25,25,69
+"Zeman, Stepan",GUM,PV,79,53,30,71
+"Edvardsson, Jonathan",HAN,CB,114,27,12,68
+"Nicolaus, Fynn-Luca",STU,PV,83,26,30,72
+"Serrano Villalobos, Jorge",STU,RW,86,6,30,69
+"Pretzewofsky, Jan",ASV,RW,88,5,29,69
+"Matthes, Tim",LEI,LW,78,11,30,69
+"Becher, Lukas",WET,LW,78,7,28,68
+"Schwarzer, Kian",TBV,LW,83,4,28,75
+"Pedersen, August Baskar",SGF,LW,72,1,30,71
+"Scholtes, Elias",RNL,CB,106,18,17,65
+"Einarsson, Teitur Örn",SGF,RB,108,15,28,67
+"Häseler, Mathis",GUM,RW,62,0,18,72
+"Gutbrod, Fabian",BHC,LB,90,15,21,67
+"Kuzmanovski, Filip",HAN,LB,90,29,24,65
+"Lichtlein, Nils",BER,RB,70,16,29,67
+"Bergemann, Thies",HSV,RW,53,3,26,70
+"Schroven, Finn",GUM,RW,108,20,26,68
+"Patrail, Mait",ASV,LB,90,19,29,68
+"Kühn, Julius",MTM,LB,90,20,16,65
+"Johannsson, Sveinn",GWD,PV,61,26,12,72
+"Preuss, Moritz",LEI,PV,53,5,12,72
+"Holpert, Magnus",GWD,CB,64,21,21,64
+"Theilinger, Nicolai",HSV,RB,82,31,29,64
+"Fuchs, Julian",MTM,RW,49,1,21,71
+"Meschke, Benjamin",ASV,PV,42,21,19,71
+"Bezjak, Marko",SCM,CB,78,24,29,68
+"Richtzenhain, Justus Nicolas",GWD,PV,42,26,12,69
+"Gislason, Ymir Örn",RNL,PV,48,24,29,72
+"Pehlivan, Doruk",GWD,LB,56,10,15,68
+"Hakaj, Besard",GWD,PV,43,25,11,70
+"Guardiola, Isaias",TBV,RB,74,19,23,65
+"Fäth, Steffen",HCE,LB,54,13,16,66
+"Brito Duarte, Gilberto",FAG,LB,72,22,25,67
+"Stüber, Jonas",GUM,PV,33,4,25,73
+"Cepic, Radojica",WET,CB,49,12,19,67
+"Schönningsen, Simen",BHC,RB,49,11,13,67
+"Bialowas, Yannik",HCE,LW,34,3,30,68
+"Drosten, Florian",MTM,LW,36,3,27,68
+"Röthlisberger, Samuel",STU,PV,40,22,30,72
+"Janke, Maximilian",GWD,CB,59,22,26,66
+"Kopljar, Marko",BER,RB,54,27,30,66
+"Mamic, Marko",LEI,LB,47,22,12,66
+"Stoyke, Timo",GWD,PV,24,11,15,71
+"Kurch, Justin",HCE,PV,15,3,18,72
+"Kiesler, Tom",GUM,LB,34,25,30,66
+"Sajenev, Mika Laurin",LEI,PV,18,4,28,72
+"Schöttle, Nico",STU,LB,33,7,15,65
+"Link, Nikolai",HCE,LB,27,21,29,67
+"Schimmelbauer, Tobias",HSV,LW,19,19,27,67
+"Lindskog, Anton",SGF,PV,20,12,22,72
+"Michalski, Niklas",RNL,RW,17,0,24,69
+"Schmitz, Tobias",BHC,LW,15,2,14,68
+"Bergner, Tom",BHC,PV,16,3,15,71
+"Blaauw, Niko",TBV,CB,20,9,30,66
+"Chrintz, Valter",BER,RW,15,0,11,65
+"Pliuto, Nikita",WET,PV,8,0,10,77
+"Timmermeister, Robert",RNL,LB,14,9,20,66
+"Bozic, Vladimir",ASV,GK,16,1,30,66
+"Portner, Nikola",SCM,GK,17,5,30,66
+"Beekmann, Ben",MTM,LW,13,2,17,67
+"Feit, Thore",HSV,PV,6,1,17,74
+"Heitkamp, Niclas",LEI,CB,11,1,14,68
+"Vortmann, Jens",HSV,GK,5,0,10,70
+"Mrkva, Tomas",THW,GK,6,0,29,66
+"Rudeck, Christopher",BHC,GK,15,4,29,69
+"Sego, Marin",FAG,GK,7,1,30,65
+"Ossenkopp, Lukas",HSV,LB,5,1,12,66
+"Ebner, Domenico",HAN,GK,10,3,30,69
+"Buric, Benjamin",SGF,GK,12,5,30,71
+"Ferlin, Klemen",HCE,GK,10,3,30,67
+"Vujovic, Miljan",STU,GK,14,0,29,69
+"Ivanisevic, Tibor",GUM,GK,9,3,30,68
+"Jensen, Mike",SCM,GK,8,2,28,66
+"Langhoff, Matthes",BER,LB,12,1,17,66
+"Seitz, Stephan",HCE,RB,8,4,11,64
+"Späth, David",RNL,GK,4,2,20,68
+"Hein, Paul Lukas",GWD,CB,7,0,11,67
+"Schwormstede, Luca Alexander",THW,LB,5,0,13,68
+"Heinevetter, Silvio",STU,GK,13,8,29,69
+"Bitter, Johannes",HSV,GK,8,4,26,67
+"Appelgren, Mikael",RNL,GK,13,7,24,70
+"Landin, Niklas",THW,GK,10,2,29,74
+"Møller, Kevin",SGF,GK,10,0,27,71
+"Simic, Nebojsa",MTM,GK,8,3,29,73
+"Johannesson, Peter",BHC,GK,7,0,30,66
+"Milosavljev, Dejan",BER,GK,12,6,25,68
+"Suljakovic, Anadin",WET,GK,3,0,30,65
+"Budalic, Ivan",HSV,GK,3,0,18,64
+"Kirschberger, Leon",SGF,RW,3,0,15,67
+"Laube, Lukas",STU,PV,4,6,11,70
+"Ayar, Koray",HAN,PV,2,0,16,73
+"Pabst, Henri",THW,RB,9,0,12,66
+"Quenstedt, Dario",HAN,GK,5,1,28,65
+"Semisch, Malte",GWD,GK,15,8,30,67
+"Szücs, Csaba",BHC,CB,4,2,13,67
+"Rebmann, Daniel",FAG,GK,5,2,30,67
+"Fuchs, Markus",ASV,LB,3,16,25,66
+"Hertlein, Felix",ASV,GK,3,2,29,64
+"Birlehm, Joel",RNL,GK,6,1,27,68
+"Klimpke, Till",WET,GK,2,2,29,68
+"Zecher, Finn",TBV,GK,1,0,30,65
+"Chrapkowski, Piotr",SCM,LB,9,12,30,68
+"Kastelic, Urh",TBV,GK,2,2,19,66
+"Kireev, Victor",BER,GK,1,1,27,67
+"Morawski, Adam",MTM,GK,1,0,29,68
+"Sæverås, Kristian",LEI,GK,13,4,30,68
+"Shamir, Yahav",GWD,GK,3,0,29,64
+"Norsten, Fabian",GUM,GK,1,2,30,64
+"Obling, Bertram",HCE,GK,4,2,29,66
+"Houtepen, Thomas",TBV,CB,0,1,11,64
+"El-Tayar, Mohamed Essam Moustafa",LEI,GK,2,2,27,65

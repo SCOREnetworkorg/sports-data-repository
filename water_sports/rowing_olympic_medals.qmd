@@ -4,10 +4,10 @@ author: Abigail Smith
 date: June 5, 2024
 description: The total number of medals and the weighted points for nations competing in rowing events in the Summer Olympic Games between 1900 and 2022. 
 categories:
-  - distribution and skewness
-  - outlier detection
-  - summary statistics
-  - confounding variable
+  - Distribution description
+  - Outliers
+  - Summary statistics
+  - Confounding variables
   
 editor: 
   markdown: 

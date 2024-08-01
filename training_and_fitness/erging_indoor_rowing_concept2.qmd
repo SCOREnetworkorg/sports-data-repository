@@ -1,0 +1,103 @@
+---
+title: Concept2 Erg Time Rankings
+author: Abigail Smith
+date: July 17, 2024
+description: Analyzing the top 50 2k, 6k, and 10k erg times for both men and women from 2018 to 2023.
+categories:
+  -  Side-by-side boxplots
+  -  Summary statistics
+  -  Difference in means hypothesis test
+  -  Outliers
+  -  Data ethics
+  
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Motivation
+
+[Indoor Rowing (Erging)](https://en.wikipedia.org/wiki/Indoor_rower){target="_blank"}
+is a form of indoor exercise. Erging is primarily used by rowers to
+prepare for the season while the water is frozen over. It can also be a
+form of cardio exercise for non-rowers. Erging involves sitting down on
+a rowing machine while pulling a handle towards the stomach. There are
+several variations of the rowing machine but the most common one is
+pictured below.
+
+[![SOURCE:
+https://repfitness.com/products/concept2-row-erg](../_prep/erging_indoor_rowing_concept2/images/RowERG_Standard_FlyFrontAngle-4339x2679-d6cfd86a-9cfb-4a19-b471-992040a5527e.jpgTEST2.jpg.webp){fig-align="center"
+width="380"}](https://repfitness.com/products/concept2-row-erg)
+
+The below video shows the motion of erging. 
+
+{{< video https://www.youtube.com/watch?v=4zWu1yuJ0_g title= "Erg Technique" >}}
+
+[Concept2](https://en.wikipedia.org/wiki/Concept2){target="_blank"} is the main company that sells ergs and other rowing equipment. All Concept2 ergs are equipped with performance monitor screens which measure a rowers, speed, time, rate, and distance. Since 1999, rowers have been able to log their ergs on an [online logbook](https://log.concept2.com){target="_blank"} which until then had been physical. In 2022, Concept2 released the [ErgData App](https://www.concept2.com/ergdata){target="_blank"} which connects to performance monitors via Bluetooth, when rowers use this app the data is immediately uploaded to their logbooks but it is still possible to manually record workouts in the online logbook. In the online logbook, Concept2 includes the option for rowers to "Rank" certain common workouts to compare with other rowers globally. These rankings are available to the general public on the [Concept2 website](https://log.concept2.com/rankings){target="_blank"}. 
+
+The [erg.csv](../data/erg.csv){target="_blank"} dataset contains data from the 2018-2023 rankings. The dataset includes the top 50 erg times for 2k, 6k, and 10k distances for both men and women. In looking at the speeds and times for the different distances it will be interesting to identify any potential patterns amongst the groups. 
+
+## Data
+
+The data set has 1,800 rows with 14 variables. Each row is an erg piece completed by a rower between 2018 and 2023. There are 1,088 different rowers in the dataset, with 50 erg pieces in each category.
+
+| Variable     | Description                                                    |
+|-----------------------|-------------------------------------------------|
+| `Pos`     | The position or ranking of the piece.                              |
+| `Name`      | The name of the rower that completed the piece.                                                                                               |
+| `Age`      | The age of the rower that completed the piece.                 |
+| `Location`     | Where the rower that completed the piece is from.                                                                             |
+| `Country`        | The country that the rower that completed the piece is from.    |
+| `Affiliation`         | The club or team affiliation of the rower that completed the piece.    |
+| `Type`        | The type of erg the piece was completed on, `S` for slides meaning the erg is on slides, `D` for dynamic which is an erg in which the footboards move, and `R` for a traditional RowErg.  |
+| `Verified`        | If the piece was verified, meaning it was recorded on the app or in a race as opposed to being manually entered, `Yes` or `No`.           |
+| `Time` | The total time for the piece in minutes.                               |
+| `Gender`  | The gender of the rower that completed the piece, `Women` or `Men`.                                                                          |
+| `Year`     | The year the piece was completed. |
+| `Distance`     | The distance of the piece in meters, `2000`, `6000`, or `10000`. |
+| `Speed`     | The average speed of the piece in `meters per minute`. (`Distance/Time`)|
+| `Split`     | The average 500 meter split of the piece, meaning the average time per 500 meters of the piece. (`500*(Time/Distance)`)|
+| `Age_Group`     | The age group the rower that completed the piece is in. The age groups are defined by Concept2 on the rankings page. There are 9 age groups in the dataset. |
+:Download data:  [erg.csv](../data/erg.csv){target="_blank"}
+
+## Questions
+
+1.  Make a side-by-side boxplot of the `Speed` for `Verified` and `Non-Verified` pieces. Give the plot a label.
+
+2.  Describe any interesting features of the plot.
+
+3.  Find the summary statistics for `Speed` and calculate its IQR.
+
+4.  Make a table of the top 10 speeds for rowers. Including only their `Name`, `Speed` and if their piece was `Verified`.
+
+5.  Using the table, identify the 4 outliers seen in the boxplot.
+
+6.  Perform a test to evaluate if there is a significant difference in the mean `Speed` for `Verified` and `Non-Verified` pieces.
+
+7.  Make a new dataset which does not have the 4 outliers in it.
+
+8.  With the new dataset make another side-by-side boxplot of the `Speed` for `Verified` and `Non-Verified` pieces and give the plot a label.
+
+9.  Comment on the features of this new boxplot.
+
+10.  Perform a test with the new dataset and re-evalute if there is a significant difference in the mean `Speed` for `Verified` and `Non-Verified` pieces.
+
+11.  What does the number of outliers for `Non-Verified` pieces say about the reliability of `Non-Verified` pieces in the dataset?
+
+12. Is it ethical to remove the outliers from the dataset as done in task 7?
+
+## References
+
+[Data obtained from log.concept2.com website](https://log.concept2.com/rankings){target="_blank"}
+
+[Indoor Rowing (Erging) Wikipedia](https://en.wikipedia.org/wiki/Indoor_rower){target="_blank"}
+
+[Concept2 Wikipedia](https://en.wikipedia.org/wiki/Concept2){target="_blank"}
+
+[Concept2 Website](https://www.concept2.com){target="_blank"}
+
+[ErgData App](https://www.concept2.com/ergdata){target="_blank"}
+
+[Concept2 Pace Calculator](https://www.concept2.com/training/pace-calculator?gad_source=1&gclid=CjwKCAjw1920BhA3EiwAJT3lSehbGE4OcvpN6VrFVt6AvpP3gwUIfg90B1YvMpmVA67SPgMoPD0w9hoC73QQAvD_BwE){target="_blank"}
+
+[Concept2 Erg Technique Video](https://www.youtube.com/watch?v=4zWu1yuJ0_g){target="_blank"}

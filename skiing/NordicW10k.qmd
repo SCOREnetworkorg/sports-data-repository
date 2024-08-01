@@ -4,10 +4,10 @@ author: Abigail Smith
 date: February 29, 2024
 description: The times and ranks of skiers taken at four different distance points (1.3, 4.3, 7.5, and 10k) in a 10k classic race in Trondheim, Norway.
 categories:
-  - anova for difference in means
-  - linear regression analysis
-  - correlation
-  - checking conditions for simple linear regression
+  - ANOVA for means
+  - Linear regression
+  - Correlation
+  - Linear regression conditions
 ---
 
 ## Motivation

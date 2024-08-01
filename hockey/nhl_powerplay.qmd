@@ -4,7 +4,7 @@ author: Abby Hustler, Robin Lock
 date: July 27, 2023
 description: Measures for National Hockey League teams from all 5 on 4 power plays in the 2022-2023 season.  
 categories:
-  - exploratory data Analysis
+  - Exploratory data analysis
 ---
 
 ## Motivation

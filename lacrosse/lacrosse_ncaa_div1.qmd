@@ -4,10 +4,10 @@ author: Jack Fay, A.J. Dykstra, and Ivan Ramler
 date: July 24, 2023
 description: These data sets contain team statistics for NCAA Division I women's and men's lacrosse in the 2022 and 2023 seasons.
 categories:
-  - correlation
-  - indicator variables
-  - linear regression
-  - side-by-side boxplots
+  - Correlation
+  - Categorical predictors
+  - Linear regression
+  - Side-by-side boxplots
 ---
 
 ## Motivation

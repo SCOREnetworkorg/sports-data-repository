@@ -4,8 +4,8 @@ author: Eric Seltzer
 date: February 28, 2024
 description: These datasets contain both athlete information and medal winner information from the Beijing 2022 Olympic Winter Games.
 categories:
-  - Data Cleaning
-  - Summarization
+  - Data cleaning
+  - Summary statistics
   - Merging
 editor:
   markdown: 

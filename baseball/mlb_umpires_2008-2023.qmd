@@ -1,0 +1,145 @@
+---
+title: MLB Home Plate Umpires
+author: Abigail Smith
+date: July 16, 2024
+description: Analyzing various statistics from Major League Baseball home plate umpires dating back to 2008.
+categories:
+  -  Histogram
+  -  Summary statistics
+  -  Outliers
+  -  Multiple regression
+  -  Multicollinearity
+  -  Confidence interval for regression mean
+  -  Prediction intervals for regression
+  
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Motivation
+
+[Baseball](https://en.wikipedia.org/wiki/Baseball){target="_blank"} is a
+popular American sport played on a diamond-shaped field. Games are 9
+innings long and each inning has two halves, the first in which the
+visiting team bats and the second where the home team bats. Innings end
+after three outs. An out is when a player from the hitting team is
+removed from play for the half of the inning due to various reasons.
+Batters aim to get on base by hitting a ball pitched to them by the
+pitcher. Batters can get to first, second, or third base depending on
+how far they hit the ball and how fast they run. If a batter hits the
+ball past the outfield fences, they, along with any runners on base,
+automatically score, this is called a home run. Runners can also score
+if another player hits the ball and then they reach home. The team with
+the most runs wins the game.
+
+There are 9 defensive positions in baseball, the layout of these
+positions is labeled in the below diagram.
+
+[![SOURCE:
+https://en.wikipedia.org/wiki/Baseball_positions](../_prep/mlb_umpires_2008-2023/images/images.png){fig-align="center"
+width="331"}](https://en.wikipedia.org/wiki/Baseball_positions)
+
+Behind the catcher, at home plate is an official known as the home plate
+[umpire](https://en.wikipedia.org/wiki/Umpire_(baseball)){target="_blank"}.
+The umpire's role is to enforce the rules and make decisions during a
+game. Many of these decisions involve calling balls and strikes. Pitches
+that are considered strikes are pitched within the zone outlined below.
+Anything outside of that zone is called a ball. If a batter gets 3
+strikes, they are out on a strike out. If the batter gets 4 balls they
+get to go to first base on what is called a walk.
+
+[![SOURCE:
+https://www.dimensions.com/element/strike-zone](../_prep/mlb_umpires_2008-2023/images/5bd08351ae57fd50e3c91538_Dimensions-Guide-Sports-Baseball-Strike-Zone-Dimensions.svg){fig-align="center"
+width="300"}](https://www.dimensions.com/element/strike-zone)
+
+[Major League Baseball
+(MLB)](https://en.wikipedia.org/wiki/Major_League_Baseball){target="_blank"}
+is a professional baseball league with 30 teams and a 162 game season.
+The MLB has 76 umpires in total with four umpires in each game. Umpires
+are stationed at 1st, 2nd, and 3rd base in addition to home plate but
+the home plate umpire is the only one who makes calls on pitches.
+
+The [mlb_umpires.csv](../data/mlb_umpires.csv){target="_blank"} dataset looks at
+cumulative data from MLB homeplate umpires dating as far back as 2008.
+The boost statistics in the dataset investigate how certain umpires
+compare to the "average" Major League Baseball umpire. The dataset
+provides insight on if umpires favor defensive players or offensive
+plaeyrs more.
+
+## Data
+
+The data set has 954 rows with 11 variables. Each row is an MLB home
+plate umpire combined with a `boost_stat` ranking how they compare with
+the average umpire. There are 159 umpires in the dataset with 6 rows per
+umpire. The data is cumulative from 2008 until 2024.
+
+| Variable     | Description                                       |
+|----------------------|--------------------------------------------------|
+| `Umpire`     | The name of the umpire.                           |
+| `Games`      | The number of games the umpire has umpired since 2008.    |
+| `k_pct`      | The strike out percentage of batters and pitchers when the umpire is umpiring. (`Career Strike Outs Called`/`Career Plate Appearances Umpired`)   |
+| `bb_pct`     | The walk percentage of batters when the umpire is umpiring. (`Career Walks Called`/`Career Plate Appearances Umpired`)  |
+| `RPG`        | The career runs scored per game when the umpire is umpiring. (`Career Runs While Umpiring`/`Career Games Umpired`)   |
+| `BA`         | The batting average of batters in games when the umpire is umpiring. (`Career Hits While Umpiring`/`Career Plate Appearances Umpired`)     |
+| `OBP`        | The on base percentage of batters when the umpire is umpiring. ((`Career Hits While Umpiring` + `Career Walks While Umpiring` + `Career Hit by Pitches While Umpiring`)/(`Career At Bats Umpired` + `Career Walks While Umpired` + `Career Hit by Pitches While Umpiring` + `Career Sacrifice Flies While Umpiring`))   |
+| `SLG`        | The slugging percentage of batters when the umpire is umpiring. ((`Singles While Umpiring` + (`Doubles While Umpiring` \* 2) + (`Triples While Umpiring` \* 3) + (`Home Runs While Umpiring` \* 4))/`Career At Bats Umpired`)  |
+| `boost_stat` | The statistic being "boosted" by the umpire when they are behind home plate. This can be strikeouts (`K`), walks (`BB`), runs (`R`), batting average (`BA`), on base percentage (`OBP`), and slugging percentage (`SLG`).  |
+| `boost_pct`  | The percentage that the `boost_stat` is being boosted. In other words how much the umpire is above or below the average umpire in calling that statistic.  |
+| `Rating`     | Whether or not the umpire favors offensive or defensive players in that statistic. The `Rating` is `Defensive` if the umpire has a `boost_pct` above zero and the `boost_stat` is K or if the `boost_pct` is below zero and the stat is `BB`, `R`, `BA`, `OBP`, or `SLG`. The `Rating` is `Offensive` if the umpire has a `boost_pct` below zero and the `boost_stat` is K or if the `boost_pct` is above zero and the stat is `BB`, `R`, `BA`, `OBP`, or `SLG`. It will be `Neither` if the `boost_pct` is zero. |
+
+: [mlb_umpires.csv](../data/mlb_umpires.csv)
+
+## Questions
+
+1.  Describe the distribution of `k_pct` based on a histogram.
+
+2.  What is the mean `k_pct` for all umpires?
+
+3.  What is the standard deviation of `k_pct` for all umpires?
+
+4.  Use the IQR method to determine if any of the 'k_pct' values should be considered outliers.
+
+5.  Fit a model to predict `RPG` with `Games`, `k_pct`, `BA`, and `bb_pct`.       Write down fitted prediction equation.
+  
+6.  Predict the `RPG` for an umpire that has umpired 255 games, with a `BA` for hitters of 0.270, a `k_pct` of 15%, and a `bb_pct`of 10%.
+
+7.  Obtain the p-values for each of the predictors in the model. Are all of the predictors effective? If not, which ones and why?
+
+8.  Perform a test for the overall fit of the model. 
+
+9.  Record and comment on the multiple R-squared and adjusted R-squared values for the model.
+
+10.  Drop `bb_pct` from the model and record the new multiple R-squared and adjusted        R-squared values. Is the model without `bb_pct` better or worse?
+
+11.  Find the VIFs for the original model, are any of the values concerning?       Explain why or why not.
+
+
+12. Find and interpret the 95% confidence interval for the mean `RPG` for all umpires who have umpired 400 games, with a `BA` for hitters of 0.215, a      `k_pct` of 18%, and a `bb_pct`of 9%.
+
+14. Find and interpret the 95% prediction interval for the `RPG` of an umpire  who has umpired 400 games, with a `BA` for hitters of 0.215, a `k_pct` of     18%, and a `bb_pct`of 9%.
+
+
+## References
+
+[Data obtained from swishanalytics.com](https://swishanalytics.com/mlb/mlb-umpire-factors){target="_blank"}
+
+[Baseball
+Wikipedia](https://en.wikipedia.org/wiki/Baseball){target="_blank"}
+
+[Major League Baseball
+Wikipedia](https://en.wikipedia.org/wiki/Major_League_Baseball){target="_blank"}
+
+[Umpire
+Wikipedia](https://en.wikipedia.org/wiki/Umpire_(baseball)){target="_blank"}
+
+[Baseball Position
+Wikipedia](https://en.wikipedia.org/wiki/Baseball_positions){target="_blank"}
+
+[Strike Zone
+Diagram](https://www.dimensions.com/element/strike-zone){target="_blank"}
+
+[Major League Baseball Website](https://www.mlb.com){target="_blank"}
+
+[Major League Baseball
+Umpires](https://www.mlb.com/official-information/umpires/bios){target="_blank"}

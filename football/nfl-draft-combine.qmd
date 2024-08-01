@@ -4,7 +4,7 @@ author: Shane Hauk, Michael Schuckers, Robin Lock
 date: August 03, 2023
 description: NFL Scouting Combine Event scores from 2004 - 2023
 categories:
-  - Exploratory Data Analysis
+  - Exploratory data analysis
   - Linear regression
 ---
 

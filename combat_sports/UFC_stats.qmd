@@ -4,7 +4,7 @@ author: Brendan Karadenes
 date: February 29, 2023
 description: UFC fighter data containing information about height, weight, striking, reach, stance, and takedowns. Since the striking accuracy distribution is approximately normal, we will look at proportions and percentiles of fighters with "good" and "bad" percentages.
 categories:
-  - Normal Distribution
+  - Normal distribution
   - Quantiles
   - Proportions
 ---

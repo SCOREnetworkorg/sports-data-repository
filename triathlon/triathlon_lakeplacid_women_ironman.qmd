@@ -4,10 +4,10 @@ author: Michael Schuckers, Matthew Abel, and A.J. Dykstra
 date: June 17, 2023
 description: The data set looks at female participatants in the triathlon Ironman.
 categories:
-  - Histograms
-  - Scatter Plots
+  - Histogram
+  - Scatterplot
   - Correlation
-  - Linear Regression
+  - Linear regression
 ---
 
 ## Motivation
