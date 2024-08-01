@@ -1,0 +1,1666 @@
+player,level,gender,division,team_name,Turns,Ds,Assists,Points,plus_minus,team_games,turns_per_game,ds_per_game,ast_per_game,pts_per_game,pls_mns_per_game
+Jacques Nissen,Division 1,Men,Division 1 Men,Brown Brownian Motion,12,8,38,13,47,8,1.5,1,4.75,1.625,5.875
+Cal Nightingale,Division 1,Men,Division 1 Men,Brown Brownian Motion,3,0,12,27,36,8,0.375,0,1.5,3.375,4.5
+Faye Burdick,Division 1,Women,Division 1 Women,Colorado Quandary,6,12,16,13,35,7,0.857142857,1.714285714,2.285714286,1.857142857,5
+Matthew Gregor,Division 3,Men,Division 3 Men,Franciscan Fatal,2,6,3,26,33,6,0.333333333,1,0.5,4.333333333,5.5
+Frankie Saraniti,Division 3,Women,Division 3 Women,Carleton Eclipse,11,15,12,17,33,6,1.833333333,2.5,2,2.833333333,5.5
+Jacob Felton,Division 3,Men,Division 3 Men,Davenport Panthers,36,7,43,18,32,6,6,1.166666667,7.166666667,3,5.333333333
+Rowan Dong,Division 3,Women,Division 3 Women,Carleton Eclipse,23,20,18,16,31,6,3.833333333,3.333333333,3,2.666666667,5.166666667
+Leo Gordon,Division 1,Men,Division 1 Men,Brown Brownian Motion,27,6,34,18,31,8,3.375,0.75,4.25,2.25,3.875
+Charles Tantum,Division 3,Men,Division 3 Men,Williams WUFO,8,11,10,18,31,6,1.333333333,1.833333333,1.666666667,3,5.166666667
+Will Brandt,Division 3,Men,Division 3 Men,St Olaf Berzerkers,8,4,26,8,30,6,1.333333333,0.666666667,4.333333333,1.333333333,5
+Max Zwerin,Division 3,Men,Division 3 Men,Lewis & Clark Bacchus,8,10,6,22,30,6,1.333333333,1.666666667,1,3.666666667,5
+Dawn Culton,Division 1,Women,Division 1 Women,North Carolina Pleiades,19,12,16,21,30,7,2.714285714,1.714285714,2.285714286,3,4.285714286
+Emily Kemp,Division 1,Women,Division 1 Women,Tufts EWO,5,7,5,22,29,5,1,1.4,1,4.4,5.8
+Devin Quinn,Division 1,Women,Division 1 Women,California - Santa Barbara Burning Skirts,6,5,13,17,29,5,1.2,1,2.6,3.4,5.8
+Sage McGinley-Smith,Division 1,Women,Division 1 Women,Stanford Superfly,3,9,5,17,28,7,0.428571429,1.285714286,0.714285714,2.428571429,4
+Anton Orme,Division 1,Men,Division 1 Men,Cal Poly-SLO Slocore,9,5,20,12,28,7,1.285714286,0.714285714,2.857142857,1.714285714,4
+Mika Kurahashi,Division 1,Women,Division 1 Women,British Columbia Thunderbirds,2,5,12,12,27,6,0.333333333,0.833333333,2,2,4.5
+Leo Farley,Division 3,Men,Division 3 Men,Lewis & Clark Bacchus,9,8,18,10,27,6,1.5,1.333333333,3,1.666666667,4.5
+Tori Gray,Division 1,Women,Division 1 Women,Carleton Syzygy,13,17,13,9,26,6,2.166666667,2.833333333,2.166666667,1.5,4.333333333
+Matthew Kompelien,Division 3,Men,Division 3 Men,St Olaf Berzerkers,4,8,16,6,26,6,0.666666667,1.333333333,2.666666667,1,4.333333333
+Alex Nelson,Division 1,Men,Division 1 Men,Cal Poly-SLO Slocore,3,5,6,18,26,7,0.428571429,0.714285714,0.857142857,2.571428571,3.714285714
+Stacy Gaskill,Division 1,Women,Division 1 Women,Colorado Quandary,2,3,12,12,25,7,0.285714286,0.428571429,1.714285714,1.714285714,3.571428571
+Scott Heyman,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,8,9,16,7,24,5,1.6,1.8,3.2,1.4,4.8
+Rowan Jamieson,Division 3,Men,Division 3 Men,Davenport Panthers,8,5,5,22,24,6,1.333333333,0.833333333,0.833333333,3.666666667,4
+Daniel Snider,Division 3,Men,Division 3 Men,Bates Orange Whip,28,6,38,8,24,6,4.666666667,1,6.333333333,1.333333333,4
+Calvin Brown,Division 1,Men,Division 1 Men,Cal Poly-SLO Slocore,23,6,30,11,24,7,3.285714286,0.857142857,4.285714286,1.571428571,3.428571429
+Mica Glass,Division 1,Men,Division 1 Men,Oregon EGO,10,5,24,4,23,6,1.666666667,0.833333333,4,0.666666667,3.833333333
+Anna Goddu,Division 1,Women,Division 1 Women,British Columbia Thunderbirds,8,7,4,20,23,6,1.333333333,1.166666667,0.666666667,3.333333333,3.833333333
+Tobias Brooks,Division 1,Men,Division 1 Men,Colorado Mambird,6,1,21,6,22,7,0.857142857,0.142857143,3,0.857142857,3.142857143
+Miles Miller,Division 3,Men,Division 3 Men,Bates Orange Whip,18,9,21,10,22,6,3,1.5,3.5,1.666666667,3.666666667
+Michael Johnson,Division 3,Men,Division 3 Men,Berry Bucks,2,3,5,16,22,6,0.333333333,0.5,0.833333333,2.666666667,3.666666667
+Jordan Bacharach,Division 1,Men,Division 1 Men,Michigan Magnum,0,2,4,16,22,5,0,0.4,0.8,3.2,4.4
+Jeffy Joshy,Division 3,Men,Division 3 Men,Richmond Spidermonkeys,4,5,4,17,22,6,0.666666667,0.833333333,0.666666667,2.833333333,3.666666667
+Henry Ing,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,7,3,13,13,22,5,1.4,0.6,2.6,2.6,4.4
+Ezra Weybright,Division 1,Women,Division 1 Women,Oregon Fugue,6,4,14,10,22,6,1,0.666666667,2.333333333,1.666666667,3.666666667
+Elliott Rosenberg,Division 1,Men,Division 1 Men,Brown Brownian Motion,8,2,17,11,22,8,1,0.25,2.125,1.375,2.75
+Avery Lee-Pii,Division 1,Women,Division 1 Women,British Columbia Thunderbirds,2,7,7,10,22,6,0.333333333,1.166666667,1.166666667,1.666666667,3.666666667
+Zeke Thoreson,Division 1,Men,Division 1 Men,Colorado Mambird,1,6,6,10,21,7,0.142857143,0.857142857,0.857142857,1.428571429,3
+Sami Chambers,Division 1,Women,Division 1 Women,Georgia Athena,7,8,8,12,21,5,1.4,1.6,1.6,2.4,4.2
+Mallori Boddy,Division 3,Women,Division 3 Women,Portland UPRoar,5,8,1,17,21,6,0.833333333,1.333333333,0.166666667,2.833333333,3.5
+Julianna Galian,Division 3,Women,Division 3 Women,Portland UPRoar,53,13,43,18,21,6,8.833333333,2.166666667,7.166666667,3,3.5
+Eli Fried,Division 1,Men,Division 1 Men,North Carolina Darkside,6,5,3,19,21,6,1,0.833333333,0.5,3.166666667,3.5
+Dexter Clyburn,Division 1,Men,Division 1 Men,Cal Ursa Major,13,11,15,8,21,5,2.6,2.2,3,1.6,4.2
+Danny Klein,Division 3,Men,Division 3 Men,Williams WUFO,29,7,40,3,21,6,4.833333333,1.166666667,6.666666667,0.5,3.5
+Aidan Downey,Division 1,Men,Division 1 Men,Georgia Jojah,7,6,14,8,21,5,1.4,1.2,2.8,1.6,4.2
+Paul Krenik,Division 1,Men,Division 1 Men,Minnesota Grey Duck,8,3,14,11,20,5,1.6,0.6,2.8,2.2,4
+Nathan Buchholz,Division 1,Men,Division 1 Men,Colorado Mambird,2,3,9,10,20,7,0.285714286,0.428571429,1.285714286,1.428571429,2.857142857
+Martin Gallant,Division 1,Men,Division 1 Men,Ottawa Gee-Gees,8,4,10,14,20,5,1.6,0.8,2,2.8,4
+Gordon Larson,Division 3,Men,Division 3 Men,St Olaf Berzerkers,11,4,8,19,20,6,1.833333333,0.666666667,1.333333333,3.166666667,3.333333333
+Gabriel Jagt,Division 1,Men,Division 1 Men,Minnesota Grey Duck,0,5,2,13,20,5,0,1,0.4,2.6,4
+Darren Dyer,Division 3,Men,Division 3 Men,Davenport Panthers,6,9,7,10,20,6,1,1.5,1.166666667,1.666666667,3.333333333
+Clil Phillips,Division 1,Women,Division 1 Women,Colorado Quandary,12,12,15,5,20,7,1.714285714,1.714285714,2.142857143,0.714285714,2.857142857
+Ben Thoennes,Division 1,Men,Division 1 Men,Oregon State Beavers,11,1,23,7,20,5,2.2,0.2,4.6,1.4,4
+Anna Forbes,Division 3,Women,Division 3 Women,Union Jillz,0,9,1,10,20,6,0,1.5,0.166666667,1.666666667,3.333333333
+Adam Miller,Division 1,Men,Division 1 Men,Georgia Jojah,10,2,16,12,20,5,2,0.4,3.2,2.4,4
+Zoe Costanza,Division 3,Women,Division 3 Women,Haverford/Bryn Mawr Sneetches,38,15,19,23,19,6,6.333333333,2.5,3.166666667,3.833333333,3.166666667
+Suhas Madiraju,Division 1,Men,Division 1 Men,NC State Alpha,7,2,8,16,19,6,1.166666667,0.333333333,1.333333333,2.666666667,3.166666667
+Reed Kendall,Division 3,Men,Division 3 Men,Williams WUFO,2,4,5,12,19,6,0.333333333,0.666666667,0.833333333,2,3.166666667
+Nathan Hunt,Division 3,Men,Division 3 Men,Oklahoma Christian Eagles,2,6,5,10,19,5,0.4,1.2,1,2,3.8
+Josh Singleton,Division 1,Men,Division 1 Men,North Carolina Darkside,4,0,14,9,19,6,0.666666667,0,2.333333333,1.5,3.166666667
+Henry Wayte,Division 1,Men,Division 1 Men,Oregon State Beavers,1,1,3,16,19,5,0.2,0.2,0.6,3.2,3.8
+Dylan Hawkins,Division 1,Men,Division 1 Men,North Carolina Darkside,2,2,6,13,19,6,0.333333333,0.333333333,1,2.166666667,3.166666667
+Aaron Bartlett,Division 1,Men,Division 1 Men,Michigan Magnum,8,4,13,10,19,5,1.6,0.8,2.6,2,3.8
+Michael Poe,Division 1,Men,Division 1 Men,Alabama-Huntsville Nightmares,5,7,10,6,18,5,1,1.4,2,1.2,3.6
+Macy Vollbrecht,Division 1,Women,Division 1 Women,Stanford Superfly,22,19,13,8,18,7,3.142857143,2.714285714,1.857142857,1.142857143,2.571428571
+Felix Moren,Division 1,Men,Division 1 Men,Oregon State Beavers,7,0,15,10,18,5,1.4,0,3,2,3.6
+Audrey Stineman,Division 3,Women,Division 3 Women,Portland UPRoar,11,8,15,6,18,6,1.833333333,1.333333333,2.5,1,3
+Amelia Hawkins,Division 1,Women,Division 1 Women,Stanford Superfly,1,3,0,16,18,7,0.142857143,0.428571429,0,2.285714286,2.571428571
+Amaya Krutsinger,Division 1,Women,Division 1 Women,Western Washington Chaos,13,5,11,15,18,5,2.6,1,2.2,3,3.6
+Abbie Gillach,Division 1,Women,Division 1 Women,Colorado Quandary,17,11,13,11,18,7,2.428571429,1.571428571,1.857142857,1.571428571,2.571428571
+Sofia Canoutas-Nadel,Division 3,Women,Division 3 Women,Wesleyan Vicious Circles,2,6,1,12,17,6,0.333333333,1,0.166666667,2,2.833333333
+Logan Piercy,Division 1,Men,Division 1 Men,Penn State Spank,7,11,2,11,17,5,1.4,2.2,0.4,2.2,3.4
+Julia Berard,Division 1,Women,Division 1 Women,Oregon Fugue,2,3,5,11,17,6,0.333333333,0.5,0.833333333,1.833333333,2.833333333
+Erica Collin,Division 3,Women,Division 3 Women,St Olaf Vortex,7,6,5,13,17,5,1.4,1.2,1,2.6,3.4
+Elan Siegler,Division 3,Men,Division 3 Men,Whitman Sweets,5,0,13,9,17,6,0.833333333,0,2.166666667,1.5,2.833333333
+Ben Dameron,Division 1,Men,Division 1 Men,North Carolina Darkside,14,3,22,6,17,6,2.333333333,0.5,3.666666667,1,2.833333333
+Abigail Shilts,Division 1,Women,Division 1 Women,California - San Diego D-Co,18,9,7,19,17,5,3.6,1.8,1.4,3.8,3.4
+Aaron Kaplan,Division 1,Men,Division 1 Men,Oregon EGO,7,4,8,12,17,6,1.166666667,0.666666667,1.333333333,2,2.833333333
+Zach Van Dusen,Division 3,Men,Division 3 Men,Bates Orange Whip,4,5,3,12,16,6,0.666666667,0.833333333,0.5,2,2.666666667
+Zac Kuelz,Division 1,Men,Division 1 Men,NC State Alpha,9,0,13,12,16,6,1.5,0,2.166666667,2,2.666666667
+Xavier Fuzat,Division 1,Men,Division 1 Men,Texas TUFF,2,1,12,5,16,5,0.4,0.2,2.4,1,3.2
+Willow Purvis,Division 1,Women,Division 1 Women,Colorado State Helle's Belles,5,6,6,9,16,5,1,1.2,1.2,1.8,3.2
+Wade Buchheit,Division 3,Men,Division 3 Men,Williams WUFO,5,9,7,5,16,6,0.833333333,1.5,1.166666667,0.833333333,2.666666667
+Tyler Shanahan,Division 3,Men,Division 3 Men,Davenport Panthers,10,3,19,4,16,6,1.666666667,0.5,3.166666667,0.666666667,2.666666667
+Laura Blume,Division 1,Women,Division 1 Women,California - Santa Barbara Burning Skirts,15,8,18,5,16,5,3,1.6,3.6,1,3.2
+Jonah Barer,Division 3,Men,Division 3 Men,Carleton CHOP,4,2,4,14,16,6,0.666666667,0.333333333,0.666666667,2.333333333,2.666666667
+Ellie McDonald,Division 3,Women,Division 3 Women,St Olaf Vortex,7,3,10,10,16,5,1.4,0.6,2,2,3.2
+Dorthea Trelstad Pi-Sunyer,Division 3,Women,Division 3 Women,Macalester Purse Snatchers,5,5,3,13,16,6,0.833333333,0.833333333,0.5,2.166666667,2.666666667
+Adam Kohn,Division 3,Men,Division 3 Men,Williams WUFO,4,2,7,11,16,6,0.666666667,0.333333333,1.166666667,1.833333333,2.666666667
+Theo Shapinsky,Division 1,Men,Division 1 Men,Michigan Magnum,6,4,9,8,15,5,1.2,0.8,1.8,1.6,3
+Seth Wells,Division 1,Men,Division 1 Men,Colorado Mambird,8,2,13,8,15,7,1.142857143,0.285714286,1.857142857,1.142857143,2.142857143
+Sebastian Williamson,Division 3,Men,Division 3 Men,Lewis & Clark Bacchus,11,2,18,6,15,6,1.833333333,0.333333333,3,1,2.5
+Scott Whitley,Division 1,Men,Division 1 Men,Georgia Jojah,5,2,6,12,15,5,1,0.4,1.2,2.4,3
+Robert McCabe,Division 1,Men,Division 1 Men,Cal Ursa Major,1,2,6,8,15,5,0.2,0.4,1.2,1.6,3
+Nanda Min-Fink,Division 1,Men,Division 1 Men,Colorado Mambird,5,0,5,15,15,7,0.714285714,0,0.714285714,2.142857143,2.142857143
+Maxwell Caputo,Division 3,Men,Division 3 Men,Richmond Spidermonkeys,12,2,18,7,15,6,2,0.333333333,3,1.166666667,2.5
+Max Gade,Division 1,Men,Division 1 Men,Cal Poly-SLO Slocore,1,6,3,7,15,7,0.142857143,0.857142857,0.428571429,1,2.142857143
+Maryanne Maxwell,Division 3,Women,Division 3 Women,Portland UPRoar,2,4,4,9,15,6,0.333333333,0.666666667,0.666666667,1.5,2.5
+Keziah Wilde,Division 3,Women,Division 3 Women,Middlebury Pranksters,20,7,19,9,15,5,4,1.4,3.8,1.8,3
+Ethan Lieman,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,2,1,9,7,15,5,0.4,0.2,1.8,1.4,3
+Declan Miller,Division 1,Men,Division 1 Men,Carleton CUT,4,1,12,6,15,5,0.8,0.2,2.4,1.2,3
+Daniel Chen,Division 1,Men,Division 1 Men,Carleton CUT,4,2,5,12,15,5,0.8,0.4,1,2.4,3
+Tristan Yarter,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,6,2,10,8,14,5,1.2,0.4,2,1.6,2.8
+Timothy Loftus,Division 3,Men,Division 3 Men,Rochester Piggies,2,2,7,7,14,6,0.333333333,0.333333333,1.166666667,1.166666667,2.333333333
+Reid Duncan,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,0,3,3,8,14,5,0,0.6,0.6,1.6,2.8
+Peter Ngo,Division 1,Men,Division 1 Men,Texas TUFF,0,0,0,14,14,5,0,0,0,2.8,2.8
+Michiko Magnant,Division 1,Women,Division 1 Women,Oregon Fugue,5,2,8,9,14,6,0.833333333,0.333333333,1.333333333,1.5,2.333333333
+Matthew Timoney,Division 3,Men,Division 3 Men,Richmond Spidermonkeys,4,0,8,10,14,6,0.666666667,0,1.333333333,1.666666667,2.333333333
+Matthew Peterson,Division 3,Men,Division 3 Men,Berry Bucks,6,4,0,16,14,6,1,0.666666667,0,2.666666667,2.333333333
+Margot Nissen,Division 1,Women,Division 1 Women,California - San Diego D-Co,7,5,14,2,14,5,1.4,1,2.8,0.4,2.8
+Joshua Gill,Division 3,Men,Division 3 Men,Oklahoma Christian Eagles,1,0,0,15,14,5,0.2,0,0,3,2.8
+Jessica Wu,Division 1,Women,Division 1 Women,North Carolina Pleiades,4,3,7,8,14,7,0.571428571,0.428571429,1,1.142857143,2
+Grant Klebig,Division 3,Men,Division 3 Men,St Olaf Berzerkers,3,9,1,7,14,6,0.5,1.5,0.166666667,1.166666667,2.333333333
+Emmanuel Kameri,Division 3,Men,Division 3 Men,Oklahoma Christian Eagles,8,2,7,13,14,5,1.6,0.4,1.4,2.6,2.8
+Emma Smith,Division 1,Women,Division 1 Women,California - San Diego D-Co,4,2,2,14,14,5,0.8,0.4,0.4,2.8,2.8
+Collin Hill,Division 3,Men,Division 3 Men,Berry Bucks,21,3,31,1,14,6,3.5,0.5,5.166666667,0.166666667,2.333333333
+Char Bokhof,Division 1,Women,Division 1 Women,Colorado State Helle's Belles,6,6,4,10,14,5,1.2,1.2,0.8,2,2.8
+Ben Horrisberger,Division 1,Men,Division 1 Men,Oregon EGO,2,5,5,6,14,6,0.333333333,0.833333333,0.833333333,1,2.333333333
+Annabel White,Division 1,Women,Division 1 Women,Tufts EWO,1,1,2,12,14,5,0.2,0.2,0.4,2.4,2.8
+Savanna Tucker,Division 1,Women,Division 1 Women,Washington Element,7,2,6,12,13,5,1.4,0.4,1.2,2.4,2.6
+Rose Bransford,Division 1,Women,Division 1 Women,Colorado Quandary,3,4,3,9,13,7,0.428571429,0.571428571,0.428571429,1.285714286,1.857142857
+Raekwon Adkins,Division 1,Men,Division 1 Men,Oregon EGO,5,2,4,12,13,6,0.833333333,0.333333333,0.666666667,2,2.166666667
+Peter Mans,Division 3,Men,Division 3 Men,Middlebury Pranksters,3,4,3,9,13,5,0.6,0.8,0.6,1.8,2.6
+Owen Smith,Division 1,Men,Division 1 Men,Texas TUFF,2,0,5,10,13,5,0.4,0,1,2,2.6
+Max Dehlin,Division 1,Men,Division 1 Men,Minnesota Grey Duck,0,2,8,3,13,5,0,0.4,1.6,0.6,2.6
+Luca Duclos-Orsello,Division 1,Men,Division 1 Men,Brown Brownian Motion,3,4,1,11,13,8,0.375,0.5,0.125,1.375,1.625
+Logan Keillor,Division 1,Men,Division 1 Men,Ottawa Gee-Gees,9,1,13,8,13,5,1.8,0.2,2.6,1.6,2.6
+Kennedy McCarthy,Division 1,Women,Division 1 Women,Vermont Ruckus,22,9,14,12,13,6,3.666666667,1.5,2.333333333,2,2.166666667
+Joe Claramunt,Division 3,Men,Division 3 Men,Davenport Panthers,5,6,0,12,13,6,0.833333333,1,0,2,2.166666667
+Jack Krugler,Division 1,Men,Division 1 Men,Georgia Jojah,5,2,7,9,13,5,1,0.4,1.4,1.8,2.6
+Isamu Masayoshi Sims,Division 3,Men,Division 3 Men,Claremont Braineaters,9,6,8,8,13,6,1.5,1,1.333333333,1.333333333,2.166666667
+Ian VanOrder,Division 3,Men,Division 3 Men,Berry Bucks,19,8,18,6,13,6,3.166666667,1.333333333,3,1,2.166666667
+Gavin Rice,Division 3,Men,Division 3 Men,Middlebury Pranksters,7,3,11,6,13,5,1.4,0.6,2.2,1.2,2.6
+Gavin Abrahamsson,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,0,3,4,6,13,5,0,0.6,0.8,1.2,2.6
+Ella Monaghan,Division 1,Women,Division 1 Women,Vermont Ruckus,3,1,6,9,13,6,0.5,0.166666667,1,1.5,2.166666667
+Dora McCotter-Hulett,Division 1,Women,Division 1 Women,Stanford Superfly,3,4,9,3,13,7,0.428571429,0.571428571,1.285714286,0.428571429,1.857142857
+David Leder,Division 3,Men,Division 3 Men,Rochester Piggies,30,9,22,12,13,6,5,1.5,3.666666667,2,2.166666667
+Cole Chanler,Division 1,Men,Division 1 Men,Georgia Jojah,2,3,5,7,13,5,0.4,0.6,1,1.4,2.6
+Ciona Antolin,Division 1,Women,Division 1 Women,Washington Element,4,9,4,4,13,5,0.8,1.8,0.8,0.8,2.6
+Chaily Derecskey,Division 1,Women,Division 1 Women,Pennsylvania Venus,1,1,2,11,13,5,0.2,0.2,0.4,2.2,2.6
+Casey Thornton,Division 1,Men,Division 1 Men,Vermont Chill,1,0,7,7,13,5,0.2,0,1.4,1.4,2.6
+Casey Shaw-Merrigan,Division 3,Women,Division 3 Women,Colorado College Zenith,10,9,3,11,13,6,1.666666667,1.5,0.5,1.833333333,2.166666667
+Caroline Stone,Division 1,Women,Division 1 Women,Vermont Ruckus,6,1,8,10,13,6,1,0.166666667,1.333333333,1.666666667,2.166666667
+Calvin Ciorba,Division 3,Men,Division 3 Men,Richmond Spidermonkeys,22,7,24,4,13,6,3.666666667,1.166666667,4,0.666666667,2.166666667
+Brynn Freeland,Division 1,Women,Division 1 Women,Victoria Vikes,6,8,5,6,13,5,1.2,1.6,1,1.2,2.6
+Benjamin Bushley,Division 3,Men,Division 3 Men,Bates Orange Whip,4,2,1,14,13,6,0.666666667,0.333333333,0.166666667,2.333333333,2.166666667
+Anthony Camastro,Division 3,Men,Division 3 Men,Franciscan Fatal,4,2,5,10,13,6,0.666666667,0.333333333,0.833333333,1.666666667,2.166666667
+Amelia Platt,Division 3,Women,Division 3 Women,Wesleyan Vicious Circles,5,5,4,9,13,6,0.833333333,0.833333333,0.666666667,1.5,2.166666667
+Wesley Fransen,Division 3,Men,Division 3 Men,Missouri S&T Miner Threat,10,4,7,11,12,6,1.666666667,0.666666667,1.166666667,1.833333333,2
+Vincent Su,Division 1,Men,Division 1 Men,Cal Ursa Major,5,0,9,8,12,5,1,0,1.8,1.6,2.4
+Syris Linkfield,Division 1,Women,Division 1 Women,Oregon Fugue,11,7,9,7,12,6,1.833333333,1.166666667,1.5,1.166666667,2
+Simone Pierotti,Division 1,Women,Division 1 Women,Colorado Quandary,5,2,8,7,12,7,0.714285714,0.285714286,1.142857143,1,1.714285714
+Ryan Loui-Ying,Division 3,Men,Division 3 Men,Oklahoma Christian Eagles,5,2,9,6,12,5,1,0.4,1.8,1.2,2.4
+Nadia Scoppettone,Division 1,Women,Division 1 Women,Vermont Ruckus,3,5,3,7,12,6,0.5,0.833333333,0.5,1.166666667,2
+Leo Renzema,Division 1,Men,Division 1 Men,Oregon State Beavers,3,2,3,10,12,5,0.6,0.4,0.6,2,2.4
+Jonas Geere,Division 3,Men,Division 3 Men,St Olaf Berzerkers,5,3,8,6,12,6,0.833333333,0.5,1.333333333,1,2
+Jason Tapper,Division 1,Men,Division 1 Men,Brown Brownian Motion,6,1,7,10,12,8,0.75,0.125,0.875,1.25,1.5
+Jamie Miller,Division 3,Men,Division 3 Men,Claremont Braineaters,2,5,3,6,12,6,0.333333333,0.833333333,0.5,1,2
+Jacob Trokel,Division 3,Men,Division 3 Men,Rochester Piggies,4,4,1,11,12,6,0.666666667,0.666666667,0.166666667,1.833333333,2
+Henri Lessard,Division 1,Men,Division 1 Men,NC State Alpha,1,5,0,8,12,6,0.166666667,0.833333333,0,1.333333333,2
+Harriet Dahlstrom,Division 3,Women,Division 3 Women,Middlebury Pranksters,8,3,5,12,12,5,1.6,0.6,1,2.4,2.4
+Grace Maroon,Division 1,Women,Division 1 Women,Pennsylvania Venus,18,9,12,9,12,5,3.6,1.8,2.4,1.8,2.4
+Genevieve Reyland-Slawson,Division 1,Women,Division 1 Women,Colorado State Helle's Belles,1,3,6,4,12,5,0.2,0.6,1.2,0.8,2.4
+Edi Lam,Division 1,Women,Division 1 Women,Tufts EWO,3,1,10,4,12,5,0.6,0.2,2,0.8,2.4
+Cice Kim,Division 1,Women,Division 1 Women,Colorado State Helle's Belles,7,3,3,13,12,5,1.4,0.6,0.6,2.6,2.4
+Adam Wright,Division 3,Men,Division 3 Men,Oberlin Flying Horsecows,5,7,4,6,12,6,0.833333333,1.166666667,0.666666667,1,2
+Zoe Posner,Division 3,Women,Division 3 Women,Colorado College Zenith,2,6,4,3,11,6,0.333333333,1,0.666666667,0.5,1.833333333
+Thomas Preston,Division 3,Men,Division 3 Men,Oklahoma Christian Eagles,3,1,7,6,11,5,0.6,0.2,1.4,1.2,2.2
+Seth Fried,Division 1,Men,Division 1 Men,North Carolina Darkside,0,0,2,9,11,6,0,0,0.333333333,1.5,1.833333333
+Seamus Robinson,Division 1,Men,Division 1 Men,Cal Poly-SLO Slocore,10,3,6,12,11,7,1.428571429,0.428571429,0.857142857,1.714285714,1.571428571
+Ryanne Barrett,Division 1,Women,Division 1 Women,Tufts EWO,5,0,11,5,11,5,1,0,2.2,1,2.2
+Reece Overholt,Division 3,Men,Division 3 Men,Williams WUFO,1,1,2,9,11,6,0.166666667,0.166666667,0.333333333,1.5,1.833333333
+Presten Berg,Division 3,Women,Division 3 Women,Lewis & Clark Artemis,6,6,5,6,11,5,1.2,1.2,1,1.2,2.2
+Nicole lambert,Division 1,Women,Division 1 Women,Stanford Superfly,4,7,0,8,11,7,0.571428571,1,0,1.142857143,1.571428571
+Max Fleming,Division 3,Men,Division 3 Men,Whitman Sweets,7,2,6,10,11,6,1.166666667,0.333333333,1,1.666666667,1.833333333
+Macy Hudson,Division 1,Women,Division 1 Women,North Carolina Pleiades,8,3,9,7,11,7,1.142857143,0.428571429,1.285714286,1,1.571428571
+Levi Tapper,Division 1,Men,Division 1 Men,Colorado Mambird,8,2,4,13,11,7,1.142857143,0.285714286,0.571428571,1.857142857,1.571428571
+Leilani Lepe,Division 3,Women,Division 3 Women,Davenport Panthers,11,9,5,8,11,5,2.2,1.8,1,1.6,2.2
+Katrina McGuire,Division 1,Women,Division 1 Women,Michigan Flywheel,22,3,16,14,11,5,4.4,0.6,3.2,2.8,2.2
+Kailyn Lowder,Division 1,Women,Division 1 Women,North Carolina Pleiades,6,10,1,6,11,7,0.857142857,1.428571429,0.142857143,0.857142857,1.571428571
+Joseph Duerr,Division 3,Men,Division 3 Men,Franciscan Fatal,1,5,2,5,11,6,0.166666667,0.833333333,0.333333333,0.833333333,1.833333333
+Griffin Yas,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,0,0,2,9,11,5,0,0,0.4,1.8,2.2
+Eva Taberski,Division 3,Women,Division 3 Women,Mount Holyoke Daisy Chain,17,10,3,15,11,6,2.833333333,1.666666667,0.5,2.5,1.833333333
+Cameron Freeman,Division 1,Men,Division 1 Men,Washington University Contra,14,4,12,9,11,5,2.8,0.8,2.4,1.8,2.2
+Calvin Stoughton,Division 1,Men,Division 1 Men,Colorado Mambird,2,5,6,2,11,7,0.285714286,0.714285714,0.857142857,0.285714286,1.571428571
+Cade Ashland,Division 3,Men,Division 3 Men,St Olaf Berzerkers,3,0,3,11,11,6,0.5,0,0.5,1.833333333,1.833333333
+Austin Gin,Division 1,Men,Division 1 Men,Minnesota Grey Duck,6,0,6,11,11,5,1.2,0,1.2,2.2,2.2
+Amelie Marshall,Division 1,Women,Division 1 Women,British Columbia Thunderbirds,8,6,11,2,11,6,1.333333333,1,1.833333333,0.333333333,1.833333333
+Aaron Barcio,Division 1,Men,Division 1 Men,Texas TUFF,4,0,9,6,11,5,0.8,0,1.8,1.2,2.2
+Wilson Tryon,Division 1,Men,Division 1 Men,Washington University Contra,3,2,4,7,10,5,0.6,0.4,0.8,1.4,2
+Theresa Yu,Division 1,Women,Division 1 Women,North Carolina Pleiades,14,3,14,7,10,7,2,0.428571429,2,1,1.428571429
+Taylor Dunn,Division 3,Women,Division 3 Women,Mount Holyoke Daisy Chain,1,3,2,6,10,6,0.166666667,0.5,0.333333333,1,1.666666667
+Tatum Cubrilovic,Division 1,Women,Division 1 Women,Vermont Ruckus,4,1,8,5,10,6,0.666666667,0.166666667,1.333333333,0.833333333,1.666666667
+Sierra Petrash,Division 1,Women,Division 1 Women,Colorado Quandary,4,2,7,5,10,7,0.571428571,0.285714286,1,0.714285714,1.428571429
+Sebastian Brauer,Division 1,Men,Division 1 Men,Minnesota Grey Duck,6,1,14,1,10,5,1.2,0.2,2.8,0.2,2
+Sean Brown,Division 1,Men,Division 1 Men,Penn State Spank,3,3,4,6,10,5,0.6,0.6,0.8,1.2,2
+Samuel Tremblay-Larochelle,Division 1,Men,Division 1 Men,Ottawa Gee-Gees,6,4,7,5,10,5,1.2,0.8,1.4,1,2
+Sam Papin,Division 3,Men,Division 3 Men,Missouri S&T Miner Threat,18,8,16,4,10,6,3,1.333333333,2.666666667,0.666666667,1.666666667
+Ryan Shigley,Division 1,Men,Division 1 Men,Colorado Mambird,6,2,7,7,10,7,0.857142857,0.285714286,1,1,1.428571429
+Rutledge Smith,Division 1,Men,Division 1 Men,North Carolina Darkside,4,1,8,5,10,6,0.666666667,0.166666667,1.333333333,0.833333333,1.666666667
+Parker Lin-Butler,Division 1,Men,Division 1 Men,Vermont Chill,0,1,4,5,10,5,0,0.2,0.8,1,2
+Nicholas Bollman,Division 3,Men,Division 3 Men,Williams WUFO,2,2,0,10,10,6,0.333333333,0.333333333,0,1.666666667,1.666666667
+Nathan Wang,Division 3,Men,Division 3 Men,Carleton CHOP,7,4,11,2,10,6,1.166666667,0.666666667,1.833333333,0.333333333,1.666666667
+Malachi Raymond,Division 3,Men,Division 3 Men,Middlebury Pranksters,10,2,7,11,10,5,2,0.4,1.4,2.2,2
+Leah Fulton,Division 1,Women,Division 1 Women,Victoria Vikes,2,2,4,6,10,5,0.4,0.4,0.8,1.2,2
+Kyle Lew,Division 1,Men,Division 1 Men,Cal Poly-SLO Slocore,16,4,18,4,10,7,2.285714286,0.571428571,2.571428571,0.571428571,1.428571429
+Jake Powell,Division 1,Men,Division 1 Men,Georgia Jojah,5,3,10,2,10,5,1,0.6,2,0.4,2
+Isabel Berman,Division 1,Women,Division 1 Women,Vermont Ruckus,1,1,1,9,10,6,0.166666667,0.166666667,0.166666667,1.5,1.666666667
+Helena Tremblay,Division 1,Women,Division 1 Women,British Columbia Thunderbirds,7,1,7,9,10,6,1.166666667,0.166666667,1.166666667,1.5,1.666666667
+Goodness Nwakudu,Division 1,Women,Division 1 Women,California - Santa Cruz Sol,6,5,4,7,10,5,1.2,1,0.8,1.4,2
+Ethan Lavallee,Division 3,Men,Division 3 Men,Middlebury Pranksters,4,1,11,2,10,5,0.8,0.2,2.2,0.4,2
+Eric Treyz,Division 3,Men,Division 3 Men,Bates Orange Whip,6,0,9,7,10,6,1,0,1.5,1.166666667,1.666666667
+Emily Mulhern,Division 3,Women,Division 3 Women,St Olaf Vortex,20,7,21,2,10,5,4,1.4,4.2,0.4,2
+Dexter Luecke,Division 1,Men,Division 1 Men,Colorado Mambird,2,1,5,6,10,7,0.285714286,0.142857143,0.714285714,0.857142857,1.428571429
+Carter Lankford,Division 1,Men,Division 1 Men,Cal Ursa Major,1,2,1,8,10,5,0.2,0.4,0.2,1.6,2
+Brian Trowbridge,Division 1,Men,Division 1 Men,North Carolina Darkside,1,3,0,8,10,6,0.166666667,0.5,0,1.333333333,1.666666667
+Braque Pike,Division 3,Men,Division 3 Men,Oberlin Flying Horsecows,14,2,10,12,10,6,2.333333333,0.333333333,1.666666667,2,1.666666667
+Benjamin Payson,Division 1,Men,Division 1 Men,Vermont Chill,3,1,4,8,10,5,0.6,0.2,0.8,1.6,2
+Avery Goldstein,Division 3,Women,Division 3 Women,Middlebury Pranksters,6,2,3,11,10,5,1.2,0.4,0.6,2.2,2
+Alex Yannelli,Division 1,Men,Division 1 Men,Cal Poly-SLO Slocore,0,1,3,6,10,7,0,0.142857143,0.428571429,0.857142857,1.428571429
+Zachary Marshall,Division 3,Men,Division 3 Men,Oberlin Flying Horsecows,1,2,0,8,9,6,0.166666667,0.333333333,0,1.333333333,1.5
+Sonia Nicholson,Division 3,Women,Division 3 Women,Haverford/Bryn Mawr Sneetches,15,15,4,5,9,6,2.5,2.5,0.666666667,0.833333333,1.5
+Phoebe Hulbert,Division 3,Women,Division 3 Women,Haverford/Bryn Mawr Sneetches,20,17,12,0,9,6,3.333333333,2.833333333,2,0,1.5
+Opal Burruss,Division 1,Women,Division 1 Women,Carleton Syzygy,9,2,8,8,9,6,1.5,0.333333333,1.333333333,1.333333333,1.5
+Mina Brown,Division 1,Women,Division 1 Women,Tufts EWO,4,2,4,7,9,5,0.8,0.4,0.8,1.4,1.8
+Jeremy Long,Division 1,Men,Division 1 Men,Penn State Spank,2,2,7,2,9,5,0.4,0.4,1.4,0.4,1.8
+Isabel Cody,Division 3,Women,Division 3 Women,Colorado College Zenith,9,8,4,6,9,6,1.5,1.333333333,0.666666667,1,1.5
+Ian Mccosky,Division 1,Men,Division 1 Men,Minnesota Grey Duck,5,1,11,2,9,5,1,0.2,2.2,0.4,1.8
+Henry Egan,Division 1,Men,Division 1 Men,Brown Brownian Motion,0,0,0,9,9,8,0,0,0,1.125,1.125
+Ericka Edgell,Division 1,Women,Division 1 Women,Victoria Vikes,13,8,5,9,9,5,2.6,1.6,1,1.8,1.8
+Declan Kervick,Division 1,Men,Division 1 Men,Vermont Chill,4,1,10,2,9,5,0.8,0.2,2,0.4,1.8
+Cooper Andersen,Division 3,Men,Division 3 Men,Whitman Sweets,6,3,7,5,9,6,1,0.5,1.166666667,0.833333333,1.5
+Chagall Gelfand,Division 1,Women,Division 1 Women,Carleton Syzygy,24,7,18,8,9,6,4,1.166666667,3,1.333333333,1.5
+Caroline Spencer,Division 1,Women,Division 1 Women,North Carolina Pleiades,4,4,2,7,9,7,0.571428571,0.571428571,0.285714286,1,1.285714286
+Carly Atwell,Division 1,Women,Division 1 Women,Utah Spiral Jetty,20,2,26,1,9,5,4,0.4,5.2,0.2,1.8
+Cameron Dolbow,Division 3,Men,Division 3 Men,Carleton CHOP,8,0,7,10,9,6,1.333333333,0,1.166666667,1.666666667,1.5
+Caelan McSweeney,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,7,0,14,2,9,5,1.4,0,2.8,0.4,1.8
+Audrey Parrott,Division 1,Women,Division 1 Women,Carleton Syzygy,4,4,1,8,9,6,0.666666667,0.666666667,0.166666667,1.333333333,1.5
+Atkin Arnstein,Division 1,Men,Division 1 Men,Colorado Mambird,3,2,6,4,9,7,0.428571429,0.285714286,0.857142857,0.571428571,1.285714286
+Anthony Jirele,Division 1,Men,Division 1 Men,Minnesota Grey Duck,7,9,2,5,9,5,1.4,1.8,0.4,1,1.8
+Adam Wulkan,Division 1,Men,Division 1 Men,Oregon EGO,3,1,9,2,9,6,0.5,0.166666667,1.5,0.333333333,1.5
+Zayna Hopkins,Division 3,Women,Division 3 Women,Macalester Purse Snatchers,6,8,0,6,8,6,1,1.333333333,0,1,1.333333333
+Wyatt Kellman,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,8,2,6,8,8,5,1.6,0.4,1.2,1.6,1.6
+Viola Deszily,Division 1,Women,Division 1 Women,California - Santa Cruz Sol,8,4,8,4,8,5,1.6,0.8,1.6,0.8,1.6
+Thalia Tzetos,Division 1,Women,Division 1 Women,Oregon Fugue,2,2,1,7,8,6,0.333333333,0.333333333,0.166666667,1.166666667,1.333333333
+Taylor Betonte,Division 1,Women,Division 1 Women,Victoria Vikes,4,4,5,3,8,5,0.8,0.8,1,0.6,1.6
+Sydney Merrell,Division 1,Women,Division 1 Women,Carleton Syzygy,0,3,1,4,8,6,0,0.5,0.166666667,0.666666667,1.333333333
+Sophie Diliberti,Division 3,Women,Division 3 Women,Macalester Purse Snatchers,13,6,4,11,8,6,2.166666667,1,0.666666667,1.833333333,1.333333333
+Sophia Harvey,Division 1,Women,Division 1 Women,Michigan Flywheel,8,5,3,8,8,5,1.6,1,0.6,1.6,1.6
+Sean Wiles,Division 1,Men,Division 1 Men,NC State Alpha,14,4,13,5,8,6,2.333333333,0.666666667,2.166666667,0.833333333,1.333333333
+Scout Noble,Division 3,Women,Division 3 Women,Wesleyan Vicious Circles,24,8,16,8,8,6,4,1.333333333,2.666666667,1.333333333,1.333333333
+Raquel Alegria,Division 3,Women,Division 3 Women,Wellesley Whiptails,7,7,4,4,8,6,1.166666667,1.166666667,0.666666667,0.666666667,1.333333333
+Peter Kotz,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,1,1,0,8,8,5,0.2,0.2,0,1.6,1.6
+Oscar Low,Division 1,Men,Division 1 Men,Brown Brownian Motion,4,2,1,9,8,8,0.5,0.25,0.125,1.125,1
+Matthew McKnight,Division 1,Men,Division 1 Men,North Carolina Darkside,10,3,15,0,8,6,1.666666667,0.5,2.5,0,1.333333333
+Kiana Hu,Division 1,Women,Division 1 Women,Stanford Superfly,14,4,11,7,8,7,2,0.571428571,1.571428571,1,1.142857143
+Kai Kirsch,Division 3,Men,Division 3 Men,Whitman Sweets,7,6,3,6,8,6,1.166666667,1,0.5,1,1.333333333
+Jude Schmiesing,Division 3,Men,Division 3 Men,Franciscan Fatal,22,2,21,7,8,6,3.666666667,0.333333333,3.5,1.166666667,1.333333333
+Jonathan Sillivant,Division 1,Men,Division 1 Men,Alabama-Huntsville Nightmares,12,8,10,2,8,5,2.4,1.6,2,0.4,1.6
+John Clyde,Division 1,Men,Division 1 Men,Texas TUFF,13,0,13,8,8,5,2.6,0,2.6,1.6,1.6
+Jessie Chan,Division 1,Women,Division 1 Women,Tufts EWO,2,0,7,3,8,5,0.4,0,1.4,0.6,1.6
+Isaac Kaplan,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,1,2,4,3,8,5,0.2,0.4,0.8,0.6,1.6
+Emily Przykucki,Division 1,Women,Division 1 Women,North Carolina Pleiades,13,3,12,6,8,7,1.857142857,0.428571429,1.714285714,0.857142857,1.142857143
+Elizabeth Swanson,Division 3,Women,Division 3 Women,Carleton Eclipse,3,1,3,7,8,6,0.5,0.166666667,0.5,1.166666667,1.333333333
+Dodger Middlebrook,Division 1,Men,Division 1 Men,Cal Poly-SLO Slocore,3,1,2,8,8,7,0.428571429,0.142857143,0.285714286,1.142857143,1.142857143
+Dagny Lott,Division 1,Women,Division 1 Women,Pennsylvania Venus,20,9,15,4,8,5,4,1.8,3,0.8,1.6
+Charlie Wagner,Division 3,Men,Division 3 Men,Lewis & Clark Bacchus,15,6,16,1,8,6,2.5,1,2.666666667,0.166666667,1.333333333
+Cece Rhyneer,Division 3,Women,Division 3 Women,Middlebury Pranksters,4,2,3,7,8,5,0.8,0.4,0.6,1.4,1.6
+Carter Halstrom,Division 1,Men,Division 1 Men,Colorado Mambird,0,2,3,3,8,7,0,0.285714286,0.428571429,0.428571429,1.142857143
+Callahan Bosworth,Division 1,Men,Division 1 Men,Oregon State Beavers,5,2,7,4,8,5,1,0.4,1.4,0.8,1.6
+Bennett Schwartz,Division 1,Men,Division 1 Men,Washington University Contra,6,1,5,8,8,5,1.2,0.2,1,1.6,1.6
+Annie Pozzy,Division 1,Women,Division 1 Women,Vermont Ruckus,6,6,7,1,8,6,1,1,1.166666667,0.166666667,1.333333333
+Alex Mullen,Division 1,Men,Division 1 Men,Penn State Spank,13,5,9,7,8,5,2.6,1,1.8,1.4,1.6
+Zoey Hughes,Division 1,Women,Division 1 Women,Oregon Fugue,2,3,1,5,7,6,0.333333333,0.5,0.166666667,0.833333333,1.166666667
+Zachary Watson-Stevens,Division 1,Men,Division 1 Men,Vermont Chill,5,4,2,6,7,5,1,0.8,0.4,1.2,1.4
+Wade Nichols,Division 3,Men,Division 3 Men,Whitman Sweets,7,3,5,6,7,6,1.166666667,0.5,0.833333333,1,1.166666667
+Tej Murthy,Division 1,Men,Division 1 Men,Carleton CUT,6,1,7,5,7,5,1.2,0.2,1.4,1,1.4
+Tanveer Singh Chabba,Division 3,Men,Division 3 Men,Claremont Braineaters,7,3,7,4,7,6,1.166666667,0.5,1.166666667,0.666666667,1.166666667
+Sophie Roback,Division 3,Women,Division 3 Women,Colorado College Zenith,18,9,9,7,7,6,3,1.5,1.5,1.166666667,1.166666667
+Sophia Palmer,Division 1,Women,Division 1 Women,Washington Element,13,0,15,5,7,5,2.6,0,3,1,1.4
+Sophia Fitch,Division 1,Women,Division 1 Women,California - San Diego D-Co,2,2,3,4,7,5,0.4,0.4,0.6,0.8,1.4
+Simon Dowdy,Division 3,Men,Division 3 Men,Berry Bucks,9,2,4,10,7,6,1.5,0.333333333,0.666666667,1.666666667,1.166666667
+Sarah Combs,Division 1,Women,Division 1 Women,North Carolina Pleiades,24,5,12,14,7,7,3.428571429,0.714285714,1.714285714,2,1
+Sam Green,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,0,2,0,5,7,5,0,0.4,0,1,1.4
+Saaketh Palchuru,Division 1,Men,Division 1 Men,Texas TUFF,1,0,6,2,7,5,0.2,0,1.2,0.4,1.4
+Rowan Keller,Division 3,Men,Division 3 Men,Richmond Spidermonkeys,0,2,1,4,7,6,0,0.333333333,0.166666667,0.666666667,1.166666667
+Noah Stovitz,Division 1,Men,Division 1 Men,Washington University Contra,0,4,1,2,7,5,0,0.8,0.2,0.4,1.4
+Nicholas Jeschke,Division 1,Men,Division 1 Men,Washington University Contra,2,1,7,1,7,5,0.4,0.2,1.4,0.2,1.4
+Naomi Fina,Division 1,Women,Division 1 Women,Carleton Syzygy,4,3,0,8,7,6,0.666666667,0.5,0,1.333333333,1.166666667
+Morgan Williams,Division 1,Women,Division 1 Women,Utah Spiral Jetty,5,7,2,3,7,5,1,1.4,0.4,0.6,1.4
+Max Rogers,Division 3,Men,Division 3 Men,Middlebury Pranksters,3,2,5,3,7,5,0.6,0.4,1,0.6,1.4
+Mason Weybright,Division 1,Men,Division 1 Men,Oregon EGO,1,0,2,6,7,6,0.166666667,0,0.333333333,1,1.166666667
+Mara Hindery-Glasinovic,Division 1,Women,Division 1 Women,Oregon Fugue,1,3,2,3,7,6,0.166666667,0.5,0.333333333,0.5,1.166666667
+Madeleine Salunga,Division 3,Women,Division 3 Women,Macalester Purse Snatchers,2,4,2,3,7,6,0.333333333,0.666666667,0.333333333,0.5,1.166666667
+Liz Crawford,Division 3,Women,Division 3 Women,Middlebury Pranksters,9,7,6,3,7,5,1.8,1.4,1.2,0.6,1.4
+Lilliana Werner,Division 1,Women,Division 1 Women,Western Washington Chaos,9,5,9,2,7,5,1.8,1,1.8,0.4,1.4
+Lauren Goddu,Division 1,Women,Division 1 Women,Washington Element,9,6,5,5,7,5,1.8,1.2,1,1,1.4
+Lauren Clayter,Division 1,Women,Division 1 Women,Vermont Ruckus,4,0,3,8,7,6,0.666666667,0,0.5,1.333333333,1.166666667
+Kenni Taylor,Division 1,Men,Division 1 Men,Alabama-Huntsville Nightmares,16,2,13,8,7,5,3.2,0.4,2.6,1.6,1.4
+Kahlil Gould-Bayba,Division 3,Men,Division 3 Men,Lewis & Clark Bacchus,0,2,0,5,7,6,0,0.333333333,0,0.833333333,1.166666667
+Julie Lee,Division 1,Women,Division 1 Women,British Columbia Thunderbirds,7,2,7,5,7,6,1.166666667,0.333333333,1.166666667,0.833333333,1.166666667
+Juliana Eno,Division 3,Women,Division 3 Women,St Olaf Vortex,9,8,3,5,7,5,1.8,1.6,0.6,1,1.4
+Julia Hasbrook,Division 1,Women,Division 1 Women,California - Santa Barbara Burning Skirts,14,3,13,5,7,5,2.8,0.6,2.6,1,1.4
+Joniah Helperin-Lange,Division 3,Men,Division 3 Men,Lewis & Clark Bacchus,1,5,1,2,7,6,0.166666667,0.833333333,0.166666667,0.333333333,1.166666667
+John Laney,Division 1,Men,Division 1 Men,NC State Alpha,1,5,1,2,7,6,0.166666667,0.833333333,0.166666667,0.333333333,1.166666667
+James Whealan,Division 1,Men,Division 1 Men,Cal Poly-SLO Slocore,8,2,7,6,7,7,1.142857143,0.285714286,1,0.857142857,1
+James Baker Jr,Division 1,Men,Division 1 Men,Michigan Magnum,19,4,21,1,7,5,3.8,0.8,4.2,0.2,1.4
+Isaiah Mason,Division 1,Men,Division 1 Men,Alabama-Huntsville Nightmares,10,6,2,9,7,5,2,1.2,0.4,1.8,1.4
+Henry Groves,Division 3,Men,Division 3 Men,Richmond Spidermonkeys,10,3,8,6,7,6,1.666666667,0.5,1.333333333,1,1.166666667
+Hayden Ashley,Division 3,Women,Division 3 Women,Portland UPRoar,41,13,17,18,7,6,6.833333333,2.166666667,2.833333333,3,1.166666667
+Grace Craig,Division 1,Women,Division 1 Women,California - Santa Barbara Burning Skirts,3,5,0,5,7,5,0.6,1,0,1,1.4
+Gavin Zielke,Division 3,Men,Division 3 Men,Berry Bucks,7,2,3,9,7,6,1.166666667,0.333333333,0.5,1.5,1.166666667
+Gabriel Driscoll,Division 3,Men,Division 3 Men,Carleton CHOP,2,1,1,7,7,6,0.333333333,0.166666667,0.166666667,1.166666667,1.166666667
+Eric Crosby Lehmann,Division 3,Men,Division 3 Men,St Olaf Berzerkers,10,6,7,4,7,6,1.666666667,1,1.166666667,0.666666667,1.166666667
+Elijah Hoshide,Division 3,Men,Division 3 Men,Berry Bucks,5,0,7,5,7,6,0.833333333,0,1.166666667,0.833333333,1.166666667
+Doug Hoyer,Division 1,Men,Division 1 Men,Penn State Spank,11,2,11,5,7,5,2.2,0.4,2.2,1,1.4
+Couper Kerns,Division 3,Men,Division 3 Men,Oklahoma Christian Eagles,9,7,3,6,7,5,1.8,1.4,0.6,1.2,1.4
+Cole Krucke,Division 1,Men,Division 1 Men,Georgia Jojah,0,1,3,3,7,5,0,0.2,0.6,0.6,1.4
+Clara Margulius,Division 1,Women,Division 1 Women,Tufts EWO,1,1,2,5,7,5,0.2,0.2,0.4,1,1.4
+Callahan Diercks,Division 1,Men,Division 1 Men,Alabama-Huntsville Nightmares,5,2,4,6,7,5,1,0.4,0.8,1.2,1.4
+Cade White,Division 1,Men,Division 1 Men,Texas TUFF,1,3,0,5,7,5,0.2,0.6,0,1,1.4
+Arianna Edwards,Division 1,Women,Division 1 Women,SUNY - Binghamton Big Bear,5,5,0,7,7,5,1,1,0,1.4,1.4
+Antonio Rueda,Division 1,Men,Division 1 Men,Oregon State Beavers,4,4,5,2,7,5,0.8,0.8,1,0.4,1.4
+Anna Pettis,Division 1,Women,Division 1 Women,Washington Element,2,0,2,7,7,5,0.4,0,0.4,1.4,1.4
+Alexander Hunkins,Division 3,Men,Division 3 Men,Oberlin Flying Horsecows,5,0,6,6,7,6,0.833333333,0,1,1,1.166666667
+Zoe DeLuca,Division 1,Women,Division 1 Women,Georgia Athena,0,0,1,5,6,5,0,0,0.2,1,1.2
+Zachary Loyd,Division 1,Men,Division 1 Men,Michigan Magnum,2,1,0,7,6,5,0.4,0.2,0,1.4,1.2
+Timothy Chango Gasset,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,2,2,1,5,6,5,0.4,0.4,0.2,1,1.2
+Thomas Clayton,Division 3,Men,Division 3 Men,Missouri S&T Miner Threat,3,2,0,7,6,6,0.5,0.333333333,0,1.166666667,1
+Sebastien Kline,Division 3,Men,Division 3 Men,Oberlin Flying Horsecows,2,1,0,7,6,6,0.333333333,0.166666667,0,1.166666667,1
+Sarah Lang,Division 1,Women,Division 1 Women,Georgia Athena,7,6,3,4,6,5,1.4,1.2,0.6,0.8,1.2
+Samuel Roberts,Division 3,Men,Division 3 Men,Oklahoma Christian Eagles,16,0,21,1,6,5,3.2,0,4.2,0.2,1.2
+Sam Rose,Division 1,Men,Division 1 Men,Georgia Jojah,0,1,2,3,6,5,0,0.2,0.4,0.6,1.2
+Olivia Davis,Division 3,Women,Division 3 Women,Haverford/Bryn Mawr Sneetches,6,3,1,8,6,6,1,0.5,0.166666667,1.333333333,1
+Nubia Robles Santiago,Division 1,Women,Division 1 Women,Carleton Syzygy,0,1,2,3,6,6,0,0.166666667,0.333333333,0.5,1
+Nori Catalano,Division 1,Women,Division 1 Women,Colorado Quandary,7,3,4,6,6,7,1,0.428571429,0.571428571,0.857142857,0.857142857
+Mikey Curtis,Division 3,Men,Division 3 Men,Berry Bucks,2,2,1,5,6,6,0.333333333,0.333333333,0.166666667,0.833333333,1
+Melissa Torchio,Division 1,Women,Division 1 Women,SUNY - Binghamton Big Bear,21,3,5,19,6,5,4.2,0.6,1,3.8,1.2
+Maximilian Schmiesing,Division 3,Men,Division 3 Men,Franciscan Fatal,8,2,9,3,6,6,1.333333333,0.333333333,1.5,0.5,1
+Marcus Beidler,Division 1,Men,Division 1 Men,Oregon EGO,2,0,1,7,6,6,0.333333333,0,0.166666667,1.166666667,1
+Maggie Coutts,Division 1,Women,Division 1 Women,Colorado State Helle's Belles,0,1,1,4,6,5,0,0.2,0.2,0.8,1.2
+Maddy Brown,Division 3,Women,Division 3 Women,Carleton Eclipse,14,6,4,10,6,6,2.333333333,1,0.666666667,1.666666667,1
+Luca Harwood,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,4,0,7,3,6,5,0.8,0,1.4,0.6,1.2
+Leo Gentile,Division 3,Men,Division 3 Men,Williams WUFO,3,3,0,6,6,6,0.5,0.5,0,1,1
+Landon Hall,Division 3,Men,Division 3 Men,Davenport Panthers,1,1,0,6,6,6,0.166666667,0.166666667,0,1,1
+Kushal Khangaonkar,Division 1,Men,Division 1 Men,Cal Ursa Major,5,0,5,6,6,5,1,0,1,1.2,1.2
+Kevin Pignone,Division 1,Men,Division 1 Men,North Carolina Darkside,7,1,9,3,6,6,1.166666667,0.166666667,1.5,0.5,1
+Keaton Orser,Division 1,Men,Division 1 Men,Cal Poly-SLO Slocore,2,1,1,6,6,7,0.285714286,0.142857143,0.142857143,0.857142857,0.857142857
+Keali Mccarter,Division 1,Men,Division 1 Men,Oregon EGO,3,6,1,2,6,6,0.5,1,0.166666667,0.333333333,1
+Justin Wallace,Division 3,Men,Division 3 Men,Franciscan Fatal,7,2,6,5,6,6,1.166666667,0.333333333,1,0.833333333,1
+Julian Saunt,Division 1,Men,Division 1 Men,Oregon EGO,2,4,3,1,6,6,0.333333333,0.666666667,0.5,0.166666667,1
+Josh Solomon,Division 1,Men,Division 1 Men,Michigan Magnum,1,1,2,4,6,5,0.2,0.2,0.4,0.8,1.2
+John Mogyordy,Division 3,Men,Division 3 Men,Rochester Piggies,0,0,1,5,6,6,0,0,0.166666667,0.833333333,1
+Jada Himmelberg,Division 3,Women,Division 3 Women,St Olaf Vortex,1,3,2,2,6,5,0.2,0.6,0.4,0.4,1.2
+Jack Ringel,Division 3,Men,Division 3 Men,Rochester Piggies,2,2,3,3,6,6,0.333333333,0.333333333,0.5,0.5,1
+Henry Everett,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,0,1,1,4,6,5,0,0.2,0.2,0.8,1.2
+Harper Baer,Division 1,Women,Division 1 Women,Stanford Superfly,14,4,12,4,6,7,2,0.571428571,1.714285714,0.571428571,0.857142857
+Erica Birdsong,Division 1,Women,Division 1 Women,North Carolina Pleiades,3,3,2,4,6,7,0.428571429,0.428571429,0.285714286,0.571428571,0.857142857
+Emmett Forster,Division 3,Men,Division 3 Men,Carleton CHOP,0,2,1,3,6,6,0,0.333333333,0.166666667,0.5,1
+Emery Goulet,Division 1,Men,Division 1 Men,Cal Ursa Major,2,2,2,4,6,5,0.4,0.4,0.4,0.8,1.2
+Clara Gale,Division 1,Women,Division 1 Women,Carleton Syzygy,4,4,1,5,6,6,0.666666667,0.666666667,0.166666667,0.833333333,1
+Christopher Heron,Division 1,Men,Division 1 Men,Washington University Contra,2,2,2,4,6,5,0.4,0.4,0.4,0.8,1.2
+Carter Hawkins,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,5,2,4,5,6,5,1,0.4,0.8,1,1.2
+Benjamin Morse,Division 3,Men,Division 3 Men,Bates Orange Whip,10,1,3,12,6,6,1.666666667,0.166666667,0.5,2,1
+Ben Tokarz,Division 1,Men,Division 1 Men,Penn State Spank,3,5,2,2,6,5,0.6,1,0.4,0.4,1.2
+Aryanna Chartrand,Division 1,Women,Division 1 Women,Stanford Superfly,2,2,0,6,6,7,0.285714286,0.285714286,0,0.857142857,0.857142857
+Arthur Aucoin,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,1,2,2,3,6,5,0.2,0.4,0.4,0.6,1.2
+Anna Matsui,Division 3,Women,Division 3 Women,Colorado College Zenith,2,2,1,5,6,6,0.333333333,0.333333333,0.166666667,0.833333333,1
+Anika Quon,Division 1,Women,Division 1 Women,Stanford Superfly,7,4,3,6,6,7,1,0.571428571,0.428571429,0.857142857,0.857142857
+Alex Hasenkamp,Division 1,Women,Division 1 Women,Colorado State Helle's Belles,4,1,6,3,6,5,0.8,0.2,1.2,0.6,1.2
+Alex Hall-Witt,Division 1,Men,Division 1 Men,Oregon EGO,0,3,0,3,6,6,0,0.5,0,0.5,1
+Aiden Landis,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,13,1,14,4,6,5,2.6,0.2,2.8,0.8,1.2
+Addie New-Schmidt,Division 3,Women,Division 3 Women,Wellesley Whiptails,13,8,3,8,6,6,2.166666667,1.333333333,0.5,1.333333333,1
+Yayla Tur,Division 1,Women,Division 1 Women,Tufts EWO,0,2,0,3,5,5,0,0.4,0,0.6,1
+Toby Rivera,Division 3,Men,Division 3 Men,Lewis & Clark Bacchus,4,3,5,1,5,6,0.666666667,0.5,0.833333333,0.166666667,0.833333333
+Talon Balcom,Division 1,Men,Division 1 Men,Texas TUFF,2,2,2,3,5,5,0.4,0.4,0.4,0.6,1
+Summers Filion,Division 3,Women,Division 3 Women,Portland UPRoar,0,0,1,4,5,6,0,0,0.166666667,0.666666667,0.833333333
+Sonia Rao,Division 1,Women,Division 1 Women,North Carolina Pleiades,1,2,1,3,5,7,0.142857143,0.285714286,0.142857143,0.428571429,0.714285714
+Sean Rogers,Division 3,Men,Division 3 Men,St Olaf Berzerkers,5,4,4,2,5,6,0.833333333,0.666666667,0.666666667,0.333333333,0.833333333
+Sarah Lester,Division 3,Women,Division 3 Women,St Olaf Vortex,3,3,0,5,5,5,0.6,0.6,0,1,1
+Roger Zeng,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,0,0,2,3,5,5,0,0,0.4,0.6,1
+Pilar Andruet,Division 3,Women,Division 3 Women,Carleton Eclipse,3,4,1,3,5,6,0.5,0.666666667,0.166666667,0.5,0.833333333
+Philip Acimovic,Division 1,Men,Division 1 Men,Ottawa Gee-Gees,10,6,5,4,5,5,2,1.2,1,0.8,1
+Paka Ferrer,Division 1,Women,Division 1 Women,Washington Element,3,4,2,2,5,5,0.6,0.8,0.4,0.4,1
+Owen Lehmkuhl,Division 3,Men,Division 3 Men,St Olaf Berzerkers,4,3,1,5,5,6,0.666666667,0.5,0.166666667,0.833333333,0.833333333
+Nicholas Gohar,Division 1,Men,Division 1 Men,Ottawa Gee-Gees,3,1,3,4,5,5,0.6,0.2,0.6,0.8,1
+Morey Averill,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,1,5,0,1,5,5,0.2,1,0,0.2,1
+Molly Bingham,Division 1,Women,Division 1 Women,California - Santa Cruz Sol,0,1,0,4,5,5,0,0.2,0,0.8,1
+Max Sponseller,Division 3,Men,Division 3 Men,St Olaf Berzerkers,5,1,5,4,5,6,0.833333333,0.166666667,0.833333333,0.666666667,0.833333333
+Mauricio Badillo Moorman,Division 1,Men,Division 1 Men,Carleton CUT,3,1,2,5,5,5,0.6,0.2,0.4,1,1
+Lisa Wei,Division 1,Women,Division 1 Women,North Carolina Pleiades,2,2,1,4,5,7,0.285714286,0.285714286,0.142857143,0.571428571,0.714285714
+Kayla Hickey,Division 1,Women,Division 1 Women,Washington Element,7,2,5,5,5,5,1.4,0.4,1,1,1
+Katie Craven,Division 3,Women,Division 3 Women,Colorado College Zenith,7,6,3,3,5,6,1.166666667,1,0.5,0.5,0.833333333
+Kathleen Bourdon,Division 1,Women,Division 1 Women,Victoria Vikes,11,5,6,5,5,5,2.2,1,1.2,1,1
+Kate Goodman,Division 3,Women,Division 3 Women,Middlebury Pranksters,1,1,4,1,5,5,0.2,0.2,0.8,0.2,1
+Julia Mockert,Division 3,Women,Division 3 Women,St Olaf Vortex,2,4,2,1,5,5,0.4,0.8,0.4,0.2,1
+Jolie Krebs,Division 1,Women,Division 1 Women,SUNY - Binghamton Big Bear,53,15,38,5,5,5,10.6,3,7.6,1,1
+John Savage,Division 3,Men,Division 3 Men,Middlebury Pranksters,2,1,5,1,5,5,0.4,0.2,1,0.2,1
+Joe Salitsky,Division 3,Men,Division 3 Men,Franciscan Fatal,7,5,5,2,5,6,1.166666667,0.833333333,0.833333333,0.333333333,0.833333333
+Jayna Rogers,Division 1,Women,Division 1 Women,Oregon Fugue,2,2,3,2,5,6,0.333333333,0.333333333,0.5,0.333333333,0.833333333
+Jake Worthington,Division 1,Men,Division 1 Men,Texas TUFF,1,2,2,2,5,5,0.2,0.4,0.4,0.4,1
+Jade Remacle,Division 3,Women,Division 3 Women,Davenport Panthers,2,0,1,6,5,5,0.4,0,0.2,1.2,1
+Jacques Paradis,Division 3,Men,Division 3 Men,Claremont Braineaters,4,3,1,5,5,6,0.666666667,0.5,0.166666667,0.833333333,0.833333333
+Jackson Heglie,Division 1,Men,Division 1 Men,Oregon EGO,1,0,0,6,5,6,0.166666667,0,0,1,0.833333333
+Jack Dinsmore,Division 1,Men,Division 1 Men,Cal Ursa Major,0,4,0,1,5,5,0,0.8,0,0.2,1
+Isabel Myers-Miller,Division 1,Women,Division 1 Women,North Carolina Pleiades,5,7,1,2,5,7,0.714285714,1,0.142857143,0.285714286,0.714285714
+Iris Guo,Division 3,Women,Division 3 Women,Macalester Purse Snatchers,1,3,0,3,5,6,0.166666667,0.5,0,0.5,0.833333333
+Hazel DeHarpporte,Division 3,Women,Division 3 Women,Carleton Eclipse,7,6,1,5,5,6,1.166666667,1,0.166666667,0.833333333,0.833333333
+Georgia Walker-Keleher,Division 1,Women,Division 1 Women,Stanford Superfly,1,1,1,4,5,7,0.142857143,0.142857143,0.142857143,0.571428571,0.714285714
+Gavyn Jensen-Schneider,Division 3,Men,Division 3 Men,Carleton CHOP,2,4,0,3,5,6,0.333333333,0.666666667,0,0.5,0.833333333
+Frances Magnuson,Division 3,Women,Division 3 Women,Portland UPRoar,4,3,1,5,5,6,0.666666667,0.5,0.166666667,0.833333333,0.833333333
+Ethan Pigeon,Division 1,Men,Division 1 Men,Penn State Spank,6,3,4,4,5,5,1.2,0.6,0.8,0.8,1
+Emily Cook,Division 1,Women,Division 1 Women,SUNY - Binghamton Big Bear,5,5,0,5,5,5,1,1,0,1,1
+Elijah Axt,Division 3,Men,Division 3 Men,Claremont Braineaters,13,5,3,10,5,6,2.166666667,0.833333333,0.5,1.666666667,0.833333333
+Dominic Kenyon,Division 1,Men,Division 1 Men,Alabama-Huntsville Nightmares,3,1,1,6,5,5,0.6,0.2,0.2,1.2,1
+Cullen Baker,Division 1,Men,Division 1 Men,Carleton CUT,6,2,3,6,5,5,1.2,0.4,0.6,1.2,1
+Conor Babcock O'Neill,Division 1,Men,Division 1 Men,Carleton CUT,3,0,1,7,5,5,0.6,0,0.2,1.4,1
+Christopher Kiepert,Division 1,Men,Division 1 Men,Vermont Chill,14,4,9,6,5,5,2.8,0.8,1.8,1.2,1
+Chase Drinkwater,Division 1,Men,Division 1 Men,Vermont Chill,3,2,2,4,5,5,0.6,0.4,0.4,0.8,1
+Chander Boyd-Fliegel,Division 1,Men,Division 1 Men,Oregon EGO,10,1,11,3,5,6,1.666666667,0.166666667,1.833333333,0.5,0.833333333
+Catherine Fradenburg,Division 1,Women,Division 1 Women,North Carolina Pleiades,2,3,0,4,5,7,0.285714286,0.428571429,0,0.571428571,0.714285714
+Carter Schafer,Division 3,Men,Division 3 Men,St Olaf Berzerkers,0,3,1,1,5,6,0,0.5,0.166666667,0.166666667,0.833333333
+Cameron Lowe,Division 3,Men,Division 3 Men,Rochester Piggies,23,5,15,8,5,6,3.833333333,0.833333333,2.5,1.333333333,0.833333333
+Bix Weissberg,Division 3,Men,Division 3 Men,Oberlin Flying Horsecows,4,3,4,2,5,6,0.666666667,0.5,0.666666667,0.333333333,0.833333333
+Aria Kischner,Division 1,Women,Division 1 Women,Carleton Syzygy,6,3,1,7,5,6,1,0.5,0.166666667,1.166666667,0.833333333
+Annika Wolberg,Division 3,Women,Division 3 Women,Wellesley Whiptails,20,11,7,7,5,6,3.333333333,1.833333333,1.166666667,1.166666667,0.833333333
+Amanda Roberts,Division 3,Women,Division 3 Women,Wellesley Whiptails,7,7,1,4,5,6,1.166666667,1.166666667,0.166666667,0.666666667,0.833333333
+Alison Brzostowicz,Division 1,Women,Division 1 Women,Colorado Quandary,9,6,1,7,5,7,1.285714286,0.857142857,0.142857143,1,0.714285714
+alex santai,Division 3,Men,Division 3 Men,Oklahoma Christian Eagles,5,0,7,3,5,5,1,0,1.4,0.6,1
+Akos Konkoly,Division 1,Men,Division 1 Men,Minnesota Grey Duck,0,1,2,2,5,5,0,0.2,0.4,0.4,1
+Adam McNichols,Division 1,Men,Division 1 Men,Oregon EGO,3,1,2,5,5,6,0.5,0.166666667,0.333333333,0.833333333,0.833333333
+Aaron Bedi,Division 3,Men,Division 3 Men,Oberlin Flying Horsecows,1,5,1,0,5,6,0.166666667,0.833333333,0.166666667,0,0.833333333
+William Ahlstrom,Division 3,Men,Division 3 Men,Lewis & Clark Bacchus,6,4,0,6,4,6,1,0.666666667,0,1,0.666666667
+Vincent Sullivan,Division 3,Men,Division 3 Men,Middlebury Pranksters,0,0,0,4,4,5,0,0,0,0.8,0.8
+Tyler Shelton,Division 3,Men,Division 3 Men,Lewis & Clark Bacchus,4,2,2,4,4,6,0.666666667,0.333333333,0.333333333,0.666666667,0.666666667
+Spencer Whitcomb,Division 1,Men,Division 1 Men,Penn State Spank,2,2,3,1,4,5,0.4,0.4,0.6,0.2,0.8
+Silas Camp,Division 3,Men,Division 3 Men,Berry Bucks,0,2,1,1,4,6,0,0.333333333,0.166666667,0.166666667,0.666666667
+Sebastian Heredia,Division 3,Men,Division 3 Men,Claremont Braineaters,0,0,1,3,4,6,0,0,0.166666667,0.5,0.666666667
+Sasha Monks,Division 3,Women,Division 3 Women,Carleton Eclipse,6,3,5,2,4,6,1,0.5,0.833333333,0.333333333,0.666666667
+Sarah Rifkin,Division 3,Women,Division 3 Women,Middlebury Pranksters,16,4,11,5,4,5,3.2,0.8,2.2,1,0.8
+Sarah Malone,Division 3,Women,Division 3 Women,Colorado College Zenith,1,0,0,5,4,6,0.166666667,0,0,0.833333333,0.666666667
+Sara Garcia,Division 3,Women,Division 3 Women,Grinnell Grinneleanor Roosevelts,15,4,6,9,4,6,2.5,0.666666667,1,1.5,0.666666667
+Ryan Bliss,Division 1,Men,Division 1 Men,Vermont Chill,6,0,7,3,4,5,1.2,0,1.4,0.6,0.8
+Robert McAllister,Division 1,Men,Division 1 Men,NC State Alpha,1,1,2,2,4,6,0.166666667,0.166666667,0.333333333,0.333333333,0.666666667
+Riley Raker,Division 1,Women,Division 1 Women,California - Santa Barbara Burning Skirts,3,1,4,2,4,5,0.6,0.2,0.8,0.4,0.8
+Rachel Prager,Division 1,Women,Division 1 Women,Colorado State Helle's Belles,1,2,1,2,4,5,0.2,0.4,0.2,0.4,0.8
+Rachel Poppleton,Division 3,Women,Division 3 Women,Carleton Eclipse,3,4,2,1,4,6,0.5,0.666666667,0.333333333,0.166666667,0.666666667
+Nora Ito,Division 3,Women,Division 3 Women,Colorado College Zenith,1,0,4,1,4,6,0.166666667,0,0.666666667,0.166666667,0.666666667
+Nobi (Masao) Lorenz,Division 1,Men,Division 1 Men,Carleton CUT,3,0,2,5,4,5,0.6,0,0.4,1,0.8
+Nadav Melamede,Division 3,Men,Division 3 Men,Middlebury Pranksters,3,0,3,4,4,5,0.6,0,0.6,0.8,0.8
+Monica O'Brien Saez,Division 1,Women,Division 1 Women,California - Santa Cruz Sol,6,3,2,5,4,5,1.2,0.6,0.4,1,0.8
+Mitchell Gibson,Division 1,Men,Division 1 Men,Cal Ursa Major,0,2,0,2,4,5,0,0.4,0,0.4,0.8
+Maxime Ayad,Division 1,Men,Division 1 Men,Ottawa Gee-Gees,7,3,4,4,4,5,1.4,0.6,0.8,0.8,0.8
+Matt Fliegel,Division 3,Men,Division 3 Men,Richmond Spidermonkeys,1,0,1,4,4,6,0.166666667,0,0.166666667,0.666666667,0.666666667
+Mars Bau,Division 1,Women,Division 1 Women,California - San Diego D-Co,0,1,0,3,4,5,0,0.2,0,0.6,0.8
+Maria Muller,Division 1,Women,Division 1 Women,Vermont Ruckus,0,1,0,3,4,6,0,0.166666667,0,0.5,0.666666667
+Mandy Li,Division 1,Women,Division 1 Women,British Columbia Thunderbirds,3,2,1,4,4,6,0.5,0.333333333,0.166666667,0.666666667,0.666666667
+Madeline Wychocki,Division 3,Women,Division 3 Women,Mount Holyoke Daisy Chain,1,1,2,2,4,6,0.166666667,0.166666667,0.333333333,0.333333333,0.666666667
+Leo Narbonne,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,0,1,0,3,4,5,0,0.2,0,0.6,0.8
+Leah Silverman,Division 1,Women,Division 1 Women,Vermont Ruckus,8,3,4,5,4,6,1.333333333,0.5,0.666666667,0.833333333,0.666666667
+Kristof Rohaly-Medved,Division 1,Men,Division 1 Men,Vermont Chill,4,1,0,7,4,5,0.8,0.2,0,1.4,0.8
+Kiera Schreiber,Division 1,Women,Division 1 Women,Colorado State Helle's Belles,3,0,0,7,4,5,0.6,0,0,1.4,0.8
+Kenneth Stanley,Division 3,Men,Division 3 Men,Missouri S&T Miner Threat,1,4,0,1,4,6,0.166666667,0.666666667,0,0.166666667,0.666666667
+Julia Smith,Division 3,Women,Division 3 Women,Grinnell Grinneleanor Roosevelts,7,4,4,3,4,6,1.166666667,0.666666667,0.666666667,0.5,0.666666667
+Joe Hess,Division 1,Men,Division 1 Men,Washington University Contra,0,1,0,3,4,5,0,0.2,0,0.6,0.8
+Jamie Jung,Division 1,Women,Division 1 Women,British Columbia Thunderbirds,6,5,1,4,4,6,1,0.833333333,0.166666667,0.666666667,0.666666667
+Jackson Knox (Oregon),Division 1,Men,Division 1 Men,Oregon EGO,1,1,1,3,4,6,0.166666667,0.166666667,0.166666667,0.5,0.666666667
+Jack Schmader,Division 1,Men,Division 1 Men,Michigan Magnum,1,2,1,2,4,5,0.2,0.4,0.2,0.4,0.8
+Hiatt von Alten,Division 1,Men,Division 1 Men,NC State Alpha,0,0,1,3,4,6,0,0,0.166666667,0.5,0.666666667
+Henry Chen,Division 1,Men,Division 1 Men,North Carolina Darkside,0,3,1,0,4,6,0,0.5,0.166666667,0,0.666666667
+Gus Serff-Roberts,Division 1,Men,Division 1 Men,Oregon State Beavers,1,1,4,0,4,5,0.2,0.2,0.8,0,0.8
+Gavin Babbitt,Division 1,Men,Division 1 Men,Texas TUFF,1,1,3,1,4,5,0.2,0.2,0.6,0.2,0.8
+Galen Moll,Division 1,Men,Division 1 Men,Oregon State Beavers,3,2,0,5,4,5,0.6,0.4,0,1,0.8
+Ezra Tock,Division 3,Men,Division 3 Men,Rochester Piggies,1,2,1,2,4,6,0.166666667,0.333333333,0.166666667,0.333333333,0.666666667
+Ethan Greeley,Division 3,Men,Division 3 Men,Richmond Spidermonkeys,3,2,2,3,4,6,0.5,0.333333333,0.333333333,0.5,0.666666667
+Emma Wennberg,Division 1,Women,Division 1 Women,Pennsylvania Venus,1,3,1,1,4,5,0.2,0.6,0.2,0.2,0.8
+Ellison Martin,Division 1,Women,Division 1 Women,Georgia Athena,0,2,0,2,4,5,0,0.4,0,0.4,0.8
+Ellie Kowalski,Division 1,Women,Division 1 Women,Tufts EWO,4,2,4,2,4,5,0.8,0.4,0.8,0.4,0.8
+Dylan Wilcox,Division 1,Women,Division 1 Women,Vermont Ruckus,1,2,0,3,4,6,0.166666667,0.333333333,0,0.5,0.666666667
+Dylan Pearson,Division 1,Men,Division 1 Men,Cal Ursa Major,0,0,2,2,4,5,0,0,0.4,0.4,0.8
+Daniel Ferriter,Division 1,Men,Division 1 Men,NC State Alpha,10,3,9,2,4,6,1.666666667,0.5,1.5,0.333333333,0.666666667
+Colin Pfister,Division 3,Men,Division 3 Men,Whitman Sweets,7,2,7,2,4,6,1.166666667,0.333333333,1.166666667,0.333333333,0.666666667
+Charlotte Andreasen,Division 1,Women,Division 1 Women,Michigan Flywheel,4,3,2,3,4,5,0.8,0.6,0.4,0.6,0.8
+Carter Petrella,Division 3,Men,Division 3 Men,St Olaf Berzerkers,6,2,4,4,4,6,1,0.333333333,0.666666667,0.666666667,0.666666667
+Carter Neuman,Division 1,Men,Division 1 Men,Georgia Jojah,1,2,0,3,4,5,0.2,0.4,0,0.6,0.8
+Carson Crouch,Division 1,Men,Division 1 Men,Cal Poly-SLO Slocore,3,2,3,2,4,7,0.428571429,0.285714286,0.428571429,0.285714286,0.571428571
+Bryn Norton,Division 3,Women,Division 3 Women,Union Jillz,6,7,1,2,4,6,1,1.166666667,0.166666667,0.333333333,0.666666667
+Benjamin Travers,Division 3,Men,Division 3 Men,Lewis & Clark Bacchus,13,0,7,10,4,6,2.166666667,0,1.166666667,1.666666667,0.666666667
+Ben Fuguet,Division 3,Men,Division 3 Men,Oberlin Flying Horsecows,21,9,13,3,4,6,3.5,1.5,2.166666667,0.5,0.666666667
+Aylen Learned,Division 1,Men,Division 1 Men,Colorado Mambird,5,0,7,2,4,7,0.714285714,0,1,0.285714286,0.571428571
+Audrey AlQatami,Division 3,Women,Division 3 Women,Occidental WAC,8,5,3,4,4,6,1.333333333,0.833333333,0.5,0.666666667,0.666666667
+Anna Roth,Division 3,Women,Division 3 Women,Haverford/Bryn Mawr Sneetches,0,0,2,2,4,6,0,0,0.333333333,0.333333333,0.666666667
+Amy Tse,Division 3,Women,Division 3 Women,Haverford/Bryn Mawr Sneetches,24,14,9,5,4,6,4,2.333333333,1.5,0.833333333,0.666666667
+Alyssa Fallon,Division 1,Women,Division 1 Women,Georgia Athena,0,1,0,3,4,5,0,0.2,0,0.6,0.8
+Alesh Fremouw,Division 1,Men,Division 1 Men,Oregon State Beavers,1,3,0,2,4,5,0.2,0.6,0,0.4,0.8
+Akshay Bhatia,Division 3,Men,Division 3 Men,Lewis & Clark Bacchus,5,5,2,2,4,6,0.833333333,0.833333333,0.333333333,0.333333333,0.666666667
+Aiden Fields,Division 1,Men,Division 1 Men,NC State Alpha,1,1,1,3,4,6,0.166666667,0.166666667,0.166666667,0.5,0.666666667
+Abigail Stevens,Division 1,Women,Division 1 Women,North Carolina Pleiades,1,3,1,1,4,7,0.142857143,0.428571429,0.142857143,0.142857143,0.571428571
+Zoe McDaniel,Division 1,Women,Division 1 Women,Carleton Syzygy,1,3,1,0,3,6,0.166666667,0.5,0.166666667,0,0.5
+Zane Ross,Division 3,Men,Division 3 Men,St Olaf Berzerkers,0,1,1,1,3,6,0,0.166666667,0.166666667,0.166666667,0.5
+Zachary Kaufman,Division 1,Men,Division 1 Men,Brown Brownian Motion,0,2,0,1,3,8,0,0.25,0,0.125,0.375
+Zach Brennan,Division 1,Men,Division 1 Men,Georgia Jojah,5,4,3,1,3,5,1,0.8,0.6,0.2,0.6
+Yael Kaplan,Division 1,Women,Division 1 Women,California - Santa Cruz Sol,2,2,1,2,3,5,0.4,0.4,0.2,0.4,0.6
+William McGlynn,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,3,0,2,4,3,5,0.6,0,0.4,0.8,0.6
+William Fenimore,Division 3,Men,Division 3 Men,Middlebury Pranksters,3,1,0,5,3,5,0.6,0.2,0,1,0.6
+Will Troop,Division 1,Men,Division 1 Men,Carleton CUT,1,1,2,1,3,5,0.2,0.2,0.4,0.2,0.6
+Wesley Killough-Hill,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,0,2,1,0,3,5,0,0.4,0.2,0,0.6
+Tobey Chang,Division 1,Men,Division 1 Men,Michigan Magnum,1,0,2,2,3,5,0.2,0,0.4,0.4,0.6
+Theo Mahaffey,Division 1,Men,Division 1 Men,Minnesota Grey Duck,1,0,0,4,3,5,0.2,0,0,0.8,0.6
+Teddy Schwartz,Division 3,Men,Division 3 Men,Rochester Piggies,0,0,1,2,3,6,0,0,0.166666667,0.333333333,0.5
+Sarah Zhang,Division 1,Women,Division 1 Women,British Columbia Thunderbirds,0,1,0,2,3,6,0,0.166666667,0,0.333333333,0.5
+Sam Kilgore,Division 1,Men,Division 1 Men,Colorado Mambird,0,1,0,2,3,7,0,0.142857143,0,0.285714286,0.428571429
+Sabine Blumenthal,Division 3,Women,Division 3 Women,Colorado College Zenith,18,11,6,4,3,6,3,1.833333333,1,0.666666667,0.5
+Ryan Ward,Division 3,Men,Division 3 Men,Oberlin Flying Horsecows,13,4,9,3,3,6,2.166666667,0.666666667,1.5,0.5,0.5
+Roni Itkin-Ofer,Division 1,Women,Division 1 Women,Pennsylvania Venus,0,0,1,2,3,5,0,0,0.2,0.4,0.6
+Renaud St-Onge,Division 1,Men,Division 1 Men,Ottawa Gee-Gees,1,1,0,3,3,5,0.2,0.2,0,0.6,0.6
+Rebecca Hazen,Division 3,Women,Division 3 Women,Carleton Eclipse,5,4,2,2,3,6,0.833333333,0.666666667,0.333333333,0.333333333,0.5
+Owen Snyder-Smith,Division 3,Men,Division 3 Men,Middlebury Pranksters,1,3,1,0,3,5,0.2,0.6,0.2,0,0.6
+Owen Alvord,Division 3,Men,Division 3 Men,Whitman Sweets,1,1,1,2,3,6,0.166666667,0.166666667,0.166666667,0.333333333,0.5
+Oliver Faase,Division 1,Men,Division 1 Men,Cal Poly-SLO Slocore,0,1,0,2,3,7,0,0.142857143,0,0.285714286,0.428571429
+Noah Urrutia,Division 1,Men,Division 1 Men,Brown Brownian Motion,0,1,0,2,3,8,0,0.125,0,0.25,0.375
+Noah Krumme,Division 1,Men,Division 1 Men,North Carolina Darkside,1,0,1,3,3,6,0.166666667,0,0.166666667,0.5,0.5
+Noah Edmonds-Estes,Division 3,Men,Division 3 Men,Bates Orange Whip,2,0,2,3,3,6,0.333333333,0,0.333333333,0.5,0.5
+Nico Gabby,Division 1,Men,Division 1 Men,Vermont Chill,2,1,3,1,3,5,0.4,0.2,0.6,0.2,0.6
+Nicholas Cao,Division 1,Men,Division 1 Men,Oregon EGO,1,1,1,2,3,6,0.166666667,0.166666667,0.166666667,0.333333333,0.5
+Miles Goldman,Division 3,Men,Division 3 Men,Richmond Spidermonkeys,3,0,4,2,3,6,0.5,0,0.666666667,0.333333333,0.5
+Mette Peluce,Division 3,Women,Division 3 Women,Lewis & Clark Artemis,0,3,0,0,3,5,0,0.6,0,0,0.6
+Megan Louie,Division 1,Women,Division 1 Women,Washington Element,5,2,3,3,3,5,1,0.4,0.6,0.6,0.6
+May Courtney,Division 3,Women,Division 3 Women,Haverford/Bryn Mawr Sneetches,4,1,0,6,3,6,0.666666667,0.166666667,0,1,0.5
+Max Massey,Division 1,Men,Division 1 Men,Oregon EGO,6,2,4,3,3,6,1,0.333333333,0.666666667,0.5,0.5
+Matt Rix,Division 1,Men,Division 1 Men,Oregon State Beavers,4,0,1,6,3,5,0.8,0,0.2,1.2,0.6
+Marco Willen,Division 3,Men,Division 3 Men,Bates Orange Whip,0,1,0,2,3,6,0,0.166666667,0,0.333333333,0.5
+Marco Muralles,Division 1,Men,Division 1 Men,Oregon EGO,0,1,2,0,3,6,0,0.166666667,0.333333333,0,0.5
+Luke Updike,Division 3,Men,Division 3 Men,Franciscan Fatal,4,3,1,3,3,6,0.666666667,0.5,0.166666667,0.5,0.5
+Louis Douville Beaudoin,Division 3,Men,Division 3 Men,Middlebury Pranksters,1,0,2,2,3,5,0.2,0,0.4,0.4,0.6
+Logan Hammersmith,Division 3,Men,Division 3 Men,Oklahoma Christian Eagles,0,0,1,2,3,5,0,0,0.2,0.4,0.6
+Lena Nyblade,Division 1,Women,Division 1 Women,Colorado Quandary,1,2,0,2,3,7,0.142857143,0.285714286,0,0.285714286,0.428571429
+Lena Millard-Kish,Division 1,Women,Division 1 Women,Washington Element,0,1,1,1,3,5,0,0.2,0.2,0.2,0.6
+Laura Boyd,Division 3,Women,Division 3 Women,Carleton Eclipse,2,1,2,2,3,6,0.333333333,0.166666667,0.333333333,0.333333333,0.5
+Korie Rudin,Division 1,Women,Division 1 Women,Georgia Athena,0,0,0,3,3,5,0,0,0,0.6,0.6
+Kjellen MacBain,Division 3,Men,Division 3 Men,Williams WUFO,10,4,8,1,3,6,1.666666667,0.666666667,1.333333333,0.166666667,0.5
+Kali Bate,Division 3,Women,Division 3 Women,Wellesley Whiptails,14,3,1,13,3,6,2.333333333,0.5,0.166666667,2.166666667,0.5
+Kaisa Olson,Division 3,Women,Division 3 Women,St Olaf Vortex,9,5,1,6,3,5,1.8,1,0.2,1.2,0.6
+Kaia O’Neill,Division 3,Women,Division 3 Women,Lewis & Clark Artemis,2,2,0,3,3,5,0.4,0.4,0,0.6,0.6
+Kai LaMothe,Division 3,Men,Division 3 Men,Williams WUFO,1,1,1,2,3,6,0.166666667,0.166666667,0.166666667,0.333333333,0.5
+Josh Stanton,Division 3,Men,Division 3 Men,St Olaf Berzerkers,2,2,0,3,3,6,0.333333333,0.333333333,0,0.5,0.5
+Josefina O'Toole,Division 1,Women,Division 1 Women,California - San Diego D-Co,4,4,2,1,3,5,0.8,0.8,0.4,0.2,0.6
+Jorre Dahl,Division 3,Men,Division 3 Men,Middlebury Pranksters,4,0,3,4,3,5,0.8,0,0.6,0.8,0.6
+Jenalyn Ng,Division 1,Women,Division 1 Women,British Columbia Thunderbirds,3,4,0,2,3,6,0.5,0.666666667,0,0.333333333,0.5
+Jedidiah Pratt,Division 1,Men,Division 1 Men,Minnesota Grey Duck,0,1,1,1,3,5,0,0.2,0.2,0.2,0.6
+James Euston,Division 3,Men,Division 3 Men,Franciscan Fatal,12,5,9,1,3,6,2,0.833333333,1.5,0.166666667,0.5
+Jake Schwartz,Division 1,Men,Division 1 Men,North Carolina Darkside,0,2,0,1,3,6,0,0.333333333,0,0.166666667,0.5
+Jacob Markus,Division 1,Men,Division 1 Men,Minnesota Grey Duck,3,1,3,2,3,5,0.6,0.2,0.6,0.4,0.6
+Jack McCleary,Division 1,Men,Division 1 Men,North Carolina Darkside,1,4,0,0,3,6,0.166666667,0.666666667,0,0,0.5
+Jack Davis,Division 1,Men,Division 1 Men,Michigan Magnum,0,1,0,2,3,5,0,0.2,0,0.4,0.6
+Ivan Khoo,Division 3,Men,Division 3 Men,Berry Bucks,0,0,2,1,3,6,0,0,0.333333333,0.166666667,0.5
+Isaac Trommer,Division 1,Men,Division 1 Men,Washington University Contra,2,3,0,2,3,5,0.4,0.6,0,0.4,0.6
+Henry Currie,Division 3,Men,Division 3 Men,Whitman Sweets,1,2,1,1,3,6,0.166666667,0.333333333,0.166666667,0.166666667,0.5
+Hayden Fahnhorst,Division 3,Men,Division 3 Men,St Olaf Berzerkers,0,1,1,1,3,6,0,0.166666667,0.166666667,0.166666667,0.5
+Hannah Hackenmueller,Division 1,Women,Division 1 Women,Carleton Syzygy,0,2,0,1,3,6,0,0.333333333,0,0.166666667,0.5
+Graham Gordon,Division 3,Men,Division 3 Men,Carleton CHOP,2,2,1,2,3,6,0.333333333,0.333333333,0.166666667,0.333333333,0.5
+Grace Mattox,Division 1,Women,Division 1 Women,Colorado Quandary,0,0,0,3,3,7,0,0,0,0.428571429,0.428571429
+Genesis Meadows,Division 3,Women,Division 3 Women,Richmond Red Hots,5,3,2,3,3,6,0.833333333,0.5,0.333333333,0.5,0.5
+Geir Hartl,Division 3,Men,Division 3 Men,Middlebury Pranksters,9,2,7,3,3,5,1.8,0.4,1.4,0.6,0.6
+Fin Fuhrmann,Division 1,Men,Division 1 Men,Carleton CUT,6,0,6,3,3,5,1.2,0,1.2,0.6,0.6
+Evelyn Leduc,Division 1,Women,Division 1 Women,Carleton Syzygy,2,2,0,3,3,6,0.333333333,0.333333333,0,0.5,0.5
+Evan Medrow,Division 1,Men,Division 1 Men,Penn State Spank,4,2,2,3,3,5,0.8,0.4,0.4,0.6,0.6
+Evan Kandell,Division 1,Men,Division 1 Men,Cal Ursa Major,2,1,0,4,3,5,0.4,0.2,0,0.8,0.6
+Emily Dalley,Division 1,Women,Division 1 Women,Utah Spiral Jetty,0,0,0,3,3,5,0,0,0,0.6,0.6
+Emi Moreno,Division 1,Women,Division 1 Women,Western Washington Chaos,0,2,1,0,3,5,0,0.4,0.2,0,0.6
+Elliot Green,Division 3,Men,Division 3 Men,Berry Bucks,2,0,3,2,3,6,0.333333333,0,0.5,0.333333333,0.5
+Danny Shope,Division 3,Men,Division 3 Men,Carleton CHOP,8,3,6,2,3,6,1.333333333,0.5,1,0.333333333,0.5
+Constanza Capriles,Division 1,Women,Division 1 Women,Michigan Flywheel,7,7,1,2,3,5,1.4,1.4,0.2,0.4,0.6
+Collin Pearson,Division 3,Men,Division 3 Men,Carleton CHOP,0,0,0,3,3,6,0,0,0,0.5,0.5
+Colby Bong,Division 1,Men,Division 1 Men,Alabama-Huntsville Nightmares,0,3,0,0,3,5,0,0.6,0,0,0.6
+Charles Forster,Division 3,Men,Division 3 Men,Oberlin Flying Horsecows,0,1,1,1,3,6,0,0.166666667,0.166666667,0.166666667,0.5
+Chanel van Ginkel,Division 1,Women,Division 1 Women,Utah Spiral Jetty,2,4,0,1,3,5,0.4,0.8,0,0.2,0.6
+Caroline Lukasick,Division 3,Women,Division 3 Women,Union Jillz,7,4,0,6,3,6,1.166666667,0.666666667,0,1,0.5
+Camryn Hines,Division 3,Women,Division 3 Women,Portland UPRoar,0,1,0,2,3,6,0,0.166666667,0,0.333333333,0.5
+Cameron Curney,Division 1,Men,Division 1 Men,Brown Brownian Motion,0,2,0,1,3,8,0,0.25,0,0.125,0.375
+Brooke Chomko,Division 1,Women,Division 1 Women,Tufts EWO,0,1,1,1,3,5,0,0.2,0.2,0.2,0.6
+Bria Stocker,Division 1,Women,Division 1 Women,Michigan Flywheel,3,4,1,1,3,5,0.6,0.8,0.2,0.2,0.6
+Brenden Gasper,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,0,1,2,0,3,5,0,0.2,0.4,0,0.6
+Breanna Campbell,Division 1,Women,Division 1 Women,Michigan Flywheel,1,0,0,4,3,5,0.2,0,0,0.8,0.6
+Bradley Fleming,Division 1,Men,Division 1 Men,Alabama-Huntsville Nightmares,3,2,3,1,3,5,0.6,0.4,0.6,0.2,0.6
+Bodhi Harmony,Division 1,Men,Division 1 Men,North Carolina Darkside,1,1,1,2,3,6,0.166666667,0.166666667,0.166666667,0.333333333,0.5
+Bobby Eleveld,Division 1,Men,Division 1 Men,Carleton CUT,2,3,1,1,3,5,0.4,0.6,0.2,0.2,0.6
+Austin King,Division 1,Men,Division 1 Men,Minnesota Grey Duck,3,0,1,5,3,5,0.6,0,0.2,1,0.6
+Audrey Deligan,Division 3,Women,Division 3 Women,Grinnell Grinneleanor Roosevelts,3,3,2,1,3,6,0.5,0.5,0.333333333,0.166666667,0.5
+Anna Eifert,Division 3,Women,Division 3 Women,Carleton Eclipse,4,3,2,2,3,6,0.666666667,0.5,0.333333333,0.333333333,0.5
+Andrew Yeh,Division 3,Men,Division 3 Men,Carleton CHOP,5,3,5,0,3,6,0.833333333,0.5,0.833333333,0,0.5
+Andrew Purcell,Division 3,Men,Division 3 Men,Berry Bucks,0,2,1,0,3,6,0,0.333333333,0.166666667,0,0.5
+Andie Madsen,Division 1,Women,Division 1 Women,Utah Spiral Jetty,3,4,0,2,3,5,0.6,0.8,0,0.4,0.6
+Ami Endo,Division 3,Men,Division 3 Men,Carleton CHOP,4,2,0,5,3,6,0.666666667,0.333333333,0,0.833333333,0.5
+Allen MacMillan,Division 1,Men,Division 1 Men,NC State Alpha,4,1,5,1,3,6,0.666666667,0.166666667,0.833333333,0.166666667,0.5
+Aidan Stark-Chessa,Division 3,Men,Division 3 Men,Bates Orange Whip,5,3,0,5,3,6,0.833333333,0.5,0,0.833333333,0.5
+Aidan Byrne,Division 3,Men,Division 3 Men,Missouri S&T Miner Threat,5,3,0,5,3,6,0.833333333,0.5,0,0.833333333,0.5
+Adriel Portillo,Division 3,Men,Division 3 Men,Berry Bucks,1,3,1,0,3,6,0.166666667,0.5,0.166666667,0,0.5
+Zoe Luke,Division 1,Women,Division 1 Women,Oregon Fugue,10,4,3,5,2,6,1.666666667,0.666666667,0.5,0.833333333,0.333333333
+Wyatt Crow,Division 1,Men,Division 1 Men,Minnesota Grey Duck,0,1,0,1,2,5,0,0.2,0,0.2,0.4
+Wyatt Colburn,Division 1,Men,Division 1 Men,Cal Poly-SLO Slocore,2,3,1,0,2,7,0.285714286,0.428571429,0.142857143,0,0.285714286
+William Cox,Division 1,Men,Division 1 Men,Alabama-Huntsville Nightmares,1,0,0,3,2,5,0.2,0,0,0.6,0.4
+William Beyreis,Division 3,Men,Division 3 Men,Williams WUFO,0,0,0,2,2,6,0,0,0,0.333333333,0.333333333
+William Anderson,Division 3,Men,Division 3 Men,Carleton CHOP,1,2,0,1,2,6,0.166666667,0.333333333,0,0.166666667,0.333333333
+True Hanson,Division 1,Men,Division 1 Men,Vermont Chill,1,0,2,1,2,5,0.2,0,0.4,0.2,0.4
+Tova Benson,Division 3,Women,Division 3 Women,Lewis & Clark Artemis,2,1,1,2,2,5,0.4,0.2,0.2,0.4,0.4
+Tobias Paperno,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,1,0,2,1,2,5,0.2,0,0.4,0.2,0.4
+Theo Gobeil,Division 1,Men,Division 1 Men,Ottawa Gee-Gees,4,2,2,2,2,5,0.8,0.4,0.4,0.4,0.4
+Thais Thomas,Division 1,Women,Division 1 Women,Oregon Fugue,3,0,1,4,2,6,0.5,0,0.166666667,0.666666667,0.333333333
+Terron Ross,Division 1,Men,Division 1 Men,Ottawa Gee-Gees,6,1,3,4,2,5,1.2,0.2,0.6,0.8,0.4
+Tejas Sivarajakumar,Division 1,Men,Division 1 Men,NC State Alpha,3,1,2,2,2,6,0.5,0.166666667,0.333333333,0.333333333,0.333333333
+Sylvie Shaya,Division 3,Women,Division 3 Women,Wellesley Whiptails,2,0,0,4,2,6,0.333333333,0,0,0.666666667,0.333333333
+Susannah Cornell,Division 3,Women,Division 3 Women,Wesleyan Vicious Circles,3,3,0,2,2,6,0.5,0.5,0,0.333333333,0.333333333
+Soren Severens,Division 3,Men,Division 3 Men,Whitman Sweets,3,1,3,1,2,6,0.5,0.166666667,0.5,0.166666667,0.333333333
+Sophie Carpenter,Division 3,Women,Division 3 Women,Macalester Purse Snatchers,10,2,3,7,2,6,1.666666667,0.333333333,0.5,1.166666667,0.333333333
+Sophie Addison,Division 3,Women,Division 3 Women,Colorado College Zenith,3,2,1,2,2,6,0.5,0.333333333,0.166666667,0.333333333,0.333333333
+Simon Korotzer-Mariani,Division 3,Men,Division 3 Men,Oberlin Flying Horsecows,4,0,1,5,2,6,0.666666667,0,0.166666667,0.833333333,0.333333333
+Shane Keeton,Division 3,Men,Division 3 Men,Missouri S&T Miner Threat,0,1,0,1,2,6,0,0.166666667,0,0.166666667,0.333333333
+Serena Goldstone,Division 3,Women,Division 3 Women,Occidental WAC,4,2,3,1,2,6,0.666666667,0.333333333,0.5,0.166666667,0.333333333
+Saxon Egge,Division 3,Men,Division 3 Men,Oberlin Flying Horsecows,0,0,0,2,2,6,0,0,0,0.333333333,0.333333333
+Sarah Trouwborst,Division 3,Women,Division 3 Women,Union Jillz,5,2,2,3,2,6,0.833333333,0.333333333,0.333333333,0.5,0.333333333
+Samuel Teppo,Division 1,Men,Division 1 Men,Michigan Magnum,0,1,1,0,2,5,0,0.2,0.2,0,0.4
+Samuel Redinbo,Division 1,Men,Division 1 Men,North Carolina Darkside,1,2,0,1,2,6,0.166666667,0.333333333,0,0.166666667,0.333333333
+Samuel Laur,Division 1,Men,Division 1 Men,Cal Ursa Major,4,2,2,2,2,5,0.8,0.4,0.4,0.4,0.4
+Sam Jordan,Division 1,Men,Division 1 Men,Oregon State Beavers,0,1,0,1,2,5,0,0.2,0,0.2,0.4
+Sam Hussey,Division 3,Men,Division 3 Men,Richmond Spidermonkeys,2,2,1,1,2,6,0.333333333,0.333333333,0.166666667,0.166666667,0.333333333
+Ryan Reinhart,Division 1,Men,Division 1 Men,Texas TUFF,2,0,2,2,2,5,0.4,0,0.4,0.4,0.4
+Ruby Kauffman-Rosengarten,Division 3,Women,Division 3 Women,Wesleyan Vicious Circles,4,1,2,3,2,6,0.666666667,0.166666667,0.333333333,0.5,0.333333333
+Richard Dragicevich,Division 3,Men,Division 3 Men,Davenport Panthers,0,0,1,1,2,6,0,0,0.166666667,0.166666667,0.333333333
+Riah Burrows,Division 3,Men,Division 3 Men,Oberlin Flying Horsecows,0,0,0,2,2,6,0,0,0,0.333333333,0.333333333
+Rebecca Zhang,Division 1,Women,Division 1 Women,Michigan Flywheel,4,0,3,3,2,5,0.8,0,0.6,0.6,0.4
+Rachel Katzovitz,Division 3,Women,Division 3 Women,St Olaf Vortex,14,5,0,11,2,5,2.8,1,0,2.2,0.4
+Prunella Crombie Presberg,Division 1,Women,Division 1 Women,California - Santa Cruz Sol,10,8,1,3,2,5,2,1.6,0.2,0.6,0.4
+Presley Smith,Division 3,Men,Division 3 Men,Williams WUFO,0,1,0,1,2,6,0,0.166666667,0,0.166666667,0.333333333
+Philippa Steinberg,Division 1,Women,Division 1 Women,Washington Element,0,1,0,1,2,5,0,0.2,0,0.2,0.4
+Peter Free,Division 3,Men,Division 3 Men,Franciscan Fatal,0,1,0,1,2,6,0,0.166666667,0,0.166666667,0.333333333
+Parissa Teli,Division 1,Women,Division 1 Women,California - San Diego D-Co,0,0,0,2,2,5,0,0,0,0.4,0.4
+Pah Na,Division 3,Men,Division 3 Men,Carleton CHOP,1,2,0,1,2,6,0.166666667,0.333333333,0,0.166666667,0.333333333
+Owen Haddad,Division 3,Men,Division 3 Men,Bates Orange Whip,2,1,0,3,2,6,0.333333333,0.166666667,0,0.5,0.333333333
+Omar Semrin,Division 1,Men,Division 1 Men,Colorado Mambird,2,2,0,2,2,7,0.285714286,0.285714286,0,0.285714286,0.285714286
+Oliver Sumners,Division 3,Men,Division 3 Men,Lewis & Clark Bacchus,3,1,1,3,2,6,0.5,0.166666667,0.166666667,0.5,0.333333333
+Noel Sierra,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,3,0,2,3,2,5,0.6,0,0.4,0.6,0.4
+Nima Lhamo,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,1,2,1,0,2,5,0.2,0.4,0.2,0,0.4
+Nico Christakos,Division 1,Men,Division 1 Men,Vermont Chill,2,3,1,0,2,5,0.4,0.6,0.2,0,0.4
+Natalia Maahs,Division 3,Women,Division 3 Women,Colorado College Zenith,4,1,2,3,2,6,0.666666667,0.166666667,0.333333333,0.5,0.333333333
+Mikah Keetch,Division 3,Women,Division 3 Women,Lewis & Clark Artemis,16,4,10,4,2,5,3.2,0.8,2,0.8,0.4
+Mayana Ford,Division 3,Women,Division 3 Women,Macalester Purse Snatchers,0,0,1,1,2,6,0,0,0.166666667,0.166666667,0.333333333
+Maya Beck-Kjer,Division 1,Women,Division 1 Women,Colorado State Helle's Belles,1,1,0,2,2,5,0.2,0.2,0,0.4,0.4
+May Kinnamon,Division 3,Women,Division 3 Women,Macalester Purse Snatchers,3,4,0,1,2,6,0.5,0.666666667,0,0.166666667,0.333333333
+Max Zeltsar,Division 3,Men,Division 3 Men,Middlebury Pranksters,0,0,2,0,2,5,0,0,0.4,0,0.4
+Max Goetz,Division 1,Men,Division 1 Men,North Carolina Darkside,1,0,1,2,2,6,0.166666667,0,0.166666667,0.333333333,0.333333333
+Matti Lee,Division 1,Men,Division 1 Men,NC State Alpha,17,1,9,9,2,6,2.833333333,0.166666667,1.5,1.5,0.333333333
+Mathis Turgeon-Roy,Division 1,Men,Division 1 Men,Ottawa Gee-Gees,2,2,1,1,2,5,0.4,0.4,0.2,0.2,0.4
+Maisie Prendergast,Division 1,Women,Division 1 Women,Utah Spiral Jetty,0,0,0,2,2,5,0,0,0,0.4,0.4
+Madrona Maling,Division 1,Women,Division 1 Women,Washington Element,1,3,0,0,2,5,0.2,0.6,0,0,0.4
+Madeline Trilling,Division 1,Women,Division 1 Women,California - Santa Cruz Sol,0,2,0,0,2,5,0,0.4,0,0,0.4
+Madeline Scott,Division 1,Women,Division 1 Women,Pennsylvania Venus,1,0,0,3,2,5,0.2,0,0,0.6,0.4
+Mackenzie Bunnell,Division 3,Women,Division 3 Women,Wesleyan Vicious Circles,11,5,3,5,2,6,1.833333333,0.833333333,0.5,0.833333333,0.333333333
+Luke Forrester,Division 3,Men,Division 3 Men,Franciscan Fatal,0,0,0,2,2,6,0,0,0,0.333333333,0.333333333
+Luke Duan,Division 1,Men,Division 1 Men,North Carolina Darkside,1,1,1,1,2,6,0.166666667,0.166666667,0.166666667,0.166666667,0.333333333
+Luke Cranor,Division 1,Men,Division 1 Men,Georgia Jojah,0,0,0,2,2,5,0,0,0,0.4,0.4
+Leyla Williams,Division 1,Women,Division 1 Women,Colorado Quandary,2,0,0,4,2,7,0.285714286,0,0,0.571428571,0.285714286
+Leo Xiao,Division 1,Men,Division 1 Men,Carleton CUT,10,1,8,3,2,5,2,0.2,1.6,0.6,0.4
+Leo Sarandos,Division 1,Men,Division 1 Men,Vermont Chill,1,1,1,1,2,5,0.2,0.2,0.2,0.2,0.4
+Leo Jordan,Division 1,Men,Division 1 Men,Carleton CUT,2,0,3,1,2,5,0.4,0,0.6,0.2,0.4
+Leo Dungan-Seaver,Division 3,Men,Division 3 Men,Whitman Sweets,0,1,0,1,2,6,0,0.166666667,0,0.166666667,0.333333333
+Leah Hall,Division 1,Women,Division 1 Women,Oregon Fugue,2,0,3,1,2,6,0.333333333,0,0.5,0.166666667,0.333333333
+Kyle Riley,Division 1,Men,Division 1 Men,Cal Ursa Major,0,0,2,0,2,5,0,0,0.4,0,0.4
+Kiva Zimmerman,Division 3,Men,Division 3 Men,Williams WUFO,5,2,2,3,2,6,0.833333333,0.333333333,0.333333333,0.5,0.333333333
+KayAnna Williams,Division 3,Women,Division 3 Women,Davenport Panthers,0,2,0,0,2,5,0,0.4,0,0,0.4
+Katie Anderson,Division 3,Women,Division 3 Women,Portland UPRoar,0,1,0,1,2,6,0,0.166666667,0,0.166666667,0.333333333
+Kai Hoadley,Division 3,Men,Division 3 Men,Middlebury Pranksters,1,1,0,2,2,5,0.2,0.2,0,0.4,0.4
+Juraj Hurny,Division 3,Men,Division 3 Men,Davenport Panthers,4,3,1,2,2,6,0.666666667,0.5,0.166666667,0.333333333,0.333333333
+Joshua Kolby,Division 1,Men,Division 1 Men,Alabama-Huntsville Nightmares,2,1,1,2,2,5,0.4,0.2,0.2,0.4,0.4
+Joseph Michaud,Division 1,Men,Division 1 Men,Colorado Mambird,1,1,1,1,2,7,0.142857143,0.142857143,0.142857143,0.142857143,0.285714286
+Jose Dasilva,Division 1,Men,Division 1 Men,Michigan Magnum,1,1,0,2,2,5,0.2,0.2,0,0.4,0.4
+Jolene Lee,Division 1,Women,Division 1 Women,Stanford Superfly,1,0,1,2,2,7,0.142857143,0,0.142857143,0.285714286,0.285714286
+John Williams,Division 1,Men,Division 1 Men,Penn State Spank,1,0,1,2,2,5,0.2,0,0.2,0.4,0.4
+John Helgeson,Division 1,Men,Division 1 Men,Minnesota Grey Duck,1,0,1,2,2,5,0.2,0,0.2,0.4,0.4
+John Cordier,Division 3,Men,Division 3 Men,Franciscan Fatal,4,1,1,4,2,6,0.666666667,0.166666667,0.166666667,0.666666667,0.333333333
+Jeremy Sanders,Division 1,Men,Division 1 Men,Georgia Jojah,1,0,1,2,2,5,0.2,0,0.2,0.4,0.4
+Jemia Johnson,Division 1,Women,Division 1 Women,Georgia Athena,0,0,0,2,2,5,0,0,0,0.4,0.4
+Jasper Brown,Division 3,Men,Division 3 Men,Whitman Sweets,1,1,0,2,2,6,0.166666667,0.166666667,0,0.333333333,0.333333333
+James Pekel,Division 3,Men,Division 3 Men,Davenport Panthers,0,2,0,0,2,6,0,0.333333333,0,0,0.333333333
+Jake Lyons,Division 3,Men,Division 3 Men,Middlebury Pranksters,0,0,0,2,2,5,0,0,0,0.4,0.4
+Jacob Tindall,Division 1,Men,Division 1 Men,Washington University Contra,3,4,0,1,2,5,0.6,0.8,0,0.2,0.4
+Jacob Croskey,Division 1,Men,Division 1 Men,Georgia Jojah,0,0,1,1,2,5,0,0,0.2,0.2,0.4
+Jack Rice,Division 1,Men,Division 1 Men,Vermont Chill,8,0,6,4,2,5,1.6,0,1.2,0.8,0.4
+Jack DiCola,Division 3,Men,Division 3 Men,Middlebury Pranksters,0,1,0,1,2,5,0,0.2,0,0.2,0.4
+Isaac Fenster,Division 1,Men,Division 1 Men,Washington University Contra,0,1,1,0,2,5,0,0.2,0.2,0,0.4
+Ian Hill,Division 3,Men,Division 3 Men,Rochester Piggies,1,3,0,0,2,6,0.166666667,0.5,0,0,0.333333333
+Henry Weismann,Division 3,Men,Division 3 Men,Carleton CHOP,3,1,3,1,2,6,0.5,0.166666667,0.5,0.166666667,0.333333333
+Hana Elawady,Division 3,Women,Division 3 Women,Portland UPRoar,3,3,1,1,2,6,0.5,0.5,0.166666667,0.166666667,0.333333333
+Haley Hemeon,Division 1,Women,Division 1 Women,Vermont Ruckus,0,0,0,2,2,6,0,0,0,0.333333333,0.333333333
+Gretchen Berndt,Division 1,Women,Division 1 Women,California - Santa Cruz Sol,2,0,1,3,2,5,0.4,0,0.2,0.6,0.4
+Grace Milhaupt,Division 3,Women,Division 3 Women,St Olaf Vortex,14,5,10,1,2,5,2.8,1,2,0.2,0.4
+Gina Fiore,Division 3,Women,Division 3 Women,Wellesley Whiptails,5,4,1,2,2,6,0.833333333,0.666666667,0.166666667,0.333333333,0.333333333
+Georgia Van der Linden,Division 1,Women,Division 1 Women,Oregon Fugue,2,1,1,2,2,6,0.333333333,0.166666667,0.166666667,0.333333333,0.333333333
+Gaby Dominguez,Division 3,Women,Division 3 Women,Portland UPRoar,1,0,0,3,2,6,0.166666667,0,0,0.5,0.333333333
+Eve Mullen,Division 3,Women,Division 3 Women,Carleton Eclipse,0,1,0,1,2,6,0,0.166666667,0,0.166666667,0.333333333
+Ethan Zhang,Division 1,Men,Division 1 Men,Washington University Contra,1,2,0,1,2,5,0.2,0.4,0,0.2,0.4
+Eric Johnson,Division 1,Men,Division 1 Men,Cal Ursa Major,1,1,1,1,2,5,0.2,0.2,0.2,0.2,0.4
+Eric Harnisher,Division 3,Men,Division 3 Men,Richmond Spidermonkeys,12,5,3,6,2,6,2,0.833333333,0.5,1,0.333333333
+Emmett Warner,Division 1,Men,Division 1 Men,Oregon EGO,1,0,2,1,2,6,0.166666667,0,0.333333333,0.166666667,0.333333333
+Emma Doty,Division 3,Women,Division 3 Women,Haverford/Bryn Mawr Sneetches,1,3,0,0,2,6,0.166666667,0.5,0,0,0.333333333
+Emerson Jenen,Division 3,Men,Division 3 Men,Rochester Piggies,0,1,0,1,2,6,0,0.166666667,0,0.166666667,0.333333333
+Elsa Lindenmeyr,Division 1,Women,Division 1 Women,Western Washington Chaos,2,1,1,2,2,5,0.4,0.2,0.2,0.4,0.4
+Ellie Crema,Division 3,Women,Division 3 Women,Lewis & Clark Artemis,1,2,0,1,2,5,0.2,0.4,0,0.2,0.4
+Devy Weir,Division 1,Women,Division 1 Women,Stanford Superfly,3,4,1,0,2,7,0.428571429,0.571428571,0.142857143,0,0.285714286
+Daniel Estrin,Division 1,Men,Division 1 Men,Colorado Mambird,2,1,0,3,2,7,0.285714286,0.142857143,0,0.428571429,0.285714286
+Clay Rosselot,Division 3,Men,Division 3 Men,Richmond Spidermonkeys,9,3,2,6,2,6,1.5,0.5,0.333333333,1,0.333333333
+Clay Rasmussen,Division 3,Men,Division 3 Men,Claremont Braineaters,8,5,1,4,2,6,1.333333333,0.833333333,0.166666667,0.666666667,0.333333333
+Cindy Yang,Division 1,Women,Division 1 Women,California - Santa Barbara Burning Skirts,0,0,1,1,2,5,0,0,0.2,0.2,0.4
+Char Batchelor,Division 3,Women,Division 3 Women,St Olaf Vortex,3,1,1,3,2,5,0.6,0.2,0.2,0.6,0.4
+Carter Rathur,Division 1,Men,Division 1 Men,Georgia Jojah,0,0,0,2,2,5,0,0,0,0.4,0.4
+Bryelle Wong,Division 1,Women,Division 1 Women,British Columbia Thunderbirds,4,2,3,1,2,6,0.666666667,0.333333333,0.5,0.166666667,0.333333333
+Benji Feidler,Division 1,Men,Division 1 Men,Penn State Spank,3,4,0,1,2,5,0.6,0.8,0,0.2,0.4
+Benjamin Eichner,Division 3,Men,Division 3 Men,Oberlin Flying Horsecows,9,3,4,4,2,6,1.5,0.5,0.666666667,0.666666667,0.333333333
+Benjamin Deppen,Division 1,Men,Division 1 Men,Washington University Contra,0,0,0,2,2,5,0,0,0,0.4,0.4
+Benjamin Canty,Division 3,Men,Division 3 Men,Whitman Sweets,8,0,5,5,2,6,1.333333333,0,0.833333333,0.833333333,0.333333333
+Bella Kim-LaTona,Division 3,Women,Division 3 Women,Wellesley Whiptails,0,1,0,1,2,6,0,0.166666667,0,0.166666667,0.333333333
+Beckett Sessums,Division 1,Men,Division 1 Men,Oregon EGO,2,1,1,2,2,6,0.333333333,0.166666667,0.166666667,0.333333333,0.333333333
+Avery Smith,Division 3,Women,Division 3 Women,Davenport Panthers,6,3,2,3,2,5,1.2,0.6,0.4,0.6,0.4
+Ariel Felcan,Division 1,Women,Division 1 Women,Tufts EWO,3,1,2,2,2,5,0.6,0.2,0.4,0.4,0.4
+Anthony Longo,Division 3,Men,Division 3 Men,Richmond Spidermonkeys,2,2,0,2,2,6,0.333333333,0.333333333,0,0.333333333,0.333333333
+Annie McGarry,Division 3,Women,Division 3 Women,Middlebury Pranksters,1,2,1,0,2,5,0.2,0.4,0.2,0,0.4
+Annabella Wardle,Division 3,Women,Division 3 Women,Carleton Eclipse,5,2,2,3,2,6,0.833333333,0.333333333,0.333333333,0.5,0.333333333
+Annabel Ewing,Division 3,Women,Division 3 Women,Occidental WAC,0,2,0,0,2,6,0,0.333333333,0,0,0.333333333
+Andrew Schultz,Division 1,Men,Division 1 Men,NC State Alpha,0,0,1,1,2,6,0,0,0.166666667,0.166666667,0.333333333
+Ananya Shaligram,Division 1,Women,Division 1 Women,California - San Diego D-Co,0,1,0,1,2,5,0,0.2,0,0.2,0.4
+Amelicha Trinidad Gonzalez,Division 1,Women,Division 1 Women,Tufts EWO,0,1,0,1,2,5,0,0.2,0,0.2,0.4
+Alexandra Flory,Division 3,Women,Division 3 Women,Lewis & Clark Artemis,2,2,0,2,2,5,0.4,0.4,0,0.4,0.4
+Alexander Tayyeb,Division 1,Men,Division 1 Men,NC State Alpha,1,1,2,0,2,6,0.166666667,0.166666667,0.333333333,0,0.333333333
+Alex Gran,Division 3,Men,Division 3 Men,Carleton CHOP,9,2,5,4,2,6,1.5,0.333333333,0.833333333,0.666666667,0.333333333
+Aidan Williams,Division 3,Men,Division 3 Men,Davenport Panthers,2,1,1,2,2,6,0.333333333,0.166666667,0.166666667,0.333333333,0.333333333
+Aidan Tow,Division 3,Men,Division 3 Men,Missouri S&T Miner Threat,2,1,0,3,2,6,0.333333333,0.166666667,0,0.5,0.333333333
+Aidan DeLorenzo,Division 3,Men,Division 3 Men,Middlebury Pranksters,0,1,1,0,2,5,0,0.2,0.2,0,0.4
+Zach Riley,Division 1,Men,Division 1 Men,Cal Poly-SLO Slocore,3,0,1,3,1,7,0.428571429,0,0.142857143,0.428571429,0.142857143
+Zach Merrill,Division 1,Men,Division 1 Men,Brown Brownian Motion,0,1,0,0,1,8,0,0.125,0,0,0.125
+Yun Hua,Division 1,Women,Division 1 Women,British Columbia Thunderbirds,2,1,1,1,1,6,0.333333333,0.166666667,0.166666667,0.166666667,0.166666667
+Will Scudder,Division 1,Men,Division 1 Men,NC State Alpha,2,0,0,3,1,6,0.333333333,0,0,0.5,0.166666667
+Will Christian,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,4,0,3,2,1,5,0.8,0,0.6,0.4,0.2
+Will Barnouw,Division 1,Men,Division 1 Men,Colorado Mambird,0,0,0,1,1,7,0,0,0,0.142857143,0.142857143
+Tsz Yan Yip,Division 1,Women,Division 1 Women,Stanford Superfly,13,6,4,4,1,7,1.857142857,0.857142857,0.571428571,0.571428571,0.142857143
+Toby Graf,Division 3,Men,Division 3 Men,Middlebury Pranksters,0,0,0,1,1,5,0,0,0,0.2,0.2
+Thomas Davis,Division 3,Men,Division 3 Men,Bates Orange Whip,1,0,1,1,1,6,0.166666667,0,0.166666667,0.166666667,0.166666667
+Taylor Hanson,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,2,1,2,0,1,5,0.4,0.2,0.4,0,0.2
+Tatum Jenkins,Division 1,Women,Division 1 Women,Pennsylvania Venus,0,1,0,0,1,5,0,0.2,0,0,0.2
+Tae Weiss,Division 3,Women,Division 3 Women,Wesleyan Vicious Circles,5,2,2,2,1,6,0.833333333,0.333333333,0.333333333,0.333333333,0.166666667
+Surafel Sharpe,Division 3,Men,Division 3 Men,Oklahoma Christian Eagles,0,1,0,0,1,5,0,0.2,0,0,0.2
+Stephen Kise,Division 3,Men,Division 3 Men,Berry Bucks,3,2,0,2,1,6,0.5,0.333333333,0,0.333333333,0.166666667
+Sophia Mason,Division 3,Women,Division 3 Women,Grinnell Grinneleanor Roosevelts,0,1,0,0,1,6,0,0.166666667,0,0,0.166666667
+Sophia Dellapenta,Division 1,Women,Division 1 Women,Western Washington Chaos,7,0,5,3,1,5,1.4,0,1,0.6,0.2
+Sopheakdey Bov,Division 3,Men,Division 3 Men,Rochester Piggies,2,1,1,1,1,6,0.333333333,0.166666667,0.166666667,0.166666667,0.166666667
+Sonai Donnell,Division 1,Women,Division 1 Women,Colorado State Helle's Belles,1,0,1,1,1,5,0.2,0,0.2,0.2,0.2
+Selena Kleber,Division 1,Women,Division 1 Women,North Carolina Pleiades,0,0,0,1,1,7,0,0,0,0.142857143,0.142857143
+Sebastian Espinal,Division 3,Men,Division 3 Men,Williams WUFO,2,0,3,0,1,6,0.333333333,0,0.5,0,0.166666667
+Scarlett Deveno,Division 3,Women,Division 3 Women,Lewis & Clark Artemis,0,1,0,0,1,5,0,0.2,0,0,0.2
+Savina Dock,Division 3,Women,Division 3 Women,St Olaf Vortex,0,1,0,0,1,5,0,0.2,0,0,0.2
+Samuel Guarino,Division 3,Men,Division 3 Men,Oberlin Flying Horsecows,2,1,1,1,1,6,0.333333333,0.166666667,0.166666667,0.166666667,0.166666667
+Sam Elliott,Division 1,Men,Division 1 Men,Carleton CUT,0,0,0,1,1,5,0,0,0,0.2,0.2
+Sadie Schmitz,Division 1,Women,Division 1 Women,Tufts EWO,1,0,0,2,1,5,0.2,0,0,0.4,0.2
+Ryan Allenson,Division 1,Men,Division 1 Men,Colorado Mambird,2,0,2,1,1,7,0.285714286,0,0.285714286,0.142857143,0.142857143
+Ruby Warner,Division 3,Women,Division 3 Women,Middlebury Pranksters,7,4,2,2,1,5,1.4,0.8,0.4,0.4,0.2
+Ruby Gholston,Division 1,Women,Division 1 Women,California - Santa Cruz Sol,6,2,1,4,1,5,1.2,0.4,0.2,0.8,0.2
+ruby Bond,Division 1,Women,Division 1 Women,Western Washington Chaos,0,0,1,0,1,5,0,0,0.2,0,0.2
+Roberto Lombana,Division 1,Men,Division 1 Men,Penn State Spank,0,1,0,0,1,5,0,0.2,0,0,0.2
+Riley Bong,Division 1,Men,Division 1 Men,Alabama-Huntsville Nightmares,3,0,1,3,1,5,0.6,0,0.2,0.6,0.2
+Reegan Ketzenberger,Division 1,Women,Division 1 Women,Michigan Flywheel,3,3,0,1,1,5,0.6,0.6,0,0.2,0.2
+Rachel Eder,Division 1,Women,Division 1 Women,Western Washington Chaos,1,1,0,1,1,5,0.2,0.2,0,0.2,0.2
+Quinn Lander,Division 1,Men,Division 1 Men,Carleton CUT,0,0,1,0,1,5,0,0,0.2,0,0.2
+Peter Helgeson,Division 1,Men,Division 1 Men,Minnesota Grey Duck,1,1,0,1,1,5,0.2,0.2,0,0.2,0.2
+Paul Liang,Division 1,Men,Division 1 Men,Minnesota Grey Duck,0,0,0,1,1,5,0,0,0,0.2,0.2
+Patrick Connor,Division 1,Men,Division 1 Men,Brown Brownian Motion,0,1,0,0,1,8,0,0.125,0,0,0.125
+Parker Steele,Division 1,Men,Division 1 Men,Penn State Spank,0,1,0,0,1,5,0,0.2,0,0,0.2
+Paige Robinson,Division 1,Women,Division 1 Women,Georgia Athena,1,0,1,1,1,5,0.2,0,0.2,0.2,0.2
+Owen Gresko,Division 1,Men,Division 1 Men,Cal Poly-SLO Slocore,0,1,0,0,1,7,0,0.142857143,0,0,0.142857143
+Owen Doherty,Division 1,Men,Division 1 Men,Vermont Chill,0,0,0,1,1,5,0,0,0,0.2,0.2
+Owen Cloutier,Division 1,Men,Division 1 Men,Minnesota Grey Duck,0,1,0,0,1,5,0,0.2,0,0,0.2
+Orr Teva,Division 3,Men,Division 3 Men,Williams WUFO,0,1,0,0,1,6,0,0.166666667,0,0,0.166666667
+Noah Schwalb,Division 1,Men,Division 1 Men,Alabama-Huntsville Nightmares,0,0,1,0,1,5,0,0,0.2,0,0.2
+Noah Paradise,Division 3,Men,Division 3 Men,Rochester Piggies,2,0,1,2,1,6,0.333333333,0,0.166666667,0.333333333,0.166666667
+Noah Goldberg,Division 3,Men,Division 3 Men,Lewis & Clark Bacchus,0,0,0,1,1,6,0,0,0,0.166666667,0.166666667
+Nicole Sheerin-Weissenberg,Division 1,Women,Division 1 Women,Colorado Quandary,0,0,0,1,1,7,0,0,0,0.142857143,0.142857143
+Nick Amano,Division 1,Men,Division 1 Men,Michigan Magnum,1,0,0,2,1,5,0.2,0,0,0.4,0.2
+Nicholas Lutz,Division 1,Men,Division 1 Men,Penn State Spank,0,0,0,1,1,5,0,0,0,0.2,0.2
+Nathaniel Snow,Division 3,Men,Division 3 Men,Williams WUFO,1,0,0,2,1,6,0.166666667,0,0,0.333333333,0.166666667
+Nathaniel Hodges,Division 1,Men,Division 1 Men,Penn State Spank,0,1,0,0,1,5,0,0.2,0,0,0.2
+Nadav Berkman,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,0,0,1,0,1,5,0,0,0.2,0,0.2
+Molly Kaplan,Division 3,Women,Division 3 Women,Middlebury Pranksters,0,0,0,1,1,5,0,0,0,0.2,0.2
+Mijoo Lee,Division 1,Women,Division 1 Women,British Columbia Thunderbirds,1,1,1,0,1,6,0.166666667,0.166666667,0.166666667,0,0.166666667
+Michelle Tzou,Division 1,Women,Division 1 Women,Georgia Athena,1,0,0,2,1,5,0.2,0,0,0.4,0.2
+Michael Stein,Division 3,Men,Division 3 Men,Richmond Spidermonkeys,5,2,1,3,1,6,0.833333333,0.333333333,0.166666667,0.5,0.166666667
+Michael Coyne,Division 1,Men,Division 1 Men,Washington University Contra,2,1,2,0,1,5,0.4,0.2,0.4,0,0.2
+Micah Tatro,Division 3,Men,Division 3 Men,Oklahoma Christian Eagles,0,0,0,1,1,5,0,0,0,0.2,0.2
+Micah Fong,Division 1,Men,Division 1 Men,Cal Poly-SLO Slocore,0,0,0,1,1,7,0,0,0,0.142857143,0.142857143
+Micah Davis,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,0,0,0,1,1,5,0,0,0,0.2,0.2
+Megan Mathieu,Division 1,Women,Division 1 Women,Tufts EWO,1,1,0,1,1,5,0.2,0.2,0,0.2,0.2
+Megan Blommel,Division 1,Women,Division 1 Women,Utah Spiral Jetty,1,1,0,1,1,5,0.2,0.2,0,0.2,0.2
+Maya Salzman,Division 3,Women,Division 3 Women,Wesleyan Vicious Circles,0,1,0,0,1,6,0,0.166666667,0,0,0.166666667
+Maya Flynn,Division 1,Women,Division 1 Women,Washington Element,1,2,0,0,1,5,0.2,0.4,0,0,0.2
+Maxwell Olesen,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,2,0,1,2,1,5,0.4,0,0.2,0.4,0.2
+Matthew Davidorf,Division 1,Men,Division 1 Men,Georgia Jojah,2,1,2,0,1,5,0.4,0.2,0.4,0,0.2
+Marley Standard,Division 1,Women,Division 1 Women,California - Santa Cruz Sol,0,1,0,0,1,5,0,0.2,0,0,0.2
+Madison Lodico,Division 1,Women,Division 1 Women,Utah Spiral Jetty,2,3,0,0,1,5,0.4,0.6,0,0,0.2
+Luke Williams,Division 3,Men,Division 3 Men,St Olaf Berzerkers,1,1,1,0,1,6,0.166666667,0.166666667,0.166666667,0,0.166666667
+Luke Knight,Division 1,Men,Division 1 Men,Texas TUFF,2,2,1,0,1,5,0.4,0.4,0.2,0,0.2
+Lucy VanNewkirk,Division 3,Women,Division 3 Women,Middlebury Pranksters,0,0,0,1,1,5,0,0,0,0.2,0.2
+Lucy Robertson,Division 1,Women,Division 1 Women,Victoria Vikes,0,0,1,0,1,5,0,0,0.2,0,0.2
+Lola Murnighan,Division 3,Women,Division 3 Women,Wesleyan Vicious Circles,4,2,3,0,1,6,0.666666667,0.333333333,0.5,0,0.166666667
+logan krehbiel,Division 3,Men,Division 3 Men,Oklahoma Christian Eagles,6,3,4,0,1,5,1.2,0.6,0.8,0,0.2
+Lily Howard,Division 1,Women,Division 1 Women,Western Washington Chaos,0,0,0,1,1,5,0,0,0,0.2,0.2
+Liam Reynolds,Division 3,Men,Division 3 Men,Middlebury Pranksters,0,0,0,1,1,5,0,0,0,0.2,0.2
+Liam O’Shea,Division 3,Men,Division 3 Men,Whitman Sweets,1,1,0,1,1,6,0.166666667,0.166666667,0,0.166666667,0.166666667
+Levi Dohman,Division 1,Men,Division 1 Men,Minnesota Grey Duck,0,0,1,0,1,5,0,0,0.2,0,0.2
+Leo Wolf,Division 1,Men,Division 1 Men,Oregon State Beavers,2,0,2,1,1,5,0.4,0,0.4,0.2,0.2
+Leah Marquez,Division 3,Women,Division 3 Women,Lewis & Clark Artemis,3,1,1,2,1,5,0.6,0.2,0.2,0.4,0.2
+Lea Wang-Tomic,Division 1,Women,Division 1 Women,Stanford Superfly,7,0,5,3,1,7,1,0,0.714285714,0.428571429,0.142857143
+Larson Selvig,Division 3,Men,Division 3 Men,Whitman Sweets,3,1,0,3,1,6,0.5,0.166666667,0,0.5,0.166666667
+Kong Hui Lim,Division 3,Men,Division 3 Men,Oklahoma Christian Eagles,0,0,1,0,1,5,0,0,0.2,0,0.2
+Kiryn Paine-Heise,Division 1,Women,Division 1 Women,North Carolina Pleiades,1,1,1,0,1,7,0.142857143,0.142857143,0.142857143,0,0.142857143
+Kiran Saini,Division 3,Women,Division 3 Women,Richmond Red Hots,1,1,0,1,1,6,0.166666667,0.166666667,0,0.166666667,0.166666667
+Kensley West,Division 1,Women,Division 1 Women,Georgia Athena,0,1,0,0,1,5,0,0.2,0,0,0.2
+Kelly Tam,Division 1,Women,Division 1 Women,Washington Element,6,3,2,2,1,5,1.2,0.6,0.4,0.4,0.2
+Kellen Watts,Division 1,Men,Division 1 Men,Texas TUFF,1,1,1,0,1,5,0.2,0.2,0.2,0,0.2
+Kelby Anderson,Division 3,Men,Division 3 Men,St Olaf Berzerkers,1,0,0,2,1,6,0.166666667,0,0,0.333333333,0.166666667
+Kawika Tu,Division 3,Men,Division 3 Men,Williams WUFO,0,1,0,0,1,6,0,0.166666667,0,0,0.166666667
+Kavya Borra,Division 3,Women,Division 3 Women,Richmond Red Hots,14,7,0,8,1,6,2.333333333,1.166666667,0,1.333333333,0.166666667
+Kana Chung,Division 3,Men,Division 3 Men,Missouri S&T Miner Threat,0,0,0,1,1,6,0,0,0,0.166666667,0.166666667
+Kaitlyn Straight,Division 1,Women,Division 1 Women,California - San Diego D-Co,0,0,0,1,1,5,0,0,0,0.2,0.2
+Kainoa Hottendorf,Division 1,Men,Division 1 Men,Cal Ursa Major,0,0,0,1,1,5,0,0,0,0.2,0.2
+Julia Kezer,Division 1,Women,Division 1 Women,Vermont Ruckus,0,1,0,0,1,6,0,0.166666667,0,0,0.166666667
+Julia Frank,Division 3,Women,Division 3 Women,Occidental WAC,1,1,0,1,1,6,0.166666667,0.166666667,0,0.166666667,0.166666667
+Joshua Wang,Division 1,Men,Division 1 Men,Michigan Magnum,0,1,0,0,1,5,0,0.2,0,0,0.2
+Joseph Dauchess,Division 3,Men,Division 3 Men,Franciscan Fatal,0,1,0,0,1,6,0,0.166666667,0,0,0.166666667
+Jonas Kra-Caskey,Division 3,Men,Division 3 Men,Lewis & Clark Bacchus,0,1,0,0,1,6,0,0.166666667,0,0,0.166666667
+Jonah Hammes,Division 1,Men,Division 1 Men,Oregon EGO,0,0,1,0,1,6,0,0,0.166666667,0,0.166666667
+Jing Jing Munson,Division 1,Women,Division 1 Women,Carleton Syzygy,3,3,0,1,1,6,0.5,0.5,0,0.166666667,0.166666667
+Jesse Barker Plotkin,Division 3,Men,Division 3 Men,Carleton CHOP,2,3,0,0,1,6,0.333333333,0.5,0,0,0.166666667
+Jericho Stern,Division 3,Men,Division 3 Men,Lewis & Clark Bacchus,1,1,0,1,1,6,0.166666667,0.166666667,0,0.166666667,0.166666667
+Jamilah Toure,Division 1,Women,Division 1 Women,Colorado Quandary,1,1,0,1,1,7,0.142857143,0.142857143,0,0.142857143,0.142857143
+Jamieson Rear,Division 1,Men,Division 1 Men,Cal Poly-SLO Slocore,0,1,0,0,1,7,0,0.142857143,0,0,0.142857143
+Jaden Fielding,Division 1,Men,Division 1 Men,Ottawa Gee-Gees,0,0,0,1,1,5,0,0,0,0.2,0.2
+Jaden Busch,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,0,0,0,1,1,5,0,0,0,0.2,0.2
+Jacob Mathew,Division 3,Men,Division 3 Men,Missouri S&T Miner Threat,0,1,0,0,1,6,0,0.166666667,0,0,0.166666667
+Jaclyn Murray,Division 3,Women,Division 3 Women,Portland UPRoar,1,2,0,0,1,6,0.166666667,0.333333333,0,0,0.166666667
+Jack Ryan,Division 3,Men,Division 3 Men,Oberlin Flying Horsecows,2,1,1,1,1,6,0.333333333,0.166666667,0.166666667,0.166666667,0.166666667
+Jack Gleason,Division 1,Men,Division 1 Men,Oregon EGO,0,1,0,0,1,6,0,0.166666667,0,0,0.166666667
+Ivan Kase,Division 1,Men,Division 1 Men,Minnesota Grey Duck,0,0,1,0,1,5,0,0,0.2,0,0.2
+Isabella Harker,Division 1,Women,Division 1 Women,Oregon Fugue,8,1,4,4,1,6,1.333333333,0.166666667,0.666666667,0.666666667,0.166666667
+Isabel Contreras,Division 3,Women,Division 3 Women,Portland UPRoar,4,1,1,3,1,6,0.666666667,0.166666667,0.166666667,0.5,0.166666667
+Isaac Fuzat,Division 1,Men,Division 1 Men,Texas TUFF,1,1,1,0,1,5,0.2,0.2,0.2,0,0.2
+Ian Grochocinski,Division 1,Men,Division 1 Men,Washington University Contra,0,1,0,0,1,5,0,0.2,0,0,0.2
+Henry Kennedy,Division 1,Men,Division 1 Men,NC State Alpha,4,0,2,3,1,6,0.666666667,0,0.333333333,0.5,0.166666667
+Hazel Stringer,Division 3,Women,Division 3 Women,Middlebury Pranksters,0,0,0,1,1,5,0,0,0,0.2,0.2
+Hayden King,Division 1,Men,Division 1 Men,Cal Poly-SLO Slocore,0,0,0,1,1,7,0,0,0,0.142857143,0.142857143
+Grady Welsh,Division 3,Men,Division 3 Men,Middlebury Pranksters,1,0,0,2,1,5,0.2,0,0,0.4,0.2
+Georgia Smith,Division 1,Women,Division 1 Women,Victoria Vikes,5,4,1,1,1,5,1,0.8,0.2,0.2,0.2
+Geoffrey Tucker Kalmus,Division 1,Men,Division 1 Men,Colorado Mambird,2,0,1,2,1,7,0.285714286,0,0.142857143,0.285714286,0.142857143
+Gaurav Prasad,Division 1,Men,Division 1 Men,Colorado Mambird,0,1,0,0,1,7,0,0.142857143,0,0,0.142857143
+Gaby Elkhoury,Division 1,Men,Division 1 Men,Georgia Jojah,1,2,0,0,1,5,0.2,0.4,0,0,0.2
+Gabriel Nobis,Division 1,Men,Division 1 Men,Oregon EGO,1,0,1,1,1,6,0.166666667,0,0.166666667,0.166666667,0.166666667
+Gabriel Gatewood-Wolfe,Division 1,Men,Division 1 Men,Cal Ursa Major,3,1,2,1,1,5,0.6,0.2,0.4,0.2,0.2
+Gabriel Badillo Moorman,Division 3,Men,Division 3 Men,St Olaf Berzerkers,0,0,1,0,1,6,0,0,0.166666667,0,0.166666667
+Forrest Williams,Division 1,Men,Division 1 Men,Vermont Chill,1,0,1,1,1,5,0.2,0,0.2,0.2,0.2
+Forrest Vargyas,Division 1,Men,Division 1 Men,Oregon State Beavers,0,0,0,1,1,5,0,0,0,0.2,0.2
+Feliz Matthews,Division 3,Women,Division 3 Women,Portland UPRoar,0,1,0,0,1,6,0,0.166666667,0,0,0.166666667
+Evan Tompkins,Division 1,Men,Division 1 Men,Washington University Contra,4,3,0,2,1,5,0.8,0.6,0,0.4,0.2
+Evan Lutz,Division 1,Men,Division 1 Men,Penn State Spank,1,0,1,1,1,5,0.2,0,0.2,0.2,0.2
+Eva Fischer,Division 1,Women,Division 1 Women,Carleton Syzygy,10,4,4,3,1,6,1.666666667,0.666666667,0.666666667,0.5,0.166666667
+Ethan Schiff,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,4,1,1,3,1,5,0.8,0.2,0.2,0.6,0.2
+Ethan Ode,Division 1,Men,Division 1 Men,Minnesota Grey Duck,0,0,0,1,1,5,0,0,0,0.2,0.2
+Ethan Landis,Division 1,Men,Division 1 Men,Penn State Spank,3,1,0,3,1,5,0.6,0.2,0,0.6,0.2
+Ethan Landgreen,Division 3,Men,Division 3 Men,St Olaf Berzerkers,1,0,0,2,1,6,0.166666667,0,0,0.333333333,0.166666667
+Emmett Levine,Division 3,Men,Division 3 Men,Claremont Braineaters,2,1,1,1,1,6,0.333333333,0.166666667,0.166666667,0.166666667,0.166666667
+Emma Toussaint,Division 1,Women,Division 1 Women,California - San Diego D-Co,1,1,0,1,1,5,0.2,0.2,0,0.2,0.2
+Emma Seto,Division 3,Women,Division 3 Women,Richmond Red Hots,2,2,0,1,1,6,0.333333333,0.333333333,0,0.166666667,0.166666667
+Emma Ellefson-Frank,Division 1,Women,Division 1 Women,California - San Diego D-Co,10,3,7,1,1,5,2,0.6,1.4,0.2,0.2
+Emma Crump,Division 1,Women,Division 1 Women,California - Santa Barbara Burning Skirts,0,0,0,1,1,5,0,0,0,0.2,0.2
+Emile Starkweather,Division 1,Men,Division 1 Men,Oregon EGO,0,0,0,1,1,6,0,0,0,0.166666667,0.166666667
+Emiko Shiota,Division 1,Women,Division 1 Women,California - San Diego D-Co,0,1,0,0,1,5,0,0.2,0,0,0.2
+Elyse Siegel,Division 1,Women,Division 1 Women,Victoria Vikes,0,0,0,1,1,5,0,0,0,0.2,0.2
+Elliot Mayo,Division 3,Men,Division 3 Men,Berry Bucks,0,1,0,0,1,6,0,0.166666667,0,0,0.166666667
+Ella Spitz,Division 3,Women,Division 3 Women,Wesleyan Vicious Circles,5,4,0,2,1,6,0.833333333,0.666666667,0,0.333333333,0.166666667
+Ella Polli,Division 1,Women,Division 1 Women,Vermont Ruckus,2,2,0,1,1,6,0.333333333,0.333333333,0,0.166666667,0.166666667
+Ella Evans,Division 3,Women,Division 3 Women,Haverford/Bryn Mawr Sneetches,1,2,0,0,1,6,0.166666667,0.333333333,0,0,0.166666667
+Elijah McKinley,Division 1,Men,Division 1 Men,Alabama-Huntsville Nightmares,2,0,0,3,1,5,0.4,0,0,0.6,0.2
+Elie Weitzman,Division 1,Men,Division 1 Men,Washington University Contra,2,0,3,0,1,5,0.4,0,0.6,0,0.2
+Eleanor Tyne,Division 1,Women,Division 1 Women,Tufts EWO,1,1,1,0,1,5,0.2,0.2,0.2,0,0.2
+Edward Morris,Division 1,Men,Division 1 Men,Cal Ursa Major,2,0,3,0,1,5,0.4,0,0.6,0,0.2
+Dylan McKellips,Division 3,Men,Division 3 Men,Rochester Piggies,0,0,0,1,1,6,0,0,0,0.166666667,0.166666667
+Drew Vetteth,Division 1,Men,Division 1 Men,Cal Ursa Major,1,0,2,0,1,5,0.2,0,0.4,0,0.2
+Dov Bearman,Division 1,Men,Division 1 Men,North Carolina Darkside,0,0,1,0,1,6,0,0,0.166666667,0,0.166666667
+Dhara Buebel,Division 1,Women,Division 1 Women,North Carolina Pleiades,0,0,1,0,1,7,0,0,0.142857143,0,0.142857143
+Devon Shepherd,Division 3,Men,Division 3 Men,Richmond Spidermonkeys,0,0,0,1,1,6,0,0,0,0.166666667,0.166666667
+David Peterson,Division 3,Men,Division 3 Men,Oklahoma Christian Eagles,2,2,0,1,1,5,0.4,0.4,0,0.2,0.2
+David Kim,Division 3,Men,Division 3 Men,St Olaf Berzerkers,0,0,0,1,1,6,0,0,0,0.166666667,0.166666667
+David Allen,Division 3,Men,Division 3 Men,Lewis & Clark Bacchus,0,0,0,1,1,6,0,0,0,0.166666667,0.166666667
+Dash Fitzgerald,Division 3,Men,Division 3 Men,Whitman Sweets,0,0,0,1,1,6,0,0,0,0.166666667,0.166666667
+Danielle Michiels,Division 1,Women,Division 1 Women,California - Santa Barbara Burning Skirts,1,0,1,1,1,5,0.2,0,0.2,0.2,0.2
+Daniel Kang,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,0,0,0,1,1,5,0,0,0,0.2,0.2
+Daboh Ahn,Division 3,Women,Division 3 Women,Grinnell Grinneleanor Roosevelts,0,1,0,0,1,6,0,0.166666667,0,0,0.166666667
+Da'Rina Ballard,Division 3,Women,Division 3 Women,Occidental WAC,0,1,0,0,1,6,0,0.166666667,0,0,0.166666667
+Conner Lough,Division 1,Men,Division 1 Men,Alabama-Huntsville Nightmares,1,2,0,0,1,5,0.2,0.4,0,0,0.2
+Colin Brown,Division 1,Men,Division 1 Men,Carleton CUT,1,1,1,0,1,5,0.2,0.2,0.2,0,0.2
+Clell Hamm,Division 1,Men,Division 1 Men,North Carolina Darkside,0,1,0,0,1,6,0,0.166666667,0,0,0.166666667
+Claudia Dare,Division 1,Women,Division 1 Women,North Carolina Pleiades,4,3,0,2,1,7,0.571428571,0.428571429,0,0.285714286,0.142857143
+Claire Weng,Division 1,Women,Division 1 Women,British Columbia Thunderbirds,7,3,3,2,1,6,1.166666667,0.5,0.5,0.333333333,0.166666667
+Claire Lindsey,Division 3,Women,Division 3 Women,Colorado College Zenith,3,2,0,2,1,6,0.5,0.333333333,0,0.333333333,0.166666667
+Christopher Brown,Division 3,Men,Division 3 Men,Williams WUFO,0,0,0,1,1,6,0,0,0,0.166666667,0.166666667
+Chris Doehring,Division 1,Men,Division 1 Men,Michigan Magnum,5,1,3,2,1,5,1,0.2,0.6,0.4,0.2
+Challis Holloway,Division 1,Men,Division 1 Men,Oregon State Beavers,0,0,1,0,1,5,0,0,0.2,0,0.2
+Catherine Davison,Division 1,Women,Division 1 Women,Victoria Vikes,0,0,0,1,1,5,0,0,0,0.2,0.2
+Cassidy Morgan,Division 1,Women,Division 1 Women,California - San Diego D-Co,2,2,1,0,1,5,0.4,0.4,0.2,0,0.2
+Campbell O'Neal,Division 1,Women,Division 1 Women,Colorado Quandary,0,0,0,1,1,7,0,0,0,0.142857143,0.142857143
+Cameron Meier,Division 3,Men,Division 3 Men,Davenport Panthers,1,1,0,1,1,6,0.166666667,0.166666667,0,0.166666667,0.166666667
+Calista Aragon,Division 3,Women,Division 3 Women,Lewis & Clark Artemis,8,1,1,7,1,5,1.6,0.2,0.2,1.4,0.2
+Caleb Lance,Division 3,Men,Division 3 Men,Oklahoma Christian Eagles,1,1,0,1,1,5,0.2,0.2,0,0.2,0.2
+Brandon Shunk,Division 1,Men,Division 1 Men,Penn State Spank,0,1,0,0,1,5,0,0.2,0,0,0.2
+Benton Shevlin,Division 1,Men,Division 1 Men,Colorado Mambird,0,0,1,0,1,7,0,0,0.142857143,0,0.142857143
+Ben Brochard,Division 1,Men,Division 1 Men,Oregon State Beavers,0,0,0,1,1,5,0,0,0,0.2,0.2
+Axel Hartzog,Division 1,Men,Division 1 Men,Colorado Mambird,0,1,0,0,1,7,0,0.142857143,0,0,0.142857143
+Avi Skolnick,Division 3,Men,Division 3 Men,Rochester Piggies,0,1,0,0,1,6,0,0.166666667,0,0,0.166666667
+Ava Samford,Division 1,Women,Division 1 Women,Georgia Athena,0,0,0,1,1,5,0,0,0,0.2,0.2
+Ashley Chen,Division 3,Women,Division 3 Women,Wellesley Whiptails,1,1,0,1,1,6,0.166666667,0.166666667,0,0.166666667,0.166666667
+Arjun Deshmukh,Division 1,Men,Division 1 Men,North Carolina Darkside,0,0,0,1,1,6,0,0,0,0.166666667,0.166666667
+Annika Ross,Division 1,Women,Division 1 Women,California - San Diego D-Co,0,0,1,0,1,5,0,0,0.2,0,0.2
+Anna Luo,Division 1,Women,Division 1 Women,British Columbia Thunderbirds,0,1,0,0,1,6,0,0.166666667,0,0,0.166666667
+Anna Davidson,Division 3,Women,Division 3 Women,Union Jillz,7,4,0,4,1,6,1.166666667,0.666666667,0,0.666666667,0.166666667
+Anna Cauchy,Division 1,Women,Division 1 Women,Washington Element,11,4,3,5,1,5,2.2,0.8,0.6,1,0.2
+Amrik Eadara,Division 1,Men,Division 1 Men,Brown Brownian Motion,1,1,0,1,1,8,0.125,0.125,0,0.125,0.125
+Amanda Harrison,Division 3,Women,Division 3 Women,Middlebury Pranksters,3,1,1,2,1,5,0.6,0.2,0.2,0.4,0.2
+Alexander Kim,Division 3,Men,Division 3 Men,Williams WUFO,0,1,0,0,1,6,0,0.166666667,0,0,0.166666667
+Alexander Janelle,Division 1,Men,Division 1 Men,Texas TUFF,3,1,2,1,1,5,0.6,0.2,0.4,0.2,0.2
+Addyson Hale,Division 1,Women,Division 1 Women,Georgia Athena,0,0,0,1,1,5,0,0,0,0.2,0.2
+Aaron Wei,Division 1,Men,Division 1 Men,North Carolina Darkside,0,1,0,0,1,6,0,0.166666667,0,0,0.166666667
+Zoe Widner,Division 3,Women,Division 3 Women,Davenport Panthers,0,0,0,0,0,5,0,0,0,0,0
+Zach Wanger,Division 1,Men,Division 1 Men,Michigan Magnum,2,1,0,1,0,5,0.4,0.2,0,0.2,0
+Yariel Perkins,Division 1,Women,Division 1 Women,California - San Diego D-Co,0,0,0,0,0,5,0,0,0,0,0
+William Litchholt,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,0,0,0,0,0,5,0,0,0,0,0
+William Hindman,Division 3,Men,Division 3 Men,Berry Bucks,0,0,0,0,0,6,0,0,0,0,0
+Will Roper,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,0,0,0,0,0,5,0,0,0,0,0
+Will Promecene,Division 1,Men,Division 1 Men,Texas TUFF,0,0,0,0,0,5,0,0,0,0,0
+Will Cambron,Division 1,Men,Division 1 Men,Alabama-Huntsville Nightmares,0,0,0,0,0,5,0,0,0,0,0
+Wesley Steele,Division 3,Men,Division 3 Men,Franciscan Fatal,0,0,0,0,0,6,0,0,0,0,0
+Wen Chi Kwok,Division 1,Women,Division 1 Women,Michigan Flywheel,0,0,0,0,0,5,0,0,0,0,0
+Vivian Kaufman,Division 1,Women,Division 1 Women,Michigan Flywheel,0,0,0,0,0,5,0,0,0,0,0
+Vienna Lee,Division 1,Women,Division 1 Women,California - Santa Barbara Burning Skirts,11,1,4,6,0,5,2.2,0.2,0.8,1.2,0
+Uri Boaz,Division 3,Men,Division 3 Men,Lewis & Clark Bacchus,0,0,0,0,0,6,0,0,0,0,0
+Tyler Feeney,Division 1,Men,Division 1 Men,Oregon EGO,0,0,0,0,0,6,0,0,0,0,0
+Townsend Dierauf,Division 1,Men,Division 1 Men,NC State Alpha,0,0,0,0,0,6,0,0,0,0,0
+Tomo Liou,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,0,0,0,0,0,5,0,0,0,0,0
+TJ Lee,Division 3,Men,Division 3 Men,Oklahoma Christian Eagles,1,1,0,0,0,5,0.2,0.2,0,0,0
+Tiernan Donnelly,Division 1,Men,Division 1 Men,Alabama-Huntsville Nightmares,0,0,0,0,0,5,0,0,0,0,0
+Thomas Roberts,Division 1,Men,Division 1 Men,Michigan Magnum,0,0,0,0,0,5,0,0,0,0,0
+Thomas Plaxton,Division 1,Men,Division 1 Men,Texas TUFF,0,0,0,0,0,5,0,0,0,0,0
+Thomas Loch,Division 1,Men,Division 1 Men,North Carolina Darkside,1,1,0,0,0,6,0.166666667,0.166666667,0,0,0
+Thomas Harley,Division 1,Men,Division 1 Men,North Carolina Darkside,0,0,0,0,0,6,0,0,0,0,0
+Teresa Cranston,Division 1,Women,Division 1 Women,Colorado Quandary,1,0,0,1,0,7,0.142857143,0,0,0.142857143,0
+Taylor Smith,Division 1,Women,Division 1 Women,Colorado Quandary,6,1,4,1,0,7,0.857142857,0.142857143,0.571428571,0.142857143,0
+Taylor Masterson,Division 1,Men,Division 1 Men,Texas TUFF,0,0,0,0,0,5,0,0,0,0,0
+Sydney Anderson,Division 3,Women,Division 3 Women,Portland UPRoar,0,0,0,0,0,6,0,0,0,0,0
+Sumedh Anantha Krishna,Division 3,Men,Division 3 Men,Rochester Piggies,0,0,0,0,0,6,0,0,0,0,0
+Srikara Prithvi,Division 1,Men,Division 1 Men,NC State Alpha,0,0,0,0,0,6,0,0,0,0,0
+Soren Callahan,Division 3,Men,Division 3 Men,Oberlin Flying Horsecows,0,0,0,0,0,6,0,0,0,0,0
+Sophie Mullaney,Division 1,Women,Division 1 Women,Oregon Fugue,0,0,0,0,0,6,0,0,0,0,0
+Sophie Havranek,Division 1,Women,Division 1 Women,California - Santa Barbara Burning Skirts,0,0,0,0,0,5,0,0,0,0,0
+Sophie Acker,Division 1,Women,Division 1 Women,Vermont Ruckus,0,0,0,0,0,6,0,0,0,0,0
+Sophia Nolan,Division 1,Women,Division 1 Women,Vermont Ruckus,1,0,1,0,0,6,0.166666667,0,0.166666667,0,0
+Sofia Sinta,Division 1,Women,Division 1 Women,SUNY - Binghamton Big Bear,0,0,0,0,0,5,0,0,0,0,0
+Sofia Eden,Division 1,Women,Division 1 Women,California - Santa Barbara Burning Skirts,2,0,0,2,0,5,0.4,0,0,0.4,0
+Sloan Senofsky,Division 3,Men,Division 3 Men,Claremont Braineaters,0,0,0,0,0,6,0,0,0,0,0
+Sharan Sethi,Division 1,Men,Division 1 Men,Texas TUFF,0,0,0,0,0,5,0,0,0,0,0
+Sebastian Boccieri,Division 1,Men,Division 1 Men,NC State Alpha,0,0,0,0,0,6,0,0,0,0,0
+Sean Mickel,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,0,0,0,0,0,5,0,0,0,0,0
+Sawyer Linehan,Division 3,Men,Division 3 Men,Whitman Sweets,0,0,0,0,0,6,0,0,0,0,0
+Sarah Laughlin,Division 1,Women,Division 1 Women,Colorado Quandary,2,0,0,2,0,7,0.285714286,0,0,0.285714286,0
+Sarah Landman,Division 1,Women,Division 1 Women,SUNY - Binghamton Big Bear,3,3,0,0,0,5,0.6,0.6,0,0,0
+Samuel Williams,Division 1,Men,Division 1 Men,Alabama-Huntsville Nightmares,0,0,0,0,0,5,0,0,0,0,0
+Sam Schwartz,Division 1,Men,Division 1 Men,Washington University Contra,3,1,1,1,0,5,0.6,0.2,0.2,0.2,0
+Saira Sukthankar,Division 3,Women,Division 3 Women,Mount Holyoke Daisy Chain,4,3,0,1,0,6,0.666666667,0.5,0,0.166666667,0
+Sadie Zweben,Division 1,Women,Division 1 Women,Georgia Athena,0,0,0,0,0,5,0,0,0,0,0
+Sadie Cutler,Division 1,Women,Division 1 Women,Utah Spiral Jetty,0,0,0,0,0,5,0,0,0,0,0
+Ryan Perry,Division 3,Men,Division 3 Men,Berry Bucks,1,0,0,1,0,6,0.166666667,0,0,0.166666667,0
+Ryan Hsi,Division 1,Men,Division 1 Men,Brown Brownian Motion,0,0,0,0,0,8,0,0,0,0,0
+Ryan duSaire,Division 1,Men,Division 1 Men,Carleton CUT,0,0,0,0,0,5,0,0,0,0,0
+Ruby Salisbury,Division 3,Women,Division 3 Women,Middlebury Pranksters,2,1,0,1,0,5,0.4,0.2,0,0.2,0
+Ruby Gates,Division 1,Women,Division 1 Women,Stanford Superfly,2,2,0,0,0,7,0.285714286,0.285714286,0,0,0
+Ruben Mendoza,Division 3,Men,Division 3 Men,Rochester Piggies,0,0,0,0,0,6,0,0,0,0,0
+Rose Burtt,Division 1,Women,Division 1 Women,SUNY - Binghamton Big Bear,0,0,0,0,0,5,0,0,0,0,0
+Romy Holland,Division 3,Women,Division 3 Women,Portland UPRoar,0,0,0,0,0,6,0,0,0,0,0
+Rishi Rajesh Jeswani,Division 1,Men,Division 1 Men,NC State Alpha,0,0,0,0,0,6,0,0,0,0,0
+Riley Knupp,Division 1,Women,Division 1 Women,Vermont Ruckus,1,0,0,1,0,6,0.166666667,0,0,0.166666667,0
+Ria Mandal,Division 1,Women,Division 1 Women,North Carolina Pleiades,0,0,0,0,0,7,0,0,0,0,0
+Reese Rathur,Division 1,Women,Division 1 Women,Georgia Athena,0,0,0,0,0,5,0,0,0,0,0
+Rebecca Lodespoto,Division 1,Women,Division 1 Women,SUNY - Binghamton Big Bear,0,0,0,0,0,5,0,0,0,0,0
+Rebecca Flax,Division 3,Women,Division 3 Women,Haverford/Bryn Mawr Sneetches,0,0,0,0,0,6,0,0,0,0,0
+Ray Chen Hao,Division 1,Men,Division 1 Men,Michigan Magnum,0,0,0,0,0,5,0,0,0,0,0
+Rafael Castillo,Division 1,Men,Division 1 Men,Cal Poly-SLO Slocore,1,1,0,0,0,7,0.142857143,0.142857143,0,0,0
+Quinn O'Connor,Division 1,Men,Division 1 Men,Oregon State Beavers,0,0,0,0,0,5,0,0,0,0,0
+Quinn Munson,Division 3,Men,Division 3 Men,St Olaf Berzerkers,0,0,0,0,0,6,0,0,0,0,0
+Quinn Frank,Division 3,Men,Division 3 Men,Bates Orange Whip,0,0,0,0,0,6,0,0,0,0,0
+Piper Enderlein,Division 1,Women,Division 1 Women,Colorado Quandary,0,0,0,0,0,7,0,0,0,0,0
+Patrick Fontenot,Division 3,Men,Division 3 Men,Franciscan Fatal,0,0,0,0,0,6,0,0,0,0,0
+Parker Shahdad,Division 1,Men,Division 1 Men,NC State Alpha,0,0,0,0,0,6,0,0,0,0,0
+Paige Jenkins,Division 1,Women,Division 1 Women,California - Santa Cruz Sol,3,1,0,2,0,5,0.6,0.2,0,0.4,0
+Owen Schigiel,Division 1,Men,Division 1 Men,Minnesota Grey Duck,0,0,0,0,0,5,0,0,0,0,0
+Owen Gin,Division 1,Men,Division 1 Men,Minnesota Grey Duck,2,0,0,2,0,5,0.4,0,0,0.4,0
+Olivia Mayfryer,Division 1,Women,Division 1 Women,Pennsylvania Venus,0,0,0,0,0,5,0,0,0,0,0
+Olivia Crump,Division 1,Women,Division 1 Women,California - Santa Barbara Burning Skirts,0,0,0,0,0,5,0,0,0,0,0
+Oliver Kahn,Division 1,Men,Division 1 Men,Brown Brownian Motion,0,0,0,0,0,8,0,0,0,0,0
+Olive Loewer,Division 3,Women,Division 3 Women,St Olaf Vortex,0,0,0,0,0,5,0,0,0,0,0
+Nomi Zeidenberg,Division 1,Women,Division 1 Women,Carleton Syzygy,4,1,2,1,0,6,0.666666667,0.166666667,0.333333333,0.166666667,0
+Noah Pershing,Division 3,Men,Division 3 Men,Claremont Braineaters,1,1,0,0,0,6,0.166666667,0.166666667,0,0,0
+Noah Kaller,Division 1,Men,Division 1 Men,Washington University Contra,0,0,0,0,0,5,0,0,0,0,0
+Noah Bush,Division 1,Men,Division 1 Men,North Carolina Darkside,0,0,0,0,0,6,0,0,0,0,0
+Nicole Luparello,Division 1,Women,Division 1 Women,SUNY - Binghamton Big Bear,0,0,0,0,0,5,0,0,0,0,0
+Nicole Carvalho,Division 3,Women,Division 3 Women,Davenport Panthers,6,2,1,3,0,5,1.2,0.4,0.2,0.6,0
+Nicole Achen,Division 1,Women,Division 1 Women,Western Washington Chaos,0,0,0,0,0,5,0,0,0,0,0
+Nick Canavan,Division 3,Men,Division 3 Men,Franciscan Fatal,3,2,0,1,0,6,0.5,0.333333333,0,0.166666667,0
+Nicholas Alfonso,Division 1,Men,Division 1 Men,Michigan Magnum,3,1,1,1,0,5,0.6,0.2,0.2,0.2,0
+Nghia Warren,Division 1,Women,Division 1 Women,Oregon Fugue,0,0,0,0,0,6,0,0,0,0,0
+Nathaniel Scott-Avery,Division 3,Men,Division 3 Men,Franciscan Fatal,0,0,0,0,0,6,0,0,0,0,0
+Nathan Winiarski,Division 3,Men,Division 3 Men,Richmond Spidermonkeys,1,0,0,1,0,6,0.166666667,0,0,0.166666667,0
+Nathan Parker,Division 1,Men,Division 1 Men,Carleton CUT,3,0,2,1,0,5,0.6,0,0.4,0.2,0
+Nathan Kallin,Division 1,Men,Division 1 Men,Carleton CUT,1,0,0,1,0,5,0.2,0,0,0.2,0
+Nate Ackerman,Division 1,Men,Division 1 Men,Washington University Contra,0,0,0,0,0,5,0,0,0,0,0
+Miranda Baltaxe,Division 1,Women,Division 1 Women,Michigan Flywheel,0,0,0,0,0,5,0,0,0,0,0
+Min Lim,Division 1,Men,Division 1 Men,North Carolina Darkside,0,0,0,0,0,6,0,0,0,0,0
+Miles Frank,Division 3,Men,Division 3 Men,Rochester Piggies,0,0,0,0,0,6,0,0,0,0,0
+Micah Delattre,Division 1,Men,Division 1 Men,Penn State Spank,0,0,0,0,0,5,0,0,0,0,0
+Mia Andreeva,Division 1,Women,Division 1 Women,Washington Element,1,0,1,0,0,5,0.2,0,0.2,0,0
+Megan Buchsbaum,Division 1,Women,Division 1 Women,North Carolina Pleiades,0,0,0,0,0,7,0,0,0,0,0
+Meagan Gillis,Division 1,Women,Division 1 Women,British Columbia Thunderbirds,4,4,0,0,0,6,0.666666667,0.666666667,0,0,0
+Maximilian Dewberry,Division 1,Men,Division 1 Men,Minnesota Grey Duck,0,0,0,0,0,5,0,0,0,0,0
+Max Van Sickle,Division 1,Men,Division 1 Men,Colorado Mambird,0,0,0,0,0,7,0,0,0,0,0
+Max Posner,Division 1,Men,Division 1 Men,Carleton CUT,3,0,3,0,0,5,0.6,0,0.6,0,0
+Max Karnik,Division 1,Men,Division 1 Men,Michigan Magnum,1,1,0,0,0,5,0.2,0.2,0,0,0
+Max Cowie,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,0,0,0,0,0,5,0,0,0,0,0
+Matthew Xia,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,0,0,0,0,0,5,0,0,0,0,0
+Matilda Pro,Division 1,Women,Division 1 Women,Carleton Syzygy,0,0,0,0,0,6,0,0,0,0,0
+Matias Lee,Division 1,Men,Division 1 Men,Brown Brownian Motion,0,0,0,0,0,8,0,0,0,0,0
+Martha Plaehn,Division 1,Women,Division 1 Women,North Carolina Pleiades,0,0,0,0,0,7,0,0,0,0,0
+Mark Chow,Division 1,Men,Division 1 Men,Ottawa Gee-Gees,0,0,0,0,0,5,0,0,0,0,0
+Makena Johnson,Division 1,Women,Division 1 Women,California - Santa Cruz Sol,0,0,0,0,0,5,0,0,0,0,0
+Maggie Walsh,Division 3,Women,Division 3 Women,St Olaf Vortex,11,6,1,4,0,5,2.2,1.2,0.2,0.8,0
+Maeve Magura Comey,Division 1,Women,Division 1 Women,Michigan Flywheel,0,0,0,0,0,5,0,0,0,0,0
+Madeline Fealy,Division 3,Women,Division 3 Women,Lewis & Clark Artemis,0,0,0,0,0,5,0,0,0,0,0
+Maddy Grassy,Division 1,Women,Division 1 Women,Washington Element,0,0,0,0,0,5,0,0,0,0,0
+Lyle Hahn,Division 3,Men,Division 3 Men,Whitman Sweets,8,1,5,2,0,6,1.333333333,0.166666667,0.833333333,0.333333333,0
+Luke Surovec,Division 3,Men,Division 3 Men,Franciscan Fatal,1,0,1,0,0,6,0.166666667,0,0.166666667,0,0
+Luke Howey,Division 3,Men,Division 3 Men,Richmond Spidermonkeys,0,0,0,0,0,6,0,0,0,0,0
+Luke Goeddeke,Division 3,Men,Division 3 Men,St Olaf Berzerkers,0,0,0,0,0,6,0,0,0,0,0
+Luke Gochis,Division 1,Men,Division 1 Men,Penn State Spank,1,0,0,1,0,5,0.2,0,0,0.2,0
+Lucy Wylie,Division 1,Women,Division 1 Women,Georgia Athena,0,0,0,0,0,5,0,0,0,0,0
+Lucius Christie,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,0,0,0,0,0,5,0,0,0,0,0
+Lucas Henry,Division 1,Men,Division 1 Men,Oregon State Beavers,1,0,1,0,0,5,0.2,0,0.2,0,0
+Luca Stuccio,Division 1,Men,Division 1 Men,Vermont Chill,0,0,0,0,0,5,0,0,0,0,0
+Loren Griffin,Division 3,Men,Division 3 Men,St Olaf Berzerkers,0,0,0,0,0,6,0,0,0,0,0
+Lily Terpstra,Division 1,Women,Division 1 Women,Utah Spiral Jetty,21,10,5,6,0,5,4.2,2,1,1.2,0
+Lily Snyder,Division 3,Women,Division 3 Women,Occidental WAC,11,8,1,2,0,6,1.833333333,1.333333333,0.166666667,0.333333333,0
+Lily Matthews-Needelman,Division 3,Women,Division 3 Women,Macalester Purse Snatchers,0,0,0,0,0,6,0,0,0,0,0
+Lillian Nelson,Division 1,Women,Division 1 Women,Western Washington Chaos,2,1,0,1,0,5,0.4,0.2,0,0.2,0
+Lili Gudgel,Division 3,Women,Division 3 Women,Portland UPRoar,0,0,0,0,0,6,0,0,0,0,0
+Liam Gilpin,Division 3,Men,Division 3 Men,Richmond Spidermonkeys,0,0,0,0,0,6,0,0,0,0,0
+Liam Atkins,Division 3,Men,Division 3 Men,Carleton CHOP,0,0,0,0,0,6,0,0,0,0,0
+Leonardo Tapia,Division 1,Men,Division 1 Men,NC State Alpha,0,0,0,0,0,6,0,0,0,0,0
+Leo Cogan-Drew,Division 1,Men,Division 1 Men,Carleton CUT,0,0,0,0,0,5,0,0,0,0,0
+Lemi Henderson,Division 1,Men,Division 1 Men,NC State Alpha,0,0,0,0,0,6,0,0,0,0,0
+Lauren Moore,Division 1,Women,Division 1 Women,Michigan Flywheel,4,1,1,2,0,5,0.8,0.2,0.2,0.4,0
+Laura Brodkey,Division 1,Women,Division 1 Women,Pennsylvania Venus,3,0,1,2,0,5,0.6,0,0.2,0.4,0
+Kylee Sipkema,Division 3,Women,Division 3 Women,Davenport Panthers,2,1,0,1,0,5,0.4,0.2,0,0.2,0
+Kyle Incollingo,Division 1,Men,Division 1 Men,Penn State Spank,6,1,2,3,0,5,1.2,0.2,0.4,0.6,0
+Kyla Christie,Division 3,Women,Division 3 Women,Carleton Eclipse,20,7,10,3,0,6,3.333333333,1.166666667,1.666666667,0.5,0
+Kofi Reeves-Miller,Division 1,Men,Division 1 Men,Georgia Jojah,3,1,1,1,0,5,0.6,0.2,0.2,0.2,0
+kirah Clay,Division 3,Women,Division 3 Women,Davenport Panthers,3,0,1,2,0,5,0.6,0,0.2,0.4,0
+Kira Romberg,Division 3,Women,Division 3 Women,Wellesley Whiptails,2,0,0,2,0,6,0.333333333,0,0,0.333333333,0
+Killian Reilly,Division 3,Men,Division 3 Men,Williams WUFO,0,0,0,0,0,6,0,0,0,0,0
+Kika Larrick,Division 1,Women,Division 1 Women,North Carolina Pleiades,1,1,0,0,0,7,0.142857143,0.142857143,0,0,0
+Kezha Neale-Sacks,Division 1,Women,Division 1 Women,California - San Diego D-Co,0,0,0,0,0,5,0,0,0,0,0
+Kenji Her,Division 1,Men,Division 1 Men,Minnesota Grey Duck,2,0,1,1,0,5,0.4,0,0.2,0.2,0
+Kemble Rains,Division 3,Men,Division 3 Men,St Olaf Berzerkers,0,0,0,0,0,6,0,0,0,0,0
+Kelvin Lei,Division 1,Men,Division 1 Men,Penn State Spank,0,0,0,0,0,5,0,0,0,0,0
+Keller Fraley,Division 1,Men,Division 1 Men,North Carolina Darkside,0,0,0,0,0,6,0,0,0,0,0
+Keira Lanegraff,Division 1,Women,Division 1 Women,Oregon Fugue,2,1,0,1,0,6,0.333333333,0.166666667,0,0.166666667,0
+Keagan Gustin,Division 3,Men,Division 3 Men,Oklahoma Christian Eagles,0,0,0,0,0,5,0,0,0,0,0
+Kayla Harrison,Division 3,Women,Division 3 Women,Wesleyan Vicious Circles,1,0,1,0,0,6,0.166666667,0,0.166666667,0,0
+Kathryn Lawrence,Division 1,Women,Division 1 Women,Utah Spiral Jetty,1,1,0,0,0,5,0.2,0.2,0,0,0
+Katelyn Osborne,Division 3,Women,Division 3 Women,Lewis & Clark Artemis,20,3,6,11,0,5,4,0.6,1.2,2.2,0
+Kate Philson,Division 1,Women,Division 1 Women,Colorado State Helle's Belles,0,0,0,0,0,5,0,0,0,0,0
+Karthik Subbiah,Division 3,Men,Division 3 Men,Williams WUFO,7,5,2,0,0,6,1.166666667,0.833333333,0.333333333,0,0
+Kallie Hansel-Tennes,Division 1,Women,Division 1 Women,Oregon Fugue,0,0,0,0,0,6,0,0,0,0,0
+Kaia Emery,Division 1,Women,Division 1 Women,California - Santa Barbara Burning Skirts,3,1,0,2,0,5,0.6,0.2,0,0.4,0
+Kaeden Ireland,Division 1,Men,Division 1 Men,Ottawa Gee-Gees,0,0,0,0,0,5,0,0,0,0,0
+Justine Martinez,Division 1,Women,Division 1 Women,California - Santa Cruz Sol,7,1,1,5,0,5,1.4,0.2,0.2,1,0
+Julius Clyburn,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,1,1,0,0,0,5,0.2,0.2,0,0,0
+Julian Walston,Division 1,Men,Division 1 Men,Carleton CUT,0,0,0,0,0,5,0,0,0,0,0
+Jovan Strange,Division 1,Men,Division 1 Men,Vermont Chill,1,0,0,1,0,5,0.2,0,0,0.2,0
+Joseph Thachet,Division 1,Men,Division 1 Men,Cal Poly-SLO Slocore,2,0,0,2,0,7,0.285714286,0,0,0.285714286,0
+Jonathan Blake,Division 3,Men,Division 3 Men,Berry Bucks,0,0,0,0,0,6,0,0,0,0,0
+Jonah Feinstein,Division 3,Men,Division 3 Men,Oberlin Flying Horsecows,1,0,0,1,0,6,0.166666667,0,0,0.166666667,0
+Jonah Carrero,Division 1,Men,Division 1 Men,Alabama-Huntsville Nightmares,0,0,0,0,0,5,0,0,0,0,0
+Johnny Russell,Division 3,Men,Division 3 Men,Claremont Braineaters,1,0,0,1,0,6,0.166666667,0,0,0.166666667,0
+John Rickel,Division 1,Men,Division 1 Men,NC State Alpha,0,0,0,0,0,6,0,0,0,0,0
+John Liaz,Division 3,Men,Division 3 Men,Oklahoma Christian Eagles,0,0,0,0,0,5,0,0,0,0,0
+John Drury,Division 3,Men,Division 3 Men,Berry Bucks,0,0,0,0,0,6,0,0,0,0,0
+Jillian Fischer,Division 1,Women,Division 1 Women,California - Santa Barbara Burning Skirts,2,1,0,1,0,5,0.4,0.2,0,0.2,0
+Jessie Lew,Division 1,Women,Division 1 Women,Oregon Fugue,0,0,0,0,0,6,0,0,0,0,0
+Jeremy Kaufman,Division 3,Men,Division 3 Men,Claremont Braineaters,0,0,0,0,0,6,0,0,0,0,0
+Jasper Priest,Division 1,Men,Division 1 Men,Carleton CUT,0,0,0,0,0,5,0,0,0,0,0
+Jason Gutstadt,Division 1,Men,Division 1 Men,Oregon EGO,1,0,0,1,0,6,0.166666667,0,0,0.166666667,0
+Janey Hyde,Division 1,Women,Division 1 Women,Western Washington Chaos,0,0,0,0,0,5,0,0,0,0,0
+James Texter,Division 3,Men,Division 3 Men,Carleton CHOP,0,0,0,0,0,6,0,0,0,0,0
+Jake Schmidt,Division 3,Men,Division 3 Men,St Olaf Berzerkers,1,0,0,1,0,6,0.166666667,0,0,0.166666667,0
+Jake Magner,Division 3,Men,Division 3 Men,St Olaf Berzerkers,1,1,0,0,0,6,0.166666667,0.166666667,0,0,0
+Jaine Paradis,Division 1,Women,Division 1 Women,SUNY - Binghamton Big Bear,1,1,0,0,0,5,0.2,0.2,0,0,0
+Jae Lee,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,2,1,1,0,0,5,0.4,0.2,0.2,0,0
+Jacob Leichter Wilson,Division 3,Men,Division 3 Men,Claremont Braineaters,0,0,0,0,0,6,0,0,0,0,0
+Jacob Green,Division 1,Men,Division 1 Men,NC State Alpha,1,1,0,0,0,6,0.166666667,0.166666667,0,0,0
+Jack Weinberg,Division 1,Men,Division 1 Men,Oregon State Beavers,0,0,0,0,0,5,0,0,0,0,0
+Jack Walters-Medaris,Division 1,Men,Division 1 Men,Minnesota Grey Duck,1,0,0,1,0,5,0.2,0,0,0.2,0
+Jack Waitz,Division 3,Men,Division 3 Men,Middlebury Pranksters,0,0,0,0,0,5,0,0,0,0,0
+Jack Stephenson,Division 1,Men,Division 1 Men,Georgia Jojah,0,0,0,0,0,5,0,0,0,0,0
+Jack Sheehan,Division 3,Men,Division 3 Men,Claremont Braineaters,0,0,0,0,0,6,0,0,0,0,0
+Jack Hartingh,Division 1,Men,Division 1 Men,NC State Alpha,0,0,0,0,0,6,0,0,0,0,0
+Issandro Trenard,Division 3,Men,Division 3 Men,Oberlin Flying Horsecows,1,1,0,0,0,6,0.166666667,0.166666667,0,0,0
+Isaac Degenholtz,Division 3,Men,Division 3 Men,Rochester Piggies,0,0,0,0,0,6,0,0,0,0,0
+Ilah Mittelstaedt,Division 1,Women,Division 1 Women,Western Washington Chaos,0,0,0,0,0,5,0,0,0,0,0
+Ila Charendoff,Division 3,Women,Division 3 Women,Haverford/Bryn Mawr Sneetches,0,0,0,0,0,6,0,0,0,0,0
+Huy Nguyen,Division 1,Men,Division 1 Men,Texas TUFF,0,0,0,0,0,5,0,0,0,0,0
+Hugh Finnigan,Division 1,Men,Division 1 Men,Michigan Magnum,0,0,0,0,0,5,0,0,0,0,0
+Henry Nieckarz,Division 3,Men,Division 3 Men,Carleton CHOP,1,0,0,1,0,6,0.166666667,0,0,0.166666667,0
+Henry Geffert,Division 3,Men,Division 3 Men,St Olaf Berzerkers,0,0,0,0,0,6,0,0,0,0,0
+Helena Hess,Division 1,Women,Division 1 Women,California - Santa Cruz Sol,2,1,0,1,0,5,0.4,0.2,0,0.2,0
+Helen Sweeney,Division 1,Women,Division 1 Women,California - Santa Barbara Burning Skirts,0,0,0,0,0,5,0,0,0,0,0
+Hayden Naylor,Division 1,Men,Division 1 Men,North Carolina Darkside,0,0,0,0,0,6,0,0,0,0,0
+Gwen Murray,Division 1,Women,Division 1 Women,Western Washington Chaos,3,1,1,1,0,5,0.6,0.2,0.2,0.2,0
+Griffin Gee,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,0,0,0,0,0,5,0,0,0,0,0
+Griffin Campion,Division 3,Men,Division 3 Men,Claremont Braineaters,0,0,0,0,0,6,0,0,0,0,0
+Grant Goodale,Division 1,Men,Division 1 Men,Vermont Chill,2,1,0,1,0,5,0.4,0.2,0,0.2,0
+Gracie Bender,Division 3,Women,Division 3 Women,Macalester Purse Snatchers,0,0,0,0,0,6,0,0,0,0,0
+Grace Valentine,Division 3,Women,Division 3 Women,Middlebury Pranksters,6,0,4,2,0,5,1.2,0,0.8,0.4,0
+George Lefkowicz,Division 1,Men,Division 1 Men,Carleton CUT,0,0,0,0,0,5,0,0,0,0,0
+Gavin May,Division 1,Men,Division 1 Men,Cal Ursa Major,0,0,0,0,0,5,0,0,0,0,0
+Garrett Bush,Division 1,Men,Division 1 Men,Cal Poly-SLO Slocore,0,0,0,0,0,7,0,0,0,0,0
+Gage Cowan,Division 3,Men,Division 3 Men,Oklahoma Christian Eagles,0,0,0,0,0,5,0,0,0,0,0
+Gabby Wang,Division 1,Women,Division 1 Women,California - Santa Barbara Burning Skirts,2,1,0,1,0,5,0.4,0.2,0,0.2,0
+Frederick Huang,Division 1,Men,Division 1 Men,North Carolina Darkside,0,0,0,0,0,6,0,0,0,0,0
+Fletcher Hayden,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,0,0,0,0,0,5,0,0,0,0,0
+Finn Sheehy,Division 3,Men,Division 3 Men,Bates Orange Whip,0,0,0,0,0,6,0,0,0,0,0
+Felix Feiger,Division 1,Men,Division 1 Men,Colorado Mambird,1,1,0,0,0,7,0.142857143,0.142857143,0,0,0
+Feliks Ciesielski,Division 1,Men,Division 1 Men,NC State Alpha,0,0,0,0,0,6,0,0,0,0,0
+Evie Angevine,Division 3,Women,Division 3 Women,Colorado College Zenith,1,0,1,0,0,6,0.166666667,0,0.166666667,0,0
+Evan Ellis,Division 1,Men,Division 1 Men,Minnesota Grey Duck,0,0,0,0,0,5,0,0,0,0,0
+Ethan Burgess,Division 1,Men,Division 1 Men,Colorado Mambird,1,0,0,1,0,7,0.142857143,0,0,0.142857143,0
+Eric Zhou,Division 3,Men,Division 3 Men,Williams WUFO,0,0,0,0,0,6,0,0,0,0,0
+Eno Little,Division 3,Men,Division 3 Men,Bates Orange Whip,0,0,0,0,0,6,0,0,0,0,0
+Ennio Ciambella,Division 1,Men,Division 1 Men,Ottawa Gee-Gees,0,0,0,0,0,5,0,0,0,0,0
+Emmet Payette,Division 1,Men,Division 1 Men,Michigan Magnum,0,0,0,0,0,5,0,0,0,0,0
+Emma Murray,Division 3,Women,Division 3 Women,Macalester Purse Snatchers,0,0,0,0,0,6,0,0,0,0,0
+Elspeth Howland,Division 3,Women,Division 3 Women,Mount Holyoke Daisy Chain,3,2,0,1,0,6,0.5,0.333333333,0,0.166666667,0
+Else Gerber,Division 3,Women,Division 3 Women,Macalester Purse Snatchers,21,3,9,9,0,6,3.5,0.5,1.5,1.5,0
+Elsa Hoff,Division 3,Women,Division 3 Women,Colorado College Zenith,0,0,0,0,0,6,0,0,0,0,0
+Elliot Ylagan,Division 1,Men,Division 1 Men,Texas TUFF,0,0,0,0,0,5,0,0,0,0,0
+Ella Lietzau,Division 3,Women,Division 3 Women,Occidental WAC,7,1,2,4,0,6,1.166666667,0.166666667,0.333333333,0.666666667,0
+Ella Boodell,Division 3,Women,Division 3 Women,Wellesley Whiptails,0,0,0,0,0,6,0,0,0,0,0
+Elise Francis,Division 1,Women,Division 1 Women,Utah Spiral Jetty,8,2,1,5,0,5,1.6,0.4,0.2,1,0
+Eliot Duncan,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,0,0,0,0,0,5,0,0,0,0,0
+Elijah Danley,Division 1,Men,Division 1 Men,North Carolina Darkside,0,0,0,0,0,6,0,0,0,0,0
+Elias Gradinger,Division 3,Men,Division 3 Men,Claremont Braineaters,3,0,2,1,0,6,0.5,0,0.333333333,0.166666667,0
+Eliana Joftus,Division 3,Women,Division 3 Women,Occidental WAC,0,0,0,0,0,6,0,0,0,0,0
+Eli Donohue,Division 1,Women,Division 1 Women,Oregon Fugue,4,0,4,0,0,6,0.666666667,0,0.666666667,0,0
+Eli Beech-Brown,Division 3,Men,Division 3 Men,Richmond Spidermonkeys,0,0,0,0,0,6,0,0,0,0,0
+Eleni Kauffman,Division 1,Women,Division 1 Women,Tufts EWO,1,1,0,0,0,5,0.2,0.2,0,0,0
+Elena Kamas,Division 1,Women,Division 1 Women,Stanford Superfly,0,0,0,0,0,7,0,0,0,0,0
+Eden Bogale,Division 1,Women,Division 1 Women,Washington Element,1,1,0,0,0,5,0.2,0.2,0,0,0
+Ed Dowling,Division 3,Men,Division 3 Men,Carleton CHOP,2,0,2,0,0,6,0.333333333,0,0.333333333,0,0
+Drew Wentworth,Division 1,Men,Division 1 Men,Georgia Jojah,2,1,0,1,0,5,0.4,0.2,0,0.2,0
+Dexter Pakula,Division 1,Men,Division 1 Men,Carleton CUT,0,0,0,0,0,5,0,0,0,0,0
+Devan Hernandez,Division 1,Men,Division 1 Men,Brown Brownian Motion,0,0,0,0,0,8,0,0,0,0,0
+Declan Murphy,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,0,0,0,0,0,5,0,0,0,0,0
+David Stamp,Division 3,Men,Division 3 Men,Franciscan Fatal,0,0,0,0,0,6,0,0,0,0,0
+David Bix,Division 1,Men,Division 1 Men,Washington University Contra,0,0,0,0,0,5,0,0,0,0,0
+Daniel Williams,Division 1,Men,Division 1 Men,Colorado Mambird,3,0,3,0,0,7,0.428571429,0,0.428571429,0,0
+Daniel Marlin,Division 1,Men,Division 1 Men,Michigan Magnum,0,0,0,0,0,5,0,0,0,0,0
+Daniel Kim,Division 1,Men,Division 1 Men,Alabama-Huntsville Nightmares,0,0,0,0,0,5,0,0,0,0,0
+Daniel Corbo,Division 3,Men,Division 3 Men,Lewis & Clark Bacchus,0,0,0,0,0,6,0,0,0,0,0
+Daniel Brown,Division 3,Men,Division 3 Men,St Olaf Berzerkers,0,0,0,0,0,6,0,0,0,0,0
+Daniel Bauman,Division 1,Men,Division 1 Men,Colorado Mambird,1,0,1,0,0,7,0.142857143,0,0.142857143,0,0
+Courtney Lawson,Division 3,Women,Division 3 Women,Union Jillz,10,1,4,5,0,6,1.666666667,0.166666667,0.666666667,0.833333333,0
+Corey Sweet,Division 1,Men,Division 1 Men,Alabama-Huntsville Nightmares,0,0,0,0,0,5,0,0,0,0,0
+Copelan Brown,Division 3,Men,Division 3 Men,Berry Bucks,0,0,0,0,0,6,0,0,0,0,0
+Colman Bashore,Division 3,Men,Division 3 Men,Middlebury Pranksters,5,1,3,1,0,5,1,0.2,0.6,0.2,0
+Collin Colegate,Division 3,Men,Division 3 Men,Davenport Panthers,1,0,0,1,0,6,0.166666667,0,0,0.166666667,0
+Clay Haddock,Division 1,Men,Division 1 Men,Carleton CUT,0,0,0,0,0,5,0,0,0,0,0
+Clara Bass,Division 3,Women,Division 3 Women,Middlebury Pranksters,1,0,1,0,0,5,0.2,0,0.2,0,0
+Claire Mollen,Division 1,Women,Division 1 Women,Michigan Flywheel,0,0,0,0,0,5,0,0,0,0,0
+Cianna Burr,Division 1,Women,Division 1 Women,SUNY - Binghamton Big Bear,0,0,0,0,0,5,0,0,0,0,0
+Christopher O'Mara,Division 3,Men,Division 3 Men,Carleton CHOP,21,0,17,4,0,6,3.5,0,2.833333333,0.666666667,0
+Christopher Elvin,Division 3,Men,Division 3 Men,Richmond Spidermonkeys,0,0,0,0,0,6,0,0,0,0,0
+Christian Johnson,Division 3,Men,Division 3 Men,Oklahoma Christian Eagles,0,0,0,0,0,5,0,0,0,0,0
+Chris Youngblood,Division 1,Men,Division 1 Men,Alabama-Huntsville Nightmares,10,1,6,3,0,5,2,0.2,1.2,0.6,0
+Charlotte Moynihan,Division 3,Women,Division 3 Women,Mount Holyoke Daisy Chain,29,9,11,9,0,6,4.833333333,1.5,1.833333333,1.5,0
+Charlie Leightheiser,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,0,0,0,0,0,5,0,0,0,0,0
+Charlie LaPorte,Division 3,Women,Division 3 Women,Portland UPRoar,0,0,0,0,0,6,0,0,0,0,0
+Charlie Huang,Division 1,Men,Division 1 Men,Michigan Magnum,0,0,0,0,0,5,0,0,0,0,0
+Charles Gluck,Division 1,Men,Division 1 Men,Washington University Contra,1,0,1,0,0,5,0.2,0,0.2,0,0
+Celia Flory,Division 1,Women,Division 1 Women,Michigan Flywheel,8,2,4,2,0,5,1.6,0.4,0.8,0.4,0
+Catrina Sada,Division 1,Women,Division 1 Women,California - Santa Barbara Burning Skirts,1,0,1,0,0,5,0.2,0,0.2,0,0
+Catherine Huang,Division 1,Women,Division 1 Women,Washington Element,1,1,0,0,0,5,0.2,0.2,0,0,0
+Carolina Weiss,Division 1,Women,Division 1 Women,SUNY - Binghamton Big Bear,1,0,0,1,0,5,0.2,0,0,0.2,0
+Carmen Morris,Division 1,Women,Division 1 Women,California - Santa Cruz Sol,0,0,0,0,0,5,0,0,0,0,0
+Carly Smithmier,Division 3,Women,Division 3 Women,St Olaf Vortex,0,0,0,0,0,5,0,0,0,0,0
+Camilo Tamayo-Rousseau,Division 1,Men,Division 1 Men,Brown Brownian Motion,0,0,0,0,0,8,0,0,0,0,0
+Cameron White,Division 3,Men,Division 3 Men,Oklahoma Christian Eagles,0,0,0,0,0,5,0,0,0,0,0
+Cameron Taleghani,Division 1,Men,Division 1 Men,Cal Ursa Major,0,0,0,0,0,5,0,0,0,0,0
+Callahan Phinney,Division 1,Men,Division 1 Men,Oregon EGO,0,0,0,0,0,6,0,0,0,0,0
+Calla Grafton-Freeze,Division 1,Women,Division 1 Women,Victoria Vikes,0,0,0,0,0,5,0,0,0,0,0
+Cale Ellingson,Division 1,Men,Division 1 Men,Vermont Chill,0,0,0,0,0,5,0,0,0,0,0
+Calder Lange,Division 3,Men,Division 3 Men,Middlebury Pranksters,0,0,0,0,0,5,0,0,0,0,0
+Cady Carr,Division 3,Women,Division 3 Women,Occidental WAC,1,1,0,0,0,6,0.166666667,0.166666667,0,0,0
+Bryan Dole,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,1,0,0,1,0,5,0.2,0,0,0.2,0
+Brianna Johnson,Division 1,Women,Division 1 Women,Stanford Superfly,4,1,0,3,0,7,0.571428571,0.142857143,0,0.428571429,0
+Brendan Banfield,Division 3,Men,Division 3 Men,Carleton CHOP,0,0,0,0,0,6,0,0,0,0,0
+Bradley Kerr,Division 1,Men,Division 1 Men,Michigan Magnum,0,0,0,0,0,5,0,0,0,0,0
+Beorn Morrow-Caron,Division 1,Men,Division 1 Men,Vermont Chill,0,0,0,0,0,5,0,0,0,0,0
+Benson Cady,Division 1,Men,Division 1 Men,Cal Poly-SLO Slocore,0,0,0,0,0,7,0,0,0,0,0
+Benjamin Scott-Lewis,Division 1,Men,Division 1 Men,Carleton CUT,0,0,0,0,0,5,0,0,0,0,0
+Benjamin Perry,Division 3,Men,Division 3 Men,Rochester Piggies,0,0,0,0,0,6,0,0,0,0,0
+Benjamin Parsons,Division 3,Men,Division 3 Men,Oberlin Flying Horsecows,0,0,0,0,0,6,0,0,0,0,0
+Benjamin Goldstein,Division 3,Men,Division 3 Men,Rochester Piggies,1,0,0,1,0,6,0.166666667,0,0,0.166666667,0
+Ben Lodahl,Division 1,Men,Division 1 Men,Oregon State Beavers,1,0,1,0,0,5,0.2,0,0.2,0,0
+Beckett Schafer,Division 3,Men,Division 3 Men,Carleton CHOP,1,1,0,0,0,6,0.166666667,0.166666667,0,0,0
+Bailey Prochaska,Division 1,Men,Division 1 Men,Cal Poly-SLO Slocore,0,0,0,0,0,7,0,0,0,0,0
+Avani Marmer,Division 3,Women,Division 3 Women,Haverford/Bryn Mawr Sneetches,1,0,0,1,0,6,0.166666667,0,0,0.166666667,0
+Ava Day,Division 1,Women,Division 1 Women,Washington Element,0,0,0,0,0,5,0,0,0,0,0
+Austin Ngan,Division 1,Men,Division 1 Men,Michigan Magnum,0,0,0,0,0,5,0,0,0,0,0
+Audrey Schneider,Division 1,Women,Division 1 Women,California - San Diego D-Co,0,0,0,0,0,5,0,0,0,0,0
+Antonia Thommes,Division 1,Women,Division 1 Women,California - San Diego D-Co,0,0,0,0,0,5,0,0,0,0,0
+Anthony Frattaroli,Division 3,Men,Division 3 Men,Berry Bucks,0,0,0,0,0,6,0,0,0,0,0
+Anish Shrestha,Division 1,Men,Division 1 Men,Cal Ursa Major,2,1,1,0,0,5,0.4,0.2,0.2,0,0
+Andy Wang,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,0,0,0,0,0,5,0,0,0,0,0
+Andrew Kim,Division 1,Men,Division 1 Men,Michigan Magnum,0,0,0,0,0,5,0,0,0,0,0
+Andrew Fan,Division 1,Men,Division 1 Men,North Carolina Darkside,0,0,0,0,0,6,0,0,0,0,0
+Andrew Carmody,Division 3,Men,Division 3 Men,Franciscan Fatal,2,0,1,1,0,6,0.333333333,0,0.166666667,0.166666667,0
+Amiya Johnson,Division 1,Women,Division 1 Women,Michigan Flywheel,1,1,0,0,0,5,0.2,0.2,0,0,0
+Amir Jeudy,Division 3,Men,Division 3 Men,Williams WUFO,0,0,0,0,0,6,0,0,0,0,0
+amelia Whitacre,Division 1,Women,Division 1 Women,California - Santa Barbara Burning Skirts,0,0,0,0,0,5,0,0,0,0,0
+Alyssa Alvarez,Division 3,Women,Division 3 Women,Carleton Eclipse,5,0,2,3,0,6,0.833333333,0,0.333333333,0.5,0
+Alexia Swiglo,Division 3,Women,Division 3 Women,St Olaf Vortex,1,1,0,0,0,5,0.2,0.2,0,0,0
+Alexander Ertel,Division 3,Men,Division 3 Men,Richmond Spidermonkeys,4,0,2,2,0,6,0.666666667,0,0.333333333,0.333333333,0
+Alex Tsvetkov,Division 1,Men,Division 1 Men,Minnesota Grey Duck,0,0,0,0,0,5,0,0,0,0,0
+Alec Minnicks,Division 1,Men,Division 1 Men,Alabama-Huntsville Nightmares,0,0,0,0,0,5,0,0,0,0,0
+Alden Harcourt,Division 1,Men,Division 1 Men,Carleton CUT,0,0,0,0,0,5,0,0,0,0,0
+Aidan Slovinski,Division 3,Men,Division 3 Men,Williams WUFO,0,0,0,0,0,6,0,0,0,0,0
+Adrian Lin,Division 1,Men,Division 1 Men,Brown Brownian Motion,1,1,0,0,0,8,0.125,0.125,0,0,0
+Aditya Vunnum,Division 1,Men,Division 1 Men,Cal Ursa Major,0,0,0,0,0,5,0,0,0,0,0
+Adam Rothman,Division 1,Men,Division 1 Men,Carleton CUT,0,0,0,0,0,5,0,0,0,0,0
+Adam Ricci,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,0,0,0,0,0,5,0,0,0,0,0
+Adam Cummings,Division 3,Men,Division 3 Men,Rochester Piggies,0,0,0,0,0,6,0,0,0,0,0
+Acacia Hahn,Division 1,Women,Division 1 Women,Oregon Fugue,16,8,7,1,0,6,2.666666667,1.333333333,1.166666667,0.166666667,0
+Abraham Lovich,Division 3,Men,Division 3 Men,Rochester Piggies,0,0,0,0,0,6,0,0,0,0,0
+Abigail Montopoli,Division 3,Women,Division 3 Women,Occidental WAC,0,0,0,0,0,6,0,0,0,0,0
+Abigail Clark,Division 1,Women,Division 1 Women,Georgia Athena,0,0,0,0,0,5,0,0,0,0,0
+Zoe Lang,Division 3,Men,Division 3 Men,Lewis & Clark Bacchus,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+Zejun Li,Division 1,Women,Division 1 Women,Michigan Flywheel,2,0,1,0,-1,5,0.4,0,0.2,0,-0.2
+Xiaochen Peng,Division 3,Women,Division 3 Women,Middlebury Pranksters,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Wyatt Johnson,Division 3,Men,Division 3 Men,Berry Bucks,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+William Hassell,Division 3,Men,Division 3 Men,Carleton CHOP,3,0,0,2,-1,6,0.5,0,0,0.333333333,-0.166666667
+Watkins Parker,Division 1,Men,Division 1 Men,North Carolina Darkside,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+Walt Johnson,Division 1,Men,Division 1 Men,Colorado Mambird,3,0,0,2,-1,7,0.428571429,0,0,0.285714286,-0.142857143
+Victoria Green,Division 3,Women,Division 3 Women,Union Jillz,30,2,20,7,-1,6,5,0.333333333,3.333333333,1.166666667,-0.166666667
+Trent Moon,Division 1,Men,Division 1 Men,Michigan Magnum,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Tova Gordon,Division 3,Women,Division 3 Women,Haverford/Bryn Mawr Sneetches,5,1,0,3,-1,6,0.833333333,0.166666667,0,0.5,-0.166666667
+Tomomi Perry,Division 3,Men,Division 3 Men,Carleton CHOP,3,2,0,0,-1,6,0.5,0.333333333,0,0,-0.166666667
+Thaovy Mai,Division 1,Women,Division 1 Women,Pennsylvania Venus,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Teaghan Lynch,Division 1,Women,Division 1 Women,California - San Diego D-Co,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Sutton Ballard,Division 1,Women,Division 1 Women,Colorado State Helle's Belles,5,1,2,1,-1,5,1,0.2,0.4,0.2,-0.2
+Sravya Dandamudi,Division 1,Women,Division 1 Women,Pennsylvania Venus,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Spencer Ewing,Division 1,Women,Division 1 Women,Utah Spiral Jetty,11,1,2,7,-1,5,2.2,0.2,0.4,1.4,-0.2
+Soh Nishiyama,Division 1,Men,Division 1 Men,Texas TUFF,4,0,0,3,-1,5,0.8,0,0,0.6,-0.2
+Sierra Gaynor,Division 1,Women,Division 1 Women,Western Washington Chaos,4,0,1,2,-1,5,0.8,0,0.2,0.4,-0.2
+Siddharth Yende,Division 1,Men,Division 1 Men,Brown Brownian Motion,1,0,0,0,-1,8,0.125,0,0,0,-0.125
+Shannon Anderson,Division 1,Women,Division 1 Women,Utah Spiral Jetty,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Seiji Koenigsberg,Division 1,Men,Division 1 Men,Oregon State Beavers,6,1,3,1,-1,5,1.2,0.2,0.6,0.2,-0.2
+Sathvik Avulapati,Division 1,Men,Division 1 Men,NC State Alpha,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+Sassan Fahim,Division 3,Men,Division 3 Men,Richmond Spidermonkeys,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+Sarah Skinner,Division 3,Women,Division 3 Women,Union Jillz,4,2,0,1,-1,6,0.666666667,0.333333333,0,0.166666667,-0.166666667
+Samuel Winkler,Division 3,Men,Division 3 Men,Claremont Braineaters,2,0,1,0,-1,6,0.333333333,0,0.166666667,0,-0.166666667
+Samuel Rysko,Division 3,Men,Division 3 Men,Davenport Panthers,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+Ryan Fontanez,Division 3,Men,Division 3 Men,Oberlin Flying Horsecows,3,0,1,1,-1,6,0.5,0,0.166666667,0.166666667,-0.166666667
+Ruby Sutherlin Sovern,Division 1,Women,Division 1 Women,California - Santa Cruz Sol,12,4,4,3,-1,5,2.4,0.8,0.8,0.6,-0.2
+Rita Narbonne,Division 1,Women,Division 1 Women,Vermont Ruckus,2,1,0,0,-1,6,0.333333333,0.166666667,0,0,-0.166666667
+Raffael Venterea,Division 3,Men,Division 3 Men,Rochester Piggies,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+Rachel Yao,Division 1,Women,Division 1 Women,North Carolina Pleiades,4,1,2,0,-1,7,0.571428571,0.142857143,0.285714286,0,-0.142857143
+rachel Vanpelt,Division 3,Women,Division 3 Women,Union Jillz,2,1,0,0,-1,6,0.333333333,0.166666667,0,0,-0.166666667
+Rachel Lit,Division 1,Women,Division 1 Women,Stanford Superfly,2,0,0,1,-1,7,0.285714286,0,0,0.142857143,-0.142857143
+Quinn Sumerlin,Division 3,Women,Division 3 Women,Occidental WAC,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+Piper Fleming,Division 1,Women,Division 1 Women,Stanford Superfly,1,0,0,0,-1,7,0.142857143,0,0,0,-0.142857143
+Phoenix Adams,Division 1,Women,Division 1 Women,Oregon Fugue,10,3,4,2,-1,6,1.666666667,0.5,0.666666667,0.333333333,-0.166666667
+Philomena Shuffelton-Sobe,Division 3,Women,Division 3 Women,Macalester Purse Snatchers,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+Pearl Tulay,Division 3,Women,Division 3 Women,Middlebury Pranksters,12,4,2,5,-1,5,2.4,0.8,0.4,1,-0.2
+Owen Thoms,Division 3,Men,Division 3 Men,Missouri S&T Miner Threat,4,0,0,3,-1,6,0.666666667,0,0,0.5,-0.166666667
+Nora Knudsen,Division 1,Women,Division 1 Women,Stanford Superfly,1,0,0,0,-1,7,0.142857143,0,0,0,-0.142857143
+Nora de Rege,Division 3,Women,Division 3 Women,Macalester Purse Snatchers,9,6,0,2,-1,6,1.5,1,0,0.333333333,-0.166666667
+Noah Gettings,Division 3,Men,Division 3 Men,Middlebury Pranksters,2,0,0,1,-1,5,0.4,0,0,0.2,-0.2
+Noah Berube,Division 1,Men,Division 1 Men,Ottawa Gee-Gees,7,0,4,2,-1,5,1.4,0,0.8,0.4,-0.2
+Nika Rockafeller,Division 1,Women,Division 1 Women,Vermont Ruckus,3,1,1,0,-1,6,0.5,0.166666667,0.166666667,0,-0.166666667
+Nicolas Sprague,Division 1,Men,Division 1 Men,Washington University Contra,3,1,0,1,-1,5,0.6,0.2,0,0.2,-0.2
+Nicolas Moreira,Division 3,Men,Division 3 Men,Richmond Spidermonkeys,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+Nico Darringer,Division 3,Men,Division 3 Men,Whitman Sweets,25,5,10,9,-1,6,4.166666667,0.833333333,1.666666667,1.5,-0.166666667
+Morgan West,Division 1,Women,Division 1 Women,Pennsylvania Venus,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Molly Snow,Division 3,Women,Division 3 Women,Middlebury Pranksters,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Molly Horstman Olson,Division 3,Women,Division 3 Women,Carleton Eclipse,24,12,8,3,-1,6,4,2,1.333333333,0.5,-0.166666667
+Mitch Whisner,Division 3,Men,Division 3 Men,Rochester Piggies,15,3,7,4,-1,6,2.5,0.5,1.166666667,0.666666667,-0.166666667
+Mira Larrance,Division 3,Women,Division 3 Women,Lewis & Clark Artemis,27,18,6,2,-1,5,5.4,3.6,1.2,0.4,-0.2
+Minh-Huy Le,Division 3,Men,Division 3 Men,Williams WUFO,4,3,0,0,-1,6,0.666666667,0.5,0,0,-0.166666667
+Miles Collins,Division 3,Men,Division 3 Men,Carleton CHOP,4,2,0,1,-1,6,0.666666667,0.333333333,0,0.166666667,-0.166666667
+Miguel McGuire,Division 1,Men,Division 1 Men,Georgia Jojah,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Michael Sun,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,2,0,1,0,-1,5,0.4,0,0.2,0,-0.2
+Melissa Dodson,Division 3,Women,Division 3 Women,Occidental WAC,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+Meagan Chau,Division 1,Women,Division 1 Women,British Columbia Thunderbirds,4,0,1,2,-1,6,0.666666667,0,0.166666667,0.333333333,-0.166666667
+Max Hemeon,Division 1,Men,Division 1 Men,Vermont Chill,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Matthew Cao,Division 1,Men,Division 1 Men,Michigan Magnum,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Marley Sussman,Division 1,Men,Division 1 Men,Cal Poly-SLO Slocore,1,0,0,0,-1,7,0.142857143,0,0,0,-0.142857143
+Mae Wrigley,Division 3,Women,Division 3 Women,Wesleyan Vicious Circles,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+Madeleine Kruckemeyer,Division 3,Women,Division 3 Women,Haverford/Bryn Mawr Sneetches,4,1,0,2,-1,6,0.666666667,0.166666667,0,0.333333333,-0.166666667
+Maclain Everson-Rose,Division 3,Men,Division 3 Men,St Olaf Berzerkers,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+Lydia Mendoza,Division 1,Women,Division 1 Women,Pennsylvania Venus,3,1,0,1,-1,5,0.6,0.2,0,0.2,-0.2
+Lucy Leary,Division 1,Women,Division 1 Women,Utah Spiral Jetty,5,1,2,1,-1,5,1,0.2,0.4,0.2,-0.2
+Lucinda Toppen,Division 1,Women,Division 1 Women,Vermont Ruckus,10,1,5,3,-1,6,1.666666667,0.166666667,0.833333333,0.5,-0.166666667
+Lucia Neyra,Division 3,Women,Division 3 Women,Portland UPRoar,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+Liam Griffin,Division 3,Men,Division 3 Men,St Olaf Berzerkers,3,0,2,0,-1,6,0.5,0,0.333333333,0,-0.166666667
+Liam Etelson,Division 3,Men,Division 3 Men,Carleton CHOP,4,0,2,1,-1,6,0.666666667,0,0.333333333,0.166666667,-0.166666667
+Leo Devonshire,Division 1,Women,Division 1 Women,British Columbia Thunderbirds,6,3,1,1,-1,6,1,0.5,0.166666667,0.166666667,-0.166666667
+Kolbe Bauer,Division 1,Men,Division 1 Men,Texas TUFF,3,0,2,0,-1,5,0.6,0,0.4,0,-0.2
+Kelsi Jones,Division 3,Women,Division 3 Women,Union Jillz,8,3,1,3,-1,6,1.333333333,0.5,0.166666667,0.5,-0.166666667
+Katherine Romero,Division 1,Women,Division 1 Women,SUNY - Binghamton Big Bear,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Kate Bicks,Division 3,Women,Division 3 Women,Colorado College Zenith,8,3,1,3,-1,6,1.333333333,0.5,0.166666667,0.5,-0.166666667
+Kara Higgins,Division 3,Women,Division 3 Women,Davenport Panthers,7,3,0,3,-1,5,1.4,0.6,0,0.6,-0.2
+Kailani Latimer,Division 1,Women,Division 1 Women,California - Santa Barbara Burning Skirts,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Jonah Barry,Division 1,Men,Division 1 Men,Carleton CUT,3,1,0,1,-1,5,0.6,0.2,0,0.2,-0.2
+Joel Brown,Division 1,Men,Division 1 Men,Washington University Contra,12,4,5,2,-1,5,2.4,0.8,1,0.4,-0.2
+Jocelyn Richison,Division 3,Women,Division 3 Women,Davenport Panthers,15,6,4,4,-1,5,3,1.2,0.8,0.8,-0.2
+Jianwei Li,Division 1,Women,Division 1 Women,Pennsylvania Venus,5,2,1,1,-1,5,1,0.4,0.2,0.2,-0.2
+Jessica Luu,Division 1,Women,Division 1 Women,Washington Element,3,1,0,1,-1,5,0.6,0.2,0,0.2,-0.2
+Jasmine Lin,Division 3,Women,Division 3 Women,Richmond Red Hots,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+Jasmine Bowman,Division 1,Women,Division 1 Women,Utah Spiral Jetty,2,0,0,1,-1,5,0.4,0,0,0.2,-0.2
+Jake Hyman,Division 1,Men,Division 1 Men,Washington University Contra,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Jahiem Upchurch,Division 3,Men,Division 3 Men,Davenport Panthers,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+Jackson Freeman,Division 1,Men,Division 1 Men,Washington University Contra,4,1,1,1,-1,5,0.8,0.2,0.2,0.2,-0.2
+Isaiah Curtis,Division 3,Men,Division 3 Men,Claremont Braineaters,9,3,4,1,-1,6,1.5,0.5,0.666666667,0.166666667,-0.166666667
+Ian Rock-Jones,Division 1,Men,Division 1 Men,Carleton CUT,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Ian Neal,Division 3,Men,Division 3 Men,Davenport Panthers,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+Henry Charbeneau,Division 1,Men,Division 1 Men,Texas TUFF,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Hans Frautschi,Division 3,Men,Division 3 Men,Whitman Sweets,6,2,1,2,-1,6,1,0.333333333,0.166666667,0.333333333,-0.166666667
+Hannah Lute,Division 3,Women,Division 3 Women,Union Jillz,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+Hannah Kroeplin,Division 1,Women,Division 1 Women,Victoria Vikes,2,0,0,1,-1,5,0.4,0,0,0.2,-0.2
+Gwendolyn McGuire,Division 1,Women,Division 1 Women,Michigan Flywheel,2,0,1,0,-1,5,0.4,0,0.2,0,-0.2
+Gretchen Pohl,Division 1,Women,Division 1 Women,Colorado State Helle's Belles,3,1,0,1,-1,5,0.6,0.2,0,0.2,-0.2
+Georgia Corson,Division 3,Women,Division 3 Women,Lewis & Clark Artemis,3,1,1,0,-1,5,0.6,0.2,0.2,0,-0.2
+Gabrielle Weaver,Division 3,Women,Division 3 Women,Portland UPRoar,2,1,0,0,-1,6,0.333333333,0.166666667,0,0,-0.166666667
+Gabriel Scheck,Division 1,Men,Division 1 Men,Michigan Magnum,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Gabriel Graceffo,Division 3,Men,Division 3 Men,Richmond Spidermonkeys,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+Gabe Borda,Division 1,Men,Division 1 Men,Georgia Jojah,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Ezra Marcus-Tyler,Division 3,Men,Division 3 Men,Claremont Braineaters,5,3,1,0,-1,6,0.833333333,0.5,0.166666667,0,-0.166666667
+Eugenia Chow,Division 1,Women,Division 1 Women,North Carolina Pleiades,3,2,0,0,-1,7,0.428571429,0.285714286,0,0,-0.142857143
+Emma Giamello,Division 3,Women,Division 3 Women,Portland UPRoar,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+Ella Bolan,Division 1,Women,Division 1 Women,British Columbia Thunderbirds,20,6,12,1,-1,6,3.333333333,1,2,0.166666667,-0.166666667
+Elk Thomas-Toth,Division 3,Men,Division 3 Men,Carleton CHOP,6,4,0,1,-1,6,1,0.666666667,0,0.166666667,-0.166666667
+Elise Gautier,Division 3,Women,Division 3 Women,Macalester Purse Snatchers,15,9,5,0,-1,6,2.5,1.5,0.833333333,0,-0.166666667
+David Kimberly,Division 3,Men,Division 3 Men,Williams WUFO,2,0,0,1,-1,6,0.333333333,0,0,0.166666667,-0.166666667
+Daniel Zhang,Division 1,Men,Division 1 Men,North Carolina Darkside,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+Daniel Griffin,Division 3,Men,Division 3 Men,Oklahoma Christian Eagles,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Daisy Cuthbert,Division 1,Women,Division 1 Women,California - Santa Barbara Burning Skirts,4,0,1,2,-1,5,0.8,0,0.2,0.4,-0.2
+Connor Scott,Division 3,Men,Division 3 Men,Whitman Sweets,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+Colin Dunn,Division 3,Men,Division 3 Men,Oklahoma Christian Eagles,2,0,0,1,-1,5,0.4,0,0,0.2,-0.2
+Cindy Zhang,Division 1,Women,Division 1 Women,Tufts EWO,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Chloe Pacetti,Division 3,Women,Division 3 Women,Wesleyan Vicious Circles,4,1,2,0,-1,6,0.666666667,0.166666667,0.333333333,0,-0.166666667
+Charlotte Harkrader,Division 3,Women,Division 3 Women,Occidental WAC,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+Caroline Li,Division 1,Women,Division 1 Women,Pennsylvania Venus,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Camden Mah,Division 1,Men,Division 1 Men,Cal Ursa Major,8,0,1,6,-1,5,1.6,0,0.2,1.2,-0.2
+Caleb Griffiths,Division 1,Men,Division 1 Men,Minnesota Grey Duck,2,0,1,0,-1,5,0.4,0,0.2,0,-0.2
+Calan Kirkpatrick,Division 1,Men,Division 1 Men,Massachusetts Zoodisc,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Bridget McBride,Division 3,Women,Division 3 Women,Mount Holyoke Daisy Chain,7,4,0,2,-1,6,1.166666667,0.666666667,0,0.333333333,-0.166666667
+Brian Bekken,Division 1,Men,Division 1 Men,Alabama-Huntsville Nightmares,2,0,0,1,-1,5,0.4,0,0,0.2,-0.2
+Brandon Lemens,Division 1,Men,Division 1 Men,Texas TUFF,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Benjamin Weinstein,Division 1,Men,Division 1 Men,Vermont Chill,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Ben Thollander,Division 1,Men,Division 1 Men,Texas TUFF,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Ben Eichel,Division 3,Men,Division 3 Men,Lewis & Clark Bacchus,3,1,0,1,-1,6,0.5,0.166666667,0,0.166666667,-0.166666667
+Annie Art,Division 3,Women,Division 3 Women,Middlebury Pranksters,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Anna Ryan,Division 3,Women,Division 3 Women,Lewis & Clark Artemis,3,1,0,1,-1,5,0.6,0.2,0,0.2,-0.2
+Anna Bingham,Division 3,Women,Division 3 Women,Haverford/Bryn Mawr Sneetches,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+Angelo Hernandez,Division 3,Men,Division 3 Men,Berry Bucks,1,0,0,0,-1,6,0.166666667,0,0,0,-0.166666667
+Andy Burris,Division 1,Men,Division 1 Men,Brown Brownian Motion,1,0,0,0,-1,8,0.125,0,0,0,-0.125
+Amanda Szutu,Division 1,Women,Division 1 Women,SUNY - Binghamton Big Bear,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Aliyah Latham,Division 1,Women,Division 1 Women,California - Santa Barbara Burning Skirts,1,0,0,0,-1,5,0.2,0,0,0,-0.2
+Alex Hecht,Division 1,Women,Division 1 Women,North Carolina Pleiades,2,0,1,0,-1,7,0.285714286,0,0.142857143,0,-0.142857143
+Alanna Marte,Division 1,Women,Division 1 Women,Pennsylvania Venus,3,1,0,1,-1,5,0.6,0.2,0,0.2,-0.2
+Adam Goldstein,Division 1,Men,Division 1 Men,Georgia Jojah,2,0,0,1,-1,5,0.4,0,0,0.2,-0.2
+Adam Ali,Division 3,Men,Division 3 Men,Carleton CHOP,2,0,1,0,-1,6,0.333333333,0,0.166666667,0,-0.166666667
+Aanand Yu,Division 1,Men,Division 1 Men,NC State Alpha,2,0,1,0,-1,6,0.333333333,0,0.166666667,0,-0.166666667
+Zoe Williamson,Division 3,Women,Division 3 Women,Colorado College Zenith,7,2,0,3,-2,6,1.166666667,0.333333333,0,0.5,-0.333333333
+Yana Wink,Division 1,Women,Division 1 Women,Western Washington Chaos,7,1,2,2,-2,5,1.4,0.2,0.4,0.4,-0.4
+Wade Intrator,Division 3,Men,Division 3 Men,Bates Orange Whip,2,0,0,0,-2,6,0.333333333,0,0,0,-0.333333333
+Vivian Ross,Division 3,Women,Division 3 Women,Haverford/Bryn Mawr Sneetches,6,3,0,1,-2,6,1,0.5,0,0.166666667,-0.333333333
+Tomomi Ogura,Division 1,Women,Division 1 Women,Western Washington Chaos,11,2,4,3,-2,5,2.2,0.4,0.8,0.6,-0.4
+Taro Jelinek,Division 3,Men,Division 3 Men,St Olaf Berzerkers,7,3,0,2,-2,6,1.166666667,0.5,0,0.333333333,-0.333333333
+Sydney Tellis,Division 3,Women,Division 3 Women,Richmond Red Hots,5,3,0,0,-2,6,0.833333333,0.5,0,0,-0.333333333
+Sophie Hankin,Division 1,Women,Division 1 Women,Tufts EWO,10,1,6,1,-2,5,2,0.2,1.2,0.2,-0.4
+Sayric Arias,Division 1,Men,Division 1 Men,Oregon State Beavers,3,0,0,1,-2,5,0.6,0,0,0.2,-0.4
+Sam Fischer,Division 3,Men,Division 3 Men,Claremont Braineaters,3,1,0,0,-2,6,0.5,0.166666667,0,0,-0.333333333
+Rylie Feltner,Division 3,Women,Division 3 Women,Union Jillz,3,0,0,1,-2,6,0.5,0,0,0.166666667,-0.333333333
+Rohan Patel,Division 1,Men,Division 1 Men,Washington University Contra,3,1,0,0,-2,5,0.6,0.2,0,0,-0.4
+Rebecca Marshall,Division 1,Women,Division 1 Women,Carleton Syzygy,4,1,1,0,-2,6,0.666666667,0.166666667,0.166666667,0,-0.333333333
+Nicky Troilo,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,6,0,3,1,-2,5,1.2,0,0.6,0.2,-0.4
+Monica Hoang,Division 1,Women,Division 1 Women,Washington Element,2,0,0,0,-2,5,0.4,0,0,0,-0.4
+Molly Friedrichs,Division 3,Women,Division 3 Women,Macalester Purse Snatchers,3,0,0,1,-2,6,0.5,0,0,0.166666667,-0.333333333
+Mechelle Chen,Division 1,Women,Division 1 Women,Georgia Athena,3,0,0,1,-2,5,0.6,0,0,0.2,-0.4
+Matthew Evans,Division 3,Men,Division 3 Men,Franciscan Fatal,18,4,9,3,-2,6,3,0.666666667,1.5,0.5,-0.333333333
+Mary Francis,Division 1,Women,Division 1 Women,Utah Spiral Jetty,6,0,2,2,-2,5,1.2,0,0.4,0.4,-0.4
+Maple Bottinelli,Division 3,Women,Division 3 Women,Wellesley Whiptails,2,0,0,0,-2,6,0.333333333,0,0,0,-0.333333333
+Manuel Estevez,Division 3,Men,Division 3 Men,Berry Bucks,2,0,0,0,-2,6,0.333333333,0,0,0,-0.333333333
+Makenna Bachman,Division 3,Women,Division 3 Women,Middlebury Pranksters,5,2,0,1,-2,5,1,0.4,0,0.2,-0.4
+Lyanne Wang,Division 3,Women,Division 3 Women,Wellesley Whiptails,3,0,0,1,-2,6,0.5,0,0,0.166666667,-0.333333333
+Lucy Tanner,Division 1,Women,Division 1 Women,Washington Element,16,3,7,4,-2,5,3.2,0.6,1.4,0.8,-0.4
+Lucy Suchomel,Division 3,Women,Division 3 Women,Grinnell Grinneleanor Roosevelts,2,0,0,0,-2,6,0.333333333,0,0,0,-0.333333333
+Lindsey Norwood,Division 3,Women,Division 3 Women,Union Jillz,10,5,1,2,-2,6,1.666666667,0.833333333,0.166666667,0.333333333,-0.333333333
+Lily Weissman,Division 3,Women,Division 3 Women,Middlebury Pranksters,3,0,1,0,-2,5,0.6,0,0.2,0,-0.4
+Lily LeDonne,Division 1,Women,Division 1 Women,Washington Element,3,0,1,0,-2,5,0.6,0,0.2,0,-0.4
+Lia Schwartz,Division 1,Women,Division 1 Women,Tufts EWO,23,3,17,1,-2,5,4.6,0.6,3.4,0.2,-0.4
+Leza Rooks,Division 3,Women,Division 3 Women,Wesleyan Vicious Circles,7,2,1,2,-2,6,1.166666667,0.333333333,0.166666667,0.333333333,-0.333333333
+Leo Furr,Division 3,Men,Division 3 Men,Claremont Braineaters,4,0,0,2,-2,6,0.666666667,0,0,0.333333333,-0.333333333
+Leah Demsey,Division 1,Women,Division 1 Women,Victoria Vikes,6,1,0,3,-2,5,1.2,0.2,0,0.6,-0.4
+Lauren Marshall,Division 1,Women,Division 1 Women,SUNY - Binghamton Big Bear,7,4,1,0,-2,5,1.4,0.8,0.2,0,-0.4
+Kate Gearing,Division 1,Women,Division 1 Women,Tufts EWO,8,4,1,1,-2,5,1.6,0.8,0.2,0.2,-0.4
+Julius Cohen,Division 1,Men,Division 1 Men,Michigan Magnum,9,3,3,1,-2,5,1.8,0.6,0.6,0.2,-0.4
+Julia Giesenhagen,Division 1,Women,Division 1 Women,Colorado State Helle's Belles,3,0,1,0,-2,5,0.6,0,0.2,0,-0.4
+Jonah Tannen,Division 3,Men,Division 3 Men,Carleton CHOP,9,0,4,3,-2,6,1.5,0,0.666666667,0.5,-0.333333333
+Jill Analla,Division 3,Women,Division 3 Women,Haverford/Bryn Mawr Sneetches,2,0,0,0,-2,6,0.333333333,0,0,0,-0.333333333
+Jade Bing Zalaznik,Division 3,Women,Division 3 Women,Middlebury Pranksters,5,1,0,2,-2,5,1,0.2,0,0.4,-0.4
+Jackson Forebaugh,Division 3,Men,Division 3 Men,St Olaf Berzerkers,2,0,0,0,-2,6,0.333333333,0,0,0,-0.333333333
+Jack Huysmans,Division 3,Men,Division 3 Men,Bates Orange Whip,3,0,0,1,-2,6,0.5,0,0,0.166666667,-0.333333333
+Iris Wiedmann,Division 1,Women,Division 1 Women,SUNY - Binghamton Big Bear,2,0,0,0,-2,5,0.4,0,0,0,-0.4
+Holly Frank,Division 3,Women,Division 3 Women,Occidental WAC,2,0,0,0,-2,6,0.333333333,0,0,0,-0.333333333
+Hannah Omodt,Division 3,Women,Division 3 Women,St Olaf Vortex,8,1,5,0,-2,5,1.6,0.2,1,0,-0.4
+Griffin O'Neal-Freeman,Division 3,Men,Division 3 Men,Oberlin Flying Horsecows,20,6,10,2,-2,6,3.333333333,1,1.666666667,0.333333333,-0.333333333
+Greta Wilbur,Division 3,Women,Division 3 Women,Lewis & Clark Artemis,5,0,0,3,-2,5,1,0,0,0.6,-0.4
+Erin Ries-Juncker,Division 3,Women,Division 3 Women,Lewis & Clark Artemis,2,0,0,0,-2,5,0.4,0,0,0,-0.4
+Erin Durkin,Division 3,Women,Division 3 Women,Grinnell Grinneleanor Roosevelts,16,8,1,5,-2,6,2.666666667,1.333333333,0.166666667,0.833333333,-0.333333333
+Erik Arnold,Division 1,Men,Division 1 Men,Vermont Chill,2,0,0,0,-2,5,0.4,0,0,0,-0.4
+Emma Remien,Division 1,Women,Division 1 Women,Michigan Flywheel,7,3,1,1,-2,5,1.4,0.6,0.2,0.2,-0.4
+Emily Lanegraff,Division 3,Women,Division 3 Women,Carleton Eclipse,3,0,0,1,-2,6,0.5,0,0,0.166666667,-0.333333333
+Elliot Trimbur,Division 1,Men,Division 1 Men,Oregon State Beavers,3,0,0,1,-2,5,0.6,0,0,0.2,-0.4
+Ellie Martin-Tai,Division 1,Women,Division 1 Women,Western Washington Chaos,3,1,0,0,-2,5,0.6,0.2,0,0,-0.4
+Elena Korch,Division 1,Women,Division 1 Women,Western Washington Chaos,6,3,0,1,-2,5,1.2,0.6,0,0.2,-0.4
+Deborah Lancaster,Division 3,Women,Division 3 Women,Union Jillz,2,0,0,0,-2,6,0.333333333,0,0,0,-0.333333333
+Dayna Templeton,Division 3,Women,Division 3 Women,Davenport Panthers,4,2,0,0,-2,5,0.8,0.4,0,0,-0.4
+Danielle Weatherwax,Division 1,Women,Division 1 Women,California - San Diego D-Co,2,0,0,0,-2,5,0.4,0,0,0,-0.4
+Corbin Smith,Division 1,Women,Division 1 Women,Colorado State Helle's Belles,3,1,0,0,-2,5,0.6,0.2,0,0,-0.4
+Clara Morton,Division 3,Women,Division 3 Women,Haverford/Bryn Mawr Sneetches,25,3,18,2,-2,6,4.166666667,0.5,3,0.333333333,-0.333333333
+Charles Harder,Division 3,Men,Division 3 Men,Middlebury Pranksters,2,0,0,0,-2,5,0.4,0,0,0,-0.4
+Chamonix Reynolds,Division 1,Women,Division 1 Women,Washington Element,2,0,0,0,-2,5,0.4,0,0,0,-0.4
+Cameron Knox,Division 1,Men,Division 1 Men,Ottawa Gee-Gees,5,1,1,1,-2,5,1,0.2,0.2,0.2,-0.4
+Blythe Paetkau,Division 1,Women,Division 1 Women,Victoria Vikes,6,1,1,2,-2,5,1.2,0.2,0.2,0.4,-0.4
+Billie Feigin,Division 1,Women,Division 1 Women,SUNY - Binghamton Big Bear,2,0,0,0,-2,5,0.4,0,0,0,-0.4
+Ben Noerager,Division 3,Men,Division 3 Men,Berry Bucks,8,2,1,3,-2,6,1.333333333,0.333333333,0.166666667,0.5,-0.333333333
+Becky Chen,Division 1,Women,Division 1 Women,Pennsylvania Venus,9,2,2,3,-2,5,1.8,0.4,0.4,0.6,-0.4
+Ava Zuckerman,Division 1,Women,Division 1 Women,SUNY - Binghamton Big Bear,2,0,0,0,-2,5,0.4,0,0,0,-0.4
+Audrey Dewey,Division 3,Women,Division 3 Women,Portland UPRoar,2,0,0,0,-2,6,0.333333333,0,0,0,-0.333333333
+Annalise Korch,Division 3,Women,Division 3 Women,Portland UPRoar,13,4,4,3,-2,6,2.166666667,0.666666667,0.666666667,0.5,-0.333333333
+Anja Kottmann,Division 3,Women,Division 3 Women,Haverford/Bryn Mawr Sneetches,7,5,0,0,-2,6,1.166666667,0.833333333,0,0,-0.333333333
+Ancilla Marie Inocencio,Division 1,Women,Division 1 Women,SUNY - Binghamton Big Bear,6,0,0,4,-2,5,1.2,0,0,0.8,-0.4
+Amelia Hayward,Division 3,Women,Division 3 Women,Middlebury Pranksters,2,0,0,0,-2,5,0.4,0,0,0,-0.4
+Allison Reilly,Division 1,Women,Division 1 Women,North Carolina Pleiades,17,2,10,3,-2,7,2.428571429,0.285714286,1.428571429,0.428571429,-0.285714286
+Ainsley Waechter,Division 1,Women,Division 1 Women,Western Washington Chaos,3,0,0,1,-2,5,0.6,0,0,0.2,-0.4
+Aimee Crozat,Division 3,Women,Division 3 Women,Haverford/Bryn Mawr Sneetches,3,0,0,1,-2,6,0.5,0,0,0.166666667,-0.333333333
+Thomas O'Hanlon,Division 3,Men,Division 3 Men,Missouri S&T Miner Threat,5,1,1,0,-3,6,0.833333333,0.166666667,0.166666667,0,-0.5
+Thomas Mazur,Division 1,Men,Division 1 Men,Pittsburgh En Sabah Nur,3,0,0,0,-3,5,0.6,0,0,0,-0.6
+Tess Keyes,Division 1,Women,Division 1 Women,Oregon Fugue,4,1,0,0,-3,6,0.666666667,0.166666667,0,0,-0.5
+Sylvia Erdely,Division 1,Women,Division 1 Women,Pennsylvania Venus,4,1,0,0,-3,5,0.8,0.2,0,0,-0.6
+Sukhmani Grover,Division 1,Women,Division 1 Women,Pennsylvania Venus,3,0,0,0,-3,5,0.6,0,0,0,-0.6
+Samantha Merritt,Division 1,Women,Division 1 Women,Carleton Syzygy,12,1,5,3,-3,6,2,0.166666667,0.833333333,0.5,-0.5
+Samantha Medina,Division 1,Women,Division 1 Women,California - San Diego D-Co,5,1,1,0,-3,5,1,0.2,0.2,0,-0.6
+Olivia Mueth,Division 3,Women,Division 3 Women,Union Jillz,5,0,1,1,-3,6,0.833333333,0,0.166666667,0.166666667,-0.5
+Nicole Moran,Division 1,Women,Division 1 Women,California - San Diego D-Co,5,0,1,1,-3,5,1,0,0.2,0.2,-0.6
+Molly Potts,Division 3,Women,Division 3 Women,Mount Holyoke Daisy Chain,21,10,6,2,-3,6,3.5,1.666666667,1,0.333333333,-0.5
+milton adina,Division 3,Men,Division 3 Men,Oklahoma Christian Eagles,5,1,1,0,-3,5,1,0.2,0.2,0,-0.6
+Michelle Wu,Division 1,Women,Division 1 Women,Tufts EWO,3,0,0,0,-3,5,0.6,0,0,0,-0.6
+Michael Yu,Division 3,Men,Division 3 Men,Claremont Braineaters,5,0,1,1,-3,6,0.833333333,0,0.166666667,0.166666667,-0.5
+Maggie McFerran,Division 3,Women,Division 3 Women,Richmond Red Hots,13,6,1,3,-3,6,2.166666667,1,0.166666667,0.5,-0.5
+Mackenzie Dawson,Division 1,Women,Division 1 Women,Victoria Vikes,9,2,3,1,-3,5,1.8,0.4,0.6,0.2,-0.6
+Lucy Brannon,Division 3,Women,Division 3 Women,Haverford/Bryn Mawr Sneetches,12,5,1,3,-3,6,2,0.833333333,0.166666667,0.5,-0.5
+Lara Gao,Division 3,Women,Division 3 Women,Mount Holyoke Daisy Chain,10,3,2,2,-3,6,1.666666667,0.5,0.333333333,0.333333333,-0.5
+Ksenia Gotham,Division 1,Women,Division 1 Women,Western Washington Chaos,4,1,0,0,-3,5,0.8,0.2,0,0,-0.6
+Kevin Wyle,Division 3,Men,Division 3 Men,Missouri S&T Miner Threat,5,1,1,0,-3,6,0.833333333,0.166666667,0.166666667,0,-0.5
+Jolie Martin,Division 3,Women,Division 3 Women,Richmond Red Hots,11,6,0,2,-3,6,1.833333333,1,0,0.333333333,-0.5
+Joel Escobar,Division 3,Men,Division 3 Men,Rochester Piggies,11,1,3,4,-3,6,1.833333333,0.166666667,0.5,0.666666667,-0.5
+Jessie Finkelor,Division 1,Women,Division 1 Women,California - San Diego D-Co,21,2,13,3,-3,5,4.2,0.4,2.6,0.6,-0.6
+Jesse Principe,Division 3,Women,Division 3 Women,Occidental WAC,3,0,0,0,-3,6,0.5,0,0,0,-0.5
+Jason Manning,Division 1,Men,Division 1 Men,North Carolina Darkside,3,0,0,0,-3,6,0.5,0,0,0,-0.5
+Jasmine Puska,Division 1,Women,Division 1 Women,Colorado State Helle's Belles,5,0,1,1,-3,5,1,0,0.2,0.2,-0.6
+Jakob Ayala,Division 1,Men,Division 1 Men,Washington University Contra,3,0,0,0,-3,5,0.6,0,0,0,-0.6
+Jackson Knox (Berry),Division 3,Men,Division 3 Men,Berry Bucks,5,2,0,0,-3,6,0.833333333,0.333333333,0,0,-0.5
+Isabella Lin,Division 1,Women,Division 1 Women,British Columbia Thunderbirds,5,1,1,0,-3,6,0.833333333,0.166666667,0.166666667,0,-0.5
+Inbal Armony,Division 3,Women,Division 3 Women,Macalester Purse Snatchers,4,1,0,0,-3,6,0.666666667,0.166666667,0,0,-0.5
+Helen Buller,Division 3,Women,Division 3 Women,Union Jillz,3,0,0,0,-3,6,0.5,0,0,0,-0.5
+Gian Asci,Division 3,Men,Division 3 Men,Franciscan Fatal,3,0,0,0,-3,6,0.5,0,0,0,-0.5
+Ernesto Clarke,Division 1,Men,Division 1 Men,Georgia Jojah,4,0,0,1,-3,5,0.8,0,0,0.2,-0.6
+Erica Clarke,Division 1,Women,Division 1 Women,Michigan Flywheel,3,0,0,0,-3,5,0.6,0,0,0,-0.6
+Ella Khoury,Division 1,Women,Division 1 Women,California - Santa Barbara Burning Skirts,8,1,0,4,-3,5,1.6,0.2,0,0.8,-0.6
+Ella Barker,Division 1,Women,Division 1 Women,Colorado State Helle's Belles,7,3,0,1,-3,5,1.4,0.6,0,0.2,-0.6
+Eliana Norton,Division 1,Women,Division 1 Women,Oregon Fugue,12,4,4,1,-3,6,2,0.666666667,0.666666667,0.166666667,-0.5
+Eli Chang,Division 1,Men,Division 1 Men,Brown Brownian Motion,5,2,0,0,-3,8,0.625,0.25,0,0,-0.375
+Dylan Mullaney,Division 1,Women,Division 1 Women,California - San Diego D-Co,4,0,0,1,-3,5,0.8,0,0,0.2,-0.6
+Danielle Dattler,Division 1,Women,Division 1 Women,SUNY - Binghamton Big Bear,17,5,3,6,-3,5,3.4,1,0.6,1.2,-0.6
+Daniel Sutton,Division 3,Men,Division 3 Men,Whitman Sweets,3,0,0,0,-3,6,0.5,0,0,0,-0.5
+Claire Bates,Division 1,Women,Division 1 Women,Victoria Vikes,5,1,0,1,-3,5,1,0.2,0,0.2,-0.6
+Christina Coulton,Division 1,Women,Division 1 Women,SUNY - Binghamton Big Bear,3,0,0,0,-3,5,0.6,0,0,0,-0.6
+Celia Nicholson,Division 3,Women,Division 3 Women,Haverford/Bryn Mawr Sneetches,13,3,0,7,-3,6,2.166666667,0.5,0,1.166666667,-0.5
+Cassandra Banuelos,Division 1,Women,Division 1 Women,Colorado State Helle's Belles,5,1,1,0,-3,5,1,0.2,0.2,0,-0.6
+Carinna Kinnaman,Division 3,Women,Division 3 Women,Middlebury Pranksters,8,4,1,0,-3,5,1.6,0.8,0.2,0,-0.6
+Calliope Cutchins,Division 1,Women,Division 1 Women,Michigan Flywheel,24,2,13,6,-3,5,4.8,0.4,2.6,1.2,-0.6
+Anna Mortensen,Division 3,Women,Division 3 Women,Occidental WAC,8,3,0,2,-3,6,1.333333333,0.5,0,0.333333333,-0.5
+Anna Carlson,Division 1,Women,Division 1 Women,Oregon Fugue,9,1,3,2,-3,6,1.5,0.166666667,0.5,0.333333333,-0.5
+Alexandra Lederman,Division 3,Women,Division 3 Women,Haverford/Bryn Mawr Sneetches,4,0,0,1,-3,6,0.666666667,0,0,0.166666667,-0.5
+Alexander (Zander) Lutz,Division 1,Men,Division 1 Men,Penn State Spank,11,2,4,2,-3,5,2.2,0.4,0.8,0.4,-0.6
+Addison Hardin,Division 3,Women,Division 3 Women,Davenport Panthers,13,6,0,4,-3,5,2.6,1.2,0,0.8,-0.6
+Vincent Zhang,Division 1,Men,Division 1 Men,NC State Alpha,6,0,2,0,-4,6,1,0,0.333333333,0,-0.666666667
+Seth Fisher-Olvera,Division 1,Men,Division 1 Men,Washington University Contra,11,2,3,2,-4,5,2.2,0.4,0.6,0.4,-0.8
+Samantha Coulton,Division 1,Women,Division 1 Women,SUNY - Binghamton Big Bear,5,1,0,0,-4,5,1,0.2,0,0,-0.8
+Raphael Epstein,Division 1,Men,Division 1 Men,Washington University Contra,6,1,1,0,-4,5,1.2,0.2,0.2,0,-0.8
+Rachel Barkan,Division 1,Women,Division 1 Women,Michigan Flywheel,4,0,0,0,-4,5,0.8,0,0,0,-0.8
+Poppy Wagner,Division 1,Women,Division 1 Women,Pennsylvania Venus,16,4,7,1,-4,5,3.2,0.8,1.4,0.2,-0.8
+Natalie Lang-Ree,Division 3,Women,Division 3 Women,Carleton Eclipse,17,7,3,3,-4,6,2.833333333,1.166666667,0.5,0.5,-0.666666667
+Nahlah Mkaouri,Division 3,Women,Division 3 Women,Lewis & Clark Artemis,7,1,1,1,-4,5,1.4,0.2,0.2,0.2,-0.8
+Miu Shiraiwa,Division 1,Women,Division 1 Women,British Columbia Thunderbirds,6,1,0,1,-4,6,1,0.166666667,0,0.166666667,-0.666666667
+Margaret Heffernan,Division 3,Women,Division 3 Women,Wesleyan Vicious Circles,12,4,1,3,-4,6,2,0.666666667,0.166666667,0.5,-0.666666667
+Mae Browning,Division 1,Women,Division 1 Women,Vermont Ruckus,31,12,13,2,-4,6,5.166666667,2,2.166666667,0.333333333,-0.666666667
+luxuan Chang,Division 3,Men,Division 3 Men,Claremont Braineaters,6,1,1,0,-4,6,1,0.166666667,0.166666667,0,-0.666666667
+Lucy Leither,Division 3,Women,Division 3 Women,Grinnell Grinneleanor Roosevelts,15,6,1,4,-4,6,2.5,1,0.166666667,0.666666667,-0.666666667
+Lily Freeman,Division 3,Women,Division 3 Women,Grinnell Grinneleanor Roosevelts,5,1,0,0,-4,6,0.833333333,0.166666667,0,0,-0.666666667
+Jonathan Newman,Division 3,Men,Division 3 Men,Davenport Panthers,7,3,0,0,-4,6,1.166666667,0.5,0,0,-0.666666667
+Fiona Cashin,Division 1,Women,Division 1 Women,Georgia Athena,26,7,6,9,-4,5,5.2,1.4,1.2,1.8,-0.8
+Emma Jansen,Division 3,Women,Division 3 Women,St Olaf Vortex,8,4,0,0,-4,5,1.6,0.8,0,0,-0.8
+Eliza Williams-Derry,Division 3,Women,Division 3 Women,Mount Holyoke Daisy Chain,28,7,9,8,-4,6,4.666666667,1.166666667,1.5,1.333333333,-0.666666667
+Clara Moss,Division 1,Women,Division 1 Women,Michigan Flywheel,5,0,1,0,-4,5,1,0,0.2,0,-0.8
+Claire Wilson-Black,Division 3,Women,Division 3 Women,Occidental WAC,11,0,2,5,-4,6,1.833333333,0,0.333333333,0.833333333,-0.666666667
+Celeste Alden,Division 3,Women,Division 3 Women,Middlebury Pranksters,10,2,3,1,-4,5,2,0.4,0.6,0.2,-0.8
+Cassidy Recker,Division 3,Women,Division 3 Women,Colorado College Zenith,23,4,13,2,-4,6,3.833333333,0.666666667,2.166666667,0.333333333,-0.666666667
+Carolyn Rivero,Division 3,Women,Division 3 Women,Grinnell Grinneleanor Roosevelts,12,3,1,4,-4,6,2,0.5,0.166666667,0.666666667,-0.666666667
+Camden Thomason,Division 3,Women,Division 3 Women,Richmond Red Hots,11,4,1,2,-4,6,1.833333333,0.666666667,0.166666667,0.333333333,-0.666666667
+Caleb Moran,Division 1,Men,Division 1 Men,Brown Brownian Motion,6,0,2,0,-4,8,0.75,0,0.25,0,-0.5
+Brielle Ramsdal,Division 1,Women,Division 1 Women,Oregon Fugue,4,0,0,0,-4,6,0.666666667,0,0,0,-0.666666667
+Benjamin Sparks,Division 3,Men,Division 3 Men,Bates Orange Whip,4,0,0,0,-4,6,0.666666667,0,0,0,-0.666666667
+Andrew Li,Division 1,Men,Division 1 Men,North Carolina Darkside,7,1,0,2,-4,6,1.166666667,0.166666667,0,0.333333333,-0.666666667
+Allison Ryan,Division 3,Women,Division 3 Women,Lewis & Clark Artemis,12,2,1,5,-4,5,2.4,0.4,0.2,1,-0.8
+Alexa Jeantette-Coca,Division 1,Women,Division 1 Women,Western Washington Chaos,12,0,3,5,-4,5,2.4,0,0.6,1,-0.8
+Addelyne Lilley,Division 3,Women,Division 3 Women,Wellesley Whiptails,10,3,2,1,-4,6,1.666666667,0.5,0.333333333,0.166666667,-0.666666667
+Shaelyn Woo,Division 1,Women,Division 1 Women,British Columbia Thunderbirds,6,0,1,0,-5,6,1,0,0.166666667,0,-0.833333333
+Ridge Huang,Division 1,Men,Division 1 Men,Cal Ursa Major,15,0,9,1,-5,5,3,0,1.8,0.2,-1
+Olivia Benton,Division 3,Women,Division 3 Women,Wesleyan Vicious Circles,7,1,1,0,-5,6,1.166666667,0.166666667,0.166666667,0,-0.833333333
+Nola Busansky,Division 3,Women,Division 3 Women,Wesleyan Vicious Circles,28,14,7,2,-5,6,4.666666667,2.333333333,1.166666667,0.333333333,-0.833333333
+Natalie Collier,Division 1,Women,Division 1 Women,Western Washington Chaos,15,2,5,3,-5,5,3,0.4,1,0.6,-1
+Morgan Bridges,Division 3,Women,Division 3 Women,Portland UPRoar,13,6,2,0,-5,6,2.166666667,1,0.333333333,0,-0.833333333
+Liana Bradley,Division 1,Women,Division 1 Women,Colorado Quandary,11,1,2,3,-5,7,1.571428571,0.142857143,0.285714286,0.428571429,-0.714285714
+Lauren Wu,Division 3,Women,Division 3 Women,Wellesley Whiptails,9,3,1,0,-5,6,1.5,0.5,0.166666667,0,-0.833333333
+Haruna Krumholz,Division 1,Women,Division 1 Women,California - Santa Cruz Sol,6,0,1,0,-5,5,1.2,0,0.2,0,-1
+Grace Prince,Division 3,Women,Division 3 Women,Carleton Eclipse,10,0,3,2,-5,6,1.666666667,0,0.5,0.333333333,-0.833333333
+Emmett Young,Division 1,Men,Division 1 Men,Brown Brownian Motion,9,2,1,1,-5,8,1.125,0.25,0.125,0.125,-0.625
+Emma Williamson,Division 1,Women,Division 1 Women,Colorado Quandary,21,3,11,2,-5,7,3,0.428571429,1.571428571,0.285714286,-0.714285714
+Zane Bird Smith,Division 1,Women,Division 1 Women,California - Santa Cruz Sol,27,8,10,3,-6,5,5.4,1.6,2,0.6,-1.2
+Zachary Sanders,Division 3,Men,Division 3 Men,Missouri S&T Miner Threat,30,4,16,4,-6,6,5,0.666666667,2.666666667,0.666666667,-1
+Yasmin Banares,Division 3,Women,Division 3 Women,Davenport Panthers,33,13,8,6,-6,5,6.6,2.6,1.6,1.2,-1.2
+Sonja Lee,Division 1,Women,Division 1 Women,Washington Element,11,3,1,1,-6,5,2.2,0.6,0.2,0.2,-1.2
+Sarah Clarke,Division 3,Women,Division 3 Women,Richmond Red Hots,7,1,0,0,-6,6,1.166666667,0.166666667,0,0,-1
+Sage Migon,Division 1,Women,Division 1 Women,Utah Spiral Jetty,7,0,0,1,-6,5,1.4,0,0,0.2,-1.2
+Mia Beeman-Weber,Division 1,Women,Division 1 Women,Carleton Syzygy,22,3,13,0,-6,6,3.666666667,0.5,2.166666667,0,-1
+Meghan Quigley,Division 1,Women,Division 1 Women,Michigan Flywheel,8,1,0,1,-6,5,1.6,0.2,0,0.2,-1.2
+Mae Kline,Division 1,Women,Division 1 Women,Georgia Athena,7,1,0,0,-6,5,1.4,0.2,0,0,-1.2
+Madison Ong,Division 1,Women,Division 1 Women,British Columbia Thunderbirds,13,0,6,1,-6,6,2.166666667,0,1,0.166666667,-1
+Karina Illingworth,Division 1,Women,Division 1 Women,Utah Spiral Jetty,7,0,1,0,-6,5,1.4,0,0.2,0,-1.2
+Hannah Pierce,Division 3,Women,Division 3 Women,Grinnell Grinneleanor Roosevelts,10,2,1,1,-6,6,1.666666667,0.333333333,0.166666667,0.166666667,-1
+Grace McCann,Division 3,Women,Division 3 Women,Davenport Panthers,6,0,0,0,-6,5,1.2,0,0,0,-1.2
+Emily Pozzy,Division 1,Women,Division 1 Women,Vermont Ruckus,34,13,11,4,-6,6,5.666666667,2.166666667,1.833333333,0.666666667,-1
+Elizabeth Rosen,Division 3,Women,Division 3 Women,Wesleyan Vicious Circles,13,3,1,3,-6,6,2.166666667,0.5,0.166666667,0.5,-1
+Claire Knopf,Division 3,Women,Division 3 Women,Macalester Purse Snatchers,17,6,3,2,-6,6,2.833333333,1,0.5,0.333333333,-1
+Caroline Cooper,Division 3,Women,Division 3 Women,Carleton Eclipse,13,4,3,0,-6,6,2.166666667,0.666666667,0.5,0,-1
+Caroline Bach,Division 1,Women,Division 1 Women,Pennsylvania Venus,16,1,4,5,-6,5,3.2,0.2,0.8,1,-1.2
+brodie monohan,Division 3,Men,Division 3 Men,Whitman Sweets,16,3,4,3,-6,6,2.666666667,0.5,0.666666667,0.5,-1
+Ariana O'Shea,Division 1,Women,Division 1 Women,California - Santa Barbara Burning Skirts,10,1,1,2,-6,5,2,0.2,0.2,0.4,-1.2
+Antara Ramkumar,Division 3,Women,Division 3 Women,Wellesley Whiptails,7,1,0,0,-6,6,1.166666667,0.166666667,0,0,-1
+Rosa Rudolph,Division 3,Women,Division 3 Women,Lewis & Clark Artemis,18,8,1,2,-7,5,3.6,1.6,0.2,0.4,-1.4
+Reece Liu,Division 3,Women,Division 3 Women,Mount Holyoke Daisy Chain,22,4,3,8,-7,6,3.666666667,0.666666667,0.5,1.333333333,-1.166666667
+Parker Bert,Division 1,Women,Division 1 Women,Utah Spiral Jetty,7,0,0,0,-7,5,1.4,0,0,0,-1.4
+Mia Smith,Division 3,Women,Division 3 Women,Colorado College Zenith,14,2,2,3,-7,6,2.333333333,0.333333333,0.333333333,0.5,-1.166666667
+Lilian Liu,Division 1,Women,Division 1 Women,Pennsylvania Venus,9,0,0,2,-7,5,1.8,0,0,0.4,-1.4
+Lauren Feeney,Division 1,Women,Division 1 Women,Colorado State Helle's Belles,7,0,0,0,-7,5,1.4,0,0,0,-1.4
+Grace Sokolow,Division 3,Women,Division 3 Women,Middlebury Pranksters,10,3,0,0,-7,5,2,0.6,0,0,-1.4
+Emma Steckline,Division 3,Women,Division 3 Women,Wesleyan Vicious Circles,13,4,1,1,-7,6,2.166666667,0.666666667,0.166666667,0.166666667,-1.166666667
+Emily Kay-Leighton,Division 1,Women,Division 1 Women,Victoria Vikes,16,1,6,2,-7,5,3.2,0.2,1.2,0.4,-1.4
+Celia Plaut,Division 3,Women,Division 3 Women,Occidental WAC,7,0,0,0,-7,6,1.166666667,0,0,0,-1.166666667
+Benjamin Zhu,Division 1,Men,Division 1 Men,Penn State Spank,8,0,1,0,-7,5,1.6,0,0.2,0,-1.4
+Anna Fisher Lopez,Division 1,Women,Division 1 Women,Stanford Superfly,23,3,10,3,-7,7,3.285714286,0.428571429,1.428571429,0.428571429,-1
+Andrew Clayton,Division 3,Men,Division 3 Men,Missouri S&T Miner Threat,9,0,0,2,-7,6,1.5,0,0,0.333333333,-1.166666667
+Adella Catanzaro,Division 3,Women,Division 3 Women,Grinnell Grinneleanor Roosevelts,11,4,0,0,-7,6,1.833333333,0.666666667,0,0,-1.166666667
+Rachel Chang,Division 1,Women,Division 1 Women,California - Santa Cruz Sol,23,1,13,1,-8,5,4.6,0.2,2.6,0.2,-1.6
+Olivia Bordon,Division 3,Women,Division 3 Women,Wesleyan Vicious Circles,11,2,0,1,-8,6,1.833333333,0.333333333,0,0.166666667,-1.333333333
+Lily Nygard,Division 1,Women,Division 1 Women,Utah Spiral Jetty,15,2,2,3,-8,5,3,0.4,0.4,0.6,-1.6
+Lexie Buckley,Division 1,Women,Division 1 Women,California - Santa Cruz Sol,9,1,0,0,-8,5,1.8,0.2,0,0,-1.6
+Kelsey Viadro,Division 3,Women,Division 3 Women,Colorado College Zenith,14,4,2,0,-8,6,2.333333333,0.666666667,0.333333333,0,-1.333333333
+Eleanor Wachtel,Division 1,Women,Division 1 Women,Utah Spiral Jetty,13,1,0,4,-8,5,2.6,0.2,0,0.8,-1.6
+Taryn Webster,Division 1,Women,Division 1 Women,Victoria Vikes,13,3,1,0,-9,5,2.6,0.6,0.2,0,-1.8
+Megan Kraut,Division 3,Women,Division 3 Women,Richmond Red Hots,13,2,0,2,-9,6,2.166666667,0.333333333,0,0.333333333,-1.5
+Maya Sisk,Division 3,Women,Division 3 Women,Occidental WAC,9,0,0,0,-9,6,1.5,0,0,0,-1.5
+Luiza Pessoa,Division 3,Women,Division 3 Women,Richmond Red Hots,12,2,0,1,-9,6,2,0.333333333,0,0.166666667,-1.5
+Leina Goto,Division 3,Women,Division 3 Women,St Olaf Vortex,18,1,5,3,-9,5,3.6,0.2,1,0.6,-1.8
+James Fishman-Morren,Division 3,Men,Division 3 Men,Lewis & Clark Bacchus,18,1,4,4,-9,6,3,0.166666667,0.666666667,0.666666667,-1.5
+Bella Russell,Division 1,Women,Division 1 Women,North Carolina Pleiades,16,1,6,0,-9,7,2.285714286,0.142857143,0.857142857,0,-1.285714286
+Amelie Steer,Division 3,Women,Division 3 Women,Lewis & Clark Artemis,28,7,12,0,-9,5,5.6,1.4,2.4,0,-1.8
+Adeline Fabel,Division 3,Women,Division 3 Women,Occidental WAC,14,4,0,1,-9,6,2.333333333,0.666666667,0,0.166666667,-1.5
+Shanti Chier,Division 1,Women,Division 1 Women,Carleton Syzygy,25,1,8,6,-10,6,4.166666667,0.166666667,1.333333333,1,-1.666666667
+Rachel Abrahams,Division 3,Women,Division 3 Women,Lewis & Clark Artemis,12,0,0,2,-10,5,2.4,0,0,0.4,-2
+Mitchell Gordon,Division 3,Men,Division 3 Men,Missouri S&T Miner Threat,11,1,0,0,-10,6,1.833333333,0.166666667,0,0,-1.666666667
+Marin Cohan,Division 1,Women,Division 1 Women,Western Washington Chaos,25,10,2,3,-10,5,5,2,0.4,0.6,-2
+Jamie Eldridge,Division 3,Women,Division 3 Women,Mount Holyoke Daisy Chain,42,10,20,2,-10,6,7,1.666666667,3.333333333,0.333333333,-1.666666667
+Grace Bradley,Division 1,Women,Division 1 Women,California - Santa Cruz Sol,12,1,1,0,-10,5,2.4,0.2,0.2,0,-2
+Quincy Booth,Division 1,Women,Division 1 Women,Georgia Athena,49,11,25,2,-11,5,9.8,2.2,5,0.4,-2.2
+Persie Baroody,Division 3,Women,Division 3 Women,Colorado College Zenith,17,4,0,2,-11,6,2.833333333,0.666666667,0,0.333333333,-1.833333333
+Nora Youngelson,Division 3,Women,Division 3 Women,Occidental WAC,26,9,6,0,-11,6,4.333333333,1.5,1,0,-1.833333333
+Lucy Bridal,Division 1,Women,Division 1 Women,Victoria Vikes,12,0,1,0,-11,5,2.4,0,0.2,0,-2.2
+Kristen Bellinger,Division 3,Women,Division 3 Women,Grinnell Grinneleanor Roosevelts,12,0,0,1,-11,6,2,0,0,0.166666667,-1.833333333
+Keely Baker,Division 1,Women,Division 1 Women,Georgia Athena,12,0,1,0,-11,5,2.4,0,0.2,0,-2.2
+Josie Fenske,Division 3,Women,Division 3 Women,Lewis & Clark Artemis,31,10,9,1,-11,5,6.2,2,1.8,0.2,-2.2
+EmmaChaya Lipton-Praver,Division 3,Women,Division 3 Women,Wellesley Whiptails,24,9,4,0,-11,6,4,1.5,0.666666667,0,-1.833333333
+Emma Feldman,Division 3,Women,Division 3 Women,Wellesley Whiptails,28,2,13,2,-11,6,4.666666667,0.333333333,2.166666667,0.333333333,-1.833333333
+Luca Pieretti,Division 3,Women,Division 3 Women,Colorado College Zenith,29,8,4,5,-12,6,4.833333333,1.333333333,0.666666667,0.833333333,-2
+Koume Matsutori,Division 1,Women,Division 1 Women,Washington Element,12,0,0,0,-12,5,2.4,0,0,0,-2.4
+Zoe Marquis,Division 3,Women,Division 3 Women,Carleton Eclipse,23,3,5,2,-13,6,3.833333333,0.5,0.833333333,0.333333333,-2.166666667
+Xuan Feldman,Division 1,Women,Division 1 Women,California - San Diego D-Co,22,7,2,0,-13,5,4.4,1.4,0.4,0,-2.6
+Nora Jacobsen,Division 3,Women,Division 3 Women,Wesleyan Vicious Circles,32,10,8,1,-13,6,5.333333333,1.666666667,1.333333333,0.166666667,-2.166666667
+Maggie Brown,Division 3,Women,Division 3 Women,Wesleyan Vicious Circles,28,3,7,5,-13,6,4.666666667,0.5,1.166666667,0.833333333,-2.166666667
+Claire Ward,Division 3,Women,Division 3 Women,Union Jillz,45,9,13,10,-13,6,7.5,1.5,2.166666667,1.666666667,-2.166666667
+Arenaria Cramer,Division 3,Men,Division 3 Men,Claremont Braineaters,26,0,12,1,-13,6,4.333333333,0,2,0.166666667,-2.166666667
+Grace Brown,Division 1,Women,Division 1 Women,Colorado State Helle's Belles,32,2,16,0,-14,5,6.4,0.4,3.2,0,-2.8
+Claire Lee,Division 3,Women,Division 3 Women,Macalester Purse Snatchers,89,43,28,4,-14,6,14.83333333,7.166666667,4.666666667,0.666666667,-2.333333333
+Galileo Fries,Division 3,Women,Division 3 Women,Colorado College Zenith,26,2,9,0,-15,6,4.333333333,0.333333333,1.5,0,-2.5
+Mia Tomay Bongcaron,Division 1,Women,Division 1 Women,Georgia Athena,22,2,3,1,-16,5,4.4,0.4,0.6,0.2,-3.2
+Grace Goldenberg,Division 1,Women,Division 1 Women,Colorado State Helle's Belles,28,2,10,0,-16,5,5.6,0.4,2,0,-3.2
+Eleanor Wheeler,Division 3,Women,Division 3 Women,Haverford/Bryn Mawr Sneetches,26,3,6,1,-16,6,4.333333333,0.5,1,0.166666667,-2.666666667
+Kathryn Haynes,Division 3,Women,Division 3 Women,Union Jillz,49,8,17,6,-18,6,8.166666667,1.333333333,2.833333333,1,-3
+Breanna Roussin,Division 1,Women,Division 1 Women,Victoria Vikes,26,4,3,1,-18,5,5.2,0.8,0.6,0.2,-3.6
+Alicia Brolly,Division 1,Women,Division 1 Women,Victoria Vikes,23,1,2,1,-19,5,4.6,0.2,0.4,0.2,-3.8
+Adi Megiddo,Division 3,Women,Division 3 Women,Macalester Purse Snatchers,30,2,7,2,-19,6,5,0.333333333,1.166666667,0.333333333,-3.166666667
+Esther Filipek,Division 1,Women,Division 1 Women,Stanford Superfly,57,14,21,1,-21,7,8.142857143,2,3,0.142857143,-3
+Krishangi Dandapure,Division 3,Women,Division 3 Women,Wellesley Whiptails,32,5,4,1,-22,6,5.333333333,0.833333333,0.666666667,0.166666667,-3.666666667
+Arianna Kightlinger,Division 3,Women,Division 3 Women,Richmond Red Hots,37,13,1,1,-22,6,6.166666667,2.166666667,0.166666667,0.166666667,-3.666666667
+Claire Torgelson,Division 3,Women,Division 3 Women,Grinnell Grinneleanor Roosevelts,49,5,15,6,-23,6,8.166666667,0.833333333,2.5,1,-3.833333333
+Emma Alatzas,Division 3,Women,Division 3 Women,Richmond Red Hots,48,9,10,2,-27,6,8,1.5,1.666666667,0.333333333,-4.5
+Lily Pesikoff,Division 3,Women,Division 3 Women,Occidental WAC,58,14,9,5,-30,6,9.666666667,2.333333333,1.5,0.833333333,-5
+Lily van Linder,Division 3,Women,Division 3 Women,Occidental WAC,69,19,8,9,-33,6,11.5,3.166666667,1.333333333,1.5,-5.5
+Lanie O'Neill,Division 3,Women,Division 3 Women,Davenport Panthers,74,11,21,3,-39,5,14.8,2.2,4.2,0.6,-7.8
+Bella Steedly,Division 3,Women,Division 3 Women,Wellesley Whiptails,82,21,15,5,-41,6,13.66666667,3.5,2.5,0.833333333,-6.833333333
+Rui Lin,Division 3,Women,Division 3 Women,Grinnell Grinneleanor Roosevelts,55,7,3,0,-45,6,9.166666667,1.166666667,0.5,0,-7.5
+Lucy Sevetson,Division 3,Women,Division 3 Women,Richmond Red Hots,73,9,11,0,-53,6,12.16666667,1.5,1.833333333,0,-8.833333333
