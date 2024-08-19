@@ -19,6 +19,8 @@ website:
       - data-sources.qmd
       - href: https://modules.scorenetwork.org/
         text: Module Repository
+      - href: https://scorenetwork.org/index.html
+        text: SCORE Network
     right:
       - icon: twitter
         href: https://twitter.com/scorenetworkorg
