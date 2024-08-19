@@ -83,7 +83,7 @@ The data set has 185 rows with 9 variables. Each row is a player who participate
 
 ## References
 
-[Original Dataset](https://www.badmintonstatistics.net/Reports?reportname=MostPointsH2H&category=%&year=-1&level=worldtour&country=%){target="_blank"} from www.badmintonstatistics.net
+Original dataset from [www.badmintonstatistics.net](https://www.badmintonstatistics.net)
 
 [Olympic Badminton Rules](https://olympics.com/en/news/badminton-guide-how-to-play-rules-olympic-history){target="_blank"}
 
