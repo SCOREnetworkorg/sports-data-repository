@@ -1,0 +1,69 @@
+---
+title: MMA Fight Decisions
+author: Caleb Skinner, Joshua Patrick, Connor Bryson, and Rodney X. Sturdivant
+date: August 27, 2024
+description: Decisions for MMA fights with judges scores.  Can be used to explore judge agreement/consistency.
+categories:
+  - reliability
+  - agreement
+---
+
+## Motivation
+
+The data is derived largely from publicly available data from ESPN (https://www.espn.com/mma/) and the MMA (http://mmadecisions.com/).
+
+## Data
+
+Each row is a different fight (5000 fights included).  
+
+| Variable | Explanation | Example |
+|----------|-------------|---------|
+| date	   | date of fight in year - month - day format	| 2012-02-26, 2019-10-06, etc. |
+| event    |	name of the MMA event	| UFC 31: Locked & Loaded, UFC 32: Showdown in the Meadowlands, etc. |
+| arena	   | arena where event was held	| Trump Taj Mahal Casino Resort, Continental Airlines Arena, etc. |
+| city	   | city where event took place	|  Atlantic City, New Jersey, USA, etc. |
+| fighter1 | last name of the first fighter	| Soto, VanZandt, etc. |
+| fighter2 | last name of the second fighter |	Rivera, Delboni, etc. |
+| result_type |	decision scoring terminology | Unanimous (all agree), Split (at least one judge votes for each fighter), Majority (two judges votes for a fighter, one judge votes for a draw) |
+| judge1 | last name of the judge | 1	Chatfield, Collett, etc. |
+| judge1_score1	| judge 1's score for fighter 1	| 30, 28, etc. |
+| judge1_score2	| judge 1's score for fighter 2	| 27, 29, etc. |
+| judge2 |	last name of the judge 2 | Chatfield, Collett, etc. |
+| judge2_score1	| judge 2's score for fighter 1	| 30, 28, etc. |
+| judge2_score2 |	judge 2's score for fighter 2	| 27, 29, etc. |
+| judge3 | last name of the judge 3	| Chatfield, Collett, etc. |
+| judge3_score1	| judge 3's score for fighter 1	| 30, 28, etc. |
+| judge3_score2	| judge 3's score for fighter 2	| 27, 29, etc. |
+| winner | winner of the match  (name) |	Rivera, VanZandt, Draw, etc. |
+| winner2	| winner of the match  (fighter number)	| fighter1 or fighter2 |
+| judge1_margin	| difference in judge 1's score for fighters 1 and 2 |	30-27 = 3,  28-29 = -1, etc. |
+| judge2_margin	| difference in judge 2's score for fighters 1 and 2 |	30-27 = 3,  28-29 = -1, etc. |
+| judge3_margin |	difference in judge 3's score for fighters 1 and 2 |	30-27 = 3,  28-29 = -1, etc. |
+| judge1_perc	| percentage difference in judge 1's score for fighters 1 and 2	| -11.11%, 10%, etc. |
+| judge2_perc	| percentage difference in judge 2's score for fighters 1 and 2	| -11.11%, 10%, etc. |
+| judge3_perc	| percentage difference in judge 3's score for fighters 1 and 2	| -11.11%, 10%, etc. |
+| rounds |	number of rounds in the fight	| 3 or 5 |
+| judge1_dev | deviation in judge 1's score from colleague's average scores |	2, 0.5, etc. |
+| judge2_dev	| deviation in judge 2's score from colleague's average scores |	2, 0.5, etc. |
+| judge3_dev	| deviation in judge 3's score from colleague's average scores |	2, 0.5, etc. |
+| judge1_out |	outcome of judge 1's decision	| fighter1, draw, fighter2 |
+| judge2_out |	outcome of judge 2's decision	| fighter1, draw, fighter2 |
+| judge3_out |	outcome of judge 3's decision	| fighter1, draw, fighter2 |
+| agreement	| agreement status of the three judges |	Agree, Disagree (all differ), judge3 (only judge 3 differs), etc. |
+
+: [mma_decisions.csv](../data/mma_decisions.csv)
+
+
+## Questions
+
+1. How well do judges agree on the fight outcome? 
+
+2. How much variability is there in judges scores for fights?
+
+## References
+
+The data is derived largely from publicly available data from ESPN (https://www.espn.com/mma/) and the MMA (http://mmadecisions.com/) 
+
+
+
+

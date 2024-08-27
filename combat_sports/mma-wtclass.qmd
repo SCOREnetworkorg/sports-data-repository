@@ -1,0 +1,56 @@
+---
+title: MMA Weight Class Fight Results
+author: Ian Young, Joshua Patrick, Connor Bryson, and Rodney X. Sturdivant
+date: August 27, 2024
+description: Data with MMA fight results by weight class; can examine if there is an association between weight class and different types of results.
+categories:
+  - Chi square tests
+  - Fisher Exact tests
+  - categorical variable analysis
+---
+
+## Motivation
+
+The data is derived largely from publicly available data from ESPN (https://www.espn.com/mma/) and the MMA (http://mmadecisions.com/).  Interest is in whether the weight class changes the likelihood of various types of fight results; for example, are lighter weight fights more likely to "go the distance" (last all rounds)?
+## Data
+
+Each row is a single fight; 28,771 fights are included.
+
+| Variable |	Description |
+|----------|--------------|
+| date |	date of the event (mdy) |
+| month |	month of the event |
+| year |	year of the event |
+| event |	name of the event |
+| championship |	is the event a championship event |
+| decision |	fight result |
+| decision_group |	aggregated groups of decision variable |
+| round	| how many rounds the fight lasted |
+| time |	time the fight ended |
+| p1_result |	result of the fight for fighter 1 |
+| p1_id |	a unique ID for fighter 1 |
+| p1_name |	full name of fighter 1 |
+| p1_country |	home country of fighter 1 |
+| p1_sex |	sex of fighter 1 |
+| p2_result |	result of the fight for fighter 2 |
+| p2_id |	a unique ID for fighter 2 |
+| p2_name |	full name of fighter 2 |
+| p2_country |	home country of fighter 2 |
+| p2_sex | sex of fighter 2 |
+| wtClass | aggregated groups of Weight Class |
+
+: [mma_wtclass.csv](../data/mma_wtclass.csv)
+
+
+## Questions
+
+1. Are lighter weight fights more likely to end in a decision? 
+
+2. Which weight class is most likely to produce a knockout?
+
+## References
+
+The data is derived largely from publicly available data from ESPN (https://www.espn.com/mma/) and the MMA (http://mmadecisions.com/)
+
+
+
