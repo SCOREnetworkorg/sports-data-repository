@@ -2,7 +2,7 @@
 title: Women's National Basketball Association Shots
 author: Ron Yurko
 date: March 25, 2023
-description: Information about shots during the 2021-2022 WNBA season
+description: Information about shots during the 2022 WNBA season
 categories:
   - classification
   - logistic regression
@@ -18,7 +18,7 @@ The [Women's National Basketball Association (WNBA)](https://www.wnba.com/) is t
 
 ## Data
 
-This dataset contains information about 41,497 shots during the 2021-2022 WNBA season. 
+This dataset contains information about 41,497 shots during the 2022 WNBA season. 
 
 The data was collected using the [`wehoop` package in `R`](https://wehoop.sportsdataverse.org/). 
 
@@ -42,7 +42,7 @@ The data was collected using the [`wehoop` package in `R`](https://wehoop.sports
 | quarter_seconds_remaining |	Numeric integer value for number of seconds remaining in quarter/period |
 | game_seconds_remaining |	Numeric integer value for number of seconds remaining in game |
 
-: [wnba-shots-2021.csv.gz](../data/wnba-shots-2021.csv.gz)
+: [wnba-shots-2022.csv.gz](../data/wnba-shots-2022.csv.gz)
 
 
 ## Questions

@@ -1,4 +1,4 @@
-# PURPOSE: Gather WNBA shots during the 2021-2022 regular season
+# PURPOSE: Gather WNBA shots during the 2022 regular season
 
 # First install the wehoop package if not installed already:
 # install.packages("wehoop")
@@ -6,9 +6,9 @@
 library(wehoop)
 library(tidyverse)
 
-# Load shots during 2021 season -------------------------------------------
+# Load shots during 2022 season -------------------------------------------
 
-# First load the pbp for 2021-2022 regular season:
+# First load the pbp for 2022 regular season:
 wnba_pbp_data <- load_wnba_pbp(2022)
 
 # Filter and clean data ---------------------------------------------------
@@ -39,4 +39,4 @@ clean_wnba_shots_data <- wnba_shots_data %>%
 
 write_csv(clean_wnba_shots_data,
           # Compress this since it's fairly big
-          "data/wnba-shots-2021.csv.gz")
+          "data/wnba-shots-2022.csv.gz")
