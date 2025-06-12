@@ -990,7 +990,7 @@ cookieconsent.run({
 
 <section id="data" class="level2">
 <h2 class="anchored" data-anchor-id="data">Data</h2>
-<p>The data comes from the NASCAR website and shows the season statistics from 2007-2022. Each row displays the metrics of a racer for that specific year. The data frame contains 1111 rows of observations and 20 variables.</p>
+<p>The data comes from the NASCAR website and shows the season statistics from 2007-2022. Each row displays the metrics of a racer for that specific year. The data frame contains 1111 rows of observations and 20 variables (and a row number column).</p>
 <table class="caption-top table">
 <caption><a href="../data/nascar_driver_statistics.csv">nascar_driver_statistics.csv</a></caption>
 <thead>
@@ -1000,6 +1000,14 @@ cookieconsent.run({
 </tr>
 </thead>
 <tbody>
+<tr class="odd">
+<td>…1</td>
+<td>Row number from the original dataset (can be ignored or used as an index)</td>
+</tr>
+<tr class="even">
+<td>Driver</td>
+<td>Name of the driver for the given season</td>
+</tr>
 <tr class="odd">
 <td>Wins</td>
 <td>The sum of the driver’s victories</td>
@@ -1067,6 +1075,14 @@ cookieconsent.run({
 <tr class="odd">
 <td>DriverRating</td>
 <td>Formula combining wins, finish, top15-finish, average running position while on lead lap, average speed under green, fastest lap, led most laps, and lead lap finish with a maximum rating of 150 points</td>
+</tr>
+<tr class="even">
+<td>Points</td>
+<td>Total number of championship points earned by the driver in that season</td>
+</tr>
+<tr class="odd">
+<td>Year</td>
+<td>Year in which the season’s statistics were recorded</td>
 </tr>
 </tbody>
 </table>
