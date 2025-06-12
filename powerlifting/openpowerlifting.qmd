@@ -1,0 +1,84 @@
+---
+title: "OpenPowerlifting: Most Recent Lifts by Competitors"
+author: "Josh Larson, Phoebe Jones, Cooper Olney, Faith Rhinehart,  Ivan Ramler" 
+date: "June 9, 2025" 
+format: html
+categories:
+  - Nonlinear regresion
+  - ANOVA
+  - Data visualization
+---
+
+## Motivation
+Powerlifting is a strength sport where participants compete to lift the heaviest weight. Competitors compete within weight classes, so their opponents are around the same weight as them. The sport consists of three different lifts: Squat, Bench, and Deadlift. 
+
+**Squat** lifts require lifters to squat so that their hips are below their knees and lift the weight to a specific depth. **Bench** lifts are done while the lifter is lying on a bench. Bench lifters start with the bar weight being held in the air and must lower the bar down to their body. Once the bar touches their body, lifters wait for the command to lift the bar back into the air with their elbows fully extended. **Deadlifting**, like squats, start with the lifter standing up. The lifter must lift the bar off the ground and get into the position where their shoulders are back and knees are locked. Competitors are overseen by three judges who determine whether the lift follows the rules of the events. If a judge believes the lifter followed the rules, they will turn on a white light. In order for a lift to count, competitors must receive at least two white lights.
+
+## Data
+
+There are two datasets provided - one for male lifters and one for females. Both are samples taken from the [OpenPowerlifting project](https://www.openpowerlifting.org){target="_blank"}. You may download a copy of the full data at [https://openpowerlifting.gitlab.io/opl-csv/bulk-csv.html](https://openpowerlifting.gitlab.io/opl-csv/bulk-csv.html){target="_blank"}.
+
+The data sets were created using the code available in [openpl_initial_wrangle.qmd](../_prep/openpowerlifting/openpl_initial_wrangle.qmd). Details are also below.
+
+::: {.callout-note collapse="true" title="Sampling Process"}
+
+This process was used (separately) for both male and female lifters.
+
+- **Filtered the full dataset** to include only:
+  - Drug-tested lifters (`Tested == "Yes"`)
+  - Lifters who competed in the full event (`Event == "SBD"`)
+  - Those using standard equipment (`Raw` or `Single-ply`)
+  - Lifters with valid placements (excluding disqualified or incomplete performances)
+  - Complete cases for age and best lift values
+
+- **Selected the most recent meet** for each lifter by:
+  - Grouping by lifter name
+  - Sorting by competition date (most recent first)
+  - Taking the first observation per lifter
+
+- For each **AgeClass**:
+  - If **500 or more lifters**, took a **random sample of 500**
+  - If **fewer than 500 lifters**, included **all available lifters**
+
+- **Removed extraneous columns** and kept only key performance and demographic variables for classroom analysis
+
+:::
+
+
+<details>
+<summary><strong>Variable Descriptions</strong></summary>
+
+| Variable      | Description                                                                 |
+|---------------|-----------------------------------------------------------------------------|
+| Name          | Powerlifter's name                                                          |
+| Age           | Age of the lifter at the time of the meet                                   |
+| AgeClass      | Reported age class (e.g., "13-15", "24-25", "80+")                          |
+| BodyweightKg  | Body weight of the lifter in kilograms at weigh-in                         |
+| Squat         | Best squat weight from the lifter's three attempts (in kg)                 |
+| Bench         | Best bench press from the lifter's three attempts (in kg)                  |
+| Deadlift      | Best deadlift from the lifter's three attempts (in kg)                     |
+| TotalKg       | Sum of best squat, bench press, and deadlift (in kg)                       |
+| Place         | Lifter's placement in the meet (numeric)    |
+| Dots          | Bodyweight-adjusted score (modern Wilks alternative)                       |
+| Wilks         | Traditional Wilks score                                                     |
+| Glossbrenner  | Score used by GPC-affiliated federations                                    |
+| Goodlift      | IPF GL points (IPF performance standard score)                              |
+| Date          | Date of the meet (format: yyyy-mm-dd)                                       |
+
+</details>
+
+
+: [openpl_sample_female.csv](../data/openpl_sample_female.csv), [openpl_sample_male.csv](../data/openpl_sample_male.csv)
+
+
+## Questions
+
+1. Graphically explore the relationship between age and best deadlift. 
+2. Estimate the age at which peak performance occurs.
+3. Combine datasets and compare male vs female for the different lifts.
+
+## References
+
+[Open Powerlifting Data Service](https://openpowerlifting.gitlab.io/opl-csv/bulk-csv-docs.html){target="_blank"}
+
+The data set for this module was extracted from OpenPowerlifting Data Service. It contains over 3.6 million observations over 40 different variables containing the classifications and totals for an individual lifter. 

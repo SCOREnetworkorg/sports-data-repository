@@ -1,0 +1,143 @@
+---
+title: "Code to Wrangle Open Powerlifting Data"
+format: html
+editor: visual
+---
+
+```{r}
+library(readr)
+library(curl)
+library(dplyr)
+library(tidyr)
+library(stringr)
+```
+
+
+This chunk downloads the zip file containing the openpowerlifting data from <https://openpowerlifting.gitlab.io/opl-csv/bulk-csv.html>
+
+
+```{r}
+# Step 1: Set up the URL
+zip_url <- "https://openpowerlifting.gitlab.io/opl-csv/files/openpowerlifting-latest.zip"
+
+# Step 2: Use curl_download to save it safely
+tmp_zip <- tempfile(fileext = ".zip")
+curl_download(zip_url, tmp_zip)
+
+# Step 3: List contents
+zip_files <- unzip(tmp_zip, list = TRUE)
+# print(zip_files$Name) # can double check names of files with this
+
+# Step 4: Find the CSV file
+csv_path <- zip_files$Name[grepl("\\.csv$", zip_files$Name)]
+
+# Step 5: Read the CSV directly from the ZIP and clean up files
+openpowerlifting <- read_csv(unz(tmp_zip, csv_path))
+unlink(tmp_zip)
+
+# Step 6: Check if the entry worked
+# should be at least 3.6 million rows and 42 columns (as of June 2025)
+dim(openpowerlifting)
+
+```
+
+This chunk cleans up the full dataset. Please note that this is a large dataset and the code may take a few minutes to run.
+
+
+```{r}
+openpl_tidy <-
+  openpowerlifting |>
+    group_by(Name) |> # these three lines extract the most recent
+    arrange(desc(Date), # event for each person
+            .by_group = TRUE) |>
+    slice(1) |>
+    filter( # these help standardize the lifters included in the dataset
+      (Tested == "Yes")  # those that were drug tests
+      & (Event == "SBD")# only the main event
+      & Equipment %in% c("Single-ply","Raw") # standard equipment
+      & !(Place %in% c("DQ", "NS", "G", "DD")) # only those that completed their lifts
+      ) |>
+    drop_na(Age, Best3SquatKg, 
+            Best3BenchKg, Best3DeadliftKg) # ensuring the main variables are complete cases
+    
+```
+
+We now split the data into the two most prominent sexes included in the dataset. (Note, Sex == 'Mx' are excluded do to the very small sample size.)
+
+Additionally, we take a random sample of size 500 from each Age class to ensure that (i) all age classes are approximately equally represented and (ii) that the dataset is small enough to use in a classroom setting.
+
+Note that for very young or old age classes, if there are fewer than 500 lifters, we do not take a random sample of them and instead include all lifters for that class.
+
+```{r}
+set.seed(501) 
+# Fun fact: This seed is used as it is the 
+# all-time world record deadlift of 501 kg (1,105 lb), 
+# achieved by Iceland's Hafþór Júlíus Björnsson.
+# (aka "The Mountain" from the TV Series, "Game of Thrones")
+
+# Male Podium Lifters
+openpl_male<-
+  openpl_tidy |>
+  filter(Sex == "M") |>
+  select(-Sex,
+         -Squat1Kg, -Squat2Kg, -Squat3Kg, -Squat4Kg,
+         -Bench1Kg, -Bench2Kg, -Bench3Kg, -Bench4Kg,
+         -Deadlift1Kg, -Deadlift2Kg, -Deadlift3Kg, -Deadlift4Kg,
+         ) |>
+  ungroup() |>
+  mutate(id = row_number()) |>
+  rename(Deadlift = Best3DeadliftKg,
+         Bench = Best3BenchKg,
+         Squat = Best3SquatKg
+         ) |>
+  relocate(id, .before = Name) |>
+  # the following code takes the random sample
+  group_by(AgeClass) %>%
+  group_modify(~ if (nrow(.x) >= 500) sample_n(.x, 500) else .x) %>%
+  ungroup() |>
+  # keeping primary varaibles of interest
+  select(Name,Age, AgeClass, BodyweightKg, 
+         Squat, Bench, Deadlift, 
+         TotalKg, Place, Dots, Wilks, Glossbrenner, Goodlift,
+         Date)
+```
+
+```{r}
+set.seed(290) 
+# Fun fact: This seed is used as it is the 
+# all-time female world record deadlift of 290 kg (639.4 lbs)
+# achieved by America's Tamara Walcott
+
+# Female Lifters
+openpl_female<-
+  openpl_tidy |>
+  filter(Sex == "F") |>
+  select(-Sex,
+         -Squat1Kg, -Squat2Kg, -Squat3Kg, -Squat4Kg,
+         -Bench1Kg, -Bench2Kg, -Bench3Kg, -Bench4Kg,
+         -Deadlift1Kg, -Deadlift2Kg, -Deadlift3Kg, -Deadlift4Kg,
+         ) |>
+  ungroup() |>
+  mutate(id = row_number()) |>
+  rename(Deadlift = Best3DeadliftKg,
+         Bench = Best3BenchKg,
+         Squat = Best3SquatKg
+         ) |>
+  relocate(id, .before = Name) |>
+  # the following code takes the random sample
+  group_by(AgeClass) %>%
+  group_modify(~ if (nrow(.x) >= 500) sample_n(.x, 500) else .x) %>%
+  ungroup()  |>
+  # keeping primary varaibles of interest
+  select(Name, Age, AgeClass, BodyweightKg, 
+         Squat, Bench, Deadlift, 
+         TotalKg, Place, Dots, Wilks, Glossbrenner, Goodlift,
+         Date)
+
+```
+
+```{r}
+# uncomment the two write statements to save the files
+# write_csv(openpl_male, "openpl_sample_male.csv")
+# write_csv(openpl_female, "openpl_sample_female.csv")
+```
