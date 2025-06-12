@@ -14,10 +14,12 @@ categories:
 
 ## Data
 
-The data comes from the NASCAR website and shows the season statistics from 2007-2022. Each row displays the metrics of a racer for that specific year. The data frame contains 1111 rows of observations and 20 variables.
+The data comes from the NASCAR website and shows the season statistics from 2007-2022. Each row displays the metrics of a racer for that specific year. The data frame contains 1111 rows of observations and 20 variables (and a row number column).
 
 | Variable             | Description                                                                                                                                                                                              |
 |-------------------|-----------------------------------------------------|
+| ...1     | Row number from the original dataset (can be ignored or used as an index) |
+| Driver   | Name of the driver for the given season |
 | Wins                 | The sum of the driver's victories                                                                                                                                                                        |
 | AvgStart             | The sum of the driver's starting positions divided by the number of races                                                                                                                                |
 | AvgMidRace           | The sum of the driver's mid race positions divided by the number of races                                                                                                                                |
@@ -35,6 +37,8 @@ The data comes from the NASCAR website and shows the season statistics from 2007
 | PercentLapsLed       | The sum of the laps led in the race                                                                                                                                                                      |
 | TotalLaps            | The sum of the laps completed by a driver that year                                                                                                                                                      |
 | DriverRating         | Formula combining wins, finish, top15-finish, average running position while on lead lap, average speed under green, fastest lap, led most laps, and lead lap finish with a maximum rating of 150 points |
+| Points   | Total number of championship points earned by the driver in that season   |
+| Year     | Year in which the season's statistics were recorded                        |
 
 : [nascar_driver_statistics.csv](../data/nascar_driver_statistics.csv)
 
