@@ -1,0 +1,79 @@
+---
+title: "General Clinton Canoe Regatta"
+author: "Phoebe Jones" 
+date: "June 18, 2025" 
+
+categories:
+  - Data visualization
+  - Data wrangling
+  - Data cleaning
+---
+
+## Motivation
+ 
+Downriver paddling is a difficult and competitive sport. The General Clinton Canoe Regatta (nicknamed "the 70-miler") is a prominent race in the sport that has been running since the 1960s. The race is a 63 mile course down the Susquehanna River in New York (from Cooperstown to Bainbridge). Paddlers compete against each other to achieve the fastest time in their class, with the fastest boats finishing about 7-8 hours after they start.
+
+### Understanding Downriver Racing
+
+Downriver racing is a sport where competitors take their watercraft (usually a canoe, kayak, or stand-up paddle board) down a race course in competition with other paddlers, sometimes navigating rapids, in an attempt to get the fastest time either overall or in their class (classes are split up by boat and paddler type). Times are tracked by race officials on shore. 
+
+#### Classes
+
+The number of classes and how they are separated is variable depending on the race. Type of boat is the primary separation, with kayaks and canoes (possibly stand-up paddle boards) having completely separate categories that are then further split. For canoes, the General Clinton splits classes based on the boat's material and build (classic aluminum boats versus small and light pro boats) as well as the paddlers in the boat. The number of paddlers matters, as does gender.
+
+### General Clinton Canoe Regatta
+
+As mentioned, the General Clinton is 63 miles long and can take paddlers anywhere between 7 and 13 hours to complete. Due to the difficulty, almost all paddlers have a pit crew of some kind who can get them water and fuel refills at various points throughout the race, as well as keep them informed about their pace and performance. The effort required for this race means that it is imperative that race officials know as much as possible what to expect on race day, to keep everyone involved safe.
+
+## Data
+
+Each row in the `clinton_canoe_regatta` data set represents a specific paddler from a year of the Clinton. This data set contains results from 2014-2025 (excluding 2020 and 2021, when the race was cancelled due to the Covid-19 Pandemic).
+
+<details>
+
+<summary><b>Variable Descriptions</b></summary>
+
+| Variable    | Description                                               |
+|-------------|-----------------------------------------------------------|
+| year        | Year raced                                                |
+| boatType    | Type of boat raced (canoe, kayak, SUP)                    |
+| bib         | Bib number                                                |
+| classID     | Class (oc4stock, oc2pro, etc)                             |
+| place       | Where the boat placed in their class's results            |
+| time        | The time to complete the race (in sec)                    |
+| overall     | Overall rank (out of all boats ever)                      |
+| byBoat      | Rank out of all boats of the same type                    |
+| byClass     | Rank out of all boats in class (all years)                |
+| byYrClass   | Rank out of the boats in their class in their year        |
+| byYrOver    | Rank out of all the boats that year (all classes)         |
+| byYrBoat    | Rank out of all boats of the same type that year          |
+| courseID    | Version of the course raced (all the same here)           |
+| notes       | Extra information (usually about class)                   |
+| personID    | The person's PaddleStats ID                               |
+| displayName | Name of the racer                                         |
+| sortName    | Name of the race with last name first                     |
+| city        | Racer's home city (as given at registration)              |
+| state       | Racer's home state or province (as given at registration) |
+| country     | Racer's home country (as given at registration)           |
+| teamName    | Racer's team name                                         |
+| status      | Finishing status (DNF, DNS, DQ, etc.)                     |
+
+</details>
+
+**Download Clinton Data:** [clinton_canoe_regatta.csv](../data/clinton_canoe_regatta.csv)
+
+
+## Questions
+
+1. Which class has the most boats?
+
+2. Are times significantly different based on year?
+
+3. Are paddlers with an existing Paddlestats id faster than those without?
+
+## References
+
+The data are compiled from Paddlestats, an online database of paddling results. 
+
+[Paddlestats: General Clinton (70-Miler)](https://paddlestats.net/racehistory/CLINTON70){target="_blank"}
+
