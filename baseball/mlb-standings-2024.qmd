@@ -1,0 +1,38 @@
+---
+title: MLB Standings 2024
+author: Shane Sanders
+date: May 14, 2025
+description: Calculating MLB Inter-League Competitive Balance using Schedule Rules and a System of Equations Solution Methodology.
+categories:
+  -  System of Equation
+  -  Basic Algebra
+---
+
+## Motivation
+
+MLB Standings for the 2024 Season from site Baseball Reference; Team Win %, Team Conference, number of inter-conference or inter-league games. 
+
+## Data
+
+Team Win % = Team regular season win percentage; Team League = Team League-of-Play in 2024
+
+| Variable     | Description                                       |
+|----------------------|--------------------------------------------------|
+| `Win%`     | Team win percentage in regular season.               |
+| `League`   | League of team within MLB League |
+
+: [mlb-standings-2024.csv](../data/mlb-standings-2024.csv)
+
+## Questions
+
+1. What was the AL's win rate against NL teams in 2024 based on the data provided and the observation from the data that 46 of the 162 games played by an MLB team in a regular season are inter-league games?  
+
+2. What was the NL's win rate against the AL?  Use the idea of a probabilistic complement to answer (i.e., that the win rate of the NL against AL teams equals 1 minus the win rate of the AL against NL teams)?  
+
+3. Which league was stronger in 2024 according to inter-league win rate?  Does this happen to match the league of the World Series champion in 2024?  
+
+4. Subjective question:  What do these inter-league win rates say about inter-league competitive balance in the MLB in 2024?  
+
+## References
+
+[https://www.baseball-reference.com/leagues/majors/2024-standings.shtml](https://www.baseball-reference.com/leagues/majors/2024-standings.shtml)

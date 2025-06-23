@@ -1,0 +1,74 @@
+---
+title: Mendeley Boxing Fighter Purse Data
+author: Izaan Khudadad, Peter Anderson
+date: May 19, 2025
+description: The dataset provides fight-level earnings and characteristics for 1,234 professional male boxers from 2009 to 2017, compiled from official commission records. It supports investigation of how factors like experience, titles, and broadcasting impact fighter pay, making it ideal for teaching regression and panel data methods in sports economics.
+categories:
+  - Summary statistics
+  - Linear regression
+  - Multiple regression
+  - Correlation
+  - Data visualization
+---
+
+## Motivation
+
+This dataset was compiled by Peter Anderson (University of Nottingham – Ningbo China) and sourced from official records provided by the Nevada State Athletic Commission (NSAC) and the California State Athletic Commission (CSAC). It covers professional boxing matches held between 2009 and 2017, and includes detailed information on individual fighters, their opponents, fight characteristics (e.g., rounds, venue, title fights), broadcasting networks, promotional affiliations, and fighter earnings.
+
+## Data
+
+Each row is a single male professional boxer in one fight, one fight would be two row's and there are repeat boxers in rows. There 4670 rows, with missing data in those rows being represented by blanks. The missingness could be there because of reporting issue by the state athletic commissions, or importance of fights based on whether they were title bouts or if they were lower on the fight cards. 
+
+| Variable   | Description                                                              |
+|:-----------|:-------------------------------------------------------------------------|
+| Boxer      | Name of the boxer (Last, First)                                          |
+| Date       | Date of the fight (YYYY.MM.DD)                                           |
+| Venue      | Location where the fight took place                                      |
+| Purse      | Reported purse (fighter's earnings) in USD                               |
+| lnRPurse   | Natural logarithm of the purse (for regression use)                      |
+| weight     | Weight of the boxer (in pounds)                                          |
+| Age        | Age of the boxer at the time of the fight                                |
+| Wins       | Number of professional wins prior to the fight                           |
+| Losses     | Number of professional losses prior to the fight                         |
+| KO         | Number of professional knockout wins prior to the fight                  |
+| W-Title    | Indicator for whether the fight was a world title bout (1 = yes, 0 = no) |
+| PPV        | Indicator for whether the fight was on Pay-Per-View (1 = yes, 0 = no)    |
+| ESPN       | Indicator for whether the fight was broadcast on ESPN (1 = yes, 0 = no)  |
+| HBO        | Indicator for whether the fight was broadcast on HBO (1 = yes, 0 = no)   |
+| FOX        | Indicator for whether the fight was broadcast on FOX (1 = yes, 0 = no)   |
+| TopRank    | Indicator for Top Rank as the promoter (1 = yes, 0 = no)                 |
+| GoldenBoy  | Indicator for Golden Boy Promotions as the promoter (1 = yes, 0 = no)    |
+| RDS        | Scheduled number of rounds for the bout                                  |
+| Y2009      | Year indicator for fights in 2009 (1 = yes, 0 = no)                      |
+| Y2010      | Year indicator for fights in 2010 (1 = yes, 0 = no)                      |
+| Y2011      | Year indicator for fights in 2011 (1 = yes, 0 = no)                      |
+| Y2012      | Year indicator for fights in 2012 (1 = yes, 0 = no)                      |
+| Y2013      | Year indicator for fights in 2013 (1 = yes, 0 = no)                      |
+| Y2014      | Year indicator for fights in 2014 (1 = yes, 0 = no)                      |
+| Y2015      | Year indicator for fights in 2015 (1 = yes, 0 = no)                      |
+| Y2016      | Year indicator for fights in 2016 (1 = yes, 0 = no)                      |
+| Y2017      | Year indicator for fights in 2017 (1 = yes, 0 = no)                      |
+
+
+: [boxing_pay_data.xlsx](../data/boxing_pay_data.xlsx)
+
+
+## Questions
+
+1. Is there a relationship between a boxer's knockout (KO) record and their earnings?
+
+2. Do title fights lead to higher earnings compared to non-title fights?
+
+3. Are there differences in fighter pay based on location/Venue?
+
+4. What factors predict a higher purse for professional boxers?
+
+5. Are there consistent differences in pay based on promoters or venues?
+
+## References
+
+Anderson, Peter (2019), “Boxing Data”, Mendeley Data, V1, doi: 10.17632/vpbsd5bryy.1
+
+The files associated with this dataset are licensed under a Creative Commons Attribution 4.0 International license.
+
+
