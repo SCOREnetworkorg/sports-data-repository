@@ -1,0 +1,119 @@
+---
+title: "NBA Wingspan & Performance (Separate Datasets)"
+author: "Cooper Olney"
+date: "June 23, 2025"
+
+categories:
+  - Webscraping
+  - Data visualization
+  - Data wrangling
+---
+
+## Motivation
+
+Basketball fans, analysts and scouts often consider a player's physical attributes, especially wingspan as a key factor in evaluating ability and performance. [Wingspan](https://www.nba.com/knicks/videos/how-to-measure-your-wingspan){target="_blank"}, the distance from fingertip to fingertip with arms outstretched, can offer players advantages on both ends of the court, affecting shot-blocking, rebounding and finishing at the rim. However, wingspans are relative to the players height, that's where the concept of wingspan advantage comes in.
+
+Wingspans advantage refers to the difference between a player's wingspan and their height (wingspan - height). A larger wingspan advantage suggests a player has a longer reach relative to their size, which can translate to greater on-court impact. For example, a 6'6" player with a 7'1" wingspan has a +7 inch wingspan advantage, an edge that might help them disrupt opponents defensively or finish more effectively near the basket. However, wingspan can also influence a player's shooting ability. While a longer reach can make it easier to shoot over defenders, it may also affect shooting mechanics and consistency. This dual impact makes wingspan advantage a valuable trait to explore across both defensive and offensive performance metrics.
+
+This concept is increasingly used in scouting reports and draft analysis to highlight players with unique physical tools. By analyzing wingspan relative to height, alongside in-game performance data, we can begin to explore how these physical traits are related to on-court impact.
+
+Combining wingspan data with performance statistics allows for a more complete analysis of how physical attributes translate to real in-game impact. While wingspan advantage alone is an interesting measurement, its significance becomes clearer when viewed alongside metrics like blocks, steals and shooting percentages. Merging these datasets creates opportunities to uncover patterns and deepen our understanding of how a player's wingspan influences their effectiveness on the court.
+
+
+## Data
+
+There are three datasets available for the wingspan data. 
+
+
+The **nba_wingspan_2025.csv** data set contains 499 rows and 4 columns. Each row represents a NBA player from the 2024-25 season. **Note** this dataset is partially cleaned from the data found at [craftednba.com](https://craftednba.com/){target="_blank"}
+
+Download Data: [nba_wingspan_2025.csv](../data/nba_wingspan_2025.csv)
+
+<details>
+
+<summary><b>Variable Descriptions</b></summary>
+
+| Variable | Description |
+|------------------------------------|------------------------------------|
+| name | Full Name of NBA player, with team abbreviation and primary position |
+| height | Player's height in feet & inches format |
+| wingspan | Player's wingspan in feet & inches format |
+| wingspan_advantage | Difference between wingspan and height in inches (wingspan - height) |
+
+</details>
+
+
+---
+
+The **nba_per100possessions_2025.csv** dataset contains 736 rows and 14 columns. Each row represents a NBA player from the 2024-25 season. **Note** this dataset contains duplicates because of players switching teams midseason. For example, Luka Dončić will have 3 total rows for his stats with DAL, LAL and his total 2024-25 season stats.
+
+Download Data: [nba_per100possessions_2025.csv](../data/nba_per100possessions_2025.csv)
+
+<details>
+
+<summary><b>Variable Descriptions</b></summary>
+
+| Variable | Description |
+|------------------------------------|------------------------------------|
+| player | Full name of NBA player |
+| g | Games played during the 2024-25 season |
+| mp | Minutes played during the 2024-25 season |
+| pts | Points scored per 100 possessions |
+| orb | Offensive rebounds per 100 possessions |
+| drb | Defensive rebounds per 100 possessions |
+| trb | Total rebounds per 100 possessions |
+| ast | Assists per 100 possessions |
+| stl | Steals per 100 possessions |
+| blk | Blocks per 100 possessions |
+| o_rtg | Offensive Rating: An estimate of points produced per 100 possessions |
+| d_rtg | Defensive Rating: An estimate of points allowed per 100 possessions |
+| e_fg_percent | Effective field goal percentage: Adjusts percentage for the fact that a 3pt field goal is worth more than a 2pt field goal |
+| ft_percent | Free throw percentage |
+
+</details>
+
+---
+
+The **nba_shooting_2025.csv** dataset contains 736 rows and 9 columns. Each row represents a NBA player from the 2024-25 season. **Note** this dataset contains duplicates because of players switching teams midseason. For example, Luka Dončić will have 3 total rows for his stats with DAL, LAL and his total 2024-25 season stats.
+
+Download Data: [nba_shooting_2025.csv](../data/nba_shooting_2025.csv)
+
+<details>
+
+<summary><b>Variable Descriptions</b></summary>
+
+| Variable | Description |
+|------------------------------------|------------------------------------|
+| player | Full name of NBA player |
+| g | Games played during the 2024-25 season |
+| fg_percent | Field goal percentage |
+| avg_dist_of_fg | Average distance (in feet) of field goal attempts |
+| 2pt_rate | Percentage of field goal attempts that are 2 point attempts |
+| 3pt_rate | Percentage of field goal attempts that are 3 point attempts |
+| 2pt_percent | Make percentage on 2 point attempts |
+| 3pt_percent | Make percentage on 3 point attempts |
+| dunk_rate | Percentage of field goal attempts that are dunks |
+
+</details>
+
+
+## Questions
+
+
+1.  Load and clean datasets using tidyverse packages, transforming raw data into a tidy and usable format. Convert height and wingspan into numeric values like inches.
+
+2.  Merge datasets from different sources, addressing inconsistencies such as mismatched player names. After merging, examine how many players are missing from the final dataset and consider why.
+
+3.  Explore relationships between wingspan advantage and a variety of performance statistics from the 2024-25 NBA season. Do players with higher wingspan advantage tend to have more blocks or steals?
+
+4.  Investigate how wingspan might affect shooting. Is there a connection between wingspan advantage and 3pt rate or dunk rate? Do players with longer arms shoot from closer or farther away?
+
+
+
+## References
+
+Height & Wingspan—NBA Stats & Analytics \| CraftedNBA. (n.d.). Retrieved from https://craftednba.com/player-traits/length
+
+2024-25 NBA Player Stats: Per 100 Possessions \| Basketball-Reference.com. (n.d.). Retrieved from https://www.basketball-reference.com/leagues/NBA_2025_per_poss.html
+
+2024-25 NBA Player Stats: Shooting \| Basketball-Reference.com. (n.d.). Retrieved from https://www.basketball-reference.com/leagues/NBA_2025_shooting.html
