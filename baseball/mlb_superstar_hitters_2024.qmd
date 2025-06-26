@@ -57,7 +57,7 @@ Data courtesy of [baseballsavant.mlb.com](https://baseballsavant.mlb.com/){targe
 2. How does `launch_speed` differ across pitch zones? Explore whether certain areas of the strike zone tend to produce harder contact. Do the three hitters have different "sweet spots" where they generate higher exit velocities?
 
 
-# References
+## References
 
 Petti B, Gilani S (2022). baseballr: Acquiring and Analyzing Baseball Data. R package version 1.3.0, 
 [https://CRAN.R-project.org/package=baseballr.](https://CRAN.R-project.org/package=baseballr.){target="_blank"}
@@ -65,10 +65,10 @@ Petti B, Gilani S (2022). baseballr: Acquiring and Analyzing Baseball Data. R pa
 
 ## Code
 
-::: {.callout-note collapse="true" title="The following code was used to generate this dataset."}
-```{r}
-#| echo: true
-#| eval: false
+::: {.callout-note collapse="true" title="The following R code was used to generate this dataset."}
+
+```
+
 
 # Install baseballr if needed
 # if (!requireNamespace('devtools', quietly = TRUE)){

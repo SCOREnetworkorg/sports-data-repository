@@ -59,11 +59,9 @@ Petti B, Gilani S (2025). *baseballr: Acquiring and Analyzing Baseball Data*. R 
 
 ## Code
 
-::: {.callout-note collapse="true" title="The following code was used to generate this dataset."}
+::: {.callout-note collapse="true" title="The following R code was used to generate this dataset."}
 
-```{r}
-#| echo: true
-#| eval: false
+```
 
 # Install baseballr if needed
 # if (!requireNamespace('devtools', quietly = TRUE)){
