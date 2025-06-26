@@ -1,5 +1,5 @@
 ---
-title: "General Clinton Canoe Regatta"
+title: "Canoe Racing - General Clinton Canoe Regatta"
 author: "Phoebe Jones" 
 date: "June 18, 2025" 
 
@@ -23,11 +23,11 @@ The number of classes and how they are separated is variable depending on the ra
 
 ### General Clinton Canoe Regatta
 
-As mentioned, the General Clinton is 63 miles long and can take paddlers anywhere between 7 and 13 hours to complete. Due to the difficulty, almost all paddlers have a pit crew of some kind who can get them water and fuel refills at various points throughout the race, as well as keep them informed about their pace and performance. The effort required for this race means that it is imperative that race officials know as much as possible what to expect on race day, to keep everyone involved safe.
+The General Clinton is 63 miles long and can take paddlers anywhere between 7 and 13 hours to complete. Due to the difficulty, almost all paddlers have a pit crew of some kind who can get them water and fuel refills at various points throughout the race, as well as keep them informed about their pace and performance. The effort required for this race means that it is imperative that race officials know as much as possible what to expect on race day, to keep everyone involved safe.
 
 ## Data
 
-Each row in the `clinton_canoe_regatta` data set represents a specific paddler from a year of the Clinton. This data set contains results from 2014-2025 (excluding 2020 and 2021, when the race was cancelled due to the Covid-19 Pandemic).
+Each row in the `clinton_canoe_regatta` data set represents a specific paddler from a year of the Clinton (so if a boat has more than one paddler, its time and bib number will appear in the same number of rows as there were people in the boat). This data set contains results from 2014-2025 (excluding 2020 and 2021, when the race was cancelled due to the Covid-19 Pandemic). There are 3227 total paddlers with 22 variables for each one. If a paddler did the race multiple times from 2014-2025, they will have a row for each year they ran it.
 
 <details>
 
@@ -75,5 +75,5 @@ Each row in the `clinton_canoe_regatta` data set represents a specific paddler f
 
 The data are compiled from Paddlestats, an online database of paddling results. 
 
-[Paddlestats: General Clinton (70-Miler)](https://paddlestats.net/racehistory/CLINTON70){target="_blank"}
+[Paddlestats: General Clinton (70-Miler)](https://paddlestats.net/racehistory/CLINTON70)
 

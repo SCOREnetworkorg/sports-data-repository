@@ -1,0 +1,2809 @@
+game_date,inning,outs_when_up,pitch_number,pitch_name,p_throws,description,events,launch_speed,launch_angle,hit_distance_sc,launch_speed_angle,zone,release_speed,release_spin_rate
+2024-09-29,6,2,2,4-Seam Fastball,R,hit_into_play,field_out,98.5,-5,17,2,14,94.3,2396
+2024-09-29,6,2,1,Changeup,R,swinging_strike,,NA,NA,NA,NA,7,84.8,1591
+2024-09-29,4,0,5,4-Seam Fastball,R,hit_into_play,field_out,106.5,-2,43,4,4,95.4,2247
+2024-09-29,4,0,4,Slider,R,ball,,NA,NA,NA,NA,13,89.4,2483
+2024-09-29,4,0,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,94.8,2328
+2024-09-29,4,0,2,Sinker,R,called_strike,,NA,NA,NA,NA,1,93.1,2236
+2024-09-29,4,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,94.1,2370
+2024-09-29,8,1,3,4-Seam Fastball,R,hit_into_play,single,110.8,14,247,6,8,99.3,2331
+2024-09-29,8,1,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,100.1,2388
+2024-09-29,8,1,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,7,100.4,2390
+2024-09-29,1,0,5,Changeup,R,hit_into_play,field_out,77.3,11,134,4,13,85.4,1522
+2024-09-29,1,0,4,Changeup,R,swinging_strike,,NA,NA,NA,NA,8,85,1559
+2024-09-29,1,0,3,Slider,R,ball,,NA,NA,NA,NA,13,89.2,2414
+2024-09-29,1,0,2,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,9,93.8,2357
+2024-09-29,1,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,94.6,2185
+2024-09-28,5,0,6,4-Seam Fastball,R,ball,walk,NA,NA,NA,NA,11,95.9,2169
+2024-09-28,5,0,5,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,95.4,2157
+2024-09-28,5,0,4,4-Seam Fastball,R,foul,,68.3,-42,2,NA,8,95,2237
+2024-09-28,5,0,3,Changeup,R,ball,,NA,NA,NA,NA,13,85,2135
+2024-09-28,5,0,2,Changeup,R,ball,,NA,NA,NA,NA,13,87.2,2181
+2024-09-28,5,0,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,3,95,2145
+2024-09-28,7,2,4,Slider,R,hit_into_play,field_out,100.2,19,308,5,3,89.8,2229
+2024-09-28,7,2,3,Changeup,R,ball,,NA,NA,NA,NA,13,90.2,1704
+2024-09-28,7,2,2,Changeup,R,swinging_strike,,NA,NA,NA,NA,8,89.9,1639
+2024-09-28,2,2,1,Slider,R,hit_into_play,field_out,80.5,0,36,2,7,87.4,2229
+2024-09-28,9,0,3,Sinker,R,hit_into_play,field_out,96.9,-23,4,2,14,95.2,2409
+2024-09-28,7,2,1,Slider,R,swinging_strike,,NA,NA,NA,NA,14,89,2010
+2024-09-28,9,0,2,Sinker,R,called_strike,,NA,NA,NA,NA,4,95.2,2254
+2024-09-28,9,0,1,Sinker,R,ball,,NA,NA,NA,NA,14,96.2,2235
+2024-09-28,6,0,6,4-Seam Fastball,R,hit_into_play,single,108.2,3,76,4,8,95.6,2332
+2024-09-28,6,0,5,4-Seam Fastball,R,foul,,79.7,17,128,NA,11,95.5,2269
+2024-09-28,6,0,4,Changeup,R,ball,,NA,NA,NA,NA,13,88.7,2070
+2024-09-28,6,0,3,Slider,R,ball,,NA,NA,NA,NA,13,86.3,2439
+2024-09-28,6,0,2,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,8,95,2335
+2024-09-28,6,0,1,Changeup,R,ball,,NA,NA,NA,NA,13,85.8,2068
+2024-09-28,1,0,3,Slider,R,hit_into_play,single,111.3,18,365,6,4,85.1,2131
+2024-09-28,1,0,2,Changeup,R,ball,,NA,NA,NA,NA,13,86.6,2079
+2024-09-28,1,0,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,8,93.8,2178
+2024-09-27,2,1,4,Split-Finger,R,hit_into_play,single,96.7,-10,13,2,4,86.3,1431
+2024-09-27,2,1,3,Split-Finger,R,ball,,NA,NA,NA,NA,13,84.6,756
+2024-09-27,2,1,2,Split-Finger,R,called_strike,,NA,NA,NA,NA,1,87.3,963
+2024-09-27,2,1,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,94.7,2013
+2024-09-27,6,0,6,Changeup,R,hit_into_play,home_run,103.4,34,436,6,2,86.5,1696
+2024-09-27,6,0,5,Changeup,R,ball,,NA,NA,NA,NA,13,87.3,1733
+2024-09-27,6,0,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,95.2,2006
+2024-09-27,6,0,3,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,7,94.9,2047
+2024-09-27,6,0,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,95.1,2070
+2024-09-27,6,0,1,4-Seam Fastball,R,foul,,100.9,23,348,NA,8,96.1,2174
+2024-09-27,4,1,4,Curveball,R,hit_into_play,single,111.8,13,217,6,9,83.3,2286
+2024-09-27,4,1,3,Changeup,R,blocked_ball,,NA,NA,NA,NA,14,86.3,1880
+2024-09-27,4,1,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,95,2179
+2024-09-27,1,0,1,4-Seam Fastball,R,hit_into_play,field_out,101.9,-22,8,2,1,94.7,2257
+2024-09-27,4,1,1,4-Seam Fastball,R,foul,,84.4,52,258,NA,8,95.4,2174
+2024-09-27,8,0,1,4-Seam Fastball,L,hit_into_play,double,102.7,7,142,4,8,95.1,2129
+2024-09-26,6,0,3,Curveball,R,hit_into_play,single,102.8,5,89,4,5,82.2,2922
+2024-09-26,6,0,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,93.7,2639
+2024-09-26,6,0,1,Cutter,R,foul,,74.8,9,106,NA,1,87.8,2661
+2024-09-26,3,2,3,Curveball,R,hit_into_play,field_out,82.7,-35,3,2,13,83.2,3012
+2024-09-26,3,2,2,Sweeper,R,swinging_strike,,NA,NA,NA,NA,6,84.4,2893
+2024-09-26,3,2,1,Changeup,R,foul,,52.9,-40,3,NA,4,88.2,2187
+2024-09-26,7,1,2,Slider,L,hit_into_play,single,88.3,-8,19,2,1,86.4,2732
+2024-09-26,7,1,1,Slider,L,ball,,NA,NA,NA,NA,14,89.9,2685
+2024-09-26,1,0,4,4-Seam Fastball,R,hit_into_play,field_out,89.7,8,138,4,11,94.8,2805
+2024-09-26,1,0,3,Curveball,R,called_strike,,NA,NA,NA,NA,3,82.3,2899
+2024-09-26,1,0,2,Cutter,R,ball,,NA,NA,NA,NA,11,91.5,2807
+2024-09-26,8,2,2,Slider,L,hit_into_play,double,78,43,229,3,7,85.9,2730
+2024-09-26,8,2,1,4-Seam Fastball,L,foul,,75.1,31,239,NA,2,90.2,2489
+2024-09-26,1,0,1,4-Seam Fastball,R,foul,,NA,NA,NA,NA,1,93.6,2652
+2024-09-25,4,2,1,Slider,R,hit_into_play,double,116.8,21,362,6,5,89.7,2745
+2024-09-25,3,0,6,4-Seam Fastball,R,called_strike,strikeout,NA,NA,NA,NA,5,98.9,2737
+2024-09-25,3,0,5,Slider,R,swinging_strike,,NA,NA,NA,NA,9,89.4,2807
+2024-09-25,3,0,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,98.9,2718
+2024-09-25,3,0,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,97.9,2648
+2024-09-25,3,0,2,Slider,R,swinging_strike,,NA,NA,NA,NA,14,88.5,2771
+2024-09-25,3,0,1,Sweeper,R,ball,,NA,NA,NA,NA,11,80.3,2863
+2024-09-25,6,2,5,Sinker,L,hit_into_play,single,108.6,1,63,4,1,96.1,2395
+2024-09-25,1,0,4,4-Seam Fastball,R,ball,walk,NA,NA,NA,NA,12,98.4,2557
+2024-09-25,6,2,4,Sinker,L,ball,,NA,NA,NA,NA,11,96.4,2423
+2024-09-25,6,2,3,Slider,L,ball,,NA,NA,NA,NA,13,84.6,2758
+2024-09-25,1,0,3,Slider,R,ball,,NA,NA,NA,NA,14,88,2781
+2024-09-25,1,0,2,Slider,R,ball,,NA,NA,NA,NA,14,88.3,2663
+2024-09-25,6,2,2,Sinker,L,called_strike,,NA,NA,NA,NA,1,95.6,2405
+2024-09-25,6,2,1,Sinker,L,called_strike,,NA,NA,NA,NA,5,94.6,2415
+2024-09-25,1,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,97.5,2551
+2024-09-24,5,1,4,Slider,R,hit_into_play,field_out,78.6,35,249,3,9,84.8,2468
+2024-09-24,5,1,3,Sinker,R,ball,,NA,NA,NA,NA,11,92.3,2238
+2024-09-24,5,1,2,Changeup,R,ball,,NA,NA,NA,NA,13,88.6,2211
+2024-09-24,5,1,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,3,92,2360
+2024-09-24,2,2,6,Slider,R,ball,walk,NA,NA,NA,NA,9,84.6,2623
+2024-09-24,2,2,5,Changeup,R,blocked_ball,,NA,NA,NA,NA,13,88.6,2136
+2024-09-24,2,2,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,94.9,2400
+2024-09-24,2,2,3,Sinker,R,foul,,75,33,239,NA,5,93,2412
+2024-09-24,2,2,2,Sweeper,R,foul,,67,29,160,NA,7,82.9,2768
+2024-09-24,2,2,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,93.9,2304
+2024-09-24,7,2,3,4-Seam Fastball,L,swinging_strike,strikeout,NA,NA,NA,NA,12,98.6,2471
+2024-09-24,7,2,2,4-Seam Fastball,L,foul,,77.2,29,242,NA,2,97.9,2595
+2024-09-24,7,2,1,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,8,98.2,2584
+2024-09-24,1,0,1,4-Seam Fastball,R,hit_into_play,double,110.4,21,301,6,3,93.7,2299
+2024-09-22,5,2,2,Changeup,R,hit_into_play,field_out,99.1,-2,33,2,6,88,2108
+2024-09-22,5,2,1,Changeup,R,ball,,NA,NA,NA,NA,13,89.3,2169
+2024-09-22,3,1,6,4-Seam Fastball,R,hit_into_play,single,105.9,-12,9,2,7,96.4,2176
+2024-09-22,3,1,5,Curveball,R,blocked_ball,,NA,NA,NA,NA,13,79.3,2325
+2024-09-22,3,1,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,96.5,2265
+2024-09-22,3,1,3,Changeup,R,foul_tip,,NA,NA,NA,NA,5,86.9,2077
+2024-09-22,3,1,2,Changeup,R,ball,,NA,NA,NA,NA,13,87.5,2159
+2024-09-22,3,1,1,Curveball,R,foul,,86.2,9,117,NA,9,79,2184
+2024-09-22,7,1,1,Changeup,R,hit_into_play,single,88.2,-1,29,2,7,85.4,1590
+2024-09-22,1,0,7,4-Seam Fastball,R,hit_into_play,single,91.4,17,255,4,4,96.1,2115
+2024-09-22,1,0,6,4-Seam Fastball,R,foul,,72.5,-33,4,NA,6,96.8,2186
+2024-09-22,1,0,5,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,1,96.3,2290
+2024-09-22,1,0,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,96.3,2261
+2024-09-22,9,0,4,Split-Finger,R,hit_into_play,home_run,114.7,20,432,6,8,88.7,1627
+2024-09-22,1,0,3,Changeup,R,ball,,NA,NA,NA,NA,13,88.3,2192
+2024-09-22,9,0,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,99,2276
+2024-09-22,9,0,2,Split-Finger,R,ball,,NA,NA,NA,NA,13,90.1,1610
+2024-09-22,1,0,2,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,4,95.2,2236
+2024-09-22,1,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,95.5,2203
+2024-09-22,9,0,1,Split-Finger,R,called_strike,,NA,NA,NA,NA,13,89.1,1673
+2024-09-21,4,2,5,4-Seam Fastball,R,called_strike,strikeout,NA,NA,NA,NA,8,94.4,2087
+2024-09-21,4,2,4,Curveball,R,blocked_ball,,NA,NA,NA,NA,13,71,2135
+2024-09-21,4,2,3,Curveball,R,swinging_strike,,NA,NA,NA,NA,13,76.1,2159
+2024-09-21,4,2,2,Split-Finger,R,ball,,NA,NA,NA,NA,11,86.9,968
+2024-09-21,4,2,1,Curveball,R,foul,,66.6,45,185,NA,4,80.5,2388
+2024-09-21,3,2,4,Sinker,R,ball,walk,NA,NA,NA,NA,11,92.5,2101
+2024-09-21,3,2,3,Sinker,R,ball,,NA,NA,NA,NA,13,92.8,1981
+2024-09-21,3,2,2,Split-Finger,R,ball,,NA,NA,NA,NA,11,85.4,1382
+2024-09-21,3,2,1,Split-Finger,R,ball,,NA,NA,NA,NA,13,88.8,1231
+2024-09-21,6,1,1,Curveball,L,hit_by_pitch,hit_by_pitch,NA,NA,NA,NA,12,82.1,1794
+2024-09-21,1,0,5,4-Seam Fastball,R,hit_into_play,field_out,102.4,3,94,4,11,93.8,2120
+2024-09-21,1,0,4,Split-Finger,R,called_strike,,NA,NA,NA,NA,13,87.3,1472
+2024-09-21,1,0,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,93,2183
+2024-09-21,1,0,2,Cutter,R,ball,,NA,NA,NA,NA,13,88.9,2243
+2024-09-21,1,0,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,4,92,2183
+2024-09-21,9,0,1,4-Seam Fastball,R,hit_into_play,single,87,24,308,3,13,98.4,2129
+2024-09-20,5,2,6,4-Seam Fastball,L,hit_into_play,home_run,110.1,27,423,6,12,92.1,2280
+2024-09-20,5,2,5,Knuckle Curve,L,blocked_ball,,NA,NA,NA,NA,13,84.7,2399
+2024-09-20,5,2,4,Cutter,L,swinging_strike,,NA,NA,NA,NA,5,87,2280
+2024-09-20,5,2,3,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,1,91.7,2394
+2024-09-20,5,2,2,Knuckle Curve,L,ball,,NA,NA,NA,NA,13,81.6,2424
+2024-09-20,5,2,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,91.7,2386
+2024-09-20,3,2,6,Cutter,L,hit_into_play,single,87.6,9,135,4,7,87.3,2295
+2024-09-20,3,2,5,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,91.7,2296
+2024-09-20,3,2,4,Knuckle Curve,L,ball,,NA,NA,NA,NA,13,83.9,2330
+2024-09-20,3,2,3,Knuckle Curve,L,swinging_strike,,NA,NA,NA,NA,13,83.2,2476
+2024-09-20,3,2,2,Cutter,L,called_strike,,NA,NA,NA,NA,2,86.4,2254
+2024-09-20,3,2,1,Cutter,L,ball,,NA,NA,NA,NA,13,86.6,2398
+2024-09-20,7,1,5,Changeup,R,hit_into_play,single,92.3,-1,38,2,4,85.8,1713
+2024-09-20,7,1,4,Sinker,R,called_strike,,NA,NA,NA,NA,5,96.8,2231
+2024-09-20,7,1,3,Changeup,R,ball,,NA,NA,NA,NA,11,84.6,1503
+2024-09-20,7,1,2,Changeup,R,ball,,NA,NA,NA,NA,13,84.7,1676
+2024-09-20,7,1,1,Sinker,R,foul,,80.4,25,242,NA,11,97.8,2265
+2024-09-20,1,0,5,Knuckle Curve,L,swinging_strike,strikeout,NA,NA,NA,NA,13,82.4,2288
+2024-09-20,1,0,4,Knuckle Curve,L,foul,,66.5,-52,2,NA,8,83.6,2292
+2024-09-20,1,0,3,Cutter,L,foul,,NA,NA,NA,NA,7,86.5,2274
+2024-09-20,1,0,2,Knuckle Curve,L,ball,,NA,NA,NA,NA,12,81.3,2283
+2024-09-20,1,0,1,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,9,89.8,2257
+2024-09-19,2,2,2,Changeup,R,hit_into_play,single,97.1,12,183,4,8,93.5,1720
+2024-09-19,2,2,1,Curveball,R,ball,,NA,NA,NA,NA,13,86.6,2693
+2024-09-19,6,1,2,Slider,R,hit_into_play,home_run,111.2,36,438,6,8,85.4,2908
+2024-09-19,6,1,1,Changeup,R,called_strike,,NA,NA,NA,NA,8,90.9,1881
+2024-09-19,7,2,4,Knuckle Curve,R,hit_into_play,home_run,109.7,27,391,6,4,89.1,2497
+2024-09-19,9,2,3,Other,R,hit_into_play,home_run,113.6,36,440,6,2,68.3,1538
+2024-09-19,7,2,3,Knuckle Curve,R,ball,,NA,NA,NA,NA,13,87.8,2505
+2024-09-19,9,2,2,Other,R,ball,,NA,NA,NA,NA,11,73.9,1823
+2024-09-19,7,2,2,4-Seam Fastball,R,foul,,NA,NA,NA,NA,11,96.8,2376
+2024-09-19,7,2,1,Knuckle Curve,R,foul_tip,,NA,NA,NA,NA,12,88.5,2509
+2024-09-19,3,2,6,4-Seam Fastball,L,hit_into_play,double,105.1,15,266,5,3,95.2,2017
+2024-09-19,9,2,1,Other,R,ball,,NA,NA,NA,NA,11,73.8,1674
+2024-09-19,3,2,5,Sweeper,L,swinging_strike,,NA,NA,NA,NA,6,82.5,2396
+2024-09-19,3,2,4,4-Seam Fastball,L,ball,,NA,NA,NA,NA,12,95,2139
+2024-09-19,3,2,3,Slider,L,blocked_ball,,NA,NA,NA,NA,13,88.5,2276
+2024-09-19,1,0,5,Changeup,R,hit_into_play,double,114.6,20,395,6,5,94.8,1667
+2024-09-19,1,0,4,Changeup,R,foul,,87.6,70,175,NA,8,92.7,1600
+2024-09-19,3,2,2,Slider,L,ball,,NA,NA,NA,NA,11,85.7,2341
+2024-09-19,3,2,1,Slider,L,swinging_strike,,NA,NA,NA,NA,4,86.8,2193
+2024-09-19,1,0,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,96.2,2288
+2024-09-19,1,0,2,Changeup,R,ball,,NA,NA,NA,NA,11,93.4,1713
+2024-09-19,1,0,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,11,96.1,2394
+2024-09-18,4,1,5,4-Seam Fastball,L,called_strike,strikeout,NA,NA,NA,NA,5,96.6,2337
+2024-09-18,4,1,4,Sweeper,L,foul,,68.6,23,174,NA,8,85.6,2582
+2024-09-18,4,1,3,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,5,96.1,2310
+2024-09-18,4,1,2,4-Seam Fastball,L,ball,,NA,NA,NA,NA,12,95.6,2294
+2024-09-18,4,1,1,Changeup,L,ball,,NA,NA,NA,NA,12,87.5,2045
+2024-09-18,3,1,2,Changeup,L,hit_into_play,field_out,86.6,61,171,3,6,86.5,1960
+2024-09-18,3,1,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,95.8,2477
+2024-09-18,7,0,6,Slider,R,hit_into_play,field_out,109.3,18,343,6,7,87.7,2225
+2024-09-18,7,0,5,Split-Finger,R,ball,,NA,NA,NA,NA,11,86,1148
+2024-09-18,7,0,4,4-Seam Fastball,R,foul,,71.4,47,198,NA,12,92.5,1977
+2024-09-18,7,0,3,4-Seam Fastball,R,foul_tip,,NA,NA,NA,NA,2,92.3,2046
+2024-09-18,7,0,2,Curveball,R,foul,,100.9,24,307,NA,5,74.3,2478
+2024-09-18,7,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,92.1,2092
+2024-09-18,8,2,3,Knuckle Curve,R,swinging_strike,strikeout,NA,NA,NA,NA,8,89.3,2411
+2024-09-18,8,2,2,4-Seam Fastball,R,foul,,81.2,35,277,NA,11,97,2197
+2024-09-18,1,0,2,4-Seam Fastball,L,hit_into_play,single,77.1,20,206,4,12,95.7,2437
+2024-09-18,8,2,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,2,96.3,2249
+2024-09-18,1,0,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,97,2499
+2024-09-17,3,1,3,Sweeper,R,hit_into_play,home_run,105.3,32,402,6,14,82.2,2718
+2024-09-17,3,1,2,Sinker,R,called_strike,,NA,NA,NA,NA,6,90.4,2243
+2024-09-17,3,1,1,Sweeper,R,ball,,NA,NA,NA,NA,11,81.8,2693
+2024-09-17,6,2,3,Split-Finger,R,swinging_strike,strikeout,NA,NA,NA,NA,13,87.1,1800
+2024-09-17,6,2,2,Split-Finger,R,swinging_strike,,NA,NA,NA,NA,13,87.3,1776
+2024-09-17,6,2,1,Sweeper,R,called_strike,,NA,NA,NA,NA,13,84.9,2913
+2024-09-17,1,0,6,Sinker,R,called_strike,strikeout,NA,NA,NA,NA,8,90,2155
+2024-09-17,9,0,6,Changeup,R,hit_into_play,field_out,73.5,-30,3,2,13,88.8,1538
+2024-09-17,9,0,5,Changeup,R,ball,,NA,NA,NA,NA,13,89.3,1521
+2024-09-17,1,0,5,4-Seam Fastball,R,foul,,NA,NA,NA,NA,1,89.7,2192
+2024-09-17,1,0,4,Changeup,R,ball,,NA,NA,NA,NA,14,81.7,1487
+2024-09-17,9,0,4,Slider,R,swinging_strike,,NA,NA,NA,NA,2,85,2360
+2024-09-17,4,2,4,4-Seam Fastball,L,swinging_strike,strikeout,NA,NA,NA,NA,12,96.2,2265
+2024-09-17,1,0,3,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,1,91.1,2254
+2024-09-17,4,2,3,Slider,L,ball,,NA,NA,NA,NA,13,90.8,2325
+2024-09-17,9,0,3,Sinker,R,ball,,NA,NA,NA,NA,14,95.6,2169
+2024-09-17,4,2,2,4-Seam Fastball,L,swinging_strike,,NA,NA,NA,NA,12,95,2308
+2024-09-17,9,0,2,Changeup,R,swinging_strike,,NA,NA,NA,NA,9,89,1490
+2024-09-17,1,0,2,Sinker,R,ball,,NA,NA,NA,NA,14,90.8,2329
+2024-09-17,1,0,1,Sinker,R,ball,,NA,NA,NA,NA,14,90.4,2204
+2024-09-17,9,0,1,Slider,R,ball,,NA,NA,NA,NA,11,84.1,2505
+2024-09-17,4,2,1,4-Seam Fastball,L,foul,,73.8,38,208,NA,5,95.3,2378
+2024-09-16,5,1,1,4-Seam Fastball,L,hit_into_play,force_out,104.5,-8,19,2,1,94.9,2333
+2024-09-16,3,2,4,4-Seam Fastball,L,ball,walk,NA,NA,NA,NA,13,95.6,2332
+2024-09-16,3,2,3,Sinker,L,ball,,NA,NA,NA,NA,13,95.1,2257
+2024-09-16,3,2,2,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,95.2,2427
+2024-09-16,3,2,1,Curveball,L,ball,,NA,NA,NA,NA,13,77.5,3048
+2024-09-16,9,1,4,Slider,R,swinging_strike,strikeout,NA,NA,NA,NA,9,88.6,2357
+2024-09-16,9,1,3,Slider,R,swinging_strike,,NA,NA,NA,NA,14,86.6,2425
+2024-09-16,9,1,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,94.9,2261
+2024-09-16,9,1,1,Curveball,R,foul,,93.5,70,140,NA,1,83.5,2529
+2024-09-16,1,0,6,Changeup,L,called_strike,strikeout,NA,NA,NA,NA,9,88.5,1358
+2024-09-16,1,0,5,Sinker,L,ball,,NA,NA,NA,NA,14,95,2074
+2024-09-16,1,0,4,Sinker,L,called_strike,,NA,NA,NA,NA,4,94.9,2017
+2024-09-16,1,0,3,Sweeper,L,ball,,NA,NA,NA,NA,13,82.5,2809
+2024-09-16,1,0,2,Sweeper,L,ball,,NA,NA,NA,NA,12,78.9,2897
+2024-09-16,7,1,1,Sweeper,L,hit_into_play,fielders_choice,76,-7,18,2,4,81.9,2354
+2024-09-16,1,0,1,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,5,94.6,2198
+2024-09-15,5,2,1,4-Seam Fastball,R,hit_into_play,double,114.4,14,267,6,9,94.5,2236
+2024-09-15,3,1,4,4-Seam Fastball,R,called_strike,strikeout,NA,NA,NA,NA,6,95.8,2137
+2024-09-15,3,1,3,Curveball,R,foul,,70.4,-21,4,NA,9,82.3,3192
+2024-09-15,3,1,2,Changeup,R,ball,,NA,NA,NA,NA,13,84.7,2185
+2024-09-15,3,1,1,Curveball,R,called_strike,,NA,NA,NA,NA,4,82.2,3151
+2024-09-15,7,2,3,Slider,L,hit_into_play,double,84.9,25,280,3,7,86.8,2199
+2024-09-15,7,2,2,Slider,L,swinging_strike,,NA,NA,NA,NA,5,86.2,2134
+2024-09-15,7,2,1,4-Seam Fastball,L,swinging_strike,,NA,NA,NA,NA,3,93.8,2288
+2024-09-15,1,0,3,Curveball,R,swinging_strike,strikeout,NA,NA,NA,NA,14,82.8,3127
+2024-09-15,1,0,2,Curveball,R,called_strike,,NA,NA,NA,NA,7,81.8,3130
+2024-09-15,1,0,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,11,95.6,2095
+2024-09-14,5,2,6,Slider,L,hit_into_play,field_out,38.2,41,88,1,8,80.7,2282
+2024-09-14,5,2,5,4-Seam Fastball,L,ball,,NA,NA,NA,NA,12,96.7,2287
+2024-09-14,5,2,4,Sinker,L,foul,,NA,NA,NA,NA,14,88.9,1944
+2024-09-14,5,2,3,Slider,L,swinging_strike,,NA,NA,NA,NA,5,79.9,2368
+2024-09-14,5,2,2,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,97.2,2242
+2024-09-14,5,2,1,4-Seam Fastball,L,foul,,77.6,42,263,NA,5,96.5,2229
+2024-09-14,3,1,4,4-Seam Fastball,L,called_strike,strikeout,NA,NA,NA,NA,8,98.4,2393
+2024-09-14,3,1,3,4-Seam Fastball,L,ball,,NA,NA,NA,NA,11,96.5,2362
+2024-09-14,3,1,2,Sinker,L,foul,,54.1,6,54,NA,12,95.8,2175
+2024-09-14,3,1,1,Slider,L,called_strike,,NA,NA,NA,NA,9,80.5,2313
+2024-09-14,1,0,5,Sinker,L,ball,walk,NA,NA,NA,NA,12,96.5,2146
+2024-09-14,1,0,4,4-Seam Fastball,L,ball,,NA,NA,NA,NA,11,97.4,2348
+2024-09-14,1,0,3,Slider,L,ball,,NA,NA,NA,NA,13,78,2424
+2024-09-14,1,0,2,Slider,L,ball,,NA,NA,NA,NA,13,80.3,2480
+2024-09-14,1,0,1,4-Seam Fastball,L,swinging_strike,,NA,NA,NA,NA,12,98.3,2323
+2024-09-13,5,1,2,Slider,R,hit_into_play,field_out,98.7,49,297,3,5,87.4,2362
+2024-09-13,5,1,1,Cutter,R,foul,,61,44,163,NA,6,93.7,2403
+2024-09-13,3,1,4,Split-Finger,R,swinging_strike,strikeout,NA,NA,NA,NA,13,85.9,1336
+2024-09-13,3,1,3,Split-Finger,R,ball,,NA,NA,NA,NA,13,85.6,1370
+2024-09-13,3,1,2,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,8,97,2278
+2024-09-13,3,1,1,Curveball,R,foul,,111.6,24,371,NA,9,80.3,2200
+2024-09-13,8,1,6,4-Seam Fastball,R,swinging_strike,strikeout,NA,NA,NA,NA,12,94.8,2420
+2024-09-13,8,1,5,4-Seam Fastball,R,foul,,80.9,12,163,NA,2,93.8,2220
+2024-09-13,8,1,4,Slider,R,ball,,NA,NA,NA,NA,14,86.7,2316
+2024-09-13,8,1,3,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,9,94.3,2390
+2024-09-13,8,1,2,Slider,R,ball,,NA,NA,NA,NA,13,84.9,2248
+2024-09-13,1,0,4,Cutter,R,hit_into_play,field_out,95.8,39,340,3,6,94.1,2568
+2024-09-13,8,1,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,94.8,2425
+2024-09-13,1,0,3,Slider,R,ball,,NA,NA,NA,NA,14,90.4,2566
+2024-09-13,1,0,2,Cutter,R,ball,,NA,NA,NA,NA,14,94.1,2478
+2024-09-13,1,0,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,8,96,2275
+2024-09-11,3,2,1,Sinker,L,hit_into_play,single,111.6,1,57,4,5,91.6,2212
+2024-09-11,2,0,6,Sinker,L,ball,walk,NA,NA,NA,NA,14,93,2092
+2024-09-11,2,0,5,Sinker,L,called_strike,,NA,NA,NA,NA,9,91.9,2218
+2024-09-11,2,0,4,Curveball,L,ball,,NA,NA,NA,NA,13,77.9,2893
+2024-09-11,2,0,3,Sinker,L,ball,,NA,NA,NA,NA,14,91.9,2209
+2024-09-11,2,0,2,4-Seam Fastball,L,ball,,NA,NA,NA,NA,11,92.8,2379
+2024-09-11,2,0,1,Curveball,L,foul,,65.9,-23,4,NA,8,76.4,2879
+2024-09-11,7,2,2,Cutter,R,hit_into_play,field_out,87.2,29,326,3,14,90.6,2087
+2024-09-11,7,2,1,Cutter,R,foul_tip,,NA,NA,NA,NA,2,89.9,2107
+2024-09-11,5,2,1,Cutter,R,hit_into_play,field_out,94.9,40,326,3,3,89.8,2787
+2024-09-11,1,0,4,Slider,L,hit_into_play,home_run,118.1,19,405,6,5,85.9,2631
+2024-09-11,1,0,3,Slider,L,foul,,76.1,58,208,NA,8,86.2,2684
+2024-09-11,1,0,2,Sinker,L,called_strike,,NA,NA,NA,NA,6,92.2,2185
+2024-09-11,1,0,1,Sinker,L,ball,,NA,NA,NA,NA,14,91.4,2147
+2024-09-10,5,2,2,Sweeper,L,hit_into_play,field_out,99.6,33,373,6,1,82.6,2569
+2024-09-10,5,2,1,Sweeper,L,swinging_strike,,NA,NA,NA,NA,13,83.7,2569
+2024-09-10,3,0,4,Sweeper,L,hit_into_play,grounded_into_double_play,110,0,45,4,5,82.1,2398
+2024-09-10,3,0,3,Split-Finger,L,ball,,NA,NA,NA,NA,12,83.2,1153
+2024-09-10,3,0,2,Sweeper,L,blocked_ball,,NA,NA,NA,NA,13,82.6,2579
+2024-09-10,3,0,1,Sweeper,L,swinging_strike,,NA,NA,NA,NA,13,82.2,2547
+2024-09-10,8,1,1,Slider,R,hit_into_play,field_out,95.3,32,365,3,6,89.8,2705
+2024-09-10,1,0,1,4-Seam Fastball,L,hit_into_play,field_out,95.7,59,198,3,1,92.7,2482
+2024-09-09,5,1,4,Curveball,R,hit_into_play,single,99.8,20,288,5,3,74.4,3038
+2024-09-09,5,1,3,Changeup,R,ball,,NA,NA,NA,NA,14,81.8,2188
+2024-09-09,5,1,2,Changeup,R,ball,,NA,NA,NA,NA,14,81.5,2100
+2024-09-09,5,1,1,Sinker,R,called_strike,,NA,NA,NA,NA,6,88.1,2034
+2024-09-09,3,2,4,Sinker,R,ball,walk,NA,NA,NA,NA,11,87.8,2141
+2024-09-09,3,2,3,Changeup,R,ball,,NA,NA,NA,NA,13,82.2,2338
+2024-09-09,3,2,2,Curveball,R,ball,,NA,NA,NA,NA,14,76.6,2952
+2024-09-09,3,2,1,Sinker,R,ball,,NA,NA,NA,NA,13,89.5,2141
+2024-09-09,8,1,4,Curveball,R,swinging_strike,strikeout,NA,NA,NA,NA,14,77.7,2567
+2024-09-09,8,1,3,Curveball,R,blocked_ball,,NA,NA,NA,NA,14,79.4,2592
+2024-09-09,8,1,2,Changeup,R,foul,,66.1,19,152,NA,5,84.3,1915
+2024-09-09,1,0,5,Changeup,R,hit_into_play,field_out,64.5,63,129,3,11,81.5,2172
+2024-09-09,8,1,1,Changeup,R,called_strike,,NA,NA,NA,NA,1,84.6,1868
+2024-09-09,1,0,4,Curveball,R,foul,,61.1,44,167,NA,3,74.5,3010
+2024-09-09,1,0,3,Curveball,R,ball,,NA,NA,NA,NA,14,73.2,2986
+2024-09-09,1,0,2,Changeup,R,foul,,68,52,201,NA,7,81.3,2236
+2024-09-09,7,0,1,Sinker,L,hit_into_play,single,96.5,17,283,4,6,92.5,2059
+2024-09-09,1,0,1,Sinker,R,swinging_strike,,NA,NA,NA,NA,4,87.4,2111
+2024-09-08,5,1,2,Changeup,R,hit_into_play,home_run,116.7,34,450,6,2,83.6,1935
+2024-09-08,5,1,1,Cutter,R,ball,,NA,NA,NA,NA,12,87.7,2748
+2024-09-08,3,2,8,Cutter,R,hit_into_play,single,72.3,28,240,4,3,90.6,2842
+2024-09-08,3,2,7,Changeup,R,ball,,NA,NA,NA,NA,11,83.1,2007
+2024-09-08,3,2,6,4-Seam Fastball,R,foul,,NA,NA,NA,NA,12,98.5,2268
+2024-09-08,3,2,5,Cutter,R,ball,,NA,NA,NA,NA,14,88.4,2733
+2024-09-08,3,2,4,Curveball,R,foul,,85,-4,21,NA,9,80.9,2665
+2024-09-08,3,2,3,4-Seam Fastball,R,foul,,73.1,33,211,NA,3,96.4,2374
+2024-09-08,3,2,2,Changeup,R,ball,,NA,NA,NA,NA,13,85.4,1972
+2024-09-08,3,2,1,Cutter,R,called_strike,,NA,NA,NA,NA,9,88.8,2714
+2024-09-08,1,0,6,Cutter,R,hit_into_play,field_out,96.8,46,301,3,6,88,2710
+2024-09-08,7,1,4,4-Seam Fastball,R,foul_tip,strikeout,NA,NA,NA,NA,1,97.4,2358
+2024-09-08,1,0,5,Cutter,R,swinging_strike,,NA,NA,NA,NA,5,86.5,2579
+2024-09-08,7,1,3,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,6,96.1,2345
+2024-09-08,1,0,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,94,2019
+2024-09-08,7,1,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,96.9,2362
+2024-09-08,1,0,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,94.7,2092
+2024-09-08,7,1,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,4,96.1,2282
+2024-09-08,1,0,2,Cutter,R,called_strike,,NA,NA,NA,NA,2,85.9,2505
+2024-09-08,1,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,95,2164
+2024-09-07,6,2,2,Slider,L,hit_into_play,field_out,101.2,42,348,3,1,88,2417
+2024-09-07,6,2,1,Slider,L,ball,,NA,NA,NA,NA,11,87,2504
+2024-09-07,4,1,7,Slider,R,swinging_strike,strikeout,NA,NA,NA,NA,14,81.3,2746
+2024-09-07,4,1,6,Slider,R,foul,,70.4,-27,5,NA,4,80.5,2696
+2024-09-07,4,1,5,Slider,R,swinging_strike,,NA,NA,NA,NA,7,82.3,2709
+2024-09-07,4,1,4,4-Seam Fastball,R,foul,,93.3,0,56,NA,2,88.3,2281
+2024-09-07,4,1,3,Slider,R,ball,,NA,NA,NA,NA,14,82.5,2800
+2024-09-07,4,1,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,89.1,2381
+2024-09-07,4,1,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,91.1,2545
+2024-09-07,1,2,7,4-Seam Fastball,R,hit_into_play,field_out,99.5,3,68,4,4,91,2195
+2024-09-07,1,2,6,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,91.8,2065
+2024-09-07,1,2,5,Curveball,R,foul,,NA,NA,NA,NA,14,77.3,2828
+2024-09-07,1,2,4,Changeup,R,ball,,NA,NA,NA,NA,14,83.2,1864
+2024-09-07,1,2,3,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,8,90.4,2144
+2024-09-07,1,2,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,92.1,2314
+2024-09-07,1,2,1,Curveball,R,foul,,70.1,34,191,NA,1,76.5,2613
+2024-09-07,1,0,5,4-Seam Fastball,R,hit_into_play,field_out,91.1,-38,4,2,11,99.3,2222
+2024-09-07,1,0,4,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,4,98.1,2267
+2024-09-07,1,0,3,Curveball,R,ball,,NA,NA,NA,NA,13,78.2,2263
+2024-09-07,1,0,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,98.5,2049
+2024-09-07,1,0,1,4-Seam Fastball,R,foul,,101.4,38,352,NA,2,96.6,2220
+2024-09-06,6,1,2,Sinker,L,hit_into_play,home_run,111.2,38,413,6,5,88.8,2279
+2024-09-06,6,1,1,Sinker,L,ball,,NA,NA,NA,NA,14,89,2290
+2024-09-06,3,1,5,Slider,L,swinging_strike,strikeout,NA,NA,NA,NA,13,79.4,2579
+2024-09-06,3,1,4,4-Seam Fastball,L,ball,,NA,NA,NA,NA,11,94.5,2501
+2024-09-06,3,1,3,Slider,L,swinging_strike,,NA,NA,NA,NA,13,79.5,2549
+2024-09-06,3,1,2,Changeup,L,ball,,NA,NA,NA,NA,13,79.7,1836
+2024-09-06,3,1,1,Sinker,L,foul,,66.7,40,154,NA,6,88.8,2305
+2024-09-06,8,1,2,4-Seam Fastball,R,hit_into_play,single,95.4,18,288,4,3,95.9,2273
+2024-09-06,8,1,1,Changeup,R,foul,,82.7,82,75,NA,4,80.8,2349
+2024-09-06,1,0,4,Sinker,L,hit_into_play,field_out,99.5,29,393,6,2,93.4,2532
+2024-09-06,1,0,3,Slider,L,ball,,NA,NA,NA,NA,13,79.3,2634
+2024-09-06,1,0,2,Sinker,L,called_strike,,NA,NA,NA,NA,4,93.5,2503
+2024-09-06,1,0,1,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,2,91.9,2280
+2024-09-04,6,1,5,Slider,R,swinging_strike_blocked,strikeout,NA,NA,NA,NA,14,87.8,2747
+2024-09-04,6,1,4,Slider,R,foul,,79.2,57,219,NA,8,87.6,2696
+2024-09-04,6,1,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,92.9,2097
+2024-09-04,6,1,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,1,92.9,2046
+2024-09-04,6,1,1,Slider,R,swinging_strike,,NA,NA,NA,NA,8,86.9,2651
+2024-09-04,3,2,5,Changeup,R,hit_into_play,field_out,95.9,24,365,5,13,89.5,1686
+2024-09-04,3,2,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,92.9,2108
+2024-09-04,3,2,3,Slider,R,called_strike,,NA,NA,NA,NA,4,88.9,2585
+2024-09-04,3,2,2,Changeup,R,foul,,72.1,46,196,NA,4,88.9,1722
+2024-09-04,3,2,1,Changeup,R,ball,,NA,NA,NA,NA,11,89,1634
+2024-09-04,8,0,3,4-Seam Fastball,R,hit_into_play,field_out,94.6,73,110,3,11,94.8,2351
+2024-09-04,8,0,2,Sweeper,R,swinging_strike,,NA,NA,NA,NA,9,83.2,2752
+2024-09-04,8,0,1,Sweeper,R,ball,,NA,NA,NA,NA,11,82.3,2760
+2024-09-04,1,0,1,4-Seam Fastball,R,hit_into_play,field_out,102.1,70,149,3,1,94.5,2011
+2024-09-03,5,1,6,4-Seam Fastball,L,called_strike,strikeout,NA,NA,NA,NA,1,94.8,2183
+2024-09-03,5,1,5,Slider,L,swinging_strike,,NA,NA,NA,NA,13,88.6,2176
+2024-09-03,5,1,4,Slider,L,ball,,NA,NA,NA,NA,13,86.5,2353
+2024-09-03,5,1,3,4-Seam Fastball,L,swinging_strike,,NA,NA,NA,NA,12,94.8,2168
+2024-09-03,5,1,2,Sinker,L,ball,,NA,NA,NA,NA,14,94.4,1979
+2024-09-03,5,1,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,94.2,2104
+2024-09-03,3,1,6,Curveball,L,hit_into_play,triple,112.7,12,200,6,5,74.7,2277
+2024-09-03,3,1,5,Slider,L,foul,,83.1,-54,2,NA,4,88.3,2156
+2024-09-03,3,1,4,4-Seam Fastball,L,ball,,NA,NA,NA,NA,11,95.3,2126
+2024-09-03,3,1,3,Slider,L,foul,,NA,NA,NA,NA,7,87.8,2373
+2024-09-03,3,1,2,Curveball,L,foul,,112,18,304,NA,6,76.5,2136
+2024-09-03,3,1,1,Slider,L,called_strike,,NA,NA,NA,NA,4,89.7,2168
+2024-09-03,8,0,4,4-Seam Fastball,L,swinging_strike,strikeout,NA,NA,NA,NA,11,95.6,2242
+2024-09-03,8,0,3,4-Seam Fastball,L,foul_tip,,NA,NA,NA,NA,2,94.4,2410
+2024-09-03,8,0,2,4-Seam Fastball,L,foul,,88.2,74,161,NA,6,93.2,2348
+2024-09-03,1,0,6,4-Seam Fastball,L,hit_into_play,field_out,83.9,-10,16,2,1,95.3,2064
+2024-09-03,8,0,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,11,93.3,2217
+2024-09-03,1,0,5,Slider,L,ball,,NA,NA,NA,NA,13,87.6,2469
+2024-09-03,1,0,4,Slider,L,foul,,67.4,55,179,NA,5,88.6,2361
+2024-09-03,1,0,3,4-Seam Fastball,L,foul_tip,,NA,NA,NA,NA,2,94.9,2151
+2024-09-03,1,0,2,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,1,93.3,2070
+2024-09-03,1,0,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,12,93.4,2048
+2024-09-02,4,2,4,Sinker,L,ball,walk,NA,NA,NA,NA,7,92.3,2350
+2024-09-02,4,2,3,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,93.4,2377
+2024-09-02,4,2,2,Sinker,L,ball,,NA,NA,NA,NA,13,92.2,2366
+2024-09-02,4,2,1,Sinker,L,ball,,NA,NA,NA,NA,14,92.7,2359
+2024-09-02,3,0,8,Slider,L,hit_into_play,field_out,96.5,-11,12,2,4,84.1,2126
+2024-09-02,3,0,7,Slider,L,foul,,NA,NA,NA,NA,7,84.2,2108
+2024-09-02,3,0,6,Slider,L,foul,,73.4,-51,2,NA,4,83.8,2191
+2024-09-02,3,0,5,Sinker,L,ball,,NA,NA,NA,NA,14,93.1,2404
+2024-09-02,3,0,4,Slider,L,foul,,84.6,-49,2,NA,8,84.7,2133
+2024-09-02,3,0,3,Slider,L,foul,,78.4,-44,2,NA,5,82.8,2037
+2024-09-02,3,0,2,Sinker,L,ball,,NA,NA,NA,NA,12,91.6,2275
+2024-09-02,3,0,1,Sinker,L,foul_tip,,NA,NA,NA,NA,12,90.2,2309
+2024-09-02,7,1,2,Sinker,L,hit_into_play,single,99.6,14,219,4,14,92,2155
+2024-09-02,7,1,1,Sinker,L,ball,,NA,NA,NA,NA,14,92.2,2097
+2024-09-02,8,2,7,Curveball,R,ball,walk,NA,NA,NA,NA,14,78.3,2492
+2024-09-02,8,2,6,Slider,R,foul,,65.7,45,175,NA,6,83.8,2519
+2024-09-02,8,2,5,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,7,94.1,2309
+2024-09-02,8,2,4,Slider,R,called_strike,,NA,NA,NA,NA,5,84.3,2371
+2024-09-02,8,2,3,Slider,R,ball,,NA,NA,NA,NA,12,85.9,2452
+2024-09-02,8,2,2,Slider,R,ball,,NA,NA,NA,NA,11,86.2,2518
+2024-09-02,8,2,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,95.1,2434
+2024-09-02,9,2,6,Sweeper,R,called_strike,strikeout,NA,NA,NA,NA,13,84.1,2503
+2024-09-02,9,2,5,4-Seam Fastball,R,foul,,NA,NA,NA,NA,12,91.8,2498
+2024-09-02,9,2,4,Sweeper,R,ball,,NA,NA,NA,NA,14,84.3,2579
+2024-09-02,9,2,3,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,2,92.1,2560
+2024-09-02,9,2,2,Sweeper,R,ball,,NA,NA,NA,NA,14,84.5,2518
+2024-09-02,9,2,1,Sweeper,R,foul,,71.2,14,135,NA,1,83,2540
+2024-09-02,1,0,4,Sinker,L,hit_into_play,single,117.2,11,250,6,6,91.8,2352
+2024-09-02,1,0,3,Sinker,L,called_strike,,NA,NA,NA,NA,8,91.5,2205
+2024-09-02,1,0,2,4-Seam Fastball,L,ball,,NA,NA,NA,NA,11,92.1,2255
+2024-09-02,1,0,1,Sinker,L,ball,,NA,NA,NA,NA,14,90.9,2262
+2024-09-01,5,0,1,Sweeper,R,hit_into_play,field_out,91.7,69,161,3,5,86.1,2884
+2024-09-01,3,0,5,4-Seam Fastball,R,swinging_strike,strikeout,NA,NA,NA,NA,12,95.2,2682
+2024-09-01,3,0,4,Changeup,R,foul,,NA,NA,NA,NA,8,87.2,2101
+2024-09-01,3,0,3,Sweeper,R,called_strike,,NA,NA,NA,NA,4,84.6,2839
+2024-09-01,3,0,2,Changeup,R,ball,,NA,NA,NA,NA,14,86.9,2021
+2024-09-01,3,0,1,Sinker,R,ball,,NA,NA,NA,NA,13,93.2,2429
+2024-09-01,6,2,6,Sinker,L,called_strike,strikeout,NA,NA,NA,NA,7,88.9,2255
+2024-09-01,6,2,5,Sinker,L,ball,,NA,NA,NA,NA,13,88.7,2107
+2024-09-01,6,2,4,Curveball,L,blocked_ball,,NA,NA,NA,NA,13,78.5,2497
+2024-09-01,1,0,3,Changeup,R,foul_tip,strikeout,NA,NA,NA,NA,13,87.9,2220
+2024-09-01,6,2,3,Curveball,L,ball,,NA,NA,NA,NA,13,79.6,2572
+2024-09-01,1,0,2,Changeup,R,swinging_strike,,NA,NA,NA,NA,13,88.7,2126
+2024-09-01,6,2,2,Curveball,L,swinging_strike,,NA,NA,NA,NA,13,78.7,2460
+2024-09-01,1,0,1,Sinker,R,foul,,91.2,68,213,NA,4,95,2348
+2024-09-01,6,2,1,Curveball,L,swinging_strike,,NA,NA,NA,NA,7,77.4,2444
+2024-08-31,4,0,5,Changeup,R,hit_into_play,field_out,94,-14,8,2,8,89,2162
+2024-08-31,4,0,4,Slider,R,ball,,NA,NA,NA,NA,14,86.3,2377
+2024-08-31,4,0,3,Changeup,R,foul,,89.8,-13,9,NA,8,88.4,2223
+2024-08-31,4,0,2,Changeup,R,ball,,NA,NA,NA,NA,14,88,2272
+2024-08-31,4,0,1,Cutter,R,called_strike,,NA,NA,NA,NA,7,89.7,2411
+2024-08-31,2,0,2,Cutter,R,hit_into_play,sac_fly,89.7,32,330,3,6,92.5,2504
+2024-08-31,2,0,1,Cutter,R,foul,,101.8,-15,12,NA,3,91.6,2413
+2024-08-31,8,0,6,Sinker,L,called_strike,strikeout,NA,NA,NA,NA,8,94,1935
+2024-08-31,8,0,5,Slider,L,ball,,NA,NA,NA,NA,13,85.8,2277
+2024-08-31,8,0,4,Sinker,L,foul,,64.6,36,172,NA,12,95.1,2153
+2024-08-31,8,0,3,Slider,L,called_strike,,NA,NA,NA,NA,7,85,2252
+2024-08-31,9,2,6,Split-Finger,R,hit_into_play,field_out,113.5,13,281,6,5,91.2,749
+2024-08-31,9,2,5,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,102.2,2209
+2024-08-31,8,0,2,Slider,L,blocked_ball,,NA,NA,NA,NA,13,85.8,2296
+2024-08-31,8,0,1,Slider,L,ball,,NA,NA,NA,NA,7,84.5,2192
+2024-08-31,9,2,4,Split-Finger,R,ball,,NA,NA,NA,NA,14,91.5,722
+2024-08-31,9,2,3,Split-Finger,R,ball,,NA,NA,NA,NA,14,92.5,740
+2024-08-31,9,2,2,4-Seam Fastball,R,foul,,NA,NA,NA,NA,11,101,2273
+2024-08-31,9,2,1,Sinker,R,swinging_strike,,NA,NA,NA,NA,13,101.6,2144
+2024-08-31,1,0,8,Curveball,R,hit_into_play,home_run,108.9,35,420,6,5,84.7,2667
+2024-08-31,1,0,7,Curveball,R,foul,,84.9,38,263,NA,6,85,2618
+2024-08-31,1,0,6,4-Seam Fastball,R,foul,,67.7,52,179,NA,6,94.9,2460
+2024-08-31,1,0,5,Changeup,R,swinging_strike,,NA,NA,NA,NA,13,89.9,2297
+2024-08-31,1,0,4,Changeup,R,ball,,NA,NA,NA,NA,14,89.4,2184
+2024-08-31,1,0,3,Cutter,R,ball,,NA,NA,NA,NA,14,91.8,2479
+2024-08-31,6,1,3,Sinker,L,hit_into_play,field_out,107.7,-5,21,2,9,88.3,2243
+2024-08-31,6,1,2,Curveball,L,foul,,58.7,-55,1,NA,13,78.1,2571
+2024-08-31,1,0,2,Sinker,R,called_strike,,NA,NA,NA,NA,8,92.9,2347
+2024-08-31,6,1,1,Sinker,L,foul,,82.3,-41,2,NA,14,87.4,2226
+2024-08-31,1,0,1,Cutter,R,ball,,NA,NA,NA,NA,14,91.2,2530
+2024-08-30,4,0,6,Knuckle Curve,R,swinging_strike,strikeout,NA,NA,NA,NA,8,81,2447
+2024-08-30,4,0,5,Knuckle Curve,R,swinging_strike,,NA,NA,NA,NA,14,80.6,2430
+2024-08-30,4,0,4,Knuckle Curve,R,ball,,NA,NA,NA,NA,13,79.7,2374
+2024-08-30,4,0,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,90.3,2206
+2024-08-30,4,0,2,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,7,91.5,2287
+2024-08-30,4,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,91.2,2291
+2024-08-30,2,0,1,4-Seam Fastball,R,hit_by_pitch,hit_by_pitch,NA,NA,NA,NA,12,94.6,2263
+2024-08-30,8,2,3,4-Seam Fastball,R,hit_into_play,home_run,99,32,380,5,5,93,2592
+2024-08-30,8,2,2,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,3,93.4,2626
+2024-08-30,8,2,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,5,93.3,2546
+2024-08-30,6,2,6,Curveball,L,swinging_strike_blocked,strikeout,NA,NA,NA,NA,14,78.6,2567
+2024-08-30,6,2,5,Sinker,L,foul,,86.1,-33,3,NA,9,90.4,2254
+2024-08-30,6,2,4,Changeup,L,ball,,NA,NA,NA,NA,13,83.2,1660
+2024-08-30,6,2,3,Curveball,L,foul,,74.3,68,154,NA,8,79.2,2539
+2024-08-30,6,2,2,Sinker,L,foul,,87,31,282,NA,6,89.9,2273
+2024-08-30,6,2,1,Curveball,L,ball,,NA,NA,NA,NA,14,79.2,2484
+2024-08-30,1,0,1,4-Seam Fastball,R,hit_into_play,double,114,15,300,6,5,94.3,2341
+2024-08-29,4,0,2,Sweeper,L,hit_into_play,field_out,85.8,39,293,3,13,79.6,2109
+2024-08-29,4,0,1,Sinker,L,ball,,NA,NA,NA,NA,13,90.5,2014
+2024-08-29,2,2,3,Sinker,L,called_strike,strikeout,NA,NA,NA,NA,4,91.2,2169
+2024-08-29,2,2,2,Sinker,L,called_strike,,NA,NA,NA,NA,8,90.9,2106
+2024-08-29,2,2,1,Sweeper,L,foul,,74,51,199,NA,7,81.6,2246
+2024-08-29,8,0,3,Cutter,R,hit_into_play,field_out,104.7,39,348,6,1,90.6,2168
+2024-08-29,8,0,2,Split-Finger,R,ball,,NA,NA,NA,NA,13,85.4,1137
+2024-08-29,8,0,1,Cutter,R,ball,,NA,NA,NA,NA,11,89.9,2077
+2024-08-29,6,0,5,Sinker,L,hit_into_play,field_out,101.2,53,263,3,2,94,2272
+2024-08-29,1,0,4,Sweeper,L,hit_into_play,field_out,104.6,19,375,6,4,82.2,2133
+2024-08-29,6,0,4,Sinker,L,ball,,NA,NA,NA,NA,13,94.9,2284
+2024-08-29,1,0,3,Sinker,L,called_strike,,NA,NA,NA,NA,7,92.3,2131
+2024-08-29,6,0,3,Sweeper,L,ball,,NA,NA,NA,NA,13,82.3,2591
+2024-08-29,6,0,2,Sinker,L,called_strike,,NA,NA,NA,NA,13,94.7,2298
+2024-08-29,1,0,2,Sweeper,L,called_strike,,NA,NA,NA,NA,7,81.3,2235
+2024-08-29,6,0,1,Sinker,L,ball,,NA,NA,NA,NA,13,94.6,2230
+2024-08-29,1,0,1,Sinker,L,ball,,NA,NA,NA,NA,13,92.1,2109
+2024-08-28,5,0,5,Cutter,R,hit_into_play,force_out,108,6,118,4,9,93.7,2811
+2024-08-28,5,0,4,Cutter,R,foul_tip,,NA,NA,NA,NA,14,94.7,2799
+2024-08-28,5,0,3,Cutter,R,swinging_strike,,NA,NA,NA,NA,13,94.5,2803
+2024-08-28,5,0,2,Cutter,R,ball,,NA,NA,NA,NA,13,93.9,2805
+2024-08-28,5,0,1,Curveball,R,ball,,NA,NA,NA,NA,13,78.5,2830
+2024-08-28,3,1,5,Changeup,R,hit_into_play,single,99.9,13,198,4,7,89.2,2128
+2024-08-28,3,1,4,Changeup,R,foul,,72.9,-34,3,NA,13,89.2,2051
+2024-08-28,3,1,3,Cutter,R,ball,,NA,NA,NA,NA,13,93.7,2782
+2024-08-28,3,1,2,Slider,R,blocked_ball,,NA,NA,NA,NA,14,91.4,2962
+2024-08-28,3,1,1,Cutter,R,called_strike,,NA,NA,NA,NA,7,94,3039
+2024-08-28,7,2,5,Sinker,L,called_strike,strikeout,NA,NA,NA,NA,4,96.2,2323
+2024-08-28,7,2,4,4-Seam Fastball,L,foul,,88,42,300,NA,11,97,2247
+2024-08-28,7,2,3,Sinker,L,called_strike,,NA,NA,NA,NA,8,96.2,2194
+2024-08-28,7,2,2,Slider,L,swinging_strike,,NA,NA,NA,NA,8,82.8,2393
+2024-08-28,7,2,1,Sinker,L,ball,,NA,NA,NA,NA,13,96.8,2228
+2024-08-28,1,0,5,Slider,R,hit_into_play,home_run,102.2,33,391,6,4,87.4,3017
+2024-08-28,1,0,4,Cutter,R,foul,,83.6,69,172,NA,8,95.1,2855
+2024-08-28,1,0,3,Curveball,R,swinging_strike,,NA,NA,NA,NA,7,80.1,2886
+2024-08-28,1,0,2,Cutter,R,foul_tip,,NA,NA,NA,NA,14,93.9,2830
+2024-08-28,1,0,1,Cutter,R,ball,,NA,NA,NA,NA,13,95.9,2686
+2024-08-27,5,0,2,Curveball,L,hit_into_play,field_out,84.3,76,42,3,5,78.7,2219
+2024-08-27,5,0,1,Curveball,L,blocked_ball,,NA,NA,NA,NA,13,79.1,2300
+2024-08-27,3,2,1,Sinker,L,hit_into_play,single,99.4,-12,10,2,6,92.2,2096
+2024-08-27,8,0,5,Sinker,L,called_strike,strikeout,NA,NA,NA,NA,1,95.3,2074
+2024-08-27,8,0,4,Slurve,L,foul,,88.9,39,291,NA,11,83.4,2574
+2024-08-27,8,0,3,Sinker,L,called_strike,,NA,NA,NA,NA,2,95.3,2199
+2024-08-27,8,0,2,Slurve,L,ball,,NA,NA,NA,NA,13,83.2,2541
+2024-08-27,8,0,1,Slurve,L,ball,,NA,NA,NA,NA,13,81.4,2352
+2024-08-27,1,0,1,Sinker,L,hit_into_play,single,85.9,23,281,3,12,90.1,2070
+2024-08-25,5,2,2,4-Seam Fastball,L,hit_into_play,field_out,107.2,14,310,5,5,90.6,2073
+2024-08-25,5,2,1,Cutter,L,foul,,86.7,23,266,NA,7,87.7,2272
+2024-08-25,3,2,3,Slider,L,swinging_strike,strikeout,NA,NA,NA,NA,13,78.6,2404
+2024-08-25,3,2,2,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,8,92.2,2265
+2024-08-25,3,2,1,Slider,L,foul,,68,56,187,NA,5,79.6,2387
+2024-08-25,8,0,4,Sinker,L,hit_by_pitch,hit_by_pitch,NA,NA,NA,NA,12,91.8,2063
+2024-08-25,8,0,3,Sinker,L,ball,,NA,NA,NA,NA,14,92.9,2118
+2024-08-25,8,0,2,Sweeper,L,ball,,NA,NA,NA,NA,14,83.8,2078
+2024-08-25,1,0,1,4-Seam Fastball,L,hit_into_play,field_out,97.9,33,360,5,4,91,2105
+2024-08-25,8,0,1,Sinker,L,foul,,NA,NA,NA,NA,14,93,2141
+2024-08-24,5,1,4,Split-Finger,R,hit_into_play,home_run,96.7,32,338,5,7,92.2,1360
+2024-08-24,5,1,3,Cutter,R,ball,,NA,NA,NA,NA,14,90.8,2215
+2024-08-24,5,1,2,Split-Finger,R,called_strike,,NA,NA,NA,NA,1,92.6,1390
+2024-08-24,5,1,1,Curveball,R,ball,,NA,NA,NA,NA,12,79.8,2755
+2024-08-24,4,0,4,4-Seam Fastball,R,foul,catcher_interf,NA,NA,NA,NA,1,98.9,2448
+2024-08-24,4,0,3,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,11,97.2,2356
+2024-08-24,4,0,2,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,2,96.9,2389
+2024-08-24,4,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,96.4,2300
+2024-08-24,7,1,4,4-Seam Fastball,R,hit_into_play,field_out,93.4,43,304,3,4,94.6,2134
+2024-08-24,7,1,3,Changeup,R,ball,,NA,NA,NA,NA,13,90.8,1489
+2024-08-24,7,1,2,Slider,R,called_strike,,NA,NA,NA,NA,7,91.3,2317
+2024-08-24,7,1,1,Changeup,R,ball,,NA,NA,NA,NA,13,90,1405
+2024-08-24,1,0,3,Split-Finger,R,hit_into_play,single,96.3,14,198,4,8,92.2,1538
+2024-08-24,10,0,3,Sweeper,L,hit_into_play,field_out,99.4,42,350,3,12,79.6,2803
+2024-08-24,1,0,2,Split-Finger,R,ball,,NA,NA,NA,NA,13,92.4,1511
+2024-08-24,10,0,2,Sweeper,L,ball,,NA,NA,NA,NA,12,79.2,2780
+2024-08-24,1,0,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,2,97.2,2291
+2024-08-24,10,0,1,Sinker,L,foul,,61.3,52,153,NA,12,96.8,2297
+2024-08-23,4,0,2,Sinker,L,hit_into_play,single,57.6,-3,24,1,12,89.3,1999
+2024-08-23,4,0,1,Sweeper,L,called_strike,,NA,NA,NA,NA,6,77.4,2452
+2024-08-23,9,2,1,Slider,L,hit_into_play,home_run,105.1,35,389,6,7,84.3,2389
+2024-08-23,1,0,4,Sinker,L,hit_into_play,field_out,92.1,9,126,4,9,90.2,2064
+2024-08-23,1,0,3,Sweeper,L,ball,,NA,NA,NA,NA,13,78,2460
+2024-08-23,7,2,2,Sinker,L,hit_into_play,field_out,81.4,-24,5,2,6,97.1,2417
+2024-08-23,1,0,2,Sweeper,L,foul,,81.5,78,87,NA,5,79.1,2396
+2024-08-23,5,1,2,Sinker,L,hit_into_play,field_out,111.8,-2,38,4,14,92.6,2167
+2024-08-23,7,2,1,Sweeper,L,blocked_ball,,NA,NA,NA,NA,13,81.1,2741
+2024-08-23,5,1,1,Sinker,L,ball,,NA,NA,NA,NA,14,93.1,2230
+2024-08-23,1,0,1,Sinker,L,ball,,NA,NA,NA,NA,12,89,2084
+2024-08-21,5,1,5,Cutter,R,hit_into_play,single,97.8,17,266,4,5,94.2,2283
+2024-08-21,5,1,4,Split-Finger,R,ball,,NA,NA,NA,NA,13,86,593
+2024-08-21,5,1,3,Slider,R,swinging_strike,,NA,NA,NA,NA,14,89.9,1884
+2024-08-21,5,1,2,Curveball,R,ball,,NA,NA,NA,NA,14,83.4,2269
+2024-08-21,5,1,1,Cutter,R,ball,,NA,NA,NA,NA,14,92.2,2414
+2024-08-21,3,2,5,Curveball,R,blocked_ball,walk,NA,NA,NA,NA,13,84,2345
+2024-08-21,3,2,4,Slider,R,swinging_strike,,NA,NA,NA,NA,5,89.8,2031
+2024-08-21,3,2,3,Slider,R,blocked_ball,,NA,NA,NA,NA,13,89.3,1854
+2024-08-21,3,2,2,Slider,R,ball,,NA,NA,NA,NA,13,89.1,1908
+2024-08-21,3,2,1,Slider,R,ball,,NA,NA,NA,NA,13,89.7,1751
+2024-08-21,6,0,1,Curveball,R,hit_into_play,field_out,79.4,54,199,3,6,85.7,3130
+2024-08-21,8,1,4,Sweeper,R,hit_into_play,field_out,89.7,-10,6,2,14,84.4,2703
+2024-08-21,8,1,3,Changeup,R,ball,,NA,NA,NA,NA,13,88.6,1754
+2024-08-21,8,1,2,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,4,97.9,2441
+2024-08-21,8,1,1,Sweeper,R,called_strike,,NA,NA,NA,NA,4,84.9,2603
+2024-08-21,1,0,4,Slider,R,foul_tip,strikeout,NA,NA,NA,NA,6,92.5,1833
+2024-08-21,1,0,3,Split-Finger,R,ball,,NA,NA,NA,NA,14,88.7,841
+2024-08-21,1,0,2,Slider,R,swinging_strike,,NA,NA,NA,NA,9,92,1916
+2024-08-21,1,0,1,4-Seam Fastball,R,foul,,85.3,14,187,NA,5,99.3,2188
+2024-08-20,4,2,4,Cutter,R,hit_into_play,field_out,81.7,-15,11,2,3,91.3,2605
+2024-08-20,4,2,3,Slider,R,foul,,NA,NA,NA,NA,8,86.5,2698
+2024-08-20,4,2,2,Slider,R,blocked_ball,,NA,NA,NA,NA,14,86.2,2504
+2024-08-20,4,2,1,Slider,R,ball,,NA,NA,NA,NA,13,86.4,2342
+2024-08-20,3,1,6,Split-Finger,R,hit_into_play,triple,109.8,13,275,5,7,87.1,880
+2024-08-20,3,1,5,Knuckle Curve,R,foul,,62,-33,3,NA,8,86,2426
+2024-08-20,3,1,4,Slider,R,called_strike,,NA,NA,NA,NA,4,86.8,2609
+2024-08-20,3,1,3,Split-Finger,R,ball,,NA,NA,NA,NA,7,85.9,872
+2024-08-20,3,1,2,Cutter,R,ball,,NA,NA,NA,NA,11,92.1,2667
+2024-08-20,3,1,1,Slider,R,called_strike,,NA,NA,NA,NA,1,84.8,2564
+2024-08-20,8,2,6,Cutter,R,hit_into_play,single,115.5,19,364,6,9,89.8,2525
+2024-08-20,1,0,6,Split-Finger,R,foul_tip,strikeout,NA,NA,NA,NA,13,85.5,957
+2024-08-20,8,2,5,Curveball,R,ball,,NA,NA,NA,NA,14,75.5,2807
+2024-08-20,1,0,5,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,96.4,2595
+2024-08-20,8,2,4,Curveball,R,foul,,68.4,-24,5,NA,9,76.2,2799
+2024-08-20,1,0,4,Slider,R,foul,,72.4,-43,1,NA,13,87.5,2587
+2024-08-20,7,1,3,Slider,R,hit_into_play,field_out,100.1,9,154,4,7,86.5,2290
+2024-08-20,1,0,3,Slider,R,swinging_strike,,NA,NA,NA,NA,7,87,2522
+2024-08-20,8,2,3,Cutter,R,ball,,NA,NA,NA,NA,11,88.7,2412
+2024-08-20,1,0,2,Knuckle Curve,R,ball,,NA,NA,NA,NA,14,85.2,2347
+2024-08-20,8,2,2,Cutter,R,foul,,86.9,0,45,NA,12,88.7,2482
+2024-08-20,7,1,2,Slider,R,ball,,NA,NA,NA,NA,11,86.8,2268
+2024-08-20,7,1,1,Slider,R,swinging_strike_blocked,,NA,NA,NA,NA,14,88,2312
+2024-08-20,1,0,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,2,96.4,2705
+2024-08-20,8,2,1,Curveball,R,swinging_strike,,NA,NA,NA,NA,9,75.8,2962
+2024-08-19,6,0,2,Changeup,R,hit_into_play,field_out,83.5,7,88,4,7,89.3,1874
+2024-08-19,6,0,1,Changeup,R,called_strike,,NA,NA,NA,NA,9,88.7,1857
+2024-08-19,3,1,2,4-Seam Fastball,R,hit_into_play,field_out,89.2,50,258,3,2,94.9,2164
+2024-08-19,3,1,1,Slider,R,called_strike,,NA,NA,NA,NA,7,86.4,2263
+2024-08-19,7,2,6,Sinker,L,blocked_ball,walk,NA,NA,NA,NA,13,91,2277
+2024-08-19,7,2,5,Sweeper,L,called_strike,,NA,NA,NA,NA,7,80.7,2272
+2024-08-19,1,0,5,Sinker,R,hit_into_play,single,75.9,2,65,2,2,95.1,2388
+2024-08-19,1,0,4,4-Seam Fastball,R,foul,,80.5,63,211,NA,6,95.5,2147
+2024-08-19,7,2,4,Sweeper,L,ball,,NA,NA,NA,NA,13,80.5,2277
+2024-08-19,1,0,3,Changeup,R,ball,,NA,NA,NA,NA,14,90.4,2111
+2024-08-19,7,2,3,Sinker,L,ball,,NA,NA,NA,NA,13,90.7,2316
+2024-08-19,7,2,2,Sweeper,L,ball,,NA,NA,NA,NA,13,80.3,2275
+2024-08-19,1,0,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,95.1,2259
+2024-08-19,7,2,1,Sweeper,L,swinging_strike,,NA,NA,NA,NA,12,80.6,2275
+2024-08-19,1,0,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,4,95.1,2154
+2024-08-18,5,1,1,Curveball,R,hit_into_play,home_run,113.5,22,396,6,5,79.7,2703
+2024-08-18,3,0,3,Cutter,R,hit_into_play,field_out,85.1,63,196,3,2,89.5,2608
+2024-08-18,3,0,2,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,4,91.7,2452
+2024-08-18,3,0,1,Cutter,R,ball,,NA,NA,NA,NA,12,89.9,2612
+2024-08-18,7,0,9,Sinker,L,called_strike,strikeout,NA,NA,NA,NA,4,96.6,2145
+2024-08-18,7,0,8,Slider,L,foul,,31,33,53,NA,13,88.1,2602
+2024-08-18,7,0,7,Slider,L,ball,,NA,NA,NA,NA,13,88,2653
+2024-08-18,7,0,6,4-Seam Fastball,L,foul,,76.4,32,247,NA,12,95.5,2088
+2024-08-18,7,0,5,Sinker,L,foul,,75.6,42,255,NA,2,96.6,2105
+2024-08-18,9,1,2,Sinker,L,hit_into_play,field_out,103,-6,18,2,14,94.5,2218
+2024-08-18,1,0,4,Sweeper,R,swinging_strike,strikeout,NA,NA,NA,NA,14,84.2,2675
+2024-08-18,7,0,4,Slider,L,foul,,77.1,-43,2,NA,8,86.5,2741
+2024-08-18,7,0,3,Slider,L,ball,,NA,NA,NA,NA,13,86.6,2656
+2024-08-18,9,1,1,Sinker,L,called_strike,,NA,NA,NA,NA,5,94.3,2365
+2024-08-18,1,0,3,Cutter,R,foul,,78.3,75,156,NA,3,89,2523
+2024-08-18,1,0,2,Curveball,R,ball,,NA,NA,NA,NA,11,79.6,2454
+2024-08-18,7,0,2,Cutter,L,swinging_strike,,NA,NA,NA,NA,5,91.8,2606
+2024-08-18,1,0,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,2,92.2,2539
+2024-08-18,7,0,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,11,93.4,1969
+2024-08-17,5,2,3,Knuckle Curve,R,hit_into_play,home_run,111.9,21,384,6,5,80.3,2870
+2024-08-17,5,2,2,4-Seam Fastball,R,foul,,69.7,-27,4,NA,9,94.8,2328
+2024-08-17,5,2,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,94.1,2386
+2024-08-17,3,0,4,Knuckle Curve,R,swinging_strike,strikeout,NA,NA,NA,NA,13,81,2892
+2024-08-17,3,0,3,Knuckle Curve,R,foul,,80.7,48,218,NA,8,81.7,2928
+2024-08-17,3,0,2,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,14,95.1,2166
+2024-08-17,3,0,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,6,95.2,2154
+2024-08-17,1,0,8,4-Seam Fastball,R,ball,walk,NA,NA,NA,NA,11,94.9,2235
+2024-08-17,8,1,4,Slider,L,hit_into_play,field_out,82.4,46,241,3,7,85.2,2849
+2024-08-17,8,1,3,Sinker,L,called_strike,,NA,NA,NA,NA,5,94.7,2192
+2024-08-17,1,0,7,4-Seam Fastball,R,foul,,72.6,47,207,NA,2,94.1,2113
+2024-08-17,8,1,2,Sinker,L,foul,,53.4,50,133,NA,12,94.9,2145
+2024-08-17,1,0,6,4-Seam Fastball,R,foul,,NA,NA,NA,NA,6,95,2260
+2024-08-17,1,0,5,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,2,93.7,2244
+2024-08-17,8,1,1,Slider,L,ball,,NA,NA,NA,NA,11,85.1,2855
+2024-08-17,1,0,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,92.3,2149
+2024-08-17,1,0,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,93.1,2181
+2024-08-17,1,0,2,Knuckle Curve,R,ball,,NA,NA,NA,NA,11,77.9,2713
+2024-08-17,1,0,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,2,92.9,2116
+2024-08-16,5,2,4,Changeup,R,hit_into_play,field_out,82.5,49,255,3,7,86.6,1732
+2024-08-16,5,2,3,Curveball,R,ball,,NA,NA,NA,NA,14,78.6,2668
+2024-08-16,5,2,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,94.3,2273
+2024-08-16,5,2,1,Curveball,R,called_strike,,NA,NA,NA,NA,1,76.7,2566
+2024-08-16,2,2,1,Slider,R,hit_into_play,field_out,106.8,9,161,4,6,89.3,2371
+2024-08-16,1,0,11,Slider,R,swinging_strike,strikeout,NA,NA,NA,NA,1,87.2,2235
+2024-08-16,1,0,10,Slow Curve,R,ball,,NA,NA,NA,NA,14,68,2121
+2024-08-16,1,0,9,Slider,R,foul,,78.1,-18,5,NA,9,88,2341
+2024-08-16,1,0,8,Sinker,R,foul,,52.1,-56,1,NA,7,95.1,2042
+2024-08-16,1,0,7,Curveball,R,foul,,63.7,-36,3,NA,7,77.2,2616
+2024-08-16,9,1,7,Slider,L,swinging_strike,strikeout,NA,NA,NA,NA,13,85.3,2856
+2024-08-16,9,1,6,Sinker,L,ball,,NA,NA,NA,NA,11,95.1,2089
+2024-08-16,1,0,6,4-Seam Fastball,R,foul,,74,26,211,NA,4,95.8,2307
+2024-08-16,6,2,5,Sinker,L,hit_into_play,field_out,84.9,2,59,2,2,95.4,2088
+2024-08-16,1,0,5,Changeup,R,foul,,80.3,67,193,NA,5,88.7,1573
+2024-08-16,9,1,5,Slider,L,ball,,NA,NA,NA,NA,13,85,2889
+2024-08-16,1,0,4,Slider,R,ball,,NA,NA,NA,NA,14,88.8,2438
+2024-08-16,9,1,4,Slider,L,foul,,69.4,77,91,NA,4,83.3,2853
+2024-08-16,6,2,4,Slider,L,ball,,NA,NA,NA,NA,13,87.8,2722
+2024-08-16,6,2,3,Sinker,L,called_strike,,NA,NA,NA,NA,8,93.7,2092
+2024-08-16,9,1,3,Slider,L,swinging_strike,,NA,NA,NA,NA,13,84.8,2850
+2024-08-16,1,0,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,95.1,2273
+2024-08-16,9,1,2,Slider,L,ball,,NA,NA,NA,NA,13,86.3,2881
+2024-08-16,1,0,2,Slider,R,swinging_strike,,NA,NA,NA,NA,14,88.5,2316
+2024-08-16,6,2,2,Slider,L,swinging_strike,,NA,NA,NA,NA,8,86,2609
+2024-08-16,1,0,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,8,95.3,2299
+2024-08-16,9,1,1,Sinker,L,called_strike,,NA,NA,NA,NA,2,94.5,2236
+2024-08-16,6,2,1,Cutter,L,ball,,NA,NA,NA,NA,11,90.2,2452
+2024-08-15,5,0,6,Cutter,R,hit_into_play,single,108.6,2,71,4,7,89.7,2222
+2024-08-15,5,0,5,4-Seam Fastball,R,foul,,62.4,42,174,NA,12,94,2244
+2024-08-15,5,0,4,Cutter,R,swinging_strike,,NA,NA,NA,NA,2,90.5,2219
+2024-08-15,5,0,3,Cutter,R,ball,,NA,NA,NA,NA,13,91.5,2251
+2024-08-15,5,0,2,Changeup,R,called_strike,,NA,NA,NA,NA,2,78.9,1919
+2024-08-15,5,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,93.2,2250
+2024-08-15,3,0,1,Cutter,R,hit_into_play,field_out,93.9,-30,3,2,8,89.9,2244
+2024-08-15,9,2,7,4-Seam Fastball,R,foul_tip,strikeout,NA,NA,NA,NA,1,95.8,2481
+2024-08-15,9,2,6,Changeup,R,foul,,106,24,360,NA,9,84.9,2761
+2024-08-15,9,2,5,4-Seam Fastball,R,foul,,72.1,79,91,NA,12,95.1,2408
+2024-08-15,9,2,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,95.3,2383
+2024-08-15,9,2,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,95.8,2414
+2024-08-15,9,2,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,96.2,2442
+2024-08-15,9,2,1,4-Seam Fastball,R,foul,,95.9,40,313,NA,5,95,2382
+2024-08-15,1,0,5,Cutter,R,hit_into_play,field_out,98.3,57,241,3,4,89.1,2207
+2024-08-15,1,0,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,93.9,2283
+2024-08-15,1,0,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,93.8,2270
+2024-08-15,6,2,1,Sinker,R,hit_into_play,field_out,85.6,25,314,3,8,96.1,1822
+2024-08-15,1,0,2,Cutter,R,foul,,86.2,28,273,NA,2,90.6,2328
+2024-08-15,1,0,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,1,91.2,2292
+2024-08-14,4,2,2,4-Seam Fastball,R,hit_into_play,field_out,101.3,20,320,5,5,96.9,2416
+2024-08-14,4,2,1,Split-Finger,R,called_strike,,NA,NA,NA,NA,1,87,1370
+2024-08-14,2,1,7,Cutter,R,ball,walk,NA,NA,NA,NA,4,91.5,2538
+2024-08-14,2,1,6,Split-Finger,R,ball,,NA,NA,NA,NA,13,87.1,1432
+2024-08-14,2,1,5,4-Seam Fastball,R,foul,,42.1,25,86,NA,12,96.7,2490
+2024-08-14,2,1,4,Sinker,R,foul,,78.4,28,245,NA,4,95.9,2337
+2024-08-14,2,1,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,95.4,2399
+2024-08-14,2,1,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,95.7,2383
+2024-08-14,2,1,1,Cutter,R,called_strike,,NA,NA,NA,NA,1,89.3,2531
+2024-08-14,7,0,3,Sinker,L,called_strike,strikeout,NA,NA,NA,NA,5,96.7,2242
+2024-08-14,1,0,3,4-Seam Fastball,R,hit_into_play,field_error,101,-1,40,4,8,97.5,2551
+2024-08-14,7,0,2,Sinker,L,swinging_strike,,NA,NA,NA,NA,3,96.7,2205
+2024-08-14,9,0,2,4-Seam Fastball,R,hit_into_play,field_out,95.5,47,292,3,1,95.1,2397
+2024-08-14,1,0,2,4-Seam Fastball,R,foul,,82.7,16,187,NA,11,96.6,2541
+2024-08-14,9,0,1,Changeup,R,swinging_strike,,NA,NA,NA,NA,9,85,2843
+2024-08-14,7,0,1,Cutter,L,foul,,69.3,-25,5,NA,5,90.3,2324
+2024-08-14,1,0,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,12,96.9,2572
+2024-08-13,6,1,5,Sinker,R,hit_into_play,field_out,92.1,-26,4,2,8,91.5,2191
+2024-08-13,6,1,4,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,2,92,2134
+2024-08-13,6,1,3,Cutter,R,called_strike,,NA,NA,NA,NA,7,87.7,2102
+2024-08-13,6,1,2,Cutter,R,ball,,NA,NA,NA,NA,11,86.4,2181
+2024-08-13,6,1,1,Sinker,R,ball,,NA,NA,NA,NA,11,90.8,2104
+2024-08-13,4,1,5,Sweeper,R,swinging_strike_blocked,strikeout,NA,NA,NA,NA,13,81.6,2310
+2024-08-13,4,1,4,4-Seam Fastball,R,foul,,77.1,29,249,NA,6,92.2,2200
+2024-08-13,4,1,3,Cutter,R,foul,,96.7,55,280,NA,4,86.8,2196
+2024-08-13,4,1,2,Sweeper,R,foul,,93.9,-28,4,NA,8,82.8,2169
+2024-08-13,4,1,1,Cutter,R,ball,,NA,NA,NA,NA,13,86,2034
+2024-08-13,3,2,2,Split-Finger,R,hit_into_play,home_run,109.3,24,413,6,5,88.2,1128
+2024-08-13,3,2,1,Cutter,R,ball,,NA,NA,NA,NA,12,89.5,2143
+2024-08-13,8,2,3,4-Seam Fastball,R,swinging_strike,strikeout,NA,NA,NA,NA,2,97.1,2193
+2024-08-13,8,2,2,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,7,96,2304
+2024-08-13,8,2,1,Curveball,R,swinging_strike,,NA,NA,NA,NA,8,82.3,2582
+2024-08-13,1,0,1,Sinker,R,hit_into_play,field_out,104.9,48,300,3,4,91.7,2248
+2024-08-12,5,0,4,4-Seam Fastball,R,hit_into_play,home_run,107,36,424,6,11,93.2,2354
+2024-08-12,5,0,3,Slider,R,ball,,NA,NA,NA,NA,14,84.1,2356
+2024-08-12,5,0,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,93.4,2415
+2024-08-12,5,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,92.8,2329
+2024-08-12,3,1,6,4-Seam Fastball,R,hit_into_play,field_out,31.7,31,60,1,11,96.1,2336
+2024-08-12,3,1,5,Slider,R,ball,,NA,NA,NA,NA,14,83.5,2389
+2024-08-12,3,1,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,94.7,2349
+2024-08-12,3,1,3,4-Seam Fastball,R,foul,,87,45,257,NA,1,94.6,2384
+2024-08-12,3,1,2,Changeup,R,ball,,NA,NA,NA,NA,13,87.5,1829
+2024-08-12,3,1,1,Changeup,R,called_strike,,NA,NA,NA,NA,9,89.3,1761
+2024-08-12,7,2,6,Sweeper,L,ball,walk,NA,NA,NA,NA,13,82,1963
+2024-08-12,7,2,5,Sweeper,L,ball,,NA,NA,NA,NA,13,80.7,1983
+2024-08-12,7,2,4,Sweeper,L,ball,,NA,NA,NA,NA,13,80.7,1962
+2024-08-12,7,2,3,Cutter,L,foul,,67.5,30,169,NA,5,84.2,1991
+2024-08-12,7,2,2,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,9,88.2,2241
+2024-08-12,7,2,1,Sweeper,L,ball,,NA,NA,NA,NA,13,78.3,2057
+2024-08-12,1,0,2,4-Seam Fastball,R,hit_into_play,field_out,93,25,348,3,6,92.9,2395
+2024-08-12,1,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,93.2,2330
+2024-08-11,4,1,7,Sinker,L,hit_into_play,field_out,86.7,3,63,2,12,93.9,1911
+2024-08-11,4,1,6,Sinker,L,foul,,70.2,41,219,NA,4,93.8,1951
+2024-08-11,4,1,5,Slider,L,foul,,60.2,15,107,NA,4,88.6,2102
+2024-08-11,4,1,4,Sinker,L,foul,,88.6,64,200,NA,6,93.6,1848
+2024-08-11,4,1,3,Slider,L,ball,,NA,NA,NA,NA,13,88.2,2059
+2024-08-11,4,1,2,Slider,L,swinging_strike,,NA,NA,NA,NA,1,87,1887
+2024-08-11,4,1,1,Slider,L,swinging_strike,,NA,NA,NA,NA,13,86.4,1803
+2024-08-11,2,1,2,Sinker,L,hit_into_play,field_out,76.2,32,276,3,12,93,1934
+2024-08-11,2,1,1,4-Seam Fastball,L,foul,,74.9,15,155,NA,6,93.3,2051
+2024-08-11,10,1,4,4-Seam Fastball,R,hit_into_play,field_out,75.1,58,174,3,11,97.9,2444
+2024-08-11,10,1,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,98,2449
+2024-08-11,10,1,2,Split-Finger,R,foul,,95.1,-11,11,NA,6,91.7,1841
+2024-08-11,10,1,1,Split-Finger,R,swinging_strike,,NA,NA,NA,NA,8,93,1705
+2024-08-11,6,2,6,Cutter,L,hit_into_play,triple,99.2,12,171,4,4,84.4,2090
+2024-08-11,6,2,5,Changeup,L,ball,,NA,NA,NA,NA,14,89.1,1956
+2024-08-11,6,2,4,Cutter,L,foul,,85.4,-6,20,NA,4,85.5,2129
+2024-08-11,6,2,3,Cutter,L,called_strike,,NA,NA,NA,NA,3,84.6,2048
+2024-08-11,6,2,2,Cutter,L,ball,,NA,NA,NA,NA,13,85.7,2283
+2024-08-11,6,2,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,12,94.5,1785
+2024-08-11,8,1,2,Slider,L,hit_into_play,field_out,88.6,69,125,3,8,90.7,2370
+2024-08-11,8,1,1,Sinker,L,called_strike,,NA,NA,NA,NA,6,100,2339
+2024-08-11,1,0,1,4-Seam Fastball,L,hit_into_play,field_out,82.7,55,214,3,3,91.5,2114
+2024-08-10,5,1,5,Curveball,R,swinging_strike,strikeout,NA,NA,NA,NA,5,83.5,2476
+2024-08-10,5,1,4,Split-Finger,R,called_strike,,NA,NA,NA,NA,7,93.4,1712
+2024-08-10,5,1,3,4-Seam Fastball,R,foul,,76,38,214,NA,2,96.6,2288
+2024-08-10,5,1,2,Split-Finger,R,ball,,NA,NA,NA,NA,13,92.3,1809
+2024-08-10,5,1,1,Curveball,R,ball,,NA,NA,NA,NA,14,83.4,2447
+2024-08-10,3,0,6,Split-Finger,R,foul_tip,strikeout,NA,NA,NA,NA,13,93.5,1868
+2024-08-10,3,0,5,Curveball,R,ball,,NA,NA,NA,NA,14,84.3,2520
+2024-08-10,3,0,4,4-Seam Fastball,R,foul,,71,51,199,NA,2,98.2,2217
+2024-08-10,3,0,3,4-Seam Fastball,R,foul,,80.6,64,194,NA,1,97.7,2208
+2024-08-10,3,0,2,Split-Finger,R,foul,,72.6,-34,3,NA,7,92.8,1803
+2024-08-10,3,0,1,Split-Finger,R,ball,,NA,NA,NA,NA,13,93.3,1889
+2024-08-10,1,0,2,Split-Finger,R,hit_into_play,field_out,86.1,-8,10,2,8,94.1,1802
+2024-08-10,1,0,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,6,98,2268
+2024-08-09,4,1,2,4-Seam Fastball,R,hit_into_play,field_out,84,57,198,3,2,94,2471
+2024-08-09,4,1,1,Cutter,R,swinging_strike,,NA,NA,NA,NA,2,92.1,2430
+2024-08-09,3,1,4,Slider,R,hit_into_play,home_run,113.9,30,448,6,9,88.4,2560
+2024-08-09,3,1,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,95.8,2539
+2024-08-09,3,1,2,Sinker,R,called_strike,,NA,NA,NA,NA,7,95.2,2600
+2024-08-09,3,1,1,Curveball,R,foul,,98.4,2,62,NA,5,78.1,2627
+2024-08-09,6,1,5,4-Seam Fastball,R,hit_into_play,field_out,97.7,18,333,4,11,91.1,2564
+2024-08-09,6,1,4,Changeup,R,foul,,71.7,34,196,NA,4,83.1,2423
+2024-08-09,6,1,3,Curveball,R,ball,,NA,NA,NA,NA,14,81.6,2731
+2024-08-09,6,1,2,Changeup,R,called_strike,,NA,NA,NA,NA,13,82.9,2334
+2024-08-09,6,1,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,89.9,2463
+2024-08-09,1,0,3,4-Seam Fastball,R,swinging_strike,strikeout,NA,NA,NA,NA,12,96.7,2461
+2024-08-09,1,0,2,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,2,91.9,2587
+2024-08-09,1,0,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,3,95,2422
+2024-08-07,4,1,5,4-Seam Fastball,R,hit_into_play,field_out,56.3,41,170,1,12,92.1,2406
+2024-08-07,4,1,4,Curveball,R,foul,,87.3,42,259,NA,4,81.8,2724
+2024-08-07,4,1,3,Curveball,R,swinging_strike,,NA,NA,NA,NA,14,82.1,2639
+2024-08-07,4,1,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,93.3,2467
+2024-08-07,4,1,1,4-Seam Fastball,R,foul,,79.3,58,213,NA,5,93.1,2279
+2024-08-07,2,0,2,4-Seam Fastball,R,hit_into_play,field_out,94.4,-3,34,2,3,92.9,2311
+2024-08-07,2,0,1,Curveball,R,foul,,53.9,-62,1,NA,8,81.5,2669
+2024-08-07,9,1,2,Slider,R,hit_into_play,field_out,98.2,77,109,3,5,85.3,2823
+2024-08-07,9,1,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,97.8,2490
+2024-08-07,7,0,2,Cutter,L,hit_into_play,force_out,67.5,-32,3,2,13,94.1,2109
+2024-08-07,7,0,1,Cutter,L,swinging_strike,,NA,NA,NA,NA,4,92.7,2120
+2024-08-07,1,0,2,Curveball,R,hit_into_play,field_out,70.4,-39,2,2,9,81,2558
+2024-08-07,1,0,1,4-Seam Fastball,R,foul_tip,,NA,NA,NA,NA,6,92.6,2351
+2024-08-06,5,2,1,Sinker,L,hit_into_play,field_out,72.3,19,165,4,12,93.1,1988
+2024-08-06,3,0,5,Sinker,L,hit_into_play,field_out,89.5,45,271,3,5,93.7,1986
+2024-08-06,3,0,4,Changeup,L,blocked_ball,,NA,NA,NA,NA,13,83.7,2113
+2024-08-06,3,0,3,Slider,L,foul,,71.7,7,96,NA,12,83.8,1946
+2024-08-06,3,0,2,Changeup,L,foul,,98.6,-48,3,NA,12,82.6,2019
+2024-08-06,3,0,1,Sinker,L,ball,,NA,NA,NA,NA,13,94.2,2054
+2024-08-06,7,2,7,Slider,L,hit_into_play,field_out,84.2,46,259,3,1,82.8,2661
+2024-08-06,7,2,6,4-Seam Fastball,L,foul,,76,47,214,NA,8,93.3,2532
+2024-08-06,7,2,5,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,93.4,2535
+2024-08-06,7,2,4,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,95.2,2585
+2024-08-06,7,2,3,Cutter,L,swinging_strike,,NA,NA,NA,NA,5,90,2542
+2024-08-06,7,2,2,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,92.3,2532
+2024-08-06,7,2,1,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,2,93.5,2475
+2024-08-06,1,0,1,Sinker,L,hit_into_play,field_out,106.8,-12,9,2,9,93,2020
+2024-08-05,5,1,4,4-Seam Fastball,R,hit_into_play,double,117.1,11,213,6,5,92.9,2347
+2024-08-05,5,1,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,92.3,2230
+2024-08-05,5,1,2,Knuckle Curve,R,ball,,NA,NA,NA,NA,13,78.3,2588
+2024-08-05,5,1,1,Knuckle Curve,R,ball,,NA,NA,NA,NA,14,78.3,2729
+2024-08-05,3,0,1,4-Seam Fastball,R,hit_into_play,sac_fly,113.1,47,364,6,5,94.1,2416
+2024-08-05,8,0,2,Changeup,L,hit_into_play,home_run,107.4,37,384,6,5,86.3,1934
+2024-08-05,8,0,1,Sinker,L,ball,,NA,NA,NA,NA,14,91.6,2166
+2024-08-05,1,0,4,4-Seam Fastball,R,hit_into_play,field_out,94.1,78,88,3,6,93.3,2384
+2024-08-05,1,0,3,Changeup,R,ball,,NA,NA,NA,NA,14,87.2,1607
+2024-08-05,1,0,2,Sinker,R,ball,,NA,NA,NA,NA,13,91.2,2248
+2024-08-05,1,0,1,4-Seam Fastball,R,foul,,81.3,-37,3,NA,7,93.2,2365
+2024-08-04,5,0,5,Slider,R,hit_into_play,field_out,89.2,34,315,3,8,84.9,2228
+2024-08-04,5,0,4,Changeup,R,ball,,NA,NA,NA,NA,14,89.8,2182
+2024-08-04,5,0,3,Changeup,R,swinging_strike,,NA,NA,NA,NA,4,88,2022
+2024-08-04,5,0,2,Cutter,R,foul,,71.4,24,195,NA,2,85.5,1915
+2024-08-04,5,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,95.1,2319
+2024-08-04,2,1,3,Changeup,R,hit_into_play,field_out,90.4,48,282,3,7,90.3,2190
+2024-08-04,2,1,2,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,12,95.2,2414
+2024-08-04,2,1,1,Changeup,R,foul,,87.6,57,227,NA,7,89.1,2084
+2024-08-04,7,1,6,Slider,R,swinging_strike,strikeout,NA,NA,NA,NA,9,86,2049
+2024-08-04,7,1,5,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,98.9,2341
+2024-08-04,7,1,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,100.1,2430
+2024-08-04,1,0,5,4-Seam Fastball,R,called_strike,strikeout,NA,NA,NA,NA,7,94.4,2415
+2024-08-04,7,1,3,Slider,R,swinging_strike,,NA,NA,NA,NA,14,85.4,2032
+2024-08-04,1,0,4,Slider,R,ball,,NA,NA,NA,NA,13,85.6,2076
+2024-08-04,7,1,2,Slider,R,swinging_strike,,NA,NA,NA,NA,14,85,2018
+2024-08-04,1,0,3,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,5,94.4,2408
+2024-08-04,7,1,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,98.2,2415
+2024-08-04,1,0,2,Changeup,R,swinging_strike,,NA,NA,NA,NA,13,88.9,2029
+2024-08-04,1,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,94.2,2327
+2024-08-03,5,2,3,Cutter,R,hit_into_play,single,103,-9,13,2,6,91.2,2569
+2024-08-03,5,2,2,Sinker,R,ball,,NA,NA,NA,NA,13,91.4,1497
+2024-08-03,5,2,1,Slider,R,ball,,NA,NA,NA,NA,13,85.3,2854
+2024-08-03,3,1,4,Curveball,R,swinging_strike,strikeout,NA,NA,NA,NA,14,83.6,2908
+2024-08-03,3,1,3,Slider,R,swinging_strike,,NA,NA,NA,NA,9,85.9,2777
+2024-08-03,3,1,2,Slider,R,ball,,NA,NA,NA,NA,14,86.1,2702
+2024-08-03,9,2,6,4-Seam Fastball,L,called_strike,strikeout,NA,NA,NA,NA,5,93.7,2479
+2024-08-03,3,1,1,Cutter,R,foul,,97.2,50,291,NA,4,91,2578
+2024-08-03,9,2,5,Curveball,L,blocked_ball,,NA,NA,NA,NA,13,81,2317
+2024-08-03,9,2,4,4-Seam Fastball,L,foul,,68.8,-47,2,NA,7,91.8,2388
+2024-08-03,9,2,3,4-Seam Fastball,L,ball,,NA,NA,NA,NA,11,93.1,2418
+2024-08-03,9,2,2,Slider,L,swinging_strike,,NA,NA,NA,NA,12,85.9,2036
+2024-08-03,9,2,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,14,91.7,2362
+2024-08-03,7,1,6,Sinker,L,called_strike,strikeout,NA,NA,NA,NA,4,93,2228
+2024-08-03,7,1,5,Sinker,L,called_strike,,NA,NA,NA,NA,13,92.4,2213
+2024-08-03,7,1,4,Sinker,L,called_strike,,NA,NA,NA,NA,8,92.2,2169
+2024-08-03,7,1,3,Sinker,L,ball,,NA,NA,NA,NA,13,93.2,2066
+2024-08-03,7,1,2,Slider,L,ball,,NA,NA,NA,NA,13,83.4,2700
+2024-08-03,1,0,5,Slider,R,ball,walk,NA,NA,NA,NA,11,84.4,2717
+2024-08-03,7,1,1,Slider,L,ball,,NA,NA,NA,NA,13,84.8,2635
+2024-08-03,1,0,4,Cutter,R,called_strike,,NA,NA,NA,NA,7,89.8,2510
+2024-08-03,1,0,3,Cutter,R,ball,,NA,NA,NA,NA,11,90.5,2495
+2024-08-03,9,0,3,Slider,L,hit_into_play,single,106.2,-6,16,2,7,85.1,2062
+2024-08-03,1,0,2,Cutter,R,ball,,NA,NA,NA,NA,11,91.8,2461
+2024-08-03,9,0,2,Slider,L,called_strike,,NA,NA,NA,NA,1,85.4,2063
+2024-08-03,1,0,1,Cutter,R,ball,,NA,NA,NA,NA,13,91.5,2493
+2024-08-03,9,0,1,Curveball,L,ball,,NA,NA,NA,NA,9,77,2213
+2024-08-02,6,1,5,4-Seam Fastball,R,hit_into_play,field_out,69.4,50,195,3,12,94.8,2394
+2024-08-02,6,1,4,Sweeper,R,foul,,105.3,0,56,NA,6,77.9,2574
+2024-08-02,6,1,3,Changeup,R,called_strike,,NA,NA,NA,NA,1,84.3,1705
+2024-08-02,6,1,2,Changeup,R,called_strike,,NA,NA,NA,NA,7,85.9,1659
+2024-08-02,6,1,1,Sweeper,R,ball,,NA,NA,NA,NA,8,77.6,2519
+2024-08-02,3,1,2,4-Seam Fastball,R,hit_into_play,field_out,105.5,37,372,6,5,92.7,2340
+2024-08-02,3,1,1,Changeup,R,called_strike,,NA,NA,NA,NA,9,86.4,1728
+2024-08-02,9,2,3,4-Seam Fastball,R,hit_into_play,home_run,116.3,25,405,6,2,93.4,2328
+2024-08-02,9,2,2,Cutter,R,swinging_strike,,NA,NA,NA,NA,9,92.6,2457
+2024-08-02,9,2,1,Cutter,R,ball,,NA,NA,NA,NA,14,90.3,2398
+2024-08-02,7,2,5,Slider,R,hit_into_play,field_out,76.9,-18,9,2,1,88,2885
+2024-08-02,7,2,4,4-Seam Fastball,R,foul,,99.8,-12,12,NA,6,92.7,2669
+2024-08-02,7,2,3,Slider,R,called_strike,,NA,NA,NA,NA,7,86.6,2953
+2024-08-02,7,2,2,Slider,R,ball,,NA,NA,NA,NA,11,87.8,2898
+2024-08-02,7,2,1,Slider,R,called_strike,,NA,NA,NA,NA,7,87,2892
+2024-08-02,1,0,1,4-Seam Fastball,R,hit_into_play,field_out,103.4,42,361,5,11,93.5,2206
+2024-07-31,5,2,5,4-Seam Fastball,R,hit_into_play,field_out,96.4,-3,32,2,5,97.4,2485
+2024-07-31,5,2,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,97.9,2483
+2024-07-31,5,2,3,Slider,R,blocked_ball,,NA,NA,NA,NA,14,88.9,2683
+2024-07-31,5,2,2,Changeup,R,ball,,NA,NA,NA,NA,13,68.8,1500
+2024-07-31,5,2,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,2,97.3,2378
+2024-07-31,3,1,6,4-Seam Fastball,R,ball,walk,NA,NA,NA,NA,12,99.2,2726
+2024-07-31,3,1,5,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,9,98.3,2620
+2024-07-31,3,1,4,Slider,R,ball,,NA,NA,NA,NA,14,89.8,2854
+2024-07-31,3,1,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,97.6,2666
+2024-07-31,3,1,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,96.5,2573
+2024-07-31,3,1,1,Slider,R,swinging_strike,,NA,NA,NA,NA,14,89,2812
+2024-07-31,1,0,7,Knuckle Curve,R,hit_into_play,field_out,61,-30,3,2,5,82.3,2643
+2024-07-31,1,0,6,4-Seam Fastball,R,foul,,74,54,203,NA,6,98.8,2484
+2024-07-31,1,0,5,4-Seam Fastball,R,foul,,82.5,64,173,NA,6,98.9,2671
+2024-07-31,1,0,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,98.2,2639
+2024-07-31,8,1,2,Changeup,R,hit_into_play,field_out,88.2,12,164,4,11,89.8,2186
+2024-07-31,1,0,3,Slider,R,swinging_strike,,NA,NA,NA,NA,8,88.7,2877
+2024-07-31,1,0,2,Slider,R,ball,,NA,NA,NA,NA,14,88.6,2810
+2024-07-31,8,1,1,Slider,R,called_strike,,NA,NA,NA,NA,3,83.3,2699
+2024-07-31,1,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,97.9,2642
+2024-07-30,2,1,3,Cutter,R,hit_into_play,field_out,99.8,41,332,3,6,86.6,2169
+2024-07-30,2,1,2,Sweeper,R,ball,,NA,NA,NA,NA,13,80.9,2197
+2024-07-30,2,1,1,Knuckleball,R,ball,,NA,NA,NA,NA,12,75.7,140
+2024-07-30,9,1,6,Split-Finger,R,called_strike,strikeout,NA,NA,NA,NA,8,83.3,1522
+2024-07-30,7,0,5,Slider,L,hit_into_play,field_out,106,18,329,6,4,86.4,2746
+2024-07-30,9,1,5,Slider,R,called_strike,,NA,NA,NA,NA,5,90.7,2326
+2024-07-30,9,1,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,96.7,2355
+2024-07-30,1,0,5,Sinker,R,ball,walk,NA,NA,NA,NA,14,91.2,2016
+2024-07-30,7,0,4,4-Seam Fastball,L,ball,,NA,NA,NA,NA,12,98.5,2569
+2024-07-30,9,1,3,Split-Finger,R,ball,,NA,NA,NA,NA,13,83.1,1472
+2024-07-30,7,0,3,Sinker,L,called_strike,,NA,NA,NA,NA,6,98.2,2463
+2024-07-30,1,0,4,Cutter,R,ball,,NA,NA,NA,NA,12,87.5,2234
+2024-07-30,5,0,4,Slider,L,swinging_strike,strikeout,NA,NA,NA,NA,13,87,2797
+2024-07-30,7,0,2,Slider,L,foul,,78.6,50,222,NA,6,87.2,2804
+2024-07-30,9,1,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,96.2,2367
+2024-07-30,5,0,3,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,8,92.3,2457
+2024-07-30,1,0,3,Cutter,R,ball,,NA,NA,NA,NA,12,87.4,2259
+2024-07-30,9,1,1,Slider,R,called_strike,,NA,NA,NA,NA,1,89.5,2361
+2024-07-30,7,0,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,12,97.9,2510
+2024-07-30,1,0,2,Knuckleball,R,foul,,NA,NA,NA,NA,11,76.8,113
+2024-07-30,5,0,2,Slider,L,swinging_strike,,NA,NA,NA,NA,9,86.9,2720
+2024-07-30,5,0,1,Slider,L,ball,,NA,NA,NA,NA,14,86.2,2747
+2024-07-30,1,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,91.3,2149
+2024-07-28,5,2,1,Curveball,R,hit_into_play,field_out,95.2,49,281,3,6,79.1,2947
+2024-07-28,3,1,4,4-Seam Fastball,R,swinging_strike,strikeout,NA,NA,NA,NA,11,95.7,2358
+2024-07-28,3,1,3,Sweeper,R,ball,,NA,NA,NA,NA,14,81.2,2969
+2024-07-28,3,1,2,Cutter,R,swinging_strike,,NA,NA,NA,NA,9,87.7,2692
+2024-07-28,3,1,1,Curveball,R,swinging_strike,,NA,NA,NA,NA,14,78.5,2926
+2024-07-28,1,0,6,Cutter,R,hit_into_play,field_out,104.6,41,357,5,5,88.7,2567
+2024-07-28,1,0,5,4-Seam Fastball,R,foul,,NA,NA,NA,NA,5,95.4,2318
+2024-07-28,9,0,5,4-Seam Fastball,R,ball,walk,NA,NA,NA,NA,12,96,2485
+2024-07-28,1,0,4,4-Seam Fastball,R,foul,,NA,NA,NA,NA,2,94.9,2307
+2024-07-28,9,0,4,4-Seam Fastball,R,foul,,82.1,77,152,NA,2,96.7,2464
+2024-07-28,7,2,3,4-Seam Fastball,L,called_strike,strikeout,NA,NA,NA,NA,13,93.8,2154
+2024-07-28,9,0,3,Changeup,R,ball,,NA,NA,NA,NA,13,90,2139
+2024-07-28,1,0,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,94.4,2378
+2024-07-28,7,2,2,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,2,91.9,2210
+2024-07-28,9,0,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,95.3,2237
+2024-07-28,1,0,2,Cutter,R,called_strike,,NA,NA,NA,NA,9,89.2,2542
+2024-07-28,9,0,1,Changeup,R,ball,,NA,NA,NA,NA,13,91,2211
+2024-07-28,1,0,1,Cutter,R,ball,,NA,NA,NA,NA,12,89.7,2521
+2024-07-28,7,2,1,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,3,91.8,2086
+2024-07-27,5,0,5,Changeup,R,ball,walk,NA,NA,NA,NA,14,86.7,1544
+2024-07-27,5,0,4,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,6,93.3,2237
+2024-07-27,5,0,3,Slider,R,blocked_ball,,NA,NA,NA,NA,14,86.5,2129
+2024-07-27,5,0,2,Changeup,R,ball,,NA,NA,NA,NA,13,85.2,1598
+2024-07-27,5,0,1,Changeup,R,ball,,NA,NA,NA,NA,13,86,1514
+2024-07-27,3,0,4,4-Seam Fastball,R,hit_into_play,home_run,118.7,29,461,6,5,92,2111
+2024-07-27,3,0,3,Changeup,R,ball,,NA,NA,NA,NA,11,84.7,1455
+2024-07-27,3,0,2,Curveball,R,ball,,NA,NA,NA,NA,14,80.7,2397
+2024-07-27,3,0,1,Curveball,R,foul_tip,,NA,NA,NA,NA,5,78.5,2153
+2024-07-27,8,2,6,4-Seam Fastball,R,ball,walk,NA,NA,NA,NA,11,94.1,2195
+2024-07-27,8,2,5,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,2,93.5,2268
+2024-07-27,8,2,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,92,2225
+2024-07-27,8,2,3,Split-Finger,R,ball,,NA,NA,NA,NA,13,85.4,1384
+2024-07-27,8,2,2,4-Seam Fastball,R,foul,,68.4,42,184,NA,3,92.7,2212
+2024-07-27,8,2,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,93.2,2313
+2024-07-27,6,1,1,Curveball,R,hit_into_play,single,91,0,44,2,14,82.2,2631
+2024-07-27,1,0,6,Slider,R,hit_into_play,field_out,97.9,33,366,5,7,88.4,2207
+2024-07-27,1,0,5,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,92.9,2299
+2024-07-27,1,0,4,4-Seam Fastball,R,foul,,63.8,46,169,NA,12,94.2,2356
+2024-07-27,1,0,3,Changeup,R,ball,,NA,NA,NA,NA,13,86.1,1447
+2024-07-27,1,0,2,Curveball,R,called_strike,,NA,NA,NA,NA,5,80.2,2359
+2024-07-27,1,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,92.9,2301
+2024-07-26,6,1,6,Curveball,L,ball,walk,NA,NA,NA,NA,13,81.3,2981
+2024-07-26,6,1,5,Curveball,L,blocked_ball,,NA,NA,NA,NA,14,81.1,3022
+2024-07-26,6,1,4,Changeup,L,swinging_strike,,NA,NA,NA,NA,9,90.2,1824
+2024-07-26,6,1,3,Changeup,L,foul,,76.5,-29,5,NA,6,89.7,1764
+2024-07-26,6,1,2,Sinker,L,ball,,NA,NA,NA,NA,13,95.7,2206
+2024-07-26,6,1,1,Curveball,L,ball,,NA,NA,NA,NA,14,80.2,2829
+2024-07-26,3,2,5,Slider,L,hit_into_play,field_out,99.8,20,335,5,4,87.8,2682
+2024-07-26,3,2,4,Slider,L,swinging_strike,,NA,NA,NA,NA,7,86.3,2540
+2024-07-26,3,2,3,Curveball,L,ball,,NA,NA,NA,NA,13,80.5,3055
+2024-07-26,3,2,2,Curveball,L,ball,,NA,NA,NA,NA,13,80.9,3135
+2024-07-26,3,2,1,Changeup,L,called_strike,,NA,NA,NA,NA,4,92.3,1723
+2024-07-26,8,0,2,4-Seam Fastball,R,hit_into_play,single,113.5,-3,24,4,8,95.5,2603
+2024-07-26,1,0,1,Sinker,L,hit_into_play,double,97.7,18,282,4,6,95.4,2152
+2024-07-26,8,0,1,4-Seam Fastball,R,foul,,75.2,27,202,NA,2,94.5,2567
+2024-07-25,4,2,2,Sinker,R,hit_into_play,double,94.9,9,159,4,3,93.2,1964
+2024-07-25,4,2,1,Changeup,R,ball,,NA,NA,NA,NA,14,88.5,1523
+2024-07-25,2,2,2,Sinker,R,hit_into_play,field_out,107.5,-13,10,2,4,93.3,1913
+2024-07-25,2,2,1,Cutter,R,swinging_strike,,NA,NA,NA,NA,2,91.1,2272
+2024-07-25,8,1,1,Slider,R,hit_into_play,home_run,112.6,46,360,6,6,74.7,2468
+2024-07-25,6,0,5,Cutter,R,hit_into_play,field_out,91.5,39,322,3,2,92.2,2209
+2024-07-25,6,0,4,Sinker,R,foul,,92.4,77,122,NA,6,95.7,2268
+2024-07-25,6,0,3,Sinker,R,swinging_strike,,NA,NA,NA,NA,12,95.5,2281
+2024-07-25,6,0,2,Sinker,R,ball,,NA,NA,NA,NA,14,95,2305
+2024-07-25,1,0,5,4-Seam Fastball,R,ball,walk,NA,NA,NA,NA,12,90.9,2359
+2024-07-25,1,0,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,92.1,2307
+2024-07-25,6,0,1,Cutter,R,ball,,NA,NA,NA,NA,12,93.4,2217
+2024-07-25,1,0,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,90.6,2296
+2024-07-25,1,0,2,Sinker,R,ball,,NA,NA,NA,NA,14,93.3,2064
+2024-07-25,1,0,1,Sinker,R,swinging_strike,,NA,NA,NA,NA,6,92.5,2029
+2024-07-24,5,2,5,4-Seam Fastball,L,swinging_strike,strikeout,NA,NA,NA,NA,12,95.5,2347
+2024-07-24,5,2,4,Knuckle Curve,L,swinging_strike,,NA,NA,NA,NA,8,84.2,2074
+2024-07-24,5,2,3,Slider,L,ball,,NA,NA,NA,NA,13,89.9,2173
+2024-07-24,5,2,2,Slider,L,ball,,NA,NA,NA,NA,13,91.1,2115
+2024-07-24,5,2,1,Slider,L,foul,,69.5,-55,1,NA,13,89.4,2124
+2024-07-24,2,2,4,4-Seam Fastball,L,swinging_strike,strikeout,NA,NA,NA,NA,12,93.1,2333
+2024-07-24,2,2,3,Slider,L,ball,,NA,NA,NA,NA,13,90.3,2292
+2024-07-24,2,2,2,4-Seam Fastball,L,swinging_strike,,NA,NA,NA,NA,1,95.8,2505
+2024-07-24,2,2,1,Slider,L,called_strike,,NA,NA,NA,NA,7,88.7,2151
+2024-07-24,8,0,6,Changeup,L,called_strike,strikeout,NA,NA,NA,NA,8,85,1744
+2024-07-24,8,0,5,Slider,L,foul,,63.3,73,118,NA,4,83.8,2700
+2024-07-24,8,0,4,4-Seam Fastball,L,ball,,NA,NA,NA,NA,12,97.2,2417
+2024-07-24,8,0,3,4-Seam Fastball,L,foul_tip,,NA,NA,NA,NA,5,97.7,2444
+2024-07-24,8,0,2,Slider,L,foul,,55.4,-23,6,NA,4,83.5,2712
+2024-07-24,8,0,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,1,97.1,2409
+2024-07-24,1,0,1,4-Seam Fastball,L,hit_into_play,field_out,102,36,351,6,5,94.4,2338
+2024-07-23,4,2,3,Sweeper,R,hit_into_play,double,105.1,23,329,6,6,82.7,2383
+2024-07-23,4,2,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,94,2227
+2024-07-23,4,2,1,Sweeper,R,foul,,80.1,-20,6,NA,8,81.8,2203
+2024-07-23,3,0,5,4-Seam Fastball,R,swinging_strike,strikeout,NA,NA,NA,NA,12,93.5,2082
+2024-07-23,3,0,4,Sweeper,R,foul,,75.9,62,205,NA,11,80.3,2211
+2024-07-23,3,0,3,Split-Finger,R,ball,,NA,NA,NA,NA,13,85.4,905
+2024-07-23,3,0,2,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,3,93.1,2142
+2024-07-23,3,0,1,Sweeper,R,ball,,NA,NA,NA,NA,13,79.9,2193
+2024-07-23,8,2,5,4-Seam Fastball,R,hit_into_play,single,114.2,10,250,6,8,99.2,2504
+2024-07-23,8,2,4,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,12,99.4,2663
+2024-07-23,8,2,3,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,6,99.7,2704
+2024-07-23,8,2,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,99.2,2584
+2024-07-23,8,2,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,99.3,2548
+2024-07-23,6,1,4,Sweeper,L,swinging_strike,strikeout,NA,NA,NA,NA,7,79.3,2780
+2024-07-23,6,1,3,Sweeper,L,foul,,89.4,83,55,NA,3,77.6,2841
+2024-07-23,6,1,2,Sweeper,L,ball,,NA,NA,NA,NA,13,79.7,2855
+2024-07-23,6,1,1,Sweeper,L,foul,,73.2,57,192,NA,1,79.8,2783
+2024-07-23,1,0,7,Split-Finger,R,swinging_strike,strikeout,NA,NA,NA,NA,14,86,768
+2024-07-23,1,0,6,Sweeper,R,foul,,69.1,47,188,NA,5,82.5,2223
+2024-07-23,1,0,5,Split-Finger,R,foul,,NA,NA,NA,NA,13,86,928
+2024-07-23,1,0,4,Sinker,R,foul,,79.5,68,153,NA,1,94.4,1950
+2024-07-23,1,0,3,Sweeper,R,ball,,NA,NA,NA,NA,1,81.4,2226
+2024-07-23,1,0,2,Sweeper,R,ball,,NA,NA,NA,NA,11,79.9,2181
+2024-07-23,1,0,1,Sinker,R,swinging_strike,,NA,NA,NA,NA,2,92.6,1916
+2024-07-22,6,0,2,Curveball,L,hit_into_play,field_out,89,-28,4,2,8,82.1,2470
+2024-07-22,6,0,1,Slider,L,foul,,99.6,20,310,NA,5,85.4,2365
+2024-07-22,3,1,4,Curveball,L,swinging_strike,strikeout,NA,NA,NA,NA,13,83.1,2474
+2024-07-22,3,1,3,Slider,L,foul,,83.8,72,129,NA,4,89.1,2373
+2024-07-22,3,1,2,Curveball,L,ball,,NA,NA,NA,NA,14,82.3,2358
+2024-07-22,3,1,1,4-Seam Fastball,L,foul,,84.8,49,253,NA,6,97,2427
+2024-07-22,1,0,7,Slider,L,blocked_ball,walk,NA,NA,NA,NA,13,91.5,2429
+2024-07-22,1,0,6,4-Seam Fastball,L,ball,,NA,NA,NA,NA,12,97.5,2471
+2024-07-22,8,0,4,Changeup,L,swinging_strike,strikeout,NA,NA,NA,NA,14,85.4,1813
+2024-07-22,8,0,3,4-Seam Fastball,L,foul,,78.8,35,249,NA,2,97.2,2320
+2024-07-22,1,0,5,4-Seam Fastball,L,foul,,82.6,47,266,NA,1,97.4,2580
+2024-07-22,8,0,2,Slider,L,blocked_ball,,NA,NA,NA,NA,13,86.7,2750
+2024-07-22,1,0,4,4-Seam Fastball,L,ball,,NA,NA,NA,NA,11,95.8,2526
+2024-07-22,1,0,3,Slider,L,swinging_strike,,NA,NA,NA,NA,2,90.7,2393
+2024-07-22,8,0,1,Slider,L,swinging_strike,,NA,NA,NA,NA,13,85.8,2736
+2024-07-22,1,0,2,Slider,L,ball,,NA,NA,NA,NA,13,89.7,2391
+2024-07-22,1,0,1,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,4,96.6,2584
+2024-07-21,5,0,4,Cutter,R,hit_into_play,home_run,116.7,28,473,6,5,85.9,2394
+2024-07-21,5,0,3,Cutter,R,swinging_strike,,NA,NA,NA,NA,2,86.6,2412
+2024-07-21,5,0,2,Cutter,R,ball,,NA,NA,NA,NA,12,85.9,2411
+2024-07-21,5,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,91.1,2513
+2024-07-21,3,0,4,4-Seam Fastball,R,hit_into_play,field_out,98,45,307,3,6,92.2,2426
+2024-07-21,3,0,3,Cutter,R,swinging_strike,,NA,NA,NA,NA,2,87.3,2357
+2024-07-21,3,0,2,Split-Finger,R,foul,,61.2,-10,10,NA,9,81.5,1112
+2024-07-21,3,0,1,Cutter,R,ball,,NA,NA,NA,NA,12,87.1,2451
+2024-07-21,7,2,6,4-Seam Fastball,R,ball,walk,NA,NA,NA,NA,11,95.4,2358
+2024-07-21,7,2,5,Changeup,R,foul,,77.8,67,193,NA,7,85,2395
+2024-07-21,7,2,4,Changeup,R,ball,,NA,NA,NA,NA,13,84.6,2351
+2024-07-21,7,2,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,95,2333
+2024-07-21,7,2,2,Changeup,R,ball,,NA,NA,NA,NA,14,85.4,2343
+2024-07-21,7,2,1,Cutter,R,foul_tip,,NA,NA,NA,NA,3,90.5,2568
+2024-07-21,1,0,3,4-Seam Fastball,R,swinging_strike,strikeout,NA,NA,NA,NA,11,92.6,2579
+2024-07-21,1,0,2,Split-Finger,R,foul,,NA,NA,NA,NA,8,80.3,1019
+2024-07-21,1,0,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,8,90.6,2493
+2024-07-20,6,0,4,Sweeper,R,hit_into_play,double,112.7,7,200,5,5,87.9,2350
+2024-07-20,6,0,3,Changeup,R,ball,,NA,NA,NA,NA,13,88.5,1736
+2024-07-20,6,0,2,Changeup,R,ball,,NA,NA,NA,NA,14,88.4,1695
+2024-07-20,6,0,1,Changeup,R,swinging_strike,,NA,NA,NA,NA,4,89.1,1661
+2024-07-20,3,1,3,Changeup,R,hit_into_play,field_out,84.7,72,119,3,7,88.5,1864
+2024-07-20,3,1,2,Slider,R,ball,,NA,NA,NA,NA,14,88.3,2362
+2024-07-20,3,1,1,Changeup,R,foul,,55.9,-33,3,NA,8,88.5,1726
+2024-07-20,7,2,4,4-Seam Fastball,L,hit_into_play,field_out,94.1,65,163,3,1,95.6,2126
+2024-07-20,7,2,3,Sweeper,L,swinging_strike,,NA,NA,NA,NA,13,83.4,2069
+2024-07-20,7,2,2,Sweeper,L,ball,,NA,NA,NA,NA,13,84.2,2039
+2024-07-20,7,2,1,Cutter,L,called_strike,,NA,NA,NA,NA,8,89.9,2128
+2024-07-20,1,0,2,Sweeper,R,hit_into_play,field_out,92,-19,7,2,5,86.8,2376
+2024-07-20,1,0,1,Sinker,R,called_strike,,NA,NA,NA,NA,8,96.3,2129
+2024-07-19,6,0,5,Cutter,R,swinging_strike,strikeout,NA,NA,NA,NA,1,89.5,2190
+2024-07-19,6,0,4,Slider,R,ball,,NA,NA,NA,NA,11,83.2,2286
+2024-07-19,6,0,3,4-Seam Fastball,R,foul,,59.5,48,158,NA,3,93.6,2223
+2024-07-19,6,0,2,Cutter,R,foul,,71.2,-22,8,NA,3,86.4,2244
+2024-07-19,6,0,1,Cutter,R,swinging_strike,,NA,NA,NA,NA,8,87.9,2313
+2024-07-19,3,1,5,4-Seam Fastball,R,swinging_strike,strikeout,NA,NA,NA,NA,11,95.1,2171
+2024-07-19,3,1,4,Curveball,R,ball,,NA,NA,NA,NA,14,81.1,2872
+2024-07-19,3,1,3,4-Seam Fastball,R,foul,,NA,NA,NA,NA,3,94.5,2185
+2024-07-19,3,1,2,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,6,93.1,2303
+2024-07-19,3,1,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,4,93.3,2349
+2024-07-19,1,0,5,4-Seam Fastball,R,swinging_strike,strikeout,NA,NA,NA,NA,11,94.6,2321
+2024-07-19,1,0,4,Sweeper,R,foul,,64.3,-25,5,NA,9,83.8,2546
+2024-07-19,1,0,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,94.6,2386
+2024-07-19,1,0,2,Cutter,R,ball,,NA,NA,NA,NA,14,89.3,2382
+2024-07-19,1,0,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,2,93.1,2386
+2024-07-19,8,1,1,Sinker,L,hit_into_play,double,89.6,30,282,3,5,91,2116
+2024-07-14,5,2,4,Split-Finger,R,hit_into_play,single,108.5,7,156,4,4,86.8,1351
+2024-07-14,5,2,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,94.1,2350
+2024-07-14,5,2,2,Split-Finger,R,swinging_strike,,NA,NA,NA,NA,13,85.7,1390
+2024-07-14,5,2,1,Split-Finger,R,ball,,NA,NA,NA,NA,14,87.6,1358
+2024-07-14,3,0,3,Sinker,L,hit_into_play,field_out,108.1,17,328,6,6,91.8,2144
+2024-07-14,3,0,2,Sweeper,L,ball,,NA,NA,NA,NA,13,80.1,2595
+2024-07-14,3,0,1,Sweeper,L,ball,,NA,NA,NA,NA,11,78.4,2655
+2024-07-14,8,2,2,4-Seam Fastball,L,hit_into_play,single,97.2,12,210,4,1,94.2,2234
+2024-07-14,8,2,1,Sinker,L,called_strike,,NA,NA,NA,NA,8,92.6,2125
+2024-07-14,1,0,1,4-Seam Fastball,R,hit_into_play,field_out,111.3,20,381,6,8,95.6,2421
+2024-07-13,5,0,2,Changeup,R,hit_into_play,home_run,107.8,24,373,6,5,85.5,1857
+2024-07-13,5,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,93.1,2126
+2024-07-13,3,0,5,Knuckle Curve,R,swinging_strike,strikeout,NA,NA,NA,NA,5,79.7,2975
+2024-07-13,3,0,4,Changeup,R,ball,,NA,NA,NA,NA,14,85.6,1896
+2024-07-13,3,0,3,Slider,R,ball,,NA,NA,NA,NA,13,83.1,2823
+2024-07-13,3,0,2,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,7,95.1,2179
+2024-07-13,3,0,1,Knuckle Curve,R,foul,,NA,NA,NA,NA,14,78,2834
+2024-07-13,6,0,2,Cutter,L,hit_into_play,force_out,93.5,-4,24,2,7,87.2,2482
+2024-07-13,6,0,1,Cutter,L,foul,,79.8,56,176,NA,4,86.2,2482
+2024-07-13,8,0,5,Slider,L,ball,walk,NA,NA,NA,NA,13,83.5,2566
+2024-07-13,8,0,4,Sinker,L,ball,,NA,NA,NA,NA,13,91.8,2098
+2024-07-13,8,0,3,Slider,L,ball,,NA,NA,NA,NA,13,83.2,2582
+2024-07-13,8,0,2,Sinker,L,called_strike,,NA,NA,NA,NA,8,92.8,2067
+2024-07-13,1,0,2,Changeup,R,hit_into_play,triple,91.5,15,208,4,4,86.8,1949
+2024-07-13,1,0,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,9,94.8,2207
+2024-07-13,8,0,1,Slider,L,ball,,NA,NA,NA,NA,13,82.6,2497
+2024-07-12,5,2,3,Sinker,L,hit_into_play,field_out,95.4,26,314,5,9,96.6,2089
+2024-07-12,5,2,2,Sinker,L,foul,,79.4,17,190,NA,2,96.3,2053
+2024-07-12,5,2,1,Slider,L,ball,,NA,NA,NA,NA,13,88.1,2068
+2024-07-12,3,2,5,Slider,L,hit_into_play,field_out,99.4,53,241,3,2,90.3,2093
+2024-07-12,3,2,4,Changeup,L,ball,,NA,NA,NA,NA,13,88.8,1767
+2024-07-12,3,2,3,Slider,L,ball,,NA,NA,NA,NA,7,91.4,2118
+2024-07-12,3,2,2,Sinker,L,called_strike,,NA,NA,NA,NA,1,96.9,2173
+2024-07-12,3,2,1,Sinker,L,called_strike,,NA,NA,NA,NA,1,95.8,2167
+2024-07-12,8,1,8,Changeup,R,swinging_strike,strikeout,NA,NA,NA,NA,13,88.6,2014
+2024-07-12,8,1,7,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,95.9,2379
+2024-07-12,8,1,6,4-Seam Fastball,R,foul,,82.5,71,166,NA,4,97.4,2445
+2024-07-12,8,1,5,Changeup,R,ball,,NA,NA,NA,NA,13,89.5,2008
+2024-07-12,8,1,4,Changeup,R,foul,,69.7,58,178,NA,13,89.7,1993
+2024-07-12,8,1,3,Changeup,R,ball,,NA,NA,NA,NA,13,89,2098
+2024-07-12,8,1,2,4-Seam Fastball,R,foul,,74.5,52,200,NA,4,97.2,2493
+2024-07-12,8,1,1,Changeup,R,called_strike,,NA,NA,NA,NA,8,90.1,2124
+2024-07-12,9,2,2,Sinker,L,hit_into_play,double,107.3,24,402,6,3,94.3,2332
+2024-07-12,1,0,5,Sinker,L,hit_into_play,field_out,92.4,1,57,2,2,97.5,2191
+2024-07-12,9,2,1,Sinker,L,ball,,NA,NA,NA,NA,9,93.7,2352
+2024-07-12,1,0,4,Changeup,L,foul,,86.7,-6,18,NA,6,84.7,1515
+2024-07-12,1,0,3,Sinker,L,called_strike,,NA,NA,NA,NA,5,95.9,2085
+2024-07-12,1,0,2,Sinker,L,ball,,NA,NA,NA,NA,4,95.6,2103
+2024-07-12,1,0,1,Sinker,L,ball,,NA,NA,NA,NA,13,97.9,2169
+2024-07-11,5,0,4,4-Seam Fastball,R,swinging_strike,strikeout,NA,NA,NA,NA,2,94.5,2490
+2024-07-11,5,0,3,Knuckle Curve,R,swinging_strike,,NA,NA,NA,NA,14,79.7,2506
+2024-07-11,5,0,2,Changeup,R,foul,,80.6,63,200,NA,4,86.2,1414
+2024-07-11,5,0,1,Changeup,R,ball,,NA,NA,NA,NA,13,86.2,1496
+2024-07-11,2,1,4,Knuckle Curve,R,swinging_strike_blocked,strikeout,NA,NA,NA,NA,14,79,2638
+2024-07-11,2,1,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,95.5,2369
+2024-07-11,2,1,2,Knuckle Curve,R,swinging_strike_blocked,,NA,NA,NA,NA,14,79.4,2758
+2024-07-11,2,1,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,14,95.2,2407
+2024-07-11,7,2,3,Slider,L,hit_into_play,field_out,81.4,1,45,2,4,81.1,2705
+2024-07-11,7,2,2,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,94.5,2621
+2024-07-11,7,2,1,Sinker,L,called_strike,,NA,NA,NA,NA,8,92.5,2467
+2024-07-11,1,0,5,4-Seam Fastball,R,hit_into_play,field_out,91.5,45,278,3,11,94.3,2353
+2024-07-11,1,0,4,Knuckle Curve,R,swinging_strike,,NA,NA,NA,NA,9,80.3,2839
+2024-07-11,1,0,3,Knuckle Curve,R,ball,,NA,NA,NA,NA,14,79.7,2648
+2024-07-11,1,0,2,Cutter,R,ball,,NA,NA,NA,NA,14,89,2246
+2024-07-11,1,0,1,4-Seam Fastball,R,foul,,78.8,26,240,NA,6,93.9,2328
+2024-07-10,5,1,2,Sinker,L,hit_into_play,single,89.8,16,229,4,14,95.2,2021
+2024-07-10,5,1,1,Changeup,L,foul,,72.1,-17,8,NA,14,84,1613
+2024-07-10,3,2,6,Sinker,L,hit_into_play,field_out,70.9,-14,9,2,14,94.7,2263
+2024-07-10,3,2,5,Sinker,L,ball,,NA,NA,NA,NA,13,94.5,2242
+2024-07-10,3,2,4,Changeup,L,ball,,NA,NA,NA,NA,14,86.4,2268
+2024-07-10,3,2,3,Changeup,L,swinging_strike,,NA,NA,NA,NA,6,85,2077
+2024-07-10,3,2,2,Changeup,L,ball,,NA,NA,NA,NA,13,84.9,2037
+2024-07-10,3,2,1,Sinker,L,called_strike,,NA,NA,NA,NA,9,95.3,2241
+2024-07-10,7,1,4,Slider,L,swinging_strike,strikeout,NA,NA,NA,NA,13,83.4,2877
+2024-07-10,7,1,3,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,94.5,2612
+2024-07-10,7,1,2,Slider,L,swinging_strike,,NA,NA,NA,NA,1,81.8,2879
+2024-07-10,7,1,1,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,6,93.9,2462
+2024-07-10,1,0,1,Sinker,L,hit_into_play,single,92.5,7,108,4,6,94,2110
+2024-07-09,5,2,4,4-Seam Fastball,R,ball,walk,NA,NA,NA,NA,11,96.3,2491
+2024-07-09,5,2,3,Cutter,R,ball,,NA,NA,NA,NA,14,90.1,2517
+2024-07-09,5,2,2,Curveball,R,ball,,NA,NA,NA,NA,14,83.6,2732
+2024-07-09,5,2,1,Cutter,R,ball,,NA,NA,NA,NA,12,93.1,2531
+2024-07-09,3,1,2,Cutter,R,hit_into_play,single,68.5,46,206,3,2,91.5,2568
+2024-07-09,3,1,1,Curveball,R,called_strike,,NA,NA,NA,NA,8,82.4,2722
+2024-07-09,1,0,3,4-Seam Fastball,R,swinging_strike,strikeout,NA,NA,NA,NA,12,97.6,2390
+2024-07-09,1,0,2,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,3,96.7,2390
+2024-07-09,1,0,1,4-Seam Fastball,R,foul,,78,42,215,NA,13,96.7,2558
+2024-07-07,4,2,8,Sinker,L,hit_into_play,field_out,95.4,-28,5,2,5,89.5,2085
+2024-07-07,4,2,7,Changeup,L,foul,,106.4,-3,30,NA,14,83,1792
+2024-07-07,4,2,6,Changeup,L,foul,,88.4,-8,13,NA,9,82.3,1713
+2024-07-07,4,2,5,Sinker,L,ball,,NA,NA,NA,NA,13,89.5,2110
+2024-07-07,4,2,4,Changeup,L,blocked_ball,,NA,NA,NA,NA,13,83.2,1687
+2024-07-07,4,2,3,Sinker,L,blocked_ball,,NA,NA,NA,NA,14,89.3,2120
+2024-07-07,4,2,2,Sinker,L,swinging_strike,,NA,NA,NA,NA,12,89.1,2082
+2024-07-07,4,2,1,Sinker,L,called_strike,,NA,NA,NA,NA,7,89.3,2079
+2024-07-07,3,1,6,Sinker,L,hit_into_play,single,109.2,11,209,5,1,88.7,1949
+2024-07-07,3,1,5,Sinker,L,foul,,104.9,3,68,NA,6,87.4,1996
+2024-07-07,3,1,4,Changeup,L,ball,,NA,NA,NA,NA,13,82.6,1728
+2024-07-07,3,1,3,Sinker,L,called_strike,,NA,NA,NA,NA,13,88.6,2031
+2024-07-07,3,1,2,Sinker,L,ball,,NA,NA,NA,NA,13,88.2,1994
+2024-07-07,3,1,1,Sinker,L,ball,,NA,NA,NA,NA,14,87.9,1986
+2024-07-07,6,1,3,Sinker,R,called_strike,strikeout,NA,NA,NA,NA,6,94.1,2130
+2024-07-07,6,1,2,Changeup,R,called_strike,,NA,NA,NA,NA,9,87.6,1575
+2024-07-07,6,1,1,Sinker,R,foul,,75.8,21,203,NA,1,94.2,2084
+2024-07-07,1,0,6,Sinker,L,hit_into_play,field_out,85.6,-32,5,2,1,87.3,2034
+2024-07-07,1,0,5,Sinker,L,called_strike,,NA,NA,NA,NA,1,87.9,1983
+2024-07-07,1,0,4,Changeup,L,ball,,NA,NA,NA,NA,14,81.1,1640
+2024-07-07,1,0,3,Sinker,L,called_strike,,NA,NA,NA,NA,5,87.8,2005
+2024-07-07,9,0,3,Knuckle Curve,R,swinging_strike_blocked,strikeout,NA,NA,NA,NA,14,87.4,2962
+2024-07-07,1,0,2,Sinker,L,ball,,NA,NA,NA,NA,13,88.4,2040
+2024-07-07,9,0,2,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,5,99.5,2434
+2024-07-07,9,0,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,2,98.4,2398
+2024-07-07,1,0,1,Sinker,L,ball,,NA,NA,NA,NA,13,87.7,2019
+2024-07-06,4,1,7,4-Seam Fastball,R,ball,walk,NA,NA,NA,NA,11,97.3,2382
+2024-07-06,4,1,6,Slider,R,foul,,111.5,19,300,NA,6,85.8,2241
+2024-07-06,4,1,5,Slider,R,swinging_strike,,NA,NA,NA,NA,7,84.2,2174
+2024-07-06,4,1,4,Changeup,R,ball,,NA,NA,NA,NA,13,88.3,1549
+2024-07-06,4,1,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,94.6,2317
+2024-07-06,4,1,2,Slider,R,swinging_strike,,NA,NA,NA,NA,4,83.3,2196
+2024-07-06,4,1,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,96.1,2366
+2024-07-06,2,2,4,Slider,R,hit_by_pitch,hit_by_pitch,NA,NA,NA,NA,14,82.2,2300
+2024-07-06,2,2,3,Slider,R,swinging_strike,,NA,NA,NA,NA,9,81.8,2323
+2024-07-06,2,2,2,4-Seam Fastball,R,foul,,NA,NA,NA,NA,11,94.4,2505
+2024-07-06,2,2,1,Changeup,R,ball,,NA,NA,NA,NA,7,88.5,1812
+2024-07-06,6,2,6,Cutter,R,hit_into_play,triple,100.6,24,377,6,6,90.5,1876
+2024-07-06,6,2,5,Sinker,R,foul,,92.9,-22,5,NA,13,94.4,2037
+2024-07-06,6,2,4,Curveball,R,foul,,101.9,11,179,NA,9,81.2,2369
+2024-07-06,6,2,3,Cutter,R,foul,,78.1,53,221,NA,4,91,1911
+2024-07-06,6,2,2,Cutter,R,ball,,NA,NA,NA,NA,13,89.8,1970
+2024-07-06,6,2,1,Changeup,R,swinging_strike,,NA,NA,NA,NA,11,88.2,1665
+2024-07-06,8,1,2,Cutter,L,hit_into_play,home_run,109.9,23,430,6,9,86.1,2127
+2024-07-06,8,1,1,Sweeper,L,foul,,71.4,50,202,NA,3,78.1,2105
+2024-07-06,1,0,7,4-Seam Fastball,R,ball,walk,NA,NA,NA,NA,13,95.7,2474
+2024-07-06,1,0,6,Slider,R,ball,,NA,NA,NA,NA,14,82.9,2369
+2024-07-06,1,0,5,4-Seam Fastball,R,foul,,72.5,45,221,NA,11,94.4,2371
+2024-07-06,1,0,4,Changeup,R,foul,,NA,NA,NA,NA,4,87.4,1962
+2024-07-06,1,0,3,4-Seam Fastball,R,foul,,76.3,48,255,NA,2,92.5,2324
+2024-07-06,1,0,2,Changeup,R,ball,,NA,NA,NA,NA,11,86.8,1634
+2024-07-06,1,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,90.6,2211
+2024-07-05,4,2,5,Sinker,R,foul_tip,strikeout,NA,NA,NA,NA,12,92.9,2280
+2024-07-05,4,2,4,Sweeper,R,called_strike,,NA,NA,NA,NA,1,77.8,3110
+2024-07-05,4,2,3,Cutter,R,ball,,NA,NA,NA,NA,11,86.9,2636
+2024-07-05,4,2,2,Cutter,R,ball,,NA,NA,NA,NA,11,87.3,2578
+2024-07-05,4,2,1,Sinker,R,foul,,102.7,22,357,NA,4,92.6,2161
+2024-07-05,3,0,6,Cutter,R,called_strike,strikeout,NA,NA,NA,NA,1,88.9,2485
+2024-07-05,3,0,5,Cutter,R,called_strike,,NA,NA,NA,NA,3,88.4,2484
+2024-07-05,3,0,4,Sinker,R,ball,,NA,NA,NA,NA,14,92.4,2316
+2024-07-05,3,0,3,Cutter,R,ball,,NA,NA,NA,NA,11,88.5,2684
+2024-07-05,3,0,2,Cutter,R,ball,,NA,NA,NA,NA,12,87.7,2643
+2024-07-05,3,0,1,Sweeper,R,called_strike,,NA,NA,NA,NA,11,78.2,2890
+2024-07-05,8,1,3,Sinker,R,hit_into_play,field_out,80.4,-39,3,2,8,97.9,1952
+2024-07-05,8,1,2,Slider,R,swinging_strike,,NA,NA,NA,NA,14,90.6,2492
+2024-07-05,8,1,1,Slider,R,ball,,NA,NA,NA,NA,14,92.1,2548
+2024-07-05,7,1,4,Sweeper,L,hit_into_play,field_out,97.3,15,277,4,11,84.5,1966
+2024-07-05,7,1,3,4-Seam Fastball,L,ball,,NA,NA,NA,NA,11,92.8,2328
+2024-07-05,7,1,2,Cutter,L,called_strike,,NA,NA,NA,NA,7,87.6,2298
+2024-07-05,7,1,1,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,1,90.9,2319
+2024-07-05,1,0,5,Sweeper,R,swinging_strike,strikeout,NA,NA,NA,NA,7,79.3,2996
+2024-07-05,1,0,4,Sinker,R,ball,,NA,NA,NA,NA,11,93.6,2325
+2024-07-05,1,0,3,Cutter,R,called_strike,,NA,NA,NA,NA,12,89,2579
+2024-07-05,1,0,2,Sweeper,R,ball,,NA,NA,NA,NA,13,78.3,2982
+2024-07-05,1,0,1,Sinker,R,foul,,98.7,44,333,NA,4,92.9,2380
+2024-07-04,4,2,4,4-Seam Fastball,R,called_strike,strikeout,NA,NA,NA,NA,2,94.4,2401
+2024-07-04,4,2,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,95.2,2458
+2024-07-04,4,2,2,Cutter,R,foul,,74.3,-20,7,NA,12,90.5,2471
+2024-07-04,4,2,1,Knuckle Curve,R,swinging_strike_blocked,,NA,NA,NA,NA,14,81.9,2438
+2024-07-04,3,0,4,Knuckle Curve,R,swinging_strike_blocked,strikeout,NA,NA,NA,NA,14,79.8,2434
+2024-07-04,3,0,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,93,2275
+2024-07-04,3,0,2,Cutter,R,called_strike,,NA,NA,NA,NA,1,91.1,2288
+2024-07-04,3,0,1,Knuckle Curve,R,called_strike,,NA,NA,NA,NA,11,80.9,2447
+2024-07-04,7,0,6,Split-Finger,R,swinging_strike,strikeout,NA,NA,NA,NA,9,89.3,820
+2024-07-04,7,0,5,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,100.1,2070
+2024-07-04,7,0,4,Split-Finger,R,ball,,NA,NA,NA,NA,11,89.5,693
+2024-07-04,7,0,3,Split-Finger,R,called_strike,,NA,NA,NA,NA,4,88.1,808
+2024-07-04,7,0,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,98.8,2061
+2024-07-04,7,0,1,Sinker,R,swinging_strike,,NA,NA,NA,NA,7,100.5,1902
+2024-07-04,1,0,6,4-Seam Fastball,R,ball,walk,NA,NA,NA,NA,13,97.6,2291
+2024-07-04,1,0,5,Knuckle Curve,R,ball,,NA,NA,NA,NA,14,83.2,2421
+2024-07-04,1,0,4,Knuckle Curve,R,swinging_strike,,NA,NA,NA,NA,9,84.3,2465
+2024-07-04,1,0,3,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,9,97.4,2297
+2024-07-04,1,0,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,96.9,2442
+2024-07-04,1,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,96.7,2427
+2024-07-03,2,1,7,Curveball,R,swinging_strike_blocked,strikeout,NA,NA,NA,NA,14,87.7,2704
+2024-07-03,2,1,6,Changeup,R,ball,,NA,NA,NA,NA,14,92.1,2146
+2024-07-03,2,1,5,4-Seam Fastball,R,foul,,75.7,58,222,NA,2,95.6,2394
+2024-07-03,2,1,4,Changeup,R,swinging_strike,,NA,NA,NA,NA,13,92.6,1977
+2024-07-03,2,1,3,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,5,95.4,2432
+2024-07-03,2,1,2,Changeup,R,ball,,NA,NA,NA,NA,13,92.1,1957
+2024-07-03,2,1,1,Curveball,R,ball,,NA,NA,NA,NA,13,87.5,2719
+2024-07-03,4,2,3,Slider,R,hit_into_play,field_out,110.2,18,318,6,8,86.5,2665
+2024-07-03,4,2,2,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,2,96,2222
+2024-07-03,4,2,1,Cutter,R,swinging_strike,,NA,NA,NA,NA,2,89.1,2519
+2024-07-03,7,1,4,Curveball,L,hit_into_play,field_out,94.1,47,275,3,9,78.9,2348
+2024-07-03,7,1,3,Sinker,L,foul,,56.9,61,115,NA,12,88.3,2184
+2024-07-03,7,1,2,Sinker,L,ball,,NA,NA,NA,NA,12,88.5,2110
+2024-07-03,7,1,1,Curveball,L,ball,,NA,NA,NA,NA,14,78.5,2409
+2024-07-03,1,0,3,Changeup,R,hit_into_play,single,87.3,-2,34,2,13,92.6,2115
+2024-07-03,1,0,2,Changeup,R,ball,,NA,NA,NA,NA,13,93.5,2235
+2024-07-03,1,0,1,4-Seam Fastball,R,foul,,79.8,77,150,NA,11,95.6,2452
+2024-07-02,5,1,4,Cutter,R,hit_into_play,single,72,26,228,4,12,90.5,2030
+2024-07-02,5,1,3,Cutter,R,ball,,NA,NA,NA,NA,12,89.9,2117
+2024-07-02,5,1,2,Changeup,R,ball,,NA,NA,NA,NA,13,83.7,2011
+2024-07-02,5,1,1,Curveball,R,foul,,74.5,-29,4,NA,6,78.4,2479
+2024-07-02,3,0,6,4-Seam Fastball,R,swinging_strike,strikeout,NA,NA,NA,NA,3,95.7,2106
+2024-07-02,3,0,5,4-Seam Fastball,R,foul,,NA,NA,NA,NA,1,95.5,2167
+2024-07-02,3,0,4,Cutter,R,foul,,NA,NA,NA,NA,5,90.8,2168
+2024-07-02,3,0,3,Changeup,R,ball,,NA,NA,NA,NA,13,85.1,2070
+2024-07-02,3,0,2,Changeup,R,ball,,NA,NA,NA,NA,13,83.4,1954
+2024-07-02,3,0,1,Cutter,R,foul,,NA,NA,NA,NA,3,90.9,2206
+2024-07-02,9,1,4,4-Seam Fastball,R,swinging_strike,strikeout,NA,NA,NA,NA,3,92.8,2497
+2024-07-02,7,0,2,Slider,R,hit_into_play,home_run,112,37,433,6,3,89.7,2426
+2024-07-02,7,0,1,Sinker,R,ball,,NA,NA,NA,NA,11,100.5,1958
+2024-07-02,9,1,3,Changeup,R,foul,,67.6,16,136,NA,5,81.5,1664
+2024-07-02,9,1,2,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,11,92.3,2511
+2024-07-02,9,1,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,93.1,2586
+2024-07-02,1,0,3,Sinker,L,hit_into_play,double,96.3,27,311,5,6,88,2108
+2024-07-02,1,0,2,Curveball,L,ball,,NA,NA,NA,NA,13,77.7,2381
+2024-07-02,1,0,1,Sinker,L,foul,,48.2,49,128,NA,9,88.8,2238
+2024-06-30,5,2,3,Sweeper,R,swinging_strike,strikeout,NA,NA,NA,NA,14,82.2,2242
+2024-06-30,5,2,2,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,12,94.6,1852
+2024-06-30,5,2,1,Sinker,R,swinging_strike,,NA,NA,NA,NA,4,94.6,1772
+2024-06-30,3,2,5,4-Seam Fastball,R,swinging_strike,strikeout,NA,NA,NA,NA,3,95,1984
+2024-06-30,3,2,4,Changeup,R,blocked_ball,,NA,NA,NA,NA,13,88.7,1547
+2024-06-30,3,2,3,Sweeper,R,blocked_ball,,NA,NA,NA,NA,14,81.3,2311
+2024-06-30,3,2,2,Cutter,R,foul,,100.3,-23,5,NA,14,88.8,2125
+2024-06-30,3,2,1,Changeup,R,foul,,95.9,46,294,NA,4,89.4,1650
+2024-06-30,8,0,3,Changeup,R,hit_into_play,field_out,93.2,52,264,3,5,87.9,1579
+2024-06-30,8,0,2,Curveball,R,foul,,70.6,54,194,NA,4,77.3,2982
+2024-06-30,8,0,1,Curveball,R,ball,,NA,NA,NA,NA,13,78.4,3066
+2024-06-30,9,2,4,Slider,R,swinging_strike,strikeout,NA,NA,NA,NA,5,73.6,2423
+2024-06-30,9,2,3,Sinker,R,foul,,70.5,36,203,NA,6,82.4,1941
+2024-06-30,9,2,2,Sinker,R,called_strike,,NA,NA,NA,NA,7,82.8,1916
+2024-06-30,9,2,1,Slider,R,ball,,NA,NA,NA,NA,14,73.4,2250
+2024-06-30,1,0,3,Cutter,R,hit_into_play,field_out,93.8,1,52,2,3,91.1,1997
+2024-06-30,1,0,2,Sinker,R,called_strike,,NA,NA,NA,NA,8,94.3,1592
+2024-06-30,1,0,1,Sinker,R,ball,,NA,NA,NA,NA,13,95,1687
+2024-06-29,4,2,5,4-Seam Fastball,R,ball,walk,NA,NA,NA,NA,11,93.6,2016
+2024-06-29,4,2,4,Slider,R,ball,,NA,NA,NA,NA,4,83.7,2112
+2024-06-29,4,2,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,93.3,1937
+2024-06-29,4,2,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,92.6,1849
+2024-06-29,4,2,1,Slider,R,called_strike,,NA,NA,NA,NA,4,84.9,2016
+2024-06-29,3,1,6,Slider,R,hit_into_play,home_run,109.7,35,412,6,2,85.6,2017
+2024-06-29,3,1,5,4-Seam Fastball,R,foul,,83.9,47,249,NA,4,95.1,1959
+2024-06-29,3,1,4,4-Seam Fastball,R,foul,,77.6,57,213,NA,1,94.5,2122
+2024-06-29,3,1,3,Slider,R,ball,,NA,NA,NA,NA,9,84.2,2160
+2024-06-29,3,1,2,4-Seam Fastball,R,foul_tip,,NA,NA,NA,NA,6,93.6,2107
+2024-06-29,3,1,1,Slider,R,swinging_strike,,NA,NA,NA,NA,4,84.8,2199
+2024-06-29,6,2,4,Sinker,L,hit_into_play,field_out,84.6,42,259,3,5,92.9,2005
+2024-06-29,6,2,3,Sinker,L,called_strike,,NA,NA,NA,NA,5,93.2,2077
+2024-06-29,6,2,2,Sinker,L,ball,,NA,NA,NA,NA,13,92.7,2060
+2024-06-29,6,2,1,Sinker,L,called_strike,,NA,NA,NA,NA,13,93.6,2070
+2024-06-29,1,0,7,Slider,L,foul_tip,strikeout,NA,NA,NA,NA,4,82.9,2588
+2024-06-29,1,0,6,Changeup,L,foul,,69.2,-23,6,NA,12,84.6,1704
+2024-06-29,1,0,5,4-Seam Fastball,L,ball,,NA,NA,NA,NA,11,98.1,2330
+2024-06-29,1,0,4,Slider,L,called_strike,,NA,NA,NA,NA,2,81.2,2637
+2024-06-29,1,0,3,4-Seam Fastball,L,ball,,NA,NA,NA,NA,12,97.1,1606
+2024-06-29,9,0,3,Slider,R,swinging_strike,strikeout,NA,NA,NA,NA,14,90.1,2432
+2024-06-29,1,0,2,Slider,L,ball,,NA,NA,NA,NA,13,82.6,2591
+2024-06-29,9,0,2,Cutter,R,foul,,81.3,55,227,NA,3,100.5,2313
+2024-06-29,9,0,1,Cutter,R,swinging_strike,,NA,NA,NA,NA,2,100,2310
+2024-06-29,1,0,1,4-Seam Fastball,L,foul,,84.6,10,141,NA,1,98.1,1691
+2024-06-28,3,1,5,Sinker,R,hit_into_play,field_out,107.1,-19,8,2,5,93.1,1897
+2024-06-28,3,1,4,Cutter,R,called_strike,,NA,NA,NA,NA,1,91.1,2176
+2024-06-28,3,1,3,Changeup,R,called_strike,,NA,NA,NA,NA,13,84.7,1564
+2024-06-28,3,1,2,Sinker,R,ball,,NA,NA,NA,NA,11,92.7,1931
+2024-06-28,3,1,1,Sinker,R,ball,,NA,NA,NA,NA,13,92.5,1937
+2024-06-28,1,0,3,Sinker,R,called_strike,strikeout,NA,NA,NA,NA,11,94.5,1937
+2024-06-28,8,0,3,Sinker,R,hit_into_play,single,68.7,15,120,2,12,82.6,1952
+2024-06-28,8,0,2,Sinker,R,foul,,68.9,45,191,NA,4,82,1945
+2024-06-28,1,0,2,Cutter,R,foul,,60.7,65,133,NA,12,89.7,2392
+2024-06-28,8,0,1,Sinker,R,called_strike,,NA,NA,NA,NA,4,82.2,1900
+2024-06-28,1,0,1,Sinker,R,called_strike,,NA,NA,NA,NA,12,93,2011
+2024-06-26,5,0,1,Cutter,R,hit_into_play,field_out,72.3,70,101,3,3,88.7,2083
+2024-06-26,3,0,4,Changeup,R,ball,walk,NA,NA,NA,NA,13,88.8,1832
+2024-06-26,3,0,3,Sinker,R,ball,,NA,NA,NA,NA,13,93,1864
+2024-06-26,3,0,2,Changeup,R,ball,,NA,NA,NA,NA,13,87.9,1675
+2024-06-26,3,0,1,Sinker,R,ball,,NA,NA,NA,NA,7,93.3,1921
+2024-06-26,7,2,6,4-Seam Fastball,R,ball,walk,NA,NA,NA,NA,14,95.8,2529
+2024-06-26,7,2,5,Slider,R,foul,,66.8,53,177,NA,6,84.8,2793
+2024-06-26,7,2,4,Slider,R,ball,,NA,NA,NA,NA,14,84.1,2943
+2024-06-26,7,2,3,Changeup,R,called_strike,,NA,NA,NA,NA,7,82.3,2320
+2024-06-26,7,2,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,94.7,2551
+2024-06-26,7,2,1,Changeup,R,ball,,NA,NA,NA,NA,11,82.7,2334
+2024-06-26,1,0,6,Cutter,R,hit_into_play,home_run,113.9,26,437,6,1,90.9,2084
+2024-06-26,1,0,5,Cutter,R,ball,,NA,NA,NA,NA,11,90.7,2168
+2024-06-26,1,0,4,Cutter,R,called_strike,,NA,NA,NA,NA,2,89.5,2193
+2024-06-26,1,0,3,Sinker,R,ball,,NA,NA,NA,NA,13,94,2048
+2024-06-26,1,0,2,Cutter,R,called_strike,,NA,NA,NA,NA,2,90.7,2120
+2024-06-26,1,0,1,Cutter,R,ball,,NA,NA,NA,NA,12,89.8,2067
+2024-06-25,4,2,2,Cutter,R,hit_into_play,single,109.5,-9,8,2,14,89.6,2473
+2024-06-25,4,2,1,Cutter,R,foul,,74.9,60,194,NA,6,89.2,2477
+2024-06-25,3,0,6,4-Seam Fastball,R,ball,walk,NA,NA,NA,NA,7,93.5,2282
+2024-06-25,3,0,5,Cutter,R,called_strike,,NA,NA,NA,NA,5,88.4,2415
+2024-06-25,3,0,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,92.9,2264
+2024-06-25,3,0,3,Changeup,R,ball,,NA,NA,NA,NA,13,81.8,1350
+2024-06-25,3,0,2,Cutter,R,ball,,NA,NA,NA,NA,13,86.4,2424
+2024-06-25,3,0,1,Cutter,R,called_strike,,NA,NA,NA,NA,7,86.1,2419
+2024-06-25,9,1,4,4-Seam Fastball,R,swinging_strike,strikeout,NA,NA,NA,NA,3,95.4,2370
+2024-06-25,6,2,6,Sinker,L,swinging_strike,strikeout,NA,NA,NA,NA,3,93.3,2131
+2024-06-25,9,1,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,95.2,2401
+2024-06-25,9,1,2,4-Seam Fastball,R,foul,,77.1,18,192,NA,2,94.5,2355
+2024-06-25,1,0,5,Curveball,R,hit_into_play,home_run,93.8,31,376,3,4,72.9,2666
+2024-06-25,6,2,5,Sweeper,L,ball,,NA,NA,NA,NA,13,83.9,2437
+2024-06-25,9,1,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,2,93.5,2370
+2024-06-25,6,2,4,Slider,L,called_strike,,NA,NA,NA,NA,4,88.6,2463
+2024-06-25,1,0,4,Changeup,R,called_strike,,NA,NA,NA,NA,4,81.4,1272
+2024-06-25,1,0,3,Cutter,R,called_strike,,NA,NA,NA,NA,2,89.2,2403
+2024-06-25,6,2,3,Sinker,L,ball,,NA,NA,NA,NA,14,92.7,2148
+2024-06-25,1,0,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,91.9,2045
+2024-06-25,6,2,2,Sweeper,L,ball,,NA,NA,NA,NA,13,84.3,2454
+2024-06-25,1,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,91.7,2140
+2024-06-25,6,2,1,Sinker,L,swinging_strike,,NA,NA,NA,NA,14,92,2068
+2024-06-24,5,2,4,4-Seam Fastball,L,called_strike,strikeout,NA,NA,NA,NA,5,98.9,2544
+2024-06-24,5,2,3,Cutter,L,foul,,71.7,39,238,NA,5,90.7,2659
+2024-06-24,5,2,2,Cutter,L,called_strike,,NA,NA,NA,NA,8,89.7,2603
+2024-06-24,5,2,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,11,97.8,2654
+2024-06-24,3,1,2,Sweeper,L,hit_into_play,field_out,76.2,-11,9,2,7,85,2512
+2024-06-24,3,1,1,Cutter,L,swinging_strike,,NA,NA,NA,NA,2,93.3,2653
+2024-06-24,9,1,1,Cutter,R,hit_into_play,sac_fly,96.9,37,336,3,2,90.5,2384
+2024-06-24,7,2,4,Slider,L,ball,walk,NA,NA,NA,NA,11,88.8,2409
+2024-06-24,7,2,3,Sinker,L,ball,,NA,NA,NA,NA,13,92.7,2070
+2024-06-24,1,0,5,Cutter,L,foul_tip,strikeout,NA,NA,NA,NA,2,91.2,2644
+2024-06-24,7,2,2,Slider,L,ball,,NA,NA,NA,NA,11,88.9,2421
+2024-06-24,1,0,4,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,98.7,2555
+2024-06-24,7,2,1,Sinker,L,ball,,NA,NA,NA,NA,13,93.6,2217
+2024-06-24,1,0,3,4-Seam Fastball,L,ball,,NA,NA,NA,NA,11,98.3,2583
+2024-06-24,1,0,2,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,5,98.2,2724
+2024-06-24,1,0,1,4-Seam Fastball,L,swinging_strike,,NA,NA,NA,NA,12,97,2622
+2024-06-22,3,0,3,Slider,R,hit_into_play,home_run,115.5,24,459,6,8,84.9,2056
+2024-06-22,3,0,2,Slider,R,ball,,NA,NA,NA,NA,11,85.6,1971
+2024-06-22,3,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,90.9,2102
+2024-06-22,8,2,1,Changeup,R,hit_into_play,field_out,81.1,-7,16,2,13,88.1,1992
+2024-06-22,6,0,5,Changeup,R,hit_into_play,field_out,87.8,-6,13,2,7,87.3,1220
+2024-06-22,4,1,4,4-Seam Fastball,R,ball,walk,NA,NA,NA,NA,14,93.6,2199
+2024-06-22,6,0,4,Slider,R,ball,,NA,NA,NA,NA,11,84,2205
+2024-06-22,1,0,4,Changeup,R,hit_into_play,field_out,80.4,24,270,4,13,85.2,1642
+2024-06-22,4,1,3,Changeup,R,ball,,NA,NA,NA,NA,13,88,1379
+2024-06-22,1,0,3,Slider,R,ball,,NA,NA,NA,NA,14,85.2,2012
+2024-06-22,6,0,3,Slider,R,swinging_strike,,NA,NA,NA,NA,14,84.6,2190
+2024-06-22,4,1,2,Changeup,R,ball,,NA,NA,NA,NA,13,88.2,1423
+2024-06-22,1,0,2,Slider,R,called_strike,,NA,NA,NA,NA,3,84.5,2049
+2024-06-22,6,0,2,Sinker,R,called_strike,,NA,NA,NA,NA,8,92.6,2321
+2024-06-22,4,1,1,Changeup,R,ball,,NA,NA,NA,NA,13,88.7,1320
+2024-06-22,1,0,1,4-Seam Fastball,R,foul,,82.5,65,209,NA,1,91.2,2046
+2024-06-22,6,0,1,Sinker,R,ball,,NA,NA,NA,NA,13,92.9,2337
+2024-06-21,3,1,7,Sinker,L,ball,walk,NA,NA,NA,NA,12,89.3,1898
+2024-06-21,3,1,6,Slider,L,foul,,74.2,45,231,NA,7,88.6,2646
+2024-06-21,3,1,5,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,96,2169
+2024-06-21,3,1,4,Sweeper,L,ball,,NA,NA,NA,NA,13,80.6,2758
+2024-06-21,3,1,3,Sinker,L,ball,,NA,NA,NA,NA,11,93.9,2068
+2024-06-21,3,1,2,Sweeper,L,foul,,62.8,-55,2,NA,5,80.5,2587
+2024-06-21,3,1,1,Slider,L,foul,,NA,NA,NA,NA,1,85.9,2515
+2024-06-21,5,2,3,4-Seam Fastball,L,hit_into_play,home_run,113.1,27,455,6,5,91.1,2230
+2024-06-21,1,0,6,Slider,L,ball,walk,NA,NA,NA,NA,7,89.1,2666
+2024-06-21,5,2,2,Knuckle Curve,L,ball,,NA,NA,NA,NA,13,83.4,2220
+2024-06-21,1,0,5,Slider,L,called_strike,,NA,NA,NA,NA,4,91.1,2397
+2024-06-21,5,2,1,Knuckle Curve,L,called_strike,,NA,NA,NA,NA,5,82.5,2297
+2024-06-21,1,0,4,Sweeper,L,ball,,NA,NA,NA,NA,13,82.4,2721
+2024-06-21,1,0,3,Sinker,L,ball,,NA,NA,NA,NA,12,95.5,1998
+2024-06-21,8,1,2,Split-Finger,R,hit_into_play,single,94.5,4,68,4,5,87.5,1341
+2024-06-21,8,1,1,Split-Finger,R,ball,,NA,NA,NA,NA,13,87.5,1378
+2024-06-21,1,0,2,Sinker,L,swinging_strike,,NA,NA,NA,NA,12,93.5,1854
+2024-06-21,1,0,1,Sinker,L,ball,,NA,NA,NA,NA,12,93.4,1799
+2024-06-20,4,1,6,Changeup,L,swinging_strike,strikeout,NA,NA,NA,NA,7,81.1,2114
+2024-06-20,4,1,5,Sinker,L,ball,,NA,NA,NA,NA,11,90.2,2255
+2024-06-20,4,1,4,Cutter,L,ball,,NA,NA,NA,NA,13,84.2,2488
+2024-06-20,4,1,3,Curveball,L,foul,,72.9,57,202,NA,5,80.5,2464
+2024-06-20,4,1,2,Changeup,L,ball,,NA,NA,NA,NA,13,79.3,2154
+2024-06-20,4,1,1,Sinker,L,called_strike,,NA,NA,NA,NA,5,89.8,2088
+2024-06-20,2,2,5,Changeup,L,ball,walk,NA,NA,NA,NA,12,81.5,2039
+2024-06-20,2,2,4,Curveball,L,ball,,NA,NA,NA,NA,7,80.2,2376
+2024-06-20,2,2,3,Cutter,L,foul_tip,,NA,NA,NA,NA,5,83.6,2283
+2024-06-20,2,2,2,Sinker,L,ball,,NA,NA,NA,NA,14,89.8,2173
+2024-06-20,2,2,1,Cutter,L,ball,,NA,NA,NA,NA,14,84.2,2269
+2024-06-20,6,0,5,Changeup,R,hit_into_play,field_out,95.4,38,378,3,7,82.7,1725
+2024-06-20,6,0,4,Curveball,R,called_strike,,NA,NA,NA,NA,6,81.5,2348
+2024-06-20,6,0,3,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,1,93.3,2071
+2024-06-20,6,0,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,1,94.1,2083
+2024-06-20,6,0,1,Changeup,R,ball,,NA,NA,NA,NA,11,83.8,1836
+2024-06-20,8,2,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,97.5,2483
+2024-06-20,8,2,1,Slider,R,foul,,71.1,39,234,NA,8,89.1,2747
+2024-06-20,1,0,4,Sinker,L,hit_into_play,home_run,101.5,29,427,6,5,89.1,2034
+2024-06-20,1,0,3,Curveball,L,ball,,NA,NA,NA,NA,13,80,2373
+2024-06-20,1,0,2,Sinker,L,ball,,NA,NA,NA,NA,8,88.5,1930
+2024-06-20,1,0,1,Sinker,L,called_strike,,NA,NA,NA,NA,7,89.3,2011
+2024-06-19,4,2,2,4-Seam Fastball,R,hit_into_play,field_out,106.4,-10,15,2,2,95.3,2333
+2024-06-19,4,2,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,9,95.1,2337
+2024-06-19,2,2,3,4-Seam Fastball,R,hit_into_play,double,108.5,12,265,5,2,96.5,2439
+2024-06-19,2,2,2,Curveball,R,ball,,NA,NA,NA,NA,13,80.2,2705
+2024-06-19,2,2,1,Curveball,R,swinging_strike_blocked,,NA,NA,NA,NA,14,81.3,2702
+2024-06-19,8,2,3,Slider,R,called_strike,strikeout,NA,NA,NA,NA,8,86.1,2931
+2024-06-19,8,2,2,Slider,R,foul,,81.7,-27,6,NA,12,85.9,2872
+2024-06-19,8,2,1,Sinker,R,foul,,82.3,10,140,NA,5,95.7,2006
+2024-06-19,6,2,5,Curveball,R,hit_into_play,single,104.3,13,222,4,9,82.9,2712
+2024-06-19,6,2,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,97.6,2330
+2024-06-19,6,2,3,Curveball,R,foul,,75.4,60,209,NA,5,82.6,2676
+2024-06-19,6,2,2,4-Seam Fastball,R,foul,,81.9,20,225,NA,2,97.1,2380
+2024-06-19,6,2,1,Curveball,R,called_strike,,NA,NA,NA,NA,2,82.2,2658
+2024-06-19,1,0,1,4-Seam Fastball,R,hit_into_play,field_out,93.4,64,206,3,2,94.7,2327
+2024-06-18,6,0,3,Slider,L,hit_into_play,home_run,113,30,476,6,6,83.9,2353
+2024-06-18,6,0,2,Changeup,L,ball,,NA,NA,NA,NA,9,80.6,1634
+2024-06-18,6,0,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,14,90.2,2052
+2024-06-18,3,1,1,Knuckle Curve,L,hit_into_play,field_out,73.8,6,79,2,12,76.4,2530
+2024-06-18,7,2,5,4-Seam Fastball,L,hit_into_play,field_out,111.7,17,371,6,2,94.4,2345
+2024-06-18,7,2,4,Cutter,L,ball,,NA,NA,NA,NA,13,84.2,2336
+2024-06-18,7,2,3,4-Seam Fastball,L,ball,,NA,NA,NA,NA,14,95.2,2286
+2024-06-18,7,2,2,Cutter,L,blocked_ball,,NA,NA,NA,NA,13,84.7,2427
+2024-06-18,7,2,1,Cutter,L,swinging_strike,,NA,NA,NA,NA,8,84,2206
+2024-06-18,1,0,6,Slider,L,hit_into_play,field_out,97.7,-21,6,2,4,86.2,2302
+2024-06-18,1,0,5,Knuckle Curve,L,ball,,NA,NA,NA,NA,13,78,2695
+2024-06-18,1,0,4,Slider,L,foul,,62.5,-61,1,NA,4,86.1,2181
+2024-06-18,1,0,3,Slider,L,ball,,NA,NA,NA,NA,13,86.9,2226
+2024-06-18,9,1,3,Changeup,R,hit_into_play,single,115.3,-3,29,4,5,91.3,2067
+2024-06-18,1,0,2,4-Seam Fastball,L,foul,,77,9,124,NA,2,92.3,1900
+2024-06-18,9,1,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,100.1,2299
+2024-06-18,1,0,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,91.1,1933
+2024-06-18,9,1,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,4,99.8,2380
+2024-06-17,4,1,4,Split-Finger,R,hit_into_play,double,100.2,18,311,4,4,85.3,971
+2024-06-17,4,1,3,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,13,93.3,2148
+2024-06-17,4,1,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,93.3,2156
+2024-06-17,4,1,1,Curveball,R,swinging_strike,,NA,NA,NA,NA,11,79.7,2475
+2024-06-17,2,2,6,Split-Finger,R,hit_into_play,single,107.3,-4,28,2,5,85.2,906
+2024-06-17,2,2,5,Split-Finger,R,swinging_strike,,NA,NA,NA,NA,8,85.1,933
+2024-06-17,2,2,4,Split-Finger,R,ball,,NA,NA,NA,NA,11,84.8,921
+2024-06-17,2,2,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,94,2149
+2024-06-17,2,2,2,Split-Finger,R,ball,,NA,NA,NA,NA,13,85.1,979
+2024-06-17,2,2,1,Split-Finger,R,called_strike,,NA,NA,NA,NA,1,84.8,910
+2024-06-17,9,0,3,Sinker,R,hit_into_play,field_out,104,-15,9,2,5,94.6,2311
+2024-06-17,9,0,2,Sinker,R,swinging_strike,,NA,NA,NA,NA,9,93.3,2280
+2024-06-17,9,0,1,Sweeper,R,ball,,NA,NA,NA,NA,14,84.2,2934
+2024-06-17,8,0,7,Sinker,R,ball,walk,NA,NA,NA,NA,9,96.4,2394
+2024-06-17,8,0,6,Slider,R,ball,,NA,NA,NA,NA,11,88,2306
+2024-06-17,8,0,5,Slider,R,foul,,36.7,-71,1,NA,9,87.3,2597
+2024-06-17,8,0,4,Cutter,R,called_strike,,NA,NA,NA,NA,8,92.7,2618
+2024-06-17,6,1,3,Sinker,R,hit_into_play,double,104.3,11,232,4,5,95.1,2080
+2024-06-17,8,0,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,97.6,2429
+2024-06-17,6,1,2,Sinker,R,ball,,NA,NA,NA,NA,11,94.4,2109
+2024-06-17,8,0,2,Sinker,R,foul,,93.8,36,324,NA,5,95.9,2267
+2024-06-17,6,1,1,Slider,R,ball,,NA,NA,NA,NA,14,87.1,2751
+2024-06-17,8,0,1,Sinker,R,ball,,NA,NA,NA,NA,13,95.5,2275
+2024-06-17,1,0,5,4-Seam Fastball,R,hit_into_play,field_out,107.8,-10,12,2,5,95.6,2136
+2024-06-17,1,0,4,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,8,93.8,2154
+2024-06-17,1,0,3,Split-Finger,R,ball,,NA,NA,NA,NA,13,86.1,954
+2024-06-17,1,0,2,Changeup,R,swinging_strike,,NA,NA,NA,NA,7,84.9,1535
+2024-06-17,1,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,94.6,2170
+2024-06-16,6,0,1,Slider,R,hit_into_play,home_run,110.7,39,400,6,9,79.7,2370
+2024-06-16,3,1,4,Sinker,R,hit_into_play,home_run,114.3,27,451,6,8,92.5,2253
+2024-06-16,3,1,3,Slider,R,swinging_strike,,NA,NA,NA,NA,14,83,2274
+2024-06-16,3,1,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,91.2,2326
+2024-06-16,3,1,1,Slider,R,ball,,NA,NA,NA,NA,13,81.3,2272
+2024-06-16,1,1,7,Sinker,R,ball,walk,NA,NA,NA,NA,13,93.2,2203
+2024-06-16,1,1,6,Slider,R,foul,,111.2,48,354,NA,2,81.7,2198
+2024-06-16,1,1,5,Slider,R,foul,,80,-19,6,NA,8,83.2,2376
+2024-06-16,1,1,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,91.6,2276
+2024-06-16,1,1,3,Changeup,R,ball,,NA,NA,NA,NA,11,86.3,1772
+2024-06-16,1,1,2,Slider,R,ball,,NA,NA,NA,NA,13,81.5,2456
+2024-06-16,1,1,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,2,91.7,2327
+2024-06-16,7,2,3,Slider,L,hit_into_play,field_out,91.8,24,346,3,4,86.9,2420
+2024-06-16,7,2,2,Sinker,L,called_strike,,NA,NA,NA,NA,8,96.2,2102
+2024-06-16,7,2,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,11,96.1,2067
+2024-06-15,5,1,8,4-Seam Fastball,R,hit_into_play,field_out,98.5,-17,8,2,5,93.7,2392
+2024-06-15,5,1,7,Curveball,R,ball,,NA,NA,NA,NA,13,82.1,3464
+2024-06-15,5,1,6,4-Seam Fastball,R,foul,,82.9,54,227,NA,1,92.5,2386
+2024-06-15,5,1,5,Curveball,R,foul,,67.4,-31,4,NA,5,81.1,3382
+2024-06-15,5,1,4,Curveball,R,ball,,NA,NA,NA,NA,14,82.1,3439
+2024-06-15,5,1,3,Cutter,R,ball,,NA,NA,NA,NA,14,90.7,2362
+2024-06-15,5,1,2,Changeup,R,swinging_strike,,NA,NA,NA,NA,13,88.5,1606
+2024-06-15,5,1,1,Curveball,R,called_strike,,NA,NA,NA,NA,4,80.6,3278
+2024-06-15,3,2,2,Curveball,R,hit_into_play,field_out,100,8,130,4,6,82.5,3368
+2024-06-15,3,2,1,Cutter,R,ball,,NA,NA,NA,NA,14,91.2,2445
+2024-06-15,1,0,1,4-Seam Fastball,R,hit_into_play,grounded_into_double_play,104,-5,24,2,4,91.9,2129
+2024-06-15,7,2,4,4-Seam Fastball,L,ball,walk,NA,NA,NA,NA,13,93.4,2217
+2024-06-15,7,2,3,Slider,L,ball,,NA,NA,NA,NA,13,85.1,2230
+2024-06-15,7,2,2,4-Seam Fastball,L,blocked_ball,,NA,NA,NA,NA,13,94.1,2243
+2024-06-15,7,2,1,Slider,L,ball,,NA,NA,NA,NA,13,84.1,2354
+2024-06-14,6,0,4,Cutter,L,hit_into_play,single,87,18,261,4,7,91.9,2550
+2024-06-14,6,0,3,Slider,L,ball,,NA,NA,NA,NA,13,87.9,2631
+2024-06-14,6,0,2,Cutter,L,swinging_strike,,NA,NA,NA,NA,7,90,2578
+2024-06-14,6,0,1,Cutter,L,ball,,NA,NA,NA,NA,13,90,2398
+2024-06-14,4,1,5,Slider,L,hit_into_play,single,105.8,3,79,4,9,86.5,2653
+2024-06-14,4,1,4,Slider,L,called_strike,,NA,NA,NA,NA,8,89.7,2605
+2024-06-14,4,1,3,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,7,94.6,2548
+2024-06-14,4,1,2,Slider,L,ball,,NA,NA,NA,NA,13,87.4,2690
+2024-06-14,4,1,1,Cutter,L,ball,,NA,NA,NA,NA,13,90.8,2557
+2024-06-14,8,1,5,Slider,L,hit_into_play,field_out,83.4,56,195,3,4,83,2452
+2024-06-14,8,1,4,Slider,L,blocked_ball,,NA,NA,NA,NA,13,83.3,2514
+2024-06-14,8,1,3,4-Seam Fastball,L,foul,,95.9,26,326,NA,2,93.1,2209
+2024-06-14,8,1,2,Slider,L,foul_tip,,NA,NA,NA,NA,8,82.8,2498
+2024-06-14,1,1,2,4-Seam Fastball,L,hit_into_play,field_out,99.4,-3,24,2,8,98,2585
+2024-06-14,8,1,1,Slider,L,blocked_ball,,NA,NA,NA,NA,13,81.5,2509
+2024-06-14,1,1,1,Slider,L,foul,,83.9,57,216,NA,2,87.6,2603
+2024-06-13,6,1,2,Cutter,R,hit_into_play,field_out,96.1,-13,11,2,2,91.1,2424
+2024-06-13,6,1,1,Changeup,R,ball,,NA,NA,NA,NA,11,83.7,2071
+2024-06-13,3,2,6,Sinker,R,hit_into_play,field_out,98,17,286,4,5,95.2,2199
+2024-06-13,3,2,5,Changeup,R,foul,,68.7,-25,4,NA,13,86.1,2043
+2024-06-13,3,2,4,Sinker,R,ball,,NA,NA,NA,NA,14,94.9,2180
+2024-06-13,3,2,3,Cutter,R,swinging_strike,,NA,NA,NA,NA,7,91.3,2551
+2024-06-13,3,2,2,Changeup,R,ball,,NA,NA,NA,NA,11,84.5,2093
+2024-06-13,3,2,1,Cutter,R,swinging_strike,,NA,NA,NA,NA,14,90.8,2538
+2024-06-13,8,1,3,Knuckle Curve,R,swinging_strike_blocked,strikeout,NA,NA,NA,NA,14,87.5,2642
+2024-06-13,8,1,2,Cutter,R,foul,,88.2,73,129,NA,12,94.4,2616
+2024-06-13,8,1,1,Cutter,R,called_strike,,NA,NA,NA,NA,6,95.2,2640
+2024-06-13,1,1,2,Changeup,R,hit_into_play,field_out,92.3,-6,19,2,13,85.8,2006
+2024-06-13,1,1,1,Cutter,R,called_strike,,NA,NA,NA,NA,6,91.6,2576
+2024-06-12,3,0,2,Changeup,R,hit_into_play,field_out,112.5,15,321,6,4,89.2,1587
+2024-06-12,3,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,1,96.3,2074
+2024-06-12,5,2,4,4-Seam Fastball,L,hit_into_play,field_out,104.4,58,228,3,2,94.1,2291
+2024-06-12,5,2,3,Slider,L,foul,,101.9,18,252,NA,2,84.7,2714
+2024-06-12,5,2,2,Slider,L,ball,,NA,NA,NA,NA,11,84.1,2771
+2024-06-12,5,2,1,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,8,94.6,2599
+2024-06-12,1,1,6,Slider,R,hit_into_play,home_run,105.2,26,424,6,5,89.8,2234
+2024-06-12,1,1,5,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,96.3,1892
+2024-06-12,1,1,4,Slider,R,ball,,NA,NA,NA,NA,14,90.8,2546
+2024-06-12,1,1,3,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,9,96.7,2154
+2024-06-12,1,1,2,Slider,R,called_strike,,NA,NA,NA,NA,8,90.1,2316
+2024-06-12,1,1,1,Slider,R,ball,,NA,NA,NA,NA,14,90.8,2307
+2024-06-12,8,1,3,Knuckle Curve,R,swinging_strike,strikeout,NA,NA,NA,NA,14,85.8,2715
+2024-06-12,8,1,2,Cutter,R,called_strike,,NA,NA,NA,NA,11,94.4,2596
+2024-06-12,8,1,1,Cutter,R,foul,,65.2,-55,2,NA,2,93.3,2595
+2024-06-11,3,1,5,Cutter,R,ball,walk,NA,NA,NA,NA,13,86.9,2194
+2024-06-11,3,1,4,Sinker,R,called_strike,,NA,NA,NA,NA,4,88,2062
+2024-06-11,3,1,3,Cutter,R,ball,,NA,NA,NA,NA,14,88.7,2227
+2024-06-11,3,1,2,Cutter,R,ball,,NA,NA,NA,NA,14,87.9,2244
+2024-06-11,3,1,1,Changeup,R,ball,,NA,NA,NA,NA,13,83.9,1947
+2024-06-11,7,1,4,Slider,R,hit_by_pitch,hit_by_pitch,NA,NA,NA,NA,14,86.2,2413
+2024-06-11,7,1,3,Slider,R,ball,,NA,NA,NA,NA,11,84.6,2617
+2024-06-11,7,1,2,Sinker,R,foul,,71.4,44,212,NA,2,96.4,2277
+2024-06-11,6,1,6,4-Seam Fastball,R,hit_into_play,home_run,114.2,23,433,6,2,92.2,2303
+2024-06-11,6,1,5,Changeup,R,blocked_ball,,NA,NA,NA,NA,13,85.9,1729
+2024-06-11,7,1,1,Slider,R,called_strike,,NA,NA,NA,NA,13,84.9,2549
+2024-06-11,6,1,4,4-Seam Fastball,R,foul,,NA,NA,NA,NA,3,92.3,2450
+2024-06-11,1,1,6,Changeup,R,ball,walk,NA,NA,NA,NA,14,85.3,1870
+2024-06-11,6,1,3,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,4,91.8,2378
+2024-06-11,1,1,5,Sinker,R,ball,,NA,NA,NA,NA,12,91.1,2062
+2024-06-11,1,1,4,Changeup,R,swinging_strike,,NA,NA,NA,NA,8,87.1,1936
+2024-06-11,6,1,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,91.7,2332
+2024-06-11,6,1,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,2,92.2,2305
+2024-06-11,1,1,3,Cutter,R,ball,,NA,NA,NA,NA,12,88.3,2226
+2024-06-11,1,1,2,Sinker,R,called_strike,,NA,NA,NA,NA,14,90.5,2126
+2024-06-11,4,2,4,Slider,R,swinging_strike,strikeout,NA,NA,NA,NA,14,85.6,2544
+2024-06-11,1,1,1,Cutter,R,ball,,NA,NA,NA,NA,11,88.4,2184
+2024-06-11,4,2,3,Slider,R,ball,,NA,NA,NA,NA,13,87.7,2547
+2024-06-11,4,2,2,Changeup,R,swinging_strike,,NA,NA,NA,NA,7,90.3,2203
+2024-06-11,4,2,1,Sinker,R,foul,,76.5,-36,2,NA,14,97.7,2281
+2024-06-09,5,2,2,Changeup,R,hit_into_play,field_out,94.7,37,337,3,1,92.4,1784
+2024-06-09,5,2,1,Changeup,R,swinging_strike,,NA,NA,NA,NA,8,92,1826
+2024-06-09,3,2,4,Changeup,R,hit_into_play,field_out,95.2,24,342,5,8,93.5,1790
+2024-06-09,3,2,3,Slider,R,ball,,NA,NA,NA,NA,14,85.6,2523
+2024-06-09,3,2,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,97.4,2442
+2024-06-09,3,2,1,4-Seam Fastball,R,foul,,78.5,61,213,NA,5,97.6,2612
+2024-06-09,1,1,3,4-Seam Fastball,R,hit_into_play,field_out,79.2,48,245,3,3,97.7,2596
+2024-06-09,8,0,5,4-Seam Fastball,R,hit_into_play,double,60.3,14,104,2,12,97.1,2507
+2024-06-09,8,0,4,4-Seam Fastball,R,foul,,72.6,57,202,NA,11,96.5,2527
+2024-06-09,1,1,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,96.4,2461
+2024-06-09,1,1,1,Changeup,R,swinging_strike,,NA,NA,NA,NA,13,93.2,1728
+2024-06-09,8,0,3,Cutter,R,ball,,NA,NA,NA,NA,14,92.2,2573
+2024-06-09,8,0,2,4-Seam Fastball,R,foul,,81.3,45,244,NA,5,96,2498
+2024-06-09,8,0,1,Cutter,R,called_strike,,NA,NA,NA,NA,3,93.2,2590
+2024-06-08,6,0,3,Sweeper,L,hit_into_play,field_out,78.2,64,156,3,13,77.7,2672
+2024-06-08,6,0,2,4-Seam Fastball,L,foul,,82,67,187,NA,6,92,2351
+2024-06-08,6,0,1,Sweeper,L,called_strike,,NA,NA,NA,NA,2,80,2647
+2024-06-08,3,1,6,4-Seam Fastball,L,hit_into_play,single,99.3,10,213,4,11,95.1,2287
+2024-06-08,3,1,5,4-Seam Fastball,L,foul,,80.8,42,250,NA,8,94.3,2314
+2024-06-08,3,1,4,Cutter,L,foul,,65.1,-50,2,NA,13,91.1,2551
+2024-06-08,3,1,3,Cutter,L,ball,,NA,NA,NA,NA,13,90.8,2528
+2024-06-08,3,1,2,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,93.7,2412
+2024-06-08,3,1,1,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,7,94.8,2439
+2024-06-08,9,2,4,Cutter,R,ball,walk,NA,NA,NA,NA,14,92.5,2597
+2024-06-08,9,2,3,Sinker,R,ball,,NA,NA,NA,NA,11,95.3,2563
+2024-06-08,9,2,2,Changeup,R,ball,,NA,NA,NA,NA,14,89.2,2213
+2024-06-08,9,2,1,Sinker,R,ball,,NA,NA,NA,NA,14,94.5,2562
+2024-06-08,1,1,7,Cutter,L,foul_tip,strikeout,NA,NA,NA,NA,4,88.5,2620
+2024-06-08,1,1,6,Sweeper,L,ball,,NA,NA,NA,NA,13,81.5,2763
+2024-06-08,8,0,4,4-Seam Fastball,R,hit_into_play,fielders_choice,73.1,3,59,2,3,95.5,2232
+2024-06-08,8,0,3,Changeup,R,ball,,NA,NA,NA,NA,13,88.3,1343
+2024-06-08,1,1,5,4-Seam Fastball,L,ball,,NA,NA,NA,NA,11,94,2487
+2024-06-08,1,1,4,4-Seam Fastball,L,foul,,77,47,242,NA,5,95.1,2480
+2024-06-08,8,0,2,Changeup,R,swinging_strike,,NA,NA,NA,NA,14,87.1,1266
+2024-06-08,8,0,1,Changeup,R,called_strike,,NA,NA,NA,NA,12,87.3,1340
+2024-06-08,1,1,3,Cutter,L,foul,,70.8,52,199,NA,2,88.6,2515
+2024-06-08,1,1,2,Cutter,L,swinging_strike,,NA,NA,NA,NA,2,89,2586
+2024-06-08,1,1,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,12,93.3,2377
+2024-06-07,3,2,1,Sinker,R,hit_into_play,field_out,112.8,16,359,6,8,93.4,2164
+2024-06-07,10,2,3,Slider,R,hit_into_play,field_out,107.8,5,109,4,14,90.8,1550
+2024-06-07,10,2,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,96.9,2350
+2024-06-07,10,2,1,Slider,R,swinging_strike,,NA,NA,NA,NA,14,89.9,1623
+2024-06-07,1,1,6,Sinker,R,hit_into_play,field_out,98.1,-30,4,2,13,94.3,2387
+2024-06-07,1,1,5,Sinker,R,ball,,NA,NA,NA,NA,13,90.3,2089
+2024-06-07,1,1,4,Curveball,R,called_strike,,NA,NA,NA,NA,7,79.8,2948
+2024-06-07,1,1,3,Sinker,R,ball,,NA,NA,NA,NA,13,93.8,2383
+2024-06-07,1,1,2,Sinker,R,ball,,NA,NA,NA,NA,13,94.9,2407
+2024-06-07,1,1,1,Changeup,R,called_strike,,NA,NA,NA,NA,13,88.2,2009
+2024-06-07,8,0,4,4-Seam Fastball,L,hit_into_play,field_out,98.7,40,325,3,1,95.7,2264
+2024-06-07,8,0,3,Cutter,L,ball,,NA,NA,NA,NA,13,90,2548
+2024-06-07,8,0,2,4-Seam Fastball,L,swinging_strike,,NA,NA,NA,NA,3,94.8,2322
+2024-06-07,5,2,2,Slider,L,hit_into_play,field_out,80.4,-3,20,2,7,86.5,2397
+2024-06-07,5,2,1,Sinker,L,called_strike,,NA,NA,NA,NA,7,92.3,2274
+2024-06-07,8,0,1,Cutter,L,called_strike,,NA,NA,NA,NA,11,92.1,2421
+2024-06-06,4,1,5,Slider,L,swinging_strike,strikeout,NA,NA,NA,NA,11,85.9,2087
+2024-06-06,4,1,4,Slider,L,blocked_ball,,NA,NA,NA,NA,13,85.1,2073
+2024-06-06,4,1,3,Slider,L,foul,,72.9,57,195,NA,7,86.3,1970
+2024-06-06,4,1,2,4-Seam Fastball,L,foul,,NA,NA,NA,NA,1,91.4,1839
+2024-06-06,4,1,1,4-Seam Fastball,L,swinging_strike,,NA,NA,NA,NA,11,92.3,2017
+2024-06-06,2,1,4,Slider,L,swinging_strike,strikeout,NA,NA,NA,NA,7,85.3,1977
+2024-06-06,2,1,3,4-Seam Fastball,L,foul,,77.9,52,222,NA,2,91.7,2061
+2024-06-06,2,1,2,Slider,L,swinging_strike,,NA,NA,NA,NA,7,83.8,2071
+2024-06-06,2,1,1,Slider,L,called_strike,,NA,NA,NA,NA,1,82.7,2085
+2024-06-06,7,1,3,Slider,R,swinging_strike,strikeout,NA,NA,NA,NA,13,93.7,2457
+2024-06-06,7,1,2,Curveball,R,foul,,70.4,-36,3,NA,9,87.4,2603
+2024-06-06,7,1,1,Curveball,R,swinging_strike,,NA,NA,NA,NA,9,88.2,2514
+2024-06-06,5,1,1,Cutter,R,hit_into_play,field_out,106.4,-3,28,4,14,89.4,2185
+2024-06-06,9,1,4,Slider,R,hit_into_play,force_out,103.1,1,50,4,14,88.7,2571
+2024-06-06,9,1,3,4-Seam Fastball,R,foul,,88.6,35,291,NA,2,96.7,2258
+2024-06-06,9,1,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,96.1,2220
+2024-06-06,9,1,1,Slider,R,called_strike,,NA,NA,NA,NA,2,85.7,2655
+2024-06-06,1,0,4,Slider,L,hit_into_play,single,84.7,19,265,4,11,83.8,2137
+2024-06-06,1,0,3,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,5,91.7,2135
+2024-06-06,1,0,2,Sinker,L,called_strike,,NA,NA,NA,NA,4,91.1,2097
+2024-06-06,1,0,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,90.5,2114
+2024-06-05,5,1,3,4-Seam Fastball,R,hit_into_play,single,107.6,4,92,4,2,98.1,2284
+2024-06-05,5,1,2,Changeup,R,ball,,NA,NA,NA,NA,14,88,2024
+2024-06-05,5,1,1,Slider,R,foul,,62.1,6,57,NA,4,87.7,2456
+2024-06-05,3,2,6,4-Seam Fastball,R,hit_into_play,home_run,105.6,32,415,6,2,100.1,2349
+2024-06-05,3,2,5,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,100,2307
+2024-06-05,3,2,4,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,11,99.5,2361
+2024-06-05,3,2,3,Changeup,R,blocked_ball,,NA,NA,NA,NA,14,88.1,2046
+2024-06-05,3,2,2,Changeup,R,ball,,NA,NA,NA,NA,13,86.9,1669
+2024-06-05,3,2,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,3,99.6,2343
+2024-06-05,7,1,4,Sinker,L,swinging_strike,strikeout,NA,NA,NA,NA,12,103,2494
+2024-06-05,1,1,3,4-Seam Fastball,R,swinging_strike,strikeout,NA,NA,NA,NA,4,100.8,2463
+2024-06-05,8,2,6,Cutter,R,hit_into_play,field_out,100.9,46,315,3,3,93.9,2464
+2024-06-05,1,1,2,4-Seam Fastball,R,foul_tip,,NA,NA,NA,NA,3,100.1,2427
+2024-06-05,7,1,3,Sinker,L,ball,,NA,NA,NA,NA,12,102.2,2502
+2024-06-05,8,2,5,Sinker,R,ball,,NA,NA,NA,NA,13,97.7,2288
+2024-06-05,7,1,2,Split-Finger,L,swinging_strike,,NA,NA,NA,NA,9,92.1,1119
+2024-06-05,1,1,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,6,101.3,2349
+2024-06-05,7,1,1,Sinker,L,foul,,64.8,50,181,NA,12,100.4,2330
+2024-06-05,8,2,4,Sweeper,R,ball,,NA,NA,NA,NA,11,86.5,2554
+2024-06-05,8,2,3,Sinker,R,foul,,79,18,195,NA,3,97.7,2318
+2024-06-05,8,2,2,Cutter,R,ball,,NA,NA,NA,NA,14,94.9,2545
+2024-06-05,8,2,1,Cutter,R,called_strike,,NA,NA,NA,NA,2,94.6,2463
+2024-06-04,5,1,8,Slider,R,foul_tip,strikeout,NA,NA,NA,NA,2,88.7,2646
+2024-06-04,5,1,7,4-Seam Fastball,R,ball,,NA,NA,NA,NA,7,99.3,2588
+2024-06-04,5,1,6,4-Seam Fastball,R,foul,,89.8,46,285,NA,1,97.6,2462
+2024-06-04,5,1,5,Slider,R,foul,,69.5,-22,6,NA,14,86.6,2609
+2024-06-04,5,1,4,Changeup,R,foul,,93,-22,6,NA,6,91,1715
+2024-06-04,5,1,3,Changeup,R,ball,,NA,NA,NA,NA,11,90.2,1696
+2024-06-04,5,1,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,98.9,2553
+2024-06-04,5,1,1,Slider,R,swinging_strike,,NA,NA,NA,NA,8,89.2,2504
+2024-06-04,3,0,4,Changeup,R,hit_into_play,grounded_into_double_play,101.7,-11,15,2,11,90.4,1847
+2024-06-04,3,0,3,Changeup,R,foul,,78.2,-33,3,NA,9,90.9,1810
+2024-06-04,3,0,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,95.6,2437
+2024-06-04,3,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,96.6,2443
+2024-06-04,1,1,4,4-Seam Fastball,R,swinging_strike,strikeout,NA,NA,NA,NA,11,101,2639
+2024-06-04,1,1,3,Slider,R,ball,,NA,NA,NA,NA,14,91.9,2630
+2024-06-04,1,1,2,Slider,R,swinging_strike,,NA,NA,NA,NA,14,91.8,2683
+2024-06-04,1,1,1,Slider,R,foul,,94.2,2,63,NA,9,91.8,2680
+2024-06-04,8,0,5,Split-Finger,L,hit_into_play,single,100.1,-10,6,2,14,91.8,1048
+2024-06-04,8,0,4,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,8,96.6,2352
+2024-06-04,8,0,3,Slider,L,ball,,NA,NA,NA,NA,12,87.5,2188
+2024-06-04,8,0,2,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,4,98.2,2440
+2024-06-04,8,0,1,Slider,L,ball,,NA,NA,NA,NA,14,88.2,2134
+2024-06-02,6,2,1,4-Seam Fastball,R,foul,catcher_interf,NA,NA,NA,NA,2,94.1,2237
+2024-06-02,2,2,7,Knuckle Curve,L,called_strike,strikeout,NA,NA,NA,NA,3,77,2608
+2024-06-02,2,2,6,Knuckle Curve,L,blocked_ball,,NA,NA,NA,NA,13,78.3,2579
+2024-06-02,2,2,5,Slider,L,ball,,NA,NA,NA,NA,13,85.1,2454
+2024-06-02,2,2,4,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,91.5,2158
+2024-06-02,2,2,3,Slider,L,foul,,70.7,48,208,NA,13,84.2,2296
+2024-06-02,2,2,2,Slider,L,foul,,92.5,43,301,NA,4,84.8,2442
+2024-06-02,2,2,1,Slider,L,foul,,96.5,32,357,NA,2,85.4,2416
+2024-06-02,4,1,8,Changeup,R,swinging_strike,strikeout,NA,NA,NA,NA,13,88.1,1333
+2024-06-02,4,1,7,Curveball,R,foul,,66.5,-27,6,NA,1,79.2,2139
+2024-06-02,4,1,6,Changeup,R,foul,,74.8,-38,2,NA,7,87.9,1518
+2024-06-02,4,1,5,4-Seam Fastball,R,foul,,73,54,189,NA,2,97,2388
+2024-06-02,4,1,4,Changeup,R,ball,,NA,NA,NA,NA,13,87.6,1444
+2024-06-02,4,1,3,Changeup,R,foul,,72.4,-21,5,NA,8,86.9,1296
+2024-06-02,4,1,2,Changeup,R,swinging_strike,,NA,NA,NA,NA,7,86.9,1392
+2024-06-02,4,1,1,Changeup,R,swinging_strike,,NA,NA,NA,NA,7,86.7,1326
+2024-06-02,1,0,3,Slider,L,hit_into_play,field_out,76.7,50,214,3,7,83.9,2290
+2024-06-02,1,0,2,Slider,L,foul_tip,,NA,NA,NA,NA,4,84.3,2250
+2024-06-02,1,0,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,90.1,2248
+2024-06-01,5,0,7,4-Seam Fastball,R,swinging_strike,strikeout,NA,NA,NA,NA,4,94.7,2283
+2024-06-01,5,0,6,Split-Finger,R,foul,,NA,NA,NA,NA,7,85.5,908
+2024-06-01,5,0,5,Split-Finger,R,ball,,NA,NA,NA,NA,11,84.7,901
+2024-06-01,5,0,4,Split-Finger,R,ball,,NA,NA,NA,NA,13,83.6,789
+2024-06-01,5,0,3,Sinker,R,called_strike,,NA,NA,NA,NA,7,93.2,2223
+2024-06-01,5,0,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,94.1,2320
+2024-06-01,5,0,1,4-Seam Fastball,R,foul,,76.7,45,233,NA,5,94,2104
+2024-06-01,3,1,7,Curveball,R,ball,walk,NA,NA,NA,NA,12,81.2,2506
+2024-06-01,3,1,6,Sinker,R,foul,,77,40,235,NA,5,93.7,2103
+2024-06-01,3,1,5,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,1,94,2134
+2024-06-01,3,1,4,Split-Finger,R,ball,,NA,NA,NA,NA,11,86.3,1027
+2024-06-01,3,1,3,Curveball,R,ball,,NA,NA,NA,NA,13,80,2563
+2024-06-01,3,1,2,Curveball,R,foul,,53.7,-49,2,NA,8,78,2529
+2024-06-01,3,1,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,94.4,2370
+2024-06-01,1,1,4,Split-Finger,R,hit_into_play,field_out,94.2,59,219,3,4,86.8,1064
+2024-06-01,1,1,3,Split-Finger,R,swinging_strike,,NA,NA,NA,NA,8,85.3,934
+2024-06-01,1,1,2,Split-Finger,R,ball,,NA,NA,NA,NA,9,86.5,1089
+2024-06-01,1,1,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,13,94.6,2328
+2024-06-01,7,0,2,4-Seam Fastball,L,hit_into_play,single,113.1,0,54,4,5,89.9,2142
+2024-06-01,7,0,1,Slider,L,ball,,NA,NA,NA,NA,14,86.3,2252
+2024-05-31,6,1,7,Curveball,R,swinging_strike,strikeout,NA,NA,NA,NA,14,81.2,2545
+2024-05-31,6,1,6,Sinker,R,foul,,73,-50,2,NA,4,90.1,1866
+2024-05-31,6,1,5,Sinker,R,ball,,NA,NA,NA,NA,11,90,1813
+2024-05-31,6,1,4,Curveball,R,ball,,NA,NA,NA,NA,14,80.8,2486
+2024-05-31,6,1,3,Sinker,R,foul,,NA,NA,NA,NA,8,90.8,2164
+2024-05-31,6,1,2,Changeup,R,ball,,NA,NA,NA,NA,13,83.5,1611
+2024-05-31,6,1,1,Sinker,R,called_strike,,NA,NA,NA,NA,8,89.1,2130
+2024-05-31,4,0,6,Curveball,R,hit_into_play,field_out,92.3,11,162,4,4,80.7,2430
+2024-05-31,4,0,5,Sinker,R,foul,,70.4,-44,3,NA,11,91.1,1853
+2024-05-31,4,0,4,Curveball,R,ball,,NA,NA,NA,NA,13,81,2293
+2024-05-31,4,0,3,Curveball,R,swinging_strike,,NA,NA,NA,NA,14,80.7,2483
+2024-05-31,4,0,2,Curveball,R,ball,,NA,NA,NA,NA,14,80.4,2611
+2024-05-31,4,0,1,Sinker,R,swinging_strike,,NA,NA,NA,NA,7,89.9,1844
+2024-05-31,8,2,6,4-Seam Fastball,R,blocked_ball,walk,NA,NA,NA,NA,14,99.9,2224
+2024-05-31,8,2,5,4-Seam Fastball,R,foul,,87.3,64,238,NA,2,99.5,2305
+2024-05-31,8,2,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,99.5,2027
+2024-05-31,8,2,3,Changeup,R,ball,,NA,NA,NA,NA,13,90.9,1451
+2024-05-31,8,2,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,99.7,2079
+2024-05-31,8,2,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,7,99.2,2118
+2024-05-31,1,1,2,Sinker,R,hit_into_play,field_out,105,-10,10,2,8,91,1846
+2024-05-31,1,1,1,Sinker,R,ball,,NA,NA,NA,NA,13,90.5,2080
+2024-05-29,5,1,2,Sinker,L,hit_into_play,single,114.1,-5,21,4,14,91.4,2006
+2024-05-29,5,1,1,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,5,93.8,1998
+2024-05-29,3,1,3,Changeup,L,hit_into_play,field_out,96.5,-11,14,2,5,85.6,1620
+2024-05-29,3,1,2,Slider,L,foul,,71.3,-52,1,NA,8,85.9,2303
+2024-05-29,3,1,1,Sinker,L,foul,,73.9,-57,2,NA,5,92.6,2156
+2024-05-29,8,2,4,Sinker,R,hit_into_play,home_run,103,34,380,6,4,95.9,2083
+2024-05-29,8,2,3,Slider,R,foul,,96.5,8,137,NA,14,88.3,2442
+2024-05-29,8,2,2,Slider,R,swinging_strike,,NA,NA,NA,NA,14,87.4,2411
+2024-05-29,8,2,1,Slider,R,called_strike,,NA,NA,NA,NA,4,86.4,2427
+2024-05-29,1,1,4,4-Seam Fastball,L,hit_into_play,field_out,100.8,24,333,6,5,96.5,2233
+2024-05-29,1,1,3,Slider,L,ball,,NA,NA,NA,NA,13,89.5,2393
+2024-05-29,1,1,2,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,5,95.5,2276
+2024-05-29,7,1,5,Sinker,L,swinging_strike,strikeout,NA,NA,NA,NA,12,96.3,2229
+2024-05-29,7,1,4,4-Seam Fastball,L,foul,,88,46,252,NA,8,95.6,2282
+2024-05-29,1,1,1,Sinker,L,called_strike,,NA,NA,NA,NA,6,95.1,2150
+2024-05-29,7,1,3,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,5,95.4,2298
+2024-05-29,7,1,2,Sweeper,L,ball,,NA,NA,NA,NA,13,83.6,2814
+2024-05-29,7,1,1,Sinker,L,foul,,63.9,35,197,NA,12,94.5,2279
+2024-05-28,6,0,2,Cutter,R,hit_into_play,field_out,60.4,-20,8,2,12,90.6,2143
+2024-05-28,6,0,1,Curveball,R,foul,,66.7,5,56,NA,4,77.8,2406
+2024-05-28,3,1,3,Cutter,R,hit_into_play,field_out,60.6,-44,4,2,2,90.8,2072
+2024-05-28,3,1,2,4-Seam Fastball,R,foul,,79.1,16,181,NA,3,95.1,2306
+2024-05-28,3,1,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,97,2362
+2024-05-28,1,1,4,Slider,R,swinging_strike,strikeout,NA,NA,NA,NA,14,86.1,2878
+2024-05-28,1,1,3,Split-Finger,R,foul,,73.7,64,164,NA,4,83.5,454
+2024-05-28,1,1,2,Cutter,R,foul,,78.5,53,219,NA,3,93.2,2123
+2024-05-28,1,1,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,5,98.1,2222
+2024-05-28,8,1,5,4-Seam Fastball,L,hit_into_play,force_out,88.5,-30,3,2,8,97.8,2366
+2024-05-28,10,0,3,Slider,R,swinging_strike,strikeout,NA,NA,NA,NA,11,86.2,2341
+2024-05-28,8,1,4,Sweeper,L,ball,,NA,NA,NA,NA,13,85.2,2959
+2024-05-28,8,1,3,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,4,96.3,2336
+2024-05-28,10,0,2,4-Seam Fastball,R,foul,,60.6,35,163,NA,14,95.5,2217
+2024-05-28,8,1,2,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,14,96,2351
+2024-05-28,10,0,1,Sinker,R,called_strike,,NA,NA,NA,NA,8,96.8,2030
+2024-05-28,8,1,1,Sweeper,L,ball,,NA,NA,NA,NA,13,83.1,2827
+2024-05-26,9,1,4,Changeup,R,hit_into_play,single,113.5,8,162,5,5,86.2,1678
+2024-05-26,9,1,3,Changeup,R,ball,,NA,NA,NA,NA,13,85.7,1630
+2024-05-26,9,1,2,4-Seam Fastball,R,foul,,NA,NA,NA,NA,1,94,2294
+2024-05-26,9,1,1,Cutter,R,ball,,NA,NA,NA,NA,12,87.6,2523
+2024-05-26,4,0,5,Changeup,R,hit_into_play,field_out,87.3,-18,6,2,13,80.6,2154
+2024-05-26,4,0,4,Changeup,R,swinging_strike,,NA,NA,NA,NA,14,81.3,2169
+2024-05-26,4,0,3,Cutter,R,foul,,71.3,80,96,NA,12,89.5,2498
+2024-05-26,4,0,2,Cutter,R,ball,,NA,NA,NA,NA,14,89.9,2504
+2024-05-26,4,0,1,Changeup,R,ball,,NA,NA,NA,NA,13,80.4,2347
+2024-05-26,6,2,5,Sweeper,R,foul_tip,strikeout,NA,NA,NA,NA,14,83.6,2758
+2024-05-26,6,2,4,Sinker,R,called_strike,,NA,NA,NA,NA,8,93.8,2069
+2024-05-26,6,2,3,Sinker,R,foul,,84.7,-21,8,NA,5,93,2170
+2024-05-26,6,2,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,93.3,2293
+2024-05-26,6,2,1,Changeup,R,ball,,NA,NA,NA,NA,14,87.7,1676
+2024-05-26,1,0,1,Slider,L,hit_into_play,field_out,82,-5,24,2,5,79.3,2365
+2024-05-25,6,1,3,Split-Finger,R,hit_into_play,triple,102.1,-2,32,2,8,87.3,1277
+2024-05-25,6,1,2,Split-Finger,R,ball,,NA,NA,NA,NA,14,88.4,1360
+2024-05-25,6,1,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,2,97.8,2459
+2024-05-25,3,2,5,Split-Finger,R,swinging_strike,strikeout,NA,NA,NA,NA,8,88,1267
+2024-05-25,3,2,4,Slider,R,foul,,84.7,-16,5,NA,14,88.1,2382
+2024-05-25,3,2,3,4-Seam Fastball,R,foul,,92.4,30,304,NA,1,99.7,2329
+2024-05-25,3,2,2,4-Seam Fastball,R,foul,,78.2,57,239,NA,2,98.5,2477
+2024-05-25,3,2,1,Split-Finger,R,foul_tip,,NA,NA,NA,NA,8,87.5,1339
+2024-05-25,8,2,4,Sweeper,L,swinging_strike,strikeout,NA,NA,NA,NA,14,82.4,3207
+2024-05-25,1,0,3,Split-Finger,R,called_strike,strikeout,NA,NA,NA,NA,8,87.4,1211
+2024-05-25,8,2,3,Sweeper,L,ball,,NA,NA,NA,NA,13,82.9,3112
+2024-05-25,1,0,2,4-Seam Fastball,R,foul,,84,6,110,NA,6,98.3,2397
+2024-05-25,1,0,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,12,97.9,2414
+2024-05-25,8,2,2,Sweeper,L,swinging_strike,,NA,NA,NA,NA,13,82.9,3072
+2024-05-25,8,2,1,Sweeper,L,foul,,73.8,52,201,NA,1,82.3,3072
+2024-05-24,4,2,3,Sinker,R,hit_into_play,field_out,93,-38,3,2,4,95.7,2584
+2024-05-24,4,2,2,Cutter,R,called_strike,,NA,NA,NA,NA,5,96.4,2533
+2024-05-24,4,2,1,Slider,R,called_strike,,NA,NA,NA,NA,8,87,2932
+2024-05-24,2,1,1,Changeup,R,hit_into_play,field_out,97.4,-24,5,2,13,91.4,2090
+2024-05-24,8,1,1,4-Seam Fastball,R,hit_into_play,field_out,85.2,67,131,3,6,94.9,2736
+2024-05-24,6,2,2,Sweeper,L,hit_into_play,field_out,65.5,51,181,3,7,82.7,3169
+2024-05-24,6,2,1,Sweeper,L,called_strike,,NA,NA,NA,NA,7,81.6,3043
+2024-05-24,1,0,1,Cutter,R,hit_into_play,force_out,87.6,-2,34,2,6,96.4,2364
+2024-05-22,5,0,1,Cutter,R,hit_into_play,field_out,102.3,39,349,5,3,90.5,2278
+2024-05-22,3,1,6,4-Seam Fastball,R,hit_into_play,field_out,101.1,2,61,4,6,96.3,2265
+2024-05-22,3,1,5,Changeup,R,ball,,NA,NA,NA,NA,13,83.1,2009
+2024-05-22,3,1,4,4-Seam Fastball,R,foul,,55.5,51,145,NA,3,94.3,2171
+2024-05-22,3,1,3,Changeup,R,foul,,66.8,70,127,NA,6,83.1,1920
+2024-05-22,3,1,2,Changeup,R,blocked_ball,,NA,NA,NA,NA,14,83,1939
+2024-05-22,3,1,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,6,94.9,2083
+2024-05-22,1,1,1,Slider,L,hit_into_play,single,73,15,157,4,11,83.6,2474
+2024-05-22,7,2,1,Sinker,L,hit_into_play,field_out,94.7,-15,10,2,12,89.2,2196
+2024-05-21,6,1,3,Changeup,R,hit_into_play,single,102.6,0,41,4,8,87,1991
+2024-05-21,6,1,2,Changeup,R,ball,,NA,NA,NA,NA,14,87,2064
+2024-05-21,6,1,1,Sweeper,R,ball,,NA,NA,NA,NA,11,84.3,2772
+2024-05-21,4,0,1,4-Seam Fastball,R,hit_into_play,double,94.2,14,235,4,5,95,2646
+2024-05-21,1,0,8,Sweeper,R,swinging_strike,strikeout,NA,NA,NA,NA,14,84.6,2813
+2024-05-21,1,0,7,Sweeper,R,foul,,67.5,-30,5,NA,12,84,2789
+2024-05-21,1,0,6,Sinker,R,ball,,NA,NA,NA,NA,14,93.7,2425
+2024-05-21,1,0,5,Sweeper,R,foul,,NA,NA,NA,NA,5,84.8,2782
+2024-05-21,1,0,4,Changeup,R,swinging_strike,,NA,NA,NA,NA,14,87.4,1899
+2024-05-21,1,0,3,Sweeper,R,ball,,NA,NA,NA,NA,13,82.5,2716
+2024-05-21,1,0,2,Changeup,R,ball,,NA,NA,NA,NA,14,86.4,1992
+2024-05-21,1,0,1,4-Seam Fastball,R,foul,,96.2,17,230,NA,12,93,2580
+2024-05-21,8,1,1,Curveball,L,hit_into_play,field_out,107,46,329,5,12,77.4,2455
+2024-05-20,5,0,1,4-Seam Fastball,R,hit_into_play,field_out,103.5,40,345,5,5,93.2,2148
+2024-05-20,3,0,5,4-Seam Fastball,R,ball,walk,NA,NA,NA,NA,9,93.7,2260
+2024-05-20,3,0,4,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,6,94.7,2275
+2024-05-20,3,0,3,Curveball,R,ball,,NA,NA,NA,NA,13,73.2,2342
+2024-05-20,3,0,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,94.5,2325
+2024-05-20,3,0,1,Curveball,R,ball,,NA,NA,NA,NA,11,75.2,2427
+2024-05-20,8,0,1,4-Seam Fastball,R,hit_into_play,field_out,114.1,6,130,5,2,94.1,1968
+2024-05-20,1,1,1,Sinker,L,hit_into_play,field_error,44.3,-57,2,1,6,90.2,2196
+2024-05-19,5,2,3,Slider,R,hit_by_pitch,hit_by_pitch,NA,NA,NA,NA,14,88.3,2474
+2024-05-19,5,2,2,4-Seam Fastball,R,foul,,82.3,15,187,NA,2,99.9,2312
+2024-05-19,5,2,1,Split-Finger,R,foul,,76.5,27,254,NA,11,85,913
+2024-05-19,3,2,3,Split-Finger,R,hit_into_play,field_out,90.6,41,296,3,1,86.1,1053
+2024-05-19,3,2,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,99,2214
+2024-05-19,3,2,1,Slider,R,swinging_strike,,NA,NA,NA,NA,8,86.1,2346
+2024-05-19,10,2,6,4-Seam Fastball,R,hit_into_play,single,100.3,11,164,4,9,94,2659
+2024-05-19,10,2,5,Slider,R,foul,,47.8,-35,2,NA,14,87.1,2724
+2024-05-19,10,2,4,Slider,R,ball,,NA,NA,NA,NA,13,86.6,2736
+2024-05-19,10,2,3,4-Seam Fastball,R,foul,,74.9,42,216,NA,11,93.9,2675
+2024-05-19,10,2,2,4-Seam Fastball,R,foul,,95.7,42,311,NA,4,95.2,2721
+2024-05-19,10,2,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,8,95.6,2717
+2024-05-19,1,1,4,4-Seam Fastball,R,swinging_strike,strikeout,NA,NA,NA,NA,11,98.8,2348
+2024-05-19,1,1,3,4-Seam Fastball,R,foul_tip,,NA,NA,NA,NA,1,98.9,2424
+2024-05-19,8,0,5,Sweeper,L,hit_into_play,single,80.6,-1,35,2,13,81.7,3056
+2024-05-19,8,0,4,Sweeper,L,swinging_strike,,NA,NA,NA,NA,13,81.9,2921
+2024-05-19,1,1,2,Split-Finger,R,ball,,NA,NA,NA,NA,13,87.6,1281
+2024-05-19,8,0,3,Sinker,L,foul,,36.2,-65,1,NA,12,90.8,2265
+2024-05-19,1,1,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,2,97.4,2232
+2024-05-19,8,0,2,Sweeper,L,ball,,NA,NA,NA,NA,13,80.3,2915
+2024-05-19,8,0,1,Sweeper,L,ball,,NA,NA,NA,NA,7,80.5,2932
+2024-05-18,5,1,5,Slider,R,hit_into_play,field_out,98.9,57,238,3,9,87.4,2770
+2024-05-18,5,1,4,Sinker,R,ball,,NA,NA,NA,NA,11,94.4,2307
+2024-05-18,5,1,3,Cutter,R,foul,,88.6,-45,2,NA,6,96.9,2436
+2024-05-18,5,1,2,Changeup,R,foul,,80.4,-36,4,NA,5,89.2,1765
+2024-05-18,5,1,1,Cutter,R,called_strike,,NA,NA,NA,NA,14,95.4,2416
+2024-05-18,3,2,4,Cutter,R,hit_into_play,field_out,78.8,-39,4,2,3,96.4,2560
+2024-05-18,3,2,3,Cutter,R,swinging_strike,,NA,NA,NA,NA,14,96,2427
+2024-05-18,3,2,2,Slider,R,ball,,NA,NA,NA,NA,14,88.3,2786
+2024-05-18,3,2,1,Slider,R,foul,,NA,NA,NA,NA,8,88.4,2905
+2024-05-18,7,2,3,Changeup,R,hit_into_play,field_out,100.7,2,60,4,8,86.8,1628
+2024-05-18,7,2,2,Changeup,R,ball,,NA,NA,NA,NA,14,87.2,1583
+2024-05-18,7,2,1,Cutter,R,swinging_strike,,NA,NA,NA,NA,14,86.8,2564
+2024-05-18,1,0,7,Cutter,R,hit_into_play,field_out,72.7,-10,17,2,3,97.9,2306
+2024-05-18,1,0,6,Slider,R,ball,,NA,NA,NA,NA,11,89.8,2785
+2024-05-18,1,0,5,Sinker,R,ball,,NA,NA,NA,NA,1,97.6,2444
+2024-05-18,1,0,4,Slider,R,foul,,NA,NA,NA,NA,3,90.8,2961
+2024-05-18,1,0,3,Slider,R,swinging_strike,,NA,NA,NA,NA,14,89.7,2955
+2024-05-18,1,0,2,Cutter,R,called_strike,,NA,NA,NA,NA,6,96.8,2366
+2024-05-18,1,0,1,Cutter,R,ball,,NA,NA,NA,NA,14,97.3,2416
+2024-05-17,4,2,6,Split-Finger,R,foul_tip,strikeout,NA,NA,NA,NA,13,86,1564
+2024-05-17,4,2,5,Split-Finger,R,blocked_ball,,NA,NA,NA,NA,14,87,1553
+2024-05-17,4,2,4,Split-Finger,R,blocked_ball,,NA,NA,NA,NA,14,86.6,1467
+2024-05-17,4,2,3,Cutter,R,foul,,77.6,-19,8,NA,12,90.9,2447
+2024-05-17,4,2,2,Split-Finger,R,ball,,NA,NA,NA,NA,13,85.6,1244
+2024-05-17,4,2,1,Split-Finger,R,swinging_strike,,NA,NA,NA,NA,13,85.5,1182
+2024-05-17,3,1,1,4-Seam Fastball,R,hit_into_play,home_run,104.5,28,368,6,4,95.3,2350
+2024-05-17,7,1,4,Split-Finger,R,hit_into_play,force_out,100.5,-3,38,2,1,82.2,776
+2024-05-17,7,1,3,Split-Finger,R,swinging_strike,,NA,NA,NA,NA,1,82,671
+2024-05-17,7,1,2,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,4,95.6,2372
+2024-05-17,7,1,1,Split-Finger,R,blocked_ball,,NA,NA,NA,NA,14,82.1,791
+2024-05-17,1,0,6,4-Seam Fastball,R,hit_into_play,field_out,107.3,-1,42,4,6,96.2,2319
+2024-05-17,1,0,5,Split-Finger,R,ball,,NA,NA,NA,NA,13,87.5,1430
+2024-05-17,1,0,4,Slider,R,foul,,68.8,-38,4,NA,5,86.6,2643
+2024-05-17,1,0,3,4-Seam Fastball,R,foul,,NA,NA,NA,NA,11,96.2,2310
+2024-05-17,1,0,2,Cutter,R,called_strike,,NA,NA,NA,NA,1,91.9,2387
+2024-05-17,1,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,96.8,2358
+2024-05-16,6,1,4,Changeup,R,swinging_strike,strikeout,NA,NA,NA,NA,13,80.8,1982
+2024-05-16,6,1,3,Curveball,R,foul_tip,,NA,NA,NA,NA,7,82,2569
+2024-05-16,6,1,2,Changeup,R,ball,,NA,NA,NA,NA,13,80.7,1969
+2024-05-16,6,1,1,Cutter,R,called_strike,,NA,NA,NA,NA,1,87,2411
+2024-05-16,3,2,5,Changeup,R,hit_into_play,field_out,85.9,81,38,3,1,82.8,1973
+2024-05-16,3,2,4,Cutter,R,foul,,65.1,-18,8,NA,12,89.5,2436
+2024-05-16,3,2,3,Changeup,R,swinging_strike,,NA,NA,NA,NA,13,80.5,1887
+2024-05-16,3,2,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,93,2394
+2024-05-16,1,1,6,Slider,L,blocked_ball,walk,NA,NA,NA,NA,14,78.7,2170
+2024-05-16,3,2,1,Cutter,R,ball,,NA,NA,NA,NA,11,88.5,2357
+2024-05-16,1,1,5,Changeup,L,ball,,NA,NA,NA,NA,14,74.7,1541
+2024-05-16,1,1,4,Slider,L,foul,,53.7,-62,1,NA,5,78.4,2098
+2024-05-16,1,1,3,4-Seam Fastball,L,ball,,NA,NA,NA,NA,12,86.4,2097
+2024-05-16,1,1,2,Slider,L,foul,,72.5,36,239,NA,6,79,2108
+2024-05-16,1,1,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,12,84.4,2009
+2024-05-15,5,2,2,Sinker,R,hit_into_play,single,103.1,-11,12,2,5,91.9,1988
+2024-05-15,5,2,1,Sinker,R,foul,,74.1,24,143,NA,12,91.1,2017
+2024-05-15,3,0,4,Sweeper,R,called_strike,strikeout,NA,NA,NA,NA,8,83.3,2686
+2024-05-15,3,0,3,Sweeper,R,ball,,NA,NA,NA,NA,13,83.3,2593
+2024-05-15,3,0,2,Changeup,R,called_strike,,NA,NA,NA,NA,7,87.9,1445
+2024-05-15,3,0,1,Sinker,R,called_strike,,NA,NA,NA,NA,3,91.1,1995
+2024-05-15,9,2,5,Cutter,R,hit_into_play,single,95.7,13,256,4,7,101,2360
+2024-05-15,9,2,4,Cutter,R,called_strike,,NA,NA,NA,NA,7,100.3,2412
+2024-05-15,9,2,3,Slider,R,ball,,NA,NA,NA,NA,13,89.7,2384
+2024-05-15,9,2,2,Sinker,R,ball,,NA,NA,NA,NA,11,99,2322
+2024-05-15,9,2,1,Cutter,R,called_strike,,NA,NA,NA,NA,1,99.5,2360
+2024-05-15,1,0,6,Sinker,R,ball,walk,NA,NA,NA,NA,12,93.4,2039
+2024-05-15,1,0,5,Sinker,R,called_strike,,NA,NA,NA,NA,4,93.4,1944
+2024-05-15,1,0,4,Sinker,R,foul,,NA,NA,NA,NA,9,93.3,1890
+2024-05-15,1,0,3,Sinker,R,ball,,NA,NA,NA,NA,14,93.8,2022
+2024-05-15,1,0,2,Cutter,R,ball,,NA,NA,NA,NA,14,91.4,2391
+2024-05-15,1,0,1,Sinker,R,ball,,NA,NA,NA,NA,12,92.7,2018
+2024-05-15,7,2,4,4-Seam Fastball,L,called_strike,strikeout,NA,NA,NA,NA,11,99.3,2383
+2024-05-15,7,2,3,Slider,L,swinging_strike,,NA,NA,NA,NA,4,83.5,2707
+2024-05-15,7,2,2,Slider,L,ball,,NA,NA,NA,NA,13,83.9,2570
+2024-05-15,7,2,1,4-Seam Fastball,L,swinging_strike,,NA,NA,NA,NA,2,97.1,2297
+2024-05-14,5,0,2,Sinker,R,hit_into_play,single,109.4,10,281,5,8,92.3,2290
+2024-05-14,5,0,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,3,93.4,2290
+2024-05-14,4,0,1,Slider,R,hit_into_play,home_run,113.4,29,446,6,5,88.7,2287
+2024-05-14,7,0,2,4-Seam Fastball,R,hit_into_play,double,90.4,15,236,4,2,97.6,2432
+2024-05-14,7,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,97.5,2411
+2024-05-14,9,0,4,Cutter,R,hit_into_play,field_out,100.8,4,77,4,4,88.5,2258
+2024-05-14,9,0,3,Knuckle Curve,R,blocked_ball,,NA,NA,NA,NA,14,80.6,2219
+2024-05-14,9,0,2,4-Seam Fastball,R,foul,,NA,NA,NA,NA,12,94.3,2205
+2024-05-14,9,0,1,Knuckle Curve,R,foul,,NA,NA,NA,NA,8,80.9,2097
+2024-05-14,1,1,4,4-Seam Fastball,R,hit_into_play,field_out,85.5,53,246,3,12,97.6,2293
+2024-05-14,1,1,3,Sinker,R,called_strike,,NA,NA,NA,NA,8,96.4,2285
+2024-05-14,1,1,2,Split-Finger,R,ball,,NA,NA,NA,NA,14,91.3,1585
+2024-05-14,1,1,1,Sinker,R,ball,,NA,NA,NA,NA,13,97,2387
+2024-05-13,5,2,6,Sinker,R,hit_into_play,single,86.8,-46,2,2,7,98.6,2003
+2024-05-13,5,2,5,Sweeper,R,called_strike,,NA,NA,NA,NA,4,80.8,2290
+2024-05-13,5,2,4,Sinker,R,ball,,NA,NA,NA,NA,11,95.9,1835
+2024-05-13,5,2,3,Sweeper,R,foul,,83.3,-24,6,NA,12,81.6,2294
+2024-05-13,5,2,2,Split-Finger,R,ball,,NA,NA,NA,NA,14,85,877
+2024-05-13,5,2,1,Split-Finger,R,ball,,NA,NA,NA,NA,13,84.2,793
+2024-05-13,3,1,5,Sinker,R,hit_into_play,force_out,109.5,-11,15,2,1,95.2,1884
+2024-05-13,3,1,4,Split-Finger,R,blocked_ball,,NA,NA,NA,NA,14,86.2,893
+2024-05-13,3,1,3,Sinker,R,swinging_strike,,NA,NA,NA,NA,2,95.8,1990
+2024-05-13,3,1,2,Split-Finger,R,ball,,NA,NA,NA,NA,13,86.5,1166
+2024-05-13,3,1,1,Sweeper,R,called_strike,,NA,NA,NA,NA,14,80.6,2179
+2024-05-13,7,1,6,Slider,L,swinging_strike,strikeout,NA,NA,NA,NA,13,83.9,2601
+2024-05-13,7,1,5,4-Seam Fastball,L,ball,,NA,NA,NA,NA,11,97.8,2324
+2024-05-13,7,1,4,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,5,97.2,2260
+2024-05-13,7,1,3,Slider,L,called_strike,,NA,NA,NA,NA,1,83.6,2589
+2024-05-13,7,1,2,Changeup,L,ball,,NA,NA,NA,NA,13,86.7,1860
+2024-05-13,7,1,1,Slider,L,ball,,NA,NA,NA,NA,13,84.3,2579
+2024-05-13,1,0,1,Sinker,R,hit_into_play,single,106,12,194,4,9,95,1819
+2024-05-13,10,0,5,Sweeper,L,swinging_strike,strikeout,NA,NA,NA,NA,6,78.8,2745
+2024-05-13,10,0,4,Sweeper,L,called_strike,,NA,NA,NA,NA,7,78.8,2718
+2024-05-13,10,0,3,Sweeper,L,ball,,NA,NA,NA,NA,13,79.1,2741
+2024-05-13,10,0,2,Sweeper,L,swinging_strike,,NA,NA,NA,NA,2,79,2712
+2024-05-13,10,0,1,Sweeper,L,ball,,NA,NA,NA,NA,12,79.1,2647
+2024-05-11,6,1,7,Knuckleball,R,ball,walk,NA,NA,NA,NA,14,75.2,269
+2024-05-11,6,1,6,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,90.1,2002
+2024-05-11,6,1,5,Knuckleball,R,foul,,NA,NA,NA,NA,13,77.7,324
+2024-05-11,6,1,4,Cutter,R,foul,,NA,NA,NA,NA,12,85.3,2058
+2024-05-11,6,1,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,89.8,1992
+2024-05-11,6,1,2,Knuckleball,R,called_strike,,NA,NA,NA,NA,1,75.1,156
+2024-05-11,6,1,1,Knuckleball,R,ball,,NA,NA,NA,NA,13,78.2,312
+2024-05-11,3,2,3,Knuckleball,R,hit_into_play,field_out,100,36,350,5,4,80.8,156
+2024-05-11,3,2,2,Knuckleball,R,called_strike,,NA,NA,NA,NA,9,78.1,382
+2024-05-11,3,2,1,Cutter,R,ball,,NA,NA,NA,NA,12,87.6,2313
+2024-05-11,7,1,2,Sinker,R,hit_into_play,field_out,68.4,-57,2,2,2,96.5,2162
+2024-05-11,7,1,1,Slider,R,ball,,NA,NA,NA,NA,14,88.6,2015
+2024-05-11,1,1,5,4-Seam Fastball,R,hit_into_play,field_out,88.6,32,303,3,12,92.7,2105
+2024-05-11,1,1,4,Knuckleball,R,ball,,NA,NA,NA,NA,13,80.6,342
+2024-05-11,1,1,3,Cutter,R,foul,,64.9,28,190,NA,12,88.9,2330
+2024-05-11,1,1,2,Knuckleball,R,called_strike,,NA,NA,NA,NA,4,75.8,177
+2024-05-11,1,1,1,Sweeper,R,ball,,NA,NA,NA,NA,11,78.4,2228
+2024-05-10,6,0,3,Changeup,R,hit_into_play,field_out,72.2,2,47,2,13,85.9,2170
+2024-05-10,6,0,2,Sweeper,R,ball,,NA,NA,NA,NA,13,79.7,2621
+2024-05-10,6,0,1,Sinker,R,called_strike,,NA,NA,NA,NA,1,92.4,2272
+2024-05-10,3,1,2,Sinker,R,hit_into_play,single,78.9,26,247,3,4,92.6,2313
+2024-05-10,3,1,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,1,93.2,2276
+2024-05-10,1,1,4,Sinker,R,foul_tip,strikeout,NA,NA,NA,NA,1,93.6,2321
+2024-05-10,1,1,3,Changeup,R,called_strike,,NA,NA,NA,NA,9,86.6,2058
+2024-05-10,8,0,3,Slider,L,hit_into_play,double,107.2,13,299,5,7,87.1,2666
+2024-05-10,1,1,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,94,2323
+2024-05-10,1,1,1,Changeup,R,swinging_strike,,NA,NA,NA,NA,13,80.2,2299
+2024-05-10,8,0,2,4-Seam Fastball,L,ball,,NA,NA,NA,NA,11,93.2,2499
+2024-05-10,8,0,1,Slider,L,swinging_strike,,NA,NA,NA,NA,8,86.8,2784
+2024-05-08,6,1,8,Sinker,L,hit_into_play,field_out,105,14,284,5,5,97.1,2165
+2024-05-08,6,1,7,Changeup,L,foul,,58.9,63,120,NA,2,85.2,1653
+2024-05-08,6,1,6,4-Seam Fastball,L,foul,,96.5,7,157,NA,1,96.4,2220
+2024-05-08,6,1,5,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,5,96.3,2154
+2024-05-08,6,1,4,Sinker,L,ball,,NA,NA,NA,NA,12,95,2314
+2024-05-08,6,1,3,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,97,2375
+2024-05-08,6,1,2,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,4,95.7,2263
+2024-05-08,6,1,1,Changeup,L,ball,,NA,NA,NA,NA,13,86.8,1690
+2024-05-08,3,2,4,Sweeper,L,swinging_strike,strikeout,NA,NA,NA,NA,13,84.5,2495
+2024-05-08,3,2,3,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,7,97.4,2236
+2024-05-08,3,2,2,Changeup,L,ball,,NA,NA,NA,NA,9,87.3,1911
+2024-05-08,3,2,1,Sinker,L,foul,,68.8,34,191,NA,12,96.5,2235
+2024-05-08,8,1,5,4-Seam Fastball,L,hit_into_play,field_out,91.3,57,220,3,11,95.1,2335
+2024-05-08,1,1,6,4-Seam Fastball,L,called_strike,strikeout,NA,NA,NA,NA,4,95.7,2343
+2024-05-08,8,1,4,4-Seam Fastball,L,swinging_strike,,NA,NA,NA,NA,12,94.4,2346
+2024-05-08,1,1,5,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,8,95.4,2279
+2024-05-08,8,1,3,Slider,L,blocked_ball,,NA,NA,NA,NA,13,84.2,2244
+2024-05-08,1,1,4,Sinker,L,ball,,NA,NA,NA,NA,14,94.7,2305
+2024-05-08,8,1,2,4-Seam Fastball,L,swinging_strike,,NA,NA,NA,NA,1,95,2292
+2024-05-08,1,1,3,Sweeper,L,ball,,NA,NA,NA,NA,13,82.8,2461
+2024-05-08,8,1,1,Slider,L,ball,,NA,NA,NA,NA,13,83,2270
+2024-05-08,1,1,2,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,4,95,2326
+2024-05-08,1,1,1,Sweeper,L,ball,,NA,NA,NA,NA,13,82.4,2443
+2024-05-07,2,2,6,4-Seam Fastball,R,ball,walk,NA,NA,NA,NA,14,94.9,2225
+2024-05-07,2,2,5,Curveball,R,blocked_ball,,NA,NA,NA,NA,14,83.3,2695
+2024-05-07,2,2,4,Curveball,R,foul,,58.9,-31,3,NA,8,82,2613
+2024-05-07,2,2,3,Curveball,R,called_strike,,NA,NA,NA,NA,4,81.9,2521
+2024-05-07,2,2,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,94.1,2294
+2024-05-07,2,2,1,Curveball,R,ball,,NA,NA,NA,NA,11,83.1,2457
+2024-05-07,4,0,2,Changeup,R,hit_into_play,field_out,112.8,17,342,6,8,87.9,1845
+2024-05-07,4,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,94.8,1894
+2024-05-07,6,2,2,Cutter,R,hit_into_play,field_out,97.3,47,272,3,6,88.5,2394
+2024-05-07,6,2,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,1,94.7,2145
+2024-05-07,1,1,5,Changeup,R,ball,walk,NA,NA,NA,NA,13,94,1666
+2024-05-07,1,1,4,Slider,R,ball,,NA,NA,NA,NA,14,89.5,2475
+2024-05-07,1,1,3,Changeup,R,ball,,NA,NA,NA,NA,13,95,1607
+2024-05-07,1,1,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,96.9,2252
+2024-05-07,1,1,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,11,97,2307
+2024-05-06,4,1,3,Changeup,R,hit_into_play,single,101.2,4,84,4,8,89.4,1773
+2024-05-06,4,1,2,Sinker,R,called_strike,,NA,NA,NA,NA,7,94.3,2217
+2024-05-06,4,1,1,Sinker,R,ball,,NA,NA,NA,NA,11,94.5,2065
+2024-05-06,2,1,4,Sinker,R,called_strike,strikeout,NA,NA,NA,NA,3,95.7,2381
+2024-05-06,2,1,3,Slider,R,ball,,NA,NA,NA,NA,14,87.8,2351
+2024-05-06,2,1,2,Cutter,R,called_strike,,NA,NA,NA,NA,5,90.4,2428
+2024-05-06,2,1,1,Changeup,R,called_strike,,NA,NA,NA,NA,9,90,1856
+2024-05-06,6,1,6,Slider,R,blocked_ball,walk,NA,NA,NA,NA,13,83.1,2247
+2024-05-06,6,1,5,Slider,R,called_strike,,NA,NA,NA,NA,7,84.4,2183
+2024-05-06,6,1,4,4-Seam Fastball,R,blocked_ball,,NA,NA,NA,NA,14,93.9,2269
+2024-05-06,6,1,3,Split-Finger,R,ball,,NA,NA,NA,NA,13,88.8,1486
+2024-05-06,6,1,2,Slider,R,ball,,NA,NA,NA,NA,13,84.7,2194
+2024-05-06,6,1,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,4,93.7,2274
+2024-05-06,1,0,5,4-Seam Fastball,R,hit_into_play,home_run,107.6,27,441,6,1,96.1,2334
+2024-05-06,1,0,4,Slider,R,ball,,NA,NA,NA,NA,13,86.4,2303
+2024-05-06,1,0,3,Cutter,R,swinging_strike,,NA,NA,NA,NA,14,90.2,2352
+2024-05-06,1,0,2,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,6,96.3,2294
+2024-05-06,1,0,1,Sinker,R,ball,,NA,NA,NA,NA,14,95.4,2242
+2024-05-05,6,0,5,Slider,L,hit_into_play,single,75,16,203,4,13,83.4,2494
+2024-05-05,6,0,4,Sinker,L,ball,,NA,NA,NA,NA,13,95,2111
+2024-05-05,6,0,3,4-Seam Fastball,L,foul,,76.3,45,219,NA,3,95.2,2147
+2024-05-05,6,0,2,Sweeper,L,called_strike,,NA,NA,NA,NA,7,80.4,2653
+2024-05-05,6,0,1,Sinker,L,called_strike,,NA,NA,NA,NA,8,92.5,2087
+2024-05-05,3,2,5,4-Seam Fastball,L,hit_into_play,single,97.4,-9,14,2,4,98.4,2317
+2024-05-05,3,2,4,4-Seam Fastball,L,foul,,92.5,33,322,NA,4,98,2187
+2024-05-05,3,2,3,4-Seam Fastball,L,swinging_strike,,NA,NA,NA,NA,5,96.4,2307
+2024-05-05,3,2,2,Sinker,L,ball,,NA,NA,NA,NA,13,94.5,2083
+2024-05-05,3,2,1,Curveball,L,ball,,NA,NA,NA,NA,13,79.4,2863
+2024-05-05,1,0,5,Curveball,L,hit_into_play,home_run,104.3,31,412,6,3,74.6,2831
+2024-05-05,1,0,4,Curveball,L,foul,,72.6,-40,2,NA,7,77.9,2899
+2024-05-05,1,0,3,Cutter,L,called_strike,,NA,NA,NA,NA,7,87.8,2389
+2024-05-05,1,0,2,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,4,95.6,2279
+2024-05-05,1,0,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,1,94.9,2214
+2024-05-05,8,0,1,4-Seam Fastball,L,hit_into_play,home_run,110.6,26,464,6,5,93.8,2404
+2024-05-04,4,1,4,Sinker,R,hit_into_play,single,95,11,214,4,11,90.3,1961
+2024-05-04,4,1,3,Changeup,R,ball,,NA,NA,NA,NA,11,86.1,2189
+2024-05-04,4,1,2,Changeup,R,ball,,NA,NA,NA,NA,13,85.7,1853
+2024-05-04,4,1,1,Sinker,R,called_strike,,NA,NA,NA,NA,7,89.8,1967
+2024-05-04,3,0,2,4-Seam Fastball,R,hit_into_play,home_run,103.4,34,392,6,3,90.2,2190
+2024-05-04,3,0,1,Changeup,R,called_strike,,NA,NA,NA,NA,2,83.5,2039
+2024-05-04,6,1,5,4-Seam Fastball,L,hit_into_play,field_out,97.6,30,349,6,3,93.9,2077
+2024-05-04,6,1,4,Slider,L,foul,,100.7,15,230,NA,5,83.1,2057
+2024-05-04,6,1,3,Slider,L,swinging_strike,,NA,NA,NA,NA,8,84.7,2097
+2024-05-04,6,1,2,Slider,L,ball,,NA,NA,NA,NA,13,84,2013
+2024-05-04,6,1,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,12,91.7,2247
+2024-05-04,1,1,3,Slider,R,swinging_strike,strikeout,NA,NA,NA,NA,9,83.4,2268
+2024-05-04,1,1,2,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,4,90.3,1992
+2024-05-04,1,1,1,Sinker,R,foul,,71.2,20,178,NA,3,88.7,1727
+2024-05-04,7,2,1,Sinker,R,hit_into_play,single,93.7,18,288,4,5,91.1,1930
+2024-05-03,5,1,4,4-Seam Fastball,R,foul_tip,strikeout,NA,NA,NA,NA,2,94.1,2283
+2024-05-03,5,1,3,Curveball,R,swinging_strike,,NA,NA,NA,NA,14,83.1,3104
+2024-05-03,5,1,2,Curveball,R,ball,,NA,NA,NA,NA,13,81.6,3060
+2024-05-03,5,1,1,Sinker,R,called_strike,,NA,NA,NA,NA,2,91.7,2190
+2024-05-03,3,1,8,4-Seam Fastball,R,ball,walk,NA,NA,NA,NA,13,94.7,2215
+2024-05-03,3,1,7,4-Seam Fastball,R,foul,,77.6,59,199,NA,1,96,2131
+2024-05-03,3,1,6,Curveball,R,foul,,90.9,-3,25,NA,8,82.4,3057
+2024-05-03,3,1,5,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,3,94.8,2240
+2024-05-03,3,1,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,95.6,2203
+2024-05-03,3,1,3,Curveball,R,called_strike,,NA,NA,NA,NA,4,81.5,2930
+2024-05-03,3,1,2,Changeup,R,ball,,NA,NA,NA,NA,11,86.4,2028
+2024-05-03,3,1,1,Cutter,R,ball,,NA,NA,NA,NA,11,90.5,2543
+2024-05-03,8,1,5,4-Seam Fastball,L,ball,walk,NA,NA,NA,NA,13,94.3,2365
+2024-05-03,8,1,4,Cutter,L,ball,,NA,NA,NA,NA,13,90.4,2439
+2024-05-03,1,1,7,4-Seam Fastball,R,hit_into_play,field_out,92.5,-37,4,2,5,96.6,2266
+2024-05-03,8,1,3,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,95.1,2457
+2024-05-03,8,1,2,Cutter,L,ball,,NA,NA,NA,NA,13,90.6,2574
+2024-05-03,1,1,6,Curveball,R,foul,,NA,NA,NA,NA,9,82.4,3105
+2024-05-03,1,1,5,Curveball,R,swinging_strike,,NA,NA,NA,NA,9,81.7,2992
+2024-05-03,8,1,1,Cutter,L,swinging_strike,,NA,NA,NA,NA,11,90.8,2539
+2024-05-03,1,1,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,94.9,2182
+2024-05-03,1,1,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,95.8,2205
+2024-05-03,10,1,4,Changeup,R,hit_into_play,single,84.9,8,149,4,13,88.5,2128
+2024-05-03,1,1,2,Curveball,R,foul,,78.4,-29,4,NA,9,82.2,2985
+2024-05-03,10,1,3,Changeup,R,ball,,NA,NA,NA,NA,13,89.7,2010
+2024-05-03,1,1,1,Sinker,R,ball,,NA,NA,NA,NA,11,93.9,1889
+2024-05-03,10,1,2,Changeup,R,called_strike,,NA,NA,NA,NA,7,89.3,2003
+2024-05-03,10,1,1,Changeup,R,swinging_strike,,NA,NA,NA,NA,1,88.7,2035
+2024-04-30,4,0,4,Slider,R,called_strike,strikeout,NA,NA,NA,NA,8,88.3,2754
+2024-04-30,4,0,3,Changeup,R,called_strike,,NA,NA,NA,NA,7,85.3,1889
+2024-04-30,4,0,2,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,5,95.6,2022
+2024-04-30,4,0,1,Changeup,R,ball,,NA,NA,NA,NA,13,84.8,1818
+2024-04-30,1,1,6,Slider,L,hit_into_play,single,77.8,-2,36,2,1,82.9,2596
+2024-04-30,10,0,5,4-Seam Fastball,R,hit_into_play,force_out,84.5,-16,11,2,1,93.7,2415
+2024-04-30,1,1,5,Slider,L,ball,,NA,NA,NA,NA,14,84.4,2466
+2024-04-30,1,1,4,Sinker,L,called_strike,,NA,NA,NA,NA,5,92.8,2388
+2024-04-30,7,2,5,Sinker,R,swinging_strike,strikeout,NA,NA,NA,NA,2,91,2194
+2024-04-30,10,0,4,Split-Finger,R,blocked_ball,,NA,NA,NA,NA,14,86.3,1486
+2024-04-30,1,1,3,Sinker,L,ball,,NA,NA,NA,NA,12,93.3,2380
+2024-04-30,10,0,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,93.1,2298
+2024-04-30,7,2,4,Sinker,R,ball,,NA,NA,NA,NA,14,91.5,2127
+2024-04-30,1,1,2,4-Seam Fastball,L,ball,,NA,NA,NA,NA,11,93.5,2334
+2024-04-30,7,2,3,Sinker,R,foul,,NA,NA,NA,NA,5,91.1,2073
+2024-04-30,10,0,2,Split-Finger,R,swinging_strike,,NA,NA,NA,NA,8,85.7,1206
+2024-04-30,10,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,93.3,2365
+2024-04-30,7,2,2,Sinker,R,ball,,NA,NA,NA,NA,13,92.7,2175
+2024-04-30,1,1,1,Slider,L,called_strike,,NA,NA,NA,NA,7,83.6,2455
+2024-04-30,5,1,6,Sinker,L,swinging_strike,strikeout,NA,NA,NA,NA,7,89.1,2222
+2024-04-30,7,2,1,Sinker,R,swinging_strike,,NA,NA,NA,NA,14,91.5,2112
+2024-04-30,5,1,5,Sinker,L,called_strike,,NA,NA,NA,NA,8,88.8,2210
+2024-04-30,5,1,4,Sinker,L,called_strike,,NA,NA,NA,NA,4,89.2,2202
+2024-04-30,5,1,3,Sinker,L,ball,,NA,NA,NA,NA,13,88.2,2201
+2024-04-30,5,1,2,Curveball,L,ball,,NA,NA,NA,NA,13,79.3,2472
+2024-04-30,5,1,1,Curveball,L,ball,,NA,NA,NA,NA,12,78.6,2384
+2024-04-29,2,1,1,Curveball,L,hit_into_play,grounded_into_double_play,106.7,-17,7,2,8,77.1,2286
+2024-04-29,8,0,2,4-Seam Fastball,L,hit_into_play,single,107.7,12,253,5,2,90.5,1613
+2024-04-29,8,0,1,Sweeper,L,foul,,80.6,66,177,NA,5,82,2321
+2024-04-29,5,1,5,Sinker,L,ball,walk,NA,NA,NA,NA,11,90.5,2289
+2024-04-29,1,1,7,Curveball,L,hit_into_play,single,102,4,142,4,7,80,2212
+2024-04-29,1,1,6,Curveball,L,foul,,NA,NA,NA,NA,7,79.3,2384
+2024-04-29,5,1,4,Curveball,L,ball,,NA,NA,NA,NA,13,81.8,2211
+2024-04-29,5,1,3,Curveball,L,ball,,NA,NA,NA,NA,13,83,2190
+2024-04-29,1,1,5,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,92.4,2196
+2024-04-29,5,1,2,Curveball,L,swinging_strike,,NA,NA,NA,NA,13,81.5,2043
+2024-04-29,1,1,4,Curveball,L,called_strike,,NA,NA,NA,NA,7,79.3,2304
+2024-04-29,1,1,3,Curveball,L,ball,,NA,NA,NA,NA,13,80,2226
+2024-04-29,5,1,1,Sinker,L,ball,,NA,NA,NA,NA,13,90.6,2064
+2024-04-29,1,1,2,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,90.2,2128
+2024-04-29,1,1,1,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,7,90.6,2119
+2024-04-29,6,0,2,Sweeper,L,hit_into_play,field_out,79.3,5,78,2,7,83.1,2214
+2024-04-29,6,0,1,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,7,91.4,1849
+2024-04-28,6,1,5,4-Seam Fastball,R,called_strike,strikeout,NA,NA,NA,NA,9,96.4,2390
+2024-04-28,6,1,4,Split-Finger,R,foul,,67.4,-49,2,NA,13,83.1,1630
+2024-04-28,6,1,3,Split-Finger,R,ball,,NA,NA,NA,NA,13,85.6,1825
+2024-04-28,6,1,2,4-Seam Fastball,R,foul,,70.9,23,187,NA,6,92.1,2265
+2024-04-28,6,1,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,93.2,2288
+2024-04-28,4,0,1,4-Seam Fastball,R,hit_into_play,field_out,66.1,17,151,2,12,91.7,2129
+2024-04-28,8,0,2,4-Seam Fastball,R,hit_into_play,field_out,82.4,61,163,3,12,97.1,2561
+2024-04-28,8,0,1,4-Seam Fastball,R,foul,,62.3,66,124,NA,12,97.7,2563
+2024-04-28,1,1,6,Split-Finger,R,hit_into_play,field_out,106.6,22,401,6,9,83.2,1912
+2024-04-28,1,1,5,Split-Finger,R,ball,,NA,NA,NA,NA,13,85,1872
+2024-04-28,1,1,4,4-Seam Fastball,R,foul_tip,,NA,NA,NA,NA,12,92.7,2283
+2024-04-28,1,1,3,Split-Finger,R,called_strike,,NA,NA,NA,NA,13,82.5,1881
+2024-04-28,1,1,2,Split-Finger,R,ball,,NA,NA,NA,NA,13,83.1,1798
+2024-04-28,1,1,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,92.8,2254
+2024-04-27,4,1,5,Curveball,L,swinging_strike,strikeout,NA,NA,NA,NA,8,82.1,2632
+2024-04-27,4,1,4,Slider,L,ball,,NA,NA,NA,NA,13,89.8,2565
+2024-04-27,4,1,3,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,4,97.1,2432
+2024-04-27,4,1,2,Slider,L,swinging_strike,,NA,NA,NA,NA,3,89.3,2441
+2024-04-27,4,1,1,Slider,L,ball,,NA,NA,NA,NA,13,89.9,2511
+2024-04-27,2,2,5,4-Seam Fastball,L,hit_into_play,single,119.2,6,153,6,6,98.2,2390
+2024-04-27,2,2,4,Slider,L,blocked_ball,,NA,NA,NA,NA,13,92.1,2465
+2024-04-27,2,2,3,Slider,L,blocked_ball,,NA,NA,NA,NA,13,92.1,2521
+2024-04-27,2,2,2,4-Seam Fastball,L,foul,,97.3,50,267,NA,2,97.9,2454
+2024-04-27,2,2,1,Slider,L,called_strike,,NA,NA,NA,NA,4,91.9,2448
+2024-04-27,9,1,5,Slider,R,hit_into_play,field_out,102.6,34,370,6,5,85.3,2024
+2024-04-27,9,1,4,Slider,R,ball,,NA,NA,NA,NA,11,85.8,1887
+2024-04-27,9,1,3,Slider,R,ball,,NA,NA,NA,NA,8,86.2,2138
+2024-04-27,9,1,2,Slider,R,called_strike,,NA,NA,NA,NA,8,85.5,2037
+2024-04-27,1,0,5,4-Seam Fastball,L,hit_into_play,field_out,108.7,-3,31,4,6,97.3,2356
+2024-04-27,9,1,1,Slider,R,ball,,NA,NA,NA,NA,14,86.8,2219
+2024-04-27,1,0,4,Curveball,L,blocked_ball,,NA,NA,NA,NA,13,86.3,2449
+2024-04-27,1,0,3,4-Seam Fastball,L,foul,,76.1,47,254,NA,1,97.9,2205
+2024-04-27,1,0,2,4-Seam Fastball,L,swinging_strike,,NA,NA,NA,NA,3,97.7,2295
+2024-04-27,1,0,1,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,4,97.3,2270
+2024-04-27,7,1,1,Cutter,L,hit_into_play,field_error,76.7,-13,9,2,9,89.7,2141
+2024-04-26,3,0,5,Sinker,R,ball,walk,NA,NA,NA,NA,11,92.9,2147
+2024-04-26,3,0,4,Split-Finger,R,ball,,NA,NA,NA,NA,13,83.2,1371
+2024-04-26,3,0,3,Changeup,R,called_strike,,NA,NA,NA,NA,9,85,1668
+2024-04-26,3,0,2,Cutter,R,ball,,NA,NA,NA,NA,12,89.6,2168
+2024-04-26,3,0,1,Cutter,R,ball,,NA,NA,NA,NA,12,89.1,2094
+2024-04-26,5,1,5,Knuckle Curve,L,hit_into_play,field_out,48,14,65,1,13,87,2043
+2024-04-26,5,1,4,Knuckle Curve,L,foul,,63.9,16,114,NA,7,86.3,2337
+2024-04-26,5,1,3,Sinker,L,ball,,NA,NA,NA,NA,13,95,2225
+2024-04-26,5,1,2,Sinker,L,called_strike,,NA,NA,NA,NA,2,94.7,2246
+2024-04-26,5,1,1,Sinker,L,ball,,NA,NA,NA,NA,13,95.3,2278
+2024-04-26,3,2,6,Changeup,R,hit_into_play,field_out,73.6,-14,9,2,7,78.6,2439
+2024-04-26,3,2,5,Changeup,R,foul,,58.3,55,140,NA,7,79,2683
+2024-04-26,1,1,3,Slider,R,hit_into_play,home_run,96.1,37,360,3,6,83.2,2294
+2024-04-26,1,1,2,Sinker,R,ball,,NA,NA,NA,NA,1,91.9,2058
+2024-04-26,3,2,4,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,9,91.8,2245
+2024-04-26,3,2,3,Changeup,R,ball,,NA,NA,NA,NA,14,79.2,2586
+2024-04-26,7,0,3,Sinker,L,hit_into_play,field_out,112.8,1,73,4,2,91.7,1965
+2024-04-26,1,1,1,Sinker,R,called_strike,,NA,NA,NA,NA,4,92.8,2069
+2024-04-26,7,0,2,Sinker,L,ball,,NA,NA,NA,NA,14,91.7,2108
+2024-04-26,3,2,2,Changeup,R,blocked_ball,,NA,NA,NA,NA,13,78.3,2542
+2024-04-26,7,0,1,Sinker,L,ball,,NA,NA,NA,NA,13,91.4,2102
+2024-04-26,3,2,1,Changeup,R,called_strike,,NA,NA,NA,NA,1,79.2,2539
+2024-04-25,5,1,1,Cutter,L,hit_into_play,grounded_into_double_play,89.5,1,50,2,7,92.5,2039
+2024-04-25,3,0,6,4-Seam Fastball,L,swinging_strike,strikeout,NA,NA,NA,NA,13,97.4,2162
+2024-04-25,3,0,5,Curveball,L,blocked_ball,,NA,NA,NA,NA,13,84.3,2450
+2024-04-25,3,0,4,Curveball,L,foul,,83,-50,1,NA,7,84.3,2413
+2024-04-25,3,0,3,4-Seam Fastball,L,foul,,79.7,52,257,NA,2,97,2230
+2024-04-25,3,0,2,Cutter,L,ball,,NA,NA,NA,NA,13,93.6,2167
+2024-04-25,3,0,1,Cutter,L,called_strike,,NA,NA,NA,NA,8,92.1,2016
+2024-04-25,8,0,6,4-Seam Fastball,R,hit_into_play,field_out,53,27,131,1,12,95.8,2079
+2024-04-25,8,0,5,Slider,R,foul,,82.3,45,245,NA,4,85.4,2095
+2024-04-25,8,0,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,95,2016
+2024-04-25,8,0,3,Slider,R,swinging_strike,,NA,NA,NA,NA,11,85.6,2163
+2024-04-25,8,0,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,95.1,2065
+2024-04-25,1,1,3,4-Seam Fastball,L,swinging_strike,strikeout,NA,NA,NA,NA,12,98.3,2315
+2024-04-25,8,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,95.1,2055
+2024-04-25,1,1,2,4-Seam Fastball,L,swinging_strike,,NA,NA,NA,NA,4,97.7,2339
+2024-04-25,1,1,1,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,9,98.6,2336
+2024-04-24,4,1,2,Cutter,R,hit_into_play,field_out,99.4,27,381,6,12,89.3,2484
+2024-04-24,4,1,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,8,92.1,2297
+2024-04-24,2,1,3,Cutter,R,hit_into_play,grounded_into_double_play,96.3,4,77,4,12,90.5,2597
+2024-04-24,2,1,2,Cutter,R,swinging_strike,,NA,NA,NA,NA,14,90.2,2515
+2024-04-24,2,1,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,93.9,2391
+2024-04-24,9,2,3,4-Seam Fastball,R,hit_into_play,double,101.9,29,386,6,1,92.8,2008
+2024-04-24,9,2,2,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,8,92.2,2029
+2024-04-24,9,2,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,91.2,2022
+2024-04-24,8,1,4,4-Seam Fastball,R,hit_into_play,double,105.7,11,250,4,4,93.9,2426
+2024-04-24,8,1,3,4-Seam Fastball,R,foul,,79.2,52,223,NA,1,93.1,2323
+2024-04-24,6,1,7,Slider,R,swinging_strike,strikeout,NA,NA,NA,NA,14,87.2,2265
+2024-04-24,6,1,6,Cutter,R,ball,,NA,NA,NA,NA,14,92.2,2279
+2024-04-24,8,1,2,4-Seam Fastball,R,foul,,NA,NA,NA,NA,12,91.4,2356
+2024-04-24,1,1,2,4-Seam Fastball,R,hit_into_play,double,115.6,13,323,6,2,96.7,2394
+2024-04-24,6,1,5,Cutter,R,foul,,46.7,45,109,NA,12,92.8,2199
+2024-04-24,8,1,1,Slider,R,ball,,NA,NA,NA,NA,14,85.9,2111
+2024-04-24,1,1,1,Cutter,R,swinging_strike,,NA,NA,NA,NA,14,94.9,2673
+2024-04-24,6,1,4,Changeup,R,foul,,63,-46,1,NA,13,88.9,1877
+2024-04-24,6,1,3,Changeup,R,foul,,80.7,-36,2,NA,13,87.7,1886
+2024-04-24,6,1,2,Changeup,R,foul,,60.2,-68,1,NA,14,84,1780
+2024-04-24,6,1,1,Cutter,R,foul,,67.3,45,175,NA,12,90.8,2329
+2024-04-23,5,2,3,Sinker,L,hit_into_play,field_out,109.7,46,339,6,6,91.4,2105
+2024-04-23,5,2,2,Slider,L,ball,,NA,NA,NA,NA,13,80.8,2035
+2024-04-23,5,2,1,Sinker,L,ball,,NA,NA,NA,NA,7,91.6,1962
+2024-04-23,3,1,5,Sinker,L,hit_into_play,field_out,101.4,19,309,5,3,93.1,2099
+2024-04-23,3,1,4,Sinker,L,called_strike,,NA,NA,NA,NA,8,93.4,2107
+2024-04-23,3,1,3,Sinker,L,ball,,NA,NA,NA,NA,13,92.7,2103
+2024-04-23,3,1,2,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,92.1,2086
+2024-04-23,3,1,1,Sinker,L,foul,,91,-23,5,NA,14,93,2135
+2024-04-23,1,1,9,Slider,L,hit_into_play,field_out,59.3,-19,5,1,7,82.2,2120
+2024-04-23,7,2,4,4-Seam Fastball,R,ball,walk,NA,NA,NA,NA,13,94.9,2188
+2024-04-23,1,1,8,Slider,L,ball,,NA,NA,NA,NA,13,83.5,2271
+2024-04-23,1,1,7,4-Seam Fastball,L,foul,,90.1,35,330,NA,11,92.6,2102
+2024-04-23,7,2,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,95.4,2202
+2024-04-23,1,1,6,4-Seam Fastball,L,foul,,75.1,44,224,NA,6,92.9,2222
+2024-04-23,7,2,2,Split-Finger,R,ball,,NA,NA,NA,NA,11,86.3,1314
+2024-04-23,1,1,5,Sinker,L,foul,,73.5,12,88,NA,14,93,2176
+2024-04-23,7,2,1,Split-Finger,R,ball,,NA,NA,NA,NA,13,87.4,1186
+2024-04-23,1,1,4,Slider,L,called_strike,,NA,NA,NA,NA,7,81.9,2185
+2024-04-23,1,1,3,Cutter,L,ball,,NA,NA,NA,NA,13,83.3,2305
+2024-04-23,1,1,2,Sinker,L,called_strike,,NA,NA,NA,NA,4,93.3,2137
+2024-04-23,1,1,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,11,91.8,2175
+2024-04-23,9,0,2,Split-Finger,R,hit_into_play,home_run,118.7,25,450,6,5,85.6,1557
+2024-04-23,9,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,92.3,2223
+2024-04-21,5,0,5,Sinker,R,hit_into_play,single,101,-2,33,2,14,92.8,2178
+2024-04-21,5,0,4,4-Seam Fastball,R,foul,,77.1,48,221,NA,6,95,2209
+2024-04-21,5,0,3,Changeup,R,swinging_strike,,NA,NA,NA,NA,13,84.8,1548
+2024-04-21,5,0,2,4-Seam Fastball,R,foul,,63.2,-22,6,NA,12,92.6,2136
+2024-04-21,5,0,1,Curveball,R,blocked_ball,,NA,NA,NA,NA,14,80.2,2007
+2024-04-21,3,1,2,Slider,R,hit_into_play,home_run,110,30,423,6,5,81.7,2116
+2024-04-21,3,1,1,4-Seam Fastball,R,foul,,80.9,63,190,NA,4,92.9,2239
+2024-04-21,6,1,6,Sweeper,R,ball,walk,NA,NA,NA,NA,13,83.4,2399
+2024-04-21,6,1,5,Cutter,R,foul,,71.2,65,176,NA,2,92.7,2254
+2024-04-21,6,1,4,Sinker,R,ball,,NA,NA,NA,NA,14,95.7,2175
+2024-04-21,6,1,3,Changeup,R,ball,,NA,NA,NA,NA,13,86.6,1725
+2024-04-21,6,1,2,Sinker,R,called_strike,,NA,NA,NA,NA,8,94.9,2083
+2024-04-21,6,1,1,Sweeper,R,ball,,NA,NA,NA,NA,11,81.8,2571
+2024-04-21,1,1,5,Slider,R,swinging_strike,strikeout,NA,NA,NA,NA,13,84,2228
+2024-04-21,1,1,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,95,2237
+2024-04-21,1,1,3,Changeup,R,foul,,86.9,0,45,NA,7,85.2,1383
+2024-04-21,1,1,2,4-Seam Fastball,R,foul,,75.7,20,192,NA,2,94.3,2226
+2024-04-21,1,1,1,Sinker,R,foul,,82.5,36,240,NA,7,94,2155
+2024-04-20,5,0,5,Slider,R,hit_into_play,double,103.4,21,328,6,14,87.5,2607
+2024-04-20,5,0,4,Slider,R,swinging_strike,,NA,NA,NA,NA,14,87.3,2605
+2024-04-20,5,0,3,Sinker,R,called_strike,,NA,NA,NA,NA,7,94.1,2011
+2024-04-20,5,0,2,Sinker,R,ball,,NA,NA,NA,NA,13,92.5,1996
+2024-04-20,5,0,1,Slider,R,ball,,NA,NA,NA,NA,13,84.9,2552
+2024-04-20,2,2,5,4-Seam Fastball,R,ball,walk,NA,NA,NA,NA,12,95.6,2391
+2024-04-20,2,2,4,Slider,R,ball,,NA,NA,NA,NA,11,86.2,2534
+2024-04-20,2,2,3,Changeup,R,foul,,73.8,16,160,NA,4,88.2,1505
+2024-04-20,2,2,2,Changeup,R,ball,,NA,NA,NA,NA,11,88.2,1537
+2024-04-20,2,2,1,Slider,R,ball,,NA,NA,NA,NA,11,86.5,2451
+2024-04-20,6,1,5,Cutter,R,swinging_strike,strikeout,NA,NA,NA,NA,14,90.3,2700
+2024-04-20,1,0,5,Slider,R,ball,walk,NA,NA,NA,NA,14,86.8,2530
+2024-04-20,6,1,4,Changeup,R,blocked_ball,,NA,NA,NA,NA,13,87.8,1770
+2024-04-20,1,0,4,Changeup,R,ball,,NA,NA,NA,NA,13,87.1,1414
+2024-04-20,1,0,3,Slider,R,blocked_ball,,NA,NA,NA,NA,14,86.5,2477
+2024-04-20,6,1,3,4-Seam Fastball,R,foul,,69.7,14,142,NA,2,95.6,2604
+2024-04-20,6,1,2,Changeup,R,ball,,NA,NA,NA,NA,14,85.5,1733
+2024-04-20,1,0,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,93.6,2276
+2024-04-20,1,0,1,Slider,R,called_strike,,NA,NA,NA,NA,13,83.8,2626
+2024-04-20,6,1,1,Cutter,R,swinging_strike,,NA,NA,NA,NA,3,89.2,2873
+2024-04-20,8,1,5,4-Seam Fastball,R,ball,walk,NA,NA,NA,NA,11,96.5,2290
+2024-04-20,8,1,4,Slider,R,blocked_ball,,NA,NA,NA,NA,14,89.2,2359
+2024-04-20,8,1,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,98,2453
+2024-04-20,8,1,2,Slider,R,ball,,NA,NA,NA,NA,14,88.2,2324
+2024-04-20,8,1,1,Slider,R,swinging_strike,,NA,NA,NA,NA,14,89.1,2379
+2024-04-19,5,2,6,Sweeper,L,hit_into_play,single,107.8,11,263,5,4,78.6,2217
+2024-04-19,5,2,5,Changeup,L,blocked_ball,,NA,NA,NA,NA,14,87.5,1420
+2024-04-19,5,2,4,Sweeper,L,foul,,67.2,-24,4,NA,7,80.2,2100
+2024-04-19,5,2,3,Changeup,L,foul,,68.3,-25,3,NA,14,86.6,1416
+2024-04-19,5,2,2,Sweeper,L,ball,,NA,NA,NA,NA,13,80.7,2186
+2024-04-19,5,2,1,Sweeper,L,swinging_strike,,NA,NA,NA,NA,8,78.7,2226
+2024-04-19,4,0,5,4-Seam Fastball,L,ball,walk,NA,NA,NA,NA,13,92.5,2064
+2024-04-19,4,0,4,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,4,91.1,2074
+2024-04-19,4,0,3,4-Seam Fastball,L,ball,,NA,NA,NA,NA,11,91.5,2003
+2024-04-19,4,0,2,Sinker,L,ball,,NA,NA,NA,NA,13,91.4,1941
+2024-04-19,4,0,1,Sweeper,L,ball,,NA,NA,NA,NA,13,77.3,2093
+2024-04-19,1,1,6,Sinker,L,hit_into_play,field_out,95.2,-28,5,2,5,94.2,2115
+2024-04-19,9,0,2,Sweeper,L,hit_into_play,force_out,77.2,2,46,2,14,80.7,2619
+2024-04-19,1,1,5,Sweeper,L,ball,,NA,NA,NA,NA,12,78,2183
+2024-04-19,9,0,1,Sweeper,L,ball,,NA,NA,NA,NA,14,81,2685
+2024-04-19,1,1,4,Sweeper,L,ball,,NA,NA,NA,NA,13,82.5,2281
+2024-04-19,7,0,6,Sweeper,L,swinging_strike,strikeout,NA,NA,NA,NA,3,81.2,2870
+2024-04-19,1,1,3,Sweeper,L,ball,,NA,NA,NA,NA,13,80.5,2180
+2024-04-19,7,0,5,Sweeper,L,ball,,NA,NA,NA,NA,13,81,2888
+2024-04-19,1,1,2,Sweeper,L,foul,,69.3,28,189,NA,2,82.3,2176
+2024-04-19,1,1,1,Sinker,L,called_strike,,NA,NA,NA,NA,8,95.2,2013
+2024-04-19,7,0,4,Changeup,L,ball,,NA,NA,NA,NA,13,82.4,2148
+2024-04-19,7,0,3,Changeup,L,ball,,NA,NA,NA,NA,13,82.5,2157
+2024-04-19,7,0,2,Sweeper,L,foul_tip,,NA,NA,NA,NA,13,80.7,2883
+2024-04-19,7,0,1,Cutter,L,called_strike,,NA,NA,NA,NA,1,84.1,2543
+2024-04-17,6,0,4,Curveball,R,hit_into_play,single,106.7,12,244,5,7,80.6,2737
+2024-04-17,6,0,3,Sinker,R,foul,,69.5,57,171,NA,4,94.6,2076
+2024-04-17,6,0,2,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,9,95.4,2483
+2024-04-17,6,0,1,Cutter,R,ball,,NA,NA,NA,NA,12,90.2,2564
+2024-04-17,3,1,2,4-Seam Fastball,R,hit_into_play,field_out,81.9,35,268,3,2,96.1,2367
+2024-04-17,3,1,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,5,96.8,2348
+2024-04-17,8,2,6,4-Seam Fastball,R,hit_into_play,single,99,13,276,4,4,98.6,2091
+2024-04-17,8,2,5,Split-Finger,R,foul,,101.9,19,291,NA,14,90.8,1206
+2024-04-17,8,2,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,99,2289
+2024-04-17,8,2,3,4-Seam Fastball,R,foul,,61.4,14,121,NA,12,98.7,2023
+2024-04-17,8,2,2,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,2,98.5,1967
+2024-04-17,8,2,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,98.6,1947
+2024-04-17,1,1,2,Cutter,R,hit_into_play,single,107.9,15,270,5,6,92.3,2600
+2024-04-17,1,1,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,4,95.5,2246
+2024-04-16,7,0,1,Sinker,L,hit_into_play,field_out,97,43,321,3,4,91.2,2046
+2024-04-16,4,2,1,Sinker,L,hit_into_play,field_out,96.9,-26,5,2,4,92.4,2156
+2024-04-16,2,1,1,Sinker,L,hit_into_play,field_out,107.7,-9,15,2,5,92.3,2217
+2024-04-16,8,2,5,4-Seam Fastball,R,hit_into_play,single,54.2,-73,1,1,11,94.4,2297
+2024-04-16,8,2,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,94.7,2419
+2024-04-16,8,2,3,Slider,R,swinging_strike,,NA,NA,NA,NA,14,87.1,2394
+2024-04-16,8,2,2,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,4,95.4,2340
+2024-04-16,8,2,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,13,94.9,2284
+2024-04-16,1,0,3,Sinker,L,hit_into_play,single,93.1,13,238,4,8,92.4,2129
+2024-04-16,1,0,2,Sinker,L,called_strike,,NA,NA,NA,NA,7,91.2,2145
+2024-04-16,1,0,1,Sinker,L,called_strike,,NA,NA,NA,NA,7,91.6,2117
+2024-04-15,3,1,6,Curveball,L,swinging_strike,strikeout,NA,NA,NA,NA,9,80.3,2127
+2024-04-15,3,1,5,Curveball,L,ball,,NA,NA,NA,NA,13,81.4,2032
+2024-04-15,3,1,4,4-Seam Fastball,L,foul,,75.8,45,222,NA,4,92.2,2198
+2024-04-15,3,1,3,Curveball,L,called_strike,,NA,NA,NA,NA,1,79.8,2190
+2024-04-15,3,1,2,4-Seam Fastball,L,ball,,NA,NA,NA,NA,11,93.1,2110
+2024-04-15,3,1,1,4-Seam Fastball,L,foul,,88.9,39,295,NA,9,93.5,2118
+2024-04-15,6,0,8,4-Seam Fastball,R,foul,catcher_interf,NA,NA,NA,NA,11,91.6,2108
+2024-04-15,1,1,4,Curveball,L,hit_into_play,single,107.3,-6,18,2,8,80.6,2165
+2024-04-15,6,0,7,Knuckle Curve,R,foul,,76.1,67,159,NA,4,80.1,1784
+2024-04-15,1,1,3,4-Seam Fastball,L,ball,,NA,NA,NA,NA,11,92.8,2239
+2024-04-15,7,2,5,4-Seam Fastball,R,hit_into_play,field_out,98.4,16,303,4,4,98.6,2031
+2024-04-15,1,1,2,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,94.2,2121
+2024-04-15,6,0,6,Knuckle Curve,R,ball,,NA,NA,NA,NA,14,81.8,1927
+2024-04-15,7,2,4,4-Seam Fastball,R,foul,,70.8,4,82,NA,3,98.9,1930
+2024-04-15,6,0,5,4-Seam Fastball,R,foul,,75.8,70,155,NA,4,90.4,2089
+2024-04-15,1,1,1,Curveball,L,foul,,64.2,24,166,NA,3,80.3,1961
+2024-04-15,6,0,4,Split-Finger,R,foul,,89.3,68,162,NA,8,85.7,1430
+2024-04-15,7,2,3,4-Seam Fastball,R,foul,,NA,NA,NA,NA,11,97.7,1981
+2024-04-15,7,2,2,Split-Finger,R,foul,,83.3,-37,2,NA,13,87.6,1020
+2024-04-15,6,0,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,89.6,2051
+2024-04-15,6,0,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,90.4,2117
+2024-04-15,7,2,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,6,97.3,1840
+2024-04-15,6,0,1,Split-Finger,R,called_strike,,NA,NA,NA,NA,8,85.8,1521
+2024-04-14,5,1,5,Cutter,R,foul_tip,strikeout,NA,NA,NA,NA,8,89.3,2319
+2024-04-14,5,1,4,Split-Finger,R,foul,,65.9,23,168,NA,13,86.1,1145
+2024-04-14,5,1,3,4-Seam Fastball,R,foul,,NA,NA,NA,NA,5,91.8,2223
+2024-04-14,5,1,2,Cutter,R,swinging_strike,,NA,NA,NA,NA,14,88.5,2374
+2024-04-14,5,1,1,Sweeper,R,called_strike,,NA,NA,NA,NA,13,79.3,2629
+2024-04-14,3,2,6,Cutter,R,hit_into_play,field_out,77.3,61,184,3,4,92,2454
+2024-04-14,3,2,5,4-Seam Fastball,R,foul,,83.2,66,164,NA,2,94,2275
+2024-04-14,3,2,4,Slider,R,swinging_strike,,NA,NA,NA,NA,14,87.3,2732
+2024-04-14,3,2,3,Slider,R,ball,,NA,NA,NA,NA,14,87.1,2708
+2024-04-14,3,2,2,Sweeper,R,ball,,NA,NA,NA,NA,14,83,2808
+2024-04-14,3,2,1,Split-Finger,R,ball,,NA,NA,NA,NA,3,86.8,1168
+2024-04-14,1,0,7,Cutter,R,swinging_strike,strikeout,NA,NA,NA,NA,9,93.2,2495
+2024-04-14,1,0,6,Split-Finger,R,foul,,85.6,35,286,NA,11,87.5,801
+2024-04-14,1,0,5,Sweeper,R,ball,,NA,NA,NA,NA,13,85,2609
+2024-04-14,1,0,4,Split-Finger,R,foul,,104.5,19,269,NA,5,89.1,1221
+2024-04-14,1,0,3,4-Seam Fastball,R,foul,,76.8,-20,5,NA,9,94.9,2154
+2024-04-14,1,0,2,Split-Finger,R,swinging_strike,,NA,NA,NA,NA,7,88.8,1165
+2024-04-14,1,0,1,Sweeper,R,called_strike,,NA,NA,NA,NA,5,83.2,2523
+2024-04-14,8,0,1,Changeup,L,hit_into_play,single,108.6,8,185,4,9,87.7,2059
+2024-04-13,4,2,2,Cutter,R,hit_into_play,field_out,55.6,38,149,1,12,86.7,2257
+2024-04-13,4,2,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,89.6,2054
+2024-04-13,3,0,6,Cutter,R,ball,walk,NA,NA,NA,NA,13,86.7,2180
+2024-04-13,3,0,5,Knuckleball,R,ball,,NA,NA,NA,NA,11,76.7,174
+2024-04-13,3,0,4,Knuckleball,R,ball,,NA,NA,NA,NA,11,75.8,391
+2024-04-13,3,0,3,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,12,90.1,2067
+2024-04-13,3,0,2,Sweeper,R,called_strike,,NA,NA,NA,NA,1,77.4,2199
+2024-04-13,3,0,1,Sinker,R,ball,,NA,NA,NA,NA,14,89.7,1995
+2024-04-13,8,2,4,4-Seam Fastball,R,hit_into_play,field_out,110.3,43,344,6,3,95.6,2144
+2024-04-13,8,2,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,96.5,2121
+2024-04-13,8,2,2,Changeup,R,ball,,NA,NA,NA,NA,14,90.5,1776
+2024-04-13,8,2,1,4-Seam Fastball,R,foul,,80.9,-27,4,NA,6,96.3,2111
+2024-04-13,1,1,4,Cutter,R,ball,walk,NA,NA,NA,NA,11,87.5,2014
+2024-04-13,1,1,3,Cutter,R,ball,,NA,NA,NA,NA,12,88.6,2134
+2024-04-13,1,1,2,Knuckleball,R,ball,,NA,NA,NA,NA,13,75.6,230
+2024-04-13,1,1,1,Knuckleball,R,ball,,NA,NA,NA,NA,11,76.9,216
+2024-04-13,6,1,3,Sweeper,L,hit_into_play,sac_fly,102.7,23,384,6,5,81.1,2562
+2024-04-13,6,1,2,4-Seam Fastball,L,swinging_strike,,NA,NA,NA,NA,12,97.2,2364
+2024-04-13,6,1,1,Sweeper,L,ball,,NA,NA,NA,NA,13,81.7,2691
+2024-04-12,5,0,4,Slider,R,hit_into_play,double,85.2,53,226,3,7,85.6,2355
+2024-04-12,5,0,3,Changeup,R,swinging_strike,,NA,NA,NA,NA,7,86.2,2080
+2024-04-12,5,0,2,Sweeper,R,called_strike,,NA,NA,NA,NA,4,80.7,2655
+2024-04-12,5,0,1,Sweeper,R,ball,,NA,NA,NA,NA,14,80.4,2710
+2024-04-12,2,2,3,4-Seam Fastball,R,hit_into_play,field_out,104.9,19,361,6,11,92.9,2170
+2024-04-12,2,2,2,Changeup,R,called_strike,,NA,NA,NA,NA,7,87,2063
+2024-04-12,2,2,1,Changeup,R,ball,,NA,NA,NA,NA,14,87.2,2006
+2024-04-12,1,1,2,4-Seam Fastball,R,hit_into_play,home_run,107.3,25,403,6,11,95.4,2337
+2024-04-12,7,1,4,Split-Finger,L,hit_into_play,double,107.9,14,240,5,5,86,1470
+2024-04-12,1,1,1,Sinker,R,ball,,NA,NA,NA,NA,1,93.1,2246
+2024-04-12,7,1,3,Slider,L,ball,,NA,NA,NA,NA,13,87,2695
+2024-04-12,7,1,2,4-Seam Fastball,L,ball,,NA,NA,NA,NA,3,91,2262
+2024-04-12,7,1,1,Slider,L,called_strike,,NA,NA,NA,NA,6,86.4,2691
+2024-04-12,9,1,2,Sinker,L,hit_into_play,field_out,102.2,20,349,5,12,90.3,2285
+2024-04-12,9,1,1,Sweeper,L,called_strike,,NA,NA,NA,NA,12,77.3,2758
+2024-04-10,5,1,5,Slider,R,hit_into_play,single,104.3,17,276,5,12,87.9,2022
+2024-04-10,5,1,4,Curveball,R,ball,,NA,NA,NA,NA,14,79.6,2177
+2024-04-10,5,1,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,94.9,2236
+2024-04-10,5,1,2,Slider,R,swinging_strike,,NA,NA,NA,NA,14,85.9,1990
+2024-04-10,5,1,1,4-Seam Fastball,R,foul,,74.1,21,192,NA,3,93.7,2299
+2024-04-10,3,1,2,Slider,R,hit_into_play,field_out,77.4,40,245,3,3,86.8,2022
+2024-04-10,3,1,1,Changeup,R,ball,,NA,NA,NA,NA,14,83.7,2087
+2024-04-10,7,1,2,Cutter,R,hit_into_play,force_out,106.1,-18,6,2,14,95.2,2438
+2024-04-10,7,1,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,9,97.1,2539
+2024-04-10,1,0,4,4-Seam Fastball,R,ball,walk,NA,NA,NA,NA,14,94.3,2258
+2024-04-10,1,0,3,Changeup,R,ball,,NA,NA,NA,NA,13,83,1801
+2024-04-10,1,0,2,Slider,R,blocked_ball,,NA,NA,NA,NA,14,88.5,2077
+2024-04-10,1,0,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,94.5,2206
+2024-04-09,5,0,1,4-Seam Fastball,R,hit_into_play,field_out,83.7,39,266,3,3,94.9,2200
+2024-04-09,3,2,2,Slider,R,hit_into_play,double,114,6,121,5,8,89.3,2615
+2024-04-09,3,2,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,7,97.1,2302
+2024-04-09,8,2,2,Cutter,R,hit_into_play,field_out,72,1,43,2,12,92.6,2453
+2024-04-09,8,2,1,Cutter,R,foul,,68.8,51,173,NA,12,93.7,2528
+2024-04-09,6,2,3,Split-Finger,R,swinging_strike,strikeout,NA,NA,NA,NA,13,87.8,1496
+2024-04-09,6,2,2,4-Seam Fastball,R,foul,,76.3,9,121,NA,3,95.4,2281
+2024-04-09,6,2,1,Cutter,R,swinging_strike,,NA,NA,NA,NA,14,90,2460
+2024-04-09,1,0,4,Slider,R,called_strike,strikeout,NA,NA,NA,NA,5,90.3,2630
+2024-04-09,1,0,3,Slider,R,foul,,76.9,-22,5,NA,9,91.4,2454
+2024-04-09,1,0,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,96.6,2187
+2024-04-09,1,0,1,Slider,R,called_strike,,NA,NA,NA,NA,9,91.8,2380
+2024-04-08,3,2,5,Slider,R,hit_into_play,field_out,90,22,313,3,3,86,2144
+2024-04-08,3,2,4,Sweeper,R,ball,,NA,NA,NA,NA,14,80.9,2126
+2024-04-08,3,2,3,4-Seam Fastball,R,foul,,NA,NA,NA,NA,3,92,2319
+2024-04-08,3,2,2,Slider,R,called_strike,,NA,NA,NA,NA,3,86.5,2036
+2024-04-08,3,2,1,Slider,R,ball,,NA,NA,NA,NA,14,86.6,1997
+2024-04-08,7,2,4,Slider,R,hit_into_play,home_run,106.9,38,362,6,5,85.6,2104
+2024-04-08,7,2,3,Slider,R,ball,,NA,NA,NA,NA,14,85.9,2207
+2024-04-08,7,2,2,Slider,R,ball,,NA,NA,NA,NA,14,85.4,2132
+2024-04-08,7,2,1,Slider,R,foul,,93.4,-31,4,NA,14,86,2270
+2024-04-08,9,1,5,Sweeper,L,called_strike,strikeout,NA,NA,NA,NA,6,81.2,2430
+2024-04-08,9,1,4,Sinker,L,called_strike,,NA,NA,NA,NA,4,92.3,2052
+2024-04-08,1,0,5,4-Seam Fastball,R,hit_into_play,double,110.1,16,396,6,4,92.5,2369
+2024-04-08,9,1,3,Sinker,L,foul,,72.7,33,213,NA,3,91.7,2151
+2024-04-08,9,1,2,Sinker,L,ball,,NA,NA,NA,NA,11,92.5,2221
+2024-04-08,1,0,4,Sweeper,R,ball,,NA,NA,NA,NA,14,80.5,2019
+2024-04-08,1,0,3,4-Seam Fastball,R,foul,,NA,NA,NA,NA,2,92,2170
+2024-04-08,9,1,1,Sweeper,L,ball,,NA,NA,NA,NA,11,80.6,2427
+2024-04-08,1,0,2,Slider,R,ball,,NA,NA,NA,NA,14,87.2,2142
+2024-04-08,1,0,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,5,90.9,2226
+2024-04-08,6,0,1,Sinker,L,hit_into_play,double,88.3,20,249,4,3,92.9,2148
+2024-04-07,3,2,2,4-Seam Fastball,L,hit_into_play,field_out,76.6,63,147,3,3,91.2,2407
+2024-04-07,3,2,1,4-Seam Fastball,L,foul,,94.8,64,200,NA,2,91.3,2393
+2024-04-07,8,2,4,4-Seam Fastball,R,hit_into_play,double,106.8,20,395,6,6,97,2133
+2024-04-07,8,2,3,Slider,R,ball,,NA,NA,NA,NA,14,90.1,1957
+2024-04-07,8,2,2,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,6,96.9,2109
+2024-04-07,8,2,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,96.4,2086
+2024-04-07,1,1,9,4-Seam Fastball,L,swinging_strike,strikeout,NA,NA,NA,NA,3,94.4,2477
+2024-04-07,1,1,8,Split-Finger,L,foul,,74.2,-52,2,NA,8,83.4,1155
+2024-04-07,1,1,7,4-Seam Fastball,L,foul,,71.9,32,227,NA,12,93.7,2510
+2024-04-07,6,2,1,Curveball,R,hit_into_play,triple,107.9,16,279,6,5,72.3,2292
+2024-04-07,1,1,6,4-Seam Fastball,L,foul,,77.1,67,151,NA,3,94.1,2539
+2024-04-07,1,1,5,4-Seam Fastball,L,swinging_strike,,NA,NA,NA,NA,3,93.3,2516
+2024-04-07,1,1,4,Sweeper,L,ball,,NA,NA,NA,NA,4,81.4,2492
+2024-04-07,1,1,3,Sweeper,L,ball,,NA,NA,NA,NA,11,81.4,2518
+2024-04-07,1,1,2,4-Seam Fastball,L,foul,,75.8,22,204,NA,3,93,2521
+2024-04-07,1,1,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,12,93,2513
+2024-04-06,5,1,2,Sinker,L,hit_into_play,single,78.2,17,198,4,12,91.3,2150
+2024-04-06,5,1,1,Sinker,L,ball,,NA,NA,NA,NA,12,91.8,2091
+2024-04-06,3,0,7,4-Seam Fastball,L,hit_into_play,field_out,95.1,37,310,3,2,92,2206
+2024-04-06,3,0,6,Sinker,L,foul,,26.8,48,43,NA,14,91.5,2158
+2024-04-06,3,0,5,Sinker,L,swinging_strike,,NA,NA,NA,NA,9,90.8,2220
+2024-04-06,3,0,4,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,91.5,2390
+2024-04-06,3,0,3,Sinker,L,ball,,NA,NA,NA,NA,14,89.6,2148
+2024-04-06,3,0,2,4-Seam Fastball,L,swinging_strike,,NA,NA,14,NA,11,90.9,2292
+2024-04-06,3,0,1,Curveball,L,ball,,NA,NA,NA,NA,13,78.9,2791
+2024-04-06,9,0,4,Split-Finger,R,swinging_strike_blocked,strikeout,NA,NA,NA,NA,14,84.9,836
+2024-04-06,1,0,4,Sweeper,L,hit_into_play,single,106.1,7,158,4,9,81.9,2733
+2024-04-06,9,0,3,Split-Finger,R,swinging_strike,,NA,NA,NA,NA,4,84.6,901
+2024-04-06,1,0,3,Sinker,L,foul,,74.9,-38,3,NA,14,93.1,2156
+2024-04-06,9,0,2,Split-Finger,R,ball,,NA,NA,NA,NA,11,83.2,713
+2024-04-06,9,0,1,Cutter,R,foul,,93.1,42,291,NA,4,87.4,2098
+2024-04-06,1,0,2,Sweeper,L,ball,,NA,NA,NA,NA,13,83.8,2687
+2024-04-06,1,0,1,4-Seam Fastball,L,called_strike,,NA,NA,NA,NA,5,93.1,2326
+2024-04-06,7,0,5,4-Seam Fastball,L,ball,walk,NA,NA,NA,NA,13,96.9,2253
+2024-04-06,7,0,4,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,98.4,2236
+2024-04-06,7,0,3,4-Seam Fastball,L,swinging_strike,,NA,NA,NA,NA,3,96.7,2214
+2024-04-06,7,0,2,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,98.1,2212
+2024-04-06,7,0,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,13,97.9,2177
+2024-04-05,5,0,1,Changeup,R,hit_into_play,home_run,105.2,32,379,6,8,79.4,2104
+2024-04-05,3,0,4,Changeup,R,hit_into_play,field_out,83.1,-13,9,2,7,80.8,2114
+2024-04-05,3,0,3,Changeup,R,foul,,65.3,-24,5,NA,8,79.7,2159
+2024-04-05,3,0,2,Changeup,R,ball,,NA,NA,NA,NA,14,80.4,2160
+2024-04-05,3,0,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,2,86.3,1998
+2024-04-05,7,0,3,Knuckle Curve,L,hit_into_play,field_out,99.2,16,284,4,8,80.8,1822
+2024-04-05,7,0,2,Knuckle Curve,L,ball,,NA,NA,NA,NA,14,80.1,2051
+2024-04-05,7,0,1,Knuckle Curve,L,foul,,57.8,37,149,NA,5,79.1,1841
+2024-04-05,8,2,6,Slider,R,hit_into_play,field_out,110.2,36,351,6,3,84.6,2155
+2024-04-05,8,2,5,Slider,R,ball,,NA,NA,NA,NA,14,85.4,2159
+2024-04-05,8,2,4,Slider,R,swinging_strike,,NA,NA,NA,NA,13,85.9,2192
+2024-04-05,8,2,3,4-Seam Fastball,R,foul,,99.2,49,276,NA,5,96.9,2197
+2024-04-05,8,2,2,4-Seam Fastball,R,ball,,NA,NA,NA,NA,8,96.8,2304
+2024-04-05,8,2,1,Slider,R,blocked_ball,,NA,NA,NA,NA,13,86.2,2142
+2024-04-05,1,1,3,Sinker,R,hit_into_play,double,106.1,12,304,4,7,88.2,2015
+2024-04-05,1,1,2,4-Seam Fastball,R,foul,,NA,NA,NA,NA,4,88.6,2080
+2024-04-05,1,1,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,88.2,2027
+2024-04-03,4,2,6,4-Seam Fastball,L,hit_into_play,field_out,93.5,20,305,4,2,93.9,2300
+2024-04-03,4,2,5,Slurve,L,foul,,70.3,-53,2,NA,4,85.8,1985
+2024-04-03,4,2,4,4-Seam Fastball,L,foul,,76.2,15,161,NA,12,91.9,2217
+2024-04-03,4,2,3,4-Seam Fastball,L,swinging_strike,,NA,NA,NA,NA,2,91.6,2234
+2024-04-03,4,2,2,Changeup,L,called_strike,,NA,NA,NA,NA,7,86.5,1989
+2024-04-03,4,2,1,4-Seam Fastball,L,ball,,NA,NA,NA,NA,12,92.2,2275
+2024-04-03,3,0,2,4-Seam Fastball,L,hit_into_play,single,69.7,10,103,2,12,92.9,2220
+2024-04-03,3,0,1,Slurve,L,ball,,NA,NA,NA,NA,12,81.6,1974
+2024-04-03,7,2,5,Sinker,L,hit_into_play,home_run,105.6,24,430,6,1,93.2,2066
+2024-04-03,7,2,4,Sweeper,L,ball,,NA,NA,NA,NA,13,81.3,2822
+2024-04-03,7,2,3,Sweeper,L,ball,,NA,NA,NA,NA,13,81.1,2836
+2024-04-03,7,2,2,Sinker,L,called_strike,,NA,NA,NA,NA,4,94,2176
+2024-04-03,7,2,1,Sweeper,L,ball,,NA,NA,NA,NA,13,81.4,2742
+2024-04-03,1,0,5,Changeup,L,swinging_strike,strikeout,NA,NA,NA,NA,13,86.5,2023
+2024-04-03,1,0,4,Changeup,L,ball,,NA,NA,NA,NA,14,86.5,1890
+2024-04-03,1,0,3,4-Seam Fastball,L,ball,,NA,NA,NA,NA,12,93.5,2223
+2024-04-03,1,0,2,4-Seam Fastball,L,foul,,NA,NA,NA,NA,1,92.9,2221
+2024-04-03,1,0,1,Changeup,L,called_strike,,NA,NA,NA,NA,3,85,2047
+2024-04-02,4,2,4,Sinker,R,ball,walk,NA,NA,NA,NA,11,90.7,1865
+2024-04-02,4,2,3,Sinker,R,ball,,NA,NA,NA,NA,12,89.9,1916
+2024-04-02,4,2,2,Sweeper,R,ball,,NA,NA,NA,NA,13,83.3,2604
+2024-04-02,4,2,1,Sinker,R,ball,,NA,NA,NA,NA,14,90.7,1985
+2024-04-02,3,1,2,Sinker,R,hit_into_play,field_out,92.7,35,327,3,5,91.3,1891
+2024-04-02,3,1,1,Sinker,R,foul,,68.1,43,198,NA,3,91.7,2031
+2024-04-02,1,0,6,Sweeper,R,called_strike,strikeout,NA,NA,NA,NA,7,84.1,2647
+2024-04-02,1,0,5,Sinker,R,foul,,63.1,32,176,NA,6,92.5,1987
+2024-04-02,1,0,4,Sinker,R,called_strike,,NA,NA,NA,NA,7,93.5,2037
+2024-04-02,1,0,3,Sinker,R,ball,,NA,NA,NA,NA,11,92.7,2025
+2024-04-02,1,0,2,Sweeper,R,ball,,NA,NA,NA,NA,13,84.5,2585
+2024-04-02,1,0,1,Sinker,R,ball,,NA,NA,NA,NA,12,91.6,2009
+2024-04-02,6,2,1,Sinker,L,hit_into_play,field_out,95.1,-22,8,2,1,92.7,2036
+2024-04-01,5,2,9,Split-Finger,R,hit_into_play,field_out,95.6,37,324,3,11,88.6,1486
+2024-04-01,5,2,8,Split-Finger,R,foul,,NA,NA,NA,NA,7,89.2,1653
+2024-04-01,5,2,7,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,95.1,2299
+2024-04-01,5,2,6,Split-Finger,R,foul,,66.2,38,171,NA,13,88.9,1476
+2024-04-01,5,2,5,Split-Finger,R,foul,,68.7,30,201,NA,8,88.5,1666
+2024-04-01,5,2,4,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,95.8,2312
+2024-04-01,5,2,3,Split-Finger,R,ball,,NA,NA,NA,NA,13,89.6,1554
+2024-04-01,5,2,2,4-Seam Fastball,R,foul,,70.2,41,192,NA,3,96.2,2287
+2024-04-01,5,2,1,Split-Finger,R,called_strike,,NA,NA,NA,NA,1,89,1502
+2024-04-01,3,1,3,Split-Finger,R,hit_into_play,double,98.9,4,87,4,8,88.7,1643
+2024-04-01,3,1,2,Sinker,R,ball,,NA,NA,NA,NA,11,94.4,2354
+2024-04-01,3,1,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,96.4,2333
+2024-04-01,7,1,7,4-Seam Fastball,R,foul_tip,strikeout,NA,NA,NA,NA,2,94.7,2115
+2024-04-01,7,1,6,Cutter,R,foul,,85.3,34,272,NA,11,87.6,2250
+2024-04-01,7,1,5,4-Seam Fastball,R,foul,,66.7,35,170,NA,2,95,2051
+2024-04-01,1,0,3,Split-Finger,R,hit_into_play,field_out,108.8,2,61,4,7,90.5,1687
+2024-04-01,7,1,4,4-Seam Fastball,R,foul,,69.4,33,211,NA,6,94.9,2041
+2024-04-01,7,1,3,Cutter,R,foul,,65.3,-44,3,NA,3,87.5,2367
+2024-04-01,1,0,2,Split-Finger,R,ball,,NA,NA,NA,NA,13,90.7,1782
+2024-04-01,7,1,2,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,1,94,2013
+2024-04-01,1,0,1,4-Seam Fastball,R,swinging_strike,,NA,NA,NA,NA,2,97.8,2255
+2024-04-01,7,1,1,Cutter,R,ball,,NA,NA,NA,NA,14,84.9,2045
+2024-03-31,6,0,2,Changeup,L,hit_into_play,double,115.8,16,310,6,2,83.4,2217
+2024-03-31,6,0,1,Slider,L,foul_tip,,NA,NA,NA,NA,1,86.6,2086
+2024-03-31,3,2,5,Changeup,L,swinging_strike_blocked,strikeout,NA,NA,NA,NA,13,84.4,2498
+2024-03-31,3,2,4,Sinker,L,ball,,NA,NA,NA,NA,13,94.5,2276
+2024-03-31,3,2,3,Sinker,L,called_strike,,NA,NA,NA,NA,4,95.8,2335
+2024-03-31,3,2,2,Sinker,L,called_strike,,NA,NA,NA,NA,4,94.3,2382
+2024-03-31,3,2,1,Slider,L,ball,,NA,NA,NA,NA,11,88.6,2228
+2024-03-31,7,2,6,4-Seam Fastball,R,hit_into_play,field_out,77.4,-51,2,2,5,96.1,2158
+2024-03-31,7,2,5,Knuckle Curve,R,ball,,NA,NA,NA,NA,13,81.1,2738
+2024-03-31,1,1,5,Sinker,L,called_strike,strikeout,NA,NA,NA,NA,11,96.3,2440
+2024-03-31,7,2,4,4-Seam Fastball,R,foul,,NA,NA,NA,NA,11,95.5,2301
+2024-03-31,1,1,4,Slider,L,ball,,NA,NA,NA,NA,13,91.3,2141
+2024-03-31,7,2,3,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,4,95.3,2259
+2024-03-31,1,1,3,Changeup,L,foul,,72.6,-38,3,NA,6,85.3,2427
+2024-03-31,7,2,2,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,7,95.5,2293
+2024-03-31,1,1,2,Slider,L,called_strike,,NA,NA,NA,NA,7,90.4,2208
+2024-03-31,7,2,1,4-Seam Fastball,R,ball,,NA,NA,NA,NA,12,96.4,2228
+2024-03-31,1,1,1,Sinker,L,ball,,NA,NA,NA,NA,13,95.3,2169
+2024-03-30,2,2,6,Cutter,R,foul_tip,strikeout,NA,NA,NA,NA,5,88.5,2492
+2024-03-30,2,2,5,Curveball,R,ball,,NA,NA,NA,NA,11,79.2,2339
+2024-03-30,2,2,4,Curveball,R,blocked_ball,,NA,NA,NA,NA,14,80.9,2458
+2024-03-30,2,2,3,Cutter,R,foul,,NA,NA,NA,NA,6,88.5,2508
+2024-03-30,2,2,2,Cutter,R,foul,,75.8,77,112,NA,3,88.2,NA
+2024-03-30,2,2,1,Cutter,R,ball,,NA,NA,NA,NA,1,89.4,2618
+2024-03-30,10,2,4,4-Seam Fastball,R,hit_into_play,field_out,103.7,61,181,3,6,91.1,2339
+2024-03-30,10,2,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,91.8,2312
+2024-03-30,10,2,2,Slider,R,swinging_strike,,NA,NA,NA,NA,14,82.8,2315
+2024-03-30,10,2,1,Slider,R,ball,,NA,NA,NA,NA,12,83.1,2352
+2024-03-30,5,1,7,Sinker,L,ball,walk,NA,NA,NA,NA,1,94.5,2002
+2024-03-30,5,1,6,Slider,L,foul,,79.1,-40,3,NA,11,86.8,2714
+2024-03-30,5,1,5,Sinker,L,called_strike,,NA,NA,NA,NA,8,94.4,2153
+2024-03-30,5,1,4,Sinker,L,ball,,NA,NA,NA,NA,13,95.9,2130
+2024-03-30,5,1,3,Slider,L,foul,,NA,-43,3,NA,5,86.1,2576
+2024-03-30,5,1,2,Slider,L,ball,,NA,NA,NA,NA,13,85.8,2556
+2024-03-30,5,1,1,Slider,L,ball,,NA,NA,NA,NA,11,86.1,2597
+2024-03-30,9,1,4,Slider,R,foul_tip,strikeout,NA,NA,NA,NA,2,89.4,2152
+2024-03-30,7,0,4,Slider,L,hit_into_play,field_out,69.5,40,217,3,13,85.6,2605
+2024-03-30,1,0,4,Changeup,R,hit_into_play,single,113.9,11,202,6,4,85.3,1713
+2024-03-30,9,1,3,Slider,R,ball,,NA,NA,NA,NA,14,92,2407
+2024-03-30,7,0,3,4-Seam Fastball,L,foul,,72.5,48,206,NA,2,95.5,2309
+2024-03-30,9,1,2,Slider,R,swinging_strike,,NA,NA,NA,NA,14,87.9,2334
+2024-03-30,1,0,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,11,92.3,2337
+2024-03-30,9,1,1,4-Seam Fastball,R,called_strike,,NA,NA,NA,NA,7,98.7,2588
+2024-03-30,1,0,2,Sinker,R,ball,,NA,NA,NA,NA,13,91.1,2270
+2024-03-30,7,0,2,Sinker,L,called_strike,,NA,NA,NA,NA,4,93.8,2092
+2024-03-30,7,0,1,Sinker,L,ball,,NA,NA,NA,NA,12,94.8,2073
+2024-03-30,1,0,1,Sinker,R,called_strike,,NA,NA,NA,NA,7,91.3,2321
+2024-03-29,5,0,4,Slider,L,hit_into_play,grounded_into_double_play,81.3,-12,13,2,2,81.9,2213
+2024-03-29,5,0,3,Slider,L,ball,,NA,NA,NA,NA,13,85.6,2032
+2024-03-29,5,0,2,Slider,L,ball,,NA,NA,NA,NA,13,82.1,2193
+2024-03-29,5,0,1,Slider,L,called_strike,,NA,NA,NA,NA,7,82.9,2064
+2024-03-29,3,2,2,Slider,L,hit_into_play,field_out,89.2,36,289,3,11,84.5,2072
+2024-03-29,3,2,1,Slider,L,called_strike,,NA,NA,NA,NA,4,85.1,1969
+2024-03-29,7,2,6,Slider,R,swinging_strike,strikeout,NA,NA,NA,NA,9,83.4,2301
+2024-03-29,7,2,5,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,91.8,2207
+2024-03-29,7,2,4,Sinker,R,ball,,NA,NA,NA,NA,13,92.4,2220
+2024-03-29,7,2,3,Slider,R,ball,,NA,NA,NA,NA,14,82.4,2330
+2024-03-29,7,2,2,Sinker,R,called_strike,,NA,NA,NA,NA,7,92.8,2303
+2024-03-29,7,2,1,Slider,R,swinging_strike,,NA,NA,NA,NA,8,83.9,2272
+2024-03-29,1,0,5,Slider,L,hit_into_play,field_out,88.5,10,153,4,7,82.7,2079
+2024-03-29,1,0,4,Slider,L,ball,,NA,NA,NA,NA,13,81.6,2227
+2024-03-29,1,0,3,4-Seam Fastball,L,foul,,71.9,27,216,NA,4,92,1933
+2024-03-29,1,0,2,4-Seam Fastball,L,ball,,NA,NA,NA,NA,11,93.4,1979
+2024-03-29,1,0,1,Slider,L,called_strike,,NA,NA,NA,NA,8,83.4,2058
+2024-03-28,5,1,4,Slider,R,hit_into_play,single,113,7,121,5,8,87,2211
+2024-03-28,5,1,3,Changeup,R,called_strike,,NA,NA,NA,NA,1,82.7,1453
+2024-03-28,5,1,2,Sinker,R,ball,,NA,NA,NA,NA,11,91.5,2139
+2024-03-28,5,1,1,Sinker,R,ball,,NA,NA,NA,NA,13,91.7,2113
+2024-03-28,3,0,5,Changeup,R,ball,walk,NA,NA,NA,NA,4,85.9,1619
+2024-03-28,3,0,4,4-Seam Fastball,R,foul_tip,,NA,NA,NA,NA,5,91.8,2175
+2024-03-28,3,0,3,4-Seam Fastball,R,ball,,NA,NA,NA,NA,14,93.3,2334
+2024-03-28,3,0,2,Slider,R,ball,,NA,NA,NA,NA,14,88.1,2332
+2024-03-28,3,0,1,Slider,R,ball,,NA,NA,NA,NA,14,87.6,2335
+2024-03-28,7,0,6,Slider,R,foul_tip,strikeout,NA,NA,NA,NA,3,90.1,2359
+2024-03-28,1,0,4,Changeup,R,hit_into_play,double,91.5,15,218,4,7,86.9,1599
+2024-03-28,7,0,5,4-Seam Fastball,R,foul,,65.4,27,187,NA,2,95.5,2140
+2024-03-28,1,0,3,Changeup,R,ball,,NA,NA,NA,NA,13,88.1,1596
+2024-03-28,1,0,2,Slider,R,foul,,60.5,41,155,NA,3,88.7,2134
+2024-03-28,7,0,4,Curveball,R,foul,,66.2,18,142,NA,3,83.3,2408
+2024-03-28,1,0,1,Sinker,R,foul,,84.8,54,250,NA,11,91.6,2017
+2024-03-28,7,0,3,Slider,R,called_strike,,NA,NA,NA,NA,4,91.5,2373
+2024-03-28,7,0,2,Sinker,R,swinging_strike,,NA,NA,NA,NA,5,96.3,1933
+2024-03-28,7,0,1,Curveball,R,ball,,NA,NA,NA,NA,12,82.3,2241

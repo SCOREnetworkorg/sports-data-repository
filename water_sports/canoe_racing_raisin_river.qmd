@@ -1,10 +1,10 @@
 ---
-title: "Raisin River Race Results 2015-2025"
+title: "Canoe Racing - Raisin River Race Results 2015-2025"
 author: "Phoebe Jones" 
 date: "June 18, 2025" 
 
 categories:
-  - Linear Regression
+  - Linear regression
   - Outliers 
 ---
 
