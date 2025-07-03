@@ -1,0 +1,60 @@
+---
+title: "Stars of Bull Riding: Champion and Rookie"
+author: "Phoebe Jones" 
+date: "June 30, 2025" 
+format:
+    html:
+      embed-resources: true
+categories:
+  - Summary Statistics
+  - Two-Sample Tests
+---
+
+## Motivation
+ 
+Bull riding is an extremely difficult and demanding sport. Athletes are putting their lives on the line with every ride. This recklessness might lead people to believe that younger athletes are more commonly successful, but a lack of experience can be deadly, so there must be a balance. Looking at different eras of successful riders can give insight into this balance.
+
+### Understanding Bull riding
+
+Bull riding is fairly self-explanatory. Riders are tasked with staying on a bucking bull and riding with style. In order to get a score for the ride, they must stay on the bull for at least 8 seconds. Then, they will be scored out of 50 on how well they manged to stay in control during the ride (things like fluidity and style are considered). The bull will also be given a score out of 50 based on how difficult its performance made it for the rider. The bull score and rider score are added to create the final score out of 100. Any ride over 90 points is considered exceptional.
+
+### Jose and Hudson
+
+Jose Vitor Leme was the top rider in the Professional Bull Riders group in 2025. Jose is 28, has been riding since 2017 and, in his career, has had 448 rides. Hudson Bolton was named the PBR rookie of the year for 2025. Hudson is 19, had his first ride with PBR in 2023 and has had 32 rides thus far in his career.
+
+## Data
+
+Each row in the `starRiders` data set represents one ride done by either Hudson or Jose in their respective careers.
+
+<details>
+
+<summary><b>Variable Descriptions</b></summary>
+
+| Variable    | Description                                |
+|-------------|--------------------------------------------|
+| season      | Year of the season                         |
+| tour        | Tour the event was a part of               |
+| date        | Date of the event                          |
+| location    | Location of the event                      |  
+| event       | Event the ride was a part of               |
+| bull        | Bull ridden on                             |
+| score       | Score for the ride                         |
+| rider       | Hudson or Jose                             |
+
+</details>
+
+**Download Bullriding Data:** [starRiders.csv](../data/starRiders.csv)
+
+## Questions
+
+1. Can you split location into two categories (city and state/country)?
+2. Do any events produce unusual scores for either rider?
+3. How do Hudson's rides compare to Jose's first 32 rides?
+
+## References
+
+The data are compiled from The [Professional Bull Riders](https://www.pbr.com/) (PBR) website. 
+
+[Jose's Profile on PBR](https://www.pbr.com/athletes/riders/profile/2108669/JoseVitorLeme)
+[Hudson's Profile on PBR](https://www.pbr.com/athletes/riders/profile/3812051/HudsonBolton)
+
