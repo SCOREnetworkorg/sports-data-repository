@@ -1,0 +1,724 @@
+Name,Position,Age,Birthdate,Height,Weight,Team
+Denis BUCKLEY,Prop,34,1990-08-09,1.77,110,connacht
+Finlay BEALHAM,Prop,33,1991-10-09,1.8900000000000001,123,connacht
+Jack AUNGIER,Prop,26,1998-11-20,1.8800000000000001,120,connacht
+Jordan DUGGAN,Prop,27,1998-01-07,1.85,114,connacht
+Peter DOOLEY,Prop,30,1994-08-04,1.83,116,connacht
+Sam ILLO,Prop,24,2001-02-16,1.85,121,connacht
+Temi LASISI,Prop,24,2001-05-09,1.83,125,connacht
+Dave HEFFERNAN,Hooker,34,1991-01-31,1.87,111,connacht
+Dylan TIERNEY-MARTIN,Hooker,26,1999-06-20,1.82,101,connacht
+Eoin DE BUITLÉAR,Hooker,23,2001-11-09,1.75,104,connacht
+Darragh MURRAY,Lock,23,2001-07-04,2.01,115,connacht
+David O'CONNOR,Lock,30,1995-05-19,1.93,110,connacht
+Joe JOYCE,Lock,31,1994-02-07,1.96,119,connacht
+Josh MURPHY,Lock,30,1995-02-17,1.98,110,connacht
+Niall MURRAY,Lock,25,1999-10-13,2.01,111,connacht
+Oisín DOWLING,Lock,28,1997-06-23,1.96,112,connacht
+Cian PRENDERGAST,Back row,25,2000-02-23,1.96,115,connacht
+Conor OLIVER,Back row,29,1995-09-21,1.83,102,connacht
+Oisín MCCORMACK,Back row,24,2001-02-21,1.83,102,connacht
+Paul BOYLE,Back row,28,1997-01-14,1.8900000000000001,112,connacht
+Seán F. O'BRIEN,Back row,24,2000-07-31,1.93,105,connacht
+Sean JANSEN,Back row,26,1999-05-10,1.91,118,connacht
+Shamus HURLEY-LANGTON,Back row,25,2000-04-22,1.85,108,connacht
+Ben MURPHY,Scrum-half,24,2001-04-23,1.73,80,connacht
+Caolin BLADE,Scrum-half,31,1994-04-29,1.7,81,connacht
+Colm REILLY,Scrum-half,25,1999-08-09,1.78,78,connacht
+Matt DEVINE,Scrum-half,23,2002-02-19,1.8,84,connacht
+Cathal FORDE,Fly-half,24,2001-04-11,1.8800000000000001,95,connacht
+Jack CARTY,Fly-half,32,1992-08-31,1.83,92,connacht
+JJ HANRAHAN,Fly-half,32,1992-07-27,1.83,93,connacht
+Josh IOANE,Fly-half,29,1995-07-11,1.8,92,connacht
+Bundee AKI,Centre,35,1990-04-07,1.78,101,connacht
+David HAWKSHAW,Centre,25,1999-07-03,1.78,89,connacht
+Hugh GAVIN,Centre,21,2004-01-10,1.92,103,connacht
+Piers O'CONOR,Centre,29,1995-08-28,1.8800000000000001,102,connacht
+Byron RALSTON,Winger,25,2000-05-03,1.84,94,connacht
+Santiago CORDERO,Winger,31,1993-12-06,1.77,83,connacht
+Shane JENNINGS,Winger,24,2001-01-14,1.91,96,connacht
+Shayne BOLTON,Winger,25,2000-06-29,1.8800000000000001,100,connacht
+Chay MULLINS,Fullback,23,2002-01-23,1.91,95,connacht
+Mack HANSEN,Fullback,27,1998-03-27,1.8800000000000001,89,connacht
+Alulutho TSHAKWENI,Prop,26,1998-09-26,1.83,110,bulls
+Dylan SMITH,Prop,31,1994-02-26,1.8,116,bulls
+François KLOPPER,Prop,25,1999-09-07,1.8800000000000001,130,bulls
+Gerhard STEENEKAMP,Prop,28,1997-04-09,1.94,128,bulls
+Juann ELSE,Prop,22,2003-05-22,1.8,101,bulls
+Mornay SMITH,Prop,27,1998-01-30,1.81,119,bulls
+Seb LOMBARD,Prop,22,2002-10-07,1.9,126,bulls
+Simphiwe MATANZIMA,Prop,27,1997-08-18,1.83,121,bulls
+Tielman NIEUWOUDT,Prop,23,2002-04-22,1.8,128,bulls
+Wilco LOUW,Prop,30,1994-07-20,1.85,144,bulls
+Akker VAN DER MERWE,Hooker,34,1991-06-17,1.78,108,bulls
+Jan-Hendrik WESSELS,Hooker,24,2001-05-08,1.8800000000000001,121,bulls
+Joe VAN ZYL,Hooker,26,1999-01-21,1.85,114,bulls
+Johan GROBBELAAR,Hooker,27,1997-12-30,1.83,105,bulls
+Cobus WIESE,Lock,28,1997-06-02,1.99,125,bulls
+Deon SLABBERT,Lock,25,2000-05-04,2,117,bulls
+Jaco GROBBELAAR,Lock,20,2005-01-01,1.98,109,bulls
+JF VAN HEERDEN,Lock,21,2004-05-06,2.01,122,bulls
+Reinhardt LUDWIG,Lock,22,2002-08-27,1.98,110,bulls
+Ruan NORTJÉ,Lock,26,1998-07-25,2,113,bulls
+Ruan VERMAAK,Lock,27,1998-05-01,1.99,120,bulls
+Sintu MANJEZI,Lock,30,1995-04-07,1.98,118,bulls
+Cameron HANEKOM,Back row,23,2002-05-10,1.93,104,bulls
+Corné BEETS,Back row,21,2003-10-01,1.8800000000000001,105,bulls
+Cyle BRINK,Back row,31,1994-01-16,1.91,115,bulls
+Elrigh LOUW,Back row,25,1999-09-20,1.95,112,bulls
+Ghudian VAN REENEN,Back row,21,2003-09-17,1.9,104,bulls
+Jannes KIRSTEN,Back row,31,1993-12-01,1.97,117,bulls
+Marcell COETZEE,Back row,34,1991-05-08,1.91,118,bulls
+Marco VAN STADEN,Back row,29,1995-08-25,1.84,112,bulls
+Mihlali MOSI,Back row,29,1996-05-12,1.9,106,bulls
+Mpilo GUMEDE,Back row,24,2000-07-08,1.93,110,bulls
+Nama XABA,Back row,27,1997-07-26,1.85,103,bulls
+Nizaam CARR,Back row,34,1991-04-04,1.78,106,bulls
+Bernard VAN DER LINDE,Scrum-half,24,2000-11-30,1.75,86,bulls
+Embrose PAPIER,Scrum-half,28,1997-04-25,1.71,80,bulls
+Keagan JOHANNES,Scrum-half,25,1999-11-27,1.78,77,bulls
+Zak BURGER,Scrum-half,26,1998-08-20,1.74,83,bulls
+Boeta CHAMBERLAIN,Fly-half,26,1999-02-22,1.84,83,bulls
+Jaco VAN DER WALT,Fly-half,31,1994-02-01,1.82,92,bulls
+Johan GOOSEN,Fly-half,32,1992-07-27,1.84,89,bulls
+Chris SMIT,Centre,29,1995-08-01,1.82,93,bulls
+Cornel SMIT,Centre,27,1997-09-10,1.83,96,bulls
+Harold VORSTER,Centre,31,1993-10-11,1.8800000000000001,101,bulls
+Katlego LETEBELE,Centre,21,2003-11-18,1.87,92,bulls
+Stedman GANS,Centre,28,1997-03-19,1.8,99,bulls
+Aphiwe DYANTYI,Winger,30,1994-08-26,1.82,90,bulls
+Canan MOODIE,Winger,22,2002-11-05,1.91,94,bulls
+Sebastian DE KLERK,Winger,25,2000-04-05,1.8,91,bulls
+Sergeal PETERSEN,Winger,30,1994-08-01,1.73,86,bulls
+Stravino JACOBS,Winger,25,2000-02-21,1.8,103,bulls
+David KRIEL,Fullback,26,1999-02-15,1.95,102,bulls
+Devon WILLIAMS,Fullback,33,1992-04-16,1.75,79,bulls
+Sibongile NOVUKA,Fullback,27,1998-02-01,1.92,97,bulls
+Willie LE ROUX,Fullback,35,1989-08-18,1.84,92,bulls
+Corey DOMACHOWSKI,Prop,28,1996-09-19,1.83,124,cardiff
+Danny SOUTHWORTH,Prop,26,1999-05-04,1.83,120,cardiff
+Ed BYRNE,Prop,31,1993-09-09,1.8,115,cardiff
+Keiron ASSIRATTI,Prop,28,1997-06-30,1.78,119,cardiff
+Rhys LITTERICK,Prop,26,1999-03-02,1.79,120,cardiff
+Will DAVIES-KING,Prop,26,1998-07-28,1.93,128,cardiff
+Dafydd HUGHES,Hooker,29,1996-01-08,1.79,105,cardiff
+Efan DANIEL,Hooker,22,2002-12-14,1.85,105,cardiff
+Evan LLOYD,Hooker,23,2001-12-28,1.85,115,cardiff
+Liam BELCHER,Hooker,29,1996-04-28,1.77,107,cardiff
+Josh MCNALLY,Lock,34,1990-08-21,2.01,125,cardiff
+Rory THORNTON,Lock,30,1995-03-16,2.01,119,cardiff
+Seb DAVIES,Lock,29,1996-05-17,2.03,119,cardiff
+Alex MANN,Back row,23,2002-01-06,1.91,98,cardiff
+Alun LAWRENCE,Back row,26,1998-09-15,1.91,112,cardiff
+Ben DONNELL,Back row,24,2000-08-02,1.98,115,cardiff
+Dan THOMAS,Back row,31,1993-10-11,1.83,101,cardiff
+Gwilym BRADLEY,Back row,24,2000-09-10,1.8800000000000001,99,cardiff
+James BOTHAM,Back row,27,1998-02-22,1.91,108,cardiff
+Mackenzie MARTIN,Back row,21,2003-10-26,1.96,116,cardiff
+Teddy WILLIAMS,Back row,24,2000-10-18,1.98,118,cardiff
+Toby FALETAU,Back row,34,1990-11-12,1.8800000000000001,113,cardiff
+Tom YOUNG,Back row,33,1992-05-18,1.81,104,cardiff
+Aled DAVIES,Scrum-half,32,1992-07-19,1.78,88,cardiff
+Callum BRALEY,Scrum-half,31,1994-03-20,1.78,84,cardiff
+Ellis BEVAN,Scrum-half,25,2000-03-10,1.8,92,cardiff
+Ethan LLOYD,Scrum-half,23,2001-09-29,1.78,82,cardiff
+Johan MULDER,Scrum-half,25,1999-08-06,1.76,85,cardiff
+Ben THOMAS,Fly-half,26,1998-11-25,1.83,93,cardiff
+Callum SHEEDY,Fly-half,29,1995-10-28,1.77,88,cardiff
+Rory JENNINGS,Fly-half,29,1995-12-24,1.8,91,cardiff
+Tinus DE BEER,Fly-half,29,1996-01-24,1.76,90,cardiff
+Harri MILLARD,Centre,28,1996-08-17,1.83,94,cardiff
+Louie HENNESSEY,Centre,21,2004-03-29,1.91,105,cardiff
+Rey LEE-LO,Centre,39,1986-02-20,1.81,98,cardiff
+Gabe HAMER-WEBB,Winger,24,2000-11-07,1.83,95,cardiff
+Iwan STEPHENS,Winger,23,2002-03-24,1.7,83,cardiff
+Josh ADAMS,Winger,30,1995-04-21,1.86,96,cardiff
+Mason GRADY,Winger,23,2002-03-29,1.96,111,cardiff
+Regan GRACE,Winger,28,1996-12-12,1.78,82,cardiff
+Theo CABANGO,Winger,23,2001-11-29,1.74,83,cardiff
+Cam WINNETT,Fullback,22,2003-01-07,1.8,85,cardiff
+Jacob BEETHAM,Fullback,24,2001-04-18,1.85,87,cardiff
+Chris COLEMAN,Prop,26,1998-08-31,1.8900000000000001,130,dragons
+Dmitri ARHIP,Prop,36,1988-11-12,1.83,120,dragons
+Jamie HUGHES,Prop,28,1996-09-30,1.8800000000000001,121,dragons
+Josh REYNOLDS,Prop,26,1998-12-01,1.8,116,dragons
+Luke YENDLE,Prop,25,2000-06-27,1.85,120,dragons
+Nathan EVANS,Prop,23,2002-01-03,1.78,120,dragons
+Paula LATU,Prop,29,1996-02-14,1.87,123,dragons
+Rhodri JONES,Prop,33,1991-12-23,1.91,120,dragons
+Rodrigo MARTINEZ,Prop,26,1998-07-07,1.8800000000000001,120,dragons
+Brodie COGHLAN,Hooker,24,2000-12-21,1.83,112,dragons
+Elliot DEE,Hooker,31,1994-03-07,1.86,106,dragons
+James BENJAMIN,Hooker,31,1994-02-21,1.83,100,dragons
+Lewis MORGAN,Hooker,21,2003-08-01,1.78,108,dragons
+Oli BURROWS,Hooker,23,2002-05-16,1.8800000000000001,110,dragons
+Barny LANGTON,Lock,24,2001-01-26,1.95,117,dragons
+Ben CARTER,Lock,24,2001-01-23,1.98,122,dragons
+George NOTT,Lock,29,1996-06-21,1.98,114,dragons
+Joe DAVIES,Lock,29,1995-11-13,1.97,130,dragons
+Matthew SCREECH,Lock,32,1992-10-24,1.96,116,dragons
+Steven CUMMINS,Lock,33,1992-03-29,2.02,120,dragons
+Aaron WAINWRIGHT,Back row,27,1997-09-25,1.8800000000000001,110,dragons
+Dan LYDIATE,Back row,37,1987-12-18,1.93,115,dragons
+George YOUNG,Back row,23,2001-10-10,1.92,108,dragons
+Harri KEDDIE,Back row,28,1996-07-10,1.8800000000000001,110,dragons
+Shane LEWIS-HUGHES,Back row,27,1997-09-20,1.96,115,dragons
+Solomone FUNAKI,Back row,31,1994-04-25,1.87,115,dragons
+Taine BASHAM,Back row,25,1999-11-02,1.82,100,dragons
+Dane BLACKER,Scrum-half,26,1998-07-06,1.78,78,dragons
+Rhodri WILLIAMS,Scrum-half,32,1993-05-05,1.79,81,dragons
+Angus O'BRIEN,Fly-half,30,1994-09-17,1.8,89,dragons
+Cai EVANS,Fly-half,26,1999-06-23,1.85,84,dragons
+Josh THOMAS,Fly-half,24,2000-06-30,1.78,83,dragons
+Lloyd EVANS,Fly-half,29,1995-12-14,1.83,90,dragons
+Will REED,Fly-half,23,2001-11-03,1.76,80,dragons
+Aneurin OWEN,Centre,24,2000-10-19,1.8,89,dragons
+Harry WILSON,Centre,24,2000-08-17,1.9,97,dragons
+Scott WILLIAMS,Centre,34,1990-10-10,1.87,100,dragons
+Ashton HEWITT,Winger,30,1994-11-20,1.8,90,dragons
+Ewan ROSSER,Winger,24,2000-12-16,1.78,85,dragons
+Jared ROSSER,Winger,27,1997-12-31,1.83,99,dragons
+Rio DYER,Winger,25,1999-12-21,1.85,84,dragons
+Jordan WILLIAMS,Fullback,31,1993-09-20,1.73,81,dragons
+Angus WILLIAMS,Prop,31,1993-11-11,1.8,117,edinburgh
+Boan VENTER,Prop,28,1997-04-12,1.87,124,edinburgh
+D'Arcy RAE,Prop,30,1994-12-21,1.86,125,edinburgh
+Javan SEBASTIAN,Prop,30,1994-09-27,1.77,125,edinburgh
+Paul HILL,Prop,30,1995-03-02,1.8900000000000001,123,edinburgh
+Pierre SCHOEMAN,Prop,31,1994-05-07,1.84,118,edinburgh
+Robin HISLOP,Prop,33,1992-02-26,1.8,116,edinburgh
+Dave CHERRY,Hooker,34,1991-01-03,1.83,107,edinburgh
+Ewan ASHMAN,Hooker,25,2000-04-03,1.8800000000000001,113,edinburgh
+Patrick HARRISON,Hooker,23,2002-06-20,1.81,111,edinburgh
+Glen YOUNG,Lock,30,1994-11-04,2.01,118,edinburgh
+Grant GILCHRIST,Lock,34,1990-08-09,1.98,120,edinburgh
+Marshall SYKES,Lock,25,1999-12-29,2,121,edinburgh
+Rob CARMICHAEL,Lock,22,2003-04-04,2.1,125,edinburgh
+Ben MUNCASTER,Back row,23,2001-10-14,1.9,110,edinburgh
+Connor BOYLE,Back row,25,2000-02-19,1.83,91,edinburgh
+Hamish WATSON,Back row,33,1991-10-15,1.85,106,edinburgh
+Jamie RITCHIE,Back row,28,1996-08-16,1.9,110,edinburgh
+Liam MCCONNELL,Back row,21,2004-06-24,1.94,106,edinburgh
+Luke CROSBIE,Back row,28,1997-04-22,1.96,112,edinburgh
+Magnus BRADBURY,Back row,29,1995-08-23,1.91,116,edinburgh
+Sam SKINNER,Back row,30,1995-01-31,1.96,115,edinburgh
+Tom DODD,Back row,27,1997-10-28,1.91,109,edinburgh
+Ali PRICE,Scrum-half,32,1993-05-12,1.77,88,edinburgh
+Ben VELLACOTT,Scrum-half,30,1995-03-28,1.6700000000000002,78,edinburgh
+Charlie SHIEL,Scrum-half,27,1997-12-03,1.78,83,edinburgh
+Ben HEALY,Fly-half,26,1999-06-29,1.91,100,edinburgh
+Cammy SCOTT,Fly-half,23,2001-09-08,1.81,83,edinburgh
+James LANG,Fly-half,30,1995-04-04,1.83,95,edinburgh
+Ross THOMPSON,Fly-half,26,1999-04-10,1.83,86,edinburgh
+Mark BENNETT,Centre,32,1993-02-03,1.83,91,edinburgh
+Matt CURRIE,Centre,24,2001-02-22,1.91,95,edinburgh
+Matt SCOTT,Centre,34,1990-09-30,1.87,101,edinburgh
+Mosese TUIPULOTU,Centre,24,2001-05-05,1.82,102,edinburgh
+Wes GOOSEN,Centre,29,1995-10-20,1.8,92,edinburgh
+Darcy GRAHAM,Winger,28,1997-06-21,1.77,85,edinburgh
+Duhan VAN DER MERWE,Winger,30,1995-06-04,1.93,106,edinburgh
+Ross MCCANN,Winger,27,1997-10-30,1.81,91,edinburgh
+Ross MCKNIGHT,Winger,23,2002-04-03,1.95,108,edinburgh
+Emiliano BOFFELLI,Fullback,30,1995-01-16,1.92,96,edinburgh
+Harry PATERSON,Fullback,24,2001-06-28,1.91,93,edinburgh
+Nathan SWEENEY,Fullback,24,2001-04-17,1.81,89,edinburgh
+Fin RICHARDSON,Prop,26,1998-09-16,1.83,120,glasgow
+Jamie BHATTI,Prop,31,1993-09-08,1.85,125,glasgow
+Murphy WALKER,Prop,25,1999-10-25,1.85,110,glasgow
+Nathan MCBETH,Prop,27,1998-06-08,1.8900000000000001,120,glasgow
+Patrick SCHICKERLING,Prop,26,1998-10-16,1.82,120,glasgow
+Rory SUTHERLAND,Prop,32,1992-08-24,1.83,116,glasgow
+Sam TALAKAI,Prop,33,1991-09-04,1.83,122,glasgow
+Zander FAGERSON,Prop,29,1996-01-19,1.8800000000000001,126,glasgow
+Angus FRASER,Hooker,25,1999-12-09,1.81,110,glasgow
+Grant STEWART,Hooker,30,1995-02-28,1.82,113,glasgow
+Gregor HIDDLESTON,Hooker,23,2002-03-26,1.87,120,glasgow
+Johnny MATTHEWS,Hooker,31,1993-07-05,1.83,110,glasgow
+Alex SAMUEL,Lock,22,2002-12-27,2.07,124,glasgow
+Euan FERRIE,Lock,23,2001-07-23,1.94,110,glasgow
+Gregor BROWN,Lock,23,2001-07-01,1.96,109,glasgow
+JP DU PREEZ,Lock,30,1994-11-09,2.08,130,glasgow
+Max WILLIAMSON,Lock,23,2002-05-08,2.01,120,glasgow
+Richie GRAY,Lock,35,1989-08-24,2.05,126,glasgow
+Scott CUMMINGS,Lock,28,1996-12-03,1.99,117,glasgow
+Ally MILLER,Back row,29,1996-05-10,1.93,112,glasgow
+Henco VENTER,Back row,33,1992-03-27,1.87,108,glasgow
+Jack DEMPSEY,Back row,31,1994-04-12,1.91,112,glasgow
+Jack MANN,Back row,25,1999-11-17,1.94,115,glasgow
+Matt FAGERSON,Back row,26,1998-07-16,1.86,110,glasgow
+Rory DARGE,Back row,25,2000-02-23,1.86,102,glasgow
+Sione VAILANU,Back row,30,1995-01-27,1.8900000000000001,119,glasgow
+Ben AFSHAR,Scrum-half,22,2003-04-02,1.84,81,glasgow
+George HORNE,Scrum-half,30,1995-05-12,1.74,81,glasgow
+Jamie DOBIE,Scrum-half,24,2001-06-07,1.75,81,glasgow
+Sean KENNEDY,Scrum-half,34,1991-04-24,1.73,80,glasgow
+Adam HASTINGS,Fly-half,28,1996-10-05,1.8900000000000001,93,glasgow
+Duncan WEIR,Fly-half,34,1991-05-10,1.76,91,glasgow
+Tom JORDAN,Fly-half,26,1998-09-18,1.8900000000000001,96,glasgow
+Huw JONES,Centre,31,1993-12-17,1.86,102,glasgow
+Kyle STEYN,Centre,31,1994-01-29,1.8800000000000001,102,glasgow
+Sione TUIPULOTU,Centre,28,1997-02-12,1.78,104,glasgow
+Stafford MCDOWALL,Centre,27,1998-02-24,1.93,103,glasgow
+Facundo CORDERO,Winger,26,1998-07-31,1.77,86,glasgow
+Sebastián CANCELLIERE,Winger,31,1993-09-17,1.85,90,glasgow
+Josh MCKAY,Fullback,27,1997-10-10,1.83,95,glasgow
+Kyle ROWE,Fullback,27,1998-02-08,1.83,88,glasgow
+Ollie SMITH,Fullback,24,2000-08-07,1.8800000000000001,90,glasgow
+Enzo AVACA,Prop,25,2000-06-12,1.8800000000000001,118,benetton
+Giosué ZILOCCHI,Prop,28,1997-01-15,1.8900000000000001,115,benetton
+Ivan NEMER,Prop,27,1998-04-22,1.8,117,benetton
+Mirco SPAGNOLO,Prop,24,2001-01-02,1.86,110,benetton
+Nahuel TETAZ CHAPARRO,Prop,35,1989-11-06,1.86,121,benetton
+Simone FERRARI,Prop,31,1994-03-28,1.86,120,benetton
+Thomas GALLO,Prop,26,1999-04-30,1.77,107,benetton
+Tiziano PASQUALI,Prop,30,1994-07-14,1.85,118,benetton
+Agustín CREEVY,Hooker,40,1985-03-15,1.8,108,benetton
+Bautista BERNASCONI,Hooker,23,2001-09-14,1.75,114,benetton
+Marco MANFREDI,Hooker,27,1997-09-18,1.83,110,benetton
+Siua MAILE,Hooker,28,1997-02-18,1.81,113,benetton
+Edoardo IACHIZZI,Lock,27,1998-05-26,1.96,112,benetton
+Eli SNYMAN,Lock,29,1996-01-25,2.01,119,benetton
+Federico RUZZA,Lock,30,1994-08-04,1.98,110,benetton
+Gideon KOEGELENBERG,Lock,30,1994-11-25,2.02,124,benetton
+Jadin KINGI,Lock,22,2002-08-19,1.98,108,benetton
+Niccolò CANNONE,Lock,27,1998-05-17,1.97,121,benetton
+Riccardo FAVRETTO,Lock,23,2001-10-18,2,108,benetton
+Scott SCRAFTON,Lock,32,1993-04-18,2,120,benetton
+Alessandro IZEKOR,Back row,25,2000-03-05,1.96,110,benetton
+Giulio MARINI,Back row,23,2002-01-23,1.95,102,benetton
+Lorenzo CANNONE,Back row,24,2001-01-28,1.9,106,benetton
+Manuel ZULIANI,Back row,25,2000-04-26,1.8800000000000001,111,benetton
+Michele LAMARO,Back row,27,1998-06-03,1.8800000000000001,103,benetton
+Seb NEGRI,Back row,31,1994-06-30,1.94,111,benetton
+Toa HALAFIHI,Back row,31,1993-11-27,1.85,110,benetton
+Alessandro GARBISI,Scrum-half,23,2002-04-11,1.74,88,benetton
+Andy UREN,Scrum-half,29,1996-02-20,1.78,93,benetton
+Lautaro BAZÁN VÉLEZ,Scrum-half,29,1996-02-24,1.73,82,benetton
+Nicolò CASILIO,Scrum-half,26,1998-10-12,1.8,85,benetton
+Giuliano AVACA,Fly-half,22,2003-02-25,1.8,89,benetton
+Jacob UMAGA,Fly-half,26,1998-07-08,1.82,91,benetton
+Leonardo MARIN,Fly-half,23,2002-02-23,1.8800000000000001,88,benetton
+Tomás ALBORNOZ,Fly-half,27,1997-09-17,1.77,82,benetton
+Federico ZANANDREA,Centre,20,2005-01-30,1.9,103,benetton
+Ignacio BREX,Centre,33,1992-05-26,1.8900000000000001,99,benetton
+Malakai FEKITOA,Centre,33,1992-05-10,1.87,100,benetton
+Marco ZANON,Centre,27,1997-10-03,1.8800000000000001,97,benetton
+Tommaso MENONCELLO,Centre,22,2002-08-20,1.87,101,benetton
+Ignacio MENDY,Winger,25,2000-06-29,1.87,90,benetton
+Louis LYNAGH,Winger,24,2000-12-03,1.8,96,benetton
+Onisi RATAVE,Winger,33,1992-06-06,1.79,100,benetton
+Paolo ODOGWU,Winger,28,1997-02-18,1.75,100,benetton
+Matt GALLAGHER,Fullback,28,1996-10-26,1.85,96,benetton
+Rhyno SMITH,Fullback,32,1993-02-11,1.73,83,benetton
+Andrew PORTER,Prop,29,1996-01-16,1.85,125,leinster
+Cian HEALY,Prop,37,1987-10-07,1.85,117,leinster
+Ivan SOROKA,Prop,30,1994-10-01,1.8,110,leinster
+Jack BOYLE,Prop,23,2002-03-10,1.85,113,leinster
+Paddy MCCARTHY,Prop,22,2003-05-28,1.82,110,leinster
+Rabah SLIMANI,Prop,35,1989-10-18,1.78,124,leinster
+Tadhg FURLONG,Prop,32,1992-11-14,1.83,119,leinster
+Tom CLARKSON,Prop,25,2000-02-22,1.85,118,leinster
+Dan SHEEHAN,Hooker,26,1998-09-17,1.91,110,leinster
+John MCKEE,Hooker,25,2000-02-15,1.83,109,leinster
+Ronan KELLEHER,Hooker,27,1998-01-24,1.85,108,leinster
+Brian DEENY,Lock,25,2000-02-03,2,119,leinster
+James RYAN,Lock,28,1996-07-24,2.01,115,leinster
+Joe MCCARTHY,Lock,24,2001-03-26,1.98,119,leinster
+RG SNYMAN,Lock,30,1995-01-29,2.07,131,leinster
+Ryan BAIRD,Lock,25,1999-07-26,1.98,113,leinster
+Alex SOROKA,Back row,24,2001-02-19,1.96,107,leinster
+Caelan DORIS,Back row,27,1998-04-02,1.93,106,leinster
+Jack CONAN,Back row,32,1992-07-29,1.93,111,leinster
+James CULHANE,Back row,22,2002-10-22,1.93,113,leinster
+Josh VAN DER FLIER,Back row,32,1993-04-25,1.83,105,leinster
+Max DEEGAN,Back row,28,1996-10-01,1.93,110,leinster
+Scott PENNY,Back row,25,1999-09-22,1.85,104,leinster
+Will CONNORS,Back row,29,1996-04-04,1.96,105,leinster
+Cormac FOLEY,Scrum-half,25,1999-10-24,1.8,90,leinster
+Jamison GIBSON-PARK,Scrum-half,33,1992-02-23,1.75,83,leinster
+Luke MCGRATH,Scrum-half,32,1993-02-03,1.75,84,leinster
+Ciarán FRAWLEY,Fly-half,27,1997-12-04,1.91,98,leinster
+Ross BYRNE,Fly-half,30,1995-04-08,1.93,95,leinster
+Sam PRENDERGAST,Fly-half,22,2003-02-12,1.94,91,leinster
+Garry RINGROSE,Centre,30,1995-01-26,1.86,92,leinster
+Jamie OSBORNE,Centre,23,2001-11-16,1.93,98,leinster
+Jordie BARRETT,Centre,28,1997-02-17,1.96,102,leinster
+Robbie HENSHAW,Centre,32,1993-06-12,1.91,100,leinster
+Tommy O'BRIEN,Centre,27,1998-05-28,1.83,95,leinster
+James LOWE,Winger,32,1992-07-08,1.8800000000000001,105,leinster
+Jordan LARMOUR,Winger,28,1997-06-10,1.78,91,leinster
+Liam TURNER,Winger,25,1999-07-14,1.75,91,leinster
+Rob RUSSELL,Winger,26,1999-01-13,1.83,91,leinster
+Hugo KEENAN,Fullback,29,1996-06-18,1.85,92,leinster
+Jimmy O'BRIEN,Fullback,28,1996-11-27,1.83,90,leinster
+Asenathi NTLABAKANYE,Prop,26,1999-04-15,1.82,153,lions
+Conraad VAN VUUREN,Prop,29,NA,1.83,115,lions
+Heiko POHLMANN,Prop,23,2002-01-16,1.85,128,lions
+Juan SCHOEMAN,Prop,33,1991-09-18,1.86,120,lions
+Morgan NAUDÉ,Prop,26,NA,1.81,108,lions
+RF SCHOEMAN,Prop,21,2003-08-14,1.8800000000000001,122,lions
+Sivu MABECE,Prop,22,2002-07-27,1.86,120,lions
+Stian DE BRUYN,Prop,NA,NA,1.8800000000000001,118,lions
+Franco MARAIS,Hooker,32,1992-09-23,1.85,108,lions
+Jaco VISAGIE,Hooker,32,NA,1.8800000000000001,107,lions
+Jacques-Lois DU TOIT,Hooker,24,2001-04-23,1.75,96,lions
+Marno GROBBELAAR,Hooker,21,NA,1.83,105,lions
+Morné BRANDON,Hooker,24,2000-11-25,1.84,106,lions
+PJ BOTHA,Hooker,27,1998-01-20,1.81,105,lions
+SJ KOTZE,Hooker,22,NA,1.86,110,lions
+Darrien LANDSBERG,Lock,26,1998-07-26,1.96,111,lions
+Etienne OOSTHUIZEN,Lock,32,1992-12-22,1.98,128,lions
+Johnré STOPFORTH,Lock,NA,NA,2,105,lions
+Luca RIBBENS,Lock,21,NA,1.93,112,lions
+Raynard ROETS,Lock,24,NA,1.97,108,lions
+Reinhard NOTHNAGEL,Lock,27,1997-09-25,2.02,117,lions
+Ruan VENTER,Lock,22,2002-11-29,1.98,120,lions
+Ruben SCHOEMAN,Lock,29,1996-03-14,1.99,124,lions
+Siba QOMA,Lock,28,1997-02-17,1.9,108,lions
+Tiaan WESSELS,Lock,22,NA,1.95,120,lions
+Francke HORN,Back row,26,1999-05-24,1.9,106,lions
+Izan ESTERHUIZEN,Back row,24,NA,1.91,112,lions
+Jarod CAIRNS,Back row,24,2001-05-18,1.8800000000000001,100,lions
+JC PRETORIUS,Back row,27,1998-01-29,1.86,92,lions
+Renzo DU PLESSIS,Back row,22,NA,1.8800000000000001,108,lions
+Ruan DELPORT,Back row,22,NA,2,109,lions
+Ruhan STRAEULI,Back row,26,NA,1.93,112,lions
+WJ STEENKAMP,Back row,24,2000-09-28,1.9,107,lions
+Layton HORN,Scrum-half,22,2003-05-21,1.83,82,lions
+Morné VAN DEN BERG,Scrum-half,27,1997-10-24,1.75,82,lions
+Nico STEYN,Scrum-half,23,NA,1.77,78,lions
+Gianni LOMBARD,Fly-half,27,1998-01-22,1.78,82,lions
+Kade WOLHUTER,Fly-half,24,2001-06-28,1.82,93,lions
+Lubabalo DOBELA,Fly-half,27,NA,1.75,80,lions
+Sam FRANCIS,Fly-half,22,2003-03-14,1.9,100,lions
+Zander DU PLESSIS,Fly-half,25,NA,1.9,90,lions
+Erich CRONJÉ,Centre,28,NA,1.84,95,lions
+Henco VAN WYK,Centre,24,NA,1.8,92,lions
+Manuel RASS,Centre,27,1998-04-19,1.74,88,lions
+Marius LOUW,Centre,29,1995-10-24,1.82,97,lions
+Rynhardt JONKER,Centre,25,2000-04-18,1.8,90,lions
+Boldwin HANSEN,Winger,24,2001-03-26,1.92,98,lions
+Edwill VAN DER MERWE,Winger,29,NA,1.81,90,lions
+Keagan SMITH,Winger,22,2003-05-15,1.75,81,lions
+Rabz MAXWANE,Winger,29,1995-08-14,1.81,90,lions
+Quan HORN,Fullback,24,2001-06-27,1.81,84,lions
+Richard KRIEL,Fullback,24,NA,1.94,95,lions
+Tapiwa MAFURA,Fullback,29,NA,1.75,80,lions
+Dian BLEULER,Prop,25,1999-08-05,1.83,120,sharks
+Dian HEUNIS,Prop,22,2003-05-20,1.85,126,sharks
+Hanro JACOBS,Prop,25,2000-03-14,1.85,129,sharks
+Khwezi MONA,Prop,32,1992-10-08,1.83,120,sharks
+Mawande MDANDA,Prop,22,2003-03-09,1.8900000000000001,132,sharks
+Ntuthuko MCHUNU,Prop,26,1999-04-05,1.8800000000000001,120,sharks
+Ox NCHÉ,Prop,29,1995-07-23,1.76,123,sharks
+Phatu GANYANE,Prop,22,2003-01-17,1.85,123,sharks
+Ruan DREYER,Prop,34,1990-09-16,1.86,115,sharks
+Trevor NYAKANE,Prop,36,1989-05-04,1.78,122,sharks
+Vincent KOCH,Prop,35,1990-03-13,1.85,118,sharks
+Bongi MBONAMBI,Hooker,34,1991-01-07,1.75,118,sharks
+Bryce CALVERT,Hooker,NA,NA,1.8,107,sharks
+Ethan BESTER,Hooker,20,2004-10-31,1.87,112,sharks
+Fez MBATHA,Hooker,25,1999-08-02,1.8,112,sharks
+Coetzee LE ROUX,Lock,22,2003-01-22,1.93,112,sharks
+Corné RAHL,Lock,23,2002-05-27,2.03,122,sharks
+Deon SLABBERT,Lock,25,2000-05-04,2,117,sharks
+Eben ETZEBETH,Lock,33,1991-10-29,2.03,126,sharks
+Emile VAN HEERDEN,Lock,24,2000-08-08,2,110,sharks
+Gerbrandt GROBLER,Lock,33,1992-02-06,2,120,sharks
+Jason JENKINS,Lock,29,1995-12-02,2.03,127,sharks
+Reniel HUGO,Lock,34,1990-07-19,1.97,112,sharks
+Thomas DYER,Lock,20,2004-11-16,1.96,115,sharks
+Batho HLEKANI,Back row,20,2005-04-05,1.93,115,sharks
+Dylan RICHARDSON,Back row,26,1999-01-15,1.85,110,sharks
+James VENTER,Back row,28,1996-08-21,1.82,97,sharks
+Jannes POTGIETER,Back row,22,2003-05-05,1.93,112,sharks
+Manu TSHITUKA,Back row,25,2000-06-16,1.93,110,sharks
+Mèno BARNARD,Back row,NA,NA,1.93,104,sharks
+Nick HATTON,Back row,22,2003-01-17,1.91,103,sharks
+Phepsi BUTHELEZI,Back row,26,1999-05-30,1.8800000000000001,108,sharks
+Siya KOLISI,Back row,34,1991-06-16,1.8900000000000001,104,sharks
+Tino MAVESERE,Back row,26,1998-10-17,1.8900000000000001,105,sharks
+Vincent TSHITUKA,Back row,26,1998-09-10,1.94,110,sharks
+Bradley DAVIDS,Scrum-half,22,2002-07-30,1.76,79,sharks
+Grant WILLIAMS,Scrum-half,28,1996-07-22,1.74,80,sharks
+Jaden HENDRIKSE,Scrum-half,25,2000-03-23,1.84,92,sharks
+Tiaan FOURIE,Scrum-half,23,2002-04-22,1.73,78,sharks
+Tian MEYER,Scrum-half,36,1988-09-20,1.77,84,sharks
+Jean SMITH,Fly-half,22,2003-04-01,1.81,89,sharks
+Jordan HENDRIKSE,Fly-half,24,2001-06-28,1.8800000000000001,93,sharks
+Lionel CRONJÉ,Fly-half,36,1989-05-25,1.84,92,sharks
+Siya MASUKU,Fly-half,28,1996-08-01,1.8900000000000001,95,sharks
+André ESTERHUIZEN,Centre,31,1994-03-30,1.93,115,sharks
+Diego APPOLLIS,Centre,24,2000-08-27,1.78,94,sharks
+Ethan HOOKER,Centre,22,2003-01-20,1.93,100,sharks
+Francois VENTER,Centre,34,1991-04-19,1.85,95,sharks
+Jurenzo JULIUS,Centre,21,2004-05-11,1.78,96,sharks
+Litelihle BESTER,Centre,21,2004-04-01,1.87,92,sharks
+Lukhanyo AM,Centre,31,1993-11-28,1.8800000000000001,101,sharks
+Eduan KEYTER,Winger,29,1996-06-13,1.84,101,sharks
+Gurshwin WEHR,Winger,26,1998-09-08,1.85,85,sharks
+Makazole MAPIMPI,Winger,34,1990-07-26,1.84,92,sharks
+Marnus POTGIETER,Winger,26,1999-06-20,1.8800000000000001,106,sharks
+Yaw PENXE,Winger,28,1997-04-03,1.83,93,sharks
+Aphelele FASSI,Fullback,27,1998-01-23,1.9,94,sharks
+Hakeem KUNENE,Fullback,22,2003-02-03,1.83,90,sharks
+Henry IMMELMAN,Fullback,30,1995-05-26,1.9,103,sharks
+Jaco WILLIAMS,Fullback,19,2005-08-25,1.75,73,sharks
+Alec HEPBURN,Prop,32,1993-03-30,1.86,114,scarlets
+Archer HOLZ,Prop,25,2000-03-01,1.8900000000000001,128,scarlets
+Gabe HAWLEY,Prop,NA,NA,1.9,130,scarlets
+Harri O'CONNOR,Prop,24,2000-10-25,1.82,118,scarlets
+Henry THOMAS,Prop,33,1991-10-30,1.8800000000000001,120,scarlets
+Kemsley MATHIAS,Prop,25,1999-07-29,1.85,121,scarlets
+Sam WAINWRIGHT,Prop,27,1998-05-07,1.82,119,scarlets
+Marnus VAN DER MERWE,Hooker,28,1997-02-17,1.86,115,scarlets
+Ryan ELIAS,Hooker,30,1995-01-07,1.8800000000000001,115,scarlets
+Shaun EVANS,Hooker,28,1996-09-14,1.83,103,scarlets
+Alex CRAIG,Lock,28,1997-04-26,1.98,119,scarlets
+Jac PRICE,Lock,24,2000-08-04,1.98,115,scarlets
+Max DOUGLAS,Lock,25,2000-01-01,2.01,112,scarlets
+Morgan JONES,Lock,26,1999-05-23,2,112,scarlets
+Sam LOUSI,Lock,33,1991-07-20,1.98,121,scarlets
+Taine PLUMTREE,Lock,25,2000-03-09,1.95,108,scarlets
+Vaea FIFITA,Lock,33,1992-06-17,1.96,116,scarlets
+Ben WILLIAMS,Back row,23,2002-04-23,1.8800000000000001,108,scarlets
+Dan DAVIS,Back row,26,1998-09-17,1.82,101,scarlets
+Jarrod TAYLOR,Back row,24,2001-02-15,1.8800000000000001,100,scarlets
+Josh MACLEOD,Back row,28,1996-10-27,1.8900000000000001,110,scarlets
+Archie HUGHES,Scrum-half,22,2003-02-14,1.73,77,scarlets
+Efan JONES,Scrum-half,27,1997-12-11,1.77,85,scarlets
+Gareth DAVIES,Scrum-half,34,1990-08-18,1.78,88,scarlets
+Ioan LLOYD,Fly-half,24,2001-04-05,1.79,86,scarlets
+Sam COSTELOW,Fly-half,24,2001-01-10,1.75,84,scarlets
+Eddie JAMES,Centre,22,2002-08-10,1.93,104,scarlets
+Ioan NICHOLAS,Centre,27,1998-04-03,1.82,92,scarlets
+Joe ROBERTS,Centre,25,2000-05-10,1.82,96,scarlets
+Johnny WILLIAMS,Centre,28,1996-10-18,1.91,105,scarlets
+Ellis MEE,Winger,21,2003-10-06,1.93,92,scarlets
+Steff EVANS,Winger,30,1994-09-01,1.82,95,scarlets
+Tom ROGERS,Winger,26,1998-12-17,1.85,87,scarlets
+Blair MURRAY,Fullback,23,2001-10-09,1.73,83,scarlets
+Tomi LEWIS,Fullback,26,1999-01-17,1.85,87,scarlets
+Ali VERMAAK,Prop,39,1986-04-28,1.78,111,stormers
+Brok HARRIS,Prop,40,1985-02-22,1.86,121,stormers
+Corné WEILBACH,Prop,23,2002-02-18,1.85,124,stormers
+Frans MALHERBE,Prop,34,1991-03-14,1.9,141,stormers
+Leon LYONS,Prop,26,1998-12-02,1.87,123,stormers
+Neethling FOUCHÉ,Prop,32,1993-01-10,1.8900000000000001,120,stormers
+Sazi SANDI,Prop,26,1998-07-11,1.81,124,stormers
+Sti SITHOLE,Prop,32,1993-03-31,1.8,115,stormers
+Vernon MATONGO,Prop,23,2002-02-28,1.81,120,stormers
+André-Hugo VENTER,Hooker,23,2001-09-10,1.87,107,stormers
+JJ KOTZÉ,Hooker,24,2000-11-06,1.87,109,stormers
+Joseph DWEBA,Hooker,29,1995-10-25,1.8,111,stormers
+Lukhanyo VOKOZELA,Hooker,23,2002-02-05,1.75,108,stormers
+Siyabonga NTUBENI,Hooker,34,1991-02-18,1.74,109,stormers
+Ben-Jason DIXON,Lock,27,1998-04-29,1.98,110,stormers
+Connor EVANS,Lock,23,2002-01-24,1.98,113,stormers
+Gary PORTER,Lock,28,1996-07-22,2.01,115,stormers
+JD SCHICKERLING,Lock,30,1995-05-09,2.03,121,stormers
+Ruben VAN HEERDEN,Lock,27,1997-10-27,2,121,stormers
+Salmaan MOERAT,Lock,27,1998-03-06,2,122,stormers
+CJ VELLEMAN,Back row,30,1995-02-24,1.78,103,stormers
+Dave EWERS,Back row,34,1990-11-03,1.93,126,stormers
+Deon FOURIE,Back row,38,1986-09-25,1.76,98,stormers
+Evan ROOS,Back row,25,2000-01-21,1.92,108,stormers
+Keke MORABE,Back row,24,2001-04-21,1.8800000000000001,115,stormers
+Louw NEL,Back row,22,2002-08-09,1.9,107,stormers
+Marcel THEUNISSEN,Back row,26,1999-06-09,1.92,104,stormers
+Paul DE VILLIERS,Back row,22,2003-01-13,1.81,100,stormers
+Dewaldt DUVENAGE,Scrum-half,37,1988-05-22,1.75,82,stormers
+Herschel JANTJIES,Scrum-half,29,1996-04-22,1.6700000000000002,77,stormers
+Imad KHAN,Scrum-half,21,2003-12-02,1.79,80,stormers
+Paul DE WET,Scrum-half,29,1996-03-16,1.76,83,stormers
+Stefan UNGERER,Scrum-half,31,1993-11-23,1.83,93,stormers
+Damian WILLEMSE,Fly-half,27,1998-05-07,1.84,96,stormers
+Jean-Luc DU PLESSIS,Fly-half,31,1994-05-07,1.8,92,stormers
+Jurie MATTHEE,Fly-half,24,2000-11-04,1.91,89,stormers
+Manie LIBBOK,Fly-half,27,1997-07-15,1.84,80,stormers
+Sacha MNGOMEZULU,Fly-half,23,2002-02-22,1.85,90,stormers
+Dan DU PLESSIS,Centre,31,1994-02-15,1.93,103,stormers
+Jonathan ROCHE,Centre,22,2003-02-01,1.8800000000000001,99,stormers
+Luke BURGER,Centre,22,2002-08-12,1.8800000000000001,90,stormers
+Ruhan NEL,Centre,34,1991-05-17,1.91,101,stormers
+Suleiman HARTZENBERG,Centre,22,2003-05-20,1.87,95,stormers
+Wandisile SIMELANE,Centre,27,1998-03-21,1.8,95,stormers
+Angelo DAVIDS,Winger,26,1999-06-01,1.78,94,stormers
+Ben LOADER,Winger,26,1998-11-08,1.8800000000000001,95,stormers
+Courtnall SKOSAN,Winger,33,1991-07-24,1.83,96,stormers
+Leolin ZAS,Winger,29,1995-10-20,1.84,95,stormers
+Seabelo SENATLA,Winger,32,1993-02-10,1.79,89,stormers
+Warrick GELANT,Fullback,30,1995-05-20,1.78,96,stormers
+Ben WARREN,Prop,25,2000-04-02,1.85,122,ospreys
+Cameron JONES,Prop,23,2001-10-04,1.93,113,ospreys
+Gareth THOMAS,Prop,31,1993-08-02,1.8800000000000001,120,ospreys
+Garyn PHILLIPS,Prop,24,2001-05-14,1.83,113,ospreys
+Math IORWERTH-SCOTT,Prop,NA,NA,NA,NA,ospreys
+Rhys HENRY,Prop,26,1998-09-08,1.73,114,ospreys
+Steff THOMAS,Prop,28,1997-04-22,1.83,122,ospreys
+Tom BOTHA,Prop,34,1990-08-31,1.79,117,ospreys
+Dewi LAKE,Hooker,26,1999-05-16,1.85,114,ospreys
+Ethan LEWIS,Hooker,31,1994-03-28,1.82,109,ospreys
+George MCGUIGAN,Hooker,32,1993-03-30,1.83,113,ospreys
+Lewis LLOYD,Hooker,21,2003-07-20,1.8,92,ospreys
+Sam PARRY,Hooker,33,1991-12-17,1.86,114,ospreys
+Adam BEARD,Lock,29,1996-01-07,2.03,121,ospreys
+Huw SUTTON,Lock,25,1999-11-17,1.99,122,ospreys
+James FENDER,Lock,23,2001-08-03,2.04,125,ospreys
+James RATTI,Lock,27,1997-10-14,1.96,120,ospreys
+Lewis JONES,Lock,22,2002-07-19,2,105,ospreys
+Rhys DAVIES,Lock,26,1998-11-09,1.97,116,ospreys
+Rhys THOMAS,Lock,24,2001-02-17,1.94,112,ospreys
+Will GREATBANKS,Lock,22,2003-01-18,1.98,109,ospreys
+Will GRIFFITHS,Lock,26,1998-12-25,1.93,106,ospreys
+Will SPENCER,Lock,33,1992-05-30,2.01,125,ospreys
+Harri DEAVES-SMALL,Back row,24,2001-06-13,1.82,96,ospreys
+Jac MORGAN,Back row,25,2000-01-21,1.82,104,ospreys
+Justin TIPURIC,Back row,35,1989-08-06,1.8800000000000001,107,ospreys
+Morgan MORRIS,Back row,26,1998-08-28,1.83,110,ospreys
+Tristan DAVIES,Back row,23,2001-09-30,1.93,104,ospreys
+Kieran HARDY,Scrum-half,29,1995-11-30,1.84,90,ospreys
+Luke DAVIES,Scrum-half,23,2002-02-26,1.75,80,ospreys
+Reuben MORGAN-WILLIAMS,Scrum-half,27,1998-02-03,1.8,85,ospreys
+Dan EDWARDS,Fly-half,22,2003-05-07,1.78,83,ospreys
+Jack WALSH,Fly-half,25,2000-01-11,1.84,88,ospreys
+Luke SCULLY,Fly-half,25,2000-02-28,1.8,80,ospreys
+Owen WILLIAMS,Fly-half,33,1992-02-27,1.85,98,ospreys
+Evardi BOSHOFF,Centre,26,1998-10-06,1.83,92,ospreys
+Keiran WILLIAMS,Centre,27,1997-12-04,1.78,90,ospreys
+Owen WATKIN,Centre,28,1996-10-12,1.8800000000000001,112,ospreys
+Phil COKANASIGA,Centre,23,2001-07-31,1.83,98,ospreys
+Tom FLORENCE,Centre,22,2003-03-19,1.8800000000000001,96,ospreys
+Harri HOUSTON,Winger,21,2003-11-27,1.78,82,ospreys
+Keelan GILES,Winger,27,1998-01-29,1.73,80,ospreys
+Luke MORGAN,Winger,33,1992-05-16,1.75,81,ospreys
+Ryan CONBEER,Winger,26,1999-02-05,1.77,91,ospreys
+Daniel KASENDE,Fullback,30,1995-05-09,1.87,92,ospreys
+Iestyn HOPKINS,Fullback,23,2002-04-04,1.73,88,ospreys
+Max NAGY,Fullback,26,1999-06-13,1.93,95,ospreys
+Conor BARTLEY,Prop,NA,NA,NA,NA,munster
+Dave KILCOYNE,Prop,36,1988-12-14,1.85,112,munster
+Jeremy LOUGHMAN,Prop,29,1995-07-22,1.83,120,munster
+John RYAN,Prop,36,1988-08-02,1.85,121,munster
+Josh WYCHERLEY,Prop,25,1999-07-22,1.83,108,munster
+Mark DONNELLY,Prop,24,2001-03-14,1.8,110,munster
+Michael MILNE,Prop,25,2000-02-05,1.83,115,munster
+Oli JAGER,Prop,29,1995-07-05,1.92,127,munster
+Roman SALANOA,Prop,27,1997-10-28,1.83,123,munster
+Stephen ARCHER,Prop,37,1988-01-29,1.8800000000000001,121,munster
+Diarmuid BARRON,Hooker,26,1998-08-06,1.84,100,munster
+Lee BARRON,Hooker,24,2001-02-15,1.91,109,munster
+Niall SCANNELL,Hooker,33,1992-04-08,1.85,111,munster
+Edwin EDOGBO,Lock,22,2002-12-21,1.96,122,munster
+Fineen WYCHERLEY,Lock,27,1997-12-11,1.96,112,munster
+Jean KLEYN,Lock,31,1993-08-26,2.03,123,munster
+Tadhg BEIRNE,Lock,33,1992-01-08,1.98,114,munster
+Tom AHERN,Lock,25,2000-02-22,2.06,117,munster
+Alex KENDELLEN,Back row,24,2001-03-03,1.8800000000000001,105,munster
+Brian GLEESON,Back row,21,2004-02-05,1.93,116,munster
+Cian HURLEY,Back row,25,2000-04-25,1.96,106,munster
+Gavin COOMBES,Back row,27,1997-12-11,1.98,110,munster
+Jack DALY,Back row,26,1998-08-12,1.83,107,munster
+Jack O'DONOGHUE,Back row,31,1994-02-08,1.91,110,munster
+John HODNETT,Back row,26,1999-01-10,1.85,105,munster
+Peter O'MAHONY,Back row,35,1989-09-17,1.91,108,munster
+Conor MURRAY,Scrum-half,36,1989-04-20,1.8800000000000001,94,munster
+Craig CASEY,Scrum-half,26,1999-04-19,1.6500000000000001,76,munster
+Ethan COUGHLAN,Scrum-half,23,2002-04-13,1.75,81,munster
+Paddy PATTERSON,Scrum-half,26,1998-11-30,1.75,75,munster
+Billy BURNS,Fly-half,31,1994-06-13,1.83,87,munster
+Jack CROWLEY,Fly-half,25,2000-01-13,1.85,90,munster
+Tony BUTLER,Fly-half,23,2002-04-23,1.78,85,munster
+Alex NANKIVELL,Centre,28,1996-10-25,1.8800000000000001,98,munster
+Rory SCANNELL,Centre,31,1993-12-22,1.79,96,munster
+Seán O'BRIEN,Centre,27,1998-05-12,1.87,101,munster
+Shane DALY,Centre,28,1996-12-19,1.91,92,munster
+Tom FARRELL,Centre,31,1993-10-01,1.9,107,munster
+Andrew SMITH,Winger,24,2000-07-21,1.83,90,munster
+Calvin NASH,Winger,27,1997-08-08,1.8,90,munster
+Diarmuid KILGALLEN,Winger,25,2000-03-08,1.93,96,munster
+Liam COOMBES,Winger,28,1997-05-01,1.91,90,munster
+Mike HALEY,Fullback,31,1994-06-28,1.91,94,munster
+Patrick CAMPBELL,Fullback,22,2002-07-22,1.78,88,munster
+Thaakir ABRAHAMS,Fullback,26,1999-01-10,1.75,77,munster
+Andy WARWICK,Prop,34,1991-03-12,1.78,116,ulster
+Bryan O'CONNOR,Prop,26,1998-10-23,1.91,107,ulster
+Callum REID,Prop,26,1999-01-16,1.83,120,ulster
+Corrie BARRETT,Prop,27,1998-06-13,1.76,112,ulster
+Eric O'SULLIVAN,Prop,29,1995-11-30,1.86,118,ulster
+Tom O'TOOLE,Prop,26,1998-09-23,1.85,123,ulster
+John ANDREW,Hooker,32,1993-05-26,1.8,103,ulster
+Rob HERRING,Hooker,35,1990-04-27,1.85,106,ulster
+Tom STEWART,Hooker,24,2001-01-11,1.83,103,ulster
+Alan O'CONNOR,Lock,32,1992-09-10,1.97,113,ulster
+Cormac IZUCHUKWU,Lock,25,2000-01-28,2.01,117,ulster
+Harry SHERIDAN,Lock,23,2001-09-21,1.96,121,ulster
+Iain HENDERSON,Lock,33,1992-02-21,1.98,116,ulster
+Kieran TREADWELL,Lock,29,1995-11-06,1.99,117,ulster
+Matthew DALTON,Lock,26,1998-11-16,1.98,117,ulster
+Dave MCCANN,Back row,25,2000-06-13,1.93,110,ulster
+Marcus REA,Back row,27,1997-09-08,1.8900000000000001,109,ulster
+Matty REA,Back row,31,1993-09-21,1.93,113,ulster
+Nick TIMONEY,Back row,29,1995-08-01,1.8800000000000001,114,ulster
+Reuben CROTHERS,Back row,23,2002-01-28,1.8800000000000001,99,ulster
+Sean REFFELL,Back row,27,1998-04-11,1.8,100,ulster
+Conor MCKEE,Scrum-half,24,2001-03-20,1.83,87,ulster
+Dave SHANAHAN,Scrum-half,32,1993-06-20,1.76,80,ulster
+John COONEY,Scrum-half,35,1990-05-01,1.78,87,ulster
+Michael MCDONALD,Scrum-half,26,1999-06-24,1.78,85,ulster
+Nathan DOAK,Scrum-half,23,2001-12-17,1.85,87,ulster
+Aidan MORGAN,Fly-half,24,2001-06-07,1.72,82,ulster
+Jake FLANNERY,Fly-half,26,1999-06-07,1.83,91,ulster
+Ben CARSON,Centre,23,2002-02-24,1.83,101,ulster
+James HUME,Centre,26,1998-09-07,1.8800000000000001,98,ulster
+Jude POSTLETHWAITE,Centre,23,2002-04-03,1.93,106,ulster
+Stewart MOORE,Centre,25,1999-08-08,1.84,92,ulster
+Stuart MCCLOSKEY,Centre,32,1992-08-06,1.93,112,ulster
+Ben MOXHAM,Winger,24,2001-06-09,1.91,102,ulster
+Jacob STOCKDALE,Winger,29,1996-04-03,1.91,103,ulster
+Robert BALOUCOUNE,Winger,27,1997-08-19,1.94,99,ulster
+Werner KOK,Winger,32,1993-01-17,1.8,96,ulster
+Zac WARD,Winger,26,1998-12-11,1.91,101,ulster
+Ethan MCILROY,Fullback,24,2000-08-10,1.8800000000000001,90,ulster
+Mike LOWRY,Fullback,26,1998-08-20,1.71,80,ulster
+Danilo FISCHETTI,Prop,27,1998-01-26,1.81,112,zebre
+Ion NECULAI,Prop,24,2001-01-25,1.8900000000000001,135,zebre
+Juan PITINARI,Prop,30,1995-01-18,1.87,118,zebre
+Luca FRANCESCHETTO,Prop,26,1999-06-07,1.93,127,zebre
+Luca RIZZOLI,Prop,23,2002-05-03,1.78,109,zebre
+Matteo NOCERA,Prop,26,1999-01-16,1.94,130,zebre
+Muhamed HASA,Prop,23,2001-09-10,1.83,125,zebre
+Paolo BUONFIGLIO,Prop,30,1995-01-28,1.83,114,zebre
+Giampietro RIBALDI,Hooker,28,1997-03-12,1.86,110,zebre
+Giovanni QUATTRINI,Hooker,21,2003-09-29,1.79,111,zebre
+Luca BIGI,Hooker,34,1991-04-19,1.82,108,zebre
+Tommaso DI BARTOLOMEO,Hooker,24,2001-01-04,1.8,107,zebre
+Andrea ZAMBONIN,Lock,24,2000-09-03,2.02,112,zebre
+Francesco RUFFOLO,Lock,22,2002-10-31,1.98,118,zebre
+Leonard KRUMOV,Lock,29,1996-05-01,1.98,120,zebre
+Matteo CANALI,Lock,26,1998-09-11,1.98,123,zebre
+Bautista STAVILE,Back row,28,1997-02-22,1.83,100,zebre
+Davide RUGGERI,Back row,26,1999-05-07,1.8900000000000001,109,zebre
+Giacomo FERRARI,Back row,23,2002-01-22,1.9,107,zebre
+Giovanni LICATA,Back row,28,1997-02-18,1.93,111,zebre
+Guido VOLPI,Back row,29,1995-08-22,1.93,112,zebre
+Iacopo BIANCHI,Back row,27,1998-05-05,1.8800000000000001,108,zebre
+Luca ANDREANI,Back row,24,2001-04-19,1.9,103,zebre
+Rusiate NASOVE,Back row,29,1995-10-27,1.95,102,zebre
+Samuele LOCATELLI,Back row,23,2001-07-30,1.87,105,zebre
+Alessandro FUSCO,Scrum-half,25,1999-10-28,1.85,91,zebre
+Gonzalo GARCIA,Scrum-half,26,1999-03-05,1.73,78,zebre
+Patricio BARONIO,Scrum-half,29,1996-05-06,1.78,82,zebre
+Thomas DOMINGUEZ,Scrum-half,25,1999-12-18,1.75,79,zebre
+Geronimo PRISCIANTELLI,Fly-half,25,1999-08-23,1.83,87,zebre
+Giacomo DA RE,Fly-half,26,1999-03-29,1.8,84,zebre
+Giovanni MONTEMAURI,Fly-half,24,2000-10-24,1.8900000000000001,92,zebre
+Damiano MAZZA,Centre,26,1999-02-16,1.83,99,zebre
+Enrico LUCCHIN,Centre,30,1995-04-04,1.8800000000000001,103,zebre
+Fetuli PAEA,Centre,30,1994-08-16,1.9,102,zebre
+Filippo DRAGO,Centre,23,2001-12-24,1.86,96,zebre
+Luca MORISI,Centre,34,1991-02-22,1.83,102,zebre
+Scott GREGORY,Centre,26,1999-01-07,1.85,101,zebre
+Simone GESI,Winger,24,2001-05-23,1.83,80,zebre
+Jacopo TRULLA,Fullback,24,2000-07-05,1.83,88,zebre
+Lorenzo PANI,Fullback,22,2002-07-04,1.93,96,zebre

@@ -1,0 +1,53 @@
+---
+title: "Pickleball Ratings of NCPA Players"
+author: "Faith Rhinehart" 
+date: "June 25, 2025" 
+categories:
+  - Paired Data
+---
+
+## Motivation
+
+Pickleball is a fast-growing sport that combines elements of tennis, badminton, and ping-pong, played with a paddle and a perforated plastic ball on a small court. It can be played in singles, doubles, or mixed doubles (1 male, 1 female on a team), and players use strategy, quick reflexes, and precise shots to outplay their opponents. In college tournaments, teams from various universities compete in structured brackets, showcasing both individual skill and team coordination. Matches are typically played in a best-of-three format, with each game going to 11 points, and players must win by two. Scoring is based on rallies, and players must serve underhand and diagonally. Strategy, communication, and consistency are key, especially in doubles play. Winners are determined by match victories, and standout players are often recognized for their sportsmanship, agility, and tactical play throughout the tournament.
+
+The DUPR (Dynamic Universal Pickleball Rating) system is a comprehensive and evolving method for evaluating pickleball players' skill levels, with ratings ranging from 2.000 to 8.000. It uses match outcomes, score differentials, opponent strength, and recency of play to calculate a player's rating. A unique feature of DUPR is that it accepts both recreational and competitive match data, making it more inclusive and reflective of a player’s overall ability. In addition to the main rating, DUPR also includes a Reliability Score, which is a percentage from 1% to 100% that indicates how dependable a player’s rating is. This score is based on factors like the number of matches played, how recently they were played, and the diversity of opponents. A Reliability Score of 60% or higher is considered “reliable,” meaning the rating is a trustworthy reflection of the player’s current skill level. New players typically start with a lower score, which increases as they play more and log results.
+
+## Data
+
+The dataset provided (male and female collegiate pickleball players from 2024) was scraped from NCPA (National Collegiate Pickleball Association) official website (see references for link). 
+
+<details>
+<summary><strong>Variable Descriptions</strong></summary>
+
+NCPA male and female players (380 cases with 12 variables) data:
+
+| Variable            | Description               |
+|---------------------|---------------------------|
+| First Name          | First name of player      |
+| Last Name           | Last name of player       |
+| Overall             | Overall rating            |
+| Overall Reliability | Overall Reliability score |
+| Singles             | Singles rating            |
+| Singles Reliability | Singles Reliability score |
+| Doubles             | Doubles rating            |
+| Doubles Reliability | Doubles Reliability score |
+| Mixed               | Mixed rating              |
+| Mixed Reliability   | Mixed Reliability score   |
+| Sex                 | Sex of player             |                        
+                       
+</details>
+
+Download Pickleball Data: [pickleBall_2024.csv](../data/pickleBall_2024.csv)
+
+## Questions Investigated
+
+1. Is there a significant difference between the means of Doubles Reliability and Singles Reliability
+
+2. How does the Reliability score relate to Rating of a player?
+
+
+## References
+
+Data was scraped from the NCPA offical website:
+
+[NCPA Pickleball](https://tournaments.ncpaofficial.com/player-ratings){target="_blank"}

@@ -1,0 +1,61 @@
+---
+title: "Men and Women's USA National Team Stats 2024"
+author: "Faith Rhinehart" 
+date: "June 30, 2025" 
+format: html
+categories:
+  - Outliers
+  - Linear Regression
+  - Data Wrangling
+---
+
+## Motivation
+
+Soccer, also known as football in many parts of the world, is a globally popular sport. Two teams of eleven players (4 defenders, 4 midfielders, 2 forwards, and 1 goalkeeper) compete to score goals by maneuvering a ball into the opposing team’s net using any part of the body except their hands and arms (goalkeepers are the exception). The game emphasizes a blend of physical endurance, technical skill, and strategic teamwork. Games are 90 minutes long, divided into two 45-minute halves, with extra time and penalty shootouts used if necessary to determine a winner. Players are evaluated not only on goals and assists but also on their passing accuracy, defensive contributions, and overall impact on the game. Referees use yellow and red cards to manage player behavior and maintain fairness on the field. A yellow card serves as a warning for actions such as reckless tackles, delaying the game, or showing dissent toward the referee. If a player receives two yellow cards in one match, it results in a red card, meaning the player is ejected from the game. A red card can also be given directly for more serious offenses like violent conduct, serious foul play, or using offensive language. When a player is shown a red card, their team must continue the match with one fewer player.
+
+The U.S. Men's National Soccer Team (USMNT) was officially established in 1913 while the U.S. Women's National Team (USWNT) was established in 1985. Players are selected for the U.S. national soccer teams through a combination of scouting, performance, and coaching decisions. For major tournaments like the World Cup or Olympics, coaches must select a limited number of players—usually around 23—who offer the best balance of skill, experience, and team dynamics. Veteran players must also go through the same process but do have a higher advantage then a new player. 
+
+## Data
+
+The dataset provided (male and female soccer players on their respective National teams in 2024) was scraped from the U.S. Soccer official website (see references for links). 
+
+
+<details>
+<summary><strong>Variable Descriptions</strong></summary>
+
+2024 Men's and Women's (13 variables and 87 observations) data:
+
+| Variable       | Description                                                    |
+|----------------|----------------------------------------------------------------|                                      
+| ..1            | Observation Number                                             |          
+| Player         | Name of Player                                                 |
+| Pos            | Player's Position                                              |
+| GP             | Games Played                                                   |
+| GS             | Games Where Player Started                                     |
+| MIN            | Game Minutes Played                                            |
+| G              | Goals Scored                                                   |
+| A              | Assists                                                        |
+| YC             | Number of Yellow Cards Received                                |
+| RC             | Number of Red Cards Received                                   |
+| Career Caps    | Number of International Games Played Representing National Team|
+| Career Goals   | Career Goals                                                   |
+| Sex            | Gender of player                                               |
+                       
+</details>
+
+Download Soccer Data: [soccer_usa_nationals_teams_2024.csv](../data/soccer_usa_nationals_teams_2024.csv)
+
+## Questions
+
+1. Can outliers be detected using a fitted model?
+2. Can we determine an outlier's influence on a regression model?
+3. How does games played or minutes played influence goals scored?
+
+## References
+
+Data was scraped from the U.S. Soccer official website:
+
+[mensSoccer2024](https://www.ussoccer.com/usmnt-stats/2024){target="_blank"}
+
+[womenSoccer2024](https://www.ussoccer.com/uswnt-stats/2024){target="_blank"}
+

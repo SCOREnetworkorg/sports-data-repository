@@ -1,0 +1,63 @@
+---
+title: "Shai Gilgeous-Alexander 2024-25 Single Game Statistics"
+author: "Cooper Olney"
+date: "June 27, 2025"
+
+categories:
+  - Summary Statistics
+  - Histograms
+---
+
+
+## Motivation
+
+The 2024-25 NBA season was a historic one for the Oklahoma City Thunder, who captured their first ever NBA Championship. The NBA Playoffs consist of four rounds, First Round, Second Round, Conference Finals, and NBA Finals, with each round played as a best of seven series. In the 2025, playoffs, the Thunder played a total of 23 games: 4 in the First Round, 7 in the Second Round, 5 in the Conference Finals, and 7 in the NBA Finals.
+
+At the heart of this title run was Shai Gilgeous-Alexander (SGA), who led the league in scoring, was NBA MVP and capped off the season by earning the Finals MVP. His scoring consistency and ability to take over games made him one of the most dominant offensive forces in the league. This dataset, which contains SGA's statistics from every regular season game, offers a snapshot of one of the most impressive individual season in recent NBA history.
+
+In addition to its basketball significance, this dataset also serves as a valuable resource for exploring foundational ideas in statistics, such as sampling distributions of the sample mean. By treating his regular season performances as a population, we can use this data to simulate different scenarios, estimate averages from smaller samples, and investigate how sample data can be used to make broader predictions. 
+
+
+## Data
+The **sga_stats_2025.csv** dataset contains 77 rows and 16 column. Each row represents a game that Shai Gilgeous-Alexander played during the 2024-25 regular season. **Note:** The dataset includes the NBA Cup Championship game, which is not officially counted in regular season statistics by the NBA.
+
+Download Data:[sga_stats_2025.csv](../data/sga_stats_2025.csv)
+
+<details>
+
+<summary><b>Variable Descriptions</b></summary>
+
+| Variable          | Description
+|-------------------|------------------------------------------------
+| minutes    | Total minutes played in the game
+| field_goals_made    | Number of made shots
+| field_goals_attempted    | Number of attempted shots 
+| three_point_field_goals_made    | Number of made 3pt shots
+| three_point_field_goals_attempted    | Number of attempted 3pt shots
+| free_throws_made    | Number of free throws made
+| free_throws_attempted    | Number of free throws attempted
+| offensive_rebounds    | Number of rebounds while on offense
+| defensive_rebounds    | Number of rebounds while on defense
+| rebounds    | Total number of times he got the ball after the other team missed a shot
+| assists    | Number of passes that led directly to a made basket
+| steals    | Number of times he stole the ball from the other team
+| blocks    | Number of times he deflected a shot from the other team
+| turnovers    | Number of times he lost the ball to the other team
+| fouls    | Number of fouls committed
+| points    | Total number of points scored in that game
+
+</details>
+
+## Questions
+
+1. What does SGA's regular season scoring distribution look like in terms of shape, center and spread?
+
+2. What is the typical variation in points in a game for SGA?
+
+3. How correlated are his points minutes per game?
+
+## References
+
+Saiem Gilani (2023). hoopR: Access Men's Basketball Play by Play Data. R package version 2.1.0, 
+[https://CRAN.R-project.org/package=hoopR](https://CRAN.R-project.org/package=hoopR){target="_blank"}
+
