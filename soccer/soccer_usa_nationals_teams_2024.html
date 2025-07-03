@@ -6,11 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Roderick Mpofu, Robin Lock">
-<meta name="dcterms.date" content="2023-08-03">
-<meta name="description" content="Heights for a sample of 100 soccer players by position">
+<meta name="author" content="Faith Rhinehart">
+<meta name="dcterms.date" content="2025-06-30">
 
-<title>Soccer Heights – SCORE Sports Data Repository</title>
+<title>Men and Women’s USA National Team Stats 2024 – SCORE Sports Data Repository</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -167,7 +166,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../soccer/D3_wsoc2022.html">Soccer</a></li><li class="breadcrumb-item"><a href="../soccer/soccer-heights.html">Soccer Heights</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../soccer/D3_wsoc2022.html">Soccer</a></li><li class="breadcrumb-item"><a href="../soccer/soccer_usa_nationals_teams_2024.html">Men and Women’s USA National Team Stats 2024</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -807,13 +806,13 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../soccer/soccer_usa_nationals_teams_2024.html" class="sidebar-item-text sidebar-link">
+  <a href="../soccer/soccer_usa_nationals_teams_2024.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Men and Women’s USA National Team Stats 2024</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../soccer/soccer-heights.html" class="sidebar-item-text sidebar-link active">
+  <a href="../soccer/soccer-heights.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Soccer Heights</span></a>
   </div>
 </li>
@@ -1046,25 +1045,21 @@ cookieconsent.run({
   <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/soccer/soccer-heights.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/soccer/soccer_usa_nationals_teams_2024.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../soccer/D3_wsoc2022.html">Soccer</a></li><li class="breadcrumb-item"><a href="../soccer/soccer-heights.html">Soccer Heights</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../soccer/D3_wsoc2022.html">Soccer</a></li><li class="breadcrumb-item"><a href="../soccer/soccer_usa_nationals_teams_2024.html">Men and Women’s USA National Team Stats 2024</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Soccer Heights</h1>
+<h1 class="title">Men and Women’s USA National Team Stats 2024</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">ANOVA for means</div>
-    <div class="quarto-category">Pairwise comparisons</div>
+    <div class="quarto-category">Outliers</div>
+    <div class="quarto-category">Linear Regression</div>
+    <div class="quarto-category">Data Wrangling</div>
   </div>
   </div>
 
-<div>
-  <div class="description">
-    Heights for a sample of 100 soccer players by position
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -1072,14 +1067,14 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Roderick Mpofu, Robin Lock </p>
+             <p>Faith Rhinehart </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 3, 2023</p>
+      <p class="date">June 30, 2025</p>
     </div>
   </div>
   
@@ -1093,12 +1088,22 @@ cookieconsent.run({
 
 <section id="motivation" class="level2">
 <h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
-<p>A researcher wants to investigate whether there are differences among the mean height for different positions (Goalkeeper, Defender, Midfield, Attack, or Missing) of soccer players. Goalkeepers are typically thought to be taller than other positions to make up in wingspan to cover the goal better. The dataset contains information on each player including their name, position, preferred foot, and height. For this analysis, only the position and height of the player will be used. A sample of 20 players was taken from each position for this analysis.</p>
+<p>Soccer, also known as football in many parts of the world, is a globally popular sport. Two teams of eleven players (4 defenders, 4 midfielders, 2 forwards, and 1 goalkeeper) compete to score goals by maneuvering a ball into the opposing team’s net using any part of the body except their hands and arms (goalkeepers are the exception). The game emphasizes a blend of physical endurance, technical skill, and strategic teamwork. Games are 90 minutes long, divided into two 45-minute halves, with extra time and penalty shootouts used if necessary to determine a winner. Players are evaluated not only on goals and assists but also on their passing accuracy, defensive contributions, and overall impact on the game. Referees use yellow and red cards to manage player behavior and maintain fairness on the field. A yellow card serves as a warning for actions such as reckless tackles, delaying the game, or showing dissent toward the referee. If a player receives two yellow cards in one match, it results in a red card, meaning the player is ejected from the game. A red card can also be given directly for more serious offenses like violent conduct, serious foul play, or using offensive language. When a player is shown a red card, their team must continue the match with one fewer player.</p>
+<p>The U.S. Men’s National Soccer Team (USMNT) was officially established in 1913 while the U.S. Women’s National Team (USWNT) was established in 1985. Players are selected for the U.S. national soccer teams through a combination of scouting, performance, and coaching decisions. For major tournaments like the World Cup or Olympics, coaches must select a limited number of players—usually around 23—who offer the best balance of skill, experience, and team dynamics. Veteran players must also go through the same process but do have a higher advantage then a new player.</p>
 </section>
 <section id="data" class="level2">
 <h2 class="anchored" data-anchor-id="data">Data</h2>
-<p>Each row of data gives gives information for one of 100 soccer players in the sample with 20 players at each of five positions for a total sample size of 100.</p>
+<p>The dataset provided (male and female soccer players on their respective National teams in 2024) was scraped from the U.S. Soccer official website (see references for links).</p>
+<details>
+<summary>
+<strong>Variable Descriptions</strong>
+</summary>
+<p>2024 Men’s and Women’s (13 variables and 87 observations) data:</p>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 80%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Variable</th>
@@ -1107,36 +1112,75 @@ cookieconsent.run({
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>name</code></td>
-<td>Name of the player</td>
+<td>..1</td>
+<td>Observation Number</td>
 </tr>
 <tr class="even">
-<td><code>position</code></td>
-<td>Player’s current position</td>
+<td>Player</td>
+<td>Name of Player</td>
 </tr>
 <tr class="odd">
-<td><code>foot</code></td>
-<td>Player’s preferred foot</td>
+<td>Pos</td>
+<td>Player’s Position</td>
 </tr>
 <tr class="even">
-<td><code>height_in_cm</code></td>
-<td>Player’s height (in cm)</td>
+<td>GP</td>
+<td>Games Played</td>
+</tr>
+<tr class="odd">
+<td>GS</td>
+<td>Games Where Player Started</td>
+</tr>
+<tr class="even">
+<td>MIN</td>
+<td>Game Minutes Played</td>
+</tr>
+<tr class="odd">
+<td>G</td>
+<td>Goals Scored</td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>Assists</td>
+</tr>
+<tr class="odd">
+<td>YC</td>
+<td>Number of Yellow Cards Received</td>
+</tr>
+<tr class="even">
+<td>RC</td>
+<td>Number of Red Cards Received</td>
+</tr>
+<tr class="odd">
+<td>Career Caps</td>
+<td>Number of International Games Played Representing National Team</td>
+</tr>
+<tr class="even">
+<td>Career Goals</td>
+<td>Career Goals</td>
+</tr>
+<tr class="odd">
+<td>Sex</td>
+<td>Gender of player</td>
 </tr>
 </tbody>
 </table>
-<p><a href="../data/soccer_heights_sample.csv">soccer_heights_sample.csv</a></p>
+</details>
+<p>Download Soccer Data: <a href="../data/soccer_usa_nationals_teams_2024.csv">soccer_usa_nationals_teams_2024.csv</a></p>
 </section>
 <section id="questions" class="level2">
 <h2 class="anchored" data-anchor-id="questions">Questions</h2>
 <ol type="1">
-<li><p>What are the mean heights for each position?</p></li>
-<li><p>Test to see if there is evidence of a discernible difference in mean height among the five positions.</p></li>
-<li><p>Which pairs of positions appear to have a discernible difference in mean height?</p></li>
+<li>Can outliers be detected using a fitted model?</li>
+<li>Can we determine an outlier’s influence on a regression model?</li>
+<li>How does games played or minutes played influence goals scored?</li>
 </ol>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
-<p>The data was subsetted from the <a href="https://data.world/dcereijo/player-scores">data.world website</a></p>
+<p>Data was scraped from the U.S. Soccer official website:</p>
+<p><a href="https://www.ussoccer.com/usmnt-stats/2024" target="_blank">mensSoccer2024</a></p>
+<p><a href="https://www.ussoccer.com/uswnt-stats/2024" target="_blank">womenSoccer2024</a></p>
 
 
 </section>
@@ -1549,7 +1593,7 @@ cookieconsent.run({
     </div>   
     <div class="nav-footer-center">
 <p>Maintained by <a href="https://www.stat.cmu.edu/~ryurko/">Ron Yurko</a></p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/soccer/soccer-heights.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/soccer/soccer_usa_nationals_teams_2024.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
