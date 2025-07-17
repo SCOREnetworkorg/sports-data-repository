@@ -23,7 +23,7 @@ The data set consists of 3753 games among 431 teams in the 2022 Division III wom
 | home_score | The number of goals the home team scored in game |
 | date       | Date of game                                     |
 
-: [D3_wsoc2022.csv](../data/D3_wsoc2022.csv)
+: [d3_wsoc2022.csv](../data/d3_wsoc2022.csv)
 
 ## Questions
 
