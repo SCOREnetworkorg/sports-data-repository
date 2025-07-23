@@ -1,0 +1,63 @@
+---
+title: MLB Team Batting Statistics (2024)
+author: Austin Hayes
+date: July 14, 2025
+description: This dataset is from baseball-reference.com and summarizes each teams batting stats from the 2024 season. This will include stats such as Batter's average age, Home Runs, Batting Average, etc.
+categories:
+  - Summary Statistics
+  - Data Wrangling
+  - Data Filtering
+  - Data frames
+  - Pandas
+  - Python
+---
+
+## Motivation
+
+This dataset comes from Baseball Reference and contains MLB team batting stats from 2024. This dataset will be used to find key statistics and about which teams did best during that season. Through this dataset, students can also learn about the Pandas library and how it is useful for filtering data out. 
+
+## Data
+
+Each row represents a team in the MLB. There are 32 rows (Including a total and league average row), meaning only 30 of those rows represent an individual team. There is no missingness in the data.
+
+| Variable | Description |
+|----|----------------------------|
+| Tm | Team |
+| '#Bat' | Number of Players used in Games | 
+| BatAge | Batters’ average age. Weighted by AB + Games Played |
+| R/G | Runs Scored Per Game |
+| G | Games Played or Pitched |
+| PA | Plate Appearances. When available, we use actual plate appearances from play-by-play game accounts. Otherwise estimated using AB + BB + HBP + SF + SH, which excludes catcher interferences. When this color, click for a summary of each PA. |
+| AB | At Bats |
+| R | Runs Scored/Allowed |
+| H | Hits/Hits Allowed |
+| 2B | Second Base Hits? Not stated on Website. | 
+| 3B | Third Base Hits? Not stated on Website. |
+| HR | Home Runs Hit/Allowed |
+| RBI | Runs Batted In |
+| SB | Stolen Bases |
+| CS | Caught Stealing |
+| BB | Bases on Balls/Walks |
+| SO | Strikeouts |
+| BA | Hits/At Bats. For recent years, leaders need 3.1 PA per team game played. Bold indicates highest BA using current stats. Gold means awarded title at end of year.|
+| OBP | (H + BB + HBP) / (At Bats + BB + HBP + SF). For recent years, leaders need 3.1 PA per team game played. |
+|SLG | Total Bases/At Bats OR (1B + 2*2B + 3*3B + 4*HR) / AB. For recent years, leaders need 3.1 PA per team game played. |
+|OPS | On-Base + Slugging Percentages. For recent years, leaders need 3.1 PA per team game played. |
+|OPS+ | 100*[OBP/lg OBP + SLG/lg SLG - 1]. Adjusted to the player’s ballpark(s) |
+| TB | Total Bases. Singles + 2 x Doubles + 3 x Triples + 4 x Home Runs. |
+| GDP | Double Plays Grounded Into. Only includes standard 6-4-3, 4-3, etc. double plays. First tracked in 1933. For gamelogs only in seasons we have play-by-play, we include triple plays as well. All official seasonal totals do not include GITP's. |
+| HBP | Times Hit by a Pitch |
+| SH | Sacrifice Hits (Sacrifice Bunts) |
+|SF | Sacrifice Flies. First tracked in 1954. |
+| IBB | Intentional Bases on Balls. First tracked in 1955. |
+|LOB | Runners Left On Base |
+
+: [mlb_team_batting_2024.csv](../data/mlb_team_batting_2024.csv)
+
+## Questions
+
+This dataset was used to make a Pandas library learning module in Python and students are asked about how to import data, how to filter the data, how to drop the data and how to calculate key statistics from the data frame. 
+
+## References
+
+https://www.baseball-reference.com/leagues/majors/2024.shtml

@@ -1,0 +1,105 @@
+---
+title: LaLiga 2019-2020 Season Player Stats
+author: Austin Hayes, Prabhat (from Kaggle)
+date: July 12, 2025
+description: This Dataset contains information about 556 players in LaLiga during the 2019-2020 season. This dataset is from Prabhat on Kaggle and it can be used for Learning about Seaborn and basic statistical interpretations.
+categories:
+  - seaborn
+  - python
+  - matplotlib
+  - histogram
+  - scatterplot
+  - barplot
+  - countplot
+  - violinplot
+  - distributions
+---
+
+## Motivation
+
+This dataset is from Prabhat on Kaggle and it describes the different stats among players in LaLiga during the 2019-2020 season. With this dataset people can practice their Seaborn skills and interpretation skills with soccer data.
+
+## Data
+
+Each row represents a player from LaLiga during the 2019-2020 Season. There are 556 rows. There are about 30 missing jersey numbers for different players. This may be due to changing teams and having multiple numbers.
+
+| Variable | Description |
+|----|-------------|
+| Team | Football club the player represents |
+| Position | Playing position (e.g., Goalkeeper, Defender) |
+| Shirt number | Squad shirt number |
+| Name | Name of the player |
+| Minutes played | Total minutes played |
+| Games played | Number of games played |
+| Percentage of games played | Percentage of total games the player appeared in |
+| Full games played | Games in which the player played the full 90 minutes |
+| Percentage of full games played | Percentage of full 90-minute games played |
+| Games started | Number of games started |
+| Percentage of games started | Percentage of games started out of total games |
+| Games where substituted | Number of games in which the player was substituted |
+| Percentage of games where substituted | Percentage of games in which the player was substituted |
+| Yellow Cards | Number of yellow cards received |
+| Red Cards | Number of red cards received |
+| Second Yellows | Number of second yellow cards (leading to red) |
+| Goals scored | Total goals scored |
+| Penalties scored | Penalty goals scored |
+| Own goals | Goals scored against own team |
+| Goals conceded while player on pitch | Goals conceded while the player was on the field |
+| Tackles | Total tackles attempted |
+| Interceptions | Interceptions made by the player |
+| Recoveries | Ball recoveries made |
+| Clearances | Number of clearances made |
+| Successful tackles | Number of successful tackles |
+| Unssuccessful tackles | Number of unsuccessful tackles |
+| Last man | Last-man tackles made |
+| Successful duels | Ground and aerial duels won |
+| Duels lost | Ground and aerial duels lost |
+| Successful aerial challenges | Aerial duels won |
+| Unsuccessful aerial challenges | Aerial duels lost |
+| Offsides | Times caught offside |
+| Fouls suffered | Times fouled by opponents |
+| Fouls committed | Fouls committed by the player |
+| Penalties won | Penalties won by the player |
+| Penalties given away | Penalties conceded by the player |
+| Handballs committed | Handball offenses committed |
+| Fouls committed per card | Ratio of fouls per card received |
+| Shots | Total shots taken |
+| Shots on target | Shots that were on target |
+| Assists | Total assists made |
+| Successful dribbles | Successful take-ons or dribbles |
+| Unsuccessful dribbles | Failed dribbles |
+| Goals scored.1 | Duplicate of "Goals scored" |
+| From inside the area | Goals scored from inside the penalty area |
+| From outside the area | Goals scored from outside the penalty area |
+| Goals with left foot | Goals scored with the left foot |
+| Goals with right foot | Goals scored with the right foot |
+| Penalties scored.1 | Duplicate of "Penalties scored" |
+| Goals scored with header | Goals scored using the head |
+| Goals from set piece | Goals scored from set plays |
+| Crosses | Crosses attempted |
+| Corners | Corner kicks taken |
+| Tackles.1 | Possibly duplicated or special category of tackles |
+| Duels | Total number of duels |
+| Man-to-man duels | Man-marking or direct player duels |
+| Aerial duels | Aerial challenges attempted |
+| Passes | Total passes attempted |
+| Short passes | Short-distance passes attempted |
+| Long passes | Long-distance passes attempted |
+| Through balls | Total through balls played |
+| Goals scored per attempt | Scoring efficiency (goals per shot) |
+
+: [laliga_player_stats_english.csv](../data/laliga_player_stats_english.csv)
+
+## Questions
+
+1. Interpreting Histograms, Bargraphs, Scatterplots, Countplots, and Violinplots
+
+2. Using Seaborn in Python
+
+3. Examining correlations and distributions
+
+## References
+
+https://www.kaggle.com/datasets/thegreatcoder/laliga-player-stats?resource=download  
+
+

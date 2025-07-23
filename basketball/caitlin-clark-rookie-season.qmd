@@ -1,0 +1,60 @@
+---
+title: Caitlin Clark Data for WNBA Rookie Season (2024)
+author: Courteney Zboyan
+date: July 17, 2025
+description: Data sourced from Caitlin Clark's player page on ESPN. 
+categories:
+  - Boxplot
+  - Histogram
+  - Summary Statistics
+---
+
+## Motivation
+
+The WNBA has significantly grown in popularity, especially due to the “Caitlin Clark” effect. Students will be able to analyze Caitlin Clark’s WNBA rookie season with descriptive statistics.
+
+## Data
+
+The includes 40 data points (rows) from Caitlin Clark's WNBA Rookie Season on the following: 
+
+| Variable | Description                                                               |
+|:---------|:--------------------------------------------------------------------------|
+| `DATE`   | When game was played                                                      |
+| `LOCATION`| Home game or away game                                                    |
+| `OPP`    | Opponent team                                                             |
+| `RESULT` | Win or loss for the game                                                  |
+| `SCORE`  | Points scored for both teams                                              |
+| `MIN`    | Total minutes she played in the game                                      |
+| `PTS`    | Total number of points she scored in that game                            |
+| `REB`    | Total number of times she got the ball after either team missed a shot    |
+| `AST`    | Number of her passes that led directly to a made basket                   |
+| `STL`    | Number of times she stole the ball from the other team                    |
+| `BLK`    | Number of times she deflected a shot from the other team                  |
+| `TO`     | Number of times she lost the ball to the other team                       |
+| `FG`     | Number of made shots out of number of attempted shots                     |
+| `FG%`    | Percentage of `FG`                                                        |
+| `3PT`    | Number of made 3pt shots out of number of attempted 3pt shots             |
+| `3P%`    | Percentage of `3PT`                                                       |
+| `FT`     | Number of free throws made out of number of free throws attempted         |
+| `FT%`    | Percentage of `FT`                                                        |
+| `PF`     | Number of fouls committed by her        
+
+: [caitlin_clark_rookie_season.csv](../data/caitlin_clark_rookie_season.csv)
+
+
+## Questions
+
+1. What does Caitlin’s regular season scoring distribution look like in terms of shape, center and spread?
+
+2. What is the typical variation in points in a game for Caitlin?
+
+3. How correlated are her minutes played to the points per game?
+
+4. Compare Caitlin Clark’s Rookie Season in 2024 to Paige Bueckers’ Rookie Season in 2025 as both were guards drafted #1 overall after a successful college career using descriptive statistics and then a two sample t-test.
+
+## References
+
+https://www.espn.com/wnba/player/gamelog/_/id/4433403/type/wnba/year/2024
+  
+
+

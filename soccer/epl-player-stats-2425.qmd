@@ -1,0 +1,103 @@
+---
+title: English Premier League - Player Stats - 24/25
+author: Austin Hayes, Ahmed Elsayed
+date: July 12, 2025
+description: This dataset is from Kaggle and it contains information about 562 English Premier League players and their stats during the 2024-2025 season.
+categories:
+  - seaborn
+  - python
+  - matplotlib
+  - histogram
+  - scatterplot
+  - barplot
+  - countplot
+  - violinplot
+  - distributions
+---
+
+## Motivation
+
+This dataset is from Kaggle and contains recorded player stats as well as stats created using machine learning. For example, "xGoT Conceded" is a calculated variable that stands for expected goals on target conceded. Using this dataset, we explore the different correlations and distributions between different variables in order to learn more about how different stats/information affect each other. 
+
+## Data
+
+Each row represents a player in the English Premier League. There are 562 rows. There is no missingness. 
+
+
+| Variable | Description |
+|----------|-------------|
+| Player Name | Name of the player |
+| Club | Football club the player represents |
+| Nationality | Nationality of the player |
+| Position | Playing position (e.g., Forward, Midfielder, etc.) |
+| Appearances | Number of games played |
+| Minutes | Total minutes played |
+| Goals | Total goals scored |
+| Assists | Total assists made |
+| Shots | Total shots taken |
+| Shots On Target | Shots that were on target |
+| Conversion % | Percentage of shots converted into goals |
+| Big Chances Missed | Number of clear scoring chances missed |
+| Hit Woodwork | Shots that hit the post or crossbar |
+| Offsides | Times caught offside |
+| Touches | Total number of touches |
+| Passes | Total passes attempted |
+| Successful Passes | Number of completed passes |
+| Passes% | Percentage of successful passes |
+| Crosses | Total crosses attempted |
+| Successful Crosses | Number of successful crosses |
+| Crosses % | Percentage of successful crosses |
+| fThird Passes | Passes attempted in the final third |
+| Successful fThird Passes | Successful passes in the final third |
+| fThird Passes % | Success rate of final third passes |
+| Through Balls | Total through balls played |
+| Carries | Number of times the player carried the ball |
+| Progressive Carries | Carries that advanced the ball significantly |
+| Carries Ended with Goal | Carries that resulted in a goal |
+| Carries Ended with Assist | Carries that resulted in an assist |
+| Carries Ended with Shot | Carries that resulted in a shot |
+| Carries Ended with Chance | Carries that created a goal-scoring chance |
+| Possession Won | Times player regained possession for their team |
+| Dispossessed | Times the player lost possession |
+| Clean Sheets | Games without conceding a goal |
+| Clearances | Number of clearances made |
+| Interceptions | Interceptions made by the player |
+| Blocks | Shots or passes blocked |
+| Tackles | Total tackles attempted |
+| Ground Duels | Ground-based challenges with opponents |
+| gDuels Won | Ground duels won |
+| gDuels % | Success percentage in ground duels |
+| Aerial Duels | Aerial challenges attempted |
+| aDuels Won | Aerial duels won |
+| aDuels % | Aerial duel success percentage |
+| Goals Conceded | Goals conceded while on the pitch |
+| xGoT Conceded | Expected Goals on Target conceded |
+| Own Goals | Goals scored against own team |
+| Fouls | Total fouls committed |
+| Yellow Cards | Yellow cards received |
+| Red Cards | Red cards received |
+| Saves | Saves made by the goalkeeper |
+| Saves % | Save percentage by the goalkeeper |
+| Penalties Saved | Penalty kicks saved |
+| Clearances Off Line | Goal-line clearances made |
+| Punches | Punches made by goalkeeper to clear the ball |
+| High Claims | Crosses caught by goalkeeper |
+| Goals Prevented | Goals prevented compared to expected goals |
+
+: [epl_player_stats_24_25.csv](../data/epl_player_stats_24_25.csv)
+
+
+## Questions
+
+1. How to interpret Histograms, Violinplots, Countplots, Scatterplots, and Bargraphs
+
+2. Using Python to find relationships between player stats
+
+3. Learning to Use Seaborn in Python.
+
+## References
+
+https://www.kaggle.com/datasets/aesika/english-premier-league-player-stats-2425/data
+  
+
+

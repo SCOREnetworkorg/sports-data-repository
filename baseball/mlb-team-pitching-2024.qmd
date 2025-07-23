@@ -1,0 +1,70 @@
+---
+title: MLB Team Pitching Statistics (2024)
+author: Austin Hayes
+date: July 14, 2025
+description: This dataset is from baseball-reference.com and summarizes each teams pitching stats from the 2024 season. This will include stats such as ERA, Strikeouts, Innings Pitched, etc.
+categories:
+  - Summary Statistics
+  - Data Wrangling
+  - Data Filtering
+  - Data frames
+  - Pandas
+  - Python
+---
+
+## Motivation
+
+This dataset comes from Baseball Reference and contains MLB team pitching stats from 2024. This dataset will be used to find key statistics and about which teams did best during that season. Through this dataset, students can learn about the Pandas library and how it is useful for filtering data.
+
+## Data
+
+Each row represents a team in the MLB. There are 32 rows (Including a total and league average row), meaning only 30 of those rows represent an individual team. There is no missingness in the data.
+
+| Variable | Description |
+|----|----------------------------|
+| Tm | Team Name |
+| '#P' | Number of Pitchers Used |
+| PAge | Pitchers’ average age. Weighted by innings pitched |
+| RA/G | Runs Allowed per Game |
+| W | Wins |
+| L | Losses |
+| W-L% | Win-Loss Percentage |
+| ERA | Earned Run Average |
+| G | Games Played |
+| GS | Games Started |
+| GF | Games Finished |
+| CG | Complete Games |
+| tSho | Team Shutouts (Total) |
+| cSho | Combined Shutouts |
+| SV | Saves |
+| IP | Innings Pitched |
+| H | Hits Allowed |
+| R | Runs Allowed |
+| ER | Earned Runs |
+| HR | Home Runs Allowed |
+| BB | Bases on Balls (Walks) |
+| IBB | Intentional Walks |
+| SO | Strikeouts |
+| HBP | Hit By Pitch |
+| BK | Balks |
+| WP | Wild Pitches |
+| BF | Batters Faced |
+| ERA+ | ERA Adjusted for Ballpark and League (100 = average) |
+| FIP | Fielding Independent Pitching |
+| WHIP | Walks + Hits per Inning Pitched |
+| H9 | Hits Allowed per 9 Innings |
+| HR9 | Home Runs Allowed per 9 Innings |
+| BB9 | Walks per 9 Innings |
+| SO9 | Strikeouts per 9 Innings |
+| SO/W | Strikeout-to-Walk Ratio |
+| LOB | Runners Left On Base |
+
+: [mlb_team_pitching_2024.csv](../data/mlb_team_pitching_2024.csv)
+
+## Questions
+
+This dataset was used to make a Pandas library learning module in Python and students are asked about how to import data, how to filter the data, how to drop the data and how to calculate key statistics from the data frame. 
+
+## References
+
+https://www.baseball-reference.com/leagues/majors/2024.shtml#all_teams_standard_pitching
