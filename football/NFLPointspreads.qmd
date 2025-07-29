@@ -1,0 +1,77 @@
+---
+title: "NFL Point Spreads and Game Scores (2023-2024)"
+author: "Robin Lock" 
+date: "July 25, 2025" 
+format:
+    html:
+      embed-resources: true
+categories:
+  -   Confidence Intervals
+  -   Hypothesis Testing
+  -   Paired Data
+  -   Proportions
+---
+
+## Motivation
+
+An [ESPN article](https://www.espn.com/sports-betting/story/_/id/41111932/estimated-35-billion-expected-bet-nfl-season){target="_blank"} estimated that bets on National Football League (NFL) games in 2024 would total about \$35 billion. One of the most popular wagers is to pick the winner of a game against a "point spread".
+
+### A Primer on Point Spreads
+
+The point spread is a mechanism to make it hard to predict the "winner" by adding a fixed number of extra points to what is perceived to be the weaker team's (the *underdog*) score. In order to "win against the points" (or *cover*), the favored team must win by more points than the point spread. If the underdog wins the game outright or finishes within the point spread of the winner's score, they win against the points.
+
+**Example**: The Kansas City Chiefs played at the Buffalo Bills in week #12 of the 2024 season and Buffalo was a 2.5 point favorite. The final score was Buffalo 30 - Kansas City 21, so Buffalo won against the points. If Kansas City had scored one more touchdown to make the score 30-28, they would have covered the 2.5 spread.
+
+In theory, the point spread makes the game a toss up, so either team has a 50% chance of winning. In practice, the point spreads are often chosen to try to get an equal amount of action on either side of the bet. We use point spreads from [ESPN's Pigskin Pick'em Game](https://fantasy.espn.com/games/nfl-pigskin-pickem-2024/){target="_blank"} which are all in "half points" (1.5, 2.5, etc.) so there is always a "winner" against the points.
+
+The dataset includes the point spreads for each game of the 2023 and 2024 NFL regular seasons along with the actual scores of the games and various indicators of the results from the perspective of the favorite and also the home team.
+
+## Data
+
+The dataset has the point spreads and game results for all 544 regular season games in the 2023 and 2024 NFL seasons. Each row is a single game with information on 17 different variables.
+
+<details>
+
+<summary><b>Variable Descriptions</b></summary>
+
+| Variable  | Description                                                  |
+|-----------|--------------------------------------------------------------|
+| FavScore  | Points scored for the favored team                           |
+| Favorite  | Team name for the favored team                               |
+| Pts       | Point spread                                                 |
+| Underdog  | Team name for the underdog team                              |
+| DogScore  | Points scored by the underdog team                           |
+| FavCover  | 1=Favorite wins against the spread, 0=Underdog covers        |
+| FavDiff   | Favorite's score minus underdog's score                      |
+| FavWin    | Favorite wins the game outright                              |
+| HomeDog   | 1=Home team is the underdog, 0=Away team is the underdog     |
+| HomeScore | Points scored for the home team                              |
+| AwayScore | Points scored for the away team                              |
+| HomePts   | Point spread for the home team (negative is a home underdog) |
+| HomeCover | 1=Home team covers the spread, 0=Away team covers            |
+| HomeDiff  | Home team score minus Away team score                        |
+| HomeWin   | Home team wins the game outright                             |
+| Week      | Week of the regular season (1-18)                            |
+| Year      | Year of the season (2023 or 2024)                            |
+
+</details>
+
+**Download NFLPointspread Data:** [NFLPoints.csv](../data/NFLPoints.csv){target="_blank"}
+
+## Questions
+
+1.  Compare the distribution of point spreads (*Pts*) to the actual margins (*FavDiff*). In what ways (if any) are the distributions similar? What are the biggest differences?
+2.  What proportion of the time does the favored team win the game outright?
+3.  Is the proportion of times the favorite covers the spread discernibly different from 0.50?
+4.  Many football fans say that the home field advantage is about a field goal (three points). Is the average home margin (*HomeDiff*) discernibly different from three points?
+5.  Is the average point spread assigned to the home team (*HomePts*) discernibly different from three points?
+6.  Some fans say they avoid choosing a favorite when the spread is double digits (more than 10 points). Is the proportion of favorites who cover discernibly less than 0.50 when the spread is more than ten points?
+7.  Is the point spread (*Pts*), on average, closer to or farther from the actual margin (*FavDiff*) in the early part of the season (weeks 1-9) compared to the last half of the season (weeks 10-18)?
+
+## References
+
+Point spreads and scores from ESPN's Pigskin Pick'em Game (but links only work if your have an account for that season).
+
+[Pigskin Pick'em -2023](https://fantasy.espn.com/games/nfl-pigskin-pickem-2023/){target="_blank"}
+
+[Pigskin Pick'em -2024](https://fantasy.espn.com/games/nfl-pigskin-pickem-2024/){target="_blank"}
