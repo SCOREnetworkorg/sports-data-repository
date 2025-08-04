@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Ron Yurko">
-<meta name="dcterms.date" content="2023-05-24">
-<meta name="description" content="WTA Grand Slam Matches from 2018 to 2022">
+<meta name="author" content="Peter Spivack">
+<meta name="dcterms.date" content="2025-08-04">
+<meta name="description" content="Shot-level data from WTA and ATP Grand Slam matches (1960 - 2024), recording each stroke’s hand, shot type, direction, depth, and outcome or error type.">
 
-<title>WTA Grand Slam Matches – SCORE Sports Data Repository</title>
+<title>Grand Slam Tennis Shot-Level Data – SCORE Sports Data Repository</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -167,7 +167,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../tennis/atp_player-stats.html">Tennis</a></li><li class="breadcrumb-item"><a href="../tennis/wta-grand-slam-matches.html">WTA Grand Slam Matches</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../tennis/atp_player-stats.html">Tennis</a></li><li class="breadcrumb-item"><a href="../tennis/tennis-shot-level-data.html">Grand Slam Tennis Shot-Level Data</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -935,13 +935,13 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../tennis/tennis-shot-level-data.html" class="sidebar-item-text sidebar-link">
+  <a href="../tennis/tennis-shot-level-data.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Grand Slam Tennis Shot-Level Data</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../tennis/wta-grand-slam-matches.html" class="sidebar-item-text sidebar-link active">
+  <a href="../tennis/wta-grand-slam-matches.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">WTA Grand Slam Matches</span></a>
   </div>
 </li>
@@ -1084,30 +1084,37 @@ cookieconsent.run({
    
   <ul>
   <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation">Motivation</a></li>
-  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a>
+  <ul class="collapse">
+  <li><a href="#match-level-data" id="toc-match-level-data" class="nav-link" data-scroll-target="#match-level-data">Match Level Data</a></li>
+  <li><a href="#point-level-data" id="toc-point-level-data" class="nav-link" data-scroll-target="#point-level-data">Point Level Data</a></li>
+  <li><a href="#shot-encoding" id="toc-shot-encoding" class="nav-link" data-scroll-target="#shot-encoding">Shot Encoding</a></li>
+  <li><a href="#datasets" id="toc-datasets" class="nav-link" data-scroll-target="#datasets">Datasets</a></li>
+  </ul></li>
   <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/tennis/wta-grand-slam-matches.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/tennis/tennis-shot-level-data.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../tennis/atp_player-stats.html">Tennis</a></li><li class="breadcrumb-item"><a href="../tennis/wta-grand-slam-matches.html">WTA Grand Slam Matches</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../tennis/atp_player-stats.html">Tennis</a></li><li class="breadcrumb-item"><a href="../tennis/tennis-shot-level-data.html">Grand Slam Tennis Shot-Level Data</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">WTA Grand Slam Matches</h1>
+<h1 class="title">Grand Slam Tennis Shot-Level Data</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">logistic regression</div>
-    <div class="quarto-category">data wrangling</div>
-    <div class="quarto-category">categorical data</div>
+    <div class="quarto-category">Markov chains</div>
+    <div class="quarto-category">Transition matrices</div>
     <div class="quarto-category">chi-squared test</div>
-    <div class="quarto-category">clustering</div>
+    <div class="quarto-category">Exploratory data analysis</div>
+    <div class="quarto-category">Decision trees</div>
+    <div class="quarto-category">Generalized linear models</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    WTA Grand Slam Matches from 2018 to 2022
+    Shot-level data from WTA and ATP Grand Slam matches (1960 - 2024), recording each stroke’s hand, shot type, direction, depth, and outcome or error type.
   </div>
 </div>
 
@@ -1117,14 +1124,14 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Ron Yurko </p>
+             <p>Peter Spivack </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 24, 2023</p>
+      <p class="date">August 4, 2025</p>
     </div>
   </div>
   
@@ -1138,14 +1145,23 @@ cookieconsent.run({
 
 <section id="motivation" class="level2">
 <h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
-<p>The <a href="https://www.wtatennis.com/">Women’s Tennis Associate (WTA)</a> organizes the top women’s professional tennis tour in the world. Throughout the year, there are four major tournaments yielding the most ranking points, prize money, and fame. These are known as the Grand Slam tournaments, consisting of (in order): Australian Open, French Open (aka Roland Garros), Wimbledon, and the US Open. With this dataset of information about winners and losers in WTA Grand Slam matches from 2018 to 2022, you’ll be able to explore statistics collected during matches and information about the athletes to predict match outcomes.</p>
+<p>A lot of tennis match data is recorded in one of two formats: <em>spatiotemporal data</em>, where a series of cameras measure statistics such as players’ sprint speed, reaction time, and positioning; or <em>aggregated match-level data</em>, which store total counts of statistics such as winners, double faults, and break points held. While these sources both have their strengths, they both fall short in the area of assessing player decision making. Spatiotemporal data requires computer vision methods and a significant amount of computation to “recognize” sequences with high likelihood of winning, and match level summary statistics provides minimal insight into the decision making process of a shot.</p>
+<p>This dataset uses data created from the <a href="https://www.tennisabstract.com/charting/meta.html">Tennis Match Charting Project by Jeff Sackmann</a>, a crowdsourced project where viewers of WTA and ATP singles tournament matches record each point played in a match. After recording the match level data such as players, time, and tournament, for each point in a match contributors record the shot sequence using their judgement to determine shot type, direction, and other characteristics. Thus, we can use this categorical representation to conduct analyses.</p>
 </section>
 <section id="data" class="level2">
 <h2 class="anchored" data-anchor-id="data">Data</h2>
-<p>This dataset contains all WTA matches between 2018 and 2022, courtesy of <a href="https://github.com/JeffSackmann/tennis_wta">Jeff Sackmann’s famous tennis repository</a>.</p>
-<p>There are 2,413 rows in this dataset where each row corresponds to a single WTA Grand Slam match. Each row has 38 columns with general information about the matches, as well as columns describing the winner and loser of the matches:</p>
+<p>There are eight datasets below, recording shot-level data for the <a href="https://www.atptour.com">ATP Tour</a> and <a href="https://www.wtatennis.com">WTA Tour</a> at each of the four major championships: <a href="https://ausopen.com">Australian Open</a>, <a href="https://rolandgarros.com">Roland Garros</a>, <a href="https://wimbledon.com">Wimbledon</a>, and <a href="https://usopen.org">US Open</a>.</p>
+<p>The data is sourced from volunteers contributing to the <a href="https://www.tennisabstract.com/charting/meta.html">Tennis Match Charting Project by Jeff Sackmann</a>. The matches charted will have some selection bias towards more popular players, higher leverage matches, and matches which are broadcasted on television. Thus one can expect it is more likely that the 2014 Women’s Wimbledon Finals match between Serena Williams and Caroline Wozniacki will be charted by a volunteer than say the 2013 Women’s Roland Garros Round of 64 match between Paula Ormaechea and Yaroslava Shvedova. There may also be minor errors due to the human nature of data recording, from typos to lapses in judgement.</p>
+<p>Each row in the dataset encodes a single shot in a charted match. There are some instances in a match where the contributor wasn’t able to record every single point. In these cases, the shot-level data is included only for the points recorded.</p>
+<p>There are 635064 unique shots recorded in ATP Australian Open matches, 480872 shots in ATP Roland Garros matches, 587466 shots in ATP US Open matches, and 457591 shots in ATP Wimbledon matches. There are 291544 unique shots recorded in WTA Australian Open matches, 201414 shots in WTA Roland Garros matches, 237832 shots in WTA US Open matches, and 190204 shots in WTA Wimbledon matches.</p>
+<p>Each dataset contains 17 columns:</p>
+<section id="match-level-data" class="level3">
+<h3 class="anchored" data-anchor-id="match-level-data">Match Level Data</h3>
 <table class="caption-top table">
-<caption><a href="../data/wta-grand-slam-matches-2018to2022.csv">wta-grand-slam-matches-2018to2022.csv</a></caption>
+<colgroup>
+<col style="width: 23%">
+<col style="width: 76%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Variable</th>
@@ -1154,108 +1170,152 @@ cookieconsent.run({
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>tourney_name</code></td>
-<td>name of the Grand Slam Tournament (French Open is recorded as ROLAND GARROS)</td>
+<td>Date</td>
+<td>Date the tennis match started, number ordered YYYYMMDD</td>
 </tr>
 <tr class="even">
-<td><code>surface</code></td>
-<td>type of court surface</td>
+<td>Tournament</td>
+<td>Name of the tournament, either: <code>Australian_Open</code>, <code>Roland_Garros</code>, <code>Wimbledon</code>, or <code>US_Open</code></td>
 </tr>
 <tr class="odd">
-<td><code>tourney_date</code></td>
-<td>eight digits, YYYYMMDD, usually the Monday of the tournament week</td>
+<td>Round</td>
+<td>Name of the round in the tournament, either: <code>F</code>, <code>SF</code>, <code>QF</code>, <code>R16</code>, <code>R32</code>, <code>R64</code>, or <code>R128</code></td>
 </tr>
 <tr class="even">
-<td><code>winner/loser_seed</code></td>
-<td>seed of winning/losing player</td>
+<td>Player 1</td>
+<td>Name of the first player, string ordered FIRST_LAST</td>
 </tr>
 <tr class="odd">
-<td><code>winner/loser_name</code></td>
-<td>Name of the winning/losing player</td>
+<td>Player 2</td>
+<td>Name of the second player, string ordered FIRST_LAST</td>
 </tr>
 <tr class="even">
-<td><code>winner/loser_hand</code></td>
-<td>R = right, L = left, U = unknown. For ambidextrous players, this is their serving hand</td>
-</tr>
-<tr class="odd">
-<td><code>winner/loser_ht</code></td>
-<td>height in centimeters, where available</td>
-</tr>
-<tr class="even">
-<td><code>winner/loser_ioc</code></td>
-<td>three-character country code</td>
-</tr>
-<tr class="odd">
-<td><code>winner/loser_age</code></td>
-<td>age, in years, as of the tourney_date</td>
-</tr>
-<tr class="even">
-<td><code>score</code></td>
-<td>final match score</td>
-</tr>
-<tr class="odd">
-<td><code>round</code></td>
-<td>tournament round</td>
-</tr>
-<tr class="even">
-<td><code>minutes</code></td>
-<td>match length in minutes</td>
-</tr>
-<tr class="odd">
-<td><code>w/l_ace</code></td>
-<td>winner/loser’s number of aces</td>
-</tr>
-<tr class="even">
-<td><code>w/l_df</code></td>
-<td>winner/loser’s number of doubles faults</td>
-</tr>
-<tr class="odd">
-<td><code>w/l_svpt</code></td>
-<td>winner/loser’s number of serve points</td>
-</tr>
-<tr class="even">
-<td><code>w/l_1stIn</code></td>
-<td>winner/loser’s number of first serves made</td>
-</tr>
-<tr class="odd">
-<td><code>w/l_1stWon</code></td>
-<td>winner/loser’s number of first-serve points won</td>
-</tr>
-<tr class="even">
-<td><code>w/l_2ndWon</code></td>
-<td>winner/loser’s number of second-serve points won</td>
-</tr>
-<tr class="odd">
-<td><code>w/l_SvGms</code></td>
-<td>winner/loser’s number of serve games</td>
-</tr>
-<tr class="even">
-<td><code>w/l_bpSaved</code></td>
-<td>winner/loser’s number of break points saved</td>
-</tr>
-<tr class="odd">
-<td><code>w/l_bpFaced</code></td>
-<td>winner/loser’s number of break points faced</td>
-</tr>
-<tr class="even">
-<td><code>winner/loser_rank</code></td>
-<td>winner/loser’s WTA rank, as of the tourney_date, or the most recent ranking date before the tourney_date</td>
+<td>Point</td>
+<td>Counter of points in a match, indexed where the first point of the first game is point <code>1</code></td>
 </tr>
 </tbody>
 </table>
-<p>Note that a full glossary of the features available for match data can be found <a href="https://github.com/JeffSackmann/tennis_atp/blob/master/matches_data_dictionary.txt">here</a>.</p>
+</section>
+<section id="point-level-data" class="level3">
+<h3 class="anchored" data-anchor-id="point-level-data">Point Level Data</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 76%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Shot</td>
+<td>Counter of shots in a point, indexed where the serve is shot <code>1</code>. If the player makes a fault, both their first and second serve will be shot <code>1</code></td>
+</tr>
+<tr class="even">
+<td>Serve</td>
+<td><code>1st</code> if the point is played on the first serve, <code>2nd</code> otherwise</td>
+</tr>
+<tr class="odd">
+<td>ServingPlayer</td>
+<td>Name of the player who served the point</td>
+</tr>
+<tr class="even">
+<td>WinningPlayer</td>
+<td>Name of the player who won the point</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="shot-encoding" class="level3">
+<h3 class="anchored" data-anchor-id="shot-encoding">Shot Encoding</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 76%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ShotHand</td>
+<td>Hand player used to make shot, options are: <code>forehand</code> (player’s dominant hand), <code>backhand</code> (player’s non-dominant hand), or <code>NA</code> (serves or unknown)</td>
+</tr>
+<tr class="even">
+<td>ShotType</td>
+<td>Type of shot, options are: <code>serve</code>, <code>groundstroke</code>, <code>slice</code>, <code>volley</code>, <code>overhead</code>, <code>drop_shot</code>, <code>lob</code>, <code>half_volley</code>, <code>swinging_volley</code>, <code>NA</code> (other or unknown)</td>
+</tr>
+<tr class="odd">
+<td>ShotDirection</td>
+<td>Expected direction of shot based on where the ball would have crossed the baseline, options are: <code>right_hander's_forehand_side</code>, <code>down_the_middle</code>, <code>right_hander's_backhand_side</code>, or <code>NA</code> (unknown)</td>
+</tr>
+<tr class="even">
+<td>ServeDirection</td>
+<td>Expected direction of serve based on location proximal to service box, options are: <code>out_wide</code>, <code>body</code>, <code>down_the_t</code>, or <code>NA</code> (unknown)</td>
+</tr>
+<tr class="odd">
+<td>ShotDepth</td>
+<td>Expected depth of shot, options are: <code>in_service_box</code>, <code>behind_service_line</code> (referring to 50-75% depth in the court), <code>close_to_baseline</code> (referring to 75-100% depth in the court), or <code>NA</code> (unrecorded or unknown). ShotDepth is an optional flag for match charters, and is mostly recorded exclusively on return shots (Shot == 2)</td>
+</tr>
+<tr class="even">
+<td>OutcomeType</td>
+<td>Outcome type of shot, options are: <code>double_fault</code>, <code>winner</code>, <code>unforced_error</code>, <code>forced_error</code>, or <code>NA</code> (shot did not produce an outcome)</td>
+</tr>
+<tr class="odd">
+<td>ErrorType</td>
+<td>Error type of shot, options are: <code>net</code>, <code>wide</code>, <code>deep</code>, <code>wide_deep</code>, <code>foot_fault</code>, <code>shank</code>, <code>time_violation</code>, or <code>NA</code> (shot did not have an error)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="datasets" class="level3">
+<h3 class="anchored" data-anchor-id="datasets">Datasets</h3>
+<dl>
+<dt>Click on link to download data:</dt>
+<dd>
+<p><a href="../data/tennis-m-shots-ao.gz">tennis-m-shots-ao.gz</a></p>
+</dd>
+<dd>
+<p><a href="../data/tennis-m-shots-rg.gz">tennis-m-shots-rg.gz</a></p>
+</dd>
+<dd>
+<p><a href="../data/tennis-m-shots-wim.gz">tennis-m-shots-wim.gz</a></p>
+</dd>
+<dd>
+<p><a href="../data/tennis-m-shots-uso.gz">tennis-m-shots-uso.gz</a></p>
+</dd>
+<dd>
+<p><a href="../data/tennis-w-shots-ao.gz">tennis-w-shots-ao.gz</a></p>
+</dd>
+<dd>
+<p><a href="../data/tennis-w-shots-rg.gz">tennis-w-shots-rg.gz</a></p>
+</dd>
+<dd>
+<p><a href="../data/tennis-w-shots-wim.gz">tennis-w-shots-wim.gz</a></p>
+</dd>
+<dd>
+<p><a href="../data/tennis-w-shots-uso.gz">tennis-w-shots-uso.gz</a></p>
+</dd>
+</dl>
+</section>
 </section>
 <section id="questions" class="level2">
 <h2 class="anchored" data-anchor-id="questions">Questions</h2>
 <ol type="1">
-<li><p>After performing the appropriate data wrangling, build a logistic regression model to predict whether or not the seed favorite wins the match based on the athlete information and recorded match statistics. Which variables, if any, are predictive of the match outcome? Describe their relationships.</p></li>
-<li><p>Choose an athlete of interest, e.g., Serena Williams. Create a new dataset where the columns describe the performance of that athlete in each particular match. Explore how the different match information and statistics correspond to whether or not the athlete is able to win the match.</p></li>
-<li><p>Explore the relationship between court surface and the various observed match statistics. This could be done by clustering matches based on the winner and loser statistics, and see how well aligned they are with the court surface type or Grand Slam event.</p></li>
+<li><p>Build a transition matrix setting shot direction against next shot direction and determine what is the most likely shot direction given the previous shot was hit to the player’s backhand?</p></li>
+<li><p>Using an arbitrary dataset, build a transition matrix for shot type AND direction against next shot type and direction. Which transitions have zero data? Which transitions are impossible or which transitions are impossible? Are there any impossible transitions which have recorded data, and what caused that error?</p></li>
+<li><p>Create transition matrices for your preferred shot description (columns 11-17) for each tournament. Conduct a Chi-Squared test for independence between each tournament (there’s 6 pairs). Which tournaments have different distributions of transitions? Which tournaments have similar distributions? Considering the size of the dataset, do these results make sense? Considering other similarities/differences between the tournaments (ex. season, surface), do these results match your expectations?</p></li>
 </ol>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
-<p>Data was accessed from <a href="https://github.com/JeffSackmann/tennis_wta">Jeff Sackmann’s tennis GitHub repository</a>.</p>
+<p>Data was accessed from Jeff Sackmann’s Tennis Match Charting Project, available on <a href="https://github.com/JeffSackmann/tennis_MatchChartingProject">GitHub</a>. Dataset available with a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</p>
 
 
 </section>
@@ -1668,7 +1728,7 @@ cookieconsent.run({
     </div>   
     <div class="nav-footer-center">
 <p>Maintained by <a href="https://www.stat.cmu.edu/~ryurko/">Ron Yurko</a></p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/tennis/wta-grand-slam-matches.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/tennis/tennis-shot-level-data.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
