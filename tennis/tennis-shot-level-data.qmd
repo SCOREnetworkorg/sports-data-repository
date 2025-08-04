@@ -1,0 +1,96 @@
+---
+title: Grand Slam Tennis Shot-Level Data
+author: Peter Spivack
+date: August 4, 2025
+description: Shot-level data from WTA and ATP Grand Slam matches (1960 - 2024), recording each stroke's hand, shot type, direction, depth, and outcome or error type.
+categories:
+  - Markov chains
+  - Transition matrices
+  - chi-squared test
+  - Exploratory data analysis
+  - Decision trees
+  - Generalized linear models
+---
+
+## Motivation
+
+A lot of tennis match data is recorded in one of two formats: *spatiotemporal data*, where a series of cameras measure statistics such as players’ sprint speed, reaction time, and positioning; or *aggregated match-level data*, which store total counts of statistics such as winners, double faults, and break points held. While these sources both have their strengths, they both fall short in the area of assessing player decision making. Spatiotemporal data requires computer vision methods and a significant amount of computation to "recognize" sequences with high likelihood of winning, and match level summary statistics provides minimal insight into the decision making process of a shot.
+
+This dataset uses data created from the [Tennis Match Charting Project by Jeff Sackmann](https://www.tennisabstract.com/charting/meta.html), a crowdsourced project where viewers of WTA and ATP singles tournament matches record each point played in a match. After recording the match level data such as players, time, and tournament, for each point in a match contributors record the shot sequence using their judgement to determine shot type, direction, and other characteristics. Thus, we can use this categorical representation to conduct analyses.
+
+## Data
+
+There are eight datasets below, recording shot-level data for the [ATP Tour](https://www.atptour.com) and [WTA Tour](https://www.wtatennis.com) at each of the four major championships: [Australian Open](https://ausopen.com), [Roland Garros](https://rolandgarros.com), [Wimbledon](https://wimbledon.com), and [US Open](https://usopen.org).
+
+The data is sourced from volunteers contributing to the [Tennis Match Charting Project by Jeff Sackmann](https://www.tennisabstract.com/charting/meta.html). The matches charted will have some selection bias towards more popular players, higher leverage matches, and matches which are broadcasted on television. Thus one can expect it is more likely that the 2014 Women's Wimbledon Finals match between Serena Williams and Caroline Wozniacki will be charted by a volunteer than say the 2013 Women's Roland Garros Round of 64 match between Paula Ormaechea and Yaroslava Shvedova. There may also be minor errors due to the human nature of data recording, from typos to lapses in judgement.
+
+Each row in the dataset encodes a single shot in a charted match. There are some instances in a match where the contributor wasn't able to record every single point. In these cases, the shot-level data is included only for the points recorded. 
+
+There are 635064 unique shots recorded in ATP Australian Open matches, 480872 shots in ATP Roland Garros matches, 587466 shots in ATP US Open matches, and 457591 shots in ATP Wimbledon matches. There are 291544 unique shots recorded in WTA Australian Open matches, 201414 shots in WTA Roland Garros matches, 237832 shots in WTA US Open matches, and 190204 shots in WTA Wimbledon matches. 
+
+Each dataset contains 17 columns:
+
+### Match Level Data
+
+| Variable | Description |
+|----|-------------|
+| Date | Date the tennis match started, number ordered YYYYMMDD |
+| Tournament | Name of the tournament, either: `Australian_Open`, `Roland_Garros`, `Wimbledon`, or `US_Open` |
+| Round | Name of the round in the tournament, either: `F`, `SF`, `QF`, `R16`, `R32`, `R64`, or `R128` |
+| Player 1 | Name of the first player, string ordered FIRST_LAST |
+| Player 2 | Name of the second player, string ordered FIRST_LAST | 
+| Point | Counter of points in a match, indexed where the first point of the first game is point `1` |
+
+### Point Level Data
+
+| Variable | Description |
+|----|-------------|
+| Shot | Counter of shots in a point, indexed where the serve is shot `1`. If the player makes a fault, both their first and second serve will be shot `1` |
+| Serve | `1st` if the point is played on the first serve, `2nd` otherwise |
+| ServingPlayer | Name of the player who served the point |
+| WinningPlayer | Name of the player who won the point |
+
+### Shot Encoding
+
+| Variable | Description |
+|----|-------------|
+| ShotHand | Hand player used to make shot, options are: `forehand` (player's dominant hand), `backhand` (player's non-dominant hand), or `NA` (serves or unknown) |
+| ShotType | Type of shot, options are: `serve`, `groundstroke`, `slice`, `volley`, `overhead`, `drop_shot`, `lob`, `half_volley`, `swinging_volley`, `NA` (other or unknown) |
+| ShotDirection | Expected direction of shot based on where the ball would have crossed the baseline, options are: `right_hander's_forehand_side`, `down_the_middle`, `right_hander's_backhand_side`, or `NA` (unknown) |
+| ServeDirection | Expected direction of serve based on location proximal to service box, options are: `out_wide`, `body`, `down_the_t`, or `NA` (unknown) |
+| ShotDepth | Expected depth of shot, options are: `in_service_box`, `behind_service_line` (referring to 50-75% depth in the court), `close_to_baseline` (referring to 75-100% depth in the court), or `NA` (unrecorded or unknown). ShotDepth is an optional flag for match charters, and is mostly recorded exclusively on return shots (Shot == 2) |
+| OutcomeType | Outcome type of shot, options are: `double_fault`, `winner`, `unforced_error`, `forced_error`, or `NA` (shot did not produce an outcome) |
+| ErrorType | Error type of shot, options are: `net`, `wide`, `deep`, `wide_deep`, `foot_fault`, `shank`, `time_violation`, or `NA` (shot did not have an error) |
+
+### Datasets
+
+Click on link to download data:
+
+: [tennis-m-shots-ao.gz](../data/tennis-m-shots-ao.gz)
+
+: [tennis-m-shots-rg.gz](../data/tennis-m-shots-rg.gz)
+
+: [tennis-m-shots-wim.gz](../data/tennis-m-shots-wim.gz)
+
+: [tennis-m-shots-uso.gz](../data/tennis-m-shots-uso.gz)
+
+: [tennis-w-shots-ao.gz](../data/tennis-w-shots-ao.gz)
+
+: [tennis-w-shots-rg.gz](../data/tennis-w-shots-rg.gz)
+
+: [tennis-w-shots-wim.gz](../data/tennis-w-shots-wim.gz)
+
+: [tennis-w-shots-uso.gz](../data/tennis-w-shots-uso.gz)
+
+## Questions
+
+1. Build a transition matrix setting shot direction against next shot direction and determine what is the most likely shot direction given the previous shot was hit to the player's backhand? 
+
+2. Using an arbitrary dataset, build a transition matrix for shot type AND direction against next shot type and direction. Which transitions have zero data? Which transitions are impossible or which transitions are impossible? Are there any impossible transitions which have recorded data, and what caused that error?
+
+3. Create transition matrices for your preferred shot description (columns 11-17) for each tournament. Conduct a Chi-Squared test for independence between each tournament (there's 6 pairs). Which tournaments have different distributions of transitions? Which tournaments have similar distributions? Considering the size of the dataset, do these results make sense? Considering other similarities/differences between the tournaments (ex. season, surface), do these results match your expectations?
+
+## References
+
+Data was accessed from Jeff Sackmann's Tennis Match Charting Project, available on [GitHub](https://github.com/JeffSackmann/tennis_MatchChartingProject). Dataset available with a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License 
+
