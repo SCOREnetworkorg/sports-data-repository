@@ -26,7 +26,7 @@ The data is sourced from volunteers contributing to the [Tennis Match Charting P
 
 Each row in the dataset encodes a single shot in a charted match. There are some instances in a match where the contributor wasn't able to record every single point. In these cases, the shot-level data is included only for the points recorded. 
 
-There are 635064 unique shots recorded in ATP Australian Open matches, 480872 shots in ATP Roland Garros matches, 587466 shots in ATP US Open matches, and 457591 shots in ATP Wimbledon matches. There are 291544 unique shots recorded in WTA Australian Open matches, 201414 shots in WTA Roland Garros matches, 237832 shots in WTA US Open matches, and 190204 shots in WTA Wimbledon matches. 
+There are 645905 unique shots recorded in ATP Australian Open matches, 486235 shots in ATP Roland Garros matches, 554405 shots in ATP US Open matches, and 418851 shots in ATP Wimbledon matches. There are 291905 unique shots recorded in WTA Australian Open matches, 196721 shots in WTA Roland Garros matches, 219855 shots in WTA US Open matches, and 175761 shots in WTA Wimbledon matches. 
 
 Each dataset contains 17 columns:
 
@@ -59,28 +59,28 @@ Each dataset contains 17 columns:
 | ShotDirection | Expected direction of shot based on where the ball would have crossed the baseline, options are: `right_hander's_forehand_side`, `down_the_middle`, `right_hander's_backhand_side`, or `NA` (unknown) |
 | ServeDirection | Expected direction of serve based on location proximal to service box, options are: `out_wide`, `body`, `down_the_t`, or `NA` (unknown) |
 | ShotDepth | Expected depth of shot, options are: `in_service_box`, `behind_service_line` (referring to 50-75% depth in the court), `close_to_baseline` (referring to 75-100% depth in the court), or `NA` (unrecorded or unknown). ShotDepth is an optional flag for match charters, and is mostly recorded exclusively on return shots (Shot == 2) |
-| OutcomeType | Outcome type of shot, options are: `double_fault`, `winner`, `unforced_error`, `forced_error`, or `NA` (shot did not produce an outcome) |
+| OutcomeType | Outcome type of shot, options are: `double_fault`, `winner`, `unforced_error`, `forced_error`, `ace`, `unreturnable` or `NA` (shot did not produce an outcome) |
 | ErrorType | Error type of shot, options are: `net`, `wide`, `deep`, `wide_deep`, `foot_fault`, `shank`, `time_violation`, or `NA` (shot did not have an error) |
 
 ### Datasets
 
 Click on link to download data:
 
-: [tennis-m-shots-ao.csv.gz](../data/tennis-m-shots-ao.csv.gz)
+: [tennis-m-shots-ao.gz](../data/tennis-m-shots-ao.csv.gz)
 
-: [tennis-m-shots-rg.csv.gz](../data/tennis-m-shots-rg.csv.gz)
+: [tennis-m-shots-rg.gz](../data/tennis-m-shots-rg.csv.gz)
 
-: [tennis-m-shots-wim.csv.gz](../data/tennis-m-shots-wim.csv.gz)
+: [tennis-m-shots-wim.gz](../data/tennis-m-shots-wim.csv.gz)
 
-: [tennis-m-shots-uso.csv.gz](../data/tennis-m-shots-uso.csv.gz)
+: [tennis-m-shots-uso.gz](../data/tennis-m-shots-uso.csv.gz)
 
-: [tennis-w-shots-ao.csv.gz](../data/tennis-w-shots-ao.csv.gz)
+: [tennis-w-shots-ao.gz](../data/tennis-w-shots-ao.csv.gz)
 
-: [tennis-w-shots-rg.csv.gz](../data/tennis-w-shots-rg.csv.gz)
+: [tennis-w-shots-rg.gz](../data/tennis-w-shots-rg.csv.gz)
 
-: [tennis-w-shots-wim.csv.gz](../data/tennis-w-shots-wim.csv.gz)
+: [tennis-w-shots-wim.gz](../data/tennis-w-shots-wim.csv.gz)
 
-: [tennis-w-shots-uso.csv.gz](../data/tennis-w-shots-uso.csv.gz)
+: [tennis-w-shots-uso.gz](../data/tennis-w-shots-uso.csv.gz)
 
 ## Questions
 
