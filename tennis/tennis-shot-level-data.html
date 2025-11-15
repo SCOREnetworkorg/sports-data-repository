@@ -1154,7 +1154,7 @@ cookieconsent.run({
 <p>There are eight datasets below, recording shot-level data for the <a href="https://www.atptour.com">ATP Tour</a> and <a href="https://www.wtatennis.com">WTA Tour</a> at each of the four major championships: <a href="https://ausopen.com">Australian Open</a>, <a href="https://rolandgarros.com">Roland Garros</a>, <a href="https://wimbledon.com">Wimbledon</a>, and <a href="https://usopen.org">US Open</a>.</p>
 <p>The data is sourced from volunteers contributing to the <a href="https://www.tennisabstract.com/charting/meta.html">Tennis Match Charting Project by Jeff Sackmann</a>. The matches charted will have some selection bias towards more popular players, higher leverage matches, and matches which are broadcasted on television. Thus one can expect it is more likely that the 2014 Women’s Wimbledon Finals match between Serena Williams and Caroline Wozniacki will be charted by a volunteer than say the 2013 Women’s Roland Garros Round of 64 match between Paula Ormaechea and Yaroslava Shvedova. There may also be minor errors due to the human nature of data recording, from typos to lapses in judgement.</p>
 <p>Each row in the dataset encodes a single shot in a charted match. There are some instances in a match where the contributor wasn’t able to record every single point. In these cases, the shot-level data is included only for the points recorded.</p>
-<p>There are 635064 unique shots recorded in ATP Australian Open matches, 480872 shots in ATP Roland Garros matches, 587466 shots in ATP US Open matches, and 457591 shots in ATP Wimbledon matches. There are 291544 unique shots recorded in WTA Australian Open matches, 201414 shots in WTA Roland Garros matches, 237832 shots in WTA US Open matches, and 190204 shots in WTA Wimbledon matches.</p>
+<p>There are 645905 unique shots recorded in ATP Australian Open matches, 486235 shots in ATP Roland Garros matches, 554405 shots in ATP US Open matches, and 418851 shots in ATP Wimbledon matches. There are 291905 unique shots recorded in WTA Australian Open matches, 196721 shots in WTA Roland Garros matches, 219855 shots in WTA US Open matches, and 175761 shots in WTA Wimbledon matches.</p>
 <p>Each dataset contains 17 columns:</p>
 <section id="match-level-data" class="level3">
 <h3 class="anchored" data-anchor-id="match-level-data">Match Level Data</h3>
@@ -1266,7 +1266,7 @@ cookieconsent.run({
 </tr>
 <tr class="even">
 <td>OutcomeType</td>
-<td>Outcome type of shot, options are: <code>double_fault</code>, <code>winner</code>, <code>unforced_error</code>, <code>forced_error</code>, or <code>NA</code> (shot did not produce an outcome)</td>
+<td>Outcome type of shot, options are: <code>double_fault</code>, <code>winner</code>, <code>unforced_error</code>, <code>forced_error</code>, <code>ace</code>, <code>unreturnable</code> or <code>NA</code> (shot did not produce an outcome)</td>
 </tr>
 <tr class="odd">
 <td>ErrorType</td>
@@ -1280,28 +1280,28 @@ cookieconsent.run({
 <dl>
 <dt>Click on link to download data:</dt>
 <dd>
-<p><a href="../data/tennis-m-shots-ao.csv.gz">tennis-m-shots-ao.csv.gz</a></p>
+<p><a href="../data/tennis-m-shots-ao.csv.gz">tennis-m-shots-ao.gz</a></p>
 </dd>
 <dd>
-<p><a href="../data/tennis-m-shots-rg.csv.gz">tennis-m-shots-rg.csv.gz</a></p>
+<p><a href="../data/tennis-m-shots-rg.csv.gz">tennis-m-shots-rg.gz</a></p>
 </dd>
 <dd>
-<p><a href="../data/tennis-m-shots-wim.csv.gz">tennis-m-shots-wim.csv.gz</a></p>
+<p><a href="../data/tennis-m-shots-wim.csv.gz">tennis-m-shots-wim.gz</a></p>
 </dd>
 <dd>
-<p><a href="../data/tennis-m-shots-uso.csv.gz">tennis-m-shots-uso.csv.gz</a></p>
+<p><a href="../data/tennis-m-shots-uso.csv.gz">tennis-m-shots-uso.gz</a></p>
 </dd>
 <dd>
-<p><a href="../data/tennis-w-shots-ao.csv.gz">tennis-w-shots-ao.csv.gz</a></p>
+<p><a href="../data/tennis-w-shots-ao.csv.gz">tennis-w-shots-ao.gz</a></p>
 </dd>
 <dd>
-<p><a href="../data/tennis-w-shots-rg.csv.gz">tennis-w-shots-rg.csv.gz</a></p>
+<p><a href="../data/tennis-w-shots-rg.csv.gz">tennis-w-shots-rg.gz</a></p>
 </dd>
 <dd>
-<p><a href="../data/tennis-w-shots-wim.csv.gz">tennis-w-shots-wim.csv.gz</a></p>
+<p><a href="../data/tennis-w-shots-wim.csv.gz">tennis-w-shots-wim.gz</a></p>
 </dd>
 <dd>
-<p><a href="../data/tennis-w-shots-uso.csv.gz">tennis-w-shots-uso.csv.gz</a></p>
+<p><a href="../data/tennis-w-shots-uso.csv.gz">tennis-w-shots-uso.gz</a></p>
 </dd>
 </dl>
 </section>
