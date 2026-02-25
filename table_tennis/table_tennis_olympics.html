@@ -6,10 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Vivian Johnson">
-<meta name="dcterms.date" content="2024-07-01">
+<meta name="author" content="Leiyue Li">
+<meta name="dcterms.date" content="2026-02-12">
+<meta name="description" content="Olympic Table Tennis Medals Between 1988 and 2024">
 
-<title>NBA drafts between the years 1990-2021 – SCORE Sports Data Repository</title>
+<title>Olympic Table Tennis Medals Dataset (1988 to 2024) – SCORE Sports Data Repository</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -167,7 +168,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../basketball/caitlin-clark-rookie-season.html">Basketball</a></li><li class="breadcrumb-item"><a href="../basketball/nba_draft_1990-2021.html">NBA drafts between the years 1990-2021</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../table_tennis/table_tennis_olympics.html">Table Tennis</a></li><li class="breadcrumb-item"><a href="../table_tennis/table_tennis_olympics.html">Olympic Table Tennis Medals Dataset (1988 to 2024)</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -269,13 +270,13 @@ cookieconsent.run({
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
  <span class="menu-text">Basketball</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../basketball/caitlin-clark-rookie-season.html" class="sidebar-item-text sidebar-link">
@@ -284,7 +285,7 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../basketball/nba_draft_1990-2021.html" class="sidebar-item-text sidebar-link active">
+  <a href="../basketball/nba_draft_1990-2021.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">NBA drafts between the years 1990-2021</span></a>
   </div>
 </li>
@@ -897,16 +898,16 @@ cookieconsent.run({
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-29" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-29" role="navigation" aria-expanded="true">
  <span class="menu-text">Table Tennis</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-29" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-29" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-29" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-29" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../table_tennis/table_tennis_olympics.html" class="sidebar-item-text sidebar-link">
+  <a href="../table_tennis/table_tennis_olympics.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Olympic Table Tennis Medals Dataset (1988 to 2024)</span></a>
   </div>
 </li>
@@ -1090,24 +1091,37 @@ cookieconsent.run({
    
   <ul>
   <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation">Motivation</a></li>
-  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#data-preparation" id="toc-data-preparation" class="nav-link" data-scroll-target="#data-preparation">Data Preparation</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a>
+  <ul class="collapse">
+  <li><a href="#variables" id="toc-variables" class="nav-link" data-scroll-target="#variables">Variables</a></li>
+  </ul></li>
   <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/basketball/nba_draft_1990-2021.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/table_tennis/table_tennis_olympics.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../basketball/caitlin-clark-rookie-season.html">Basketball</a></li><li class="breadcrumb-item"><a href="../basketball/nba_draft_1990-2021.html">NBA drafts between the years 1990-2021</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../table_tennis/table_tennis_olympics.html">Table Tennis</a></li><li class="breadcrumb-item"><a href="../table_tennis/table_tennis_olympics.html">Olympic Table Tennis Medals Dataset (1988 to 2024)</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">NBA drafts between the years 1990-2021</h1>
+<h1 class="title">Olympic Table Tennis Medals Dataset (1988 to 2024)</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Difference in means hypothesis test</div>
-    <div class="quarto-category">Comparative plots</div>
+    <div class="quarto-category">Data Visualization</div>
+    <div class="quarto-category">Summary Statistics</div>
+    <div class="quarto-category">Chi-Square Test For Assocation</div>
+    <div class="quarto-category">Chi-Square Test For Goodness-Of-Fit</div>
+    <div class="quarto-category">Test for Difference in Two Proportions</div>
+    <div class="quarto-category">Logistic Regression</div>
   </div>
   </div>
 
+<div>
+  <div class="description">
+    Olympic Table Tennis Medals Between 1988 and 2024
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -1115,14 +1129,14 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Vivian Johnson </p>
+             <p>Leiyue Li </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">July 1, 2024</p>
+      <p class="date">February 12, 2026</p>
     </div>
   </div>
   
@@ -1134,33 +1148,29 @@ cookieconsent.run({
 </header>
 
 
+<p>This dataset contains medal results from every Olympic table tennis event from 1988 to 2024.</p>
 <section id="motivation" class="level2">
 <h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
-<section id="the-nba-draft" class="level4">
-<h4 class="anchored" data-anchor-id="the-nba-draft">The NBA Draft</h4>
-<p>Each year, the National Basketball Association (NBA) holds a <a href="https://www.bbc.co.uk/newsround/65997816" target="_blank">draft</a>, where prospective basketball players are able to be chosen to join one of the 30 professional teams across the United States and Canada.</p>
-<p>In order to be eligible for the draft, a player must be at least 19 years old and out of high school for at least one year. Prior to 2006, this rule was not in effect, and players could be drafted during/right out of high school.</p>
-<p>Each year, the draft is comprised of 60 players and takes place over two rounds of 30 selections. Teams pick players in an order based on performance from the previous season, with teams that performed poorly getting earlier picks in order to create a seemingly more level playing field. It’s important to note that there weren’t always 30 players selected in each round, the number made its way up to 30 as more teams were added into the NBA.</p>
+<p>Table tennis (also known as ping pong) became an Olympic sport at the 1988 Summer Olympics in Seoul, South Korea. Since then, China has dominated this sport.</p>
+<p>At the 2008 Beijing Olympics, Chinese athletes swept both the men’s and women’s singles events, taking all three medals. After this, the International Table Tennis Federation (ITTF) changed rules. They limited each country to only two entries per event. This rule change created three distinct periods in Olympic table tennis:</p>
+<ol type="1">
+<li><p>Pre-reform era (1988 to 2004): Countries could enter as many qualified players as they wanted in each event. No restrictions existed on the number of entries per country.</p></li>
+<li><p>Post-reform era (2008 to 2016): The ITTF imposed entry limits after the 2008 Beijing Olympics. Each country could now enter only two athletes per singles event. Officials hoped this change would create more competitive balance and stop one nation from taking all the medals.</p></li>
+<li><p>Modern era (2020 and beyond): Officials made more changes to promote team competition. The 2020 Tokyo Olympics added more emphasis on team events and mixed doubles.</p></li>
+</ol>
+<p>These changes raise interesting questions. No other country dominates an Olympic sport the way China dominates table tennis. How strong is China’s dominance? Has it lasted across all three eras? Did the 2008 rule change actually reduce China’s medal count?</p>
 </section>
-<section id="playing-basketball" class="level4">
-<h4 class="anchored" data-anchor-id="playing-basketball">Playing Basketball</h4>
-<p>The goal in basketball is to score as many points as possible by throwing the ball through the other team’s hoop.</p>
-<p>In the middle of <a href="https://en.wikipedia.org/wiki/Basketball_court" target="_blank">the court</a> there is a half-court line that divides the two sides. On both sides, surrounding the hoops, there is an arch called the three-point line. Within the three-point line stands the free-throw line, where a player would shoot from should there be a foul called.</p>
-<p><strong>Scoring</strong></p>
-<p>Players can shoot towards the hoop from any point on the court. A different number of points is awarded based on where the player is standing when they release the ball. The three shots are explained below.</p>
-<ul>
-<li>Field Goal: Worth 2 points, scored by shooting within the three point line</li>
-<li>Three Pointer: Worth 3 points, scored by shooting outside the three point line.</li>
-<li>Free Throw: Worth one point, taken from the free throw line after a foul.</li>
-</ul>
-<p>A rebound is when a player from the team that is on defense obtains the ball after the other team takes a shot attempt at the hoop. At the end of the game, which is played in four twelve-minute quarters, the team with the most points wins.</p>
+<section id="data-preparation" class="level1">
+<h1>Data Preparation</h1>
+<p>All data was scraped from Wikipedia and cleaned in R. Here is the complete data preparation code: <a href="../_prep/table_tennis_olympics/TableTennis_9824.qmd">TableTennis_9824.qmd</a></p>
 </section>
-</section>
-<section id="data" class="level2">
-<h2 class="anchored" data-anchor-id="data">Data</h2>
-<p>The <code>nba_draft</code> data set includes data from players that were selected in the NBA drafts between the years 1990-2021. Each row represents a different player and statistics from their respective careers in the NBA, some of which are still ongoing.</p>
+<section id="data" class="level1">
+<h1>Data</h1>
+<p>The Olympic Games happen every four years. This dataset includes results from 10 Olympic Games: 1988, 1992, 1996, 2000, 2004, 2008, 2012, 2016, 2020, and 2024. The dataset contains 132 observations across 10 variables. Each row represents one medal won by one athlete or team in one event.</p>
+<section id="variables" class="level2">
+<h2 class="anchored" data-anchor-id="variables">Variables</h2>
 <table class="caption-top table">
-<caption><a href="../data/nba_draft.csv">nba_draft.csv</a></caption>
+<caption><a href="../data/olympic_table_tennis_medals_1988_2024.csv">olympic_table_tennis_medals_1988_2024.csv</a></caption>
 <thead>
 <tr class="header">
 <th>Variable</th>
@@ -1169,99 +1179,67 @@ cookieconsent.run({
 </thead>
 <tbody>
 <tr class="odd">
-<td>draft_pick</td>
-<td>The pick number a player was selected in the NBA draft</td>
+<td><code>year</code></td>
+<td>Year of the Olympic Games (1988-2024)</td>
 </tr>
 <tr class="even">
-<td>team</td>
-<td>The NBA team that drafted the player</td>
+<td><code>event</code></td>
+<td>Name of the table tennis event (e.g., Men’s singles, Women’s doubles, Mixed doubles)</td>
 </tr>
 <tr class="odd">
-<td>player_name</td>
-<td>The name of the player selected</td>
+<td><code>medal</code></td>
+<td>Type of medal won (Gold, Silver, or Bronze)</td>
 </tr>
 <tr class="even">
-<td>college</td>
-<td>The college the player attended (NA for those drafted out of high school, G-League team for international prospects)</td>
+<td><code>country</code></td>
+<td>Country or region that won the medal</td>
 </tr>
 <tr class="odd">
-<td>years_played</td>
-<td>Number of years spent in the NBA</td>
+<td><code>medalist</code></td>
+<td>Name(s) of the athlete(s) who won the medal</td>
 </tr>
 <tr class="even">
-<td>games_played</td>
-<td>Games played in the NBA</td>
+<td><code>is_china</code></td>
+<td>Binary indicator: 1 if China won, 0 if another country won</td>
 </tr>
 <tr class="odd">
-<td>total_mins_played</td>
-<td>Total minutes played in the NBA</td>
+<td><code>medal_value</code></td>
+<td>Numeric value assigned to medal: 3 for Gold, 2 for Silver, 1 for Bronze</td>
 </tr>
 <tr class="even">
-<td>total_pts</td>
-<td>Total points scored in the NBA</td>
+<td><code>event_type</code></td>
+<td>Category of event (Singles, Doubles, Team, or Mixed)</td>
 </tr>
 <tr class="odd">
-<td>total_rebounds</td>
-<td>Total rebounds grabbed in the NBA</td>
+<td><code>gender</code></td>
+<td>Gender category of the event (Men, Women, or Mixed)</td>
 </tr>
 <tr class="even">
-<td>total_assists</td>
-<td>Total assists recorded in the NBA</td>
-</tr>
-<tr class="odd">
-<td>fg_percent</td>
-<td>The percent of field goal shots made by the player in the NBA</td>
-</tr>
-<tr class="even">
-<td>three_pt_percent</td>
-<td>The percent of three-point shots made by the player in the NBA</td>
-</tr>
-<tr class="odd">
-<td>ft_percent</td>
-<td>The percent of free throws made by the player in the NBA</td>
-</tr>
-<tr class="even">
-<td>draft_year</td>
-<td>Year the player was drafted</td>
-</tr>
-<tr class="odd">
-<td>mins_per_game</td>
-<td>Average number of minutes played per game for career in the NBA</td>
-</tr>
-<tr class="even">
-<td>pts_per_game</td>
-<td>Average number of points scored per game for career in the NBA</td>
-</tr>
-<tr class="odd">
-<td>rebounds_per_game</td>
-<td>Average number of rebounds per game for career in the NBA</td>
-</tr>
-<tr class="even">
-<td>assists_per_game</td>
-<td>Average number of assists per game for career in the NBA</td>
-</tr>
-<tr class="odd">
-<td>round_picked</td>
-<td>Indicates the round the player was selected (either round 1 or round 2)</td>
-</tr>
-<tr class="even">
-<td>pick_in_round</td>
-<td>Indicates the order in which players were selected in that round</td>
+<td><code>era</code></td>
+<td>Time period based on rule changes (Pre-reform 1988-2004, Post-reform 2008-2016, Modern era 2020+)</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="questions" class="level2">
-<h2 class="anchored" data-anchor-id="questions">Questions</h2>
+</section>
+<section id="questions" class="level1">
+<h1>Questions</h1>
 <ol type="1">
-<li><p>Do players that were selected in the first round of the NBA draft play more minutes on average per game compared to players selected in the second round?</p></li>
-<li><p>Produce a plot to compare the mean minutes played between these two groups</p></li>
-<li><p>Pick another statistics and investigate whether the mean is different between first and second round players.</p></li>
+<li><p>How has China’s share of Olympic table tennis medals changed from 1988 to 2024?</p></li>
+<li><p>How does the medal distribution (gold vs.&nbsp;silver vs.&nbsp;bronze) differ across the top 5 countries? Do some countries win more gold medals while others win more bronze medals?</p></li>
+<li><p>Does China dominate more in women’s events or men’s events?</p></li>
+<li><p>Did the 2008 rule change reduce China’s medal share?</p></li>
+<li><p>Does the distribution of medals across countries differ significantly from what we would expect if all countries had equal chances?</p></li>
+<li><p>Does a significant association exist between event type (Singles, Doubles, Team, Mixed) and whether China wins the gold medal?</p></li>
+<li><p>Can we predict whether a medal will go to China based on event type, medal value, and era?</p></li>
 </ol>
 </section>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
-<p><a href="https://www.kaggle.com/datasets/benwieland/nba-draft-data" target="_blank">20 Years of NBA Draft Data - Kaggle</a></p>
+<section id="references" class="level1">
+<h1>References</h1>
+<p>Data was scraped from Wikipedia:</p>
+<ul>
+<li>“List of Olympic medalists in table tennis.” <a href="https://en.wikipedia.org/wiki/List_of_Olympic_medalists_in_table_tennis" class="uri">https://en.wikipedia.org/wiki/List_of_Olympic_medalists_in_table_tennis</a></li>
+</ul>
 
 
 </section>
@@ -1675,7 +1653,7 @@ cookieconsent.run({
     </div>   
     <div class="nav-footer-center">
 <p>Maintained by <a href="https://www.stat.cmu.edu/~ryurko/">Ron Yurko</a></p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/basketball/nba_draft_1990-2021.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/table_tennis/table_tennis_olympics.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
