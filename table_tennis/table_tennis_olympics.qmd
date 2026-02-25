@@ -1,0 +1,79 @@
+---
+title: "Olympic Table Tennis Medals Dataset (1988 to 2024)"
+author: "Leiyue Li"
+date: February 12, 2026 
+description: Olympic Table Tennis Medals Between 1988 and 2024
+categories:
+  - Data Visualization
+  - Summary Statistics
+  - Chi-Square Test For Assocation
+  - Chi-Square Test For Goodness-Of-Fit
+  - Test for Difference in Two Proportions
+  - Logistic Regression
+editor:
+  markdown: 
+    canonical: true
+---
+
+This dataset contains medal results from every Olympic table tennis event from 1988 to 2024.
+
+## Motivation
+
+Table tennis (also known as ping pong) became an Olympic sport at the 1988 Summer Olympics in Seoul, South Korea. Since then, China has dominated this sport.
+
+At the 2008 Beijing Olympics, Chinese athletes swept both the men's and women's singles events, taking all three medals. After this, the International Table Tennis Federation (ITTF) changed rules. They limited each country to only two entries per event. This rule change created three distinct periods in Olympic table tennis:
+
+1.  Pre-reform era (1988 to 2004): Countries could enter as many qualified players as they wanted in each event. No restrictions existed on the number of entries per country.
+
+2.  Post-reform era (2008 to 2016): The ITTF imposed entry limits after the 2008 Beijing Olympics. Each country could now enter only two athletes per singles event. Officials hoped this change would create more competitive balance and stop one nation from taking all the medals.
+
+3.  Modern era (2020 and beyond): Officials made more changes to promote team competition. The 2020 Tokyo Olympics added more emphasis on team events and mixed doubles.
+
+These changes raise interesting questions. No other country dominates an Olympic sport the way China dominates table tennis. How strong is China's dominance? Has it lasted across all three eras? Did the 2008 rule change actually reduce China's medal count?
+
+# Data Preparation
+
+All data was scraped from Wikipedia and cleaned in R. Here is the complete data preparation code: [TableTennis_9824.qmd](../_prep/table_tennis_olympics/TableTennis_9824.qmd)
+
+# Data
+
+The Olympic Games happen every four years. This dataset includes results from 10 Olympic Games: 1988, 1992, 1996, 2000, 2004, 2008, 2012, 2016, 2020, and 2024. The dataset contains 132 observations across 10 variables. Each row represents one medal won by one athlete or team in one event.
+
+## Variables
+
+| Variable | Description |
+|----|----|
+| `year` | Year of the Olympic Games (1988-2024) |
+| `event` | Name of the table tennis event (e.g., Men's singles, Women's doubles, Mixed doubles) |
+| `medal` | Type of medal won (Gold, Silver, or Bronze) |
+| `country` | Country or region that won the medal |
+| `medalist` | Name(s) of the athlete(s) who won the medal |
+| `is_china` | Binary indicator: 1 if China won, 0 if another country won |
+| `medal_value` | Numeric value assigned to medal: 3 for Gold, 2 for Silver, 1 for Bronze |
+| `event_type` | Category of event (Singles, Doubles, Team, or Mixed) |
+| `gender` | Gender category of the event (Men, Women, or Mixed) |
+| `era` | Time period based on rule changes (Pre-reform 1988-2004, Post-reform 2008-2016, Modern era 2020+) |
+
+: [olympic_table_tennis_medals_1988_2024.csv](../data/olympic_table_tennis_medals_1988_2024.csv)
+
+# Questions
+
+1.  How has China's share of Olympic table tennis medals changed from 1988 to 2024?
+
+2.  How does the medal distribution (gold vs. silver vs. bronze) differ across the top 5 countries? Do some countries win more gold medals while others win more bronze medals?
+
+3.  Does China dominate more in women's events or men's events?
+
+4.  Did the 2008 rule change reduce China's medal share?
+
+5.  Does the distribution of medals across countries differ significantly from what we would expect if all countries had equal chances?
+
+6.  Does a significant association exist between event type (Singles, Doubles, Team, Mixed) and whether China wins the gold medal?
+
+7.  Can we predict whether a medal will go to China based on event type, medal value, and era?
+
+# References
+
+Data was scraped from Wikipedia:
+
+-   "List of Olympic medalists in table tennis." <https://en.wikipedia.org/wiki/List_of_Olympic_medalists_in_table_tennis>

@@ -1,0 +1,148 @@
+---
+title: "Olympic Table Tennis Medals Between 1988 and 2004"
+author: "Leiyue Li"
+description: Olympic Table Tennis Medals Between 1988 and 2024
+editor:
+  markdown: 
+    canonical: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+```{r packages}
+library(rvest)
+library(dplyr)
+library(tidyr)
+library(stringr)
+library(readr)
+library(janitor)
+```
+
+Scrape the List of Olympic medalists in table tennis from wikipedia page (URL https://en.wikipedia.org/wiki/List_of_Olympic_medalists_in_table_tennis)
+
+```{r}
+url1 <- "https://en.wikipedia.org/wiki/List_of_Olympic_medalists_in_table_tennis"
+page_medalists <- read_html(url1)
+tables_medalists <- page_medalists %>% html_table(fill = TRUE)
+
+#  We need the medalist tables. Look for tables with columns: Games, Gold, Silver, Bronze
+medal_tables <- list()
+event_names <- c("Men's singles", "Men's doubles", "Men's team",
+                 "Women's singles", "Women's doubles", "Women's team",
+                 "Mixed doubles")
+
+idx <- 1
+for (i in seq_along(tables_medalists)) {
+  tbl <- tables_medalists[[i]]
+  col_names <- names(tbl)
+  if (any(str_detect(col_names, regex("gold", ignore_case = TRUE))) &&
+      any(str_detect(col_names, regex("games", ignore_case = TRUE))) &&
+      nrow(tbl) > 0 && idx <= length(event_names)) {
+    tbl$event <- event_names[idx]
+    medal_tables[[idx]] <- tbl
+    idx <- idx + 1
+  }
+}
+
+# Combine all event tables
+olympic_raw <- bind_rows(medal_tables) # 51 by 5
+# Games, G (Name Nation), S (Name Nation), B (Name Nation), Event
+```
+
+Clean Olympic raw table
+
+```{r}
+olympic_raw <- olympic_raw %>% clean_names()
+
+# Keep only rows with a valid year (get rid of 2028)
+olympic_clean <- olympic_raw %>%
+  mutate(
+    year = as.numeric(str_extract(games, "\\d{4}")),
+    games_label = str_trim(games)
+  ) %>%
+  filter(!is.na(year), year >= 1988, year <= 2024)
+
+# Clean Name Nation split it into two columns 
+separate_names <- function(name_string) {
+  # First remove country codes in parentheses
+  name_string <- str_remove(name_string, "\\s*\\([A-Z]{3}\\)\\s*$")
+  
+  # Remove country names at the start
+  name_string <- str_remove(name_string, regex("^(South Korea|China|Japan|Sweden|Germany|France|North Korea|Chinese Taipei|Singapore|Hong Kong|Yugoslavia|Denmark)\\s*", ignore_case = TRUE))
+  
+  # Remove country names at the end
+  name_string <- str_remove(name_string, regex("\\s+(South Korea|China|Japan|Sweden|Germany|France|North Korea|Chinese Taipei|Singapore|Hong Kong|Yugoslavia|Denmark)\\s*$", ignore_case = TRUE))
+  
+  # Separate names by finding capital letters that follow lowercase letters
+  separated <- str_replace_all(name_string, "([a-zé])([A-Z])", "\\1 and \\2")
+  
+  return(str_squish(separated))
+}
+
+olympic_long <- olympic_clean %>%
+  select(year, event, gold, silver, bronze) %>%
+  pivot_longer(cols = c(gold, silver, bronze),
+               names_to = "medal",
+               values_to = "medalist_full") %>%
+  filter(!is.na(medalist_full), medalist_full != "", medalist_full != "—",
+         !str_detect(medalist_full, regex("not included in the Olympic program", ignore_case = TRUE))) %>%
+  mutate(
+    medal = str_to_title(medal),
+    # Extract country first from the full string
+    country = case_when(
+      str_detect(medalist_full, regex("China|CHN", ignore_case = TRUE)) &
+        !str_detect(medalist_full, regex("Chinese Taipei|TPE", ignore_case = TRUE)) ~ "China",
+      str_detect(medalist_full, regex("South Korea|KOR", ignore_case = TRUE)) ~ "South Korea",
+      str_detect(medalist_full, regex("Japan|JPN", ignore_case = TRUE)) ~ "Japan",
+      str_detect(medalist_full, regex("Sweden|SWE", ignore_case = TRUE)) ~ "Sweden",
+      str_detect(medalist_full, regex("Germany|GER", ignore_case = TRUE)) ~ "Germany",
+      str_detect(medalist_full, regex("France|FRA", ignore_case = TRUE)) ~ "France",
+      str_detect(medalist_full, regex("North Korea|PRK", ignore_case = TRUE)) ~ "North Korea",
+      str_detect(medalist_full, regex("Chinese Taipei|TPE", ignore_case = TRUE)) ~ "Chinese Taipei",
+      str_detect(medalist_full, regex("Singapore|SGP", ignore_case = TRUE)) ~ "Singapore",
+      str_detect(medalist_full, regex("Hong Kong|HKG", ignore_case = TRUE)) ~ "Hong Kong",
+      str_detect(medalist_full, regex("Yugoslavia|YUG", ignore_case = TRUE)) ~ "Yugoslavia",
+      str_detect(medalist_full, regex("Denmark|DEN", ignore_case = TRUE)) ~ "Denmark",
+      TRUE ~ "Other"
+    ),
+    # Clean medalist name
+    medalist = separate_names(medalist_full)
+  ) %>%
+  select(-medalist_full) 
+```
+
+Final dataset
+
+```{r}
+olympic_analytical <- olympic_long %>%
+  mutate(
+    is_china = ifelse(country == "China", 1, 0),
+    medal_value = case_when(
+      medal == "Gold" ~ 3,
+      medal == "Silver" ~ 2,
+      medal == "Bronze" ~ 1
+    ),
+    event_type = case_when(
+      str_detect(event, "singles") ~ "Singles",
+      str_detect(event, "doubles") ~ "Doubles",
+      str_detect(event, "team") ~ "Team",
+      str_detect(event, "Mixed") ~ "Mixed",
+      TRUE ~ "Other"
+    ),
+    gender = case_when(
+      str_detect(event, "Men") ~ "Men",
+      str_detect(event, "Women") ~ "Women",
+      str_detect(event, "Mixed") ~ "Mixed"
+    ),
+    # Rule change periods
+    era = case_when(
+      year <= 2004 ~ "Pre-reform (1988-2004)",
+      year >= 2008 & year <= 2016 ~ "Post-reform (2008-2016)",
+      year >= 2020 ~ "Modern era (2020+)"
+    )
+  )
+
+write_csv(olympic_analytical, "olympic_table_tennis_medals_1988_2024.csv")
+```
