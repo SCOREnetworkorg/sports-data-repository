@@ -1,0 +1,54 @@
+---
+title: Collegiate Div-III Rowing Team Test Piece Ergometer Data for the Winter Training Period
+author: 
+  - name: Keelin Joyce
+    affiliation: 
+      - id: slu
+        name: St. Lawrence University
+date: April 6, 2026
+description: The times, splits, goals, and rates from ergometers achieved by athletes as part of a collegiate rowing team during their winter training period.
+categories:
+  - paired data
+  - exploratory data analysis
+  - data visualization
+  - difference in means hypothesis testing
+  
+editor: 
+  markdown: 
+    wrap: 72
+---
+## Motivation
+
+While collegiate rowing is a two season sport having both a fall (August-November) and spring (March-May) season, practicing during the winter is proven to be difficult as most climates force rowers indoors for the season. The most common practice during the winter training period in rowing is the ergometer, commonly called an erg. The erg mimics the stroke that rowers take in the boat and instantly displays performance metrics to the rower. Metrics shown include the total time and distance of the workout, split per 500m (how long, in minutes and seconds, it takes the rower to complete 500m), and the stroke rate per minute. These metrics can be assessed to show a rower where their fitness is at during a time where they cannot practice on the water. Ergs are used for both fitness training and assessment purposes. 
+
+Erg data was collected from a Div-III collegiate rowing team and their test piece results were compiled into a dataset of both 2Ks, 6K steady state pieces (not full effort, more consistent), and 6K tests (all out, as fast as possible). 
+
+## Data
+
+In the data set, there are 111 completed pieces, each with 9 different variables of the piece. Each row represents an athlete's completed piece, and some pieces are completed by the same athlete. Each row contains information on the completion of the piece including split and total time, the average rate per minute, what the rower's goal was prior to the piece, the sex of the rower, what distance and type the piece is, and which trial of the training period the piece was. These data were approved by the Institutional Research Board from the author's institution to be publicly released.
+
+| Variable | Description                                                                                                                |
+|-------------------|-----------------------------------------------------|
+| `Goal` | Realistic split goal set by rower prior to the piece based on what the want to achieve. |
+| `Split` | Average time per 500m for the duration of the piece. |
+| `Rate` | Average strokes per minute during the piece. |
+| `Time` | Total time to complete the piece. |
+| `Sex` | Sex indicator variable: 0 for female, 1 for male. |
+| `Trial` | Number indicating which number trial the piece is (first of the season, second, etc.). |
+| `ID` | Number indicating individual. |
+| `Piece` | Distance of the piece (2k or 6k) and type of piece (SS for steady state and test for a test piece). |
+
+: [erg_df.csv](../data/erg_wintertraining_div3.csv)
+
+
+## Questions
+
+1.    Proportionally, do more men or women complete their 2k goal?
+
+2.    Is the improvement in 2k time throughout winter training equal between male and female athletes? 
+
+3.    Goals can be considered a mindset variable. An achievable yet ambitious goal is said to be the most effective. Is there a relationship between how a female athlete ranks and how close to their goal their final split was? 
+
+4.    Is there a relationship between the rate a 6k is rowed at and how fast the resulting time was? What about a 2k? 
+
+
