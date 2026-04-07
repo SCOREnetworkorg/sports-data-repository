@@ -1,24 +1,29 @@
 ---
-title: Women's Alpine Skiing World Cup GS Statistics
-author: Emilia Agostinelli
-date: March 14, 2024
+title: "Women's Alpine Skiing World Cup Giant Slalom Statistics"
+author: 
+  - name: Emilia Agostinelli
+    affiliation: 
+      - id: slu
+        name: St. Lawrence University
+date: March 2, 2026
 description: Statistics from a two-run women's World Cup Giant Slalom race at Mont-Tremblant
 categories:
-  - Paired difference in means
-  - Correlation
+  - Paired Data
+  - Difference in Means
+  - Boxplots
 ---
 
 ## Motivation
 
-In World Cup Giant Slalom (GS), there are two runs. Only the thirty fastest racers take a second run. If a racer is disqualified (DSQ) or did not finish (DNF) their first run, they do not take a second run. The order for the first run is determined by taking all racers and ordering them by their World Cup points, from highest to lowest. From that, the top 30 racers are put into three groups. The best seven racers are randomly assigning them a bib 1-7. The next eight best competitors are randomly assigned a bib 8-15. The next best 15 racers are randomly assigned a bib 16-30. The remaining racers go in descending order of points. For the second run, competitors race in reverse order of their results on the first run, so the 30th fastest racer on the first run goes 1st on the second run and so on. This data set includes data from only the top thirty finishers as any racers who placed higher than 30th do not take a second run. Since this data includes information on 2 runs by the same competitor (unless they DSQ or DNF on the second run), it allows for exploration of paired data. We can also explore difference in means between the 2 runs to investigate if racers are on average faster or slower on a specific run. Finally, we can investigate if there are any associations between run order and results.
+World Cup Giant Slalom (GS) is a high-speed alpine skiing event where skiers navigate a series of wide, rhythmic turns through pairs of gates. In World Cup GS, there are two runs. Only the thirty fastest racers on the first run take a second run. If a racer is disqualified (DSQ) or did not finish (DNF) their first run, they do not take a second run. The order for the first run is determined by taking all racers and ordering them by their World Cup points, from highest to lowest. World Cup points are a measure to rank a skier's performance throughout the season. The best ranked skier has the highest points. From there, the top 30 racers are put into three groups. The best seven racers are randomly assigned a bib 1-7. The next eight best competitors are randomly assigned a bib 8-15. The next best 15 racers are randomly assigned a bib 16-30. The remaining racers go in descending order of World Cup points. A second run takes place a couple hours after the first run is completed, allowing time for racers to have a break, for the course to be reset, and for racers to inspect the new course. Competitors race in reverse order of their results on the first run, so the 30th fastest racer on the first run goes 1st on the second run and so on. This data set includes data from only the top thirty finishers as any racers who placed higher than 30th do not take a second run.
 
-### Data Preparation
+Since this data includes information on 2 runs by the same competitor (unless they DSQ or DNF on the second run), it allows for exploration of paired data. We can investigate the difference in average run time between the 2 runs to investigate if racers are on average faster or slower on a specific run, and consider why this may be the case. We can also explore how run order is associated with final rankings.
 
-[init-tremblant_gs.qmd](../_prep/Womens_Tremblant_GS/init-womens_tremblant_gs.qmd)
+
 
 ## Data
 
-Each of the 30 rows in this data set represents a racer, and there are 11 variables. There are a few missing values in the Run2_Time, Run2_Rank, Total_Time, and Rank_Diff columns due to racers not finishing their first run.
+Each of the 30 rows in this data set represents a racer, and there are 11 variables. There are a few missing values in the Run2_Time, Run2_Rank, Total_Time, Rank_Diff, and Time_Diff columns due to racers not finishing their first run.
 
 | Variable   | Description                                  |
 |------------|----------------------------------------------|
@@ -33,14 +38,29 @@ Each of the 30 rows in this data set represents a racer, and there are 11 variab
 | Total_Time | Combined time of runs 1 and 2                |
 | Final_Rank | Final results                                |
 | Rank_Diff  | Difference between run 1 rank and final rank |
+| Time_Diff  | Difference between run 1 time and run 2 time |
 
-: [W_Tremblant_GS.csv](../data/W_Tremblant_GS.csv)
+: [Tremblant1.csv](../data/Tremblant1.csv)
+
+
+### Data Preparation
+
+[init-tremblant_gs.qmd](../_prep/Womens_Tremblant_GS/init-womens_tremblant_gs.qmd)
+
+A variable for the difference in run times was created after the data was scraped and tidied.
+
 
 ## Questions
 
 1.  Is there a significant difference in average time between run 1 and run 2? If yes, do racers on average go faster or slower on the second run? What could account for that?
 
-2.  Is run order for run 2 associated with final results?
+2. How does first run order relate to final rankings?
+
+## References
+
+The data was scraped from the following link:
+
+[FIS World Cup Women's GS at Tremblant](https://www.fis-ski.com/DB/general/results.html?sectorcode=AL&raceid=118343 "FIS World Cup Women's GS at Tremblant"){target="blank"}
 
 ## References
 
