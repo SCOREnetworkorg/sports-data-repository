@@ -2,16 +2,19 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Emilia Agostinelli">
-<meta name="dcterms.date" content="2024-03-14">
+<meta name="dcterms.date" content="2026-03-02">
 <meta name="description" content="Statistics from a two-run women’s World Cup Giant Slalom race at Mont-Tremblant">
 
-<title>Women’s Alpine Skiing World Cup GS Statistics – SCORE Sports Data Repository</title>
+<title>Women’s Alpine Skiing World Cup Giant Slalom Statistics – SCORE Sports Data Repository</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -37,15 +40,14 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-93d8791e4971d9fe2b32e12c0dfe5cb6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-93df3831d383122b15f8955b8150ec17.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -87,10 +89,10 @@ gtag('config', 'G-TR6GTHPX8L', { 'anonymize_ip': true});
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
-  "consent_type":"implied",
+  "consent_type":"express",
   "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "page_load_consent_levels":["strictly-necessary"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -168,7 +170,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../skiing/NordicW10k.html">Skiing</a></li><li class="breadcrumb-item"><a href="../skiing/Womens_Tremblant_GS.html">Women’s Alpine Skiing World Cup GS Statistics</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../skiing/NordicW10k.html">Skiing</a></li><li class="breadcrumb-item"><a href="../skiing/Womens_Tremblant_GS.html">Women’s Alpine Skiing World Cup Giant Slalom Statistics</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -804,7 +806,7 @@ cookieconsent.run({
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../skiing/Womens_Tremblant_GS.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Women’s Alpine Skiing World Cup GS Statistics</span></a>
+ <span class="menu-text">Women’s Alpine Skiing World Cup Giant Slalom Statistics</span></a>
   </div>
 </li>
       </ul>
@@ -1090,25 +1092,27 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation">Motivation</a>
+  <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation">Motivation</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a>
   <ul class="collapse">
   <li><a href="#data-preparation" id="toc-data-preparation" class="nav-link" data-scroll-target="#data-preparation">Data Preparation</a></li>
   </ul></li>
-  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
   <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#references-1" id="toc-references-1" class="nav-link" data-scroll-target="#references-1">References</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/edit/main/skiing/Womens_Tremblant_GS.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SCOREnetworkorg/sports-data-repository/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../skiing/NordicW10k.html">Skiing</a></li><li class="breadcrumb-item"><a href="../skiing/Womens_Tremblant_GS.html">Women’s Alpine Skiing World Cup GS Statistics</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../skiing/NordicW10k.html">Skiing</a></li><li class="breadcrumb-item"><a href="../skiing/Womens_Tremblant_GS.html">Women’s Alpine Skiing World Cup Giant Slalom Statistics</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Women’s Alpine Skiing World Cup GS Statistics</h1>
+<h1 class="title">Women’s Alpine Skiing World Cup Giant Slalom Statistics</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Paired difference in means</div>
-    <div class="quarto-category">Correlation</div>
+    <div class="quarto-category">Paired Data</div>
+    <div class="quarto-category">Difference in Means</div>
+    <div class="quarto-category">Boxplots</div>
   </div>
   </div>
 
@@ -1118,20 +1122,27 @@ cookieconsent.run({
   </div>
 </div>
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Emilia Agostinelli </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            St.&nbsp;Lawrence University
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Emilia Agostinelli </p>
-          </div>
-  </div>
-    
+      
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 14, 2024</p>
+      <p class="date">March 2, 2026</p>
     </div>
   </div>
   
@@ -1145,17 +1156,14 @@ cookieconsent.run({
 
 <section id="motivation" class="level2">
 <h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
-<p>In World Cup Giant Slalom (GS), there are two runs. Only the thirty fastest racers take a second run. If a racer is disqualified (DSQ) or did not finish (DNF) their first run, they do not take a second run. The order for the first run is determined by taking all racers and ordering them by their World Cup points, from highest to lowest. From that, the top 30 racers are put into three groups. The best seven racers are randomly assigning them a bib 1-7. The next eight best competitors are randomly assigned a bib 8-15. The next best 15 racers are randomly assigned a bib 16-30. The remaining racers go in descending order of points. For the second run, competitors race in reverse order of their results on the first run, so the 30th fastest racer on the first run goes 1st on the second run and so on. This data set includes data from only the top thirty finishers as any racers who placed higher than 30th do not take a second run. Since this data includes information on 2 runs by the same competitor (unless they DSQ or DNF on the second run), it allows for exploration of paired data. We can also explore difference in means between the 2 runs to investigate if racers are on average faster or slower on a specific run. Finally, we can investigate if there are any associations between run order and results.</p>
-<section id="data-preparation" class="level3">
-<h3 class="anchored" data-anchor-id="data-preparation">Data Preparation</h3>
-<p><a href="../_prep/Womens_Tremblant_GS/init-womens_tremblant_gs.qmd">init-tremblant_gs.qmd</a></p>
-</section>
+<p>World Cup Giant Slalom (GS) is a high-speed alpine skiing event where skiers navigate a series of wide, rhythmic turns through pairs of gates. In World Cup GS, there are two runs. Only the thirty fastest racers on the first run take a second run. If a racer is disqualified (DSQ) or did not finish (DNF) their first run, they do not take a second run. The order for the first run is determined by taking all racers and ordering them by their World Cup points, from highest to lowest. World Cup points are a measure to rank a skier’s performance throughout the season. The best ranked skier has the highest points. From there, the top 30 racers are put into three groups. The best seven racers are randomly assigned a bib 1-7. The next eight best competitors are randomly assigned a bib 8-15. The next best 15 racers are randomly assigned a bib 16-30. The remaining racers go in descending order of World Cup points. A second run takes place a couple hours after the first run is completed, allowing time for racers to have a break, for the course to be reset, and for racers to inspect the new course. Competitors race in reverse order of their results on the first run, so the 30th fastest racer on the first run goes 1st on the second run and so on. This data set includes data from only the top thirty finishers as any racers who placed higher than 30th do not take a second run.</p>
+<p>Since this data includes information on 2 runs by the same competitor (unless they DSQ or DNF on the second run), it allows for exploration of paired data. We can investigate the difference in average run time between the 2 runs to investigate if racers are on average faster or slower on a specific run, and consider why this may be the case. We can also explore how run order is associated with final rankings.</p>
 </section>
 <section id="data" class="level2">
 <h2 class="anchored" data-anchor-id="data">Data</h2>
-<p>Each of the 30 rows in this data set represents a racer, and there are 11 variables. There are a few missing values in the Run2_Time, Run2_Rank, Total_Time, and Rank_Diff columns due to racers not finishing their first run.</p>
+<p>Each of the 30 rows in this data set represents a racer, and there are 11 variables. There are a few missing values in the Run2_Time, Run2_Rank, Total_Time, Rank_Diff, and Time_Diff columns due to racers not finishing their first run.</p>
 <table class="caption-top table">
-<caption><a href="../data/W_Tremblant_GS.csv">W_Tremblant_GS.csv</a></caption>
+<caption><a href="../data/Tremblant1.csv">Tremblant1.csv</a></caption>
 <thead>
 <tr class="header">
 <th>Variable</th>
@@ -1207,18 +1215,32 @@ cookieconsent.run({
 <td>Rank_Diff</td>
 <td>Difference between run 1 rank and final rank</td>
 </tr>
+<tr class="even">
+<td>Time_Diff</td>
+<td>Difference between run 1 time and run 2 time</td>
+</tr>
 </tbody>
 </table>
+<section id="data-preparation" class="level3">
+<h3 class="anchored" data-anchor-id="data-preparation">Data Preparation</h3>
+<p><a href="../_prep/Womens_Tremblant_GS/init-womens_tremblant_gs.qmd">init-tremblant_gs.qmd</a></p>
+<p>A variable for the difference in run times was created after the data was scraped and tidied.</p>
+</section>
 </section>
 <section id="questions" class="level2">
 <h2 class="anchored" data-anchor-id="questions">Questions</h2>
 <ol type="1">
 <li><p>Is there a significant difference in average time between run 1 and run 2? If yes, do racers on average go faster or slower on the second run? What could account for that?</p></li>
-<li><p>Is run order for run 2 associated with final results?</p></li>
+<li><p>How does first run order relate to final rankings?</p></li>
 </ol>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
+<p>The data was scraped from the following link:</p>
+<p><a href="https://www.fis-ski.com/DB/general/results.html?sectorcode=AL&amp;raceid=118343" target="blank" title="FIS World Cup Women's GS at Tremblant">FIS World Cup Women’s GS at Tremblant</a></p>
+</section>
+<section id="references-1" class="level2">
+<h2 class="anchored" data-anchor-id="references-1">References</h2>
 <p>The data was scraped from the following link:</p>
 <p><a href="https://live.fis-ski.com/lv-al5009.htm#/follow" title="FIS World Cup Women's GS at Tremblant">FIS World Cup Women’s GS at Tremblant</a></p>
 
