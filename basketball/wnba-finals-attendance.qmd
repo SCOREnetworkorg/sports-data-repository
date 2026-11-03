@@ -1,0 +1,88 @@
+---
+title: WNBA Finals Attendance by Game, 2002-2025
+author: Ryan Moalemi (Full Court Buckets)
+date: November 3, 2026
+description: Published attendance, scores and arenas for every WNBA Finals game from 2002 through 2025, plus a series-level summary file. Useful for asking whether Finals crowds have grown and why series totals can mislead when series length changes.
+categories:
+  - Summary statistics
+  - Data visualization
+  - Linear regression
+  - Missing data
+  - exploratory data analysis
+---
+
+## Motivation
+
+Attendance is one of the most visible measures of interest in a sports league, and the WNBA Finals offer a compact, well-documented example. These data were compiled by hand from the official WNBA.com box score of every WNBA Finals game from 2002 through 2025 (each row links to its game record). No code was used to access the data.
+
+Have crowds at the WNBA Finals grown over time, and what explains game-to-game differences in Finals attendance? Students can compare attendance across seasons and arenas, test whether later games in a series or closer games draw bigger crowds, and see why series totals mislead when the number of games changes. The Finals were best-of-three through 2004, best-of-five from 2005 through 2024, and best-of-seven starting in 2025, so per-game averages are the fairer comparison across years.
+
+The dataset also contains a natural missing-data example: the three 2020 Finals games were played in the IMG Academy bubble with no fans admitted, so attendance is blank rather than zero.
+
+## Data
+
+There are two data files.
+
+The game file has one row per WNBA Finals game: 93 games across 24 series (2002-2025). Published attendance is available for 90 of the 93 games; the three 2020 games have a blank (`NA`) attendance because no fans were admitted.
+
+| Variable | Description |
+|----|-------------|
+| season | Finals year |
+| game | Game number in the series |
+| date | Game date (YYYY-MM-DD) |
+| away | Away team abbreviation as shown on the official game record |
+| away_score | Away team final score (points) |
+| home | Home team abbreviation as shown on the official game record |
+| home_score | Home team final score (points) |
+| winner | Abbreviation of the winning team |
+| margin | Winning margin (points) |
+| overtime_periods | Number of overtime periods: 0 for regulation, 1 for one overtime, 2+ for multiple overtimes |
+| arena | Building named on the game record |
+| attendance | Published attendance (number of people); blank for the 2020 bubble games |
+| source_url | Official WNBA.com game record for the game |
+| note | Context for the game, if any |
+
+: [wnba-finals-attendance-by-game-2002-2025.csv](../data/wnba-finals-attendance-by-game-2002-2025.csv)
+
+The series file has one row per WNBA Finals series (24 rows, 2002-2025). Totals, averages, highs and lows are calculated from the game file and use only games with published attendance.
+
+| Variable | Description |
+|----|-------------|
+| year | Finals year |
+| teams | The two teams in the series (abbreviations, listed alphabetically) |
+| champion | Abbreviation of the series winner |
+| runner_up | Abbreviation of the series loser |
+| series_result | Series result in games (winner's wins first, e.g., 3-1) |
+| games | Number of games played in the series |
+| games_with_attendance | Number of games with published attendance |
+| total_attendance | Sum of published attendance across the series (people) |
+| avg_per_game | total_attendance divided by games_with_attendance, rounded to the nearest whole number (people per game) |
+| max_game_attendance | Highest single-game attendance in the series (people) |
+| min_game_attendance | Lowest single-game attendance in the series (people) |
+| game_attendance | Attendance of each game in game order, separated by semicolons |
+| overtime_games | Number of games in the series that went to overtime |
+| arenas | Arenas used in the series, separated by semicolons |
+| notes | Context for the series, if any |
+| source_note | How the row was compiled |
+
+: [wnba-finals-attendance-2002-2025.csv](../data/wnba-finals-attendance-2002-2025.csv)
+
+## Questions
+
+- Plot average attendance per game by year. Is there a trend? Fit a simple linear regression of `avg_per_game` on `year` and interpret the slope.
+- Compare `total_attendance` with `avg_per_game` across years. Why does the total jump in years with longer series, and why is the per-game average a fairer comparison?
+- Within a series, do later games (larger `game`) draw bigger crowds? Do closer games (smaller `margin`) or overtime games have higher attendance?
+- How should the 2020 bubble games be handled? What happens to a yearly average if the blank attendance values are treated as zero instead of missing?
+- Group games by `arena`. How much of the variation in attendance is explained by the building (capacity) rather than by the matchup?
+
+## References
+
+Attendance and scores for each game come from that game's official box score on WNBA.com (the `source_url` column links to each game record). Compiled and verified by Full Court Buckets.
+
+Moalemi R (2026). *WNBA Finals attendance by year, 2002-2025* (Dataset v1). Full Court Buckets. <https://fullcourtbuckets.com/news/2026-wnba-finals-ratings-tracker/>
+
+Related article: Full Court Buckets, *WNBA Viewership & Attendance Statistics 2026*. <https://fullcourtbuckets.com/wnba/viewership-attendance/>
+
+Mirrors of the same files: Hugging Face, <https://huggingface.co/datasets/fullcourtbuckets/wnba-finals-attendance>; Kaggle, <https://www.kaggle.com/datasets/fullcourtbuckets/wnba-finals-attendance-by-year-20022025>.
+
+Data released into the public domain under Creative Commons CC0 1.0 Universal (<https://creativecommons.org/publicdomain/zero/1.0/>); free to use and republish.
